@@ -14,7 +14,7 @@ namespace Updater
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("Usage: Updater CACHE_FOLDER [START_DATE]");
+                Console.WriteLine("Usage: Updater CACHE_FOLDER [START_DATE] [END_DATE]");
                 return;
             }
 
@@ -24,9 +24,14 @@ namespace Updater
             {
                 startDate = DateTime.Parse(args[1], CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime();
             }
+            DateTime? endDate = null;
+            if (args.Length > 2)
+            {
+                endDate = DateTime.Parse(args[2], CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime();
+            }
 
             Console.WriteLine("Downloading tournament list");
-            foreach (var tournament in TournamentLoader.GetTournaments(startDate))
+            foreach (var tournament in TournamentLoader.GetTournaments(startDate, endDate))
             {
                 Console.WriteLine($"Downloading tournament {tournament.Uri}");
                 string targetFolder = Path.Combine(cacheFolder, tournament.Date.Year.ToString(), tournament.Date.Month.ToString("D2").ToString(), tournament.Date.Day.ToString("D2").ToString());
