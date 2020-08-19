@@ -31,13 +31,13 @@ namespace Updater
             }
 
             Console.WriteLine("Downloading tournament list");
-            foreach (var tournament in TournamentLoader.GetTournaments(startDate, endDate))
+            foreach (var tournament in TournamentLoader.GetTournaments(startDate, endDate, null, 7))
             {
                 Console.WriteLine($"Downloading tournament {tournament.Uri}");
                 string targetFolder = Path.Combine(cacheFolder, tournament.Date.Year.ToString(), tournament.Date.Month.ToString("D2").ToString(), tournament.Date.Day.ToString("D2").ToString());
                 if (!Directory.Exists(targetFolder)) Directory.CreateDirectory(targetFolder);
 
-                string targetFile = Path.Combine(targetFolder, $"{Path.GetFileName(tournament.Uri.LocalPath).Replace("-","_")}.json");
+                string targetFile = Path.Combine(targetFolder, $"{Path.GetFileName(tournament.Uri.LocalPath)}.json");
                 if (File.Exists(targetFile))
                 {
                     Console.WriteLine($"Already downloaded, skipping");
