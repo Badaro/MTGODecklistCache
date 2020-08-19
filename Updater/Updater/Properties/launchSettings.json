@@ -2,7 +2,7 @@
   "profiles": {
     "Updater": {
       "commandName": "Project",
-      "commandLineArgs": "\"C:\\Users\\Filipe\\source\\repos\\MTGODecklistCache\\Tournaments\" 2020-01-01"
+      "commandLineArgs": "\"$(SolutionDir)..\\..\\Tournaments\""
     }
   }
 }

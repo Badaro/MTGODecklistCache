@@ -18,7 +18,7 @@ namespace Updater
                 return;
             }
 
-            string cacheFolder = args[0];
+            string cacheFolder = new DirectoryInfo(args[0]).FullName;
             DateTime startDate = DateTime.Now.AddDays(-7).ToUniversalTime().Date;
             if (args.Length > 1)
             {
@@ -29,13 +29,17 @@ namespace Updater
             foreach (var tournament in TournamentLoader.GetTournaments(startDate))
             {
                 Console.WriteLine($"Downloading tournament {tournament.Uri}");
-                var decks = DeckLoader.GetDecks(tournament.Uri);
-
                 string targetFolder = Path.Combine(cacheFolder, tournament.Date.Year.ToString(), tournament.Date.Month.ToString("D2").ToString(), tournament.Date.Day.ToString("D2").ToString());
                 if (!Directory.Exists(targetFolder)) Directory.CreateDirectory(targetFolder);
 
                 string targetFile = Path.Combine(targetFolder, $"{Path.GetFileName(tournament.Uri.LocalPath).Replace("-","_")}.json");
+                if (File.Exists(targetFile))
+                {
+                    Console.WriteLine($"Already downloaded, skipping");
+                    continue;
+                }
 
+                var decks = DeckLoader.GetDecks(tournament.Uri);
                 string contents = JsonConvert.SerializeObject(new CacheItem()
                 {
                     Tournament = tournament,
