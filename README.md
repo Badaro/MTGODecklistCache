@@ -1,4 +1,4 @@
-# MTGODecklistParser
+# MTGODecklistCache
 This repository contains a cache in JSON format of tournaments posted on the MTGO Website (https://magic.wizards.com/en/content/deck-lists-magic-online-products-game-info)
 
 * Updater -> Tool to update the repository
