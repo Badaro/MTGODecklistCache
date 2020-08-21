@@ -51,8 +51,6 @@ namespace Validator
                 }
             }
 
-            Dictionary<string, string> tournamentHashes = new Dictionary<string, string>();
-
             Console.WriteLine("Validating tournaments");
             foreach (string tournamentFile in Directory.GetFiles(args[0], "*.json", SearchOption.AllDirectories))
             {
