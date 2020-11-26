@@ -44,11 +44,13 @@ namespace Updater
                     continue;
                 }
 
-                var decks = DeckLoader.GetDecks(tournament.Uri);
+                var details = TournamentDetailsLoader.GetTournamentDetails(tournament.Uri);
                 string contents = JsonConvert.SerializeObject(new CacheItem()
                 {
                     Tournament = tournament,
-                    Decks = decks
+                    Decks = details.Decks,
+                    Bracket = details.Bracket,
+                    Standings = details.Standings
                 }, Formatting.Indented);
 
                 File.WriteAllText(targetFile, contents);
@@ -60,5 +62,7 @@ namespace Updater
     {
         public Tournament Tournament { get; set; }
         public Deck[] Decks { get; set; }
+        public Bracket Bracket { get; set; }
+        public Standing[] Standings { get; set; }
     }
 }
