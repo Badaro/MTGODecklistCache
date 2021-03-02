@@ -42,6 +42,12 @@ namespace MTGODecklistCache.Updater.App
                 () => MTGODecklistCache.Updater.ManaTraders.TournamentList.GetTournaments(Path.Combine(rawDataFolder, "ManaTraders")),
                 t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t),
                 t => $"{Path.GetFileNameWithoutExtension((t as MTGODecklistCache.Updater.ManaTraders.ManaTradersTournament).File).Replace("_", "-").ToLowerInvariant()}-{t.Date.ToString("yyyy-MM-dd")}.json");
+
+            // Updates NRG cache folder
+            UpdateFolder(Path.Combine(cacheFolder, "nerdragegaming.com"),
+                () => MTGODecklistCache.Updater.MtgGoldfish.TournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
+                t => MTGODecklistCache.Updater.MtgGoldfish.TournamentLoader.GetTournamentDetails(t),
+                t => $"{Path.GetFileNameWithoutExtension((t as MTGODecklistCache.Updater.MtgGoldfish.MtgGoldfishTournament).File).Replace("_", "-").ToLowerInvariant()}-{t.Date.ToString("yyyy-MM-dd")}.json");
         }
 
         static void UpdateFolder(string cacheFolder, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader, Func<Tournament, string> fileNameLoader)
