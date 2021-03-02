@@ -16,7 +16,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         [OneTimeSetUp]
         public void GetTestData()
         {
-            _testData = TournamentDetailsLoader.GetTournamentDetails(this.GetEventUri()).Standings;
+            _testData = TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = this.GetEventUri()
+            }).Standings;
         }
 
         [Test]

@@ -15,7 +15,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldNotBreakOnEmptyPage()
         {
             // Broken tournament, should return empty dataset
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-mocs-2019-07-17")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-mocs-2019-07-17")
+            }).Decks
                 .Should().HaveCount(0);
         }
 
@@ -23,7 +26,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldNotBreakOnEmptyDecks()
         {
             // Broken tournament, should return empty dataset
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/sealed-war-block-mcq-2019-05-10")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/sealed-war-block-mcq-2019-05-10")
+            }).Decks
                 .ToList()
                 .ForEach(d =>
                 {
@@ -35,14 +41,20 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         [Test]
         public void ShouldNotBreakOnOutOfStandardUrls()
         {
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/content/pauper-league")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/content/pauper-league")
+            }).Decks
                 .Should().HaveCount(20);
         }
 
         [Test]
         public void ShouldTrimWhiteSpacesFromNames()
         {
-            var details = TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2020-03-13"));
+            var details = TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2020-03-13")
+            });
 
             details
                 .Decks

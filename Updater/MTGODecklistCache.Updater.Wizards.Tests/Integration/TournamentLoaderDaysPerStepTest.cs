@@ -15,7 +15,7 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void GetTestData()
         {
             // Using daysPerStep should still return the same data even if it causes the search to go beyond the start/end date boundaries
-            _testData = TournamentLoader.GetTournaments(new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc), new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), null, 7);
+            _testData = TournamentList.GetTournaments(new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc), new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), null, 7);
         }
 
         [Test]

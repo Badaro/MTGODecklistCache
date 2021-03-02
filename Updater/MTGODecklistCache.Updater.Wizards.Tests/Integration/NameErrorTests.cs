@@ -15,7 +15,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForLurrusofTheDreamDen()
         {
             // Without the dash on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-04-30")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-04-30")
+            }).Decks
                 .First(d => d.Player == "PietroSas")
                 .Sideboard
                 .First(c => c.CardName.StartsWith("Lurrus")).CardName
@@ -26,7 +29,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForGhazbanOgre()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-event-2014-06-21")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-event-2014-06-21")
+            }).Decks
                 .First(d => d.Player == "Lincao")
                 .Sideboard
                 .First(c => c.CardName.StartsWith("Ghaz")).CardName
@@ -37,21 +43,30 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForLimDulsVault()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-daily-2014-06-28")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-daily-2014-06-28")
+            }).Decks
                 .First(d => d.Player == "ecobaronen")
                 .Mainboard
                 .First(c => c.CardName.StartsWith("Lim-D")).CardName
                 .Should().Be("Lim-Dûl's Vault");
 
             // Broken on Wizard's site in a different way
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-06-27")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-06-27")
+            }).Decks
                 .First(d => d.Player == "sawatarix")
                 .Mainboard
                 .First(c => c.CardName.StartsWith("Lim-D")).CardName
                 .Should().Be("Lim-Dûl's Vault");
 
             // Broken on Wizard's site in a third different way
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2020-08-31")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2020-08-31")
+            }).Decks
                 .First(d => d.Player == "twinlesstwin")
                 .Mainboard
                 .First(c => c.CardName.StartsWith("Lim-D")).CardName
@@ -62,7 +77,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForKongmingSleepingDragon()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/sealed-vma-block-champ-qual-2014-08-15-0")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/sealed-vma-block-champ-qual-2014-08-15-0")
+            }).Decks
                 .First(d => d.Player == "Smang")
                 .Mainboard
                 .First(c => c.CardName.StartsWith("Kongming")).CardName
@@ -73,7 +91,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForSeance()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-daily-2015-01-26-0")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-daily-2015-01-26-0")
+            }).Decks
                 .First(d => d.Player == "RaptureReady")
                 .Mainboard
                 .First(c => c.CardName.EndsWith("ance")).CardName
@@ -84,7 +105,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForAetherVial()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-constructed-league-2016-04-30")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-constructed-league-2016-04-30")
+            }).Decks
                 .First(d => d.Player == "Stuhl")
                 .Mainboard
                 .First(c => c.CardName.EndsWith("Vial")).CardName
@@ -95,7 +119,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForGhirapurAetherGrid()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-constructed-league-2016-04-30")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-constructed-league-2016-04-30")
+            }).Decks
                 .First(d => d.Player == "POC")
                 .Sideboard
                 .First(c => c.CardName.EndsWith("Grid")).CardName
@@ -106,7 +133,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForUnravelTheAether()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-modern-constructed-league-2019-05-28")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-modern-constructed-league-2019-05-28")
+            }).Decks
                 .First(d => d.Player == "DreadedDead")
                 .Sideboard
                 .First(c => c.CardName.StartsWith("Unravel")).CardName
@@ -117,7 +147,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForTrinisphere()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-ptq-2019-09-09")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-ptq-2019-09-09")
+            }).Decks
                 .First(d => d.Player == "The french goblin")
                 .Sideboard
                 .First(c => c.CardName.StartsWith("Trini")).CardName
@@ -128,7 +161,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldFixNameForExpansionExplosion()
         {
             // Broken on Wizard's site
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2020-09-20")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2020-09-20")
+            }).Decks
                 .First(d => d.Player == "Capriccioso")
                 .Mainboard
                 .First(c => c.CardName.StartsWith("Expan")).CardName
@@ -139,7 +175,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldParseCorrectlyJotunGrunt()
         {
             // Code was not parsing this correctly in the past
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-daily-2014-07-07")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-daily-2014-07-07")
+            }).Decks
                 .First(d => d.Player == "senrabselim")
                 .Mainboard
                 .First(c => c.CardName.EndsWith("Grunt")).CardName
@@ -150,7 +189,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         public void ShouldParseCorrectlyLimDulsVault()
         {
             // Code was not parsing this correctly in the past
-            TournamentDetailsLoader.GetTournamentDetails(new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-06-06")).Decks
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-06-06")
+            }).Decks
                 .First(d => d.Player == "ryo_sll")
                 .Mainboard
                 .First(c => c.CardName.EndsWith("Vault")).CardName

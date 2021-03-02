@@ -6,89 +6,206 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Net;
+using System.Text.RegularExpressions;
+using System.Web;
 
 namespace MTGODecklistCache.Updater.Wizards
 {
     public static class TournamentLoader
     {
-        static string _listUrl = "https://magic.wizards.com/en/section-articles-see-more-ajax?l=en&f=9041&search-result-theme=&limit=20&fromDate={fromDate}&toDate={toDate}&sort=DESC&word={searchTerm}&offset={offset}";
-        static string _rootUrl = "https://magic.wizards.com";
-
-        public static Tournament[] GetTournaments(DateTime startDate, DateTime? endDate = null, string searchTerm = null, int? daysPerStep = null)
+        public static CacheItem GetTournamentDetails(Tournament tournament)
         {
-            if (endDate == null) endDate = DateTime.Now;
-            if (searchTerm == null) searchTerm = String.Empty;
-            if (daysPerStep == null) daysPerStep = 1;
-            Dictionary<string, Tournament> result = new Dictionary<string, Tournament>();
+            Uri eventUri = tournament.Uri;
+            DateTime eventDate = ExtractDateFromUrl(eventUri);
 
-            var date = startDate;
-            while (date < endDate)
-            {
-                var fromDate = date;
-                var toDate = fromDate.AddDays(daysPerStep.Value);
-                bool hasMorePages = false;
-                int offset = 0;
-                do
-                {
-                    string tournamentListUrl = _listUrl.Replace("{fromDate}", FormatDateForUrl(fromDate)).Replace("{toDate}", FormatDateForUrl(toDate)).Replace("{offset}", offset.ToString()).Replace("{searchTerm}", searchTerm);
+            string randomizedEventUrl = ((DateTime.UtcNow - eventDate).TotalDays < 1) ?
+                $"{eventUri}?rand={Guid.NewGuid()}" :
+                eventUri.ToString(); // Fixes occasional caching issues on recent events
 
-                    string randomizedTournamentListUrl =
-                         ((DateTime.UtcNow - toDate).TotalDays < 1) ?
-                        $"{tournamentListUrl}&rand={Guid.NewGuid()}" :
-                        tournamentListUrl; // Fixes occasional caching issues on recent events
-
-                    string jsonData = new WebClient().DownloadString(randomizedTournamentListUrl);
-                    WizardsAjaxResult jsonResult = JsonConvert.DeserializeObject<WizardsAjaxResult>(jsonData);
-                    string pageContent = String.Join(String.Empty, jsonResult.data);
-
-                    if (pageContent.Length > 0)
-                    {
-                        Tournament[] parsedEvents = ParseTournaments(pageContent);
-                        foreach (Tournament parsedEvent in parsedEvents) if (!result.ContainsKey(parsedEvent.Uri.ToString())) result.Add(parsedEvent.Uri.ToString(), parsedEvent);
-
-                        hasMorePages = (jsonResult.displaySeeMore == 1);
-                        offset += parsedEvents.Length;
-                    }
-                } while (hasMorePages);
-
-                date = date.AddDays(daysPerStep.Value);
-            }
-
-            return result.Select(kvp => kvp.Value).Where(t => t.Date <= endDate).ToArray();
-        }
-
-        private static Tournament[] ParseTournaments(string pageContent)
-        {
-            List<Tournament> result = new List<Tournament>();
+            string pageContent = new WebClient().DownloadString(randomizedEventUrl);
 
             HtmlDocument doc = new HtmlDocument();
             doc.LoadHtml(pageContent);
 
-            foreach (var tournamentNode in doc.DocumentNode.SelectNodes("div/a"))
+            return new CacheItem()
             {
-                var tournamentUrl = tournamentNode.Attributes["href"].Value;
-                var tournamentName = tournamentNode.SelectSingleNode("div/div[@class='title']").InnerText.Replace("\t", "").Replace("\n", "").Trim();
+                Tournament = tournament,
+                Decks = ParseDecks(doc, eventUri),
+                Standings = ParseStandings(doc),
+                Bracket = ParseBracket(doc)
+            };
+        }
 
-                string tournamentDate = String.Join(" ", tournamentName.Split(' ').TakeLast(3));
-                tournamentName = tournamentName.Replace(tournamentDate, "").Trim();
+        private static Deck[] ParseDecks(HtmlDocument doc, Uri eventUri)
+        {
 
-                result.Add(new Tournament()
+            List<Deck> result = new List<Deck>();
+            var deckNodes = doc.DocumentNode.SelectNodes("//div[@class='deck-group']");
+            if (deckNodes == null) return new Deck[0];
+
+            foreach (var deckNode in deckNodes)
+            {
+                string anchor = deckNode.GetAttributeValue("id", "");
+                string playerName = deckNode.SelectSingleNode("span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").First().Trim();
+                if (String.IsNullOrEmpty(playerName)) playerName = deckNode.SelectSingleNode("div[@class='title-deckicon']/span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").First().Trim();
+
+                string playerResult = deckNode.SelectSingleNode("span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").Last().TrimEnd(')').Trim();
+                if (String.IsNullOrEmpty(playerResult)) playerResult = deckNode.SelectSingleNode("div[@class='title-deckicon']/span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").Last().TrimEnd(')').Trim();
+
+                string deckDateText = deckNode.SelectSingleNode("span[@class='deck-meta']/h5/text()")?.InnerText.Split(" on ").Last().Trim();
+                if (String.IsNullOrEmpty(deckDateText)) deckDateText = deckNode.SelectSingleNode("div[@class='title-deckicon']/span[@class='deck-meta']/h5/text()")?.InnerText.Split(" on ").Last().Trim();
+
+                var decklistNode = deckNode.SelectSingleNode("div[@class='toggle-text toggle-subnav']/div[@class='deck-list-text']");
+                var mainboardNode = decklistNode.SelectSingleNode("div[@class='sorted-by-overview-container sortedContainer']");
+                var sideboardNode = decklistNode.SelectSingleNode("div[@class='sorted-by-sideboard-container  clearfix element']");
+
+                DateTime? deckDate = null;
+                if (!String.IsNullOrEmpty(deckDateText)) deckDate = DateTime.ParseExact(deckDateText, "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime();
+
+                result.Add(new Deck()
                 {
-                    Name = tournamentName,
-                    Date = DateTime.Parse(tournamentDate, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime(),
-                    Uri = new Uri(_rootUrl + tournamentUrl)
+                    Date = deckDate,
+                    Player = playerName,
+                    Result = playerResult,
+                    AnchorUri = new Uri($"{eventUri.ToString()}#{anchor}"),
+                    Mainboard = ParseCards(mainboardNode, false),
+                    Sideboard = ParseCards(sideboardNode, true)
                 });
             }
 
             return result.ToArray();
         }
 
-        private static string FormatDateForUrl(DateTime date)
+        private static DeckItem[] ParseCards(HtmlNode node, bool isSideboard)
         {
-            var day = date.Day.ToString("D2");
-            var month = date.Month.ToString("D2");
-            var year = date.Year.ToString("D4");
-            return $"{month}%2F{day}%2F{year}";
+            if (node == null) return new DeckItem[0];
+
+            List<DeckItem> cards = new List<DeckItem>();
+            var cardNodes = node.SelectNodes(isSideboard ? "span[@class='row']" : "div/span[@class='row']");
+            if (cardNodes == null) return new DeckItem[0];
+
+            foreach (var cardNode in cardNodes)
+            {
+                var cardCount = cardNode.SelectSingleNode("span[@class='card-count']").InnerText;
+                var cardName = FixCardName(HttpUtility.HtmlDecode(cardNode.SelectSingleNode("span[@class='card-name']").InnerText));
+
+                cards.Add(new DeckItem()
+                {
+                    Count = Int32.Parse(cardCount),
+                    CardName = cardName
+                });
+            }
+            return (cards.ToArray());
+        }
+
+        // Fix inconsistencies on Wizard's side
+        private static string FixCardName(string cardName)
+        {
+            if (cardName == "Lurrus of the Dream Den") return "Lurrus of the Dream-Den";
+            if (cardName == "Kongming, ??quot?Sleeping Dragon??quot?") return "Kongming, \"Sleeping Dragon\"";
+            if (cardName == "GhazbA?n Ogre") return "Ghazbán Ogre";
+            if (cardName == "Lim-DA?l's Vault") return "Lim-Dûl's Vault";
+            if (cardName == "Lim-DAul's Vault") return "Lim-Dûl's Vault";
+            if (cardName == "SAcance") return "Séance";
+            if (cardName == "Æther Vial") return "Aether Vial";
+            if (cardName == "Ghirapur Æther Grid") return "Ghirapur Aether Grid";
+            if (cardName == "Unravel the Æther") return "Unravel the Aether";
+            if (cardName == "Trinisphère") return "Trinisphere";
+            if (cardName == "Expansion") return "Expansion // Explosion";
+            return cardName;
+        }
+
+        private static Standing[] ParseStandings(HtmlDocument doc)
+        {
+            var standingsRoot = doc.DocumentNode.SelectSingleNode("//table[@class='sticky-enabled']");
+            if (standingsRoot == null) return null;
+
+            List<Standing> result = new List<Standing>();
+
+            var standingNodes = standingsRoot.SelectNodes("tbody/tr");
+            foreach (var standingNode in standingNodes)
+            {
+                var rows = standingNode.SelectNodes("td");
+
+                int rank = int.Parse(rows[0].InnerText);
+                string player = rows[1].InnerText.Trim();
+                int points = int.Parse(rows[2].InnerText);
+                double omwp = double.Parse(rows[3].InnerText, CultureInfo.InvariantCulture);
+                double gwp = double.Parse(rows[4].InnerText, CultureInfo.InvariantCulture);
+                double ogwp = double.Parse(rows[5].InnerText, CultureInfo.InvariantCulture);
+
+                result.Add(new Standing()
+                {
+                    Rank = rank,
+                    Player = player,
+                    Points = points,
+                    OMWP = omwp,
+                    GWP = gwp,
+                    OGWP = ogwp
+                });
+            }
+
+            return result.ToArray();
+        }
+
+        private static Bracket ParseBracket(HtmlDocument doc)
+        {
+            var bracketRoot = doc.DocumentNode.SelectSingleNode("//div[@class='wrap-bracket-slider']");
+            if (bracketRoot == null) return null;
+
+            var bracketNodes = bracketRoot.SelectNodes("div/div[@class='finalists']");
+
+            return new Bracket()
+            {
+                Quarterfinals = ParseBracketItem(bracketNodes.Skip(0).First()),
+                Semifinals = ParseBracketItem(bracketNodes.Skip(1).First()),
+                Finals = ParseBracketItem(bracketNodes.Skip(2).First()).First()
+            };
+        }
+
+        private static BracketItem[] ParseBracketItem(HtmlNode node)
+        {
+            var playerNodes = node.SelectNodes("div/div[@class='player']");
+
+            List<string> players = new List<string>();
+            foreach (var playerNode in playerNodes) players.Add(playerNode.InnerText);
+
+            // Cleans up player names
+            players = players
+                .Select(p => p.Trim())
+                .Select(p => Regex.Replace(p, @"^\(\d+\)\s+", ""))
+                .ToList();
+
+            List<BracketItem> result = new List<BracketItem>();
+            for (var i = 0; i < players.Count; i = i + 2)
+            {
+                result.Add(new BracketItem()
+                {
+                    Player1 = players[i].Split(",").First(),
+                    Result = players[i].Split(", ").Last(),
+                    Player2 = players[i + 1]
+                });
+
+            }
+
+            return result.ToArray();
+        }
+
+        private static DateTime ExtractDateFromUrl(Uri eventUri)
+        {
+            string eventPath = eventUri.LocalPath;
+            string[] eventPathSegments = eventPath.Split("-").Where(e => e.Length > 1).ToArray();
+            string eventDate = String.Join("-", eventPathSegments.Skip(eventPathSegments.Length - 3).ToArray());
+
+            if (DateTime.TryParse(eventDate, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out DateTime parsedDate))
+            {
+                return parsedDate.ToUniversalTime();
+            }
+            else
+            {
+                // This is only used to decide or not to bypass cache, so it's safe to return a fallback for today forcing the bypass
+                return DateTime.UtcNow.Date;
+            }
         }
     }
 
