@@ -11,6 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Updater
 {
@@ -24,13 +25,14 @@ namespace Updater
 
             return new TournamentDetails()
             {
-                Decks = decks
+                Decks = decks.Select(d => d.Item1).ToArray(),
+                Standings = decks.Where(d => d.Item2 != null).Select(d => d.Item2).ToArray()
             };
         }
 
-        private static Deck[] ParseDecks(string url)
+        private static Tuple<Deck, Standing>[] ParseDecks(string url)
         {
-            List<Deck> result = new List<Deck>();
+            List<Tuple<Deck, Standing>> result = new List<Tuple<Deck, Standing>>();
 
             string pageContent = new WebClient().DownloadString(url);
 
@@ -38,8 +40,9 @@ namespace Updater
             doc.LoadHtml(pageContent);
 
             var deckNodes = doc.DocumentNode.SelectNodes("//tr[@class='tournament-decklist']");
-            if (deckNodes == null) return new Deck[0];
+            if (deckNodes == null) return new Tuple<Deck, Standing>[0];
 
+            int position = 1;
             foreach (var deckNode in deckNodes)
             {
                 var deckId = deckNode.Attributes["data-deckid"].Value;
@@ -83,9 +86,29 @@ namespace Updater
                 string[] deckData = deckDoc.DocumentNode
                     .SelectSingleNode("//p[@class='deck-container-information']").InnerText.Split("\n", StringSplitOptions.RemoveEmptyEntries);
 
-                string playerResult = deckData.First(d => d.StartsWith("Event")).Split(", ").Last().TrimStart('(').TrimEnd(')');
+                string playerResult = position.ToString();
+                if (position == 1) playerResult += "st Place";
+                if (position == 2) playerResult += "nd Place";
+                if (position == 3) playerResult += "rd Place";
+                if (position > 3) playerResult += "th Place";
+                position++;
 
-                result.Add(new Deck()
+                string playerScore = deckData.First(d => d.StartsWith("Event")).Split(", ").Last().TrimStart('(').TrimEnd(')');
+
+                int wins = 0;
+                if (Regex.IsMatch(playerScore, "\\d+-\\d+"))
+                {
+                    wins = Convert.ToInt32(playerScore.Split("-").First());
+                }
+
+                Standing standing = new Standing()
+                {
+                    Player = playerName,
+                    Rank = position,
+                    Points = wins * 3
+                };
+
+                Deck deck = new Deck()
                 {
                     AnchorUri = new Uri(deckPage),
                     Date = null,
@@ -93,7 +116,9 @@ namespace Updater
                     Sideboard = sideBoard.ToArray(),
                     Player = playerName,
                     Result = playerResult
-                });
+                };
+
+                result.Add(new Tuple<Deck, Standing>(deck, standing));
             }
 
             return result.ToArray();
