@@ -11,3 +11,7 @@
 
 * BracketItem.WinningPlayer renamed to BracketItem.Player1
 * BracketItem.LosingPlayer renamed to BracketItem.Player2
+
+2021-03-01
+
+* Modified folder structure to include website for the tournament
