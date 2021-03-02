@@ -67,7 +67,7 @@ namespace Updater
                         if (playerStanding.Rank == 2) rankSuffix = "nd";
                         if (playerStanding.Rank == 3) rankSuffix = "rd";
 
-                        playerResult = playerStanding.Rank.ToString() + rankSuffix;
+                        playerResult = playerStanding.Rank.ToString() + rankSuffix + " Place";
                         playerName = playerStanding.Player.Trim(); // Name from standings has the correct casing, name from CSV is forced lowercase
                     }
                     else
@@ -88,7 +88,7 @@ namespace Updater
                 });
             }
 
-            return result.OrderBy(r => r.Result != "-" ? Int32.Parse(r.Result.Substring(0, r.Result.Length - 2)) : Int32.MaxValue).ToArray();
+            return result.OrderBy(r => r.Result != "-" ? Int32.Parse(r.Result.Substring(0, r.Result.Length - 8)) : Int32.MaxValue).ToArray();
         }
 
         private static string FixCardName(string cardName)
