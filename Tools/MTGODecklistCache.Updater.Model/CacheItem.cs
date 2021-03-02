@@ -8,9 +8,9 @@ namespace MTGODecklistCache.Updater.Model
     {
         public Tournament Tournament { get; set; }
         public Deck[] Decks { get; set; }
-        public Standing[] Standings { get; set; }
         public Round[] Rounds { get; set; }
         public Bracket Bracket { get; set; }
+        public Standing[] Standings { get; set; }
         public override string ToString()
         {
             return $"{Decks.Length} decks";

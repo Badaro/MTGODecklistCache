@@ -1,8 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.Wizards\MTGODecklistCache.Updater.Wizards.csproj" />
+  </ItemGroup>
 
 </Project>
