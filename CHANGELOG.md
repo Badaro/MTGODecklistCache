@@ -15,3 +15,4 @@
 2021-03-01
 
 * Modified folder structure to include website for the tournament
+* The branch "before-folder-restructuring" has the data in the original format if you need it, though it'll no longer be updated
