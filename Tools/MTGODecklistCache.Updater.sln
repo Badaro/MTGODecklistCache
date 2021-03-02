@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Model", "MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj", "{3FE6EEC5-384C-42B9-80B5-BBEE6573F982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Wizards", "MTGODecklistCache.Updater.Wizards\MTGODecklistCache.Updater.Wizards.csproj", "{528BC784-07FA-4654-B11E-7AEC69174D6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Wizards", "MTGODecklistCache.Updater.Wizards\MTGODecklistCache.Updater.Wizards.csproj", "{528BC784-07FA-4654-B11E-7AEC69174D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.App", "MTGODecklistCache.Updater.App\MTGODecklistCache.Updater.App.csproj", "{C3B36802-8891-461F-9C01-9D4B263A8964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.App", "MTGODecklistCache.Updater.App\MTGODecklistCache.Updater.App.csproj", "{C3B36802-8891-461F-9C01-9D4B263A8964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Wizards.Tests", "MTGODecklistCache.Updater.Wizards.Tests\MTGODecklistCache.Updater.Wizards.Tests.csproj", "{9F8BA14D-3443-413E-9203-06406FB63344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Wizards.Tests", "MTGODecklistCache.Updater.Wizards.Tests\MTGODecklistCache.Updater.Wizards.Tests.csproj", "{9F8BA14D-3443-413E-9203-06406FB63344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.ManaTraders", "MTGODecklistCache.Updater.ManaTraders\MTGODecklistCache.Updater.ManaTraders.csproj", "{84F743AC-CF45-43F6-82AF-3C609494C470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9F8BA14D-3443-413E-9203-06406FB63344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F8BA14D-3443-413E-9203-06406FB63344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F8BA14D-3443-413E-9203-06406FB63344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F743AC-CF45-43F6-82AF-3C609494C470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F743AC-CF45-43F6-82AF-3C609494C470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F743AC-CF45-43F6-82AF-3C609494C470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F743AC-CF45-43F6-82AF-3C609494C470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
