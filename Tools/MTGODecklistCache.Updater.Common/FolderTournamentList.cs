@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace MTGODecklistCache.Updater.MtgGoldfish
+namespace MTGODecklistCache.Updater.Common
 {
-    public static class TournamentList
+    public static class FolderTournamentList
     {
         public static Tournament[] GetTournaments(string rawDataFolder)
         {

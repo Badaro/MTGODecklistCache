@@ -32,34 +32,36 @@ namespace MTGODecklistCache.Updater.App
             }
 
             // Updates Wizards cache folder
-            UpdateFolder(Path.Combine(cacheFolder, "magic.wizards.com"),
+            UpdateFolder(cacheFolder, "magic.wizards.com",
                 () => MTGODecklistCache.Updater.Wizards.TournamentList.GetTournaments(startDate, endDate, null, 7),
                 t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t));
 
             // Updates ManaTraders cache folder
-            UpdateFolder(Path.Combine(cacheFolder, "manatraders.com"),
-                () => MTGODecklistCache.Updater.ManaTraders.TournamentList.GetTournaments(Path.Combine(rawDataFolder, "ManaTraders")),
+            UpdateFolder(cacheFolder, "manatraders.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "ManaTraders")),
                 t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t));
 
             // Updates NRG cache folder
-            UpdateFolder(Path.Combine(cacheFolder, "nerdragegaming.com"),
-                () => MTGODecklistCache.Updater.MtgGoldfish.TournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
+            UpdateFolder(cacheFolder, "nerdragegaming.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
                 t => MTGODecklistCache.Updater.MtgGoldfish.TournamentLoader.GetTournamentDetails(t));
         }
 
-        static void UpdateFolder(string cacheFolder, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)
+        static void UpdateFolder(string cacheRootFolder, string provider, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)
         {
-            Console.WriteLine("Downloading tournament list");
+            string cacheFolder = Path.Combine(cacheRootFolder, provider);
+
+            Console.WriteLine($"Downloading tournament list for {provider}");
             foreach (var tournament in tournamentList())
             {
-                Console.WriteLine($"Downloading tournament {tournament.Uri}");
+                Console.WriteLine($"- Downloading tournament {tournament.JsonFile}");
                 string targetFolder = Path.Combine(cacheFolder, tournament.Date.Year.ToString(), tournament.Date.Month.ToString("D2").ToString(), tournament.Date.Day.ToString("D2").ToString());
                 if (!Directory.Exists(targetFolder)) Directory.CreateDirectory(targetFolder);
 
                 string targetFile = Path.Combine(targetFolder, tournament.JsonFile);
                 if (File.Exists(targetFile))
                 {
-                    Console.WriteLine($"Already downloaded, skipping");
+                    Console.WriteLine($"-- Already downloaded, skipping");
                     continue;
                 }
 
