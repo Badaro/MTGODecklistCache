@@ -14,16 +14,10 @@ namespace MTGODecklistCache.Updater.Common
             List<Tournament> tournaments = new List<Tournament>();
             foreach (string tournamentFile in Directory.GetFiles(rawDataFolder, "*.json"))
             {
-                dynamic json = JsonConvert.DeserializeObject(File.ReadAllText(tournamentFile));
-                DateTime date = json.Date;
-                date = date.ToUniversalTime();
-                tournaments.Add(new Tournament()
-                {
-                    Name = json.Name,
-                    Date = date,
-                    Uri = json.Url,
-                    JsonFile = $"{Path.GetFileNameWithoutExtension(tournamentFile).Replace("_", "-").ToLowerInvariant()}-{date.ToString("yyyy-MM-dd")}.json"
-                });
+                Tournament tournament = JsonConvert.DeserializeObject<Tournament>(File.ReadAllText(tournamentFile));
+                tournament.Date = tournament.Date.ToUniversalTime();
+                tournament.JsonFile = $"{Path.GetFileNameWithoutExtension(tournamentFile).Replace("_", "-").ToLowerInvariant()}-{ tournament.Date.ToString("yyyy-MM-dd")}.json";
+                tournaments.Add(tournament);
             }
             return tournaments.ToArray();
         }
