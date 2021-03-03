@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Net;
 
@@ -72,11 +73,13 @@ namespace MTGODecklistCache.Updater.Wizards
                 string tournamentDate = String.Join(" ", tournamentName.Split(' ').TakeLast(3));
                 tournamentName = tournamentName.Replace(tournamentDate, "").Trim();
 
+                var tournamentUri = new Uri(_rootUrl + tournamentUrl);
                 result.Add(new Tournament()
                 {
                     Name = tournamentName,
                     Date = DateTime.Parse(tournamentDate, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime(),
-                    Uri = new Uri(_rootUrl + tournamentUrl)
+                    Uri = tournamentUri,
+                    JsonFile = $"{Path.GetFileName(tournamentUri.LocalPath)}.json"
                 });
             }
 

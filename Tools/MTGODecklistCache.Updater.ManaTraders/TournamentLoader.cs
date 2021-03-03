@@ -16,12 +16,14 @@ namespace MTGODecklistCache.Updater.ManaTraders
 {
     public static class TournamentLoader
     {
+        static string _csvRoot = "https://www.manatraders.com/tournaments/download_csv_by_month_and_year?month={month}&year={year}";
+        static string _swissRoot = "https://www.manatraders.com/tournaments/swiss_json_by_month_and_year?month={month}&year={year}";
+
         public static CacheItem GetTournamentDetails(Tournament tournament)
         {
-            ManaTradersTournament manaTradersTournament = (ManaTradersTournament)tournament;
-            string csvUrl = manaTradersTournament.Csv;
-            string swissUrl= manaTradersTournament.Swiss;
-            string standingsUrl = $"{manaTradersTournament.Uri.ToString()}swiss";
+            string csvUrl = _csvRoot.Replace("{year}", tournament.Date.Year.ToString()).Replace("{month}", tournament.Date.Month.ToString());
+            string swissUrl = _swissRoot.Replace("{year}", tournament.Date.Year.ToString()).Replace("{month}", tournament.Date.Month.ToString());
+            string standingsUrl = $"{tournament.Uri.ToString()}swiss";
             string bracketUrl = $"{tournament.Uri.ToString()}finals";
 
             var standings = ParseStandings(standingsUrl);

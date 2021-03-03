@@ -16,14 +16,13 @@ namespace MTGODecklistCache.Updater.ManaTraders
             {
                 dynamic json = JsonConvert.DeserializeObject(File.ReadAllText(tournamentFile));
                 DateTime date = json.Date;
-                tournaments.Add(new ManaTradersTournament()
+                date = date.ToUniversalTime();
+                tournaments.Add(new Tournament()
                 {
                     Name = json.Name,
-                    Date = date.ToUniversalTime(),
+                    Date = date,
                     Uri = json.Url,
-                    Csv = json.Csv,
-                    Swiss = json.Swiss,
-                    File = Path.GetFileName(tournamentFile)
+                    JsonFile = $"{Path.GetFileNameWithoutExtension(tournamentFile).Replace("_", "-").ToLowerInvariant()}-{date.ToString("yyyy-MM-dd")}.json"
                 });
             }
             return tournaments.ToArray();

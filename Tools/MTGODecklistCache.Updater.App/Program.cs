@@ -34,23 +34,20 @@ namespace MTGODecklistCache.Updater.App
             // Updates Wizards cache folder
             UpdateFolder(Path.Combine(cacheFolder, "magic.wizards.com"),
                 () => MTGODecklistCache.Updater.Wizards.TournamentList.GetTournaments(startDate, endDate, null, 7),
-                t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t),
-                t => $"{Path.GetFileName(t.Uri.LocalPath)}.json");
+                t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t));
 
             // Updates ManaTraders cache folder
             UpdateFolder(Path.Combine(cacheFolder, "manatraders.com"),
                 () => MTGODecklistCache.Updater.ManaTraders.TournamentList.GetTournaments(Path.Combine(rawDataFolder, "ManaTraders")),
-                t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t),
-                t => $"{Path.GetFileNameWithoutExtension((t as MTGODecklistCache.Updater.ManaTraders.ManaTradersTournament).File).Replace("_", "-").ToLowerInvariant()}-{t.Date.ToString("yyyy-MM-dd")}.json");
+                t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t));
 
             // Updates NRG cache folder
             UpdateFolder(Path.Combine(cacheFolder, "nerdragegaming.com"),
                 () => MTGODecklistCache.Updater.MtgGoldfish.TournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
-                t => MTGODecklistCache.Updater.MtgGoldfish.TournamentLoader.GetTournamentDetails(t),
-                t => $"{Path.GetFileNameWithoutExtension((t as MTGODecklistCache.Updater.MtgGoldfish.MtgGoldfishTournament).File).Replace("_", "-").ToLowerInvariant()}-{t.Date.ToString("yyyy-MM-dd")}.json");
+                t => MTGODecklistCache.Updater.MtgGoldfish.TournamentLoader.GetTournamentDetails(t));
         }
 
-        static void UpdateFolder(string cacheFolder, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader, Func<Tournament, string> fileNameLoader)
+        static void UpdateFolder(string cacheFolder, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)
         {
             Console.WriteLine("Downloading tournament list");
             foreach (var tournament in tournamentList())
@@ -59,7 +56,7 @@ namespace MTGODecklistCache.Updater.App
                 string targetFolder = Path.Combine(cacheFolder, tournament.Date.Year.ToString(), tournament.Date.Month.ToString("D2").ToString(), tournament.Date.Day.ToString("D2").ToString());
                 if (!Directory.Exists(targetFolder)) Directory.CreateDirectory(targetFolder);
 
-                string targetFile = Path.Combine(targetFolder, fileNameLoader(tournament));
+                string targetFile = Path.Combine(targetFolder, tournament.JsonFile);
                 if (File.Exists(targetFile))
                 {
                     Console.WriteLine($"Already downloaded, skipping");

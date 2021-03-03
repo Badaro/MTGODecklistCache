@@ -16,12 +16,13 @@ namespace MTGODecklistCache.Updater.MtgGoldfish
             {
                 dynamic json = JsonConvert.DeserializeObject(File.ReadAllText(tournamentFile));
                 DateTime date = json.Date;
-                tournaments.Add(new MtgGoldfishTournament()
+                date = date.ToUniversalTime();
+                tournaments.Add(new Tournament()
                 {
                     Name = json.Name,
-                    Date = date.ToUniversalTime(),
+                    Date = date,
                     Uri = json.Url,
-                    File = Path.GetFileName(tournamentFile)
+                    JsonFile = $"{Path.GetFileNameWithoutExtension(tournamentFile).Replace("_", "-").ToLowerInvariant()}-{date.ToString("yyyy-MM-dd")}.json"
                 });
             }
             return tournaments.ToArray();
