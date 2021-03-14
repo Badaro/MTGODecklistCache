@@ -45,6 +45,11 @@ namespace MTGODecklistCache.Updater.App
             UpdateFolder(cacheFolder, "nerdragegaming.com",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
                 t => MTGODecklistCache.Updater.MtgGoldfish.TournamentLoader.GetTournamentDetails(t));
+
+            // Updates MagicGG cache folder
+            UpdateFolder(cacheFolder, "magic.gg",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "MagicGG")),
+                t => MTGODecklistCache.Updater.MagicGG.TournamentLoader.GetTournamentDetails(t));
         }
 
         static void UpdateFolder(string cacheRootFolder, string provider, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)

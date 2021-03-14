@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MTGODecklistCache.Updater.Common\MTGODecklistCache.Updater.Common.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.MagicGG\MTGODecklistCache.Updater.MagicGG.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.ManaTraders\MTGODecklistCache.Updater.ManaTraders.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MtgGoldfish\MTGODecklistCache.Updater.MtgGoldfish.csproj" />
@@ -14,6 +15,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-3-modern-decklists.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-2-modern-decklists.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-1-modern-decklists.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="RawData\ManaTraders\ManaTraders_Series_Legacy_August_2020.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

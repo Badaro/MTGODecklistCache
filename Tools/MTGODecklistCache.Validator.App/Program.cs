@@ -60,6 +60,7 @@ namespace MTGODecklistCache.Validator.App
                         // A couple tournaments actually break the pattern, so they need to be whitelisted
                         if (Path.GetFileNameWithoutExtension(tournamentFile) == "standard-ptq-2016-05-31") continue;
                         if (Path.GetFileNameWithoutExtension(tournamentFile) == "pauper-preliminary-2019-12-16") continue;
+                        if (Path.GetFileNameWithoutExtension(tournamentFile).Contains("magic-online-champions-showcase-season")) continue;
 
                         Console.WriteLine($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} is using outdated data model");
                         break;
