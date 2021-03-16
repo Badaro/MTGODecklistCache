@@ -27,7 +27,8 @@ namespace MTGODecklistCache.Updater.ManaTraders
             string bracketUrl = $"{tournament.Uri.ToString()}finals";
 
             var standings = ParseStandings(standingsUrl);
-            var decks = ParseDecks(csvUrl, standings);
+            var deckUris = ParseDeckUris(tournament.Uri.ToString());
+            var decks = ParseDecks(csvUrl, standings, deckUris);
             var bracket = ParseBracket(bracketUrl);
             var swiss = ParseSwiss(swissUrl);
 
@@ -41,7 +42,40 @@ namespace MTGODecklistCache.Updater.ManaTraders
             };
         }
 
-        private static Deck[] ParseDecks(string csvUrl, Standing[] standings)
+        private static Dictionary<string, Uri> ParseDeckUris(string rootUrl)
+        {
+            Dictionary<string, Uri> result = new Dictionary<string, Uri>();
+            string pageContent = new WebClient().DownloadString(rootUrl);
+
+            HtmlDocument doc = new HtmlDocument();
+            doc.LoadHtml(pageContent);
+
+            var tables = doc.DocumentNode.SelectNodes("//table[@class='table table-tournament-rankings']").ToArray();
+            if (tables.Length < 3) return result;
+
+            var deckTables = tables[1];
+            foreach (var row in deckTables.SelectNodes("tbody/tr"))
+            {
+                var columns = row.SelectNodes("td").ToArray();
+                if (columns.Length < 6) continue;
+
+                var playerColumn = columns[1];
+                var urlColumn = columns[5];
+                var urlLink = urlColumn.SelectSingleNode("a");
+
+                if(urlLink!=null)
+                {
+                    var playerName = playerColumn.InnerText.Trim().ToLower();
+                    var playerUri = urlLink.Attributes["href"].Value;
+
+                    result.Add(playerName, new Uri(playerUri));
+                }
+            }
+
+            return result;
+        }
+
+        private static Deck[] ParseDecks(string csvUrl, Standing[] standings, Dictionary<string, Uri> deckUris)
         {
             List<Deck> result = new List<Deck>();
 
@@ -86,9 +120,12 @@ namespace MTGODecklistCache.Updater.ManaTraders
                     }
                 }
 
+                Uri deckUri = null;
+                if (deckUris.ContainsKey(playerName.ToLowerInvariant())) deckUri = deckUris[playerName.ToLowerInvariant()];
+
                 result.Add(new Deck()
                 {
-                    AnchorUri = null,
+                    AnchorUri = deckUri,
                     Date = null,
                     Player = playerName,
                     Result = playerResult,
