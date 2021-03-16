@@ -110,7 +110,6 @@ namespace MTGODecklistCache.Updater.Wizards
             if (cardName == "Æther Vial") return "Aether Vial";
             if (cardName == "Ghirapur Æther Grid") return "Ghirapur Aether Grid";
             if (cardName == "Unravel the Æther") return "Unravel the Aether";
-            if (cardName == "Trinisphère") return "Trinisphere";
             if (cardName == "Expansion") return "Expansion // Explosion";
             return cardName;
         }

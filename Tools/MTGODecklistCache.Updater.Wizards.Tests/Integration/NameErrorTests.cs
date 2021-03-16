@@ -144,20 +144,6 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         }
 
         [Test]
-        public void ShouldFixNameForTrinisphere()
-        {
-            // Broken on Wizard's site
-            TournamentLoader.GetTournamentDetails(new Tournament()
-            {
-                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-ptq-2019-09-09")
-            }).Decks
-                .First(d => d.Player == "The french goblin")
-                .Sideboard
-                .First(c => c.CardName.StartsWith("Trini")).CardName
-                .Should().Be("Trinisphere");
-        }
-
-        [Test]
         public void ShouldFixNameForExpansionExplosion()
         {
             // Broken on Wizard's site
