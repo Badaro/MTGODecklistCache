@@ -36,7 +36,7 @@ namespace MTGODecklistCache.Updater.MagicGG
 
             string[] deckIds = Regex.Matches(scriptLine, "\"decklistId:.*?\"")
                 .Select(m => m.Value)
-                .Select(v => v.Replace("\"","").Replace("decklistId:",""))
+                .Select(v => v.Replace("\"", "").Replace("decklistId:", ""))
                 .ToArray();
 
             foreach (var deckId in deckIds)
@@ -68,6 +68,7 @@ namespace MTGODecklistCache.Updater.MagicGG
 
                 result.Add(new Deck()
                 {
+                    AnchorUri = new Uri($"{url}#{deckId.Replace(" ", "%2520")}"),
                     Player = deckPlayer,
                     Date = DateTime.ParseExact(deckDate, "M/d/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime(),
                     Mainboard = deckMainBoard.ToArray(),
