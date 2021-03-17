@@ -88,7 +88,6 @@ namespace MTGODecklistCache.Updater.MtgGoldfish
                 if (position == 2) playerResult += "nd Place";
                 if (position == 3) playerResult += "rd Place";
                 if (position > 3) playerResult += "th Place";
-                position++;
 
                 string playerScore = deckData.First(d => d.StartsWith("Event")).Split(", ").Last().TrimStart('(').TrimEnd(')');
 
@@ -116,6 +115,7 @@ namespace MTGODecklistCache.Updater.MtgGoldfish
                 };
 
                 result.Add(new Tuple<Deck, Standing>(deck, standing));
+                position++;
             }
 
             return result.ToArray();
