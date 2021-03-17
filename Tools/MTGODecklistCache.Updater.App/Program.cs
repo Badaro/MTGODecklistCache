@@ -44,7 +44,7 @@ namespace MTGODecklistCache.Updater.App
             // Updates NRG cache folder
             UpdateFolder(cacheFolder, "nerdragegaming.com",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
-                t => MTGODecklistCache.Updater.MtgGoldfish.TournamentLoader.GetTournamentDetails(t));
+                t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
 
             // Updates MagicGG cache folder
             UpdateFolder(cacheFolder, "magic.gg",

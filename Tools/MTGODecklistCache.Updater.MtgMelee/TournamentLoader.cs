@@ -63,6 +63,8 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     int playerPoints = player.Points;
                     int playerPosition = player.Rank;
 
+                    playerName = playerName.Trim();
+
                     string playerDeckId = String.Empty;
                     foreach (var decklist in player.Decklists)
                     {
