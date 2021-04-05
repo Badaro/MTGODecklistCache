@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 
 namespace MTGODecklistCache.Updater.App
 {
@@ -57,7 +58,7 @@ namespace MTGODecklistCache.Updater.App
             string cacheFolder = Path.Combine(cacheRootFolder, provider);
 
             Console.WriteLine($"Downloading tournament list for {provider}");
-            foreach (var tournament in tournamentList())
+            foreach (var tournament in tournamentList().OrderBy(t => t.Date))
             {
                 Console.WriteLine($"- Downloading tournament {tournament.JsonFile}");
                 string targetFolder = Path.Combine(cacheFolder, tournament.Date.Year.ToString(), tournament.Date.Month.ToString("D2").ToString(), tournament.Date.Day.ToString("D2").ToString());
