@@ -28,6 +28,9 @@
     <None Update="RawData\ManaTraders\ManaTraders_Series_Legacy_August_2020.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="RawData\ManaTraders\ManaTraders_Series_Legacy_April_2021.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="RawData\ManaTraders\ManaTraders_Series_Legacy_November_2020.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -60,6 +63,6 @@
     </None>
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties rawdata_4manatraders_4manatraders_3series_3legacy_3april_32021_1json__JsonSchema="https://ffizer.github.io/ffizer/ffizer.schema.json" /></VisualStudio></ProjectExtensions>
 
 </Project>
