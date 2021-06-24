@@ -28,10 +28,10 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         {
             _testData.Should().BeEquivalentTo(new Tournament[]
             {
-                new Tournament(){ Date=new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), Name="Modern Super Qualifier",           Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2020-06-02") },
-                new Tournament(){ Date=new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), Name="Modern Preliminary",               Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-06-02") },
-                new Tournament(){ Date=new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), Name="Modern League",                    Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-league-2020-06-02") },
-                new Tournament(){ Date=new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc), Name="Modern Challenge",                 Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2020-06-01") },
+                new Tournament(){ Date=new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), Name="Modern Super Qualifier",           Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2020-06-02"),           JsonFile="modern-super-qualifier-2020-06-02.json" },
+                new Tournament(){ Date=new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), Name="Modern Preliminary",               Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-06-02"),               JsonFile="modern-preliminary-2020-06-02.json" },
+                new Tournament(){ Date=new DateTime(2020, 06, 02, 00, 00, 00, DateTimeKind.Utc), Name="Modern League",                    Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-league-2020-06-02"),                    JsonFile="modern-league-2020-06-02.json" },
+                new Tournament(){ Date=new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc), Name="Modern Challenge",                 Uri=new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2020-06-01"),                 JsonFile="modern-challenge-2020-06-01.json" },
             });
         }
     }
