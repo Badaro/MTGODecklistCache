@@ -22,7 +22,12 @@ namespace MTGODecklistCache.Updater.Wizards
                 $"{eventUri}?rand={Guid.NewGuid()}" :
                 eventUri.ToString(); // Fixes occasional caching issues on recent events
 
-            string pageContent = new WebClient().DownloadString(randomizedEventUrl);
+            string pageContent;
+            using (WebClient client = new WebClient())
+            {
+                client.Headers["Accept-Language"] = $"en-US,en;q=0.5;r={Guid.NewGuid()}";
+                pageContent = client.DownloadString(randomizedEventUrl);
+            }
 
             HtmlDocument doc = new HtmlDocument();
             doc.LoadHtml(pageContent);

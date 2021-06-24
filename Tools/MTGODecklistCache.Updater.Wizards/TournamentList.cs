@@ -38,7 +38,13 @@ namespace MTGODecklistCache.Updater.Wizards
                         $"{tournamentListUrl}&rand={Guid.NewGuid()}" :
                         tournamentListUrl; // Fixes occasional caching issues on recent events
 
-                    string jsonData = new WebClient().DownloadString(randomizedTournamentListUrl);
+                    string jsonData;
+                    using (WebClient client = new WebClient())
+                    {
+                        client.Headers["Accept-Language"] = $"en-US,en;q=0.5;r={Guid.NewGuid()}";
+                        jsonData = client.DownloadString(randomizedTournamentListUrl);
+                    }
+
                     WizardsAjaxResult jsonResult = JsonConvert.DeserializeObject<WizardsAjaxResult>(jsonData);
                     string pageContent = String.Join(String.Empty, jsonResult.data);
 
