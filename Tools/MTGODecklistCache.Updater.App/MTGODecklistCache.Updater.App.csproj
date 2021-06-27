@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="RawData\InsightEsports\Insight_Esports_Presents_Tier_1_Games_5k_Modern_Open_July_2021.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-3-modern-decklists.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
