@@ -56,6 +56,11 @@ namespace MTGODecklistCache.Updater.App
             UpdateFolder(cacheFolder, "insightesports.net",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "InsightEsports")),
                 t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
+
+            // Updates InsightEsports cache folder
+            UpdateFolder(cacheFolder, "hunterburtonmemorialopen.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "HunterBurtonMemorialOpen")),
+                t => MTGODecklistCache.Updater.PlayerLink.TournamentLoader.GetTournamentDetails(t));
         }
 
         static void UpdateFolder(string cacheRootFolder, string provider, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)
