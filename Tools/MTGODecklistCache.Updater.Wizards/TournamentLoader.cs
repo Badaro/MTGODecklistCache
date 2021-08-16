@@ -116,6 +116,8 @@ namespace MTGODecklistCache.Updater.Wizards
             if (cardName == "Ghirapur Æther Grid") return "Ghirapur Aether Grid";
             if (cardName == "Unravel the Æther") return "Unravel the Aether";
             if (cardName == "Expansion") return "Expansion // Explosion";
+            if (cardName == "JuzA?m Djinn") return "Juzám Djinn";
+            if (cardName == "Fire") return "Fire // Ice";
             return cardName;
         }
 

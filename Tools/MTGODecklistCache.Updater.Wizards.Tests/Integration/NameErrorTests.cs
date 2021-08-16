@@ -158,6 +158,34 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
         }
 
         [Test]
+        public void ShouldFixNameForJuzanDjinn()
+        {
+            // Broken on Wizard's site
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2021-04-03")
+            }).Decks
+                .First(d => d.Player == "Zolgia108")
+                .Mainboard
+                .First(c => c.CardName.EndsWith("Djinn")).CardName
+                .Should().Be("Juzám Djinn");
+        }
+
+        [Test]
+        public void ShouldFixNameForFireIce()
+        {
+            // Broken on Wizard's site
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-league-2021-06-15")
+            }).Decks
+                .First(d => d.Player == "WotC_AndrewB")
+                .Mainboard
+                .First(c => c.CardName.StartsWith("Fire")).CardName
+                .Should().Be("Fire // Ice");
+        }
+
+        [Test]
         public void ShouldParseCorrectlyJotunGrunt()
         {
             // Code was not parsing this correctly in the past
