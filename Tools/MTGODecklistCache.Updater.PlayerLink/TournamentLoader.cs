@@ -125,10 +125,15 @@ namespace MTGODecklistCache.Updater.PlayerLink
 
                 foreach (string possiblePlayerName in possiblePlayerNames)
                 {
-                    if (standings.ContainsKey(possiblePlayerName))
+                    string key = possiblePlayerName;
+
+                    string[] partialMatches = standings.Keys.Where(k => k.StartsWith(possiblePlayerName, StringComparison.InvariantCultureIgnoreCase) || playerName.StartsWith(k, StringComparison.InvariantCultureIgnoreCase)).ToArray();
+                    if (partialMatches.Length == 1) key = partialMatches.First();
+
+                    if (standings.ContainsKey(key))
                     {
-                        playerName = standings[possiblePlayerName].Player;
-                        rank = standings[possiblePlayerName].Rank.ToString();
+                        playerName = standings[key].Player;
+                        rank = standings[key].Rank.ToString();
                         if (rank == "1") rank += "st";
                         else if (rank == "2") rank += "nd";
                         else rank += "rd";
