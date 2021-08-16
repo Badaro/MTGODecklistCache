@@ -115,10 +115,25 @@ namespace MTGODecklistCache.Updater.PlayerLink
                 }
 
                 string playerName = $"{lastName}, {firstName}";
-                string rank = standings.ContainsKey(playerName) ? standings[playerName].Rank.ToString() : "-";
-                if (rank == "1") rank += "st";
-                else if (rank == "2") rank += "nd";
-                else if (rank != "-") rank += "rd";
+                string rank = "-";
+
+                List<string> possiblePlayerNames = new List<string>() { $"{lastName}, {firstName}" };
+                if (lastName.Contains("-"))
+                {
+                    possiblePlayerNames.AddRange(lastName.Split("-").Select(l => $"{l.Trim()}, {firstName}").ToArray());
+                }
+
+                foreach (string possiblePlayerName in possiblePlayerNames)
+                {
+                    if (standings.ContainsKey(possiblePlayerName))
+                    {
+                        playerName = standings[possiblePlayerName].Player;
+                        rank = standings[possiblePlayerName].Rank.ToString();
+                        if (rank == "1") rank += "st";
+                        else if (rank == "2") rank += "nd";
+                        else rank += "rd";
+                    }
+                }
 
                 var deck = new Deck()
                 {
@@ -241,7 +256,6 @@ namespace MTGODecklistCache.Updater.PlayerLink
             }
 
             return cardName;
-
         }
     }
 }
