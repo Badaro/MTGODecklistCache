@@ -12,6 +12,7 @@ namespace MTGODecklistCache.Validator.App
         static string _mtgJsonSource = "https://mtgjson.com/api/v5/AllSetFiles.zip";
         static string _mtgJsonFolder = "mtgjson_allsetfiles";
         static string _mtgJsonTempFile = "mtgjson_allsetfiles.zip";
+        static int _mtgJsonMaxAgeInDays = 1;
 
         static void Main(string[] args)
         {
@@ -21,9 +22,12 @@ namespace MTGODecklistCache.Validator.App
                 return;
             }
 
-            if (!Directory.Exists(_mtgJsonFolder) || Directory.GetFiles(_mtgJsonFolder, "*.json").Length == 0)
+            bool mtgJsonFilesExist = Directory.Exists(_mtgJsonFolder) && Directory.GetFiles(_mtgJsonFolder, "*.json").Length > 0;
+            bool mtgJsonFilesRecent = mtgJsonFilesExist && new DirectoryInfo(_mtgJsonFolder).LastWriteTime > DateTime.Now.AddDays(-1 * _mtgJsonMaxAgeInDays);
+
+            if (!mtgJsonFilesExist || !mtgJsonFilesRecent)
             {
-                Console.WriteLine("mtgjson data files not found, downloading");
+                Console.WriteLine("mtgjson data files not found or outdated, downloading");
                 new WebClient().DownloadFile(_mtgJsonSource, _mtgJsonTempFile);
 
                 if (Directory.Exists(_mtgJsonFolder)) Directory.Delete(_mtgJsonFolder, true);
@@ -47,15 +51,24 @@ namespace MTGODecklistCache.Validator.App
                 }
             }
 
-            Console.WriteLine("Validating tournaments");
-            foreach (string tournamentFile in Directory.GetFiles(args[0], "*.json", SearchOption.AllDirectories))
+            Console.WriteLine("Starting tournament validation");
+            int count = 0;
+            string[] tournamentFiles = Directory.GetFiles(args[0], "*.json", SearchOption.AllDirectories);
+            Console.Write($"Loading tournaments: {count}/{tournamentFiles.Length}");
+
+            List<string> validationErrors = new List<string>();
+
+            foreach (string tournamentFile in tournamentFiles)
             {
+                if (count % 100 == 0) Console.Write($"\rLoading tournaments: {count}/{tournamentFiles.Length}"); ;
+                count++;
+
                 dynamic tournament = JsonConvert.DeserializeObject(File.ReadAllText(tournamentFile));
 
                 // Deck validation
                 if (tournament.Decks.Count == 0)
                 {
-                    Console.WriteLine($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} has no decks");
+                    validationErrors.Add($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} has no decks");
                 }
                 else
                 {
@@ -69,7 +82,7 @@ namespace MTGODecklistCache.Validator.App
                             string cardName = card.CardName;
                             if (!validCards.Contains(cardName))
                             {
-                                Console.WriteLine($"Invalid Card {cardName} in tournament {Path.GetFileNameWithoutExtension(tournamentFile)}");
+                                validationErrors.Add($"Invalid Card {cardName} in tournament {Path.GetFileNameWithoutExtension(tournamentFile)}");
                             }
                         }
                         foreach (var card in deck.Sideboard)
@@ -77,19 +90,22 @@ namespace MTGODecklistCache.Validator.App
                             string cardName = card.CardName;
                             if (!validCards.Contains(cardName))
                             {
-                                Console.WriteLine($"Invalid Card {cardName} in tournament {Path.GetFileNameWithoutExtension(tournamentFile)}");
+                                validationErrors.Add($"Invalid Card {cardName} in tournament {Path.GetFileNameWithoutExtension(tournamentFile)}");
                             }
                         }
                     }
 
                     if (!hasDecksWithCards)
                     {
-                        Console.WriteLine($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} has only empty decks");
+                        validationErrors.Add($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} has only empty decks");
                     }
                 }
             }
 
-            Console.WriteLine("Validation completed");
+            Console.Write(Environment.NewLine);
+            Console.WriteLine("Finished tournament validation");
+            Console.WriteLine($"Found {validationErrors.Count} errors in tournament files");
+            foreach (string validationError in validationErrors) Console.WriteLine(validationError);
         }
     }
 }
