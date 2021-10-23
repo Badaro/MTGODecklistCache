@@ -41,7 +41,6 @@ namespace MTGODecklistCache.Updater.Wizards
                     string jsonData;
                     using (WebClient client = new WebClient())
                     {
-                        client.Headers["Accept-Language"] = $"en-US,en;q=0.5;r={Guid.NewGuid()}";
                         jsonData = client.DownloadString(randomizedTournamentListUrl);
                     }
 
