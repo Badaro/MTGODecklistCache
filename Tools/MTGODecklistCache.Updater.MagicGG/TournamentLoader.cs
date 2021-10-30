@@ -70,11 +70,23 @@ namespace MTGODecklistCache.Updater.MagicGG
                     deckSideBoard.Add(new DeckItem() { CardName = name, Count = count });
                 }
 
+                string[] dateFormats = new string[] { "M/d/yyyy", "MMMM dd, yyyy" };
+
+                DateTime? deckParsedDate = null;
+                foreach (string dateFormat in dateFormats)
+                {
+                    if (DateTime.TryParseExact(deckDate, dateFormat, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out DateTime validDate))
+                    {
+                        deckParsedDate = validDate.ToUniversalTime();
+                    }
+                }
+                if (deckParsedDate == null) throw new Exception($"Error parsing decl date: {deckDate}");
+
                 result.Add(new Deck()
                 {
                     AnchorUri = new Uri($"{url}#{deckId.Replace(" ", "%2520")}"),
                     Player = deckPlayer,
-                    Date = DateTime.ParseExact(deckDate, "M/d/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime(),
+                    Date = deckParsedDate,
                     Mainboard = deckMainBoard.ToArray(),
                     Sideboard = deckSideBoard.ToArray()
                 });
