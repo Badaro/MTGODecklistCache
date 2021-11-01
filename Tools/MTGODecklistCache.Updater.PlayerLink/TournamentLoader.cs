@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using MTGODecklistCache.Updater.Model;
+using MTGODecklistCache.Updater.Tools;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -102,7 +103,7 @@ namespace MTGODecklistCache.Updater.PlayerLink
 
                     int splitPosition = item.IndexOf(" ");
                     string cardCount = item.Substring(0, splitPosition).TrimStart('*');
-                    string cardName = NormalizeCardName(item.Substring(splitPosition, item.Length - splitPosition));
+                    string cardName = CardNameNormalizer.Normalize(item.Substring(splitPosition, item.Length - splitPosition));
 
                     DeckItem deckItem = new DeckItem()
                     {
@@ -154,113 +155,6 @@ namespace MTGODecklistCache.Updater.PlayerLink
             }
 
             return result.OrderBy(d => standings.ContainsKey(d.Player) ? standings[d.Player].Rank : Int32.MaxValue).ToList();
-        }
-
-        private static string NormalizeCardName(string cardName)
-        {
-            #region Split card list
-            string[] splitCards = new string[]
-            {
-                "Alive // Well",
-                "Appeal // Authority",
-                "Armed // Dangerous",
-                "Assault // Battery",
-                "Assure // Assemble",
-                "Beck // Call",
-                "Bedeck // Bedazzle",
-                "Boom // Bust",
-                "Bound // Determined",
-                "Breaking // Entering",
-                "Carnival // Carnage",
-                "Catch // Release",
-                "Claim // Fame",
-                "Collision // Colossus",
-                "Commit // Memory",
-                "Connive // Concoct",
-                "Consecrate // Consume",
-                "Consign // Oblivion",
-                "Crime // Punishment",
-                "Cut // Ribbons",
-                "Dead // Gone",
-                "Depose // Deploy",
-                "Destined // Lead",
-                "Discovery // Dispersal",
-                "Down // Dirty",
-                "Driven // Despair",
-                "Dusk // Dawn",
-                "Expansion // Explosion",
-                "Failure // Comply",
-                "Far // Away",
-                "Farm // Market",
-                "Fast // Furious",
-                "Find // Finality",
-                "Fire // Ice",
-                "Flesh // Blood",
-                "Flower // Flourish",
-                "Give // Take",
-                "Grind // Dust",
-                "Heaven // Earth",
-                "Hide // Seek",
-                "Hit // Run",
-                "Illusion // Reality",
-                "Incubation // Incongruity",
-                "Insult // Injury",
-                "Integrity // Intervention",
-                "Invert // Invent",
-                "Leave // Chance",
-                "Life // Death",
-                "Mouth // Feed",
-                "Never // Return",
-                "Night // Day",
-                "Odds // Ends",
-                "Onward // Victory",
-                "Order // Chaos",
-                "Pain // Suffering",
-                "Prepare // Fight",
-                "Profit // Loss",
-                "Protect // Serve",
-                "Pure // Simple",
-                "Rags // Riches",
-                "Ready // Willing",
-                "Reason // Believe",
-                "Reduce // Rubble",
-                "Refuse // Cooperate",
-                "Repudiate // Replicate",
-                "Research // Development",
-                "Response // Resurgence",
-                "Revival // Revenge",
-                "Rise // Fall",
-                "Road // Ruin",
-                "Rough // Tumble",
-                "Said // Done",
-                "Spite // Malice",
-                "Spring // Mind",
-                "Stand // Deliver",
-                "Start // Finish",
-                "Status // Statue",
-                "Struggle // Survive",
-                "Supply // Demand",
-                "Thrash // Threat",
-                "Toil // Trouble",
-                "Trial // Error",
-                "Turn // Burn",
-                "Warrant // Warden",
-                "Wax // Wane",
-                "Wear // Tear"
-            };
-            #endregion
-
-            cardName = HttpUtility.HtmlDecode(cardName).Trim();
-
-            if (cardName.Contains("//"))
-            {
-                if (!splitCards.Contains(cardName))
-                {
-                    cardName = cardName.Split("//").First().Trim();
-                }
-            }
-
-            return cardName;
         }
     }
 }
