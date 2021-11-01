@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using MTGODecklistCache.Updater.Model;
+using MTGODecklistCache.Updater.Tools;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -77,7 +78,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     HtmlDocument deckDoc = new HtmlDocument();
                     deckDoc.LoadHtml(deckPageContent);
 
-                    var copyButton = deckDoc.DocumentNode.SelectSingleNode("//button[@class='decklist-builder-copy-button btn-sm btn btn-card ']");
+                    var copyButton = deckDoc.DocumentNode.SelectSingleNode("//button[@class='decklist-builder-copy-button btn-sm btn btn-card text-nowrap ']");
                     var cardList = WebUtility.HtmlDecode(copyButton.Attributes["data-clipboard-text"].Value).Split("\r\n", StringSplitOptions.RemoveEmptyEntries).ToArray();
 
                     List<DeckItem> mainBoard = new List<DeckItem>();
@@ -115,8 +116,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                             int splitPosition = card.IndexOf(" ");
                             int count = Convert.ToInt32(new String(card.Take(splitPosition).ToArray()));
                             string name = new String(card.Skip(splitPosition + 1).ToArray());
-
-                            if (name.Contains(" /// ")) name = name.Replace(" /// ", " // "); // Normalization for "Failure /// Comply" and possibly others
+                            name = CardNameNormalizer.Normalize(name);
 
                             if (insideSideboard) sideBoard.Add(new DeckItem() { CardName = name, Count = count });
                             else mainBoard.Add(new DeckItem() { CardName = name, Count = count });
