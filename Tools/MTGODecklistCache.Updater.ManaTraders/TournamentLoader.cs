@@ -2,6 +2,7 @@
 using CsvHelper.Configuration;
 using HtmlAgilityPack;
 using MTGODecklistCache.Updater.Model;
+using MTGODecklistCache.Updater.Tools;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -129,20 +130,12 @@ namespace MTGODecklistCache.Updater.ManaTraders
                     Date = null,
                     Player = playerName,
                     Result = playerResult,
-                    Mainboard = playerCards.Where(c => !c.Sideboard).Select(c => new DeckItem() { Count = c.Count, CardName = FixCardName(c.Card) }).ToArray(),
-                    Sideboard = playerCards.Where(c => c.Sideboard).Select(c => new DeckItem() { Count = c.Count, CardName = FixCardName(c.Card) }).ToArray(),
+                    Mainboard = playerCards.Where(c => !c.Sideboard).Select(c => new DeckItem() { Count = c.Count, CardName = CardNameNormalizer.Normalize(c.Card) }).ToArray(),
+                    Sideboard = playerCards.Where(c => c.Sideboard).Select(c => new DeckItem() { Count = c.Count, CardName = CardNameNormalizer.Normalize(c.Card) }).ToArray(),
                 });
             }
 
             return result.OrderBy(r => r.Result != "-" ? Int32.Parse(r.Result.Substring(0, r.Result.Length - 8)) : Int32.MaxValue).ToArray();
-        }
-
-        private static string FixCardName(string cardName)
-        {
-            // Normalizes card format with MTGO website
-            if (cardName.Contains("Full Art")) return cardName.Replace("Full Art", "").Trim();
-            if (cardName.Contains("/")) return cardName.Replace("/", " // ");
-            return cardName;
         }
 
         private static Standing[] ParseStandings(string standingsUrl)
