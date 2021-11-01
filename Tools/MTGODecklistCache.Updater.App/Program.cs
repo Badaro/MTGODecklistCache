@@ -42,6 +42,11 @@ namespace MTGODecklistCache.Updater.App
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "ManaTraders")),
                 t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t));
 
+            // Updates Starcity cache folder
+            UpdateFolder(cacheFolder, "starcitygames.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "StarCityGames")),
+                t => MTGODecklistCache.Updater.StarCityGames.TournamentLoader.GetTournamentDetails(t));
+
             // Updates NRG cache folder
             UpdateFolder(cacheFolder, "nerdragegaming.com",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),

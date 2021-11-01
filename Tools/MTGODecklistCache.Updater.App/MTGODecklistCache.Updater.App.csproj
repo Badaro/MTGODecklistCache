@@ -12,6 +12,7 @@
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MtgMelee\MTGODecklistCache.Updater.MtgMelee.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.PlayerLink\MTGODecklistCache.Updater.PlayerLink.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.StarCityGames\MTGODecklistCache.Updater.StarCityGames.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Wizards\MTGODecklistCache.Updater.Wizards.csproj" />
   </ItemGroup>
 
@@ -104,6 +105,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\StarCityGames\Mythic_Championship_Qualifier_Roanoke_Modern_October_2021.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\StarCityGames\Invi_Qualifier_Roanoke_Modern_September_2021.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\StarCityGames\SCG_Invitational_Roanoke_Standard_October_2021.json">
