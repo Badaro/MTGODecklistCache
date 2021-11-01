@@ -1,4 +1,5 @@
 ﻿using MTGODecklistCache.Updater.Model;
+using MTGODecklistCache.Updater.Tools;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -54,7 +55,7 @@ namespace MTGODecklistCache.Updater.MagicGG
                     string name = card.name;
                     int count = card.quantity;
 
-                    name = NormalizeCardName(name);
+                    name = CardNameNormalizer.Normalize(name);
 
                     deckMainBoard.Add(new DeckItem() { CardName = name, Count = count });
                 }
@@ -65,7 +66,7 @@ namespace MTGODecklistCache.Updater.MagicGG
                     string name = card.name;
                     int count = card.quantity;
 
-                    name = NormalizeCardName(name);
+                    name = CardNameNormalizer.Normalize(name);
 
                     deckSideBoard.Add(new DeckItem() { CardName = name, Count = count });
                 }
@@ -93,11 +94,6 @@ namespace MTGODecklistCache.Updater.MagicGG
             }
 
             return result.ToArray();
-        }
-
-        private static string NormalizeCardName(string cardName)
-        {
-            return cardName.Replace("///", "//");
         }
     }
 }
