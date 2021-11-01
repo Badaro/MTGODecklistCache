@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using MTGODecklistCache.Updater.Model;
+using MTGODecklistCache.Updater.Tools;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -91,7 +92,7 @@ namespace MTGODecklistCache.Updater.Wizards
             foreach (var cardNode in cardNodes)
             {
                 var cardCount = cardNode.SelectSingleNode("span[@class='card-count']").InnerText;
-                var cardName = FixCardName(HttpUtility.HtmlDecode(cardNode.SelectSingleNode("span[@class='card-name']").InnerText));
+                var cardName = CardNameNormalizer.Normalize(HttpUtility.HtmlDecode(cardNode.SelectSingleNode("span[@class='card-name']").InnerText));
 
                 cards.Add(new DeckItem()
                 {
@@ -100,24 +101,6 @@ namespace MTGODecklistCache.Updater.Wizards
                 });
             }
             return (cards.ToArray());
-        }
-
-        // Fix inconsistencies on Wizard's side
-        private static string FixCardName(string cardName)
-        {
-            if (cardName == "Lurrus of the Dream Den") return "Lurrus of the Dream-Den";
-            if (cardName == "Kongming, ??quot?Sleeping Dragon??quot?") return "Kongming, \"Sleeping Dragon\"";
-            if (cardName == "GhazbA?n Ogre") return "Ghazbán Ogre";
-            if (cardName == "Lim-DA?l's Vault") return "Lim-Dûl's Vault";
-            if (cardName == "Lim-DAul's Vault") return "Lim-Dûl's Vault";
-            if (cardName == "SAcance") return "Séance";
-            if (cardName == "Æther Vial") return "Aether Vial";
-            if (cardName == "Ghirapur Æther Grid") return "Ghirapur Aether Grid";
-            if (cardName == "Unravel the Æther") return "Unravel the Aether";
-            if (cardName == "Expansion") return "Expansion // Explosion";
-            if (cardName == "JuzA?m Djinn") return "Juzám Djinn";
-            if (cardName == "Fire") return "Fire // Ice";
-            return cardName;
         }
 
         private static Standing[] ParseStandings(HtmlDocument doc)

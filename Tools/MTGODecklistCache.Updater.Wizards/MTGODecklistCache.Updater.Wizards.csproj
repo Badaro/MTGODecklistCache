@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.Tools\MTGODecklistCache.Updater.Tools.csproj" />
   </ItemGroup>
 
 </Project>
