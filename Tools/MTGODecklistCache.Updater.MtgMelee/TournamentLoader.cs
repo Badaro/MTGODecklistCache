@@ -28,7 +28,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
             return new CacheItem()
             {
                 Tournament = tournament,
-                Decks = decks.Select(d => d.Item1).ToArray(),
+                Decks = decks.Where(d => d.Item1 != null).Select(d => d.Item1).ToArray(),
                 Standings = decks.Where(d => d.Item2 != null).Select(d => d.Item2).ToArray()
             };
         }
@@ -61,68 +61,11 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 {
                     hasData = true;
                     string playerName = player.Name;
-                    int playerPoints = player.Points;
-                    int playerPosition = player.Rank;
-
                     playerName = playerName.Trim();
 
-                    string playerDeckId = String.Empty;
-                    foreach (var decklist in player.Decklists)
-                    {
-                        playerDeckId = decklist.ID;
-                    }
+                    int playerPoints = player.Points;
 
-                    string deckPage = _deckPage.Replace("{deckId}", playerDeckId);
-                    string deckPageContent = new WebClient().DownloadString(deckPage);
-
-                    HtmlDocument deckDoc = new HtmlDocument();
-                    deckDoc.LoadHtml(deckPageContent);
-
-                    var copyButton = deckDoc.DocumentNode.SelectSingleNode("//button[@class='decklist-builder-copy-button btn-sm btn btn-card text-nowrap ']");
-                    var cardList = WebUtility.HtmlDecode(copyButton.Attributes["data-clipboard-text"].Value).Split("\r\n", StringSplitOptions.RemoveEmptyEntries).ToArray();
-
-                    List<DeckItem> mainBoard = new List<DeckItem>();
-                    List<DeckItem> sideBoard = new List<DeckItem>();
-                    bool insideSideboard = false;
-                    bool insideCompanion = false;
-
-                    foreach (var card in cardList)
-                    {
-                        if (card == "Deck" || card == "Companion" || card == "Sideboard")
-                        {
-                            if (card == "Companion")
-                            {
-                                insideCompanion = true;
-                                insideSideboard = false;
-                            }
-                            else
-                            {
-                                if (card == "Sideboard")
-                                {
-                                    insideCompanion = false;
-                                    insideSideboard = true;
-                                }
-                                else
-                                {
-                                    insideCompanion = false;
-                                    insideSideboard = false;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            if (insideCompanion) continue; // Companion is listed in its own section *and* in the sideboard as well
-
-                            int splitPosition = card.IndexOf(" ");
-                            int count = Convert.ToInt32(new String(card.Take(splitPosition).ToArray()));
-                            string name = new String(card.Skip(splitPosition + 1).ToArray());
-                            name = CardNameNormalizer.Normalize(name);
-
-                            if (insideSideboard) sideBoard.Add(new DeckItem() { CardName = name, Count = count });
-                            else mainBoard.Add(new DeckItem() { CardName = name, Count = count });
-                        }
-                    }
-
+                    int playerPosition = player.Rank;
                     string playerResult = playerPosition.ToString();
                     if (playerPosition == 1) playerResult += "st Place";
                     if (playerPosition == 2) playerResult += "nd Place";
@@ -136,15 +79,76 @@ namespace MTGODecklistCache.Updater.MtgMelee
                         Points = playerPoints
                     };
 
-                    Deck deck = new Deck()
+                    string playerDeckId = String.Empty;
+                    foreach (var decklist in player.Decklists)
                     {
-                        AnchorUri = new Uri(deckPage),
-                        Date = null,
-                        Mainboard = mainBoard.ToArray(),
-                        Sideboard = sideBoard.ToArray(),
-                        Player = playerName,
-                        Result = playerResult
-                    };
+                        playerDeckId = decklist.ID;
+                    }
+
+                    Deck deck = null;
+                    if (!String.IsNullOrEmpty(playerDeckId))
+                    {
+                        string deckPage = _deckPage.Replace("{deckId}", playerDeckId);
+                        string deckPageContent = new WebClient().DownloadString(deckPage);
+
+                        HtmlDocument deckDoc = new HtmlDocument();
+                        deckDoc.LoadHtml(deckPageContent);
+
+                        var copyButton = deckDoc.DocumentNode.SelectSingleNode("//button[@class='decklist-builder-copy-button btn-sm btn btn-card text-nowrap ']");
+                        var cardList = WebUtility.HtmlDecode(copyButton.Attributes["data-clipboard-text"].Value).Split("\r\n", StringSplitOptions.RemoveEmptyEntries).ToArray();
+
+                        List<DeckItem> mainBoard = new List<DeckItem>();
+                        List<DeckItem> sideBoard = new List<DeckItem>();
+                        bool insideSideboard = false;
+                        bool insideCompanion = false;
+
+                        foreach (var card in cardList)
+                        {
+                            if (card == "Deck" || card == "Companion" || card == "Sideboard")
+                            {
+                                if (card == "Companion")
+                                {
+                                    insideCompanion = true;
+                                    insideSideboard = false;
+                                }
+                                else
+                                {
+                                    if (card == "Sideboard")
+                                    {
+                                        insideCompanion = false;
+                                        insideSideboard = true;
+                                    }
+                                    else
+                                    {
+                                        insideCompanion = false;
+                                        insideSideboard = false;
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (insideCompanion) continue; // Companion is listed in its own section *and* in the sideboard as well
+
+                                int splitPosition = card.IndexOf(" ");
+                                int count = Convert.ToInt32(new String(card.Take(splitPosition).ToArray()));
+                                string name = new String(card.Skip(splitPosition + 1).ToArray());
+                                name = CardNameNormalizer.Normalize(name);
+
+                                if (insideSideboard) sideBoard.Add(new DeckItem() { CardName = name, Count = count });
+                                else mainBoard.Add(new DeckItem() { CardName = name, Count = count });
+                            }
+                        }
+
+                        deck = new Deck()
+                        {
+                            AnchorUri = new Uri(deckPage),
+                            Date = null,
+                            Mainboard = mainBoard.ToArray(),
+                            Sideboard = sideBoard.ToArray(),
+                            Player = playerName,
+                            Result = playerResult
+                        };
+                    }
 
                     result.Add(new Tuple<Deck, Standing>(deck, standing));
                 }
