@@ -1,17 +1,17 @@
-﻿using Newtonsoft.Json;
+﻿using System.Data.SQLite;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.IO;
 using System.IO.Compression;
+using System.Linq;
 using System.Net;
 
 namespace MTGODecklistCache.Validator.App
 {
     class Program
     {
-        static string _mtgJsonSource = "https://mtgjson.com/api/v5/AllSetFiles.zip";
-        static string _mtgJsonFolder = "mtgjson_allsetfiles";
-        static string _mtgJsonTempFile = "mtgjson_allsetfiles.zip";
         static int _mtgJsonMaxAgeInDays = 1;
 
         static void Main(string[] args)
@@ -22,34 +22,7 @@ namespace MTGODecklistCache.Validator.App
                 return;
             }
 
-            bool mtgJsonFilesExist = Directory.Exists(_mtgJsonFolder) && Directory.GetFiles(_mtgJsonFolder, "*.json").Length > 0;
-            bool mtgJsonFilesRecent = mtgJsonFilesExist && new DirectoryInfo(_mtgJsonFolder).LastWriteTime > DateTime.Now.AddDays(-1 * _mtgJsonMaxAgeInDays);
-
-            if (!mtgJsonFilesExist || !mtgJsonFilesRecent)
-            {
-                Console.WriteLine("mtgjson data files not found or outdated, downloading");
-                new WebClient().DownloadFile(_mtgJsonSource, _mtgJsonTempFile);
-
-                if (Directory.Exists(_mtgJsonFolder)) Directory.Delete(_mtgJsonFolder, true);
-                Directory.CreateDirectory(_mtgJsonFolder);
-
-                ZipFile.ExtractToDirectory(_mtgJsonTempFile, _mtgJsonFolder);
-                File.Delete(_mtgJsonTempFile);
-            }
-
-            HashSet<string> validCards = new HashSet<string>();
-            Console.WriteLine("Loading card names from mtgjson data files");
-            foreach (string setFile in Directory.GetFiles(_mtgJsonFolder))
-            {
-                dynamic set = JsonConvert.DeserializeObject(File.ReadAllText(setFile));
-                foreach (var card in set.data.cards)
-                {
-                    string cardName;
-                    if (card.layout == "transform" || card.layout == "flip" || card.layout == "adventure" || card.layout == "meld" || card.layout == "modal_dfc") cardName = card.faceName;
-                    else cardName = card.name;
-                    if (!validCards.Contains(cardName)) validCards.Add(cardName);
-                }
-            }
+            HashSet<string> validCards = GetCardNamesFromSqlite();
 
             Console.WriteLine("Starting tournament validation");
             int count = 0;
@@ -107,5 +80,60 @@ namespace MTGODecklistCache.Validator.App
             Console.WriteLine($"Found {validationErrors.Count} errors in tournament files");
             foreach (string validationError in validationErrors) Console.WriteLine(validationError);
         }
+
+        #region GetCardNames - SQLite Version
+
+        static string _mtgJsonSqliteSource = "https://mtgjson.com/api/v5/AllPrintings.sqlite.zip";
+        static string _mtgJsonSqliteFolder = "mtgjson_allprintings_sqlite";
+        static string _mtgJsonSqliteTempFile = "mtgjson_allprintings_sqlite.zip";
+
+        private static HashSet<string> GetCardNamesFromSqlite()
+        {
+            bool mtgJsonFilesExist = Directory.Exists(_mtgJsonSqliteFolder) && Directory.GetFiles(_mtgJsonSqliteFolder, "*.sqlite").Length > 0;
+            bool mtgJsonFilesRecent = mtgJsonFilesExist && new DirectoryInfo(_mtgJsonSqliteFolder).LastWriteTime > DateTime.Now.AddDays(-1 * _mtgJsonMaxAgeInDays);
+
+            if (!mtgJsonFilesExist || !mtgJsonFilesRecent)
+            {
+                Console.WriteLine("mtgjson data files not found or outdated, downloading");
+                new WebClient().DownloadFile(_mtgJsonSqliteSource, _mtgJsonSqliteTempFile);
+
+                if (Directory.Exists(_mtgJsonSqliteFolder)) Directory.Delete(_mtgJsonSqliteFolder, true);
+                Directory.CreateDirectory(_mtgJsonSqliteFolder);
+
+                ZipFile.ExtractToDirectory(_mtgJsonSqliteTempFile, _mtgJsonSqliteFolder);
+                File.Delete(_mtgJsonSqliteTempFile);
+            }
+
+            HashSet<string> validCards = new HashSet<string>();
+            Console.WriteLine("Loading card names from mtgjson database");
+
+            string dbFile = new FileInfo(Directory.GetFiles(_mtgJsonSqliteFolder, "*.sqlite").First()).FullName;
+            using (var connection = new SQLiteConnection($"Data Source={dbFile}"))
+            {
+                connection.Open();
+
+                var command = connection.CreateCommand();
+                command.CommandText = "SELECT name, faceName, layout from cards";
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        var name = reader.GetString(0);
+                        var faceName = reader.GetValue(1) == System.DBNull.Value ? String.Empty : reader.GetString(1);
+                        var layout = reader.GetString(2);
+
+                        string cardName;
+                        if (layout == "transform" || layout == "flip" || layout == "adventure" || layout == "meld" || layout == "modal_dfc") cardName = faceName;
+                        else cardName = name;
+                        if (!validCards.Contains(cardName)) validCards.Add(cardName);
+                    }
+                }
+            }
+
+            return validCards;
+        }
+
+        #endregion
     }
 }
