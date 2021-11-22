@@ -6,6 +6,7 @@ using System.Net;
 using Newtonsoft.Json;
 using MTGODecklistCache.Updater.Tools;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace MTGODecklistCache.Updater.MoxField
 {
@@ -20,21 +21,39 @@ namespace MTGODecklistCache.Updater.MoxField
             return new CacheItem()
             {
                 Tournament = tournament,
-                Decks = decks.ToArray()
+                Decks = decks.Select(d => d.Item1).ToArray(),
+                Standings = decks.Select(d => d.Item2).ToArray()
             };
         }
 
-        public static Deck[] ParseDecks(string tournamentUrl, DateTime tournamentDate)
+        public static Tuple<Deck, Standing>[] ParseDecks(string tournamentUrl, DateTime tournamentDate)
         {
-            List<Deck> result = new List<Deck>();
-            string[] csv = new WebClient().DownloadString(tournamentUrl).Replace("\r", "").Split("\n");
+            List<Tuple<Deck, Standing>> decks = new List<Tuple<Deck, Standing>>();
+            string[] csv = new WebClient().DownloadString(tournamentUrl).Replace("\r", "").Split("\n").Skip(1).ToArray();
 
+            int rank = 1;
             foreach (string line in csv)
             {
                 string[] cells = line.Split(",");
-                string lastName = cells[0];
-                string firstName = cells[1];
-                string deckUrl = cells[2];
+                string player = cells[0];
+                string points = cells[1];
+                string result = cells[2];
+                string omwp = cells[3];
+                string gwp = cells[4];
+                string ogwp = cells[5];
+                string deckUrl = cells[6];
+
+                // Normalization
+                double parsedOmw = FormatPercent(omwp);
+                double parsedGp = FormatPercent(gwp);
+                double parsedOgp = FormatPercent(ogwp);
+                result = result.Replace(" ", "");
+
+                string parsedRank = rank.ToString();
+                if (parsedRank == "1") parsedRank += "st Place";
+                else if (parsedRank == "2") parsedRank += "nd Place";
+                else if (parsedRank == "3") parsedRank += "rd Place";
+                else parsedRank += "th Place";
 
                 if (!String.IsNullOrEmpty(deckUrl))
                 {
@@ -73,19 +92,45 @@ namespace MTGODecklistCache.Updater.MoxField
                         });
                     }
 
-                    result.Add(new Deck()
+                    Deck deck = new Deck()
                     {
                         AnchorUri = new Uri(deckUrl),
-                        Result = String.Empty,
+                        Result = result,
                         Date = tournamentDate,
-                        Player = $"{lastName},{firstName}",
+                        Player = player,
                         Mainboard = mainBoard.ToArray(),
-                        Sideboard = sideBoard.ToArray(),
-                    });
+                        Sideboard = sideBoard.ToArray()
+                    };
+
+                    Standing standing = new Standing()
+                    {
+                        Player = player,
+                        Points = Convert.ToInt32(points),
+                        Rank = rank++,
+                        OMWP = FormatPercent(omwp),
+                        GWP = FormatPercent(gwp),
+                        OGWP = FormatPercent(ogwp),
+                    };
+
+                    decks.Add(new Tuple<Deck, Standing>(deck, standing));
                 }
             }
 
-            return result.ToArray();
+            return decks.ToArray();
+        }
+
+        static double FormatPercent(string raw)
+        {
+            if (raw.Contains("%"))
+            {
+                raw = raw.Replace("%", "");
+                double result = Double.Parse(raw, CultureInfo.InvariantCulture);
+                return result / 100d;
+            }
+            else
+            {
+                return Double.Parse(raw, CultureInfo.InvariantCulture);
+            }
         }
     }
 }
