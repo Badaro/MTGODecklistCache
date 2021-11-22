@@ -10,6 +10,7 @@
     <ProjectReference Include="..\MTGODecklistCache.Updater.MagicGG\MTGODecklistCache.Updater.MagicGG.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.ManaTraders\MTGODecklistCache.Updater.ManaTraders.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.MoxField\MTGODecklistCache.Updater.MoxField.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MtgMelee\MTGODecklistCache.Updater.MtgMelee.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.PlayerLink\MTGODecklistCache.Updater.PlayerLink.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.StarCityGames\MTGODecklistCache.Updater.StarCityGames.csproj" />
@@ -87,6 +88,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\ManaTraders\ManaTraders_Series_Vintage_January_2021.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\MoxField\Modern_Championship_5K_Paris_Nov_20.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\NerdRageGaming\NRG_Series_Trial_Chicago_October_2021_Legacy.json">

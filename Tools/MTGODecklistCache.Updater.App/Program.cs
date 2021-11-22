@@ -66,6 +66,12 @@ namespace MTGODecklistCache.Updater.App
             UpdateFolder(cacheFolder, "hunterburtonmemorialopen.com",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "HunterBurtonMemorialOpen")),
                 t => MTGODecklistCache.Updater.PlayerLink.TournamentLoader.GetTournamentDetails(t));
+
+            // Updates MetaMox cache folder
+            UpdateFolder(cacheFolder, "moxfield.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "MoxField")),
+                t => MTGODecklistCache.Updater.MoxField.TournamentLoader.GetTournamentDetails(t));
+
         }
 
         static void UpdateFolder(string cacheRootFolder, string provider, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)
