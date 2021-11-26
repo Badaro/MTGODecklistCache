@@ -72,6 +72,11 @@ namespace MTGODecklistCache.Updater.App
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "LaBicheTournaments")),
                 t => MTGODecklistCache.Updater.MoxField.TournamentLoader.GetTournamentDetails(t));
 
+            // Updates CFBEvents cache folder
+            UpdateFolder(cacheFolder, "channelfireball.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "ChannelFireball")),
+                t => MTGODecklistCache.Updater.PlainText.TournamentLoader.GetTournamentDetails(t));
+
         }
 
         static void UpdateFolder(string cacheRootFolder, string provider, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)

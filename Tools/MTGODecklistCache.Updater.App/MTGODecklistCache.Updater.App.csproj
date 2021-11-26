@@ -12,12 +12,17 @@
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MoxField\MTGODecklistCache.Updater.MoxField.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MtgMelee\MTGODecklistCache.Updater.MtgMelee.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.PlainText\MTGODecklistCache.Updater.PlainText.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.PlayerLink\MTGODecklistCache.Updater.PlayerLink.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.StarCityGames\MTGODecklistCache.Updater.StarCityGames.csproj" />
+    <ProjectReference Include="..\MTGODecklistCache.Updater.Tools\MTGODecklistCache.Updater.Tools.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Wizards\MTGODecklistCache.Updater.Wizards.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="RawData\ChannelFireball\MTG_Las_Vegas_Modern_Nov_2021.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="RawData\HunterBurtonMemorialOpen\Hunter_Burton_Memorial_Open_Modern_August_2021.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
