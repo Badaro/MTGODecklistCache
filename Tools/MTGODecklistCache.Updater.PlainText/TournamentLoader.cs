@@ -34,7 +34,6 @@ namespace MTGODecklistCache.Updater.PlainText
             Deck deck = null;
             Standing standing = null;
 
-            int rounds = 0;
             string player = String.Empty;
             int points = 0;
             int rank = 0;
@@ -43,11 +42,6 @@ namespace MTGODecklistCache.Updater.PlainText
             List<DeckItem> sideBoard = new List<DeckItem>();
             foreach (string row in rows)
             {
-                if (row.StartsWith("Rounds:"))
-                {
-                    rounds = Int32.Parse(row.Split(":").Last().Trim());
-                    continue;
-                }
                 if (row.StartsWith("Sideboard:"))
                 {
                     inSideboard = true;
