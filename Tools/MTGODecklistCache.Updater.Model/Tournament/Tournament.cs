@@ -13,6 +13,18 @@ namespace MTGODecklistCache.Updater.Model
         [JsonIgnore]
         public string JsonFile { get; set; }
 
+        public Tournament()
+        {
+        }
+
+        public Tournament(Tournament tournament)
+        {
+            this.Date = tournament.Date;
+            this.Name = tournament.Name;
+            this.Uri = tournament.Uri;
+            this.JsonFile = tournament.JsonFile;
+        }
+
         public override string ToString()
         {
             return this.Name + "|" + this.Date.ToString("yyyy-MM-dd");

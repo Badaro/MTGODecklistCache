@@ -1,4 +1,5 @@
 ﻿using MTGODecklistCache.Updater.Model;
+using MTGODecklistCache.Updater.MtgMelee;
 using MTGODecklistCache.Updater.Wizards;
 using Newtonsoft.Json;
 using System;
@@ -38,48 +39,48 @@ namespace MTGODecklistCache.Updater.App
                 t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t));
 
             // Updates ManaTraders cache folder
-            UpdateFolder(cacheFolder, "manatraders.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "ManaTraders")),
+            UpdateFolder<Tournament>(cacheFolder, "manatraders.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "ManaTraders")),
                 t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t));
 
             // Updates Starcity cache folder
-            UpdateFolder(cacheFolder, "starcitygames.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "StarCityGames")),
+            UpdateFolder<Tournament>(cacheFolder, "starcitygames.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "StarCityGames")),
                 t => MTGODecklistCache.Updater.StarCityGames.TournamentLoader.GetTournamentDetails(t));
 
             // Updates NRG cache folder
-            UpdateFolder(cacheFolder, "nerdragegaming.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "NerdRageGaming")),
+            UpdateFolder<MtgMeleeTournament>(cacheFolder, "nerdragegaming.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<MtgMeleeTournament>(Path.Combine(rawDataFolder, "NerdRageGaming")),
                 t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
 
             // Updates MagicGG cache folder
-            UpdateFolder(cacheFolder, "magic.gg",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "MagicGG")),
+            UpdateFolder<Tournament>(cacheFolder, "magic.gg",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "MagicGG")),
                 t => MTGODecklistCache.Updater.MagicGG.TournamentLoader.GetTournamentDetails(t));
 
             // Updates InsightEsports cache folder
-            UpdateFolder(cacheFolder, "insightesports.net",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "InsightEsports")),
+            UpdateFolder<MtgMeleeTournament>(cacheFolder, "insightesports.net",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<MtgMeleeTournament>(Path.Combine(rawDataFolder, "InsightEsports")),
                 t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
 
             // Updates InsightEsports cache folder
-            UpdateFolder(cacheFolder, "hunterburtonmemorialopen.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "HunterBurtonMemorialOpen")),
+            UpdateFolder<Tournament>(cacheFolder, "hunterburtonmemorialopen.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "HunterBurtonMemorialOpen")),
                 t => MTGODecklistCache.Updater.PlayerLink.TournamentLoader.GetTournamentDetails(t));
 
             // Updates LaBicheTournaments cache folder
-            UpdateFolder(cacheFolder, "labichetournaments",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "LaBicheTournaments")),
+            UpdateFolder<Tournament>(cacheFolder, "labichetournaments",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "LaBicheTournaments")),
                 t => MTGODecklistCache.Updater.MoxField.TournamentLoader.GetTournamentDetails(t));
 
             // Updates CFBEvents cache folder
-            UpdateFolder(cacheFolder, "channelfireball.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments(Path.Combine(rawDataFolder, "ChannelFireball")),
+            UpdateFolder<Tournament>(cacheFolder, "channelfireball.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "ChannelFireball")),
                 t => MTGODecklistCache.Updater.PlainText.TournamentLoader.GetTournamentDetails(t));
 
         }
 
-        static void UpdateFolder(string cacheRootFolder, string provider, Func<Tournament[]> tournamentList, Func<Tournament, CacheItem> tournamentLoader)
+        static void UpdateFolder<T>(string cacheRootFolder, string provider, Func<T[]> tournamentList, Func<T, CacheItem> tournamentLoader) where T:Tournament
         {
             string cacheFolder = Path.Combine(cacheRootFolder, provider);
 

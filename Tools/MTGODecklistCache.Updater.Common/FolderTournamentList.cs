@@ -9,12 +9,12 @@ namespace MTGODecklistCache.Updater.Common
 {
     public static class FolderTournamentList
     {
-        public static Tournament[] GetTournaments(string rawDataFolder)
+        public static T[] GetTournaments<T>(string rawDataFolder) where T : Tournament
         {
-            List<Tournament> tournaments = new List<Tournament>();
+            List<T> tournaments = new List<T>();
             foreach (string tournamentFile in Directory.GetFiles(rawDataFolder, "*.json"))
             {
-                Tournament tournament = JsonConvert.DeserializeObject<Tournament>(File.ReadAllText(tournamentFile));
+                T tournament = JsonConvert.DeserializeObject<T>(File.ReadAllText(tournamentFile));
                 tournament.Date = tournament.Date.ToUniversalTime();
                 tournament.JsonFile = $"{Path.GetFileNameWithoutExtension(tournamentFile).Replace("_", "-").ToLowerInvariant()}-{ tournament.Date.ToString("yyyy-MM-dd")}.json";
                 tournaments.Add(tournament);

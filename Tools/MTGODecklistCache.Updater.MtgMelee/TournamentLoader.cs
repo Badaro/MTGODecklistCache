@@ -21,19 +21,19 @@ namespace MTGODecklistCache.Updater.MtgMelee
         static string _phaseParameters = "columns%5B0%5D%5Bdata%5D=Rank&columns%5B0%5D%5Bname%5D=Rank&columns%5B0%5D%5Bsearchable%5D=false&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=Name&columns%5B1%5D%5Bname%5D=Name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=Decklists&columns%5B2%5D%5Bname%5D=Decklists&columns%5B2%5D%5Bsearchable%5D=false&columns%5B2%5D%5Borderable%5D=false&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=Record&columns%5B3%5D%5Bname%5D=Record&columns%5B3%5D%5Bsearchable%5D=false&columns%5B3%5D%5Borderable%5D=false&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=Points&columns%5B4%5D%5Bname%5D=Points&columns%5B4%5D%5Bsearchable%5D=false&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=Tiebreaker1&columns%5B5%5D%5Bname%5D=Tiebreaker1&columns%5B5%5D%5Bsearchable%5D=false&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=Tiebreaker2&columns%5B6%5D%5Bname%5D=Tiebreaker2&columns%5B6%5D%5Bsearchable%5D=false&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=Tiebreaker3&columns%5B7%5D%5Bname%5D=Tiebreaker3&columns%5B7%5D%5Bsearchable%5D=false&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start={start}&length=25&search%5Bvalue%5D=&search%5Bregex%5D=false";
         static string _deckPage = "https://mtgmelee.com/Decklist/View/{deckId}";
 
-        public static CacheItem GetTournamentDetails(Tournament tournament)
+        public static CacheItem GetTournamentDetails(MtgMeleeTournament tournament)
         {
-            var decks = ParseDecks(tournament.Uri.ToString());
+            var decks = ParseDecks(tournament.Uri.ToString(), tournament);
 
             return new CacheItem()
             {
-                Tournament = tournament,
+                Tournament = new Tournament(tournament),
                 Decks = decks.Where(d => d.Item1 != null).Select(d => d.Item1).ToArray(),
                 Standings = decks.Where(d => d.Item2 != null).Select(d => d.Item2).ToArray()
             };
         }
 
-        private static Tuple<Deck, Standing>[] ParseDecks(string url)
+        private static Tuple<Deck, Standing>[] ParseDecks(string url, MtgMeleeTournament tournament)
         {
             List<Tuple<Deck, Standing>> result = new List<Tuple<Deck, Standing>>();
 
@@ -80,9 +80,32 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     };
 
                     string playerDeckId = String.Empty;
+                    List<string> playerDeckListIds = new List<string>();
                     foreach (var decklist in player.Decklists)
                     {
-                        playerDeckId = decklist.ID;
+                        string deckListId = decklist.ID;
+                        playerDeckListIds.Add(deckListId);
+                    }
+                    if (playerDeckListIds.Count > 0)
+                    {
+                        if (tournament.DeckOffset == null)
+                        {
+                            playerDeckId = playerDeckListIds.Last(); // Old behavior for compatibility reasons
+                        }
+                        else
+                        {
+                            if (playerDeckListIds.Count >= tournament.ExpectedDecks)
+                            {
+                                playerDeckId = playerDeckListIds[tournament.DeckOffset.Value];
+                            }
+                            else
+                            {
+                                if (tournament.FixBehavior == MtgMeleeMissingDeckBehavior.UseLast)
+                                {
+                                    playerDeckId = playerDeckListIds.Last();
+                                }
+                            }
+                        }
                     }
 
                     Deck deck = null;
