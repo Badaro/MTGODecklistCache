@@ -40,6 +40,7 @@ namespace MTGODecklistCache.Updater.MagicGG
                 .Select(v => v.Replace("\"", "").Replace("decklistId:", ""))
                 .ToArray();
 
+            int currentDeck = 0;
             foreach (var deckId in deckIds)
             {
                 string deckJsonUrl = _deckRootPage.Replace("{deckId}", deckId);

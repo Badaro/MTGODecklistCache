@@ -47,6 +47,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
 
             bool hasData;
             int offset = 0;
+            int currentPosition = 0;
             do
             {
                 hasData = false;
@@ -62,6 +63,9 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     hasData = true;
                     string playerName = player.Name;
                     playerName = playerName.Trim();
+
+                    Console.Write($"\r{new String(' ', Console.BufferWidth)}");
+                    Console.Write($"\r[MtgMelee] Downloading player {playerName} ({++currentPosition})");
 
                     int playerPoints = player.Points;
 
