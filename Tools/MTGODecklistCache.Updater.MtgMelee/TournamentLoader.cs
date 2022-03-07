@@ -183,6 +183,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 offset += 25;
             } while (hasData);
 
+            Console.WriteLine($"\r[MtgMelee] Downloading completed)");
             return result.ToArray();
         }
     }
