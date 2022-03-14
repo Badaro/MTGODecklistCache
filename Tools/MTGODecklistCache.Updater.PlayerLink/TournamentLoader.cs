@@ -17,10 +17,10 @@ namespace MTGODecklistCache.Updater.PlayerLink
 {
     public static class TournamentLoader
     {
-        public static CacheItem GetTournamentDetails(Tournament tournament)
+        public static CacheItem GetTournamentDetails(PlayerLinkTournament tournament)
         {
             var standingsByPlayer = GetStandingsByPlayer(tournament.Uri.ToString());
-            var decks = GetDecks(tournament.Uri.ToString().Replace("/standings/", "/deck/"), tournament.Date, standingsByPlayer);
+            var decks = GetDecks(tournament.Uri.ToString().Replace("/standings/", "/deck/"), tournament.Date, standingsByPlayer, tournament.PlayerNameFixes);
 
             return new CacheItem()
             {
@@ -29,7 +29,6 @@ namespace MTGODecklistCache.Updater.PlayerLink
                 Standings = standingsByPlayer.Select(s => s.Value).ToArray()
             };
         }
-
 
         private static Dictionary<string, Standing> GetStandingsByPlayer(string standingsUrl)
         {
@@ -65,7 +64,7 @@ namespace MTGODecklistCache.Updater.PlayerLink
             return result;
         }
 
-        private static List<Deck> GetDecks(string decksUri, DateTime eventDate, Dictionary<string, Standing> standings)
+        private static List<Deck> GetDecks(string decksUri, DateTime eventDate, Dictionary<string, Standing> standings, PlayerLinkNameFix[] nameFixes)
         {
             List<Deck> result = new List<Deck>();
 
@@ -74,12 +73,25 @@ namespace MTGODecklistCache.Updater.PlayerLink
             doc.LoadHtml(pageContent);
 
             var playerTable = doc.DocumentNode.SelectNodes("//table").First();
+            var currentPosition = 0;
             foreach (var row in playerTable.SelectNodes("tbody/tr"))
             {
                 var columns = row.SelectNodes("td").ToArray();
                 string lastName = columns[0].InnerText;
                 string firstName = columns[1].InnerText;
                 string deckUrl = columns[3].SelectSingleNode("a").GetAttributeValue("href", null);
+
+                foreach(var nameFix in nameFixes)
+                {
+                    if(lastName==nameFix.OldLastName && firstName==nameFix.OldFirstName)
+                    {
+                        lastName = nameFix.NewLastName;
+                        firstName = nameFix.NewFirstName;
+                    }
+                }
+
+                Console.Write($"\r{new String(' ', Console.BufferWidth)}");
+                Console.Write($"\r[PlayerLink] Downloading player {firstName} {lastName} ({++currentPosition})");
 
                 string rawDeckUrl = deckUrl.Replace("deck/view", "deck/raw");
                 string rawDeckContent = new WebClient().DownloadString(rawDeckUrl);
@@ -103,7 +115,7 @@ namespace MTGODecklistCache.Updater.PlayerLink
 
                     int splitPosition = item.IndexOf(" ");
                     string cardCount = item.Substring(0, splitPosition).TrimStart('*');
-                    string cardName = CardNameNormalizer.Normalize(item.Substring(splitPosition, item.Length - splitPosition));
+                    string cardName = CardNameNormalizer.Normalize(item.Substring(splitPosition, item.Length - splitPosition).Trim().Replace("&#039;", "'"));
 
                     DeckItem deckItem = new DeckItem()
                     {
@@ -137,7 +149,8 @@ namespace MTGODecklistCache.Updater.PlayerLink
                         rank = standings[key].Rank.ToString();
                         if (rank == "1") rank += "st";
                         else if (rank == "2") rank += "nd";
-                        else rank += "rd";
+                        else if (rank == "3") rank += "rd";
+                        else rank += "th";
                     }
                 }
 
@@ -154,6 +167,7 @@ namespace MTGODecklistCache.Updater.PlayerLink
                 result.Add(deck);
             }
 
+            Console.WriteLine($"\r[PlayerLink] Download completed");
             return result.OrderBy(d => standings.ContainsKey(d.Player) ? standings[d.Player].Rank : Int32.MaxValue).ToList();
         }
     }

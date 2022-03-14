@@ -1,5 +1,6 @@
 ﻿using MTGODecklistCache.Updater.Model;
 using MTGODecklistCache.Updater.MtgMelee;
+using MTGODecklistCache.Updater.PlayerLink;
 using MTGODecklistCache.Updater.Wizards;
 using Newtonsoft.Json;
 using System;
@@ -63,9 +64,9 @@ namespace MTGODecklistCache.Updater.App
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<MtgMeleeTournament>(Path.Combine(rawDataFolder, "InsightEsports")),
                 t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
 
-            // Updates InsightEsports cache folder
-            UpdateFolder<Tournament>(cacheFolder, "hunterburtonmemorialopen.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "HunterBurtonMemorialOpen")),
+            // Updates HBMO cache folder
+            UpdateFolder<PlayerLinkTournament>(cacheFolder, "hunterburtonmemorialopen.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<PlayerLinkTournament>(Path.Combine(rawDataFolder, "HunterBurtonMemorialOpen")),
                 t => MTGODecklistCache.Updater.PlayerLink.TournamentLoader.GetTournamentDetails(t));
 
             // Updates LaBicheTournaments cache folder
