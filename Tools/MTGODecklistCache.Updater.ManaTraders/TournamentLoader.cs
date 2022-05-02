@@ -69,7 +69,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
                     var playerName = playerColumn.InnerText.Trim().ToLower();
                     var playerUri = urlLink.Attributes["href"].Value;
 
-                    result.Add(playerName, new Uri(playerUri));
+                    if(!result.ContainsKey(playerName)) result.Add(playerName, new Uri(playerUri));
                 }
             }
 
