@@ -9,6 +9,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
     {
         public int? DeckOffset { get; set; }
         public int? ExpectedDecks { get; set; }
+        public int? PhaseOffset { get; set; }
         public MtgMeleeMissingDeckBehavior FixBehavior { get; set; }
     }
 

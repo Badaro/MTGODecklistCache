@@ -44,6 +44,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
 
             var phaseNode = doc.DocumentNode.SelectNodes("//div[@id='standings-phase-selector-container']").First();
             var phaseId = phaseNode.SelectNodes("button[@class='btn btn-primary round-selector']").Last().Attributes["data-id"].Value;
+            if (tournament.PhaseOffset.HasValue) phaseId = phaseNode.SelectNodes("button[@class='btn btn-primary round-selector']").Skip(tournament.PhaseOffset.Value).First().Attributes["data-id"].Value;
 
             bool hasData;
             int offset = 0;
