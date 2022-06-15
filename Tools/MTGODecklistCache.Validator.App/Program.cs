@@ -113,7 +113,7 @@ namespace MTGODecklistCache.Validator.App
                 connection.Open();
 
                 var command = connection.CreateCommand();
-                command.CommandText = "SELECT name, faceName, layout from cards";
+                command.CommandText = "SELECT name, faceName, layout from cards inner join legalities on cards.uuid = legalities.uuid where borderColor<>'silver' and borderColor<>'gold'";
 
                 using (var reader = command.ExecuteReader())
                 {
