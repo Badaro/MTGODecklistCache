@@ -161,7 +161,7 @@ namespace MTGODecklistCache.Updater.Wizards
             // Cleans up player names
             players = players
                 .Select(p => p.Trim())
-                .Select(p => Regex.Replace(p, @"^\(\d+\)\s+", ""))
+                .Select(p => Regex.Replace(p, @"^\(\d+\)\s*", ""))
                 .ToList();
 
             List<BracketItem> result = new List<BracketItem>();
@@ -171,9 +171,8 @@ namespace MTGODecklistCache.Updater.Wizards
                 {
                     Player1 = players[i].Split(",").First(),
                     Result = players[i].Split(", ").Last(),
-                    Player2 = players[i + 1]
+                    Player2 = players.Count > 1 ? players[i + 1] : ""
                 });
-
             }
 
             return result.ToArray();
