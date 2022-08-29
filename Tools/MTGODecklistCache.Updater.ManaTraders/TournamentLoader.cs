@@ -64,12 +64,12 @@ namespace MTGODecklistCache.Updater.ManaTraders
                 var urlColumn = columns[5];
                 var urlLink = urlColumn.SelectSingleNode("a");
 
-                if(urlLink!=null)
+                if (urlLink != null)
                 {
                     var playerName = playerColumn.InnerText.Trim().ToLower();
                     var playerUri = urlLink.Attributes["href"].Value;
 
-                    if(!result.ContainsKey(playerName)) result.Add(playerName, new Uri(playerUri));
+                    if (!result.ContainsKey(playerName)) result.Add(playerName, new Uri(playerUri));
                 }
             }
 
@@ -197,7 +197,10 @@ namespace MTGODecklistCache.Updater.ManaTraders
                 foreach (var playerNode in bracketNode.SelectNodes("div"))
                 {
                     players.Add(playerNode.SelectNodes("div").First().InnerText);
-                    wins.Add(Convert.ToInt32(playerNode.SelectNodes("div").Last().InnerText));
+
+                    string playerWins = playerNode.SelectNodes("div").Last().InnerText;
+                    if (Int32.TryParse(playerWins, out int parsedWins)) wins.Add(parsedWins);
+                    else wins.Add(0);
                 }
 
                 if (wins[0] > wins[1])
