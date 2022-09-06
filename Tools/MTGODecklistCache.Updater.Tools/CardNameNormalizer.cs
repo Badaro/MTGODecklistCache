@@ -36,6 +36,8 @@ namespace MTGODecklistCache.Updater.Tools
             _normalization.Add("Ghirapur Æther Grid", "Ghirapur Aether Grid");
             _normalization.Add("Unravel the Æther", "Unravel the Aether");
             _normalization.Add("JuzA?m Djinn", "Juzám Djinn");
+            _normalization.Add("Sol'kanar the Tainted", "Sol'Kanar the Tainted");
+            _normalization.Add("Minsc ?amp? Boo, Timeless Heroes", "Minsc & Boo, Timeless Heroes");
 
             // Starcitygames normalization errors
             _normalization.Add("Hall of the Storm Giants", "Hall of Storm Giants");

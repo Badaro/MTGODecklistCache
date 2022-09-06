@@ -12,6 +12,34 @@ namespace MTGODecklistCache.Updater.Wizards.Tests
     public class NameErrorTests
     {
         [Test]
+        public void ShouldFixNameForMinsc()
+        {
+            // Without the dash on Wizard's site
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2022-09-03")
+            }).Decks
+                .First(d => d.Player == "luinil")
+                .Mainboard
+                .First(c => c.CardName.StartsWith("Minsc")).CardName
+                .Should().Be("Minsc & Boo, Timeless Heroes");
+        }
+
+        [Test]
+        public void ShouldFixNameForSolKanar()
+        {
+            // Without the dash on Wizard's site
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/standard-challenge-2022-09-04")
+            }).Decks
+                .First(d => d.Player == "ruin000")
+                .Mainboard
+                .First(c => c.CardName.EndsWith("Tainted")).CardName
+                .Should().Be("Sol'Kanar the Tainted");
+        }
+
+        [Test]
         public void ShouldFixNameForLurrusofTheDreamDen()
         {
             // Without the dash on Wizard's site
