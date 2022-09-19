@@ -98,6 +98,11 @@ namespace MTGODecklistCache.Updater.App
             UpdateFolder<MtgMeleeTournament>(cacheFolder, "legacyeuropeantour.com",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<MtgMeleeTournament>(Path.Combine(rawDataFolder, "LegacyEuropeanTour")),
                 t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
+
+            // Updates OracleEvents cache folder
+            UpdateFolder<MtgMeleeTournament>(cacheFolder, "oracle-e.com",
+                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<MtgMeleeTournament>(Path.Combine(rawDataFolder, "OracleEvents")),
+                t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
         }
 
         static void UpdateFolder<T>(string cacheRootFolder, string provider, Func<T[]> tournamentList, Func<T, CacheItem> tournamentLoader) where T:Tournament
