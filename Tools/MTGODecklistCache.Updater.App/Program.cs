@@ -33,10 +33,10 @@ namespace MTGODecklistCache.Updater.App
                 endDate = DateTime.Parse(args[3], CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime();
             }
 
-            //// Updates Wizards cache folder
-            //UpdateFolder(cacheFolder, "magic.wizards.com",
-            //    () => MTGODecklistCache.Updater.Wizards.TournamentList.GetTournaments(startDate, endDate, null, 7),
-            //    t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t));
+            //// Updates MTGO cache folder
+            UpdateFolder(cacheFolder, "mtgo.com",
+                () => MTGODecklistCache.Updater.Mtgo.TournamentList.GetTournaments(startDate, endDate),
+                t => MTGODecklistCache.Updater.Mtgo.TournamentLoader.GetTournamentDetails(t));
 
             // Updates ManaTraders cache folder
             UpdateFolder<Tournament>(cacheFolder, "manatraders.com",
