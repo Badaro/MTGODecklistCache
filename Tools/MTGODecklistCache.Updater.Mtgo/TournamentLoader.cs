@@ -2,6 +2,7 @@
 using MTGODecklistCache.Updater.Model;
 using MTGODecklistCache.Updater.Tools;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -26,18 +27,42 @@ namespace MTGODecklistCache.Updater.Mtgo
             int cutStart = dataRow.IndexOf("{");
 
             var jsonData = dataRow.Substring(cutStart, dataRow.Length - cutStart - 1);
-
             dynamic json = JsonConvert.DeserializeObject(jsonData);
 
+            return new CacheItem()
+            {
+                Bracket = null,
+                Standings = ParseStanding(json),
+                Rounds = null,
+                Decks = ParseDecks(tournament, json),
+                Tournament = tournament
+            };
+        }
+
+        private static Deck[] ParseDecks(Tournament tournament, dynamic json)
+        {
             string eventType = json.event_type;
             DateTime eventDate = json.date;
+
+            Dictionary<string, string> playerWinloss = new Dictionary<string, string>();
+            if (eventType == "tournament")
+            {
+                foreach (var winloss in json.winloss)
+                {
+                    string player = winloss.player;
+                    int wins = winloss.wins;
+                    int losses = winloss.losses;
+
+                    playerWinloss.Add(player, $"{wins}-{losses}");
+                }
+            }
 
             var decks = new List<Deck>();
             foreach (var deck in json.decks)
             {
                 Dictionary<string, int> mainboard = new Dictionary<string, int>();
                 Dictionary<string, int> sideboard = new Dictionary<string, int>();
-                string playerName = deck.player;
+                string player = deck.player;
 
                 foreach (var deckSection in deck.deck)
                 {
@@ -49,94 +74,60 @@ namespace MTGODecklistCache.Updater.Mtgo
                         string name = card.CARD_ATTRIBUTES.NAME;
                         int quantity = card.Quantity;
 
+                        name = CardNameNormalizer.Normalize(name);
+
                         // JSON may contain multiple entries for the same card, likely if they come from different sets
                         if (!deckSectionItems.ContainsKey(name)) deckSectionItems.Add(name, 0);
                         deckSectionItems[name] += quantity;
                     }
                 }
 
+                string result = String.Empty;
+                if (eventType == "league") result = "5-0";
+                if (eventType == "tournament") result = playerWinloss[player];
+
                 decks.Add(new Deck()
                 {
-                    AnchorUri = new Uri($"{tournament.Uri.ToString()}#deck_{playerName}"),
+                    AnchorUri = new Uri($"{tournament.Uri.ToString()}#deck_{player}"),
                     Date = eventDate,
-                    Player = playerName,
+                    Player = player,
                     Mainboard = mainboard.Select(k => new DeckItem() { CardName = k.Key, Count = k.Value }).ToArray(),
                     Sideboard = sideboard.Select(k => new DeckItem() { CardName = k.Key, Count = k.Value }).ToArray(),
-                    Result = eventType == "league" ? "5-0" : ""
+                    Result = result
                 });
             }
 
-            return new CacheItem()
-            {
-                Bracket = null,
-                Standings = null,
-                Rounds = null,
-                Decks = decks.ToArray(),
-                Tournament = tournament
-            };
+            return decks.ToArray();
         }
 
-        //private static Deck[] ParseDecks(HtmlDocument doc, Uri eventUri)
-        //{
+        private static Standing[] ParseStanding(dynamic json)
+        {
+            if (!HasProperty(json, "STANDINGS")) return null;
 
-        //    List<Deck> result = new List<Deck>();
-        //    var deckNodes = doc.DocumentNode.SelectNodes("//div[@class='deck-group']");
-        //    if (deckNodes == null) return new Deck[0];
+            List<Standing> standings = new List<Standing>();
 
-        //    foreach (var deckNode in deckNodes)
-        //    {
-        //        string anchor = deckNode.GetAttributeValue("id", "");
-        //        string playerName = deckNode.SelectSingleNode("span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").First().Trim();
-        //        if (String.IsNullOrEmpty(playerName)) playerName = deckNode.SelectSingleNode("div[@class='title-deckicon']/span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").First().Trim();
+            foreach (var standing in json.STANDINGS)
+            {
+                string player = standing.NAME;
+                int points = standing.POINTS;
+                int rank = standing.RANK;
+                double GWP = standing.GWP;
+                double OGWP = standing.OGWP;
+                double OMWP = standing.OMWP;
 
-        //        string playerResult = deckNode.SelectSingleNode("span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").Last().TrimEnd(')').Trim();
-        //        if (String.IsNullOrEmpty(playerResult)) playerResult = deckNode.SelectSingleNode("div[@class='title-deckicon']/span[@class='deck-meta']/h4/text()")?.InnerText.Split("(").Last().TrimEnd(')').Trim();
+                standings.Add(new Standing()
+                {
+                    Player = player,
+                    Points = points,
+                    Rank = rank,
+                    GWP = GWP,
+                    OGWP = OGWP,
+                    OMWP = OMWP
+                });
+            }
 
-        //        string deckDateText = deckNode.SelectSingleNode("span[@class='deck-meta']/h5/text()")?.InnerText.Split(" on ").Last().Trim();
-        //        if (String.IsNullOrEmpty(deckDateText)) deckDateText = deckNode.SelectSingleNode("div[@class='title-deckicon']/span[@class='deck-meta']/h5/text()")?.InnerText.Split(" on ").Last().Trim();
-
-        //        var decklistNode = deckNode.SelectSingleNode("div[@class='toggle-text toggle-subnav']/div[@class='deck-list-text']");
-        //        var mainboardNode = decklistNode.SelectSingleNode("div[@class='sorted-by-overview-container sortedContainer']");
-        //        var sideboardNode = decklistNode.SelectSingleNode("div[@class='sorted-by-sideboard-container  clearfix element']");
-
-        //        DateTime? deckDate = null;
-        //        if (!String.IsNullOrEmpty(deckDateText)) deckDate = DateTime.ParseExact(deckDateText, "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime();
-
-        //        result.Add(new Deck()
-        //        {
-        //            Date = deckDate,
-        //            Player = playerName,
-        //            Result = playerResult,
-        //            AnchorUri = new Uri($"{eventUri.ToString()}#{anchor}"),
-        //            Mainboard = ParseCards(mainboardNode, false),
-        //            Sideboard = ParseCards(sideboardNode, true)
-        //        });
-        //    }
-
-        //    return result.ToArray();
-        //}
-
-        //private static DeckItem[] ParseCards(HtmlNode node, bool isSideboard)
-        //{
-        //    if (node == null) return new DeckItem[0];
-
-        //    List<DeckItem> cards = new List<DeckItem>();
-        //    var cardNodes = node.SelectNodes(isSideboard ? "span[@class='row']" : "div/span[@class='row']");
-        //    if (cardNodes == null) return new DeckItem[0];
-
-        //    foreach (var cardNode in cardNodes)
-        //    {
-        //        var cardCount = cardNode.SelectSingleNode("span[@class='card-count']").InnerText;
-        //        var cardName = CardNameNormalizer.Normalize(HttpUtility.HtmlDecode(cardNode.SelectSingleNode("span[@class='card-name']").InnerText));
-
-        //        cards.Add(new DeckItem()
-        //        {
-        //            Count = Int32.Parse(cardCount),
-        //            CardName = cardName
-        //        });
-        //    }
-        //    return (cards.ToArray());
-        //}
+            return standings.ToArray();
+        }
 
         //private static Standing[] ParseStandings(HtmlDocument doc)
         //{
@@ -229,6 +220,11 @@ namespace MTGODecklistCache.Updater.Mtgo
         //        return DateTime.UtcNow.Date;
         //    }
         //}
-    }
 
+        private static bool HasProperty(dynamic obj, string name)
+        {
+            var jobj = (JObject)obj;
+            return obj.Property(name) != null;
+        }
+    }
 }

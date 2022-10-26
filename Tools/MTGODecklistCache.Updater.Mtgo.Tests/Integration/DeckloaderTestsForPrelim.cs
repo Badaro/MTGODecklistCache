@@ -13,69 +13,68 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
 
         protected override int GetDeckCount()
         {
-            return 16;
+            return 3;
         }
 
         protected override DateTime GetEventDate()
         {
-            return new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc);
+            return new DateTime(2022, 10, 25, 00, 00, 00, DateTimeKind.Utc);
         }
 
         protected override DateTime? GetDeckDate()
         {
-            return new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc);
+            return new DateTime(2022, 10, 25, 00, 00, 00, DateTimeKind.Utc);
         }
 
         protected override Uri GetEventUri()
         {
-            return new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-06-02");
+            return new Uri("https://www.mtgo.com/en/mtgo/decklist/modern-preliminary-2022-10-2512488091");
         }
 
         protected override Deck GetFirstDeck()
         {
             return new Deck()
             {
-                Date = new DateTime(2020, 06, 01, 00, 00, 00, DateTimeKind.Utc),
-                Player = "Wartico1",
-                Result = "5-0",
-                AnchorUri = new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-06-02#wartico_-"),
+                Date = new DateTime(2022, 10, 25, 00, 00, 00, DateTimeKind.Utc),
+                Player = "Aeolic",
+                Result = "4-0",
+                AnchorUri = new Uri("https://www.mtgo.com/en/mtgo/decklist/modern-preliminary-2022-10-2512488091#deck_Aeolic"),
                 Mainboard = new DeckItem[]
                 {
-                    new DeckItem(){ CardName="Abbot of Keral Keep",  Count=4 },
-                    new DeckItem(){ CardName="Kiln Fiend",           Count=2 },
-                    new DeckItem(){ CardName="Monastery Swiftspear", Count=4 },
-                    new DeckItem(){ CardName="Soul-Scar Mage",       Count=4 },
-                    new DeckItem(){ CardName="Thoughtseize",         Count=4 },
-                    new DeckItem(){ CardName="Cling to Dust",        Count=3 },
-                    new DeckItem(){ CardName="Fatal Push",           Count=3 },
-                    new DeckItem(){ CardName="Kolaghan's Command",   Count=1 },
-                    new DeckItem(){ CardName="Lava Dart",            Count=2 },
-                    new DeckItem(){ CardName="Lightning Bolt",       Count=4 },
-                    new DeckItem(){ CardName="Manamorphose",         Count=4 },
-                    new DeckItem(){ CardName="Mishra's Bauble",      Count=4 },
-                    new DeckItem(){ CardName="Seal of Fire",         Count=2 },
-                    new DeckItem(){ CardName="Arid Mesa",            Count=1 },
-                    new DeckItem(){ CardName="Blackcleave Cliffs",   Count=4 },
-                    new DeckItem(){ CardName="Blood Crypt",          Count=2 },
-                    new DeckItem(){ CardName="Bloodstained Mire",    Count=4 },
-                    new DeckItem(){ CardName="Marsh Flats",          Count=1 },
-                    new DeckItem(){ CardName="Mountain",             Count=3 },
-                    new DeckItem(){ CardName="Sacred Foundry",       Count=1 },
-                    new DeckItem(){ CardName="Sunbaked Canyon",      Count=2 },
-                    new DeckItem(){ CardName="Swamp",                Count=1 }
+                    new DeckItem(){ CardName="Relic of Progenitus",            Count=4 },
+                    new DeckItem(){ CardName="Bonecrusher Giant",              Count=3 },
+                    new DeckItem(){ CardName="Squee, Dubious Monarch",         Count=1 },
+                    new DeckItem(){ CardName="Fury",                           Count=4 },
+                    new DeckItem(){ CardName="Ragavan, Nimble Pilferer",       Count=4 },
+                    new DeckItem(){ CardName="Seasoned Pyromancer",            Count=4 },
+                    new DeckItem(){ CardName="Blood Moon",                     Count=3 },
+                    new DeckItem(){ CardName="Fable of the Mirror-Breaker",    Count=4 },
+                    new DeckItem(){ CardName="Spikefield Hazard",              Count=2 },
+                    new DeckItem(){ CardName="Lightning Bolt",                 Count=4 },
+                    new DeckItem(){ CardName="Inspiring Vantage",              Count=3 },
+                    new DeckItem(){ CardName="Sokenzan, Crucible of Defiance", Count=1 },
+                    new DeckItem(){ CardName="Prismatic Vista",                Count=1 },
+                    new DeckItem(){ CardName="Den of the Bugbear",             Count=2 },
+                    new DeckItem(){ CardName="Sacred Foundry",                 Count=2 },
+                    new DeckItem(){ CardName="Plains",                         Count=1 },
+                    new DeckItem(){ CardName="Arid Mesa",                      Count=4 },
+                    new DeckItem(){ CardName="Blast Zone",                     Count=2 },
+                    new DeckItem(){ CardName="Jetmir's Garden",                Count=1 },
+                    new DeckItem(){ CardName="Shinka, the Bloodsoaked Keep",   Count=1 },
+                    new DeckItem(){ CardName="Needle Spires",                  Count=1 },
+                    new DeckItem(){ CardName="Mountain",                       Count=2 },
+                    new DeckItem(){ CardName="Flame Slash",                    Count=2 },
+                    new DeckItem(){ CardName="Prismatic Ending",               Count=4 },
                 },
                 Sideboard = new DeckItem[]
                 {
-                    new DeckItem(){ CardName="Fatal Push",              Count=1 },
-                    new DeckItem(){ CardName="Alpine Moon",             Count=2 },
-                    new DeckItem(){ CardName="Engineered Explosives",   Count=2 },
-                    new DeckItem(){ CardName="Lurrus of the Dream-Den", Count=1 },
-                    new DeckItem(){ CardName="Unearth",                 Count=1 },
-                    new DeckItem(){ CardName="Kolaghan's Command",      Count=1 },
-                    new DeckItem(){ CardName="Collective Brutality",    Count=2 },
-                    new DeckItem(){ CardName="Goblin Cratermaker",      Count=1 },
-                    new DeckItem(){ CardName="Nihil Spellbomb",         Count=2 },
-                    new DeckItem(){ CardName="Wear // Tear",            Count=2 }
+                    new DeckItem(){ CardName="Obosh, the Preypiercer", Count=1 },
+                    new DeckItem(){ CardName="Hallowed Moonlight",     Count=4 },
+                    new DeckItem(){ CardName="Burrenton Forge-Tender", Count=2 },
+                    new DeckItem(){ CardName="Chained to the Rocks",   Count=2 },
+                    new DeckItem(){ CardName="Magus of the Moon",      Count=3 },
+                    new DeckItem(){ CardName="Temporary Lockdown",     Count=1 },
+                    new DeckItem(){ CardName="Wear // Tear",           Count=2 },
                 },
             };
         }

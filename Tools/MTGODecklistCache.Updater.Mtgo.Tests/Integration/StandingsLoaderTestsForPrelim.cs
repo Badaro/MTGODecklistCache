@@ -13,7 +13,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
 
         protected override Uri GetEventUri()
         {
-            return new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2020-06-02");
+            return new Uri("https://www.mtgo.com/en/mtgo/decklist/modern-preliminary-2022-10-2512488091");
         }
 
         protected override Standing GetFirstStanding()
@@ -21,18 +21,18 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             return new Standing()
             {
                 Rank = 1,
-                Player = "Wartico1",
-                Points = 15,
-                OMWP = 0.6400,
-                GWP = 0.7143,
-                OGWP = 0.5948
+                Player = "Aeolic",
+                Points = 12,
+                OMWP = 0.5625,
+                GWP = 0.8000,
+                OGWP = 0.5088
             };
 
         }
 
         protected override int GetStandingsCount()
         {
-            return 16;
+            return 3;
         }
     }
 }
