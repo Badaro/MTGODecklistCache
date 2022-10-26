@@ -29,23 +29,29 @@ namespace MTGODecklistCache.Updater.Mtgo
             var jsonData = dataRow.Substring(cutStart, dataRow.Length - cutStart - 1);
             dynamic json = JsonConvert.DeserializeObject(jsonData);
 
+            var bracket = ParseBracket(json);
+            var standing = ParseStanding(json);
+            var order = GetPlayerOrder(bracket, standing);
+
             return new CacheItem()
             {
-                Bracket = null,
-                Standings = ParseStanding(json),
+                Bracket = bracket,
+                Standings = standing,
                 Rounds = null,
-                Decks = ParseDecks(tournament, json),
+                Decks = ParseDecks(tournament, json, order),
                 Tournament = tournament
             };
         }
 
-        private static Deck[] ParseDecks(Tournament tournament, dynamic json)
+        private static Deck[] ParseDecks(Tournament tournament, dynamic json, string[] playerOrder)
         {
             string eventType = json.event_type;
             DateTime eventDate = json.date;
 
+            bool hasWinloss = HasProperty(json, "winloss");
+
             Dictionary<string, string> playerWinloss = new Dictionary<string, string>();
-            if (eventType == "tournament")
+            if (hasWinloss)
             {
                 foreach (var winloss in json.winloss)
                 {
@@ -57,6 +63,7 @@ namespace MTGODecklistCache.Updater.Mtgo
                 }
             }
 
+            HashSet<string> addedPlayers = new HashSet<string>();
             var decks = new List<Deck>();
             foreach (var deck in json.decks)
             {
@@ -84,7 +91,17 @@ namespace MTGODecklistCache.Updater.Mtgo
 
                 string result = String.Empty;
                 if (eventType == "league") result = "5-0";
-                if (eventType == "tournament") result = playerWinloss[player];
+                if (eventType == "tournament" && hasWinloss) result = playerWinloss[player];
+                if (eventType == "tournament" && !hasWinloss && playerOrder != null)
+                {
+                    int rank = playerOrder.ToList().IndexOf(player) + 1;
+                    if (rank == 1) result = "1st Place";
+                    if (rank == 2) result = "2nd Place";
+                    if (rank == 3) result = "3rd Place";
+                    if (rank > 3) result = $"{rank}th Place";
+                }
+
+                if (eventType == "tournament" && addedPlayers.Contains(player)) continue;
 
                 decks.Add(new Deck()
                 {
@@ -95,6 +112,14 @@ namespace MTGODecklistCache.Updater.Mtgo
                     Sideboard = sideboard.Select(k => new DeckItem() { CardName = k.Key, Count = k.Value }).ToArray(),
                     Result = result
                 });
+                addedPlayers.Add(player);
+            }
+
+            if (playerOrder != null)
+            {
+                List<Deck> orderedDecks = new List<Deck>();
+                foreach (var player in playerOrder) orderedDecks.Add(decks.First(d => d.Player == player));
+                decks = orderedDecks;
             }
 
             return decks.ToArray();
@@ -126,100 +151,89 @@ namespace MTGODecklistCache.Updater.Mtgo
                 });
             }
 
-            return standings.ToArray();
+            return standings.OrderBy(s => s.Rank).ToArray();
         }
 
-        //private static Standing[] ParseStandings(HtmlDocument doc)
-        //{
-        //    var standingsRoot = doc.DocumentNode.SelectSingleNode("//table[@class='sticky-enabled']");
-        //    if (standingsRoot == null) return null;
+        private static Bracket ParseBracket(dynamic json)
+        {
+            if (!HasProperty(json, "Brackets")) return null;
 
-        //    List<Standing> result = new List<Standing>();
+            Bracket result = new Bracket();
+            foreach (var bracket in json.Brackets)
+            {
+                List<BracketItem> matches = new List<BracketItem>();
 
-        //    var standingNodes = standingsRoot.SelectNodes("tbody/tr");
-        //    foreach (var standingNode in standingNodes)
-        //    {
-        //        var rows = standingNode.SelectNodes("td");
+                foreach (var match in bracket.matches)
+                {
+                    string player1 = match.players[0].player;
+                    string player2 = match.players[1].player;
+                    int player1Wins = match.players[0].Wins;
+                    int player2Wins = match.players[1].Wins;
+                    bool reverseOrder = match.players[1].Winner;
 
-        //        int rank = int.Parse(rows[0].InnerText);
-        //        string player = rows[1].InnerText.Trim();
-        //        int points = int.Parse(rows[2].InnerText);
-        //        double omwp = double.Parse(rows[3].InnerText, CultureInfo.InvariantCulture);
-        //        double gwp = double.Parse(rows[4].InnerText, CultureInfo.InvariantCulture);
-        //        double ogwp = double.Parse(rows[5].InnerText, CultureInfo.InvariantCulture);
+                    if (reverseOrder)
+                    {
+                        matches.Add(new BracketItem()
+                        {
+                            Player1 = player2,
+                            Player2 = player1,
+                            Result = $"{player2Wins}-{player1Wins}"
+                        });
+                    }
+                    else
+                    {
+                        matches.Add(new BracketItem()
+                        {
+                            Player1 = player1,
+                            Player2 = player2,
+                            Result = $"{player1Wins}-{player2Wins}"
+                        });
+                    }
+                }
 
-        //        result.Add(new Standing()
-        //        {
-        //            Rank = rank,
-        //            Player = player,
-        //            Points = points,
-        //            OMWP = omwp,
-        //            GWP = gwp,
-        //            OGWP = ogwp
-        //        });
-        //    }
+                if (matches.Count == 1) result.Finals = matches.First();
+                if (matches.Count == 2) result.Semifinals = matches.ToArray();
+                if (matches.Count == 4) result.Quarterfinals = matches.ToArray();
+            }
 
-        //    return result.ToArray();
-        //}
+            return result;
+        }
 
-        //private static Bracket ParseBracket(HtmlDocument doc)
-        //{
-        //    var bracketRoot = doc.DocumentNode.SelectSingleNode("//div[@class='wrap-bracket-slider']");
-        //    if (bracketRoot == null) return null;
+        private static string[] GetPlayerOrder(Bracket bracket, Standing[] standings)
+        {
+            if (standings == null) return null;
 
-        //    var bracketNodes = bracketRoot.SelectNodes("div/div[@class='finalists']");
+            List<string> result = new List<string>();
+            foreach (var standing in standings) result.Add(standing.Player);
 
-        //    return new Bracket()
-        //    {
-        //        Quarterfinals = ParseBracketItem(bracketNodes.Skip(0).First()),
-        //        Semifinals = ParseBracketItem(bracketNodes.Skip(1).First()),
-        //        Finals = ParseBracketItem(bracketNodes.Skip(2).First()).First()
-        //    };
-        //}
+            if (bracket != null)
+            {
+                result = PushToTop(result, bracket.Quarterfinals.Select(s => s.Player2).ToList(), standings);
+                result = PushToTop(result, bracket.Semifinals.Select(s => s.Player2).ToList(), standings);
+                result = PushToTop(result, new List<string>() { bracket.Finals.Player2 }, standings);
+                result = PushToTop(result, new List<string>() { bracket.Finals.Player1 }, standings);
+            }
 
-        //private static BracketItem[] ParseBracketItem(HtmlNode node)
-        //{
-        //    var playerNodes = node.SelectNodes("div/div[@class='player']");
+            return result.Distinct().ToArray();
+        }
 
-        //    List<string> players = new List<string>();
-        //    foreach (var playerNode in playerNodes) players.Add(playerNode.InnerText);
+        private static List<string> PushToTop(List<string> players, List<string> pushedPlayers, Standing[] standings)
+        {
+            Dictionary<string, int> playerRanks = new Dictionary<string, int>();
+            foreach (var player in pushedPlayers)
+            {
+                var rank = standings.First(s => s.Player == player).Rank;
+                playerRanks.Add(player, rank);
+            }
 
-        //    // Cleans up player names
-        //    players = players
-        //        .Select(p => p.Trim())
-        //        .Select(p => Regex.Replace(p, @"^\(\d+\)\s*", ""))
-        //        .ToList();
+            string[] remainingPlayers = players.Where(c => !pushedPlayers.Contains(c)).ToArray();
 
-        //    List<BracketItem> result = new List<BracketItem>();
-        //    for (var i = 0; i < players.Count; i = i + 2)
-        //    {
-        //        result.Add(new BracketItem()
-        //        {
-        //            Player1 = players[i].Split(",").First(),
-        //            Result = players[i].Split(", ").Last(),
-        //            Player2 = players.Count > 1 ? players[i + 1] : ""
-        //        });
-        //    }
+            List<string> result = new List<string>();
+            foreach (var player in playerRanks.OrderBy(p => p.Value)) result.Add(player.Key);
+            foreach (var player in remainingPlayers) result.Add(player);
 
-        //    return result.ToArray();
-        //}
-
-        //private static DateTime ExtractDateFromUrl(Uri eventUri)
-        //{
-        //    string eventPath = eventUri.LocalPath;
-        //    string[] eventPathSegments = eventPath.Split("-").Where(e => e.Length > 1).ToArray();
-        //    string eventDate = String.Join("-", eventPathSegments.Skip(eventPathSegments.Length - 3).ToArray());
-
-        //    if (DateTime.TryParse(eventDate, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out DateTime parsedDate))
-        //    {
-        //        return parsedDate.ToUniversalTime();
-        //    }
-        //    else
-        //    {
-        //        // This is only used to decide or not to bypass cache, so it's safe to return a fallback for today forcing the bypass
-        //        return DateTime.UtcNow.Date;
-        //    }
-        //}
+            return result;
+        }
 
         private static bool HasProperty(dynamic obj, string name)
         {

@@ -13,7 +13,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
 
         protected override Uri GetEventUri()
         {
-            return new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2020-06-08");
+            return new Uri("https://www.mtgo.com/en/mtgo/decklist/legacy-challenge-2022-10-2312488075");
         }
 
         protected override Standing GetFirstStanding()
@@ -21,11 +21,11 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             return new Standing()
             {
                 Rank = 1,
-                Player = "JB2002",
-                Points = 21,
-                OMWP = 0.5238,
-                GWP = 0.8235,
-                OGWP = 0.5104
+                Player = "Baku_91",
+                Points = 18,
+                OMWP = 0.6735,
+                GWP = 0.6667,
+                OGWP = 0.6047
             };
         }
 

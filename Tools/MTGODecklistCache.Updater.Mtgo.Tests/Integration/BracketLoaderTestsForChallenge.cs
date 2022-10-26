@@ -17,23 +17,23 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             {
                 Quarterfinals = new BracketItem[]
                 {
-                    new BracketItem(){ Player1 = "TSPJendrek", Player2 = "AstralPlane",  Result= "2-0" },
-                    new BracketItem(){ Player1 = "JB2002",     Player2 = "signblindman", Result= "2-1" },
-                    new BracketItem(){ Player1 = "ZYURYO",     Player2 = "Blitzlion27",  Result= "2-0" },
-                    new BracketItem(){ Player1 = "Yanti",      Player2 = "SvenSvenSven", Result= "2-1" }
+                    new BracketItem(){ Player1 = "Baku_91",     Player2 = "Ozymandias17",         Result= "2-1" },
+                    new BracketItem(){ Player1 = "Didackith",   Player2 = "Eureka22422",          Result= "2-1" },
+                    new BracketItem(){ Player1 = "DNSolver",    Player2 = "Iwouldliketorespond",  Result= "2-1" },
+                    new BracketItem(){ Player1 = "Oceansoul92", Player2 = "Butakov",              Result= "2-1" }
                 },
                 Semifinals = new BracketItem[]
                 {
-                    new BracketItem(){ Player1 = "TSPJendrek", Player2 = "JB2002", Result= "2-1" },
-                    new BracketItem(){ Player1 = "ZYURYO",     Player2 = "Yanti",  Result= "2-0" }
+                    new BracketItem(){ Player1 = "Baku_91",  Player2 = "Didackith",   Result= "2-0" },
+                    new BracketItem(){ Player1 = "DNSolver", Player2 = "Oceansoul92", Result= "2-0" }
                 },
-                Finals = new BracketItem() { Player1 = "TSPJendrek", Player2 = "ZYURYO", Result = "2-0" }
+                Finals = new BracketItem() { Player1 = "Baku_91", Player2 = "DNSolver", Result = "2-1" }
             };
         }
 
         protected override Uri GetEventUri()
         {
-            return new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2020-06-08");
+            return new Uri("https://www.mtgo.com/en/mtgo/decklist/legacy-challenge-2022-10-2312488075");
         }
     }
 }

@@ -13,10 +13,13 @@ namespace MTGODecklistCache.Updater.Tools
 
         static CardNameNormalizer()
         {
-            AddCardsByCriteria("is:split", (f, b) => $"{f} // {b}");
-            AddCardsByCriteria("is:dfc -is:extra", (f, b) => $"{f}");
-            AddCardsByCriteria("is:adventure", (f, b) => $"{f}");
-            AddCardsByCriteria("is:flip", (f, b) => $"{f}");
+            AddTextReplacement("Aether", "Æther");
+            AddTextReplacement("Aether", "Ã\u0086ther");
+
+            AddMultinameCards("is:split", (f, b) => $"{f} // {b}");
+            AddMultinameCards("is:dfc -is:extra", (f, b) => $"{f}");
+            AddMultinameCards("is:adventure", (f, b) => $"{f}");
+            AddMultinameCards("is:flip", (f, b) => $"{f}");
 
             // ManaTraders normalization errors
             _normalization.Add("Full Art Plains", "Plains");
@@ -32,9 +35,6 @@ namespace MTGODecklistCache.Updater.Tools
             _normalization.Add("Lim-DA?l's Vault", "Lim-Dûl's Vault");
             _normalization.Add("Lim-DAul's Vault", "Lim-Dûl's Vault");
             _normalization.Add("SAcance", "Séance");
-            _normalization.Add("Æther Vial", "Aether Vial");
-            _normalization.Add("Ghirapur Æther Grid", "Ghirapur Aether Grid");
-            _normalization.Add("Unravel the Æther", "Unravel the Aether");
             _normalization.Add("JuzA?m Djinn", "Juzám Djinn");
             _normalization.Add("Sol'kanar the Tainted", "Sol'Kanar the Tainted");
             _normalization.Add("Minsc ?amp? Boo, Timeless Heroes", "Minsc & Boo, Timeless Heroes");
@@ -50,7 +50,32 @@ namespace MTGODecklistCache.Updater.Tools
             else return card;
         }
 
-        private static void AddCardsByCriteria(string criteria, Func<string, string, string> createTargetName)
+        private static void AddTextReplacement(string validString, string invalidString)
+        {
+            string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode(validString));
+            bool hasMore;
+            do
+            {
+                string json = new WebClient().DownloadString(api);
+                dynamic data = JsonConvert.DeserializeObject(json);
+
+                foreach (var card in data.data)
+                {
+                    string cardName = card.name;
+                    string invalidCardName = cardName.Replace(validString, invalidString);
+
+                    if (!cardName.Contains(validString)) continue; // For some odd reason scryfall returns "Breya, Etherium Shaper" when searching for "Aether"
+                    _normalization.Add(invalidCardName, cardName);
+                }
+
+                hasMore = data.has_more;
+                api = data.next_page;
+            }
+            while (hasMore);
+        }
+
+
+        private static void AddMultinameCards(string criteria, Func<string, string, string> createTargetName)
         {
             string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode(criteria));
             bool hasMore;
