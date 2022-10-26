@@ -1,7 +1,6 @@
 ﻿using MTGODecklistCache.Updater.Model;
 using MTGODecklistCache.Updater.MtgMelee;
 using MTGODecklistCache.Updater.PlayerLink;
-using MTGODecklistCache.Updater.Wizards;
 using Newtonsoft.Json;
 using System;
 using System.Globalization;
@@ -34,10 +33,10 @@ namespace MTGODecklistCache.Updater.App
                 endDate = DateTime.Parse(args[3], CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime();
             }
 
-            // Updates Wizards cache folder
-            UpdateFolder(cacheFolder, "magic.wizards.com",
-                () => MTGODecklistCache.Updater.Wizards.TournamentList.GetTournaments(startDate, endDate, null, 7),
-                t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t));
+            //// Updates Wizards cache folder
+            //UpdateFolder(cacheFolder, "magic.wizards.com",
+            //    () => MTGODecklistCache.Updater.Wizards.TournamentList.GetTournaments(startDate, endDate, null, 7),
+            //    t => MTGODecklistCache.Updater.Wizards.TournamentLoader.GetTournamentDetails(t));
 
             // Updates ManaTraders cache folder
             UpdateFolder<Tournament>(cacheFolder, "manatraders.com",

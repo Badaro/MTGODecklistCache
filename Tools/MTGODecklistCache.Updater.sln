@@ -5,11 +5,7 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Model", "MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj", "{3FE6EEC5-384C-42B9-80B5-BBEE6573F982}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Wizards", "MTGODecklistCache.Updater.Wizards\MTGODecklistCache.Updater.Wizards.csproj", "{528BC784-07FA-4654-B11E-7AEC69174D6B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.App", "MTGODecklistCache.Updater.App\MTGODecklistCache.Updater.App.csproj", "{C3B36802-8891-461F-9C01-9D4B263A8964}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Wizards.Tests", "MTGODecklistCache.Updater.Wizards.Tests\MTGODecklistCache.Updater.Wizards.Tests.csproj", "{9F8BA14D-3443-413E-9203-06406FB63344}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.ManaTraders", "MTGODecklistCache.Updater.ManaTraders\MTGODecklistCache.Updater.ManaTraders.csproj", "{84F743AC-CF45-43F6-82AF-3C609494C470}"
 EndProject
@@ -33,9 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.PlainText", "MTGODecklistCache.Updater.PlainText\MTGODecklistCache.Updater.PlainText.csproj", "{D6333ECA-A300-4A42-80C2-E4E366F85563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Mtgo", "MTGODecklistCache.Updater.Mtgo\MTGODecklistCache.Updater.Mtgo.csproj", "{E5BE5B78-995F-492A-94E5-A996697025B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Mtgo", "MTGODecklistCache.Updater.Mtgo\MTGODecklistCache.Updater.Mtgo.csproj", "{E5BE5B78-995F-492A-94E5-A996697025B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Mtgo.Tests", "MTGODecklistCache.Updater.Mtgo.Tests\MTGODecklistCache.Updater.Mtgo.Tests.csproj", "{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Mtgo.Tests", "MTGODecklistCache.Updater.Mtgo.Tests\MTGODecklistCache.Updater.Mtgo.Tests.csproj", "{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,18 +43,10 @@ Global
 		{3FE6EEC5-384C-42B9-80B5-BBEE6573F982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FE6EEC5-384C-42B9-80B5-BBEE6573F982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FE6EEC5-384C-42B9-80B5-BBEE6573F982}.Release|Any CPU.Build.0 = Release|Any CPU
-		{528BC784-07FA-4654-B11E-7AEC69174D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{528BC784-07FA-4654-B11E-7AEC69174D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{528BC784-07FA-4654-B11E-7AEC69174D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{528BC784-07FA-4654-B11E-7AEC69174D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3B36802-8891-461F-9C01-9D4B263A8964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C3B36802-8891-461F-9C01-9D4B263A8964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B36802-8891-461F-9C01-9D4B263A8964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B36802-8891-461F-9C01-9D4B263A8964}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F8BA14D-3443-413E-9203-06406FB63344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F8BA14D-3443-413E-9203-06406FB63344}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F8BA14D-3443-413E-9203-06406FB63344}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F8BA14D-3443-413E-9203-06406FB63344}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84F743AC-CF45-43F6-82AF-3C609494C470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84F743AC-CF45-43F6-82AF-3C609494C470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F743AC-CF45-43F6-82AF-3C609494C470}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -112,8 +100,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{528BC784-07FA-4654-B11E-7AEC69174D6B} = {48F65E7F-E367-40F3-871C-71D48240CE38}
-		{9F8BA14D-3443-413E-9203-06406FB63344} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{84F743AC-CF45-43F6-82AF-3C609494C470} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{74990A04-3EAF-40BD-9BE1-CAF303EF2973} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{3796E19A-B84F-44D1-A4B5-6DB9B345A9FB} = {48F65E7F-E367-40F3-871C-71D48240CE38}
