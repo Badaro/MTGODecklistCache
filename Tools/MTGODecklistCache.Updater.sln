@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Model", "MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj", "{3FE6EEC5-384C-42B9-80B5-BBEE6573F982}"
 EndProject
@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.MoxField", "MTGODecklistCache.Updater.MoxField\MTGODecklistCache.Updater.MoxField.csproj", "{911CD788-4081-432F-A5BC-DB364A64CCD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.PlainText", "MTGODecklistCache.Updater.PlainText\MTGODecklistCache.Updater.PlainText.csproj", "{D6333ECA-A300-4A42-80C2-E4E366F85563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.PlainText", "MTGODecklistCache.Updater.PlainText\MTGODecklistCache.Updater.PlainText.csproj", "{D6333ECA-A300-4A42-80C2-E4E366F85563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Mtgo", "MTGODecklistCache.Updater.Mtgo\MTGODecklistCache.Updater.Mtgo.csproj", "{E5BE5B78-995F-492A-94E5-A996697025B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Mtgo.Tests", "MTGODecklistCache.Updater.Mtgo.Tests\MTGODecklistCache.Updater.Mtgo.Tests.csproj", "{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,14 @@ Global
 		{D6333ECA-A300-4A42-80C2-E4E366F85563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6333ECA-A300-4A42-80C2-E4E366F85563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6333ECA-A300-4A42-80C2-E4E366F85563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BE5B78-995F-492A-94E5-A996697025B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BE5B78-995F-492A-94E5-A996697025B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BE5B78-995F-492A-94E5-A996697025B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BE5B78-995F-492A-94E5-A996697025B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +121,8 @@ Global
 		{53A13A6A-D598-4D7A-A9BA-342479C0CEFD} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{911CD788-4081-432F-A5BC-DB364A64CCD3} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{D6333ECA-A300-4A42-80C2-E4E366F85563} = {48F65E7F-E367-40F3-871C-71D48240CE38}
+		{E5BE5B78-995F-492A-94E5-A996697025B8} = {48F65E7F-E367-40F3-871C-71D48240CE38}
+		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00ADC308-584B-44CA-8D96-0ACC25C78A51}
