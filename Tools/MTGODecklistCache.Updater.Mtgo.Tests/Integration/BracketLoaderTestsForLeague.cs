@@ -18,7 +18,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
 
         protected override Uri GetEventUri()
         {
-            return new Uri("https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-league-2020-08-04");
+            return new Uri("https://www.mtgo.com/en/mtgo/decklist/modern-league-2020-08-04");
         }
     }
 }

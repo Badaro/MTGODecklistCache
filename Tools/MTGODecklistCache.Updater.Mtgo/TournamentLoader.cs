@@ -16,31 +16,64 @@ namespace MTGODecklistCache.Updater.Mtgo
     {
         public static CacheItem GetTournamentDetails(Tournament tournament)
         {
-            throw new NotImplementedException();
+            string htmlContent;
+            using (WebClient client = new WebClient())
+            {
+                htmlContent = client.DownloadString(tournament.Uri);
+            }
 
-            //Uri eventUri = tournament.Uri;
-            //DateTime eventDate = ExtractDateFromUrl(eventUri);
+            var dataRow = htmlContent.Replace("\r", "").Split("\n").First(l => l.Trim().StartsWith("window.MTGO.decklists.data"));
+            int cutStart = dataRow.IndexOf("{");
 
-            //string randomizedEventUrl = ((DateTime.UtcNow - eventDate).TotalDays < 1) ?
-            //    $"{eventUri}?rand={Guid.NewGuid()}" :
-            //    eventUri.ToString(); // Fixes occasional caching issues on recent events
+            var jsonData = dataRow.Substring(cutStart, dataRow.Length - cutStart - 1);
 
-            //string pageContent;
-            //using (WebClient client = new WebClient())
-            //{
-            //    pageContent = client.DownloadString(randomizedEventUrl);
-            //}
+            dynamic json = JsonConvert.DeserializeObject(jsonData);
 
-            //HtmlDocument doc = new HtmlDocument();
-            //doc.LoadHtml(pageContent);
+            string eventType = json.event_type;
+            DateTime eventDate = json.date;
 
-            //return new CacheItem()
-            //{
-            //    Tournament = tournament,
-            //    Decks = ParseDecks(doc, eventUri),
-            //    Standings = ParseStandings(doc),
-            //    Bracket = ParseBracket(doc)
-            //};
+            var decks = new List<Deck>();
+            foreach (var deck in json.decks)
+            {
+                Dictionary<string, int> mainboard = new Dictionary<string, int>();
+                Dictionary<string, int> sideboard = new Dictionary<string, int>();
+                string playerName = deck.player;
+
+                foreach (var deckSection in deck.deck)
+                {
+                    bool isSb = deckSection.SB;
+                    Dictionary<string, int> deckSectionItems = isSb ? sideboard : mainboard;
+
+                    foreach (var card in deckSection.DECK_CARDS)
+                    {
+                        string name = card.CARD_ATTRIBUTES.NAME;
+                        int quantity = card.Quantity;
+
+                        // JSON may contain multiple entries for the same card, likely if they come from different sets
+                        if (!deckSectionItems.ContainsKey(name)) deckSectionItems.Add(name, 0);
+                        deckSectionItems[name] += quantity;
+                    }
+                }
+
+                decks.Add(new Deck()
+                {
+                    AnchorUri = new Uri($"{tournament.Uri.ToString()}#deck_{playerName}"),
+                    Date = eventDate,
+                    Player = playerName,
+                    Mainboard = mainboard.Select(k => new DeckItem() { CardName = k.Key, Count = k.Value }).ToArray(),
+                    Sideboard = sideboard.Select(k => new DeckItem() { CardName = k.Key, Count = k.Value }).ToArray(),
+                    Result = eventType == "league" ? "5-0" : ""
+                });
+            }
+
+            return new CacheItem()
+            {
+                Bracket = null,
+                Standings = null,
+                Rounds = null,
+                Decks = decks.ToArray(),
+                Tournament = tournament
+            };
         }
 
         //private static Deck[] ParseDecks(HtmlDocument doc, Uri eventUri)
