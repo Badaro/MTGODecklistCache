@@ -56,42 +56,6 @@ namespace MTGODecklistCache.Updater.Mtgo
 
             return results.Where(t => t.Date >= startDate && t.Date <= endDate).OrderByDescending(t => t.Date).ToArray();
         }
-
-        //private static Tournament[] ParseTournaments(string pageContent)
-        //{
-        //    List<Tournament> result = new List<Tournament>();
-
-        //    HtmlDocument doc = new HtmlDocument();
-        //    doc.LoadHtml(pageContent);
-
-        //    foreach (var tournamentNode in doc.DocumentNode.SelectNodes("div/a"))
-        //    {
-        //        var tournamentUrl = tournamentNode.Attributes["href"].Value;
-        //        var tournamentName = tournamentNode.SelectSingleNode("div/div[@class='title']").InnerText.Replace("\t", "").Replace("\n", "").Trim();
-
-        //        string tournamentDate = String.Join(" ", tournamentName.Split(' ').TakeLast(3));
-        //        tournamentName = tournamentName.Replace(tournamentDate, "").Trim();
-
-        //        var tournamentUri = new Uri(_rootUrl + tournamentUrl);
-        //        result.Add(new Tournament()
-        //        {
-        //            Name = tournamentName,
-        //            Date = DateTime.Parse(tournamentDate, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal).ToUniversalTime(),
-        //            Uri = tournamentUri,
-        //            JsonFile = $"{Path.GetFileName(tournamentUri.LocalPath)}.json"
-        //        });
-        //    }
-
-        //    return result.ToArray();
-        //}
-
-        //private static string FormatDateForUrl(DateTime date)
-        //{
-        //    var day = date.Day.ToString("D2");
-        //    var month = date.Month.ToString("D2");
-        //    var year = date.Year.ToString("D4");
-        //    return $"{month}%2F{day}%2F{year}";
-        //}
     }
 
 }
