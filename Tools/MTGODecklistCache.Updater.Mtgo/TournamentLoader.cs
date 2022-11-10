@@ -91,7 +91,7 @@ namespace MTGODecklistCache.Updater.Mtgo
 
                 string result = String.Empty;
                 if (eventType == "league") result = "5-0";
-                if (eventType == "tournament" && hasWinloss) result = playerWinloss[player];
+                if (eventType == "tournament" && hasWinloss && playerWinloss.ContainsKey(player)) result = playerWinloss[player];
                 if (eventType == "tournament" && !hasWinloss && playerOrder != null)
                 {
                     int rank = playerOrder.ToList().IndexOf(player) + 1;
