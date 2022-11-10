@@ -208,10 +208,10 @@ namespace MTGODecklistCache.Updater.Mtgo
 
             if (bracket != null)
             {
-                result = PushToTop(result, bracket.Quarterfinals.Select(s => s.Player2).ToList(), standings);
-                result = PushToTop(result, bracket.Semifinals.Select(s => s.Player2).ToList(), standings);
-                result = PushToTop(result, new List<string>() { bracket.Finals.Player2 }, standings);
-                result = PushToTop(result, new List<string>() { bracket.Finals.Player1 }, standings);
+                if (bracket.Quarterfinals != null) result = PushToTop(result, bracket.Quarterfinals.Select(s => s.Player2).ToList(), standings);
+                if (bracket.Semifinals != null) result = PushToTop(result, bracket.Semifinals.Select(s => s.Player2).ToList(), standings);
+                if (bracket.Finals != null) result = PushToTop(result, new List<string>() { bracket.Finals.Player2 }, standings);
+                if (bracket.Finals != null) result = PushToTop(result, new List<string>() { bracket.Finals.Player1 }, standings);
             }
 
             return result.Distinct().ToArray();
