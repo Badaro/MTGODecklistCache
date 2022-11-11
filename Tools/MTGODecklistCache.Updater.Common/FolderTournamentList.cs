@@ -11,6 +11,8 @@ namespace MTGODecklistCache.Updater.Common
     {
         public static T[] GetTournaments<T>(string rawDataFolder) where T : Tournament
         {
+            if (!Directory.Exists(rawDataFolder)) return new T[0];
+
             List<T> tournaments = new List<T>();
             foreach (string tournamentFile in Directory.GetFiles(rawDataFolder, "*.json"))
             {

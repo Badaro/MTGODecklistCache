@@ -75,5 +75,18 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
                 .First(c => c.CardName.EndsWith("Dementia")).CardName
                 .Should().Be("Altar of Dementia");
         }
+
+        [Test]
+        public void ShouldIgnoreEmptySpacesOnCardNames()
+        {
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/strixhaven-championship-limited-qualifier-2021-03-2712277612")
+            }).Decks
+                .First(d => d.Player == "JPA93")
+                .Sideboard
+                .First(c => c.CardName.StartsWith("Karfell Kennel")).CardName
+                .Should().NotEndWith(" ") ;
+        }
     }
 }

@@ -52,6 +52,7 @@ namespace MTGODecklistCache.Updater.Tools
 
         public static string Normalize(string card)
         {
+            card = card.Trim();
             if (_normalization.ContainsKey(card)) return _normalization[card];
             else return card;
         }
