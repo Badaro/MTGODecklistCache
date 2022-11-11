@@ -220,7 +220,7 @@ namespace MTGODecklistCache.Updater.Mtgo
         private static List<string> PushToTop(List<string> players, List<string> pushedPlayers, Standing[] standings)
         {
             Dictionary<string, int> playerRanks = new Dictionary<string, int>();
-            foreach (var player in pushedPlayers)
+            foreach (var player in pushedPlayers.Where(p => standings.Any(s => s.Player == p)))
             {
                 var rank = standings.First(s => s.Player == player).Rank;
                 playerRanks.Add(player, rank);
