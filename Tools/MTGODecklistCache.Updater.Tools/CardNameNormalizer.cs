@@ -39,6 +39,12 @@ namespace MTGODecklistCache.Updater.Tools
             _normalization.Add("Sol'kanar the Tainted", "Sol'Kanar the Tainted");
             _normalization.Add("Minsc ?amp? Boo, Timeless Heroes", "Minsc & Boo, Timeless Heroes");
 
+            // MTGO normalization errors
+            _normalization.Add("Jotun Grunt", "Jötun Grunt");
+            _normalization.Add("Lim-DÃ»l's Vault", "Lim-Dûl's Vault");
+            _normalization.Add("Rain Of Tears", "Rain of Tears");
+            _normalization.Add("Altar Of Dementia", "Altar of Dementia");
+
             // Starcitygames normalization errors
             _normalization.Add("Hall of the Storm Giants", "Hall of Storm Giants");
 
