@@ -28,7 +28,6 @@ namespace MTGODecklistCache.Validator.App
             string[] tournamentFiles = Directory.GetFiles(args[0], "*.json", SearchOption.AllDirectories);
             Console.Write($"Loading tournaments: {count}/{tournamentFiles.Length}");
 
-            List<string> damagedFiles = new List<string>();
             List<string> validationErrors = new List<string>();
 
             foreach (string tournamentFile in tournamentFiles)
@@ -42,7 +41,6 @@ namespace MTGODecklistCache.Validator.App
                 if (tournament.Decks.Count == 0)
                 {
                     validationErrors.Add($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} has no decks");
-                    damagedFiles.Add(tournamentFile);
                 }
                 else
                 {
@@ -57,7 +55,6 @@ namespace MTGODecklistCache.Validator.App
                             if (!validCards.Contains(cardName))
                             {
                                 validationErrors.Add($"Invalid Card {cardName} in tournament {Path.GetFileNameWithoutExtension(tournamentFile)}");
-                                damagedFiles.Add(tournamentFile);
                             }
                         }
                         foreach (var card in deck.Sideboard)
@@ -66,7 +63,6 @@ namespace MTGODecklistCache.Validator.App
                             if (!validCards.Contains(cardName))
                             {
                                 validationErrors.Add($"Invalid Card {cardName} in tournament {Path.GetFileNameWithoutExtension(tournamentFile)}");
-                                damagedFiles.Add(tournamentFile);
                             }
                         }
                     }
@@ -74,7 +70,6 @@ namespace MTGODecklistCache.Validator.App
                     if (!hasDecksWithCards)
                     {
                         validationErrors.Add($"Tournament {Path.GetFileNameWithoutExtension(tournamentFile)} has only empty decks");
-                        damagedFiles.Add(tournamentFile);
                     }
                 }
             }
@@ -82,8 +77,7 @@ namespace MTGODecklistCache.Validator.App
             Console.Write(Environment.NewLine);
             Console.WriteLine("Finished tournament validation");
             Console.WriteLine($"Found {validationErrors.Count} errors in tournament files");
-            //foreach (string validationError in validationErrors) Console.WriteLine(validationError);
-            foreach (string damagedFile in damagedFiles) Console.WriteLine("del " + damagedFile);
+            foreach (string validationError in validationErrors) Console.WriteLine(validationError);
         }
 
         #region GetCardNames - SQLite Version

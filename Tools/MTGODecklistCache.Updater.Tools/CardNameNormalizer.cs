@@ -46,6 +46,7 @@ namespace MTGODecklistCache.Updater.Tools
             _normalization.Add("Altar Of Dementia", "Altar of Dementia");
             _normalization.Add("JuzÃ¡m Djinn", "Juzám Djinn");
             _normalization.Add("SÃ©ance", "Séance");
+            _normalization.Add("Tura KennerÃ¼d, Skyknight", "Tura Kennerüd, Skyknight");
 
             // Starcitygames normalization errors
             _normalization.Add("Hall of the Storm Giants", "Hall of Storm Giants");

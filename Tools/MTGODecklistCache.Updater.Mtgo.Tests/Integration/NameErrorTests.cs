@@ -77,6 +77,19 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         }
 
         [Test]
+        public void ShouldFixNameForTuraKennerudSkyknight()
+        {
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/pioneer-qualifier-2022-10-0112480040")
+            }).Decks
+                .First(d => d.Player == "GalaxyXpress")
+                .Mainboard
+                .First(c => c.CardName.StartsWith("Tura")).CardName
+                .Should().Be("Tura Kennerüd, Skyknight");
+        }
+
+        [Test]
         public void ShouldFixCasingForRainOfTears()
         {
             TournamentLoader.GetTournamentDetails(new Tournament()
