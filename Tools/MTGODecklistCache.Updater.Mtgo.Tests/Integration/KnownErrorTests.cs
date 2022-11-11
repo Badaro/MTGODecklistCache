@@ -82,5 +82,28 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             .Should()
             .HaveCount(1);
         }
+
+        [Test]
+        public void ShouldParseInconsistentBracketAndStandingsCorrectly()
+        {
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/2019-mocs-open-2019-03-0911818115")
+            }).Decks
+                .Select(s => s.Player)
+                .Should()
+                .BeEquivalentTo(new string[]
+                {
+                    "Piratus", 
+                    "MentalMisstep", 
+                    "Folero", 
+                    "hshipley", 
+                    "msskinbolic", 
+                    "Daniel_Garcia", 
+                    "Fcormier", 
+                    "Laopooh"
+                });
+            ;
+        }
     }
 }
