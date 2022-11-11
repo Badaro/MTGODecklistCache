@@ -38,6 +38,32 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         }
 
         [Test]
+        public void ShouldFixNameForJuzamDjinn()
+        {
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/legacy-league-2021-04-03")
+            }).Decks
+                .First(d => d.Player == "Zolgia108")
+                .Mainboard
+                .First(c => c.CardName.EndsWith("Djinn")).CardName
+                .Should().Be("Juzám Djinn");
+        }
+
+        [Test]
+        public void ShouldFixNameForSeance()
+        {
+            TournamentLoader.GetTournamentDetails(new Tournament()
+            {
+                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/modern-league-2018-09-14")
+            }).Decks
+                .First(d => d.Player == "Brock19")
+                .Mainboard
+                .First(c => c.CardName.EndsWith("ance")).CardName
+                .Should().Be("Séance");
+        }
+
+        [Test]
         public void ShouldFixNameForLimDulsVault()
         {
             TournamentLoader.GetTournamentDetails(new Tournament()
