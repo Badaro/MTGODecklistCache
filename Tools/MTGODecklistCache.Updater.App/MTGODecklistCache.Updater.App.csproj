@@ -10,23 +10,13 @@
     <ProjectReference Include="..\MTGODecklistCache.Updater.MagicGG\MTGODecklistCache.Updater.MagicGG.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.ManaTraders\MTGODecklistCache.Updater.ManaTraders.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
-    <ProjectReference Include="..\MTGODecklistCache.Updater.MoxField\MTGODecklistCache.Updater.MoxField.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MtgMelee\MTGODecklistCache.Updater.MtgMelee.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Mtgo\MTGODecklistCache.Updater.Mtgo.csproj" />
-    <ProjectReference Include="..\MTGODecklistCache.Updater.PlainText\MTGODecklistCache.Updater.PlainText.csproj" />
-    <ProjectReference Include="..\MTGODecklistCache.Updater.PlayerLink\MTGODecklistCache.Updater.PlayerLink.csproj" />
-    <ProjectReference Include="..\MTGODecklistCache.Updater.StarCityGames\MTGODecklistCache.Updater.StarCityGames.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Tools\MTGODecklistCache.Updater.Tools.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="RawData\ChannelFireball\MTG_Las_Vegas_Modern_Nov_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="RawData\Dreamhack\Dreamhack_Dallas_SA_10h_Modern_10k_Jun_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\HunterBurtonMemorialOpen\Hunter_Burton_Memorial_Open_Modern_August_2021.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\InsightEsports\Insight_Esports_Presents_Tier_1_Games_5k_Modern_Open_July_2021.json">
@@ -152,9 +142,6 @@
     <None Update="RawData\ManaTraders\ManaTraders_Series_Vintage_January_2021.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\LaBicheTournaments\Modern_Championship_5K_Paris_Nov_20.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="RawData\NerdRageGaming\NRG_Series_10k_Trial_Newark_Ohio_Team_October_2022_Legacy.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -266,133 +253,88 @@
     <None Update="RawData\OracleEvents\MTG_SEA_Championships_Philippine_Open_Modern_August_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Columbus_Modern_20k_Sat_Sun_September_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Columbus_Modern_20k_Sat_Sun_September_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Columbus_Modern_20k_Fri_Sun_September_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Columbus_Modern_20k_Fri_Sun_September_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Columbus_Modern_10k_September_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Columbus_Modern_10k_September_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Baltimore_Team_Constructed_25K_Pioneer_August_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Baltimore_Team_Constructed_25K_Pioneer_August_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Baltimore_Team_Constructed_25K_Modern_August_2022 .json">
+    <None Update="RawData\StarCityGames\SCG_CON_Baltimore_Team_Constructed_25K_Modern_August_2022 .json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Baltimore_Team_Constructed_25K_Legacy_August_2022 .json">
+    <None Update="RawData\StarCityGames\SCG_CON_Baltimore_Team_Constructed_25K_Legacy_August_2022 .json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Baltimore_Pioneer_5k_SAugust_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Baltimore_Pioneer_5k_SAugust_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Baltimore_Modern_5k_August_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Baltimore_Modern_5k_August_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Friday_1PM_Modern_Trial_October_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Friday_1PM_Modern_Trial_October_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Friday_4PM_Modern_Trial_October_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Friday_4PM_Modern_Trial_October_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Pioneer_5k_October_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Pioneer_5k_October_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Modern_5k_October_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Modern_5k_October_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Modern_30k_October_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Modern_30k_October_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Friday_1630PM_Modern_Trial_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Friday_1630PM_Modern_Trial_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Friday_1430PM_Modern_Trial_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Friday_1430PM_Modern_Trial_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Friday_1230PM_Modern_Trial_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Friday_1230PM_Modern_Trial_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Baltimore_Legacy_5k_August_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Baltimore_Legacy_5k_August_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Syracuse_Legacy_5K_Sunday_10AM_July_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Syracuse_Legacy_5K_Sunday_10AM_July_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Syracuse_Modern_Challenge_30K_July_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Syracuse_Modern_Challenge_30K_July_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Syracuse_Modern_5K_Sunday_9AM_July_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Syracuse_Modern_5K_Sunday_9AM_July_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Syracuse_Modern_Trial_Friday_4PM_July_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Syracuse_Modern_Trial_Friday_4PM_July_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Syracuse_Modern_Trial_Friday_1PM_July_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Syracuse_Modern_Trial_Friday_1PM_July_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Pittsburgh_Legacy_5k_Sunday_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Pittsburgh_Legacy_5k_Sunday_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Pittsburgh_Legacy_5k_Friday_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Pittsburgh_Legacy_5k_Friday_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Pittsburgh_Modern_5k_Sunday_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Pittsburgh_Modern_5k_Sunday_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Pittsburgh_Modern_5k_Friday_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Pittsburgh_Modern_5k_Friday_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Modern_10k_April_2022.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Modern_10k_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="RawData\StarCityGames_MtgMelee\SCG_CON_Dallas_Modern_30k_April_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\Invi_Qualifier_Roanoke_Modern_August_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\Mythic_Championship_Qualifier_Roanoke_Standard_October_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\Mythic_Championship_Qualifier_Roanoke_Pioneer_October_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\Mythic_Championship_Qualifier_Roanoke_Modern_October_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\Invi_Qualifier_Roanoke_Modern_September_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Indianapolis_Legacy_5k_March_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Indianapolis_Team_Constructed_25k_Modern_March_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Indianapolis_Team_Constructed_25k_Pioneer_March_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Indianapolis_Team_Constructed_25k_Legacy_March_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Indianapolis_Pioneer_5k_March_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Indianapolis_Modern_5k_March_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Philadelphia_Modern_10k_2_February_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_CON_Philadelphia_Modern_10k_1_February_2022.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_Invitational_Roanoke_Standard_October_2021.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\StarCityGames\SCG_Invitational_Roanoke_Modern_October_2021.json">
+    <None Update="RawData\StarCityGames\SCG_CON_Dallas_Modern_30k_April_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\SvenskaMagic\Modern_SM_2022.json">
