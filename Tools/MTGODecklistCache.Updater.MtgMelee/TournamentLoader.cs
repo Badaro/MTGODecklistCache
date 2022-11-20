@@ -65,8 +65,18 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     string playerName = player.Name;
                     playerName = playerName.Trim();
 
-                    Console.Write($"\r{new String(' ', Console.BufferWidth)}");
-                    Console.Write($"\r[MtgMelee] Downloading player {playerName} ({++currentPosition})");
+                    int bufferWidth = 0;
+                    try { bufferWidth = Console.BufferWidth; } catch { };
+
+                    if (bufferWidth > 0)
+                    {
+                        Console.Write($"\r{new String(' ', bufferWidth)}");
+                        Console.Write($"\r[MtgMelee] Downloading player {playerName} ({++currentPosition})");
+                    }
+                    else
+                    {
+                        Console.Write($"[MtgMelee] Downloading player {playerName} ({++currentPosition})");
+                    }
 
                     int playerPoints = player.Points;
 
