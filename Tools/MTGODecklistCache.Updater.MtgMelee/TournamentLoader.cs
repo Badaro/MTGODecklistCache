@@ -25,17 +25,30 @@ namespace MTGODecklistCache.Updater.MtgMelee
         {
             var decks = ParseDecks(tournament.Uri.ToString(), tournament);
 
+            // Consolidates matches from deck pages and remove duplicates
+            Dictionary<int, Dictionary<string, RoundItem>> rounds = new Dictionary<int, Dictionary<string, RoundItem>>();
+            foreach(var deck in decks)
+            {
+                foreach(var round in deck.Rounds)
+                {
+                    if (!rounds.ContainsKey(round.RoundNumber)) rounds.Add(round.RoundNumber, new Dictionary<string, RoundItem>());
+                    string roundItemKey = $"{round.RoundNumber}_{round.Matches[0].Player1}_{round.Matches[0].Player2}";
+                    if (!rounds[round.RoundNumber].ContainsKey(roundItemKey)) rounds[round.RoundNumber].Add(roundItemKey, round.Matches[0]);
+                }
+            }
+
             return new CacheItem()
             {
                 Tournament = new Tournament(tournament),
-                Decks = decks.Where(d => d.Item1 != null).Select(d => d.Item1).ToArray(),
-                Standings = decks.Where(d => d.Item2 != null).Select(d => d.Item2).ToArray()
+                Decks = decks.Where(d => d.Deck != null).Select(d => d.Deck).ToArray(),
+                Standings = decks.Where(d => d.Standing != null).Select(d => d.Standing).ToArray(),
+                Rounds = rounds.Select(r => new Round() { RoundNumber = r.Key, Matches = r.Value.Select(m => m.Value).ToArray() }).ToArray()
             };
         }
 
-        private static Tuple<Deck, Standing>[] ParseDecks(string url, MtgMeleeTournament tournament)
+        private static MtgMeleeDeckInfo[] ParseDecks(string url, MtgMeleeTournament tournament)
         {
-            List<Tuple<Deck, Standing>> result = new List<Tuple<Deck, Standing>>();
+            List<MtgMeleeDeckInfo> result = new List<MtgMeleeDeckInfo>();
 
             string pageContent = new WebClient().DownloadString(url);
 
@@ -130,6 +143,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     }
 
                     Deck deck = null;
+                    List<Round> rounds = null;
                     if (!String.IsNullOrEmpty(playerDeckId))
                     {
                         string deckPage = _deckPage.Replace("{deckId}", playerDeckId);
@@ -192,9 +206,27 @@ namespace MTGODecklistCache.Updater.MtgMelee
                             Player = playerName,
                             Result = playerResult
                         };
+
+                        int roundNumber = 1;
+                        var roundsDiv = deckDoc.DocumentNode.SelectSingleNode("//div[@id='tournament-path-grid-item']");
+                        if (roundsDiv != null)
+                        {
+                            rounds = new List<Round>();
+                            foreach (var roundDiv in roundsDiv.SelectNodes("div/div/div/table/tbody/tr"))
+                            {
+                                rounds.Add(new Round()
+                                {
+                                    RoundNumber = roundNumber++,
+                                    Matches = new RoundItem[]
+                                    {
+                                        ParseRoundNode(playerName, roundDiv)
+                                    }
+                                });
+                            }
+                        }
                     }
 
-                    result.Add(new Tuple<Deck, Standing>(deck, standing));
+                    result.Add(new MtgMeleeDeckInfo() { Deck = deck, Standing = standing, Rounds = rounds?.ToArray() });
                 }
 
                 offset += 25;
@@ -202,6 +234,65 @@ namespace MTGODecklistCache.Updater.MtgMelee
 
             Console.WriteLine($"\r[MtgMelee] Download completed");
             return result.ToArray();
+        }
+
+        private static RoundItem ParseRoundNode(string playerName, HtmlNode roundNode)
+        {
+            var roundColumns = roundNode.SelectNodes("td");
+            string roundOpponent = roundColumns.Skip(1).First().SelectSingleNode("a").InnerHtml;
+            string roundResult = roundColumns.Skip(3).First().InnerHtml;
+
+            if (roundResult.StartsWith($"{playerName} won"))
+            {
+                // Victory
+                return new RoundItem()
+                {
+                    Player1 = playerName,
+                    Player2 = roundOpponent,
+                    Result = roundResult.Split(" ").Last()
+                };
+            }
+            if (roundResult.StartsWith($"{roundOpponent} won"))
+            {
+                // Defeat
+                return new RoundItem()
+                {
+                    Player1 = roundOpponent,
+                    Player2 = playerName,
+                    Result = roundResult.Split(" ").Last()
+                };
+            }
+            if (roundResult.EndsWith("Draw"))
+            {
+                if (String.Compare(playerName, roundOpponent) < 0)
+                {
+                    return new RoundItem()
+                    {
+                        Player1 = playerName,
+                        Player2 = roundOpponent,
+                        Result = roundResult.Split(" ").First()
+                    };
+                }
+                else
+                {
+                    return new RoundItem()
+                    {
+                        Player1 = roundOpponent,
+                        Player2 = playerName,
+                        Result = roundResult.Split(" ").First()
+                    };
+                }
+            }
+            if (roundResult.EndsWith("was assigned a bye"))
+            {
+                return new RoundItem()
+                {
+                    Player1 = playerName,
+                    Player2 = "-",
+                    Result = roundResult.Split(" ").First()
+                };
+            }
+            throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
         }
     }
 }

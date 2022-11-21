@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using MTGODecklistCache.Updater.ManaTraders;
+using MTGODecklistCache.Updater.MtgMelee;
 using MTGODecklistCache.Updater.Model;
 using NUnit.Framework;
 using System;
