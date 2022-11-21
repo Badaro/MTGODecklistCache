@@ -48,21 +48,21 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         }
 
         [Test]
-        public void StandingsDontHaveOMWP()
+        public void StandingsHaveOMWP()
         {
-            foreach (var standing in _testData) standing.OMWP.Should().Be(0);
+            foreach (var standing in _testData) standing.OMWP.Should().BeGreaterThan(0);
         }
 
         [Test]
-        public void DecksHaveDontGWP()
+        public void DecksHaveGWP()
         {
-            foreach (var standing in _testData) standing.GWP.Should().Be(0);
+            foreach (var standing in _testData) standing.GWP.Should().BeGreaterThan(0);
         }
 
         [Test]
-        public void DecksHaveDontOGWP()
+        public void DecksHaveOGWP()
         {
-            foreach (var standing in _testData) standing.OGWP.Should().Be(0);
+            foreach (var standing in _testData) standing.OGWP.Should().BeGreaterThan(0);
         }
 
         [Test]
@@ -74,9 +74,9 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
                 Rank = 1,
                 Player = "リヒト ＿蝦夷決闘者",
                 Points = 15,
-                OMWP = 0,
-                GWP = 0,
-                OGWP = 0
+                OMWP = 0.453333,
+                GWP = 0.909091,
+                OGWP = 0.45
             });
         }
     }

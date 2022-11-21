@@ -79,6 +79,9 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     }
 
                     int playerPoints = player.Points;
+                    double omwp = player.Tiebreaker1;
+                    double gwp = player.Tiebreaker2;
+                    double ogwp = player.Tiebreaker3;
 
                     int playerPosition = player.Rank;
                     string playerResult = playerPosition.ToString();
@@ -91,7 +94,10 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     {
                         Player = playerName,
                         Rank = playerPosition,
-                        Points = playerPoints
+                        Points = playerPoints,
+                        OMWP = omwp,
+                        GWP = gwp,
+                        OGWP = ogwp
                     };
 
                     string playerDeckId = String.Empty;
