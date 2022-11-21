@@ -16,10 +16,25 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="RawData\CityClass\City_Class_Games_Showdown_I_Pioneer_Nov_2022.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\Dreamhack\Dreamhack_Atlanta_Regional_Championship_Pioneer_Nov_2022.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\Dreamhack\Dreamhack_Atlanta_Last_Chance_Qualifier_Pioneer_Nov_2022.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="RawData\Dreamhack\Dreamhack_Dallas_SA_10h_Modern_10k_Jun_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\InsightEsports\Insight_Esports_Presents_Tier_1_Games_5k_Modern_Open_July_2021.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\LegacyEuropeanTour\Championship_Sofia_Pioneer_November_2022.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RawData\LegacyEuropeanTour\Last_Chance_Qualifier_Sofia_Pioneer_November_2022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="RawData\LegacyEuropeanTour\Grand_Open_Qualifier_Warsaw_Pioneer_October_2022.json">
