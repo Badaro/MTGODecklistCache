@@ -29,11 +29,14 @@ namespace MTGODecklistCache.Updater.MtgMelee
             Dictionary<int, Dictionary<string, RoundItem>> rounds = new Dictionary<int, Dictionary<string, RoundItem>>();
             foreach(var deck in decks)
             {
-                foreach(var round in deck.Rounds)
+                if(deck.Rounds!=null)
                 {
-                    if (!rounds.ContainsKey(round.RoundNumber)) rounds.Add(round.RoundNumber, new Dictionary<string, RoundItem>());
-                    string roundItemKey = $"{round.RoundNumber}_{round.Matches[0].Player1}_{round.Matches[0].Player2}";
-                    if (!rounds[round.RoundNumber].ContainsKey(roundItemKey)) rounds[round.RoundNumber].Add(roundItemKey, round.Matches[0]);
+                    foreach (var round in deck.Rounds)
+                    {
+                        if (!rounds.ContainsKey(round.RoundNumber)) rounds.Add(round.RoundNumber, new Dictionary<string, RoundItem>());
+                        string roundItemKey = $"{round.RoundNumber}_{round.Matches[0].Player1}_{round.Matches[0].Player2}";
+                        if (!rounds[round.RoundNumber].ContainsKey(roundItemKey)) rounds[round.RoundNumber].Add(roundItemKey, round.Matches[0]);
+                    }
                 }
             }
 
@@ -239,7 +242,11 @@ namespace MTGODecklistCache.Updater.MtgMelee
         private static RoundItem ParseRoundNode(string playerName, HtmlNode roundNode)
         {
             var roundColumns = roundNode.SelectNodes("td");
-            string roundOpponent = roundColumns.Skip(1).First().SelectSingleNode("a").InnerHtml;
+            string roundOpponent = roundColumns.Skip(1).First().SelectSingleNode("a")?.InnerHtml;
+            if (roundOpponent == null)
+            {
+                roundOpponent = "-";
+            }
             string roundResult = roundColumns.Skip(3).First().InnerHtml;
 
             if (roundResult.StartsWith($"{playerName} won"))
@@ -289,7 +296,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 {
                     Player1 = playerName,
                     Player2 = "-",
-                    Result = roundResult.Split(" ").First()
+                    Result = "1-0-0"
                 };
             }
             throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");

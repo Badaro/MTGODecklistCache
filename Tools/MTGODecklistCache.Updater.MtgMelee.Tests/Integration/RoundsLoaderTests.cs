@@ -12,6 +12,8 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
     public class RoundsLoaderTests
     {
         private Round[] _testData = null;
+        private Round[] _testData2 = null;
+        private Round[] _testData3 = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -20,6 +22,18 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
             {
                 Uri = new Uri("https://mtgmelee.com/Tournament/View/12867"),
                 Date = new DateTime(2022, 11, 19, 00, 00, 00, DateTimeKind.Utc)
+            }).Rounds;
+
+            _testData2 = TournamentLoader.GetTournamentDetails(new MtgMeleeTournament()
+            {
+                Uri = new Uri("https://mtgmelee.com/Tournament/View/7708"),
+                Date = new DateTime(2021, 11, 09, 00, 00, 00, DateTimeKind.Utc)
+            }).Rounds;
+
+            _testData3 = TournamentLoader.GetTournamentDetails(new MtgMeleeTournament()
+            {
+                Uri = new Uri("https://mtgmelee.com/Tournament/View/12946"),
+                Date = new DateTime(2022, 11, 20, 00, 00, 00, DateTimeKind.Utc)
             }).Rounds;
         }
 
@@ -52,6 +66,50 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
                 Player2 = "agesZ #84443",
                 Result = "2-0-0"
             });
+        }
+
+        [Test]
+        public void ShouldParseByesCorrectly()
+        {
+            _testData2
+                .Where(r => r.RoundNumber==3)
+                .SelectMany(r => r.Matches)
+                .First(r => r.Player1== "Er_gitta")
+                .Should().BeEquivalentTo(new RoundItem()
+                {
+                    Player1 = "Er_gitta",
+                    Player2 = "-",
+                    Result = "1-0-0"
+                });
+        }
+        [Test]
+        public void ShouldParseDrawsCorrectly()
+        {
+            _testData3
+                .Where(r => r.RoundNumber == 5)
+                .SelectMany(r => r.Matches)
+                .First(r => r.Player1 == "Arthur Rodrigues")
+                .Should().BeEquivalentTo(new RoundItem()
+                {
+                    Player1 = "Arthur Rodrigues",
+                    Player2 = "RudsonC",
+                    Result = "0-0-3"
+                });
+        }
+
+        [Test]
+        public void ShouldParseMissingOpponentCorrectly()
+        {
+            _testData2
+                .Where(r => r.RoundNumber == 4)
+                .SelectMany(r => r.Matches)
+                .First(r => r.Player1 == "Taerian van Rensburg")
+                .Should().BeEquivalentTo(new RoundItem()
+                {
+                    Player1 = "Taerian van Rensburg",
+                    Player2 = "-",
+                    Result = "2-0-0"
+                });
         }
     }
 }
