@@ -27,9 +27,9 @@ namespace MTGODecklistCache.Updater.MtgMelee
 
             // Consolidates matches from deck pages and remove duplicates
             Dictionary<int, Dictionary<string, RoundItem>> rounds = new Dictionary<int, Dictionary<string, RoundItem>>();
-            foreach(var deck in decks)
+            foreach (var deck in decks)
             {
-                if(deck.Rounds!=null)
+                if (deck.Rounds != null)
                 {
                     foreach (var round in deck.Rounds)
                     {
@@ -79,7 +79,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 {
                     hasData = true;
                     string playerName = player.Name;
-                    playerName = playerName.Trim();
+                    playerName = NormalizeSpaces(playerName);
 
                     int bufferWidth = 0;
                     try { bufferWidth = Console.BufferWidth; } catch { };
@@ -249,6 +249,9 @@ namespace MTGODecklistCache.Updater.MtgMelee
             }
             string roundResult = roundColumns.Skip(3).First().InnerHtml;
 
+            roundOpponent = NormalizeSpaces(WebUtility.HtmlDecode(roundOpponent));
+            roundResult = NormalizeSpaces(WebUtility.HtmlDecode(roundResult));
+
             if (roundResult.StartsWith($"{playerName} won"))
             {
                 // Victory
@@ -300,6 +303,11 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 };
             }
             throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
+        }
+
+        private static string NormalizeSpaces(string data)
+        {
+            return Regex.Replace(data, "\\s+", " ").Trim();
         }
     }
 }
