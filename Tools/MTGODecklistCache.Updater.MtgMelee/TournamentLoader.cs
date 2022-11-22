@@ -293,13 +293,23 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     };
                 }
             }
-            if (roundResult.EndsWith("was assigned a bye"))
+            if (roundResult.EndsWith(" bye"))
             {
                 return new RoundItem()
                 {
                     Player1 = playerName,
                     Player2 = "-",
-                    Result = "1-0-0"
+                    Result = "2-0-0"
+                };
+            }
+            if (roundResult.StartsWith($"{playerName} forfeited"))
+            {
+                // Victory
+                return new RoundItem()
+                {
+                    Player1 = playerName,
+                    Player2 = roundOpponent,
+                    Result = "0-2-0"
                 };
             }
             throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");

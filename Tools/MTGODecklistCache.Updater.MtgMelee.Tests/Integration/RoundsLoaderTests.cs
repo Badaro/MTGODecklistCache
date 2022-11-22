@@ -79,7 +79,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
                 {
                     Player1 = "Er_gitta",
                     Player2 = "-",
-                    Result = "1-0-0"
+                    Result = "2-0-0"
                 });
         }
         [Test]
