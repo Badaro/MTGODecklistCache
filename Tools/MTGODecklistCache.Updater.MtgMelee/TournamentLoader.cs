@@ -217,12 +217,15 @@ namespace MTGODecklistCache.Updater.MtgMelee
                             rounds = new List<Round>();
                             foreach (var roundDiv in roundsDiv.SelectNodes("div/div/div/table/tbody/tr"))
                             {
+                                var round = ParseRoundNode(playerName, roundDiv);
+                                if (round == null) continue;
+
                                 rounds.Add(new Round()
                                 {
                                     RoundNumber = roundNumber++,
                                     Matches = new RoundItem[]
                                     {
-                                        ParseRoundNode(playerName, roundDiv)
+                                        round
                                     }
                                 });
                             }
@@ -242,6 +245,8 @@ namespace MTGODecklistCache.Updater.MtgMelee
         private static RoundItem ParseRoundNode(string playerName, HtmlNode roundNode)
         {
             var roundColumns = roundNode.SelectNodes("td");
+            if (roundColumns.First().InnerText.Trim() == "No results found") return null;
+
             string roundOpponent = roundColumns.Skip(1).First().SelectSingleNode("a")?.InnerHtml;
             if (roundOpponent == null)
             {
