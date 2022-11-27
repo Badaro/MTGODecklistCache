@@ -35,3 +35,7 @@
 
 * All MtgMelee tournaments updated with Rounds property
 * All MtgMelee tournaments updated with more complete Standings property
+
+2022-11-27
+* Brackets property has been removed, data previously there has been moved to the Rounds property
+* Rounds now have a RoundName (string) property instead of a RoundNumber (int) property

@@ -8,14 +8,12 @@ namespace MTGODecklistCache.Updater.Tools
 {
     public static class OrderNormalizer
     {
-        public static Deck[] ReorderDecks(Deck[] decks, Standing[] standings, Bracket bracket)
+        public static Deck[] ReorderDecks(Deck[] decks, Standing[] standings, RoundV2[] bracketRounds)
         {
-            if (bracket == null) return decks;
-
             List<Deck> orderedDecks = new List<Deck>();
 
             int position = 1;
-            foreach (var player in GetPlayerOrder(decks, standings, bracket))
+            foreach (var player in GetPlayerOrder(decks, standings, bracketRounds))
             {
                 var deck = decks.First(d => d.Player == player);
 
@@ -33,16 +31,17 @@ namespace MTGODecklistCache.Updater.Tools
             return orderedDecks.ToArray();
         }
 
-        private static string[] GetPlayerOrder(Deck[] decks, Standing[] standings, Bracket bracket)
+        private static string[] GetPlayerOrder(Deck[] decks, Standing[] standings, RoundV2[] bracketRounds)
         {
             List<string> result = new List<string>();
 
             foreach (var standing in standings) result.Add(standing.Player);
 
-            if (bracket.Quarterfinals != null) result = PushToTop(result, bracket.Quarterfinals.Select(s => s.Player2).ToList(), standings);
-            if (bracket.Semifinals != null) result = PushToTop(result, bracket.Semifinals.Select(s => s.Player2).ToList(), standings);
-            if (bracket.Finals != null) result = PushToTop(result, new List<string>() { bracket.Finals.Player2 }, standings);
-            if (bracket.Finals != null) result = PushToTop(result, new List<string>() { bracket.Finals.Player1 }, standings);
+            foreach(var bracketRound in bracketRounds)
+            {
+                result = PushToTop(result, bracketRound.Matches.Select(s => s.Player2).ToList(), standings);
+                result = PushToTop(result, bracketRound.Matches.Select(s => s.Player1).ToList(), standings);
+            }
 
             // In case some player is missing from Standings
             foreach (var deck in decks) if (!result.Contains(deck.Player)) result.Add(deck.Player);

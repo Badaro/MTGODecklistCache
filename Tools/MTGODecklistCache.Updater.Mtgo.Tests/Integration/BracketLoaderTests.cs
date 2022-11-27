@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
 {
     abstract class BracketLoaderTests
     {
-        private Bracket _testData = null;
+        private RoundV2[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -19,38 +19,63 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             _testData = TournamentLoader.GetTournamentDetails(new Tournament()
             {
                 Uri = this.GetEventUri()
-            }).Bracket;
+            }).Rounds;
         }
+
+
+        [Test]
+        public void BracketDataPresentWhenExpected()
+        {
+            if (this.GetBracket() != null && _testData == null) Assert.Fail();
+            else Assert.Pass();
+        }
+
 
         [Test]
         public void BracketItemCountIsCorrect()
         {
-            if (_testData != null) _testData.Quarterfinals.Length.Should().Be(4);
-            if (_testData != null) _testData.Semifinals.Length.Should().Be(2);
+            if (_testData != null)
+            {
+                _testData.FirstOrDefault(r => r.RoundName == "Quarterfinals").Matches.Length.Should().Be(4);
+                _testData.FirstOrDefault(r => r.RoundName == "Semifinals").Matches.Length.Should().Be(2);
+                _testData.FirstOrDefault(r => r.RoundName == "Finals").Matches.Length.Should().Be(1);
+            }
         }
 
         [Test]
         public void BracketItemsHaveWinningPlayer()
         {
-            if (_testData != null) foreach (var match in _testData.Quarterfinals) match.Player1.Should().NotBeNullOrEmpty();
-            if (_testData != null) foreach (var match in _testData.Semifinals) match.Player1.Should().NotBeNullOrEmpty();
-            if (_testData != null) _testData.Finals.Player1.Should().NotBeNullOrEmpty();
+            if (_testData != null)
+            {
+                foreach (var round in _testData)
+                {
+                    foreach (var match in round.Matches) match.Player1.Should().NotBeNullOrEmpty();
+                }
+            }
         }
 
         [Test]
         public void BracketItemsHaveLosingPlayer()
         {
-            if (_testData != null) foreach (var match in _testData.Quarterfinals) match.Player2.Should().NotBeNullOrEmpty();
-            if (_testData != null) foreach (var match in _testData.Semifinals) match.Player2.Should().NotBeNullOrEmpty();
-            if (_testData != null) _testData.Finals.Player2.Should().NotBeNullOrEmpty();
+            if (_testData != null)
+            {
+                foreach (var round in _testData)
+                {
+                    foreach (var match in round.Matches) match.Player2.Should().NotBeNullOrEmpty();
+                }
+            }
         }
 
         [Test]
         public void BracketItemsHaveResult()
         {
-            if (_testData != null) foreach (var match in _testData.Quarterfinals) match.Result.Should().NotBeNullOrEmpty();
-            if (_testData != null) foreach (var match in _testData.Semifinals) match.Result.Should().NotBeNullOrEmpty();
-            if (_testData != null) _testData.Finals.Result.Should().NotBeNullOrEmpty();
+            if (_testData != null)
+            {
+                foreach (var round in _testData)
+                {
+                    foreach (var match in round.Matches) match.Result.Should().NotBeNullOrEmpty();
+                }
+            }
         }
 
         [Test]
@@ -60,6 +85,6 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         }
 
         protected abstract Uri GetEventUri();
-        protected abstract Bracket GetBracket();
+        protected abstract RoundV2[] GetBracket();
     }
 }

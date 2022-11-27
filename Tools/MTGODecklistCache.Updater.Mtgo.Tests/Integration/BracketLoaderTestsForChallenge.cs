@@ -11,24 +11,38 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         {
         }
 
-        protected override Bracket GetBracket()
+        protected override RoundV2[] GetBracket()
         {
-            return new Bracket()
+            List<RoundV2> bracket = new List<RoundV2>();
+            bracket.Add(new RoundV2()
             {
-                Quarterfinals = new BracketItem[]
+                RoundName = "Quarterfinals",
+                Matches = new RoundItem[]
                 {
-                    new BracketItem(){ Player1 = "Baku_91",     Player2 = "Ozymandias17",         Result= "2-1" },
-                    new BracketItem(){ Player1 = "Didackith",   Player2 = "Eureka22422",          Result= "2-1" },
-                    new BracketItem(){ Player1 = "DNSolver",    Player2 = "Iwouldliketorespond",  Result= "2-1" },
-                    new BracketItem(){ Player1 = "Oceansoul92", Player2 = "Butakov",              Result= "2-1" }
-                },
-                Semifinals = new BracketItem[]
+                    new RoundItem(){ Player1 = "Baku_91",     Player2 = "Ozymandias17",         Result= "2-1-0" },
+                    new RoundItem(){ Player1 = "Didackith",   Player2 = "Eureka22422",          Result= "2-1-0" },
+                    new RoundItem(){ Player1 = "DNSolver",    Player2 = "Iwouldliketorespond",  Result= "2-1-0" },
+                    new RoundItem(){ Player1 = "Oceansoul92", Player2 = "Butakov",              Result= "2-1-0" }
+                }
+            });
+            bracket.Add(new RoundV2()
+            {
+                RoundName = "Semifinals",
+                Matches = new RoundItem[]
                 {
-                    new BracketItem(){ Player1 = "Baku_91",  Player2 = "Didackith",   Result= "2-0" },
-                    new BracketItem(){ Player1 = "DNSolver", Player2 = "Oceansoul92", Result= "2-0" }
-                },
-                Finals = new BracketItem() { Player1 = "Baku_91", Player2 = "DNSolver", Result = "2-1" }
-            };
+                    new RoundItem(){ Player1 = "Baku_91",  Player2 = "Didackith",   Result= "2-0-0" },
+                    new RoundItem(){ Player1 = "DNSolver", Player2 = "Oceansoul92", Result= "2-0-0" }
+                }
+            });
+            bracket.Add(new RoundV2()
+            {
+                RoundName = "Finals",
+                Matches = new RoundItem[]
+                {
+                    new RoundItem() { Player1 = "Baku_91", Player2 = "DNSolver", Result = "2-1-0" }
+                }
+            });
+            return bracket.ToArray();
         }
 
         protected override Uri GetEventUri()

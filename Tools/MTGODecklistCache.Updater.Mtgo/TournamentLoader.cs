@@ -15,7 +15,7 @@ namespace MTGODecklistCache.Updater.Mtgo
 {
     public static class TournamentLoader
     {
-        public static CacheItem GetTournamentDetails(Tournament tournament)
+        public static CacheItemV2 GetTournamentDetails(Tournament tournament)
         {
             string htmlContent;
             using (WebClient client = new WebClient())
@@ -35,11 +35,10 @@ namespace MTGODecklistCache.Updater.Mtgo
 
             if(standing!=null && bracket!=null) decks = OrderNormalizer.ReorderDecks(decks, standing, bracket);
 
-            return new CacheItem()
+            return new CacheItemV2()
             {
-                Bracket = bracket,
                 Standings = standing,
-                Rounds = null,
+                Rounds = bracket,
                 Decks = decks,
                 Tournament = tournament
             };
@@ -150,14 +149,14 @@ namespace MTGODecklistCache.Updater.Mtgo
             return standings.OrderBy(s => s.Rank).ToArray();
         }
 
-        private static Bracket ParseBracket(dynamic json)
+        private static RoundV2[] ParseBracket(dynamic json)
         {
             if (!HasProperty(json, "Brackets")) return null;
 
-            Bracket result = new Bracket();
+            List<RoundV2> result = new List<RoundV2>();
             foreach (var bracket in json.Brackets)
             {
-                List<BracketItem> matches = new List<BracketItem>();
+                List<RoundItem> matches = new List<RoundItem>();
 
                 foreach (var match in bracket.matches)
                 {
@@ -169,30 +168,36 @@ namespace MTGODecklistCache.Updater.Mtgo
 
                     if (reverseOrder)
                     {
-                        matches.Add(new BracketItem()
+                        matches.Add(new RoundItem()
                         {
                             Player1 = player2,
                             Player2 = player1,
-                            Result = $"{player2Wins}-{player1Wins}"
+                            Result = $"{player2Wins}-{player1Wins}-0"
                         });
                     }
                     else
                     {
-                        matches.Add(new BracketItem()
+                        matches.Add(new RoundItem()
                         {
                             Player1 = player1,
                             Player2 = player2,
-                            Result = $"{player1Wins}-{player2Wins}"
+                            Result = $"{player1Wins}-{player2Wins}-0"
                         });
                     }
                 }
 
-                if (matches.Count == 1) result.Finals = matches.First();
-                if (matches.Count == 2) result.Semifinals = matches.ToArray();
-                if (matches.Count == 4) result.Quarterfinals = matches.ToArray();
+                string roundName = "Quarterfinals";
+                if (matches.Count == 2) roundName = "Semifinals";
+                if (matches.Count == 1) roundName = "Finals";
+
+                result.Add(new RoundV2
+                {
+                    RoundName = roundName,
+                    Matches = matches.ToArray()
+                });
             }
 
-            return result;
+            return result.ToArray();
         }
 
         private static bool HasProperty(dynamic obj, string name)
