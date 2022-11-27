@@ -12,8 +12,10 @@ namespace MTGODecklistCache.Updater.Tools
         {
             List<Deck> orderedDecks = new List<Deck>();
 
+            var playerOrder = GetPlayerOrder(decks, standings, bracketRounds);
+
             int position = 1;
-            foreach (var player in GetPlayerOrder(decks, standings, bracketRounds))
+            foreach (var player in playerOrder)
             {
                 var deck = decks.FirstOrDefault(d => d.Player == player);
                 if (deck == null)
@@ -42,9 +44,14 @@ namespace MTGODecklistCache.Updater.Tools
         {
             List<string> result = new List<string>();
 
-            foreach (var standing in standings) result.Add(standing.Player);
+            for (int i = 1; i <= standings.Last().Rank; i++)
+            {
+                string playerName = standings.FirstOrDefault(s => s.Rank == i)?.Player;
+                if (playerName == null) result.Add("-");
+                else result.Add(playerName);
+            }
 
-            foreach(var bracketRound in bracketRounds)
+            foreach (var bracketRound in bracketRounds)
             {
                 result = PushToTop(result, bracketRound.Matches.Select(s => s.Player2).ToList(), standings);
                 result = PushToTop(result, bracketRound.Matches.Select(s => s.Player1).ToList(), standings);

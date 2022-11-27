@@ -104,24 +104,16 @@ namespace MTGODecklistCache.Updater.ManaTraders
                 ManaTradersCsvRecord[] playerCards = records.Where(r => r.Player.Trim() == player.Trim()).ToArray();
 
                 string playerName = player;
-                string playerResult = null;
                 if (standings != null)
                 {
                     var playerStanding = standings.FirstOrDefault(s => s.Player.ToLower().Trim() == player.ToLower().Trim());
 
                     if (playerStanding != null)
                     {
-                        var rankSuffix = "th";
-                        if (playerStanding.Rank == 1) rankSuffix = "st";
-                        if (playerStanding.Rank == 2) rankSuffix = "nd";
-                        if (playerStanding.Rank == 3) rankSuffix = "rd";
-
-                        playerResult = playerStanding.Rank.ToString() + rankSuffix + " Place";
                         playerName = playerStanding.Player.Trim(); // Name from standings has the correct casing, name from CSV is forced lowercase
                     }
                     else
                     {
-                        playerResult = "-";
                         playerName = player.Trim();
                     }
                 }
@@ -134,13 +126,12 @@ namespace MTGODecklistCache.Updater.ManaTraders
                     AnchorUri = deckUri,
                     Date = null,
                     Player = playerName,
-                    Result = playerResult,
                     Mainboard = playerCards.Where(c => !c.Sideboard).Select(c => new DeckItem() { Count = c.Count, CardName = CardNameNormalizer.Normalize(c.Card) }).ToArray(),
                     Sideboard = playerCards.Where(c => c.Sideboard).Select(c => new DeckItem() { Count = c.Count, CardName = CardNameNormalizer.Normalize(c.Card) }).ToArray(),
                 });
             }
 
-            return result.OrderBy(r => r.Result != "-" ? Int32.Parse(r.Result.Substring(0, r.Result.Length - 8)) : Int32.MaxValue).ToArray();
+            return result.ToArray();
         }
 
         private static Standing[] ParseStandings(string standingsUrl)
