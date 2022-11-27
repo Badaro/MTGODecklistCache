@@ -16,3 +16,22 @@
 
 * Modified folder structure to include website for the tournament
 * The branch "before-folder-restructuring" has the data in the original format if you need it, though it'll no longer be updated
+
+2022-11-10
+
+* magic.wizards.com folder moved to Tournament-Archives
+
+2022-11-15
+
+* channelfireball.com folder moved to Tournament-Archives
+* hunterburtonmemorialopen.com moved to Tournament-Archives
+* labichetournaments moved to Tournament-Archives
+
+2022-11-21
+
+* Older data from starcitygames.com folder (not coming from MtgMelee) moved to Tournament-Archives
+
+2022-11-22
+
+* All MtgMelee tournaments updated with Rounds property
+* All MtgMelee tournaments updated with more complete Standings property
