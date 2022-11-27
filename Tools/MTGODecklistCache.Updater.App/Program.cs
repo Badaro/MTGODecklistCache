@@ -39,7 +39,7 @@ namespace MTGODecklistCache.Updater.App
 
             // Updates ManaTraders cache folder
             UpdateFolder(cacheFolder, "manatraders.com",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "ManaTraders")),
+                () => MTGODecklistCache.Updater.ManaTraders.TournamentList.GetTournaments(),
                 t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t));
 
             // Updates Starcity cache folder

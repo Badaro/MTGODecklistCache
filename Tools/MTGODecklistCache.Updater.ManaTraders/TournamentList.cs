@@ -49,7 +49,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
                 {
                     Name = $"ManaTraders Series {format} {monthAndYear}",
                     Date = tournamentDate,
-                    Uri = new Uri($"{_tournamentRootUrl}{url}"),
+                    Uri = new Uri($"{_tournamentRootUrl}{url}/"),
                     JsonFile = $"manatraders-series-{format.ToLower()}-{monthAndYear.ToLower().Replace(" ","-")}-{tournamentDate.ToString("yyyy-MM-dd")}.json"
                 });
             }
