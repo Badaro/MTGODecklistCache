@@ -68,13 +68,13 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
         [Test]
         public void DeckDataIsCorrect()
         {
-            Deck testDeck = _testData.First();
+            Deck testDeck = _testData.Skip(7).First();
             testDeck.Should().BeEquivalentTo(new Deck()
             {
                 Player = "Fink64",
                 AnchorUri = new Uri("https://www.manatraders.com/webshop/personal/874208"),
                 Date = null,
-                Result = "1st Place",
+                Result = "8th Place",
                 Mainboard = new DeckItem[]
                 {
                     new DeckItem() { CardName= "Mausoleum Wanderer",          Count=4 },
@@ -110,6 +110,25 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
                     new DeckItem() { CardName= "Extraction Specialist", Count=4 }
                 },
             });
+        }
+
+
+        [Test]
+        public void ShouldApplyTop8OrderingToDecks()
+        {
+            string[] top8 = new string[]
+            {
+                "ModiSapiras",
+                "kvza",
+                "Cinciu",
+                "zuri1988",
+                "Daking3603",
+                "Harry13",
+                "ScouterTF2",
+                "Fink64"
+            };
+
+            _testData.Take(8).Select(s => s.Player).Should().BeEquivalentTo(top8, o => o.WithStrictOrdering());
         }
     }
 }

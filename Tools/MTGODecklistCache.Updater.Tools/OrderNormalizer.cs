@@ -15,15 +15,22 @@ namespace MTGODecklistCache.Updater.Tools
             int position = 1;
             foreach (var player in GetPlayerOrder(decks, standings, bracketRounds))
             {
-                var deck = decks.First(d => d.Player == player);
+                var deck = decks.FirstOrDefault(d => d.Player == player);
+                if (deck == null)
+                {
+                    position++;
+                    continue;
+                }
+                else
+                {
+                    string rank = $"{position}th Place";
+                    if (position == 1) rank = "1st Place";
+                    if (position == 2) rank = "2nd Place";
+                    if (position == 3) rank = "3rd Place";
+                    position++;
 
-                string rank = $"{position}th Place";
-                if (position == 1) rank = "1st Place";
-                if (position == 2) rank = "2nd Place";
-                if (position == 3) rank = "3rd Place";
-                position++;
-
-                deck.Result = rank;
+                    deck.Result = rank;
+                }
 
                 orderedDecks.Add(deck);
             }

@@ -37,6 +37,8 @@ namespace MTGODecklistCache.Updater.ManaTraders
             rounds.AddRange(swiss);
             rounds.AddRange(bracket);
 
+            decks = OrderNormalizer.ReorderDecks(decks, standings, bracket);
+
             return new CacheItemV2()
             {
                 Tournament = tournament,

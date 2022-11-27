@@ -27,7 +27,6 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         public void BracketDataPresentWhenExpected()
         {
             if (this.GetBracket() != null && _testData == null) Assert.Fail();
-            else Assert.Pass();
         }
 
 
