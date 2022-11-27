@@ -14,7 +14,7 @@ namespace MTGODecklistCache.Updater.Common
             if (!Directory.Exists(rawDataFolder)) return new T[0];
 
             List<T> tournaments = new List<T>();
-            foreach (string tournamentFile in Directory.GetFiles(rawDataFolder, "*.json"))
+            foreach (string tournamentFile in Directory.GetFiles(rawDataFolder, "*.json", SearchOption.AllDirectories))
             {
                 T tournament = JsonConvert.DeserializeObject<T>(File.ReadAllText(tournamentFile));
                 tournament.Date = tournament.Date.ToUniversalTime();
