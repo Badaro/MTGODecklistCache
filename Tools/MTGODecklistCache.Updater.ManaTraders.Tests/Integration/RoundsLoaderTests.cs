@@ -26,7 +26,7 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
         [Test]
         public void RoundCountIsCorrect()
         {
-            _testData.Length.Should().Be(11);
+            _testData.Length.Should().Be(15);
         }
 
         [Test]

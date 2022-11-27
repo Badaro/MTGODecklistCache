@@ -20,7 +20,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
             {
                 Uri = new Uri("https://www.manatraders.com/tournaments/30/"),
                 Date = new DateTime(2022, 08, 31, 00, 00, 00, DateTimeKind.Utc)
-            }).Rounds.TakeLast(3).ToArray();
+            }).Rounds.Where(r => !r.RoundName.StartsWith("Round")).ToArray();
         }
 
         [Test]
@@ -62,14 +62,25 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
         public void BracketRoundsShouldBeInCorrectOrder()
         {
             _testData.First().RoundName.Should().Be("Quarterfinals");
-            _testData.Skip(1).First().RoundName.Should().Be("Semifinals");
-            _testData.Skip(2).First().RoundName.Should().Be("Finals");
+            _testData.Skip(1).First().RoundName.Should().Be("Loser Semifinals");
+            _testData.Skip(2).First().RoundName.Should().Be("Semifinals");
+            _testData.Skip(3).First().RoundName.Should().Be("Match for 7th and 8th places");
+            _testData.Skip(4).First().RoundName.Should().Be("Match for 5th and 6th places");
+            _testData.Skip(5).First().RoundName.Should().Be("Match for 3rd and 4th places");
+            _testData.Skip(6).First().RoundName.Should().Be("Finals");
+        }
+
+
+        [Test]
+        public void ShouldContainExtraBrackets()
+        {
+            _testData.Length.Should().Be(7);
         }
 
         [Test]
         public void BracketItemsDataIsCorrect()
         {
-            _testData.Should().BeEquivalentTo(new RoundV2[]
+            var expected = new RoundV2[]
             {
                 new RoundV2()
                 {
@@ -84,11 +95,44 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                 },
                 new RoundV2()
                 {
+                    RoundName = "Loser Semifinals",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem(){ Player1 = "Harry13",    Player2 = "Fink64", Result= "2-0-0" },
+                        new RoundItem(){ Player1 = "Daking3603", Player2 = "ScouterTF2",   Result= "2-0-0" }
+                    }
+                },
+                new RoundV2()
+                {
                     RoundName = "Semifinals",
                     Matches = new RoundItem[]
                     {
                         new RoundItem(){ Player1 = "kvza",        Player2 = "zuri1988", Result= "2-1-0" },
                         new RoundItem(){ Player1 = "ModiSapiras", Player2 = "Cinciu",   Result= "2-0-0" }
+                    }
+                },
+                new RoundV2()
+                {
+                    RoundName = "Match for 7th and 8th places",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem() { Player1 = "ScouterTF2", Player2 = "Fink64", Result = "2-0-0" }
+                    }
+                },
+                new RoundV2()
+                {
+                    RoundName = "Match for 5th and 6th places",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem() { Player1 = "Daking3603", Player2 = "Harry13", Result = "2-0-0" }
+                    }
+                },
+                new RoundV2()
+                {
+                    RoundName = "Match for 3rd and 4th places",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem() { Player1 = "Cinciu", Player2 = "zuri1988", Result = "2-0-0" }
                     }
                 },
                 new RoundV2()
@@ -99,7 +143,9 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem() { Player1 = "ModiSapiras", Player2 = "kvza", Result = "2-0-0" }
                     }
                 },
-            });
+            };
+
+            _testData.Should().BeEquivalentTo(expected);
         }
     }
 }

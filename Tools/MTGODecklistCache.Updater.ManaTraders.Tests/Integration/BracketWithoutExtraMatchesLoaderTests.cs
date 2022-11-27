@@ -20,7 +20,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
             {
                 Uri = new Uri("https://www.manatraders.com/tournaments/15/"),
                 Date = new DateTime(2021, 04, 30, 00, 00, 00, DateTimeKind.Utc)
-            }).Rounds.TakeLast(3).ToArray();
+            }).Rounds.Where(r => !r.RoundName.StartsWith("Round")).ToArray();
         }
 
         [Test]
@@ -67,9 +67,15 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
         }
 
         [Test]
+        public void ShouldNotContainExtraBrackets()
+        {
+            _testData.Length.Should().Be(3);
+        }
+
+        [Test]
         public void BracketItemsDataIsCorrect()
         {
-            _testData.Should().BeEquivalentTo(new RoundV2[]
+            var expected = new RoundV2[]
             {
                 new RoundV2()
                 {
@@ -99,7 +105,9 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem() { Player1 = "sandoiche", Player2 = "LynnChalice", Result = "2-0-0" }
                     }
                 }
-            });
+            };
+
+            _testData.Should().BeEquivalentTo(expected);
         }
     }
 }

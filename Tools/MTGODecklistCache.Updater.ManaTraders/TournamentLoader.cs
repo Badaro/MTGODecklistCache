@@ -186,62 +186,109 @@ namespace MTGODecklistCache.Updater.ManaTraders
             HtmlDocument doc = new HtmlDocument();
             doc.LoadHtml(pageContent);
 
-            var bracketRoot = doc.DocumentNode.SelectSingleNode("//div[@class='tournament-brackets']");
-            if (bracketRoot == null) return null;
+            var bracketRootNodes = doc.DocumentNode.SelectNodes("//div[@class='tournament-brackets']");
 
             List<RoundItem> brackets = new List<RoundItem>();
 
-            var bracketNodes = bracketRoot.SelectNodes("ul/li");
-            foreach (var bracketNode in bracketNodes)
+            foreach(var bracketRoot in bracketRootNodes)
             {
-                List<string> players = new List<string>();
-                List<int> wins = new List<int>();
-
-                foreach (var playerNode in bracketNode.SelectNodes("div"))
+                var bracketNodes = bracketRoot.SelectNodes("ul/li");
+                foreach (var bracketNode in bracketNodes)
                 {
-                    players.Add(playerNode.SelectNodes("div").First().InnerText);
+                    List<string> players = new List<string>();
+                    List<int> wins = new List<int>();
 
-                    string playerWins = playerNode.SelectNodes("div").Last().InnerText;
-                    if (Int32.TryParse(playerWins, out int parsedWins)) wins.Add(parsedWins);
-                    else wins.Add(0);
-                }
-
-                if (wins[0] > wins[1])
-                {
-                    brackets.Add(new RoundItem()
+                    foreach (var playerNode in bracketNode.SelectNodes("div"))
                     {
-                        Player1 = players[0],
-                        Player2 = players[1],
-                        Result = wins[0] + "-" + wins[1] + "-0"
-                    });
-                }
-                else
-                {
-                    brackets.Add(new RoundItem()
+                        players.Add(playerNode.SelectNodes("div").First().InnerText);
+
+                        string playerWins = playerNode.SelectNodes("div").Last().InnerText;
+                        if (Int32.TryParse(playerWins, out int parsedWins)) wins.Add(parsedWins);
+                        else wins.Add(0);
+                    }
+
+                    if (players[0] == "-") continue;
+
+                    if (wins[0] > wins[1])
                     {
-                        Player1 = players[1],
-                        Player2 = players[0],
-                        Result = wins[1] + "-" + wins[0] + "-0"
-                    });
+                        brackets.Add(new RoundItem()
+                        {
+                            Player1 = players[0],
+                            Player2 = players[1],
+                            Result = wins[0] + "-" + wins[1] + "-0"
+                        });
+                    }
+                    else
+                    {
+                        brackets.Add(new RoundItem()
+                        {
+                            Player1 = players[1],
+                            Player2 = players[0],
+                            Result = wins[1] + "-" + wins[0] + "-0"
+                        });
+                    }
                 }
             }
 
             List<RoundV2> rounds = new List<RoundV2>();
-            rounds.Add(new RoundV2()
+            if(brackets.Count==7)
             {
-                RoundName = "Quarterfinals",
-                Matches = brackets.Take(4).ToArray()
-            });
-            rounds.Add(new RoundV2()
+                // No extra rounds
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Quarterfinals",
+                    Matches = brackets.Take(4).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Semifinals",
+                    Matches = brackets.Skip(4).Take(2).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Finals",
+                    Matches = brackets.Skip(6).ToArray()
+                });
+            }
+            else
             {
-                RoundName = "Semifinals",
-                Matches = brackets.Skip(4).Take(2).ToArray()
-            });
-            rounds.Add(new RoundV2()
-            {
-                RoundName = "Finals",
-                Matches = brackets.Skip(6).ToArray()
-            });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Quarterfinals",
+                    Matches = brackets.Take(4).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Loser Semifinals",
+                    Matches = brackets.Skip(10).Take(2).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Semifinals",
+                    Matches = brackets.Skip(4).Take(2).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Match for 7th and 8th places",
+                    Matches = brackets.Skip(15).Take(1).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Match for 5th and 6th places",
+                    Matches = brackets.Skip(12).Take(1).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Match for 3rd and 4th places",
+                    Matches = brackets.Skip(9).Take(1).ToArray()
+                });
+                rounds.Add(new RoundV2()
+                {
+                    RoundName = "Finals",
+                    Matches = brackets.Skip(6).Take(1).ToArray()
+                });
+
+            }
 
             return rounds.ToArray();
         }
