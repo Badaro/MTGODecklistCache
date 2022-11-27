@@ -850,20 +850,20 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/amonkhet-standard-championship-qualifier-2017-06-1910696510#deck_ImGonnaGoAFK",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Grasp of Darkness"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lord of the Accursed"
-        },
-        {
           "Count": 3,
           "CardName": "Fatal Push"
         },
         {
           "Count": 4,
-          "CardName": "Dread Wanderer"
+          "CardName": "Diregraf Colossus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Grasp of Darkness"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dark Salvation"
         },
         {
           "Count": 22,
@@ -875,7 +875,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Dark Salvation"
+          "CardName": "Relentless Dead"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dread Wanderer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lord of the Accursed"
+        },
+        {
+          "Count": 2,
+          "CardName": "Westvale Abbey"
         },
         {
           "Count": 4,
@@ -883,45 +895,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Diregraf Colossus"
-        },
-        {
-          "Count": 4,
           "CardName": "Metallic Mimic"
-        },
-        {
-          "Count": 4,
-          "CardName": "Relentless Dead"
-        },
-        {
-          "Count": 2,
-          "CardName": "Westvale Abbey"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Liliana, the Last Hope"
-        },
-        {
-          "Count": 1,
-          "CardName": "Skysovereign, Consul Flagship"
-        },
         {
           "Count": 2,
           "CardName": "Grasp of Darkness"
         },
         {
           "Count": 2,
-          "CardName": "Fleetwheel Cruiser"
-        },
-        {
-          "Count": 1,
-          "CardName": "To the Slaughter"
+          "CardName": "Liliana, the Last Hope"
         },
         {
           "Count": 2,
-          "CardName": "Never // Return"
+          "CardName": "Skysovereign, Consul Flagship"
         },
         {
           "Count": 4,
@@ -930,6 +918,14 @@
         {
           "Count": 1,
           "CardName": "Fatal Push"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fleetwheel Cruiser"
+        },
+        {
+          "Count": 2,
+          "CardName": "Never // Return"
         }
       ]
     },
@@ -1079,43 +1075,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Elder Deep-Fiend"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fevered Visions"
-        },
-        {
-          "Count": 4,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
           "CardName": "Prized Amalgam"
         },
         {
           "Count": 4,
-          "CardName": "Cathartic Reunion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Advanced Stitchwing"
-        },
-        {
-          "Count": 3,
-          "CardName": "Highland Lake"
-        },
-        {
-          "Count": 3,
-          "CardName": "Contingency Plan"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tormenting Voice"
+          "CardName": "Sanctum of Ugin"
         },
         {
           "Count": 4,
@@ -1123,19 +1087,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Sanctum of Ugin"
-        },
-        {
-          "Count": 1,
-          "CardName": "Wretched Gryff"
-        },
-        {
-          "Count": 3,
-          "CardName": "Stitchwing Skaab"
+          "CardName": "Island"
         },
         {
           "Count": 4,
-          "CardName": "Kozilek's Return"
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wandering Fumarole"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tormenting Voice"
         },
         {
           "Count": 4,
@@ -1143,13 +1107,49 @@
         },
         {
           "Count": 4,
-          "CardName": "Wandering Fumarole"
+          "CardName": "Elder Deep-Fiend"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stitchwing Skaab"
+        },
+        {
+          "Count": 3,
+          "CardName": "Highland Lake"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kozilek's Return"
+        },
+        {
+          "Count": 3,
+          "CardName": "Contingency Plan"
+        },
+        {
+          "Count": 4,
+          "CardName": "Advanced Stitchwing"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cathartic Reunion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wretched Gryff"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fevered Visions"
         }
       ],
       "Sideboard": [
         {
+          "Count": 2,
+          "CardName": "Fiery Temper"
+        },
+        {
           "Count": 1,
-          "CardName": "Fevered Visions"
+          "CardName": "Mountain"
         },
         {
           "Count": 3,
@@ -1160,12 +1160,12 @@
           "CardName": "Reduce // Rubble"
         },
         {
-          "Count": 2,
-          "CardName": "Fiery Temper"
+          "Count": 1,
+          "CardName": "Fevered Visions"
         },
         {
-          "Count": 1,
-          "CardName": "Mountain"
+          "Count": 2,
+          "CardName": "Nahiri's Wrath"
         },
         {
           "Count": 2,
@@ -1174,10 +1174,6 @@
         {
           "Count": 2,
           "CardName": "Release the Gremlins"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nahiri's Wrath"
         }
       ]
     },

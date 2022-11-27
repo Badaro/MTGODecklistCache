@@ -938,8 +938,32 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/vintage-challenge-2020-10-1112216048#deck_yoshiwata",
       "Mainboard": [
         {
+          "Count": 3,
+          "CardName": "Assassin's Trophy"
+        },
+        {
+          "Count": 3,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Force of Negation"
+        },
+        {
           "Count": 2,
-          "CardName": "Scalding Tarn"
+          "CardName": "Collector Ouphe"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tropical Island"
         },
         {
           "Count": 1,
@@ -947,91 +971,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 2,
-          "CardName": "Volcanic Island"
+          "CardName": "Oko, Thief of Crowns"
         },
         {
           "Count": 1,
-          "CardName": "Treasure Cruise"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mental Misstep"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mox Ruby"
-        },
-        {
-          "Count": 1,
-          "CardName": "Merchant Scroll"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 2,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Polluted Delta"
-        },
-        {
-          "Count": 1,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mox Sapphire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Underground Sea"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wasteland"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tropical Island"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gitaxian Probe"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ancestral Recall"
+          "CardName": "Black Lotus"
         },
         {
           "Count": 1,
           "CardName": "Gush"
         },
         {
-          "Count": 2,
-          "CardName": "Pyroblast"
-        },
-        {
           "Count": 1,
-          "CardName": "Jace, Vryn's Prodigy"
-        },
-        {
-          "Count": 4,
-          "CardName": "Deathrite Shaman"
-        },
-        {
-          "Count": 1,
-          "CardName": "Strip Mine"
-        },
-        {
-          "Count": 1,
-          "CardName": "Demonic Tutor"
+          "CardName": "Dig Through Time"
         },
         {
           "Count": 4,
@@ -1039,11 +991,23 @@
         },
         {
           "Count": 1,
-          "CardName": "Flusterstorm"
+          "CardName": "Mental Misstep"
         },
         {
           "Count": 1,
-          "CardName": "Force of Negation"
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mox Sapphire"
         },
         {
           "Count": 1,
@@ -1054,12 +1018,36 @@
           "CardName": "Brainstorm"
         },
         {
-          "Count": 3,
-          "CardName": "Oko, Thief of Crowns"
+          "Count": 1,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 1,
+          "CardName": "Strip Mine"
+        },
+        {
+          "Count": 1,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 1,
+          "CardName": "Demonic Tutor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Treasure Cruise"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ponder"
         },
         {
           "Count": 3,
-          "CardName": "Preordain"
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Leovold, Emissary of Trest"
         },
         {
           "Count": 1,
@@ -1067,57 +1055,61 @@
         },
         {
           "Count": 1,
-          "CardName": "Mystic Sanctuary"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dack Fayden"
-        },
-        {
-          "Count": 1,
-          "CardName": "Daze"
+          "CardName": "Ancestral Recall"
         },
         {
           "Count": 3,
-          "CardName": "Wrenn and Six"
+          "CardName": "Verdant Catacombs"
         },
         {
-          "Count": 2,
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 3,
           "CardName": "Tarmogoyf"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
+          "CardName": "Veil of Summer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 2,
           "CardName": "Force of Vigor"
         },
         {
           "Count": 2,
-          "CardName": "Nature's Claim"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ancient Grudge"
+          "CardName": "Energy Flux"
         },
         {
           "Count": 2,
           "CardName": "Mindbreak Trap"
         },
         {
+          "Count": 1,
+          "CardName": "Collector Ouphe"
+        },
+        {
           "Count": 2,
           "CardName": "The Tabernacle at Pendrell Vale"
         },
         {
-          "Count": 4,
-          "CardName": "Leyline of the Void"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sulfur Elemental"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pyroblast"
+          "Count": 3,
+          "CardName": "Surgical Extraction"
         }
       ]
     },

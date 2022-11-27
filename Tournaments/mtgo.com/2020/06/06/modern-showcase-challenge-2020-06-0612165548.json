@@ -1669,7 +1669,19 @@
       "Mainboard": [
         {
           "Count": 4,
+          "CardName": "Arcbound Worker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Arcbound Ravager"
+        },
+        {
+          "Count": 4,
           "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hangarback Walker"
         },
         {
           "Count": 2,
@@ -1677,15 +1689,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Hangarback Walker"
+          "CardName": "Walking Ballista"
         },
         {
-          "Count": 1,
-          "CardName": "Pendelhaven"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ancient Stirrings"
+          "Count": 7,
+          "CardName": "Forest"
         },
         {
           "Count": 2,
@@ -1696,28 +1704,8 @@
           "CardName": "Welding Jar"
         },
         {
-          "Count": 3,
-          "CardName": "Animation Module"
-        },
-        {
-          "Count": 7,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 1,
-          "CardName": "Phyrexia's Core"
-        },
-        {
           "Count": 4,
-          "CardName": "Hardened Scales"
-        },
-        {
-          "Count": 4,
-          "CardName": "Arcbound Ravager"
-        },
-        {
-          "Count": 1,
-          "CardName": "Steel Overseer"
+          "CardName": "Ancient Stirrings"
         },
         {
           "Count": 4,
@@ -1725,15 +1713,23 @@
         },
         {
           "Count": 1,
+          "CardName": "Pendelhaven"
+        },
+        {
+          "Count": 1,
+          "CardName": "Phyrexia's Core"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scrapyard Recombiner"
+        },
+        {
+          "Count": 1,
           "CardName": "Throne of Geth"
         },
         {
-          "Count": 4,
-          "CardName": "Walking Ballista"
-        },
-        {
-          "Count": 4,
-          "CardName": "Arcbound Worker"
+          "Count": 3,
+          "CardName": "Animation Module"
         },
         {
           "Count": 3,
@@ -1744,18 +1740,22 @@
           "CardName": "Metallic Mimic"
         },
         {
-          "Count": 2,
-          "CardName": "Scrapyard Recombiner"
+          "Count": 4,
+          "CardName": "Hardened Scales"
+        },
+        {
+          "Count": 1,
+          "CardName": "Steel Overseer"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Veil of Summer"
-        },
-        {
           "Count": 3,
           "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nature's Claim"
         },
         {
           "Count": 3,
@@ -1771,7 +1771,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Nature's Claim"
+          "CardName": "Veil of Summer"
         }
       ]
     },
@@ -1901,67 +1901,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Nihil Spellbomb"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza, Lord High Artificer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Snow-Covered Swamp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pyrite Spellbomb"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 4,
-          "CardName": "Emry, Lurker of the Loch"
-        },
-        {
-          "Count": 1,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Engineered Explosives"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goblin Engineer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sword of the Meek"
-        },
-        {
-          "Count": 4,
-          "CardName": "Polluted Delta"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pentad Prism"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sunken Hollow"
+          "CardName": "Aether Spellbomb"
         },
         {
           "Count": 8,
           "CardName": "Snow-Covered Island"
         },
         {
-          "Count": 1,
-          "CardName": "Pithing Needle"
+          "Count": 4,
+          "CardName": "Mishra's Bauble"
         },
         {
-          "Count": 1,
-          "CardName": "Inventors' Fair"
+          "Count": 2,
+          "CardName": "Sword of the Meek"
         },
         {
           "Count": 2,
@@ -1969,7 +1921,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Mishra's Bauble"
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 1,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goblin Engineer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
         },
         {
           "Count": 1,
@@ -1977,11 +1941,31 @@
         },
         {
           "Count": 1,
-          "CardName": "Steam Vents"
+          "CardName": "Inventors' Fair"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sunken Hollow"
         },
         {
           "Count": 2,
           "CardName": "Mox Amber"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ensnaring Bridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pentad Prism"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Engineered Explosives"
         },
         {
           "Count": 4,
@@ -1989,11 +1973,23 @@
         },
         {
           "Count": 1,
-          "CardName": "Aether Spellbomb"
+          "CardName": "Pyrite Spellbomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Emry, Lurker of the Loch"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza, Lord High Artificer"
         },
         {
           "Count": 1,
-          "CardName": "Ensnaring Bridge"
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Steam Vents"
         }
       ],
       "Sideboard": [
@@ -2006,20 +2002,24 @@
           "CardName": "Thoughtseize"
         },
         {
-          "Count": 2,
-          "CardName": "Ceremonious Rejection"
+          "Count": 1,
+          "CardName": "Tezzeret, Agent of Bolas"
         },
         {
           "Count": 1,
           "CardName": "Fatal Push"
         },
         {
-          "Count": 2,
-          "CardName": "Mystical Dispute"
+          "Count": 1,
+          "CardName": "Damping Sphere"
         },
         {
-          "Count": 1,
-          "CardName": "Tezzeret, Agent of Bolas"
+          "Count": 2,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mystical Dispute"
         },
         {
           "Count": 2,
@@ -2027,11 +2027,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Aether Gust"
-        },
-        {
-          "Count": 1,
-          "CardName": "Damping Sphere"
+          "CardName": "Ceremonious Rejection"
         }
       ]
     },
@@ -4306,60 +4302,28 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-showcase-challenge-2020-06-0612165548#deck_sora1248",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eternal Witness"
-        },
-        {
-          "Count": 4,
-          "CardName": "Strangleroot Geist"
-        },
-        {
-          "Count": 4,
-          "CardName": "Voice of Resurgence"
-        },
-        {
-          "Count": 2,
-          "CardName": "Snow-Covered Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Winota, Joiner of Forces"
-        },
-        {
-          "Count": 1,
-          "CardName": "Magus of the Moon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Angrath's Marauders"
-        },
-        {
           "Count": 4,
           "CardName": "Seasoned Pyromancer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cavern of Souls"
         },
         {
           "Count": 4,
           "CardName": "Birds of Paradise"
         },
         {
+          "Count": 1,
+          "CardName": "Eternal Witness"
+        },
+        {
           "Count": 3,
-          "CardName": "Stomping Ground"
+          "CardName": "Temple Garden"
         },
         {
-          "Count": 4,
-          "CardName": "Eldritch Evolution"
+          "Count": 1,
+          "CardName": "Magus of the Moon"
         },
         {
-          "Count": 4,
-          "CardName": "Windswept Heath"
+          "Count": 3,
+          "CardName": "Voice of Resurgence"
         },
         {
           "Count": 4,
@@ -4367,7 +4331,27 @@
         },
         {
           "Count": 4,
+          "CardName": "Angrath's Marauders"
+        },
+        {
+          "Count": 4,
+          "CardName": "Strangleroot Geist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 4,
           "CardName": "Wooded Foothills"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 4,
+          "CardName": "Winota, Joiner of Forces"
         },
         {
           "Count": 1,
@@ -4375,49 +4359,57 @@
         },
         {
           "Count": 1,
+          "CardName": "Razorverge Thicket"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 2,
           "CardName": "Smuggler's Copter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldritch Evolution"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stomping Ground"
         },
         {
           "Count": 3,
           "CardName": "Arbor Elf"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Razorverge Thicket"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Gaddock Teeg"
-        },
-        {
           "Count": 3,
           "CardName": "Rest in Peace"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Choke"
         },
         {
           "Count": 2,
           "CardName": "Knight of Autumn"
         },
         {
+          "Count": 3,
+          "CardName": "Timely Reinforcements"
+        },
+        {
+          "Count": 1,
+          "CardName": "Choke"
+        },
+        {
           "Count": 1,
           "CardName": "Huntmaster of the Fells"
         },
         {
-          "Count": 3,
-          "CardName": "Timely Reinforcements"
+          "Count": 1,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 1,
@@ -4426,6 +4418,10 @@
         {
           "Count": 2,
           "CardName": "Avalanche Riders"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gaddock Teeg"
         }
       ]
     }

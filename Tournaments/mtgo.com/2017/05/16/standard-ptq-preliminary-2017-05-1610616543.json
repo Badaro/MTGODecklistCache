@@ -12,18 +12,6 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2017-05-1610616543#deck_msskinbolic",
       "Mainboard": [
         {
-          "Count": 6,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 2,
-          "CardName": "Binding Mummy"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dread Wanderer"
-        },
-        {
           "Count": 10,
           "CardName": "Swamp"
         },
@@ -32,24 +20,32 @@
           "CardName": "Liliana's Mastery"
         },
         {
-          "Count": 4,
-          "CardName": "Cryptbreaker"
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Anguished Unmaking"
         },
         {
           "Count": 4,
           "CardName": "Diregraf Colossus"
         },
         {
-          "Count": 1,
-          "CardName": "Declaration in Stone"
-        },
-        {
           "Count": 4,
-          "CardName": "Lord of the Accursed"
+          "CardName": "Cryptbreaker"
         },
         {
           "Count": 4,
           "CardName": "Shambling Vent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gideon, Ally of Zendikar"
+        },
+        {
+          "Count": 2,
+          "CardName": "Grasp of Darkness"
         },
         {
           "Count": 4,
@@ -57,7 +53,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Anguished Unmaking"
+          "CardName": "Declaration in Stone"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dread Wanderer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wayward Servant"
         },
         {
           "Count": 4,
@@ -65,17 +69,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Wayward Servant"
+          "CardName": "Lord of the Accursed"
         },
         {
-          "Count": 3,
-          "CardName": "Fatal Push"
+          "Count": 1,
+          "CardName": "Aether Hub"
         }
       ],
       "Sideboard": [
         {
           "Count": 4,
-          "CardName": "Transgress the Mind"
+          "CardName": "Selfless Spirit"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gideon, Ally of Zendikar"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fatal Push"
         },
         {
           "Count": 2,
@@ -87,11 +99,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Scrapheap Scrounger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gideon, Ally of Zendikar"
+          "CardName": "Transgress the Mind"
         }
       ]
     },
@@ -2292,36 +2300,8 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2017-05-1610616543#deck_Dotta",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Whirler Virtuoso"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spirebluff Canal"
-        },
-        {
-          "Count": 1,
-          "CardName": "Botanical Sanctum"
-        },
-        {
-          "Count": 4,
-          "CardName": "Woodweaver's Puzzleknot"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ulamog, the Ceaseless Hunger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Hub"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aetherworks Marvel"
+          "Count": 6,
+          "CardName": "Forest"
         },
         {
           "Count": 1,
@@ -2332,74 +2312,102 @@
           "CardName": "Chandra, Flamecaller"
         },
         {
-          "Count": 2,
-          "CardName": "Game Trail"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sheltered Thicket"
-        },
-        {
-          "Count": 6,
-          "CardName": "Forest"
-        },
-        {
           "Count": 4,
-          "CardName": "Harnessed Lightning"
-        },
-        {
-          "Count": 1,
-          "CardName": "Island"
+          "CardName": "Whirler Virtuoso"
         },
         {
           "Count": 4,
           "CardName": "Attune with Aether"
         },
         {
-          "Count": 4,
-          "CardName": "Rogue Refiner"
+          "Count": 1,
+          "CardName": "Sheltered Thicket"
         },
         {
-          "Count": 2,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Aetherworks Marvel"
         },
         {
           "Count": 2,
           "CardName": "Lumbering Falls"
         },
         {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
           "Count": 4,
           "CardName": "Servant of the Conduit"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Harnessed Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rogue Refiner"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ulamog, the Ceaseless Hunger"
+        },
+        {
+          "Count": 1,
+          "CardName": "Botanical Sanctum"
+        },
+        {
+          "Count": 2,
+          "CardName": "Game Trail"
+        },
+        {
+          "Count": 4,
+          "CardName": "Woodweaver's Puzzleknot"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spirebluff Canal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Aether Hub"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Confiscation Coup"
+        },
         {
           "Count": 2,
           "CardName": "Sweltering Suns"
         },
         {
           "Count": 2,
-          "CardName": "Ceremonious Rejection"
+          "CardName": "Sphinx of the Final Word"
         },
         {
-          "Count": 1,
-          "CardName": "Manglehorn"
+          "Count": 2,
+          "CardName": "Ceremonious Rejection"
         },
         {
           "Count": 2,
           "CardName": "Aether Meltdown"
         },
         {
-          "Count": 2,
-          "CardName": "Sphinx of the Final Word"
+          "Count": 1,
+          "CardName": "Manglehorn"
         },
         {
           "Count": 4,
           "CardName": "Tireless Tracker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Confiscation Coup"
         }
       ]
     },

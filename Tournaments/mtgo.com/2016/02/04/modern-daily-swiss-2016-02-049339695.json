@@ -142,8 +142,12 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-daily-swiss-2016-02-049339695#deck_jkirchnerortiz",
       "Mainboard": [
         {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
           "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Monastery Swiftspear"
         },
         {
           "Count": 3,
@@ -154,16 +158,20 @@
           "CardName": "Bloodstained Mire"
         },
         {
-          "Count": 4,
-          "CardName": "Lava Spike"
-        },
-        {
           "Count": 3,
           "CardName": "Mountain"
         },
         {
           "Count": 4,
-          "CardName": "Monastery Swiftspear"
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Helix"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         },
         {
           "Count": 2,
@@ -171,7 +179,27 @@
         },
         {
           "Count": 4,
+          "CardName": "Rift Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eidolon of the Great Revel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Boros Charm"
+        },
+        {
+          "Count": 4,
           "CardName": "Goblin Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Skullcrack"
         },
         {
           "Count": 2,
@@ -180,37 +208,17 @@
         {
           "Count": 4,
           "CardName": "Windswept Heath"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Boros Charm"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eidolon of the Great Revel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Helix"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 4,
-          "CardName": "Skullcrack"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rift Bolt"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 2,
+          "CardName": "Molten Rain"
+        },
         {
           "Count": 2,
           "CardName": "Deflecting Palm"
@@ -221,19 +229,11 @@
         },
         {
           "Count": 2,
+          "CardName": "Kor Firewalker"
+        },
+        {
+          "Count": 2,
           "CardName": "Smash to Smithereens"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Claw"
-        },
-        {
-          "Count": 3,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 2,
-          "CardName": "Molten Rain"
         }
       ]
     },
@@ -387,23 +387,27 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Wild Nacatl"
+          "CardName": "Windswept Heath"
         },
         {
           "Count": 4,
-          "CardName": "Windswept Heath"
+          "CardName": "Wild Nacatl"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noble Hierarch"
         },
         {
           "Count": 1,
           "CardName": "Horizon Canopy"
         },
         {
-          "Count": 1,
-          "CardName": "Dromoka's Command"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple Garden"
+          "Count": 4,
+          "CardName": "Knight of the Reliquary"
         },
         {
           "Count": 1,
@@ -411,105 +415,101 @@
         },
         {
           "Count": 4,
-          "CardName": "Knight of the Reliquary"
-        },
-        {
-          "Count": 3,
-          "CardName": "Scavenging Ooze"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tarmogoyf"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Noble Hierarch"
-        },
-        {
-          "Count": 4,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 3,
-          "CardName": "Qasali Pridemage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Raging Ravine"
-        },
-        {
-          "Count": 4,
           "CardName": "Loxodon Smiter"
         },
         {
           "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 3,
-          "CardName": "Collected Company"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 2,
-          "CardName": "Arid Mesa"
+          "CardName": "Temple Garden"
         },
         {
           "Count": 1,
-          "CardName": "Kessig Wolf Run"
+          "CardName": "Dromoka's Command"
         },
         {
           "Count": 4,
           "CardName": "Wooded Foothills"
         },
         {
+          "Count": 4,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 3,
+          "CardName": "Scavenging Ooze"
+        },
+        {
           "Count": 1,
           "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 3,
+          "CardName": "Qasali Pridemage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Collected Company"
+        },
+        {
+          "Count": 1,
+          "CardName": "Raging Ravine"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kessig Wolf Run"
+        },
+        {
+          "Count": 2,
+          "CardName": "Arid Mesa"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Stony Silence"
+          "CardName": "Grim Lavamancer"
         },
         {
-          "Count": 2,
-          "CardName": "Grim Lavamancer"
+          "Count": 1,
+          "CardName": "Feed the Clan"
         },
         {
           "Count": 3,
           "CardName": "Bonfire of the Damned"
         },
         {
-          "Count": 3,
-          "CardName": "Fulminator Mage"
+          "Count": 2,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stony Silence"
         },
         {
           "Count": 2,
           "CardName": "Crumble to Dust"
         },
         {
-          "Count": 2,
-          "CardName": "Leyline of Sanctity"
-        },
-        {
-          "Count": 1,
-          "CardName": "Feed the Clan"
+          "Count": 3,
+          "CardName": "Fulminator Mage"
         }
       ]
     },

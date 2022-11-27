@@ -127,11 +127,39 @@
       "Mainboard": [
         {
           "Count": 1,
-          "CardName": "Traverse the Ulvenwald"
+          "CardName": "Solar Blaze"
         },
         {
           "Count": 1,
-          "CardName": "Opulent Palace"
+          "CardName": "Frontier Bivouac"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nomad Outpost"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sylvan Caryatid"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bring to Light"
+        },
+        {
+          "Count": 1,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
         },
         {
           "Count": 1,
@@ -139,35 +167,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Cut // Ribbons"
+          "CardName": "Swamp"
         },
         {
           "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Solar Blaze"
-        },
-        {
-          "Count": 1,
-          "CardName": "Breeding Pool"
+          "CardName": "Opulent Palace"
         },
         {
           "Count": 1,
           "CardName": "Temple of Plenty"
         },
         {
-          "Count": 4,
-          "CardName": "Teferi, Time Raveler"
-        },
-        {
           "Count": 2,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 3,
-          "CardName": "Uro, Titan of Nature's Wrath"
+          "CardName": "Concealed Courtyard"
         },
         {
           "Count": 1,
@@ -175,7 +187,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Forest"
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Watery Grave"
         },
         {
           "Count": 2,
@@ -183,19 +199,15 @@
         },
         {
           "Count": 1,
-          "CardName": "Island"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mana Confluence"
-        },
-        {
-          "Count": 2,
-          "CardName": "Watery Grave"
+          "CardName": "Vraska, Golgari Queen"
         },
         {
           "Count": 4,
-          "CardName": "Fabled Passage"
+          "CardName": "Paradise Druid"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
         },
         {
           "Count": 4,
@@ -206,36 +218,12 @@
           "CardName": "Temple of Deceit"
         },
         {
-          "Count": 4,
-          "CardName": "Sylvan Caryatid"
-        },
-        {
-          "Count": 1,
-          "CardName": "Nomad Outpost"
-        },
-        {
-          "Count": 1,
-          "CardName": "Frontier Bivouac"
-        },
-        {
           "Count": 2,
           "CardName": "Siege Rhino"
         },
         {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Concealed Courtyard"
-        },
-        {
-          "Count": 1,
-          "CardName": "Vraska, Golgari Queen"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
+          "Count": 4,
+          "CardName": "Fabled Passage"
         },
         {
           "Count": 2,
@@ -246,16 +234,28 @@
           "CardName": "Abrupt Decay"
         },
         {
-          "Count": 4,
-          "CardName": "Bring to Light"
+          "Count": 1,
+          "CardName": "Cut // Ribbons"
         },
         {
           "Count": 1,
-          "CardName": "Stomping Ground"
+          "CardName": "Forest"
         },
         {
-          "Count": 4,
-          "CardName": "Paradise Druid"
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mana Confluence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Traverse the Ulvenwald"
+        },
+        {
+          "Count": 3,
+          "CardName": "Uro, Titan of Nature's Wrath"
         }
       ],
       "Sideboard": [
@@ -265,23 +265,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Infernal Reckoning"
+          "CardName": "Mystical Dispute"
         },
         {
           "Count": 1,
           "CardName": "Blood Baron of Vizkopa"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thought Erasure"
-        },
-        {
-          "Count": 1,
-          "CardName": "Deafening Clarion"
-        },
-        {
-          "Count": 1,
-          "CardName": "Kambal, Consul of Allocation"
         },
         {
           "Count": 1,
@@ -289,11 +277,23 @@
         },
         {
           "Count": 2,
-          "CardName": "Rakdos's Return"
+          "CardName": "Infernal Reckoning"
         },
         {
           "Count": 2,
-          "CardName": "Mystical Dispute"
+          "CardName": "Thought Erasure"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kambal, Consul of Allocation"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rakdos's Return"
+        },
+        {
+          "Count": 1,
+          "CardName": "Deafening Clarion"
         }
       ]
     },
@@ -2602,44 +2602,52 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-01-2112071860#deck_kurenai_",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Shivan Reef"
+          "Count": 4,
+          "CardName": "Spirebluff Canal"
         },
         {
           "Count": 4,
-          "CardName": "Steam Vents"
+          "CardName": "Lotus Field"
         },
         {
           "Count": 3,
           "CardName": "Goblin Electromancer"
         },
         {
-          "Count": 2,
-          "CardName": "Discovery // Dispersal"
-        },
-        {
           "Count": 4,
           "CardName": "Underworld Breach"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unsubstantiate"
         },
         {
           "Count": 4,
           "CardName": "Opt"
         },
         {
+          "Count": 3,
+          "CardName": "Shivan Reef"
+        },
+        {
+          "Count": 2,
+          "CardName": "Discovery // Dispersal"
+        },
+        {
           "Count": 2,
           "CardName": "Mountain"
         },
         {
-          "Count": 2,
-          "CardName": "Thassa's Oracle"
+          "Count": 4,
+          "CardName": "Strategic Planning"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unsubstantiate"
         },
         {
           "Count": 1,
           "CardName": "Dig Through Time"
+        },
+        {
+          "Count": 4,
+          "CardName": "Compelling Argument"
         },
         {
           "Count": 7,
@@ -2647,49 +2655,41 @@
         },
         {
           "Count": 4,
-          "CardName": "Compelling Argument"
-        },
-        {
-          "Count": 4,
-          "CardName": "Baral, Chief of Compliance"
+          "CardName": "Hidden Strings"
         },
         {
           "Count": 3,
           "CardName": "Cathartic Reunion"
         },
         {
-          "Count": 4,
-          "CardName": "Lotus Field"
+          "Count": 2,
+          "CardName": "Thassa's Oracle"
         },
         {
           "Count": 4,
-          "CardName": "Strategic Planning"
+          "CardName": "Baral, Chief of Compliance"
         },
         {
           "Count": 4,
-          "CardName": "Hidden Strings"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spirebluff Canal"
+          "CardName": "Steam Vents"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Mystical Dispute"
+        },
         {
           "Count": 1,
           "CardName": "Brazen Borrower"
         },
         {
-          "Count": 4,
-          "CardName": "Crackling Drake"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spell Pierce"
-        },
-        {
           "Count": 1,
           "CardName": "Negate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Young Pyromancer"
         },
         {
           "Count": 2,
@@ -2697,7 +2697,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Young Pyromancer"
+          "CardName": "Spell Pierce"
         },
         {
           "Count": 3,

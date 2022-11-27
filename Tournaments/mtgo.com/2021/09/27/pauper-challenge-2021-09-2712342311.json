@@ -398,32 +398,36 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2021-09-2712342311#deck_ht991122",
       "Mainboard": [
         {
+          "Count": 3,
+          "CardName": "Snuff Out"
+        },
+        {
           "Count": 4,
           "CardName": "Counterspell"
         },
         {
           "Count": 4,
-          "CardName": "Faerie Seer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ash Barrens"
-        },
-        {
-          "Count": 3,
-          "CardName": "Snuff Out"
+          "CardName": "Cast Down"
         },
         {
           "Count": 2,
           "CardName": "Evolving Wilds"
         },
         {
-          "Count": 3,
-          "CardName": "Gurmag Angler"
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         },
         {
           "Count": 2,
-          "CardName": "Preordain"
+          "CardName": "Snow-Covered Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 1,
+          "CardName": "Suffocating Fumes"
         },
         {
           "Count": 4,
@@ -431,11 +435,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Ponder"
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
         },
         {
           "Count": 4,
-          "CardName": "Spellstutter Sprite"
+          "CardName": "Augur of Bolas"
         },
         {
           "Count": 9,
@@ -443,23 +451,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Augur of Bolas"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dispel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thorn of the Black Rose"
-        },
-        {
-          "Count": 1,
-          "CardName": "Suffocating Fumes"
-        },
-        {
-          "Count": 2,
-          "CardName": "Snow-Covered Swamp"
+          "CardName": "Faerie Seer"
         },
         {
           "Count": 4,
@@ -470,42 +462,50 @@
           "CardName": "Ice Tunnel"
         },
         {
+          "Count": 1,
+          "CardName": "Thorn of the Black Rose"
+        },
+        {
           "Count": 3,
-          "CardName": "Cast Down"
+          "CardName": "Gurmag Angler"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ash Barrens"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 1,
-          "CardName": "Okiba-Gang Shinobi"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dispel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
-        },
-        {
-          "Count": 3,
+          "Count": 2,
           "CardName": "Stormbound Geist"
-        },
-        {
-          "Count": 1,
-          "CardName": "Echoing Truth"
         },
         {
           "Count": 2,
           "CardName": "Suffocating Fumes"
         },
         {
-          "Count": 2,
+          "Count": 1,
+          "CardName": "Echoing Truth"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Okiba-Gang Shinobi"
+        },
+        {
+          "Count": 3,
           "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
         }
       ]
     },
@@ -1526,72 +1526,16 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2021-09-2712342311#deck_Phill_Hellmuth",
       "Mainboard": [
         {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lightning Bolt"
-        },
-        {
           "Count": 4,
           "CardName": "Counterspell"
-        },
-        {
-          "Count": 1,
-          "CardName": "Izzet Boilerworks"
-        },
-        {
-          "Count": 4,
-          "CardName": "Augur of Bolas"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flame Slash"
-        },
-        {
-          "Count": 1,
-          "CardName": "Harvest Pyre"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cleansing Wildfire"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ephemerate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rustvale Bridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mulldrifter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Preordain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Silverbluff Bridge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ardent Elementalist"
         },
         {
           "Count": 2,
           "CardName": "Fiery Cannonade"
         },
         {
-          "Count": 9,
-          "CardName": "Island"
+          "Count": 4,
+          "CardName": "Augur of Bolas"
         },
         {
           "Count": 1,
@@ -1599,37 +1543,85 @@
         },
         {
           "Count": 1,
-          "CardName": "Lonely Sandbar"
+          "CardName": "Abrade"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silverbluff Bridge"
         },
         {
           "Count": 2,
           "CardName": "Dispel"
         },
         {
+          "Count": 4,
+          "CardName": "Mulldrifter"
+        },
+        {
+          "Count": 9,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flame Slash"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
           "Count": 3,
           "CardName": "Sea Gate Oracle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rustvale Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ardent Elementalist"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Izzet Boilerworks"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lonely Sandbar"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Gorilla Shaman"
-        },
-        {
-          "Count": 2,
-          "CardName": "Red Elemental Blast"
-        },
-        {
-          "Count": 2,
-          "CardName": "Relic of Progenitus"
-        },
         {
           "Count": 4,
           "CardName": "Hydroblast"
         },
         {
+          "Count": 2,
+          "CardName": "Gorilla Shaman"
+        },
+        {
           "Count": 1,
-          "CardName": "Lone Missionary"
+          "CardName": "Stonehorn Dignitary"
         },
         {
           "Count": 1,
@@ -1640,8 +1632,16 @@
           "CardName": "Pyroblast"
         },
         {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Red Elemental Blast"
+        },
+        {
           "Count": 1,
-          "CardName": "Stonehorn Dignitary"
+          "CardName": "Lone Missionary"
         }
       ]
     },
@@ -2788,11 +2788,67 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2021-09-2712342311#deck_robb93",
       "Mainboard": [
         {
-          "Count": 1,
+          "Count": 2,
           "CardName": "Deadly Dispute"
         },
         {
-          "Count": 3,
+          "Count": 1,
+          "CardName": "Mistvault Bridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Silverbluff Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Great Furnace"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disciple of the Vault"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chromatic Star"
+        },
+        {
+          "Count": 4,
+          "CardName": "Myr Enforcer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gearseeker Serpent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fling"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtcast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prophetic Prism"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vault of Whispers"
+        },
+        {
+          "Count": 4,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Makeshift Munitions"
+        },
+        {
+          "Count": 4,
           "CardName": "Ichor Wellspring"
         },
         {
@@ -2801,19 +2857,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Makeshift Munitions"
-        },
-        {
-          "Count": 4,
-          "CardName": "Prophetic Prism"
-        },
-        {
-          "Count": 2,
-          "CardName": "Fling"
-        },
-        {
-          "Count": 4,
-          "CardName": "Seat of the Synod"
+          "CardName": "Krark-Clan Shaman"
         },
         {
           "Count": 1,
@@ -2821,73 +2865,29 @@
         },
         {
           "Count": 4,
-          "CardName": "Great Furnace"
-        },
-        {
-          "Count": 2,
-          "CardName": "Silverbluff Bridge"
+          "CardName": "Atog"
         },
         {
           "Count": 1,
-          "CardName": "Mistvault Bridge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Duress"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gearseeker Serpent"
-        },
-        {
-          "Count": 2,
-          "CardName": "Disciple of the Vault"
-        },
-        {
-          "Count": 4,
-          "CardName": "Myr Enforcer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Krark-Clan Shaman"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thoughtcast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galvanic Blast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vault of Whispers"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chromatic Star"
-        },
-        {
-          "Count": 4,
-          "CardName": "Atog"
+          "CardName": "Dispel"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Cast Down"
+          "Count": 3,
+          "CardName": "Blue Elemental Blast"
         },
         {
           "Count": 2,
-          "CardName": "Krark-Clan Shaman"
-        },
-        {
-          "Count": 1,
           "CardName": "Duress"
         },
         {
+          "Count": 3,
+          "CardName": "Krark-Clan Shaman"
+        },
+        {
           "Count": 2,
-          "CardName": "Reaping the Graves"
+          "CardName": "Cast Down"
         },
         {
           "Count": 3,
@@ -2895,11 +2895,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Ancient Grudge"
-        },
-        {
-          "Count": 3,
-          "CardName": "Blue Elemental Blast"
+          "CardName": "Reaping the Graves"
         }
       ]
     },

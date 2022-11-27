@@ -2764,16 +2764,16 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-challenge-2021-05-2212295313#deck_TukaTuka",
       "Mainboard": [
         {
+          "Count": 3,
+          "CardName": "Pyrokinesis"
+        },
+        {
           "Count": 9,
           "CardName": "Mountain"
         },
         {
-          "Count": 4,
-          "CardName": "Fireblast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Pyrostatic Pillar"
+          "Count": 3,
+          "CardName": "Price of Progress"
         },
         {
           "Count": 4,
@@ -2781,19 +2781,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Monastery Swiftspear"
+          "CardName": "Pyrostatic Pillar"
         },
         {
           "Count": 4,
-          "CardName": "Sulfuric Vortex"
+          "CardName": "Monastery Swiftspear"
         },
         {
           "Count": 9,
           "CardName": "Snow-Covered Mountain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Price of Progress"
         },
         {
           "Count": 4,
@@ -2801,7 +2797,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Goblin Guide"
+          "CardName": "Fireblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sulfuric Vortex"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
@@ -2809,37 +2813,33 @@
         },
         {
           "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 3,
-          "CardName": "Pyrokinesis"
+          "CardName": "Goblin Guide"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Pyrokinesis"
+          "CardName": "Price of Progress"
         },
         {
           "Count": 1,
-          "CardName": "Exquisite Firecraft"
+          "CardName": "Pyrokinesis"
         },
         {
           "Count": 4,
           "CardName": "Leyline of the Void"
         },
         {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Karakas"
+        },
+        {
           "Count": 4,
           "CardName": "Smash to Smithereens"
-        },
-        {
-          "Count": 1,
-          "CardName": "Price of Progress"
-        },
-        {
-          "Count": 4,
-          "CardName": "Karakas"
         }
       ]
     },
@@ -3008,12 +3008,20 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-challenge-2021-05-2212295313#deck_Lord_Beerus",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Mystical Dispute"
+          "Count": 3,
+          "CardName": "Tarmogoyf"
         },
         {
-          "Count": 2,
-          "CardName": "Polluted Delta"
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
         },
         {
           "Count": 2,
@@ -3021,63 +3029,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Volcanic Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tarmogoyf"
-        },
-        {
-          "Count": 4,
           "CardName": "Delver of Secrets"
-        },
-        {
-          "Count": 4,
-          "CardName": "Daze"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tropical Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sylvan Library"
-        },
-        {
-          "Count": 2,
-          "CardName": "Chain Lightning"
-        },
-        {
-          "Count": 2,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Force of Negation"
         },
         {
           "Count": 4,
           "CardName": "Wasteland"
         },
         {
-          "Count": 3,
-          "CardName": "Hooting Mandrills"
-        },
-        {
           "Count": 2,
-          "CardName": "Brazen Borrower"
+          "CardName": "Mystical Dispute"
         },
         {
           "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Volcanic Island"
         },
         {
           "Count": 2,
@@ -3088,11 +3052,67 @@
           "CardName": "Hexdrinker"
         },
         {
+          "Count": 2,
+          "CardName": "Misty Rainforest"
+        },
+        {
           "Count": 4,
-          "CardName": "Force of Will"
+          "CardName": "Daze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Brazen Borrower"
+        },
+        {
+          "Count": 2,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 2,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 2,
+          "CardName": "Force of Negation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hooting Mandrills"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Submerge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blazing Volley"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ancient Grudge"
+        },
         {
           "Count": 2,
           "CardName": "Surgical Extraction"
@@ -3102,28 +3122,8 @@
           "CardName": "Klothys, God of Destiny"
         },
         {
-          "Count": 2,
-          "CardName": "Ancient Grudge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sylvan Library"
-        },
-        {
           "Count": 1,
           "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 2,
-          "CardName": "Submerge"
-        },
-        {
-          "Count": 3,
-          "CardName": "Pyroblast"
-        },
-        {
-          "Count": 2,
-          "CardName": "Blazing Volley"
         }
       ]
     },

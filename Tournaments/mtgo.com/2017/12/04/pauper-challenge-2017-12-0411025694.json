@@ -1046,8 +1046,16 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2017-12-0411025694#deck_jsiri84",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Lightning Bolt"
+          "Count": 2,
+          "CardName": "Prohibit"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Mine"
+        },
+        {
+          "Count": 2,
+          "CardName": "Condescend"
         },
         {
           "Count": 1,
@@ -1055,19 +1063,15 @@
         },
         {
           "Count": 1,
-          "CardName": "Electrickery"
+          "CardName": "Echoing Truth"
         },
         {
           "Count": 4,
           "CardName": "Urza's Power Plant"
         },
         {
-          "Count": 4,
-          "CardName": "Swiftwater Cliffs"
-        },
-        {
           "Count": 1,
-          "CardName": "Izzet Guildgate"
+          "CardName": "Ulamog's Crusher"
         },
         {
           "Count": 2,
@@ -1078,40 +1082,16 @@
           "CardName": "Shimmering Grotto"
         },
         {
-          "Count": 1,
-          "CardName": "Capsize"
-        },
-        {
           "Count": 2,
-          "CardName": "Flame Slash"
+          "CardName": "Pulse of Murasa"
         },
         {
           "Count": 1,
-          "CardName": "Lightning Axe"
-        },
-        {
-          "Count": 4,
-          "CardName": "Prophetic Prism"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Tower"
-        },
-        {
-          "Count": 2,
-          "CardName": "Condescend"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Mine"
-        },
-        {
-          "Count": 2,
-          "CardName": "Prohibit"
+          "CardName": "Bojuka Bog"
         },
         {
           "Count": 1,
-          "CardName": "Echoing Truth"
+          "CardName": "Mnemonic Wall"
         },
         {
           "Count": 3,
@@ -1119,27 +1099,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Exclude"
+          "CardName": "Evincar's Justice"
         },
         {
           "Count": 1,
-          "CardName": "Bojuka Bog"
+          "CardName": "Izzet Guildgate"
         },
         {
           "Count": 2,
-          "CardName": "Doom Blade"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ulamog's Crusher"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mnemonic Wall"
+          "CardName": "Mystical Teachings"
         },
         {
           "Count": 2,
-          "CardName": "Pulse of Murasa"
+          "CardName": "Flame Slash"
         },
         {
           "Count": 4,
@@ -1147,21 +1119,49 @@
         },
         {
           "Count": 1,
-          "CardName": "Evincar's Justice"
+          "CardName": "Lightning Axe"
         },
         {
           "Count": 2,
           "CardName": "Sea Gate Oracle"
         },
         {
+          "Count": 4,
+          "CardName": "Swiftwater Cliffs"
+        },
+        {
+          "Count": 1,
+          "CardName": "Capsize"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Electrickery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Tower"
+        },
+        {
           "Count": 2,
-          "CardName": "Mystical Teachings"
+          "CardName": "Doom Blade"
+        },
+        {
+          "Count": 1,
+          "CardName": "Exclude"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prophetic Prism"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Rolling Thunder"
+          "CardName": "Thorn of the Black Rose"
         },
         {
           "Count": 1,
@@ -1169,23 +1169,27 @@
         },
         {
           "Count": 1,
-          "CardName": "Thorn of the Black Rose"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hydroblast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Moment's Peace"
-        },
-        {
-          "Count": 1,
-          "CardName": "Serene Heart"
+          "CardName": "Rolling Thunder"
         },
         {
           "Count": 1,
           "CardName": "Devour Flesh"
+        },
+        {
+          "Count": 1,
+          "CardName": "Magma Spray"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Moment's Peace"
         },
         {
           "Count": 1,
@@ -1197,15 +1201,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Magma Spray"
-        },
-        {
-          "Count": 1,
           "CardName": "Coalition Honor Guard"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hydroblast"
         }
       ]
     },
@@ -2523,19 +2523,47 @@
       "Mainboard": [
         {
           "Count": 2,
+          "CardName": "Prismatic Strands"
+        },
+        {
+          "Count": 3,
+          "CardName": "Guardian of the Guildpact"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kabira Crossroads"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scoured Barrens"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ash Barrens"
+        },
+        {
+          "Count": 2,
           "CardName": "Crypt Rats"
+        },
+        {
+          "Count": 3,
+          "CardName": "Chainer's Edict"
         },
         {
           "Count": 2,
           "CardName": "Doom Blade"
         },
         {
-          "Count": 4,
-          "CardName": "Orzhov Basilica"
+          "Count": 2,
+          "CardName": "Palace Sentinels"
         },
         {
-          "Count": 2,
-          "CardName": "Aven Riftwatcher"
+          "Count": 4,
+          "CardName": "Pestilence"
         },
         {
           "Count": 6,
@@ -2543,11 +2571,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Lone Missionary"
+          "CardName": "Orzhov Basilica"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dead Weight"
+        },
+        {
+          "Count": 1,
+          "CardName": "Secluded Steppe"
         },
         {
           "Count": 4,
-          "CardName": "Scoured Barrens"
+          "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 2,
+          "CardName": "Aven Riftwatcher"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lone Missionary"
         },
         {
           "Count": 2,
@@ -2556,57 +2604,21 @@
         {
           "Count": 2,
           "CardName": "Night's Whisper"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ash Barrens"
-        },
-        {
-          "Count": 1,
-          "CardName": "Kabira Crossroads"
-        },
-        {
-          "Count": 4,
-          "CardName": "Pestilence"
-        },
-        {
-          "Count": 3,
-          "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 3,
-          "CardName": "Dead Weight"
-        },
-        {
-          "Count": 3,
-          "CardName": "Guardian of the Guildpact"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kor Skyfisher"
-        },
-        {
-          "Count": 2,
-          "CardName": "Palace Sentinels"
-        },
-        {
-          "Count": 2,
-          "CardName": "Prismatic Strands"
-        },
-        {
-          "Count": 2,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Secluded Steppe"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Doom Blade"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
         {
           "Count": 2,
           "CardName": "Coalition Honor Guard"
@@ -2616,20 +2628,8 @@
           "CardName": "Faerie Macabre"
         },
         {
-          "Count": 4,
-          "CardName": "Duress"
-        },
-        {
-          "Count": 2,
-          "CardName": "Circle of Protection: Red"
-        },
-        {
           "Count": 2,
           "CardName": "Kor Sanctifiers"
-        },
-        {
-          "Count": 2,
-          "CardName": "Doom Blade"
         }
       ]
     },

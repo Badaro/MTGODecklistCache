@@ -513,15 +513,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Thespian's Stage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dark Ritual"
-        },
-        {
-          "Count": 4,
           "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadowspear"
         },
         {
           "Count": 3,
@@ -529,7 +525,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Urza's Saga"
+          "CardName": "Dark Ritual"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtseize"
         },
         {
           "Count": 7,
@@ -537,15 +537,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Urborg, Tomb of Yawgmoth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Duress"
-        },
-        {
-          "Count": 1,
-          "CardName": "Nihil Spellbomb"
+          "CardName": "Dark Confidant"
         },
         {
           "Count": 4,
@@ -557,11 +549,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Dark Confidant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thoughtseize"
+          "CardName": "Urza's Saga"
         },
         {
           "Count": 4,
@@ -572,14 +560,30 @@
           "CardName": "Dauthi Voidwalker"
         },
         {
+          "Count": 4,
+          "CardName": "Thespian's Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urborg, Tomb of Yawgmoth"
+        },
+        {
           "Count": 1,
-          "CardName": "Shadowspear"
+          "CardName": "Nihil Spellbomb"
         }
       ],
       "Sideboard": [
         {
+          "Count": 4,
+          "CardName": "Helm of Obedience"
+        },
+        {
           "Count": 2,
-          "CardName": "Massacre"
+          "CardName": "Karn, Scion of Urza"
         },
         {
           "Count": 4,
@@ -595,11 +599,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Karn, Scion of Urza"
-        },
-        {
-          "Count": 4,
-          "CardName": "Helm of Obedience"
+          "CardName": "Massacre"
         }
       ]
     },
@@ -3096,28 +3096,60 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-challenge-2022-05-2912422670#deck_Fuz65",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Preordain"
-        },
-        {
           "Count": 1,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Force of Will"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lotus Petal"
+          "CardName": "Consider"
         },
         {
           "Count": 4,
           "CardName": "Polluted Delta"
         },
         {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underground Sea"
+        },
+        {
           "Count": 1,
-          "CardName": "Swamp"
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 3,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Edge of Autumn"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thassa's Oracle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Doomsday"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ideas Unbound"
+        },
+        {
+          "Count": 1,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 4,
+          "CardName": "Misty Rainforest"
         },
         {
           "Count": 1,
@@ -3125,79 +3157,23 @@
         },
         {
           "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 4,
-          "CardName": "Baleful Strix"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cavern of Souls"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 3,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 1,
           "CardName": "Daze"
         },
         {
           "Count": 2,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 1,
-          "CardName": "Verdant Catacombs"
-        },
-        {
-          "Count": 1,
-          "CardName": "Duress"
-        },
-        {
-          "Count": 1,
-          "CardName": "Thassa's Oracle"
-        },
-        {
-          "Count": 3,
-          "CardName": "Underground Sea"
-        },
-        {
-          "Count": 3,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Doomsday"
+          "CardName": "Flusterstorm"
         },
         {
           "Count": 2,
+          "CardName": "Personal Tutor"
+        },
+        {
+          "Count": 1,
           "CardName": "Tropical Island"
         },
         {
           "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Consider"
-        },
-        {
-          "Count": 1,
-          "CardName": "Edge of Autumn"
-        },
-        {
-          "Count": 1,
-          "CardName": "Flusterstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unearth"
+          "CardName": "Lotus Petal"
         },
         {
           "Count": 4,
@@ -3205,53 +3181,57 @@
         },
         {
           "Count": 1,
-          "CardName": "Street Wraith"
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
         },
         {
           "Count": 1,
           "CardName": "Lion's Eye Diamond"
+        },
+        {
+          "Count": 2,
+          "CardName": "Street Wraith"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
+          "Count": 2,
           "CardName": "Abrupt Decay"
         },
         {
-          "Count": 1,
-          "CardName": "Tarmogoyf"
+          "Count": 2,
+          "CardName": "Leyline of the Void"
         },
         {
-          "Count": 1,
+          "Count": 3,
           "CardName": "Force of Negation"
         },
         {
-          "Count": 1,
-          "CardName": "Leovold, Emissary of Trest"
-        },
-        {
-          "Count": 2,
+          "Count": 3,
           "CardName": "Carpet of Flowers"
         },
         {
-          "Count": 4,
+          "Count": 2,
+          "CardName": "Veil of Summer"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pernicious Deed"
+        },
+        {
+          "Count": 1,
           "CardName": "Fatal Push"
         },
         {
-          "Count": 2,
-          "CardName": "Assassin's Trophy"
-        },
-        {
           "Count": 1,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 1,
-          "CardName": "Flusterstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Veil of Summer"
+          "CardName": "Pact of Negation"
         }
       ]
     },

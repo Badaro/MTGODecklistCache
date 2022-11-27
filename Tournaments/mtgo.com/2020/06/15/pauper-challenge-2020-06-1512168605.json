@@ -587,7 +587,15 @@
       "Mainboard": [
         {
           "Count": 3,
-          "CardName": "Faerie Seer"
+          "CardName": "Spire Golem"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         },
         {
           "Count": 16,
@@ -595,23 +603,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Preordain"
+          "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 2,
+          "CardName": "Force Spike"
         },
         {
           "Count": 2,
           "CardName": "Mystic Sanctuary"
         },
         {
-          "Count": 4,
-          "CardName": "Delver of Secrets"
-        },
-        {
-          "Count": 1,
-          "CardName": "Fathom Seer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ninja of the Deep Hours"
+          "Count": 3,
+          "CardName": "Augur of Bolas"
         },
         {
           "Count": 3,
@@ -619,23 +623,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Deprive"
+          "CardName": "Tragic Lesson"
         },
         {
-          "Count": 3,
-          "CardName": "Mutagenic Growth"
-        },
-        {
-          "Count": 3,
-          "CardName": "Spire Golem"
-        },
-        {
-          "Count": 4,
-          "CardName": "Counterspell"
+          "Count": 1,
+          "CardName": "Fathom Seer"
         },
         {
           "Count": 2,
-          "CardName": "Force Spike"
+          "CardName": "Faerie Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
         },
         {
           "Count": 3,
@@ -643,21 +643,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Spellstutter Sprite"
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
         },
         {
           "Count": 1,
-          "CardName": "Tragic Lesson"
-        },
-        {
-          "Count": 2,
-          "CardName": "Augur of Bolas"
+          "CardName": "Deprive"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Gut Shot"
+          "CardName": "Dispel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Echoing Truth"
         },
         {
           "Count": 1,
@@ -665,19 +669,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Dispel"
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gut Shot"
         },
         {
           "Count": 2,
           "CardName": "Stormbound Geist"
-        },
-        {
-          "Count": 2,
-          "CardName": "Echoing Truth"
-        },
-        {
-          "Count": 2,
-          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 4,
@@ -2200,64 +2200,36 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2020-06-1512168605#deck_Blinkmoth-Nexus",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Ninja of the Deep Hours"
-        },
-        {
-          "Count": 4,
-          "CardName": "Evolving Wilds"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 4,
-          "CardName": "Augur of Bolas"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tragic Lesson"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spellstutter Sprite"
-        },
-        {
-          "Count": 9,
-          "CardName": "Snow-Covered Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ash Barrens"
-        },
-        {
           "Count": 3,
           "CardName": "Mystic Sanctuary"
-        },
-        {
-          "Count": 3,
-          "CardName": "Counterspell"
         },
         {
           "Count": 4,
           "CardName": "Preordain"
         },
         {
+          "Count": 9,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Skred"
+        },
+        {
+          "Count": 4,
+          "CardName": "Evolving Wilds"
+        },
+        {
           "Count": 3,
           "CardName": "Force Spike"
         },
         {
-          "Count": 2,
-          "CardName": "Snow-Covered Mountain"
+          "Count": 1,
+          "CardName": "Deprive"
         },
         {
           "Count": 4,
-          "CardName": "Accumulated Knowledge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Deprive"
+          "CardName": "Brainstorm"
         },
         {
           "Count": 1,
@@ -2269,21 +2241,49 @@
         },
         {
           "Count": 4,
-          "CardName": "Skred"
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ash Barrens"
+        },
+        {
+          "Count": 3,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Accumulated Knowledge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
+        },
+        {
+          "Count": 4,
+          "CardName": "Augur of Bolas"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tragic Lesson"
         }
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Hydroblast"
+          "Count": 1,
+          "CardName": "Electrickery"
         },
         {
           "Count": 2,
-          "CardName": "Swirling Sandstorm"
+          "CardName": "Gorilla Shaman"
         },
         {
           "Count": 1,
-          "CardName": "Electrickery"
+          "CardName": "Echoing Truth"
         },
         {
           "Count": 2,
@@ -2291,19 +2291,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Gorilla Shaman"
-        },
-        {
-          "Count": 2,
           "CardName": "Pyroblast"
         },
         {
-          "Count": 1,
-          "CardName": "Echoing Truth"
+          "Count": 3,
+          "CardName": "Hydroblast"
         },
         {
           "Count": 1,
           "CardName": "Curfew"
+        },
+        {
+          "Count": 2,
+          "CardName": "Swirling Sandstorm"
         },
         {
           "Count": 1,

@@ -90,8 +90,12 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-challenge-2022-01-0912372527#deck_twinlesstwin",
       "Mainboard": [
         {
+          "Count": 2,
+          "CardName": "Torbran, Thane of Red Fell"
+        },
+        {
           "Count": 4,
-          "CardName": "Play with Fire"
+          "CardName": "Den of the Bugbear"
         },
         {
           "Count": 17,
@@ -99,35 +103,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Rampaging Ferocidon"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lightning Strike"
-        },
-        {
-          "Count": 2,
-          "CardName": "Zurgo Bellstriker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Torbran, Thane of Red Fell"
-        },
-        {
-          "Count": 4,
           "CardName": "Soul-Scar Mage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eidolon of the Great Revel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bonecrusher Giant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chandra, Torch of Defiance"
         },
         {
           "Count": 4,
@@ -135,7 +111,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Den of the Bugbear"
+          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 4,
@@ -143,7 +119,31 @@
         },
         {
           "Count": 2,
+          "CardName": "Goblin Chainwhirler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rampaging Ferocidon"
+        },
+        {
+          "Count": 2,
           "CardName": "Scab-Clan Berserker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chandra, Torch of Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eidolon of the Great Revel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Zurgo Bellstriker"
         }
       ],
       "Sideboard": [
@@ -152,24 +152,24 @@
           "CardName": "Roiling Vortex"
         },
         {
-          "Count": 1,
-          "CardName": "Flame-Blessed Bolt"
-        },
-        {
           "Count": 4,
           "CardName": "Searing Blood"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lava Coil"
         },
         {
           "Count": 2,
           "CardName": "Scab-Clan Berserker"
         },
         {
+          "Count": 4,
+          "CardName": "Lava Coil"
+        },
+        {
           "Count": 1,
           "CardName": "Alpine Moon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flame-Blessed Bolt"
         }
       ]
     },
@@ -3763,35 +3763,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Curious Obsession"
-        },
-        {
-          "Count": 4,
-          "CardName": "Geistlight Snare"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spectral Adversary"
-        },
-        {
-          "Count": 4,
-          "CardName": "Supreme Phantom"
-        },
-        {
-          "Count": 18,
-          "CardName": "Snow-Covered Island"
+          "CardName": "Ascendant Spirit"
         },
         {
           "Count": 4,
           "CardName": "Rattlechains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mausoleum Wanderer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spectral Sailor"
         },
         {
           "Count": 2,
@@ -3799,11 +3775,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Shacklegeist"
+          "CardName": "Supreme Phantom"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mausoleum Wanderer"
         },
         {
           "Count": 2,
-          "CardName": "Brazen Borrower"
+          "CardName": "Spectral Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spectral Sailor"
         },
         {
           "Count": 4,
@@ -3811,7 +3795,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Ascendant Spirit"
+          "CardName": "Geistlight Snare"
+        },
+        {
+          "Count": 18,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Brazen Borrower"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shacklegeist"
+        },
+        {
+          "Count": 4,
+          "CardName": "Curious Obsession"
         }
       ],
       "Sideboard": [
@@ -3820,12 +3820,20 @@
           "CardName": "Icon of Ancestry"
         },
         {
-          "Count": 1,
-          "CardName": "Unsubstantiate"
-        },
-        {
           "Count": 4,
           "CardName": "Lofty Denial"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Invasive Surgery"
+        },
+        {
+          "Count": 1,
+          "CardName": "Invert // Invent"
         },
         {
           "Count": 2,
@@ -3834,14 +3842,6 @@
         {
           "Count": 2,
           "CardName": "Entrancing Melody"
-        },
-        {
-          "Count": 2,
-          "CardName": "Invasive Surgery"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mystical Dispute"
         }
       ]
     },

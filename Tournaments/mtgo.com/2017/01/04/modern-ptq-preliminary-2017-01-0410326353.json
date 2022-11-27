@@ -13,11 +13,19 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Sakura-Tribe Elder"
+          "CardName": "Primeval Titan"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
         },
         {
           "Count": 4,
-          "CardName": "Primeval Titan"
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 3,
+          "CardName": "Valakut, the Molten Pinnacle"
         },
         {
           "Count": 2,
@@ -25,11 +33,43 @@
         },
         {
           "Count": 4,
-          "CardName": "Obstinate Baloth"
+          "CardName": "Farseek"
+        },
+        {
+          "Count": 4,
+          "CardName": "Through the Breach"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scapeshift"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sakura-Tribe Elder"
         },
         {
           "Count": 2,
           "CardName": "Ghost Quarter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Search for Tomorrow"
+        },
+        {
+          "Count": 4,
+          "CardName": "Obstinate Baloth"
+        },
+        {
+          "Count": 7,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stomping Ground"
         },
         {
           "Count": 4,
@@ -38,68 +78,28 @@
         {
           "Count": 3,
           "CardName": "Cinder Glade"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Search for Tomorrow"
-        },
-        {
-          "Count": 3,
-          "CardName": "Valakut, the Molten Pinnacle"
-        },
-        {
-          "Count": 7,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Farseek"
-        },
-        {
-          "Count": 4,
-          "CardName": "Simian Spirit Guide"
-        },
-        {
-          "Count": 1,
-          "CardName": "Scapeshift"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 4,
-          "CardName": "Through the Breach"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Anger of the Gods"
-        },
-        {
-          "Count": 3,
-          "CardName": "Molten Rain"
+          "CardName": "Naturalize"
         },
         {
           "Count": 2,
           "CardName": "Melira, Sylvok Outcast"
         },
         {
-          "Count": 1,
-          "CardName": "Crumble to Dust"
+          "Count": 2,
+          "CardName": "Anger of the Gods"
         },
         {
           "Count": 2,
-          "CardName": "Grafdigger's Cage"
+          "CardName": "Shatterstorm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Molten Rain"
         },
         {
           "Count": 1,
@@ -107,11 +107,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Shatterstorm"
+          "CardName": "Grafdigger's Cage"
         },
         {
-          "Count": 2,
-          "CardName": "Naturalize"
+          "Count": 1,
+          "CardName": "Crumble to Dust"
         }
       ]
     },
@@ -898,48 +898,72 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2017-01-0410326353#deck_Fat_Chocobo",
       "Mainboard": [
         {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
           "Count": 2,
-          "CardName": "Electrolyze"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Spell Snare"
         },
         {
           "Count": 4,
           "CardName": "Snapcaster Mage"
         },
         {
-          "Count": 4,
-          "CardName": "Cryptic Command"
-        },
-        {
           "Count": 1,
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 4,
-          "CardName": "Celestial Colonnade"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ajani Vengeant"
+          "Count": 1,
+          "CardName": "Vendilion Clique"
         },
         {
           "Count": 2,
           "CardName": "Hallowed Fountain"
         },
         {
+          "Count": 2,
+          "CardName": "Tectonic Edge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cryptic Command"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mana Leak"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Think Twice"
+        },
+        {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
           "Count": 4,
           "CardName": "Scalding Tarn"
         },
         {
+          "Count": 1,
+          "CardName": "Sacred Foundry"
+        },
+        {
           "Count": 3,
           "CardName": "Spirebluff Canal"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Celestial Colonnade"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flooded Strand"
         },
         {
           "Count": 3,
@@ -950,40 +974,20 @@
           "CardName": "Steam Vents"
         },
         {
-          "Count": 4,
-          "CardName": "Mana Leak"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tectonic Edge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Think Twice"
-        },
-        {
-          "Count": 1,
-          "CardName": "Remand"
-        },
-        {
-          "Count": 3,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 1,
-          "CardName": "Engineered Explosives"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sphinx's Revelation"
-        },
-        {
           "Count": 1,
           "CardName": "Lightning Helix"
         },
         {
-          "Count": 1,
-          "CardName": "Sacred Foundry"
+          "Count": 2,
+          "CardName": "Ajani Vengeant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Electrolyze"
+        },
+        {
+          "Count": 3,
+          "CardName": "Path to Exile"
         },
         {
           "Count": 1,
@@ -994,38 +998,22 @@
           "CardName": "Shadow of Doubt"
         },
         {
-          "Count": 3,
-          "CardName": "Path to Exile"
-        },
-        {
           "Count": 2,
-          "CardName": "Spell Snare"
+          "CardName": "Sphinx's Revelation"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Dispel"
-        },
-        {
           "Count": 2,
-          "CardName": "Stony Silence"
+          "CardName": "Rest in Peace"
         },
         {
           "Count": 1,
-          "CardName": "Celestial Purge"
-        },
-        {
-          "Count": 2,
           "CardName": "Vendilion Clique"
         },
         {
           "Count": 1,
-          "CardName": "Shadow of Doubt"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rest in Peace"
+          "CardName": "Engineered Explosives"
         },
         {
           "Count": 1,
@@ -1033,7 +1021,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Engineered Explosives"
+          "CardName": "Dispel"
         },
         {
           "Count": 2,
@@ -1042,6 +1030,22 @@
         {
           "Count": 2,
           "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadow of Doubt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Celestial Purge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stony Silence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Izzet Staticaster"
         }
       ]
     },
@@ -1651,27 +1655,27 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Lightning Helix"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lava Spike"
-        },
-        {
-          "Count": 2,
-          "CardName": "Grim Lavamancer"
+          "CardName": "Arid Mesa"
         },
         {
           "Count": 3,
-          "CardName": "Monastery Swiftspear"
+          "CardName": "Inspiring Vantage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Skullcrack"
         },
         {
           "Count": 4,
-          "CardName": "Searing Blaze"
+          "CardName": "Rift Bolt"
         },
         {
-          "Count": 1,
-          "CardName": "Plains"
+          "Count": 4,
+          "CardName": "Goblin Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
@@ -1682,78 +1686,82 @@
           "CardName": "Eidolon of the Great Revel"
         },
         {
+          "Count": 2,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grim Lavamancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Helix"
+        },
+        {
           "Count": 3,
           "CardName": "Sacred Foundry"
         },
         {
-          "Count": 3,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Skullcrack"
-        },
-        {
           "Count": 4,
-          "CardName": "Goblin Guide"
+          "CardName": "Searing Blaze"
         },
         {
           "Count": 4,
           "CardName": "Boros Charm"
         },
         {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
+          "Count": 1,
+          "CardName": "Plains"
         },
         {
           "Count": 3,
-          "CardName": "Inspiring Vantage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Windswept Heath"
+          "CardName": "Mountain"
         },
         {
           "Count": 4,
-          "CardName": "Rift Bolt"
-        },
-        {
-          "Count": 4,
-          "CardName": "Arid Mesa"
+          "CardName": "Lava Spike"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Relic of Progenitus"
+          "CardName": "Skullcrack"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stony Silence"
         },
         {
           "Count": 2,
           "CardName": "Path to Exile"
         },
         {
-          "Count": 2,
-          "CardName": "Rest in Peace"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wear // Tear"
+          "Count": 1,
+          "CardName": "Molten Rain"
         },
         {
           "Count": 3,
-          "CardName": "Blood Moon"
+          "CardName": "Wear // Tear"
         },
         {
           "Count": 1,
           "CardName": "Deflecting Palm"
         },
         {
-          "Count": 1,
-          "CardName": "Molten Rain"
+          "Count": 2,
+          "CardName": "Rest in Peace"
         },
         {
-          "Count": 1,
-          "CardName": "Stony Silence"
+          "Count": 3,
+          "CardName": "Blood Moon"
         }
       ]
     },

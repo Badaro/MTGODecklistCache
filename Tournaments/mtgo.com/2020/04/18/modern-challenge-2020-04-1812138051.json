@@ -3378,20 +3378,28 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-challenge-2020-04-1812138051#deck_Happymil24",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Fiery Islet"
+          "Count": 2,
+          "CardName": "Burst Lightning"
         },
         {
           "Count": 4,
-          "CardName": "Manamorphose"
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fiery Islet"
         },
         {
           "Count": 4,
           "CardName": "Crash Through"
         },
         {
-          "Count": 14,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Bedlam Reveler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Manamorphose"
         },
         {
           "Count": 2,
@@ -3403,19 +3411,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Soul-Scar Mage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Burst Lightning"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lava Dart"
+          "CardName": "Light Up the Stage"
         },
         {
           "Count": 4,
@@ -3423,33 +3419,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Light Up the Stage"
+          "CardName": "Soul-Scar Mage"
         },
         {
           "Count": 4,
-          "CardName": "Bedlam Reveler"
+          "CardName": "Lava Dart"
         },
         {
           "Count": 4,
-          "CardName": "Lava Spike"
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 14,
+          "CardName": "Mountain"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Shrine of Burning Rage"
-        },
-        {
           "Count": 1,
-          "CardName": "Bonecrusher Giant"
-        },
-        {
-          "Count": 1,
-          "CardName": "Saheeli, Sublime Artificer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Blood Moon"
+          "CardName": "Surgical Extraction"
         },
         {
           "Count": 1,
@@ -3457,7 +3445,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Abrade"
+          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 2,
@@ -3465,15 +3453,27 @@
         },
         {
           "Count": 1,
+          "CardName": "Abrade"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kozilek's Return"
+        },
+        {
+          "Count": 3,
+          "CardName": "Blood Moon"
+        },
+        {
+          "Count": 2,
           "CardName": "Smash to Smithereens"
         },
         {
           "Count": 1,
-          "CardName": "Surgical Extraction"
+          "CardName": "Saheeli, Sublime Artificer"
         },
         {
           "Count": 2,
-          "CardName": "Kozilek's Return"
+          "CardName": "Shrine of Burning Rage"
         }
       ]
     },
@@ -3489,63 +3489,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Meddling Mage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Snow-Covered Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mantis Rider"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reflector Mage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Horizon Canopy"
-        },
-        {
-          "Count": 1,
-          "CardName": "Kessig Malcontents"
-        },
-        {
-          "Count": 2,
-          "CardName": "General Kudro of Drannith"
-        },
-        {
-          "Count": 4,
-          "CardName": "Noble Hierarch"
-        },
-        {
-          "Count": 3,
-          "CardName": "Kitesail Freebooter"
+          "CardName": "Unclaimed Territory"
         },
         {
           "Count": 1,
           "CardName": "Snow-Covered Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thalia, Guardian of Thraben"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Vial"
-        },
-        {
-          "Count": 4,
-          "CardName": "Phantasmal Image"
-        },
-        {
-          "Count": 1,
-          "CardName": "Waterlogged Grove"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cavern of Souls"
         },
         {
           "Count": 4,
@@ -3553,17 +3501,69 @@
         },
         {
           "Count": 4,
+          "CardName": "Meddling Mage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Waterlogged Grove"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noble Hierarch"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mantis Rider"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 4,
           "CardName": "Ancient Ziggurat"
         },
         {
           "Count": 4,
-          "CardName": "Unclaimed Territory"
+          "CardName": "Reflector Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Aether Vial"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kitesail Freebooter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Deputy of Detention"
+        },
+        {
+          "Count": 4,
+          "CardName": "Phantasmal Image"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 2,
+          "CardName": "General Kudro of Drannith"
+        },
+        {
+          "Count": 4,
+          "CardName": "Horizon Canopy"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Militia Bugler"
+          "Count": 3,
+          "CardName": "Auriok Champion"
         },
         {
           "Count": 1,
@@ -3571,7 +3571,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Collector Ouphe"
+          "CardName": "Militia Bugler"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
         },
         {
           "Count": 2,
@@ -3579,19 +3583,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Dismember"
-        },
-        {
-          "Count": 1,
-          "CardName": "Deputy of Detention"
+          "CardName": "Drannith Magistrate"
         },
         {
           "Count": 2,
-          "CardName": "Grafdigger's Cage"
+          "CardName": "Collector Ouphe"
         },
         {
-          "Count": 3,
-          "CardName": "Auriok Champion"
+          "Count": 2,
+          "CardName": "Dismember"
         }
       ]
     },
@@ -4028,28 +4028,84 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-challenge-2020-04-1812138051#deck_AvocadoToast",
       "Mainboard": [
         {
+          "Count": 4,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temur Battle Rage"
+        },
+        {
           "Count": 1,
-          "CardName": "Seal of Fire"
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 4,
+          "CardName": "Verdant Catacombs"
         },
         {
           "Count": 1,
           "CardName": "Snow-Covered Swamp"
         },
         {
+          "Count": 3,
+          "CardName": "Traverse the Ulvenwald"
+        },
+        {
+          "Count": 1,
+          "CardName": "Seal of Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Footfall Crater"
+        },
+        {
           "Count": 2,
-          "CardName": "Wooded Foothills"
+          "CardName": "Dismember"
         },
         {
           "Count": 3,
-          "CardName": "Putrid Leech"
+          "CardName": "Fatal Push"
+        },
+        {
+          "Count": 2,
+          "CardName": "Assassin's Trophy"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unearth"
         },
         {
           "Count": 2,
           "CardName": "Nurturing Peatland"
         },
         {
+          "Count": 1,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inquisition of Kozilek"
+        },
+        {
           "Count": 2,
-          "CardName": "Blood Crypt"
+          "CardName": "Wooded Foothills"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mishra's Bauble"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 2,
@@ -4060,74 +4116,22 @@
           "CardName": "Death's Shadow"
         },
         {
-          "Count": 4,
-          "CardName": "Mishra's Bauble"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tarmogoyf"
+          "Count": 3,
+          "CardName": "Putrid Leech"
         },
         {
           "Count": 2,
-          "CardName": "Assassin's Trophy"
-        },
-        {
-          "Count": 3,
-          "CardName": "Traverse the Ulvenwald"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unearth"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temur Battle Rage"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 1,
-          "CardName": "Snow-Covered Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Inquisition of Kozilek"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodstained Mire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dismember"
-        },
-        {
-          "Count": 1,
-          "CardName": "Footfall Crater"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fatal Push"
-        },
-        {
-          "Count": 4,
-          "CardName": "Verdant Catacombs"
-        },
-        {
-          "Count": 1,
-          "CardName": "Stomping Ground"
+          "CardName": "Blood Crypt"
         }
       ],
       "Sideboard": [
         {
+          "Count": 3,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
           "Count": 1,
-          "CardName": "Engineered Explosives"
+          "CardName": "Lurrus of the Dream-Den"
         },
         {
           "Count": 2,
@@ -4138,16 +4142,12 @@
           "CardName": "Boil"
         },
         {
-          "Count": 1,
-          "CardName": "Lurrus of the Dream-Den"
-        },
-        {
-          "Count": 3,
-          "CardName": "Nihil Spellbomb"
-        },
-        {
           "Count": 2,
           "CardName": "Stone Rain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
         },
         {
           "Count": 2,

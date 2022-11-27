@@ -334,16 +334,16 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2018-07-0211460914#deck_LuckyOnline",
       "Mainboard": [
         {
+          "Count": 2,
+          "CardName": "Flayer Husk"
+        },
+        {
           "Count": 4,
-          "CardName": "Chromatic Star"
+          "CardName": "Great Furnace"
         },
         {
           "Count": 3,
-          "CardName": "Springleaf Drum"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temur Battle Rage"
+          "CardName": "Carapace Forger"
         },
         {
           "Count": 2,
@@ -351,23 +351,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Darksteel Citadel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Prophetic Prism"
-        },
-        {
-          "Count": 3,
-          "CardName": "Carapace Forger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galvanic Blast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Frogmite"
+          "CardName": "Chromatic Star"
         },
         {
           "Count": 4,
@@ -375,19 +359,39 @@
         },
         {
           "Count": 4,
-          "CardName": "Thoughtcast"
-        },
-        {
-          "Count": 2,
-          "CardName": "Flayer Husk"
-        },
-        {
-          "Count": 4,
           "CardName": "Gitaxian Probe"
         },
         {
           "Count": 4,
+          "CardName": "Frogmite"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prophetic Prism"
+        },
+        {
+          "Count": 4,
+          "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temur Battle Rage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 4,
           "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 3,
+          "CardName": "Springleaf Drum"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tree of Tales"
         },
         {
           "Count": 4,
@@ -395,37 +399,17 @@
         },
         {
           "Count": 4,
-          "CardName": "Great Furnace"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tree of Tales"
+          "CardName": "Thoughtcast"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Hydroblast"
+          "Count": 1,
+          "CardName": "Serene Heart"
         },
         {
           "Count": 2,
           "CardName": "Electrickery"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pyroblast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ancient Grudge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gorilla Shaman"
-        },
-        {
-          "Count": 1,
-          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 3,
@@ -436,8 +420,24 @@
           "CardName": "Dispel"
         },
         {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
           "Count": 1,
-          "CardName": "Serene Heart"
+          "CardName": "Gorilla Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ancient Grudge"
         }
       ]
     },
@@ -2365,38 +2365,6 @@
         },
         {
           "Count": 4,
-          "CardName": "Evolving Wilds"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Vapor Snag"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gitaxian Probe"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 8,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 4,
           "CardName": "Kiln Fiend"
         },
         {
@@ -2405,11 +2373,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Nivix Cyclops"
-        },
-        {
-          "Count": 4,
-          "CardName": "Temur Battle Rage"
+          "CardName": "Brainstorm"
         },
         {
           "Count": 2,
@@ -2417,14 +2381,54 @@
         },
         {
           "Count": 2,
-          "CardName": "Apostle's Blessing"
+          "CardName": "Terramorphic Expanse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 8,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nivix Cyclops"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gitaxian Probe"
         },
         {
           "Count": 2,
-          "CardName": "Terramorphic Expanse"
+          "CardName": "Apostle's Blessing"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Evolving Wilds"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temur Battle Rage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vapor Snag"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spell Pierce"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Stormbound Geist"
+        },
         {
           "Count": 3,
           "CardName": "Dispel"
@@ -2435,11 +2439,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Stormbound Geist"
+          "CardName": "Hydroblast"
         },
         {
-          "Count": 3,
-          "CardName": "Hydroblast"
+          "Count": 1,
+          "CardName": "Flaring Pain"
         },
         {
           "Count": 4,

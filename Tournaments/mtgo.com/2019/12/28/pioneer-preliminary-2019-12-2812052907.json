@@ -12,20 +12,24 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2019-12-2812052907#deck_kannami_25mg",
       "Mainboard": [
         {
-          "Count": 3,
+          "Count": 4,
           "CardName": "Lightning Strike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blood Crypt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wild Slash"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 3,
           "CardName": "Chandra, Torch of Defiance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Glorybringer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dragonskull Summit"
         },
         {
           "Count": 4,
@@ -36,20 +40,20 @@
           "CardName": "Thoughtseize"
         },
         {
-          "Count": 12,
-          "CardName": "Mountain"
-        },
-        {
           "Count": 3,
           "CardName": "Heart of Kiran"
         },
         {
-          "Count": 4,
-          "CardName": "Blood Crypt"
+          "Count": 2,
+          "CardName": "Rekindling Phoenix"
         },
         {
-          "Count": 3,
-          "CardName": "Wild Slash"
+          "Count": 4,
+          "CardName": "Goblin Chainwhirler"
+        },
+        {
+          "Count": 12,
+          "CardName": "Mountain"
         },
         {
           "Count": 4,
@@ -60,19 +64,27 @@
           "CardName": "Scrapheap Scrounger"
         },
         {
-          "Count": 4,
-          "CardName": "Goblin Chainwhirler"
-        },
-        {
           "Count": 2,
-          "CardName": "Rekindling Phoenix"
+          "CardName": "Glorybringer"
         },
         {
           "Count": 4,
-          "CardName": "Bonecrusher Giant"
+          "CardName": "Dragonskull Summit"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Chandra's Defeat"
+        },
+        {
+          "Count": 2,
+          "CardName": "Chandra, Acolyte of Flame"
+        },
+        {
+          "Count": 2,
+          "CardName": "Aethersphere Harvester"
+        },
         {
           "Count": 4,
           "CardName": "Leyline of the Void"
@@ -82,20 +94,8 @@
           "CardName": "Damping Sphere"
         },
         {
-          "Count": 2,
-          "CardName": "Aethersphere Harvester"
-        },
-        {
           "Count": 3,
           "CardName": "Dreadbore"
-        },
-        {
-          "Count": 2,
-          "CardName": "Chandra, Acolyte of Flame"
-        },
-        {
-          "Count": 2,
-          "CardName": "Chandra's Defeat"
         }
       ]
     },
@@ -2225,27 +2225,7 @@
       "Mainboard": [
         {
           "Count": 3,
-          "CardName": "Lightning Axe"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sulfur Falls"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wild Slash"
-        },
-        {
-          "Count": 3,
           "CardName": "Shivan Reef"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spirebluff Canal"
-        },
-        {
-          "Count": 4,
-          "CardName": "Treasure Cruise"
         },
         {
           "Count": 4,
@@ -2253,23 +2233,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Young Pyromancer"
-        },
-        {
-          "Count": 4,
           "CardName": "Chart a Course"
         },
         {
+          "Count": 3,
+          "CardName": "Lightning Axe"
+        },
+        {
           "Count": 4,
-          "CardName": "Izzet Charm"
+          "CardName": "Treasure Cruise"
         },
         {
           "Count": 3,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Arclight Phoenix"
+          "CardName": "Island"
         },
         {
           "Count": 1,
@@ -2280,34 +2256,58 @@
           "CardName": "Bonecrusher Giant"
         },
         {
-          "Count": 1,
-          "CardName": "Aether Gust"
-        },
-        {
           "Count": 4,
           "CardName": "Strategic Planning"
         },
         {
-          "Count": 3,
-          "CardName": "Island"
+          "Count": 1,
+          "CardName": "Chandra, Torch of Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Arclight Phoenix"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spirebluff Canal"
         },
         {
           "Count": 4,
           "CardName": "Steam Vents"
         },
         {
+          "Count": 3,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Young Pyromancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Slash"
+        },
+        {
           "Count": 1,
-          "CardName": "Chandra, Torch of Defiance"
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 4,
+          "CardName": "Izzet Charm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sulfur Falls"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Magma Spray"
+          "CardName": "Spell Pierce"
         },
         {
           "Count": 2,
-          "CardName": "Mystical Dispute"
+          "CardName": "Abrade"
         },
         {
           "Count": 1,
@@ -2315,11 +2315,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Spell Pierce"
+          "CardName": "Aether Gust"
         },
         {
           "Count": 1,
-          "CardName": "Narset, Parter of Veils"
+          "CardName": "Magma Spray"
+        },
+        {
+          "Count": 1,
+          "CardName": "Fry"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thing in the Ice"
         },
         {
           "Count": 1,
@@ -2327,19 +2335,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Aether Gust"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thing in the Ice"
+          "CardName": "Narset, Parter of Veils"
         },
         {
           "Count": 2,
-          "CardName": "Fry"
-        },
-        {
-          "Count": 1,
-          "CardName": "Abrade"
+          "CardName": "Mystical Dispute"
         }
       ]
     },

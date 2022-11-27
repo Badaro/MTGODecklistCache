@@ -476,64 +476,20 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-mcq-finals-2019-08-0411935041#deck_cha21",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Radical Idea"
-        },
-        {
           "Count": 4,
-          "CardName": "Sulfur Falls"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shock"
+          "CardName": "Arclight Phoenix"
         },
         {
           "Count": 3,
-          "CardName": "Finale of Promise"
-        },
-        {
-          "Count": 4,
-          "CardName": "Opt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Beacon Bolt"
+          "CardName": "Radical Idea"
         },
         {
           "Count": 4,
           "CardName": "Crackling Drake"
         },
         {
-          "Count": 4,
-          "CardName": "Goblin Electromancer"
-        },
-        {
           "Count": 3,
-          "CardName": "Tormenting Voice"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lightning Strike"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chart a Course"
-        },
-        {
-          "Count": 4,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 6,
-          "CardName": "Island"
-        },
-        {
-          "Count": 2,
           "CardName": "Lava Coil"
-        },
-        {
-          "Count": 6,
-          "CardName": "Mountain"
         },
         {
           "Count": 1,
@@ -541,7 +497,51 @@
         },
         {
           "Count": 4,
-          "CardName": "Arclight Phoenix"
+          "CardName": "Chart a Course"
+        },
+        {
+          "Count": 6,
+          "CardName": "Island"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sulfur Falls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Beacon Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shock"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goblin Electromancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tormenting Voice"
+        },
+        {
+          "Count": 3,
+          "CardName": "Finale of Promise"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lightning Strike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Opt"
         }
       ],
       "Sideboard": [
@@ -551,11 +551,15 @@
         },
         {
           "Count": 2,
+          "CardName": "Entrancing Melody"
+        },
+        {
+          "Count": 2,
           "CardName": "Negate"
         },
         {
-          "Count": 3,
-          "CardName": "Fry"
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
         },
         {
           "Count": 3,
@@ -570,12 +574,8 @@
           "CardName": "Saheeli, Sublime Artificer"
         },
         {
-          "Count": 2,
-          "CardName": "Entrancing Melody"
-        },
-        {
-          "Count": 1,
-          "CardName": "Disdainful Stroke"
+          "Count": 3,
+          "CardName": "Fry"
         }
       ]
     },
@@ -2349,51 +2349,35 @@
       "Mainboard": [
         {
           "Count": 1,
-          "CardName": "Cast Down"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dusk Legion Zealot"
+          "CardName": "Legion's End"
         },
         {
           "Count": 2,
-          "CardName": "Sanctum Seeker"
-        },
-        {
-          "Count": 3,
           "CardName": "History of Benalia"
-        },
-        {
-          "Count": 7,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sorin, Imperious Bloodlord"
         },
         {
           "Count": 7,
           "CardName": "Plains"
         },
         {
-          "Count": 3,
-          "CardName": "Skymarcher Aspirant"
-        },
-        {
           "Count": 4,
           "CardName": "Isolated Chapel"
         },
         {
-          "Count": 4,
-          "CardName": "Champion of Dusk"
+          "Count": 7,
+          "CardName": "Swamp"
         },
         {
           "Count": 3,
           "CardName": "Legion's Landing"
         },
         {
+          "Count": 1,
+          "CardName": "Cast Down"
+        },
+        {
           "Count": 4,
-          "CardName": "Adanto Vanguard"
+          "CardName": "Knight of the Ebon Legion"
         },
         {
           "Count": 3,
@@ -2401,7 +2385,31 @@
         },
         {
           "Count": 4,
+          "CardName": "Sorin, Imperious Bloodlord"
+        },
+        {
+          "Count": 2,
+          "CardName": "Conclave Tribunal"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dusk Legion Zealot"
+        },
+        {
+          "Count": 4,
+          "CardName": "Champion of Dusk"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sanctum Seeker"
+        },
+        {
+          "Count": 4,
           "CardName": "Godless Shrine"
+        },
+        {
+          "Count": 3,
+          "CardName": "Skymarcher Aspirant"
         },
         {
           "Count": 4,
@@ -2409,14 +2417,14 @@
         },
         {
           "Count": 4,
-          "CardName": "Knight of the Ebon Legion"
-        },
-        {
-          "Count": 2,
-          "CardName": "Conclave Tribunal"
+          "CardName": "Adanto Vanguard"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Noxious Grasp"
+        },
         {
           "Count": 4,
           "CardName": "Duress"
@@ -2434,16 +2442,16 @@
           "CardName": "Plague Mare"
         },
         {
-          "Count": 3,
+          "Count": 1,
+          "CardName": "Vona, Butcher of Magan"
+        },
+        {
+          "Count": 2,
           "CardName": "Legion's End"
         },
         {
           "Count": 1,
           "CardName": "Ashiok, Dream Render"
-        },
-        {
-          "Count": 3,
-          "CardName": "Noxious Grasp"
         }
       ]
     },
@@ -2707,15 +2715,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Temple of Triumph"
+          "CardName": "Dreadhorde Arcanist"
         },
         {
           "Count": 4,
-          "CardName": "Clifftop Retreat"
-        },
-        {
-          "Count": 1,
-          "CardName": "Aurelia, Exemplar of Justice"
+          "CardName": "Adanto Vanguard"
         },
         {
           "Count": 4,
@@ -2723,27 +2727,15 @@
         },
         {
           "Count": 4,
+          "CardName": "Clifftop Retreat"
+        },
+        {
+          "Count": 4,
           "CardName": "Defiant Strike"
         },
         {
           "Count": 4,
-          "CardName": "Shock"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gird for Battle"
-        },
-        {
-          "Count": 6,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tenth District Legionnaire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dreadhorde Arcanist"
+          "CardName": "Temple of Triumph"
         },
         {
           "Count": 4,
@@ -2754,20 +2746,12 @@
           "CardName": "Mountain"
         },
         {
-          "Count": 4,
-          "CardName": "Feather, the Redeemed"
+          "Count": 6,
+          "CardName": "Plains"
         },
         {
           "Count": 1,
-          "CardName": "Deafening Clarion"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ajani, Adversary of Tyrants"
-        },
-        {
-          "Count": 4,
-          "CardName": "Adanto Vanguard"
+          "CardName": "Aurelia, Exemplar of Justice"
         },
         {
           "Count": 2,
@@ -2775,26 +2759,34 @@
         },
         {
           "Count": 4,
-          "CardName": "Reckless Rage"
-        }
-      ],
-      "Sideboard": [
+          "CardName": "Feather, the Redeemed"
+        },
         {
-          "Count": 2,
-          "CardName": "Fry"
+          "Count": 4,
+          "CardName": "Shock"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Rage"
         },
         {
           "Count": 1,
-          "CardName": "Aurelia, Exemplar of Justice"
+          "CardName": "Deafening Clarion"
         },
         {
-          "Count": 3,
-          "CardName": "Prison Realm"
+          "Count": 1,
+          "CardName": "Gird for Battle"
         },
         {
-          "Count": 2,
-          "CardName": "The Immortal Sun"
+          "Count": 1,
+          "CardName": "Ajani, Adversary of Tyrants"
         },
+        {
+          "Count": 4,
+          "CardName": "Tenth District Legionnaire"
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 2,
           "CardName": "Deafening Clarion"
@@ -2805,7 +2797,23 @@
         },
         {
           "Count": 2,
+          "CardName": "The Immortal Sun"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fry"
+        },
+        {
+          "Count": 1,
+          "CardName": "Aurelia, Exemplar of Justice"
+        },
+        {
+          "Count": 2,
           "CardName": "Lava Coil"
+        },
+        {
+          "Count": 3,
+          "CardName": "Prison Realm"
         }
       ]
     },
@@ -3032,48 +3040,8 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-mcq-finals-2019-08-0411935041#deck_ChalkyYellow",
       "Mainboard": [
         {
-          "Count": 7,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vicious Conquistador"
-        },
-        {
-          "Count": 3,
-          "CardName": "Skymarcher Aspirant"
-        },
-        {
-          "Count": 2,
-          "CardName": "Legion's End"
-        },
-        {
           "Count": 2,
           "CardName": "Cast Down"
-        },
-        {
-          "Count": 4,
-          "CardName": "Isolated Chapel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Champion of Dusk"
-        },
-        {
-          "Count": 4,
-          "CardName": "Adanto Vanguard"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sanctum Seeker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sorin, Vengeful Bloodlord"
-        },
-        {
-          "Count": 7,
-          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -3085,15 +3053,51 @@
         },
         {
           "Count": 3,
+          "CardName": "Sanctum Seeker"
+        },
+        {
+          "Count": 4,
           "CardName": "Sorin, Imperious Bloodlord"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vicious Conquistador"
+        },
+        {
+          "Count": 4,
+          "CardName": "Champion of Dusk"
         },
         {
           "Count": 4,
           "CardName": "Knight of the Ebon Legion"
         },
         {
+          "Count": 7,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Skymarcher Aspirant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Isolated Chapel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Legion's End"
+        },
+        {
           "Count": 4,
           "CardName": "Legion Lieutenant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Adanto Vanguard"
+        },
+        {
+          "Count": 7,
+          "CardName": "Plains"
         }
       ],
       "Sideboard": [
@@ -3102,16 +3106,12 @@
           "CardName": "Disfigure"
         },
         {
-          "Count": 1,
-          "CardName": "Despark"
+          "Count": 2,
+          "CardName": "Gideon Blackblade"
         },
         {
           "Count": 3,
           "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Gideon Blackblade"
         },
         {
           "Count": 1,
@@ -3128,6 +3128,10 @@
         {
           "Count": 4,
           "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Despark"
         }
       ]
     },

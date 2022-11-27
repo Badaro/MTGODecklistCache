@@ -1088,8 +1088,24 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-challenge-2020-11-0812225885#deck_jbtwist",
       "Mainboard": [
         {
-          "Count": 7,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Light Up the Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wizard's Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eidolon of the Great Revel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shock"
         },
         {
           "Count": 2,
@@ -1105,23 +1121,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Inspiring Vantage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shock"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wizard's Lightning"
-        },
-        {
-          "Count": 2,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Soul-Scar Mage"
+          "CardName": "Boros Charm"
         },
         {
           "Count": 4,
@@ -1129,11 +1129,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Light Up the Stage"
+          "CardName": "Viashino Pyromancer"
         },
         {
           "Count": 4,
-          "CardName": "Monastery Swiftspear"
+          "CardName": "Inspiring Vantage"
         },
         {
           "Count": 4,
@@ -1141,29 +1141,41 @@
         },
         {
           "Count": 4,
-          "CardName": "Viashino Pyromancer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eidolon of the Great Revel"
+          "CardName": "Soul-Scar Mage"
         },
         {
           "Count": 4,
           "CardName": "Wild Slash"
         },
         {
+          "Count": 7,
+          "CardName": "Mountain"
+        },
+        {
           "Count": 4,
-          "CardName": "Boros Charm"
+          "CardName": "Monastery Swiftspear"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Skullcrack"
+        },
         {
           "Count": 3,
           "CardName": "Chained to the Rocks"
         },
         {
-          "Count": 2,
-          "CardName": "Skullcrack"
+          "Count": 3,
+          "CardName": "Roiling Vortex"
+        },
+        {
+          "Count": 1,
+          "CardName": "Light of Hope"
+        },
+        {
+          "Count": 3,
+          "CardName": "Searing Blood"
         },
         {
           "Count": 1,
@@ -1172,18 +1184,6 @@
         {
           "Count": 2,
           "CardName": "Soul-Guide Lantern"
-        },
-        {
-          "Count": 2,
-          "CardName": "Searing Blood"
-        },
-        {
-          "Count": 3,
-          "CardName": "Roiling Vortex"
-        },
-        {
-          "Count": 2,
-          "CardName": "Light of Hope"
         }
       ]
     },
@@ -3445,11 +3445,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Karametra's Blessing"
+          "CardName": "Alseid of Life's Bounty"
         },
         {
-          "Count": 2,
-          "CardName": "Skyclave Cleric"
+          "Count": 4,
+          "CardName": "Gryff's Boon"
         },
         {
           "Count": 7,
@@ -3457,31 +3457,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Season of Growth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gryff's Boon"
-        },
-        {
-          "Count": 4,
           "CardName": "Ethereal Armor"
         },
         {
-          "Count": 4,
-          "CardName": "Gladecover Scout"
-        },
-        {
-          "Count": 3,
-          "CardName": "Cartouche of Solidarity"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mana Confluence"
+          "Count": 2,
+          "CardName": "Skyclave Cleric"
         },
         {
           "Count": 4,
@@ -3489,25 +3469,61 @@
         },
         {
           "Count": 4,
-          "CardName": "Sentinel's Eyes"
-        },
-        {
-          "Count": 4,
           "CardName": "Sram, Senior Edificer"
         },
         {
           "Count": 4,
-          "CardName": "Alseid of Life's Bounty"
+          "CardName": "Branchloft Pathway"
         },
         {
           "Count": 4,
-          "CardName": "Branchloft Pathway"
+          "CardName": "Gladecover Scout"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sentinel's Eyes"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Karametra's Blessing"
+        },
+        {
+          "Count": 3,
+          "CardName": "Cartouche of Solidarity"
+        },
+        {
+          "Count": 4,
+          "CardName": "Season of Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mana Confluence"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Light of Hope"
+          "CardName": "Containment Priest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dromoka's Command"
+        },
+        {
+          "Count": 3,
+          "CardName": "Apostle of Purifying Light"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lurrus of the Dream-Den"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hushbringer"
         },
         {
           "Count": 2,
@@ -3516,22 +3532,6 @@
         {
           "Count": 3,
           "CardName": "Damping Sphere"
-        },
-        {
-          "Count": 3,
-          "CardName": "Apostle of Purifying Light"
-        },
-        {
-          "Count": 2,
-          "CardName": "Containment Priest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hushbringer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lurrus of the Dream-Den"
         }
       ]
     },

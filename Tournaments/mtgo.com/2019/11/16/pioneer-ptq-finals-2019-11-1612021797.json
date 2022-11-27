@@ -1944,10 +1944,6 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-ptq-finals-2019-11-1612021797#deck_BananOlaf",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Bloodsoaked Champion"
-        },
-        {
           "Count": 15,
           "CardName": "Swamp"
         },
@@ -1957,7 +1953,19 @@
         },
         {
           "Count": 4,
+          "CardName": "Mutavault"
+        },
+        {
+          "Count": 1,
+          "CardName": "Urborg, Tomb of Yawgmoth"
+        },
+        {
+          "Count": 4,
           "CardName": "Knight of the Ebon Legion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodsoaked Champion"
         },
         {
           "Count": 1,
@@ -1969,19 +1977,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 1,
-          "CardName": "Urborg, Tomb of Yawgmoth"
-        },
-        {
-          "Count": 4,
           "CardName": "Kitesail Freebooter"
         },
         {
           "Count": 4,
-          "CardName": "Mutavault"
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fatal Push"
         },
         {
           "Count": 4,
@@ -1989,21 +1993,17 @@
         },
         {
           "Count": 4,
-          "CardName": "Night Market Lookout"
-        },
-        {
-          "Count": 4,
           "CardName": "Castle Locthwain"
         },
         {
           "Count": 4,
-          "CardName": "Fatal Push"
+          "CardName": "Night Market Lookout"
         }
       ],
       "Sideboard": [
         {
           "Count": 3,
-          "CardName": "Infernal Reckoning"
+          "CardName": "Blightbeetle"
         },
         {
           "Count": 3,
@@ -2011,11 +2011,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Kalitas, Traitor of Ghet"
+          "CardName": "Duress"
         },
         {
           "Count": 3,
-          "CardName": "Duress"
+          "CardName": "Infernal Reckoning"
         },
         {
           "Count": 2,
@@ -2023,7 +2023,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Blightbeetle"
+          "CardName": "Kalitas, Traitor of Ghet"
         }
       ]
     },
@@ -2449,15 +2449,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Wild Slash"
-        },
-        {
-          "Count": 2,
-          "CardName": "Titan's Strength"
+          "CardName": "Soul-Scar Mage"
         },
         {
           "Count": 4,
-          "CardName": "Lightning Strike"
+          "CardName": "Monastery Swiftspear"
         },
         {
           "Count": 14,
@@ -2465,7 +2461,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Shock"
+          "CardName": "Wild Slash"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bomat Courier"
+        },
+        {
+          "Count": 1,
+          "CardName": "Castle Embereth"
         },
         {
           "Count": 4,
@@ -2474,6 +2478,14 @@
         {
           "Count": 4,
           "CardName": "Ramunap Ruins"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hazoret the Fervent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Skewer the Critics"
         },
         {
           "Count": 4,
@@ -2488,38 +2500,30 @@
           "CardName": "Searing Blood"
         },
         {
-          "Count": 4,
-          "CardName": "Soul-Scar Mage"
+          "Count": 2,
+          "CardName": "Shock"
         },
         {
           "Count": 4,
-          "CardName": "Bomat Courier"
+          "CardName": "Lightning Strike"
         },
         {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Embereth"
+          "Count": 2,
+          "CardName": "Titan's Strength"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Goblin Chainwhirler"
-        },
-        {
-          "Count": 1,
-          "CardName": "Searing Blood"
-        },
         {
           "Count": 2,
           "CardName": "Rampaging Ferocidon"
         },
         {
           "Count": 2,
-          "CardName": "Experimental Frenzy"
+          "CardName": "Goblin Chainwhirler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lava Coil"
         },
         {
           "Count": 1,
@@ -2527,15 +2531,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Smuggler's Copter"
+          "CardName": "Experimental Frenzy"
         },
         {
           "Count": 3,
           "CardName": "Eidolon of the Great Revel"
         },
         {
+          "Count": 1,
+          "CardName": "Searing Blood"
+        },
+        {
           "Count": 2,
-          "CardName": "Lava Coil"
+          "CardName": "Smuggler's Copter"
         }
       ]
     },

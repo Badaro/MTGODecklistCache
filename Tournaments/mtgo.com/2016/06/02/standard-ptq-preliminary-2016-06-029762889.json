@@ -362,12 +362,20 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2016-06-029762889#deck_qUaBaTcHiEs",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Battlefield Forge"
+          "Count": 1,
+          "CardName": "Mountain"
         },
         {
           "Count": 4,
-          "CardName": "Needle Spires"
+          "CardName": "Deathmist Raptor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dromoka's Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Woodland Bellower"
         },
         {
           "Count": 2,
@@ -378,12 +386,20 @@
           "CardName": "Fortified Village"
         },
         {
-          "Count": 4,
-          "CardName": "Nahiri, the Harbinger"
+          "Count": 1,
+          "CardName": "Dragonlord Atarka"
         },
         {
-          "Count": 4,
-          "CardName": "Den Protector"
+          "Count": 1,
+          "CardName": "Nissa, Vastwood Seer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nahiri, the Harbinger"
         },
         {
           "Count": 4,
@@ -395,39 +411,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Deathmist Raptor"
-        },
-        {
-          "Count": 4,
           "CardName": "Declaration in Stone"
         },
         {
-          "Count": 2,
-          "CardName": "Woodland Bellower"
-        },
-        {
-          "Count": 2,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nissa, Vastwood Seer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tragic Arrogance"
+          "Count": 4,
+          "CardName": "Battlefield Forge"
         },
         {
           "Count": 4,
           "CardName": "Oath of Nissa"
         },
         {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dragonlord Atarka"
+          "Count": 3,
+          "CardName": "Shaman of Forgotten Ways"
         },
         {
           "Count": 1,
@@ -435,21 +431,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Dromoka's Command"
+          "CardName": "Needle Spires"
+        },
+        {
+          "Count": 4,
+          "CardName": "Den Protector"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Gideon, Ally of Zendikar"
-        },
         {
           "Count": 3,
           "CardName": "Lambholt Pacifist"
         },
         {
-          "Count": 1,
-          "CardName": "Stasis Snare"
+          "Count": 4,
+          "CardName": "Radiant Flames"
         },
         {
           "Count": 1,
@@ -460,8 +456,12 @@
           "CardName": "Tragic Arrogance"
         },
         {
+          "Count": 1,
+          "CardName": "Stasis Snare"
+        },
+        {
           "Count": 4,
-          "CardName": "Radiant Flames"
+          "CardName": "Gideon, Ally of Zendikar"
         }
       ]
     },
@@ -1349,11 +1349,15 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Read the Bones"
+          "CardName": "Grasp of Darkness"
         },
         {
-          "Count": 3,
-          "CardName": "Ruinous Path"
+          "Count": 2,
+          "CardName": "Ultimate Price"
+        },
+        {
+          "Count": 4,
+          "CardName": "Read the Bones"
         },
         {
           "Count": 2,
@@ -1365,35 +1369,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Ultimate Price"
-        },
-        {
-          "Count": 3,
-          "CardName": "Westvale Abbey"
-        },
-        {
-          "Count": 2,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 2,
           "CardName": "Ob Nixilis Reignited"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shambling Vent"
         },
         {
           "Count": 4,
           "CardName": "Caves of Koilos"
         },
         {
-          "Count": 2,
-          "CardName": "Anguished Unmaking"
-        },
-        {
           "Count": 4,
-          "CardName": "Languish"
+          "CardName": "Forsaken Sanctuary"
         },
         {
           "Count": 1,
@@ -1401,15 +1385,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Gideon, Ally of Zendikar"
+          "CardName": "Shambling Vent"
         },
         {
-          "Count": 4,
-          "CardName": "Grasp of Darkness"
+          "Count": 2,
+          "CardName": "Secure the Wastes"
         },
         {
-          "Count": 7,
-          "CardName": "Swamp"
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Westvale Abbey"
         },
         {
           "Count": 2,
@@ -1417,22 +1405,30 @@
         },
         {
           "Count": 4,
-          "CardName": "Forsaken Sanctuary"
+          "CardName": "Languish"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ruinous Path"
         },
         {
           "Count": 2,
           "CardName": "Transgress the Mind"
         },
         {
+          "Count": 4,
+          "CardName": "Gideon, Ally of Zendikar"
+        },
+        {
           "Count": 2,
-          "CardName": "Secure the Wastes"
+          "CardName": "Anguished Unmaking"
+        },
+        {
+          "Count": 7,
+          "CardName": "Swamp"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Eldrazi Displacer"
-        },
         {
           "Count": 1,
           "CardName": "Bearer of Silence"
@@ -1440,14 +1436,6 @@
         {
           "Count": 2,
           "CardName": "Duress"
-        },
-        {
-          "Count": 3,
-          "CardName": "Kalitas, Traitor of Ghet"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dead Weight"
         },
         {
           "Count": 1,
@@ -1459,7 +1447,19 @@
         },
         {
           "Count": 2,
+          "CardName": "Dead Weight"
+        },
+        {
+          "Count": 2,
+          "CardName": "Eldrazi Displacer"
+        },
+        {
+          "Count": 2,
           "CardName": "Transgress the Mind"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kalitas, Traitor of Ghet"
         }
       ]
     },
@@ -1742,44 +1742,24 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2016-06-029762889#deck_haiSOOOOdesu",
       "Mainboard": [
         {
-          "Count": 5,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fortified Village"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dromoka's Command"
-        },
-        {
           "Count": 4,
           "CardName": "Tireless Tracker"
         },
         {
           "Count": 3,
-          "CardName": "Eldrazi Displacer"
+          "CardName": "Canopy Vista"
+        },
+        {
+          "Count": 4,
+          "CardName": "Duskwatch Recruiter"
+        },
+        {
+          "Count": 5,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
           "CardName": "Lambholt Pacifist"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thalia's Lieutenant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reflector Mage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Yavimaya Coast"
         },
         {
           "Count": 1,
@@ -1790,16 +1770,32 @@
           "CardName": "Evolving Wilds"
         },
         {
-          "Count": 4,
-          "CardName": "Duskwatch Recruiter"
+          "Count": 3,
+          "CardName": "Thraben Inspector"
         },
         {
-          "Count": 1,
-          "CardName": "Ojutai's Command"
+          "Count": 3,
+          "CardName": "Eldrazi Displacer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Yavimaya Coast"
         },
         {
           "Count": 4,
           "CardName": "Collected Company"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thalia's Lieutenant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dromoka's Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
         },
         {
           "Count": 1,
@@ -1807,21 +1803,25 @@
         },
         {
           "Count": 1,
+          "CardName": "Ojutai's Command"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reflector Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fortified Village"
+        },
+        {
+          "Count": 1,
           "CardName": "Wastes"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 3,
-          "CardName": "Canopy Vista"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Dispel"
+          "Count": 2,
+          "CardName": "Profaner of the Dead"
         },
         {
           "Count": 1,
@@ -1829,19 +1829,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Den Protector"
-        },
-        {
-          "Count": 3,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Profaner of the Dead"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lantern Scout"
+          "CardName": "Dispel"
         },
         {
           "Count": 2,
@@ -1853,7 +1841,19 @@
         },
         {
           "Count": 2,
+          "CardName": "Lantern Scout"
+        },
+        {
+          "Count": 2,
           "CardName": "Reality Smasher"
+        },
+        {
+          "Count": 3,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Den Protector"
         }
       ]
     },

@@ -126,12 +126,32 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2016-12-0310243982#deck_nazora",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Cultivator's Caravan"
+          "Count": 4,
+          "CardName": "Scrapheap Scrounger"
         },
         {
           "Count": 4,
           "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inspiring Vantage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Toolcraft Exemplar"
+        },
+        {
+          "Count": 3,
+          "CardName": "Harnessed Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Plains"
         },
         {
           "Count": 2,
@@ -139,39 +159,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Smuggler's Copter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
           "CardName": "Unlicensed Disintegration"
         },
         {
-          "Count": 4,
-          "CardName": "Inspiring Vantage"
-        },
-        {
-          "Count": 3,
-          "CardName": "Harnessed Lightning"
-        },
-        {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
-        {
           "Count": 2,
-          "CardName": "Gideon, Ally of Zendikar"
+          "CardName": "Cultivator's Caravan"
         },
         {
           "Count": 4,
-          "CardName": "Toolcraft Exemplar"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scrapheap Scrounger"
+          "CardName": "Concealed Courtyard"
         },
         {
           "Count": 1,
@@ -179,7 +175,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Inventor's Apprentice"
+          "CardName": "Smuggler's Copter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gideon, Ally of Zendikar"
+        },
+        {
+          "Count": 4,
+          "CardName": "Veteran Motorist"
         },
         {
           "Count": 4,
@@ -187,33 +191,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Concealed Courtyard"
-        },
-        {
-          "Count": 4,
-          "CardName": "Veteran Motorist"
+          "CardName": "Inventor's Apprentice"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Fragmentize"
-        },
-        {
-          "Count": 1,
-          "CardName": "Archangel Avacyn"
-        },
         {
           "Count": 4,
           "CardName": "Galvanic Bombardment"
         },
         {
           "Count": 2,
-          "CardName": "Declaration in Stone"
+          "CardName": "Weaver of Lightning"
         },
         {
           "Count": 2,
-          "CardName": "Weaver of Lightning"
+          "CardName": "Declaration in Stone"
         },
         {
           "Count": 2,
@@ -222,6 +214,14 @@
         {
           "Count": 2,
           "CardName": "Gideon, Ally of Zendikar"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fragmentize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Archangel Avacyn"
         }
       ]
     },
@@ -881,27 +881,31 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Foreboding Ruins"
+          "CardName": "Fiery Temper"
         },
         {
           "Count": 4,
-          "CardName": "Unlicensed Disintegration"
+          "CardName": "Smuggler's Copter"
         },
         {
           "Count": 2,
-          "CardName": "Key to the City"
+          "CardName": "Incendiary Flow"
         },
         {
-          "Count": 10,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Foreboding Ruins"
+        },
+        {
+          "Count": 2,
+          "CardName": "Insolent Neonate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lightning Axe"
         },
         {
           "Count": 4,
           "CardName": "Bloodhall Priest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bomat Courier"
         },
         {
           "Count": 5,
@@ -912,8 +916,24 @@
           "CardName": "Stromkirk Occultist"
         },
         {
+          "Count": 2,
+          "CardName": "Key to the City"
+        },
+        {
           "Count": 4,
-          "CardName": "Fiery Temper"
+          "CardName": "Inventor's Apprentice"
+        },
+        {
+          "Count": 10,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bomat Courier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scrapheap Scrounger"
         },
         {
           "Count": 4,
@@ -921,37 +941,17 @@
         },
         {
           "Count": 4,
-          "CardName": "Smuggler's Copter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Inventor's Apprentice"
-        },
-        {
-          "Count": 2,
-          "CardName": "Incendiary Flow"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scrapheap Scrounger"
-        },
-        {
-          "Count": 2,
-          "CardName": "Insolent Neonate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lightning Axe"
+          "CardName": "Unlicensed Disintegration"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Goblin Dark-Dwellers"
+          "Count": 4,
+          "CardName": "Transgress the Mind"
         },
         {
           "Count": 4,
-          "CardName": "Transgress the Mind"
+          "CardName": "Galvanic Bombardment"
         },
         {
           "Count": 3,
@@ -962,8 +962,8 @@
           "CardName": "Chandra, Torch of Defiance"
         },
         {
-          "Count": 4,
-          "CardName": "Galvanic Bombardment"
+          "Count": 1,
+          "CardName": "Goblin Dark-Dwellers"
         }
       ]
     },
@@ -2026,12 +2026,16 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2016-12-0310243982#deck_BenSquig",
       "Mainboard": [
         {
-          "Count": 1,
-          "CardName": "Wastes"
+          "Count": 4,
+          "CardName": "Harnessed Lightning"
         },
         {
-          "Count": 8,
+          "Count": 7,
           "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Aetherworks Marvel"
         },
         {
           "Count": 3,
@@ -2042,12 +2046,8 @@
           "CardName": "Vessel of Nascency"
         },
         {
-          "Count": 3,
-          "CardName": "Ishkanah, Grafwidow"
-        },
-        {
-          "Count": 1,
-          "CardName": "Grapple with the Past"
+          "Count": 2,
+          "CardName": "Kozilek's Return"
         },
         {
           "Count": 2,
@@ -2055,7 +2055,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Evolving Wilds"
+          "CardName": "World Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Game Trail"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grapple with the Past"
+        },
+        {
+          "Count": 4,
+          "CardName": "Attune with Aether"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Aether Hub"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tireless Tracker"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ishkanah, Grafwidow"
         },
         {
           "Count": 4,
@@ -2063,65 +2091,25 @@
         },
         {
           "Count": 1,
-          "CardName": "World Breaker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Hub"
+          "CardName": "Evolving Wilds"
         },
         {
           "Count": 4,
           "CardName": "Emrakul, the Promised End"
         },
         {
-          "Count": 2,
-          "CardName": "Kozilek's Return"
-        },
-        {
-          "Count": 4,
-          "CardName": "Harnessed Lightning"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aetherworks Marvel"
-        },
-        {
-          "Count": 3,
-          "CardName": "Woodweaver's Puzzleknot"
-        },
-        {
-          "Count": 4,
-          "CardName": "Attune with Aether"
-        },
-        {
           "Count": 3,
           "CardName": "Chandra, Torch of Defiance"
         },
         {
-          "Count": 4,
-          "CardName": "Game Trail"
+          "Count": 3,
+          "CardName": "Woodweaver's Puzzleknot"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
-          "Count": 1,
           "CardName": "Kozilek's Return"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galvanic Bombardment"
-        },
-        {
-          "Count": 1,
-          "CardName": "World Breaker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ulamog, the Ceaseless Hunger"
         },
         {
           "Count": 1,
@@ -2129,11 +2117,15 @@
         },
         {
           "Count": 1,
+          "CardName": "Ulamog, the Ceaseless Hunger"
+        },
+        {
+          "Count": 1,
           "CardName": "Natural State"
         },
         {
-          "Count": 3,
-          "CardName": "Tireless Tracker"
+          "Count": 1,
+          "CardName": "Thought-Knot Seer"
         },
         {
           "Count": 1,
@@ -2142,6 +2134,18 @@
         {
           "Count": 1,
           "CardName": "Appetite for the Unnatural"
+        },
+        {
+          "Count": 1,
+          "CardName": "World Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Galvanic Bombardment"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tireless Tracker"
         }
       ]
     },
@@ -2153,59 +2157,77 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Plains"
+          "CardName": "Inspiring Vantage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Servo Exhibition"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gideon, Ally of Zendikar"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Bushwhacker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inventor's Apprentice"
         },
         {
           "Count": 6,
           "CardName": "Mountain"
         },
         {
-          "Count": 1,
+          "Count": 4,
+          "CardName": "Outnumber"
+        },
+        {
+          "Count": 3,
           "CardName": "Pia Nalaar"
         },
         {
-          "Count": 4,
-          "CardName": "Scrapheap Scrounger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Veteran Motorist"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 4,
-          "CardName": "Concealed Courtyard"
-        },
-        {
           "Count": 2,
-          "CardName": "Unlicensed Disintegration"
-        },
-        {
-          "Count": 4,
-          "CardName": "Toolcraft Exemplar"
-        },
-        {
-          "Count": 4,
-          "CardName": "Harnessed Lightning"
+          "CardName": "Aether Hub"
         },
         {
           "Count": 4,
           "CardName": "Smuggler's Copter"
         },
         {
+          "Count": 4,
+          "CardName": "Declaration in Stone"
+        },
+        {
+          "Count": 4,
+          "CardName": "Toolcraft Exemplar"
+        },
+        {
+          "Count": 7,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 1,
+          "CardName": "Harnessed Lightning"
+        },
+        {
           "Count": 3,
-          "CardName": "Cultivator's Caravan"
+          "CardName": "Needle Spires"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Fragmentize"
         },
         {
-          "Count": 4,
-          "CardName": "Inspiring Vantage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Hub"
+          "Count": 2,
+          "CardName": "Gideon, Ally of Zendikar"
         },
         {
           "Count": 2,
@@ -2213,41 +2235,23 @@
         },
         {
           "Count": 2,
-          "CardName": "Gideon, Ally of Zendikar"
+          "CardName": "Harnessed Lightning"
         },
         {
-          "Count": 4,
-          "CardName": "Inventor's Apprentice"
-        }
-      ],
-      "Sideboard": [
+          "Count": 2,
+          "CardName": "Make a Stand"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lantern Scout"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stasis Snare"
+        },
         {
           "Count": 1,
           "CardName": "Needle Spires"
-        },
-        {
-          "Count": 2,
-          "CardName": "Skysovereign, Consul Flagship"
-        },
-        {
-          "Count": 2,
-          "CardName": "Gideon, Ally of Zendikar"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galvanic Bombardment"
-        },
-        {
-          "Count": 3,
-          "CardName": "Declaration in Stone"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unlicensed Disintegration"
-        },
-        {
-          "Count": 2,
-          "CardName": "Fragmentize"
         }
       ]
     },

@@ -993,15 +993,27 @@
       "Mainboard": [
         {
           "Count": 4,
+          "CardName": "Anticipate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spirebluff Canal"
+        },
+        {
+          "Count": 2,
+          "CardName": "Incendiary Flow"
+        },
+        {
+          "Count": 4,
           "CardName": "Dynavolt Tower"
         },
         {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shielded Aether Thief"
+          "Count": 5,
+          "CardName": "Forest"
         },
         {
           "Count": 2,
@@ -1009,23 +1021,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Glimmer of Genius"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lumbering Falls"
-        },
-        {
-          "Count": 5,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spirebluff Canal"
-        },
-        {
-          "Count": 4,
           "CardName": "Aether Hub"
+        },
+        {
+          "Count": 4,
+          "CardName": "Botanical Sanctum"
         },
         {
           "Count": 2,
@@ -1036,39 +1036,43 @@
           "CardName": "Rogue Refiner"
         },
         {
-          "Count": 2,
-          "CardName": "Negate"
+          "Count": 4,
+          "CardName": "Attune with Aether"
         },
         {
-          "Count": 2,
-          "CardName": "Island"
+          "Count": 1,
+          "CardName": "Mountain"
         },
         {
-          "Count": 2,
-          "CardName": "Incendiary Flow"
+          "Count": 3,
+          "CardName": "Shielded Aether Thief"
         },
         {
           "Count": 4,
           "CardName": "Harnessed Lightning"
         },
         {
+          "Count": 2,
+          "CardName": "Lumbering Falls"
+        },
+        {
           "Count": 4,
-          "CardName": "Anticipate"
+          "CardName": "Glimmer of Genius"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 3,
           "CardName": "Torrential Gearhulk"
-        },
-        {
-          "Count": 4,
-          "CardName": "Botanical Sanctum"
-        },
-        {
-          "Count": 4,
-          "CardName": "Attune with Aether"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Kozilek's Return"
+        },
         {
           "Count": 2,
           "CardName": "Natural Obsolescence"
@@ -1078,20 +1082,16 @@
           "CardName": "Dispel"
         },
         {
-          "Count": 3,
-          "CardName": "Whirler Virtuoso"
+          "Count": 2,
+          "CardName": "Ceremonious Rejection"
         },
         {
           "Count": 2,
           "CardName": "Negate"
         },
         {
-          "Count": 2,
-          "CardName": "Ceremonious Rejection"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kozilek's Return"
+          "Count": 3,
+          "CardName": "Whirler Virtuoso"
         },
         {
           "Count": 2,
@@ -2762,44 +2762,16 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-ptq-preliminary-2017-02-1910445340#deck_Stokens",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Blossoming Defense"
-        },
-        {
-          "Count": 2,
-          "CardName": "Gonti, Lord of Luxury"
-        },
-        {
           "Count": 4,
-          "CardName": "Blooming Marsh"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gifted Aetherborn"
-        },
-        {
-          "Count": 6,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Verdurous Gearhulk"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tireless Tracker"
+          "CardName": "Sylvan Advocate"
         },
         {
           "Count": 2,
           "CardName": "Catacomb Sifter"
         },
         {
-          "Count": 6,
-          "CardName": "Swamp"
-        },
-        {
           "Count": 4,
-          "CardName": "Aether Hub"
+          "CardName": "Gifted Aetherborn"
         },
         {
           "Count": 4,
@@ -2811,37 +2783,61 @@
         },
         {
           "Count": 3,
-          "CardName": "Fatal Push"
-        },
-        {
-          "Count": 4,
-          "CardName": "Walking Ballista"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sylvan Advocate"
+          "CardName": "Verdurous Gearhulk"
         },
         {
           "Count": 3,
           "CardName": "Rishkar, Peema Renegade"
         },
         {
+          "Count": 2,
+          "CardName": "Gonti, Lord of Luxury"
+        },
+        {
+          "Count": 8,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blossoming Defense"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blooming Marsh"
+        },
+        {
           "Count": 3,
           "CardName": "Grasp of Darkness"
+        },
+        {
+          "Count": 8,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Walking Ballista"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tireless Tracker"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fatal Push"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Appetite for the Unnatural"
+        },
         {
           "Count": 2,
           "CardName": "Harsh Scrutiny"
         },
         {
           "Count": 1,
-          "CardName": "Ob Nixilis Reignited"
-        },
-        {
-          "Count": 1,
-          "CardName": "Appetite for the Unnatural"
+          "CardName": "Skysovereign, Consul Flagship"
         },
         {
           "Count": 2,
@@ -2849,19 +2845,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Gonti, Lord of Luxury"
-        },
-        {
-          "Count": 1,
           "CardName": "Murder"
         },
         {
           "Count": 1,
-          "CardName": "Skysovereign, Consul Flagship"
-        },
-        {
-          "Count": 1,
-          "CardName": "Fatal Push"
+          "CardName": "Gonti, Lord of Luxury"
         },
         {
           "Count": 3,
@@ -2870,6 +2858,14 @@
         {
           "Count": 2,
           "CardName": "Lifecrafter's Bestiary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ob Nixilis Reignited"
+        },
+        {
+          "Count": 1,
+          "CardName": "Fatal Push"
         }
       ]
     },
@@ -3109,19 +3105,31 @@
       "Mainboard": [
         {
           "Count": 1,
-          "CardName": "Plains"
+          "CardName": "Evolving Wilds"
         },
         {
           "Count": 4,
-          "CardName": "Botanical Sanctum"
+          "CardName": "Aether Hub"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rogue Refiner"
+        },
+        {
+          "Count": 1,
+          "CardName": "Aetherworks Marvel"
         },
         {
           "Count": 1,
           "CardName": "Mountain"
         },
         {
-          "Count": 4,
-          "CardName": "Oath of Nissa"
+          "Count": 6,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
         },
         {
           "Count": 2,
@@ -3132,24 +3140,16 @@
           "CardName": "Inspiring Vantage"
         },
         {
-          "Count": 4,
-          "CardName": "Aether Hub"
-        },
-        {
-          "Count": 6,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 1,
-          "CardName": "Aetherworks Marvel"
+          "Count": 3,
+          "CardName": "Elder Deep-Fiend"
         },
         {
           "Count": 4,
-          "CardName": "Harnessed Lightning"
+          "CardName": "Botanical Sanctum"
         },
         {
           "Count": 4,
-          "CardName": "Attune with Aether"
+          "CardName": "Saheeli Rai"
         },
         {
           "Count": 4,
@@ -3157,57 +3157,53 @@
         },
         {
           "Count": 4,
-          "CardName": "Felidar Guardian"
-        },
-        {
-          "Count": 3,
-          "CardName": "Elder Deep-Fiend"
-        },
-        {
-          "Count": 1,
-          "CardName": "Evolving Wilds"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rogue Refiner"
-        },
-        {
-          "Count": 4,
-          "CardName": "Saheeli Rai"
-        },
-        {
-          "Count": 1,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Whirler Virtuoso"
+          "CardName": "Oath of Nissa"
         },
         {
           "Count": 2,
           "CardName": "Spirebluff Canal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Attune with Aether"
+        },
+        {
+          "Count": 4,
+          "CardName": "Harnessed Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Felidar Guardian"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Whirler Virtuoso"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Baral's Expertise"
+          "Count": 2,
+          "CardName": "Spell Queller"
         },
         {
-          "Count": 2,
-          "CardName": "Dispel"
+          "Count": 3,
+          "CardName": "Negate"
         },
         {
           "Count": 2,
           "CardName": "Tireless Tracker"
         },
         {
-          "Count": 2,
-          "CardName": "Root Out"
+          "Count": 1,
+          "CardName": "Baral's Expertise"
         },
         {
           "Count": 2,
-          "CardName": "Spell Queller"
+          "CardName": "Root Out"
         },
         {
           "Count": 2,
@@ -3216,10 +3212,6 @@
         {
           "Count": 3,
           "CardName": "Kozilek's Return"
-        },
-        {
-          "Count": 1,
-          "CardName": "Negate"
         }
       ]
     },

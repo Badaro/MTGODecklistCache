@@ -260,8 +260,12 @@
       "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-daily-swiss-2016-02-119370597#deck_AlfredoTorres",
       "Mainboard": [
         {
+          "Count": 4,
+          "CardName": "Goblin Guide"
+        },
+        {
           "Count": 3,
-          "CardName": "Mountain"
+          "CardName": "Sacred Foundry"
         },
         {
           "Count": 1,
@@ -269,51 +273,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Atarka's Command"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goblin Guide"
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 3,
           "CardName": "Searing Blaze"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wild Nacatl"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodstained Mire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rift Bolt"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eidolon of the Great Revel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 1,
-          "CardName": "Grim Lavamancer"
         },
         {
           "Count": 3,
@@ -321,7 +285,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Nacatl"
         },
         {
           "Count": 4,
@@ -329,21 +301,45 @@
         },
         {
           "Count": 4,
-          "CardName": "Lava Spike"
+          "CardName": "Atarka's Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rift Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grim Lavamancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eidolon of the Great Revel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Destructive Revelry"
-        },
         {
           "Count": 1,
           "CardName": "Searing Blaze"
         },
         {
-          "Count": 3,
-          "CardName": "Kor Firewalker"
+          "Count": 2,
+          "CardName": "Molten Rain"
         },
         {
           "Count": 3,
@@ -351,11 +347,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Molten Rain"
+          "CardName": "Stony Silence"
         },
         {
-          "Count": 2,
-          "CardName": "Stony Silence"
+          "Count": 3,
+          "CardName": "Kor Firewalker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Destructive Revelry"
         }
       ]
     },
@@ -367,59 +367,7 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "World Breaker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
           "CardName": "Ancient Stirrings"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mind Stone"
-        },
-        {
-          "Count": 4,
-          "CardName": "Grove of the Burnwillows"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reality Smasher"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kozilek's Return"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eye of Ugin"
-        },
-        {
-          "Count": 4,
-          "CardName": "Karplusan Forest"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gemstone Caverns"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eldrazi Temple"
         },
         {
           "Count": 4,
@@ -427,37 +375,93 @@
         },
         {
           "Count": 4,
-          "CardName": "Eldrazi Mimic"
+          "CardName": "Eye of Ugin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reality Smasher"
         },
         {
           "Count": 4,
           "CardName": "Matter Reshaper"
         },
         {
+          "Count": 4,
+          "CardName": "Eldrazi Temple"
+        },
+        {
+          "Count": 1,
+          "CardName": "Urborg, Tomb of Yawgmoth"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldrazi Mimic"
+        },
+        {
+          "Count": 4,
+          "CardName": "Karplusan Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kozilek's Return"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mind Stone"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gemstone Caverns"
+        },
+        {
+          "Count": 4,
+          "CardName": "World Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought-Knot Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Grove of the Burnwillows"
+        },
+        {
           "Count": 1,
           "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Ancient Grudge"
-        },
         {
           "Count": 2,
           "CardName": "Crumble to Dust"
         },
         {
           "Count": 3,
-          "CardName": "Relic of Progenitus"
-        },
-        {
-          "Count": 2,
           "CardName": "Seal of Primordium"
         },
         {
           "Count": 4,
           "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ancient Grudge"
         }
       ]
     },
