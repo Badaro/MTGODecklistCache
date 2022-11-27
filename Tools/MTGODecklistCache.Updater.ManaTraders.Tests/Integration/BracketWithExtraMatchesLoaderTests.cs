@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
 {
     public class BracketWithExtraMatchesLoaderTests
     {
-        private Bracket _testData = null;
+        private RoundV2[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -20,58 +20,77 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
             {
                 Uri = new Uri("https://www.manatraders.com/tournaments/30/"),
                 Date = new DateTime(2022, 08, 31, 00, 00, 00, DateTimeKind.Utc)
-            }).Bracket;
+            }).Rounds.TakeLast(3).ToArray();
         }
 
         [Test]
         public void BracketItemCountIsCorrect()
         {
-            if (_testData != null) _testData.Quarterfinals.Length.Should().Be(4);
-            if (_testData != null) _testData.Semifinals.Length.Should().Be(2);
+            _testData.First(r => r.RoundName == "Quarterfinals").Matches.Length.Should().Be(4);
+            _testData.First(r => r.RoundName == "Semifinals").Matches.Length.Should().Be(2);
+            _testData.First(r => r.RoundName == "Finals").Matches.Length.Should().Be(1);
         }
 
         [Test]
         public void BracketItemsHaveWinningPlayer()
         {
-            if (_testData != null) foreach (var match in _testData.Quarterfinals) match.Player1.Should().NotBeNullOrEmpty();
-            if (_testData != null) foreach (var match in _testData.Semifinals) match.Player1.Should().NotBeNullOrEmpty();
-            if (_testData != null) _testData.Finals.Player1.Should().NotBeNullOrEmpty();
+            foreach (var round in _testData)
+            {
+                foreach (var match in round.Matches) match.Player1.Should().NotBeNullOrEmpty();
+            }
         }
 
         [Test]
         public void BracketItemsHaveLosingPlayer()
         {
-            if (_testData != null) foreach (var match in _testData.Quarterfinals) match.Player2.Should().NotBeNullOrEmpty();
-            if (_testData != null) foreach (var match in _testData.Semifinals) match.Player2.Should().NotBeNullOrEmpty();
-            if (_testData != null) _testData.Finals.Player2.Should().NotBeNullOrEmpty();
+            foreach (var round in _testData)
+            {
+                foreach (var match in round.Matches) match.Player2.Should().NotBeNullOrEmpty();
+            }
         }
 
         [Test]
         public void BracketItemsHaveResult()
         {
-            if (_testData != null) foreach (var match in _testData.Quarterfinals) match.Result.Should().NotBeNullOrEmpty();
-            if (_testData != null) foreach (var match in _testData.Semifinals) match.Result.Should().NotBeNullOrEmpty();
-            if (_testData != null) _testData.Finals.Result.Should().NotBeNullOrEmpty();
+            foreach (var round in _testData)
+            {
+                foreach (var match in round.Matches) match.Result.Should().NotBeNullOrEmpty();
+            }
         }
 
         [Test]
         public void BracketItemsDataIsCorrect()
         {
-            if (_testData != null) _testData.Should().BeEquivalentTo(new Bracket()
+            _testData.Should().BeEquivalentTo(new RoundV2[]
             {
-                Quarterfinals = new BracketItem[]
+                new RoundV2()
                 {
-                    new BracketItem(){ Player1 = "zuri1988",    Player2 = "Fink64",     Result= "2-1" },
-                    new BracketItem(){ Player1 = "kvza",        Player2 = "Harry13",    Result= "2-0" },
-                    new BracketItem(){ Player1 = "ModiSapiras", Player2 = "Daking3603", Result= "2-0" },
-                    new BracketItem(){ Player1 = "Cinciu",      Player2 = "ScouterTF2", Result= "2-0" }
+                    RoundName = "Quarterfinals",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem(){ Player1 = "zuri1988",    Player2 = "Fink64",     Result= "2-1-0" },
+                        new RoundItem(){ Player1 = "kvza",        Player2 = "Harry13",    Result= "2-0-0" },
+                        new RoundItem(){ Player1 = "ModiSapiras", Player2 = "Daking3603", Result= "2-0-0" },
+                        new RoundItem(){ Player1 = "Cinciu",      Player2 = "ScouterTF2", Result= "2-0-0" }
+                    }
                 },
-                Semifinals = new BracketItem[]
+                new RoundV2()
                 {
-                    new BracketItem(){ Player1 = "kvza",        Player2 = "zuri1988", Result= "2-1" },
-                    new BracketItem(){ Player1 = "ModiSapiras", Player2 = "Cinciu",   Result= "2-0" }
+                    RoundName = "Semifinals",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem(){ Player1 = "kvza",        Player2 = "zuri1988", Result= "2-1-0" },
+                        new RoundItem(){ Player1 = "ModiSapiras", Player2 = "Cinciu",   Result= "2-0-0" }
+                    }
                 },
-                Finals = new BracketItem() { Player1 = "ModiSapiras", Player2 = "kvza", Result = "2-0" }
+                new RoundV2()
+                {
+                    RoundName = "Finals",
+                    Matches = new RoundItem[]
+                    {
+                        new RoundItem() { Player1 = "ModiSapiras", Player2 = "kvza", Result = "2-0-0" }
+                    }
+                },
             });
         }
     }

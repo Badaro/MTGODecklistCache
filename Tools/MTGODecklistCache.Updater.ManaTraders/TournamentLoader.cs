@@ -20,7 +20,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
         static string _csvRoot = "https://www.manatraders.com/tournaments/download_csv_by_month_and_year?month={month}&year={year}";
         static string _swissRoot = "https://www.manatraders.com/tournaments/swiss_json_by_month_and_year?month={month}&year={year}";
 
-        public static CacheItem GetTournamentDetails(Tournament tournament)
+        public static CacheItemV2 GetTournamentDetails(Tournament tournament)
         {
             string csvUrl = _csvRoot.Replace("{year}", tournament.Date.Year.ToString()).Replace("{month}", tournament.Date.Month.ToString());
             string swissUrl = _swissRoot.Replace("{year}", tournament.Date.Year.ToString()).Replace("{month}", tournament.Date.Month.ToString());
@@ -33,13 +33,16 @@ namespace MTGODecklistCache.Updater.ManaTraders
             var bracket = ParseBracket(bracketUrl);
             var swiss = ParseSwiss(swissUrl);
 
-            return new CacheItem()
+            var rounds = new List<RoundV2>();
+            rounds.AddRange(swiss);
+            rounds.AddRange(bracket);
+
+            return new CacheItemV2()
             {
                 Tournament = tournament,
                 Decks = decks,
                 Standings = standings,
-                Bracket = bracket,
-                Rounds = swiss
+                Rounds = rounds.ToArray()
             };
         }
 
@@ -176,7 +179,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
             return result.ToArray();
         }
 
-        private static Bracket ParseBracket(string bracketUrl)
+        private static RoundV2[] ParseBracket(string bracketUrl)
         {
             string pageContent = new WebClient().DownloadString(bracketUrl);
 
@@ -186,7 +189,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
             var bracketRoot = doc.DocumentNode.SelectSingleNode("//div[@class='tournament-brackets']");
             if (bracketRoot == null) return null;
 
-            List<BracketItem> brackets = new List<BracketItem>();
+            List<RoundItem> brackets = new List<RoundItem>();
 
             var bracketNodes = bracketRoot.SelectNodes("ul/li");
             foreach (var bracketNode in bracketNodes)
@@ -205,35 +208,47 @@ namespace MTGODecklistCache.Updater.ManaTraders
 
                 if (wins[0] > wins[1])
                 {
-                    brackets.Add(new BracketItem()
+                    brackets.Add(new RoundItem()
                     {
                         Player1 = players[0],
                         Player2 = players[1],
-                        Result = wins[0] + "-" + wins[1]
+                        Result = wins[0] + "-" + wins[1] + "-0"
                     });
                 }
                 else
                 {
-                    brackets.Add(new BracketItem()
+                    brackets.Add(new RoundItem()
                     {
                         Player1 = players[1],
                         Player2 = players[0],
-                        Result = wins[1] + "-" + wins[0]
+                        Result = wins[1] + "-" + wins[0] + "-0"
                     });
                 }
             }
 
-            return new Bracket()
+            List<RoundV2> rounds = new List<RoundV2>();
+            rounds.Add(new RoundV2()
             {
-                Quarterfinals = brackets.Take(4).ToArray(),
-                Semifinals = brackets.Skip(4).Take(2).ToArray(),
-                Finals = brackets.Skip(6).First()
-            };
+                RoundName = "Quarterfinals",
+                Matches = brackets.Take(4).ToArray()
+            });
+            rounds.Add(new RoundV2()
+            {
+                RoundName = "Semifinals",
+                Matches = brackets.Skip(4).Take(2).ToArray()
+            });
+            rounds.Add(new RoundV2()
+            {
+                RoundName = "Finals",
+                Matches = brackets.Skip(6).ToArray()
+            });
+
+            return rounds.ToArray();
         }
 
-        private static Round[] ParseSwiss(string swissUrl)
+        private static RoundV2[] ParseSwiss(string swissUrl)
         {
-            List<Round> result = new List<Round>();
+            List<RoundV2> result = new List<RoundV2>();
 
             string jsonData = new WebClient().DownloadString(swissUrl);
             dynamic json = JsonConvert.DeserializeObject(jsonData);
@@ -242,7 +257,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
 
             foreach (JProperty round in jObj.Children())
             {
-                int roundNumber = Int32.Parse(round.Name.Replace("Round ", ""));
+                string roundName = round.Name;
 
                 var matches = round.Children().ToArray().Children().ToArray();
 
@@ -260,9 +275,9 @@ namespace MTGODecklistCache.Updater.ManaTraders
                     });
                 }
 
-                result.Add(new Round()
+                result.Add(new RoundV2()
                 {
-                    RoundNumber = roundNumber,
+                    RoundName = roundName,
                     Matches = items.ToArray()
                 });
             }

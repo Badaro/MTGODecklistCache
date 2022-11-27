@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
 {
     public class RoundsLoaderTests
     {
-        private Round[] _testData = null;
+        private RoundV2[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -26,13 +26,13 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
         [Test]
         public void RoundCountIsCorrect()
         {
-            _testData.Length.Should().Be(8);
+            _testData.Length.Should().Be(11);
         }
 
         [Test]
         public void RoundsHaveNumber()
         {
-            foreach (var round in _testData) round.RoundNumber.Should().BeGreaterThan(0);
+            foreach (var round in _testData) round.RoundName.Should().NotBeNullOrEmpty();
         }
 
         [Test]
@@ -44,8 +44,8 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
         [Test]
         public void RoundDataIsCorrect()
         {
-            Round testRound = _testData.First();
-            testRound.RoundNumber.Should().Be(1);
+            RoundV2 testRound = _testData.First();
+            testRound.RoundName.Should().Be("Round 1");
             testRound.Matches.First().Should().BeEquivalentTo(new RoundItem()
             {
                 Player1 = "SuperCow12653",
