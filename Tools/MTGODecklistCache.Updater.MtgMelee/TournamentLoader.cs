@@ -21,31 +21,31 @@ namespace MTGODecklistCache.Updater.MtgMelee
         static string _phaseParameters = "columns%5B0%5D%5Bdata%5D=Rank&columns%5B0%5D%5Bname%5D=Rank&columns%5B0%5D%5Bsearchable%5D=false&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=Name&columns%5B1%5D%5Bname%5D=Name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=Decklists&columns%5B2%5D%5Bname%5D=Decklists&columns%5B2%5D%5Bsearchable%5D=false&columns%5B2%5D%5Borderable%5D=false&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=Record&columns%5B3%5D%5Bname%5D=Record&columns%5B3%5D%5Bsearchable%5D=false&columns%5B3%5D%5Borderable%5D=false&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=Points&columns%5B4%5D%5Bname%5D=Points&columns%5B4%5D%5Bsearchable%5D=false&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=Tiebreaker1&columns%5B5%5D%5Bname%5D=Tiebreaker1&columns%5B5%5D%5Bsearchable%5D=false&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=Tiebreaker2&columns%5B6%5D%5Bname%5D=Tiebreaker2&columns%5B6%5D%5Bsearchable%5D=false&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=Tiebreaker3&columns%5B7%5D%5Bname%5D=Tiebreaker3&columns%5B7%5D%5Bsearchable%5D=false&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start={start}&length=25&search%5Bvalue%5D=&search%5Bregex%5D=false";
         static string _deckPage = "https://mtgmelee.com/Decklist/View/{deckId}";
 
-        public static CacheItem GetTournamentDetails(MtgMeleeTournament tournament)
+        public static CacheItemV2 GetTournamentDetails(MtgMeleeTournament tournament)
         {
             var decks = ParseDecks(tournament.Uri.ToString(), tournament);
 
             // Consolidates matches from deck pages and remove duplicates
-            Dictionary<int, Dictionary<string, RoundItem>> rounds = new Dictionary<int, Dictionary<string, RoundItem>>();
+            Dictionary<string, Dictionary<string, RoundItem>> rounds = new Dictionary<string, Dictionary<string, RoundItem>>();
             foreach (var deck in decks)
             {
                 if (deck.Rounds != null)
                 {
                     foreach (var round in deck.Rounds)
                     {
-                        if (!rounds.ContainsKey(round.RoundNumber)) rounds.Add(round.RoundNumber, new Dictionary<string, RoundItem>());
-                        string roundItemKey = $"{round.RoundNumber}_{round.Matches[0].Player1}_{round.Matches[0].Player2}";
-                        if (!rounds[round.RoundNumber].ContainsKey(roundItemKey)) rounds[round.RoundNumber].Add(roundItemKey, round.Matches[0]);
+                        if (!rounds.ContainsKey(round.RoundName)) rounds.Add(round.RoundName, new Dictionary<string, RoundItem>());
+                        string roundItemKey = $"{round.RoundName}_{round.Matches[0].Player1}_{round.Matches[0].Player2}";
+                        if (!rounds[round.RoundName].ContainsKey(roundItemKey)) rounds[round.RoundName].Add(roundItemKey, round.Matches[0]);
                     }
                 }
             }
 
-            return new CacheItem()
+            return new CacheItemV2()
             {
                 Tournament = new Tournament(tournament),
                 Decks = decks.Where(d => d.Deck != null).Select(d => d.Deck).ToArray(),
                 Standings = decks.Where(d => d.Standing != null).Select(d => d.Standing).ToArray(),
-                Rounds = rounds.Select(r => new Round() { RoundNumber = r.Key, Matches = r.Value.Select(m => m.Value).ToArray() }).ToArray()
+                Rounds = rounds.Select(r => new RoundV2() { RoundName = r.Key, Matches = r.Value.Select(m => m.Value).ToArray() }).ToArray()
             };
         }
 
@@ -146,7 +146,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     }
 
                     Deck deck = null;
-                    List<Round> rounds = null;
+                    List<RoundV2> rounds = null;
                     if (!String.IsNullOrEmpty(playerDeckId))
                     {
                         string deckPage = _deckPage.Replace("{deckId}", playerDeckId);
@@ -210,24 +210,14 @@ namespace MTGODecklistCache.Updater.MtgMelee
                             Result = playerResult
                         };
 
-                        int roundNumber = 1;
                         var roundsDiv = deckDoc.DocumentNode.SelectSingleNode("//div[@id='tournament-path-grid-item']");
                         if (roundsDiv != null)
                         {
-                            rounds = new List<Round>();
+                            rounds = new List<RoundV2>();
                             foreach (var roundDiv in roundsDiv.SelectNodes("div/div/div/table/tbody/tr"))
                             {
                                 var round = ParseRoundNode(playerName, roundDiv);
-                                if (round == null) continue;
-
-                                rounds.Add(new Round()
-                                {
-                                    RoundNumber = roundNumber++,
-                                    Matches = new RoundItem[]
-                                    {
-                                        round
-                                    }
-                                });
+                                if (round != null) rounds.Add(round);
                             }
                         }
                     }
@@ -242,11 +232,12 @@ namespace MTGODecklistCache.Updater.MtgMelee
             return result.ToArray();
         }
 
-        private static RoundItem ParseRoundNode(string playerName, HtmlNode roundNode)
+        private static RoundV2 ParseRoundNode(string playerName, HtmlNode roundNode)
         {
             var roundColumns = roundNode.SelectNodes("td");
             if (roundColumns.First().InnerText.Trim() == "No results found") return null;
 
+            string roundName = roundColumns.First().InnerHtml;
             string roundOpponent = roundColumns.Skip(1).First().SelectSingleNode("a")?.InnerHtml;
             if (roundOpponent == null)
             {
@@ -254,13 +245,15 @@ namespace MTGODecklistCache.Updater.MtgMelee
             }
             string roundResult = roundColumns.Skip(3).First().InnerHtml;
 
+            roundName = NormalizeSpaces(WebUtility.HtmlDecode(roundName));
             roundOpponent = NormalizeSpaces(WebUtility.HtmlDecode(roundOpponent));
             roundResult = NormalizeSpaces(WebUtility.HtmlDecode(roundResult));
 
+            RoundItem item = null;
             if (roundResult.StartsWith($"{playerName} won"))
             {
                 // Victory
-                return new RoundItem()
+                item = new RoundItem()
                 {
                     Player1 = playerName,
                     Player2 = roundOpponent,
@@ -270,7 +263,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
             if (roundResult.StartsWith($"{roundOpponent} won"))
             {
                 // Defeat
-                return new RoundItem()
+                item = new RoundItem()
                 {
                     Player1 = roundOpponent,
                     Player2 = playerName,
@@ -281,7 +274,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
             {
                 if (String.Compare(playerName, roundOpponent) < 0)
                 {
-                    return new RoundItem()
+                    item = new RoundItem()
                     {
                         Player1 = playerName,
                         Player2 = roundOpponent,
@@ -290,7 +283,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 }
                 else
                 {
-                    return new RoundItem()
+                    item = new RoundItem()
                     {
                         Player1 = roundOpponent,
                         Player2 = playerName,
@@ -300,7 +293,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
             }
             if (roundResult.EndsWith(" bye"))
             {
-                return new RoundItem()
+                item = new RoundItem()
                 {
                     Player1 = playerName,
                     Player2 = "-",
@@ -310,14 +303,24 @@ namespace MTGODecklistCache.Updater.MtgMelee
             if (roundResult.StartsWith($"{playerName} forfeited"))
             {
                 // Victory
-                return new RoundItem()
+                item = new RoundItem()
                 {
                     Player1 = playerName,
                     Player2 = roundOpponent,
                     Result = "0-2-0"
                 };
             }
-            throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
+
+            if(item==null) throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
+
+            return new RoundV2
+            {
+                RoundName = roundName,
+                Matches = new RoundItem[]
+                {
+                    item
+                }
+            };
         }
 
         private static string NormalizeSpaces(string data)

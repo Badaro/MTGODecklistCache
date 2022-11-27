@@ -11,9 +11,9 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
 {
     public class RoundsLoaderTests
     {
-        private Round[] _testData = null;
-        private Round[] _testData2 = null;
-        private Round[] _testData3 = null;
+        private RoundV2[] _testData = null;
+        private RoundV2[] _testData2 = null;
+        private RoundV2[] _testData3 = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -44,9 +44,9 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         }
 
         [Test]
-        public void RoundsHaveNumber()
+        public void RoundsHaveName()
         {
-            foreach (var round in _testData) round.RoundNumber.Should().BeGreaterThan(0);
+            foreach (var round in _testData) round.RoundName.Should().NotBeNullOrEmpty();
         }
 
         [Test]
@@ -58,8 +58,8 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         [Test]
         public void RoundDataIsCorrect()
         {
-            Round testRound = _testData.First();
-            testRound.RoundNumber.Should().Be(1);
+            RoundV2 testRound = _testData.First();
+            testRound.RoundName.Should().Be("Round 1");
             testRound.Matches.First().Should().BeEquivalentTo(new RoundItem()
             {
                 Player1 = "リヒト ＿蝦夷決闘者",
@@ -72,7 +72,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         public void ShouldParseByesCorrectly()
         {
             _testData2
-                .Where(r => r.RoundNumber==3)
+                .Where(r => r.RoundName=="Round 3")
                 .SelectMany(r => r.Matches)
                 .First(r => r.Player1== "Er_gitta")
                 .Should().BeEquivalentTo(new RoundItem()
@@ -86,7 +86,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         public void ShouldParseDrawsCorrectly()
         {
             _testData3
-                .Where(r => r.RoundNumber == 5)
+                .Where(r => r.RoundName == "Round 5")
                 .SelectMany(r => r.Matches)
                 .First(r => r.Player1 == "Arthur Rodrigues")
                 .Should().BeEquivalentTo(new RoundItem()
@@ -101,7 +101,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         public void ShouldParseMissingOpponentCorrectly()
         {
             _testData2
-                .Where(r => r.RoundNumber == 4)
+                .Where(r => r.RoundName == "Round 4")
                 .SelectMany(r => r.Matches)
                 .First(r => r.Player1 == "Taerian van Rensburg")
                 .Should().BeEquivalentTo(new RoundItem()
