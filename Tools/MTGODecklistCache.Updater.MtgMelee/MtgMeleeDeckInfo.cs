@@ -9,6 +9,6 @@ namespace MTGODecklistCache.Updater.MtgMelee
     {
         public Deck Deck { get; set; }
         public Standing Standing { get; set; }
-        public RoundV2[] Rounds { get; set; }
+        public Round[] Rounds { get; set; }
     }
 }

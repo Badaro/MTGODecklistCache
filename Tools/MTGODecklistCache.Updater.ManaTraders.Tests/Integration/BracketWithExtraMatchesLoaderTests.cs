@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
 {
     public class BracketWithExtraMatchesLoaderTests
     {
-        private RoundV2[] _testData = null;
+        private Round[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -80,9 +80,9 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
         [Test]
         public void BracketItemsDataIsCorrect()
         {
-            var expected = new RoundV2[]
+            var expected = new Round[]
             {
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Quarterfinals",
                     Matches = new RoundItem[]
@@ -93,7 +93,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem(){ Player1 = "Cinciu",      Player2 = "ScouterTF2", Result= "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Loser Semifinals",
                     Matches = new RoundItem[]
@@ -102,7 +102,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem(){ Player1 = "Daking3603", Player2 = "ScouterTF2",   Result= "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Semifinals",
                     Matches = new RoundItem[]
@@ -111,7 +111,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem(){ Player1 = "ModiSapiras", Player2 = "Cinciu",   Result= "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Match for 7th and 8th places",
                     Matches = new RoundItem[]
@@ -119,7 +119,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem() { Player1 = "ScouterTF2", Player2 = "Fink64", Result = "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Match for 5th and 6th places",
                     Matches = new RoundItem[]
@@ -127,7 +127,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem() { Player1 = "Daking3603", Player2 = "Harry13", Result = "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Match for 3rd and 4th places",
                     Matches = new RoundItem[]
@@ -135,7 +135,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem() { Player1 = "Cinciu", Player2 = "zuri1988", Result = "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Finals",
                     Matches = new RoundItem[]

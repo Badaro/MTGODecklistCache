@@ -7,12 +7,12 @@ namespace MTGODecklistCache.Updater.Model
 {
     public class Round
     {
-        public int RoundNumber { get; set; }
+        public string RoundName { get; set; }
         public RoundItem[] Matches { get; set; }
 
         public override string ToString()
         {
-            return $"Round: {RoundNumber}, {Matches.Length} matches";
+            return $"Round: {RoundName}, {Matches.Length} matches";
         }
     }
 }

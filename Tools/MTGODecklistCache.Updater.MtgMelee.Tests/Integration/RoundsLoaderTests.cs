@@ -11,9 +11,9 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
 {
     public class RoundsLoaderTests
     {
-        private RoundV2[] _testData = null;
-        private RoundV2[] _testData2 = null;
-        private RoundV2[] _testData3 = null;
+        private Round[] _testData = null;
+        private Round[] _testData2 = null;
+        private Round[] _testData3 = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -58,7 +58,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         [Test]
         public void RoundDataIsCorrect()
         {
-            RoundV2 testRound = _testData.First();
+            Round testRound = _testData.First();
             testRound.RoundName.Should().Be("Round 1");
             testRound.Matches.First().Should().BeEquivalentTo(new RoundItem()
             {

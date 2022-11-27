@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         {
         }
 
-        protected override RoundV2[] GetBracket()
+        protected override Round[] GetBracket()
         {
             return null;
         }

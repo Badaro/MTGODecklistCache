@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
 {
     public class BracketWithoutExtraMatchesLoaderTests
     {
-        private RoundV2[] _testData = null;
+        private Round[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -75,9 +75,9 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
         [Test]
         public void BracketItemsDataIsCorrect()
         {
-            var expected = new RoundV2[]
+            var expected = new Round[]
             {
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Quarterfinals",
                     Matches = new RoundItem[]
@@ -88,7 +88,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem(){ Player1 = "LynnChalice", Player2 = "joaofelipen72", Result= "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Semifinals",
                     Matches = new RoundItem[]
@@ -97,7 +97,7 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
                         new RoundItem(){ Player1 = "LynnChalice", Player2 = "Darthkid",  Result= "2-0-0" }
                     }
                 },
-                new RoundV2()
+                new Round()
                 {
                     RoundName = "Finals",
                     Matches = new RoundItem[]

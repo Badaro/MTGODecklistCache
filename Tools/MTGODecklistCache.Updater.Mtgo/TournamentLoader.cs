@@ -15,7 +15,7 @@ namespace MTGODecklistCache.Updater.Mtgo
 {
     public static class TournamentLoader
     {
-        public static CacheItemV2 GetTournamentDetails(Tournament tournament)
+        public static CacheItem GetTournamentDetails(Tournament tournament)
         {
             string htmlContent;
             using (WebClient client = new WebClient())
@@ -35,7 +35,7 @@ namespace MTGODecklistCache.Updater.Mtgo
 
             if(standing!=null && bracket!=null) decks = OrderNormalizer.ReorderDecks(decks, standing, bracket);
 
-            return new CacheItemV2()
+            return new CacheItem()
             {
                 Standings = standing,
                 Rounds = bracket,
@@ -149,11 +149,11 @@ namespace MTGODecklistCache.Updater.Mtgo
             return standings.OrderBy(s => s.Rank).ToArray();
         }
 
-        private static RoundV2[] ParseBracket(dynamic json)
+        private static Round[] ParseBracket(dynamic json)
         {
             if (!HasProperty(json, "Brackets")) return null;
 
-            List<RoundV2> brackets = new List<RoundV2>();
+            List<Round> brackets = new List<Round>();
             foreach (var bracket in json.Brackets)
             {
                 List<RoundItem> matches = new List<RoundItem>();
@@ -190,14 +190,14 @@ namespace MTGODecklistCache.Updater.Mtgo
                 if (matches.Count == 2) roundName = "Semifinals";
                 if (matches.Count == 1) roundName = "Finals";
 
-                brackets.Add(new RoundV2
+                brackets.Add(new Round
                 {
                     RoundName = roundName,
                     Matches = matches.ToArray()
                 });
             }
 
-            List<RoundV2> result = new List<RoundV2>();
+            List<Round> result = new List<Round>();
             result.AddRange(brackets.Where(r => r.RoundName == "Quarterfinals"));
             result.AddRange(brackets.Where(r => r.RoundName == "Semifinals"));
             result.AddRange(brackets.Where(r => r.RoundName == "Finals"));

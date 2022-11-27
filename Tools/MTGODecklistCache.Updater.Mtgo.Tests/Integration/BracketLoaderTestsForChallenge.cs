@@ -11,10 +11,10 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         {
         }
 
-        protected override RoundV2[] GetBracket()
+        protected override Round[] GetBracket()
         {
-            List<RoundV2> bracket = new List<RoundV2>();
-            bracket.Add(new RoundV2()
+            List<Round> bracket = new List<Round>();
+            bracket.Add(new Round()
             {
                 RoundName = "Quarterfinals",
                 Matches = new RoundItem[]
@@ -25,7 +25,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
                     new RoundItem(){ Player1 = "Oceansoul92", Player2 = "Butakov",              Result= "2-1-0" }
                 }
             });
-            bracket.Add(new RoundV2()
+            bracket.Add(new Round()
             {
                 RoundName = "Semifinals",
                 Matches = new RoundItem[]
@@ -34,7 +34,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
                     new RoundItem(){ Player1 = "DNSolver", Player2 = "Oceansoul92", Result= "2-0-0" }
                 }
             });
-            bracket.Add(new RoundV2()
+            bracket.Add(new Round()
             {
                 RoundName = "Finals",
                 Matches = new RoundItem[]

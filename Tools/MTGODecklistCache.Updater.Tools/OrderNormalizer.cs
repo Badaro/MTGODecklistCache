@@ -8,7 +8,7 @@ namespace MTGODecklistCache.Updater.Tools
 {
     public static class OrderNormalizer
     {
-        public static Deck[] ReorderDecks(Deck[] decks, Standing[] standings, RoundV2[] bracketRounds)
+        public static Deck[] ReorderDecks(Deck[] decks, Standing[] standings, Round[] bracketRounds)
         {
             List<Deck> orderedDecks = new List<Deck>();
 
@@ -40,7 +40,7 @@ namespace MTGODecklistCache.Updater.Tools
             return orderedDecks.ToArray();
         }
 
-        private static string[] GetPlayerOrder(Deck[] decks, Standing[] standings, RoundV2[] bracketRounds)
+        private static string[] GetPlayerOrder(Deck[] decks, Standing[] standings, Round[] bracketRounds)
         {
             List<string> result = new List<string>();
 

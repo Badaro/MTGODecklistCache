@@ -20,7 +20,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
         static string _csvRoot = "https://www.manatraders.com/tournaments/download_csv_by_month_and_year?month={month}&year={year}";
         static string _swissRoot = "https://www.manatraders.com/tournaments/swiss_json_by_month_and_year?month={month}&year={year}";
 
-        public static CacheItemV2 GetTournamentDetails(Tournament tournament)
+        public static CacheItem GetTournamentDetails(Tournament tournament)
         {
             string csvUrl = _csvRoot.Replace("{year}", tournament.Date.Year.ToString()).Replace("{month}", tournament.Date.Month.ToString());
             string swissUrl = _swissRoot.Replace("{year}", tournament.Date.Year.ToString()).Replace("{month}", tournament.Date.Month.ToString());
@@ -33,13 +33,13 @@ namespace MTGODecklistCache.Updater.ManaTraders
             var bracket = ParseBracket(bracketUrl);
             var swiss = ParseSwiss(swissUrl);
 
-            var rounds = new List<RoundV2>();
+            var rounds = new List<Round>();
             rounds.AddRange(swiss);
             rounds.AddRange(bracket);
 
             decks = OrderNormalizer.ReorderDecks(decks, standings, bracket);
 
-            return new CacheItemV2()
+            return new CacheItem()
             {
                 Tournament = tournament,
                 Decks = decks,
@@ -172,7 +172,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
             return result.ToArray();
         }
 
-        private static RoundV2[] ParseBracket(string bracketUrl)
+        private static Round[] ParseBracket(string bracketUrl)
         {
             string pageContent = new WebClient().DownloadString(bracketUrl);
 
@@ -223,21 +223,21 @@ namespace MTGODecklistCache.Updater.ManaTraders
                 }
             }
 
-            List<RoundV2> rounds = new List<RoundV2>();
+            List<Round> rounds = new List<Round>();
             if(brackets.Count==7)
             {
                 // No extra rounds
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Quarterfinals",
                     Matches = brackets.Take(4).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Semifinals",
                     Matches = brackets.Skip(4).Take(2).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Finals",
                     Matches = brackets.Skip(6).ToArray()
@@ -245,37 +245,37 @@ namespace MTGODecklistCache.Updater.ManaTraders
             }
             else
             {
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Quarterfinals",
                     Matches = brackets.Take(4).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Loser Semifinals",
                     Matches = brackets.Skip(10).Take(2).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Semifinals",
                     Matches = brackets.Skip(4).Take(2).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Match for 7th and 8th places",
                     Matches = brackets.Skip(15).Take(1).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Match for 5th and 6th places",
                     Matches = brackets.Skip(12).Take(1).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Match for 3rd and 4th places",
                     Matches = brackets.Skip(9).Take(1).ToArray()
                 });
-                rounds.Add(new RoundV2()
+                rounds.Add(new Round()
                 {
                     RoundName = "Finals",
                     Matches = brackets.Skip(6).Take(1).ToArray()
@@ -286,9 +286,9 @@ namespace MTGODecklistCache.Updater.ManaTraders
             return rounds.ToArray();
         }
 
-        private static RoundV2[] ParseSwiss(string swissUrl)
+        private static Round[] ParseSwiss(string swissUrl)
         {
-            List<RoundV2> result = new List<RoundV2>();
+            List<Round> result = new List<Round>();
 
             string jsonData = new WebClient().DownloadString(swissUrl);
             dynamic json = JsonConvert.DeserializeObject(jsonData);
@@ -315,7 +315,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
                     });
                 }
 
-                result.Add(new RoundV2()
+                result.Add(new Round()
                 {
                     RoundName = roundName,
                     Matches = items.ToArray()

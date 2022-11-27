@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
 {
     public class RoundsLoaderTests
     {
-        private RoundV2[] _testData = null;
+        private Round[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -44,7 +44,7 @@ namespace MTGODecklistCache.Updater.MagicGG.Tests
         [Test]
         public void RoundDataIsCorrect()
         {
-            RoundV2 testRound = _testData.First();
+            Round testRound = _testData.First();
             testRound.RoundName.Should().Be("Round 1");
             testRound.Matches.First().Should().BeEquivalentTo(new RoundItem()
             {

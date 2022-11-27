@@ -11,7 +11,7 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
 {
     abstract class BracketLoaderTests
     {
-        private RoundV2[] _testData = null;
+        private Round[] _testData = null;
 
         [OneTimeSetUp]
         public void GetTestData()
@@ -95,6 +95,6 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         }
 
         protected abstract Uri GetEventUri();
-        protected abstract RoundV2[] GetBracket();
+        protected abstract Round[] GetBracket();
     }
 }
