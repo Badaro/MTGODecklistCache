@@ -153,7 +153,7 @@ namespace MTGODecklistCache.Updater.Mtgo
         {
             if (!HasProperty(json, "Brackets")) return null;
 
-            List<RoundV2> result = new List<RoundV2>();
+            List<RoundV2> brackets = new List<RoundV2>();
             foreach (var bracket in json.Brackets)
             {
                 List<RoundItem> matches = new List<RoundItem>();
@@ -190,12 +190,17 @@ namespace MTGODecklistCache.Updater.Mtgo
                 if (matches.Count == 2) roundName = "Semifinals";
                 if (matches.Count == 1) roundName = "Finals";
 
-                result.Add(new RoundV2
+                brackets.Add(new RoundV2
                 {
                     RoundName = roundName,
                     Matches = matches.ToArray()
                 });
             }
+
+            List<RoundV2> result = new List<RoundV2>();
+            result.AddRange(brackets.Where(r => r.RoundName == "Quarterfinals"));
+            result.AddRange(brackets.Where(r => r.RoundName == "Semifinals"));
+            result.AddRange(brackets.Where(r => r.RoundName == "Finals"));
 
             return result.ToArray();
         }

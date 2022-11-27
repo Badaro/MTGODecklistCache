@@ -84,6 +84,17 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             if (_testData != null) _testData.Should().BeEquivalentTo(this.GetBracket());
         }
 
+        [Test]
+        public void BracketRoundsShouldBeInCorrectOrder()
+        {
+            if (_testData != null)
+            {
+                _testData.First().RoundName.Should().Be("Quarterfinals");
+                _testData.Skip(1).First().RoundName.Should().Be("Semifinals");
+                _testData.Skip(2).First().RoundName.Should().Be("Finals");
+            }
+        }
+
         protected abstract Uri GetEventUri();
         protected abstract RoundV2[] GetBracket();
     }
