@@ -59,6 +59,14 @@ namespace MTGODecklistCache.Updater.ManaTraders.Tests
         }
 
         [Test]
+        public void BracketRoundsShouldBeInCorrectOrder()
+        {
+            _testData.First().RoundName.Should().Be("Quarterfinals");
+            _testData.Skip(1).First().RoundName.Should().Be("Semifinals");
+            _testData.Skip(2).First().RoundName.Should().Be("Finals");
+        }
+
+        [Test]
         public void BracketItemsDataIsCorrect()
         {
             _testData.Should().BeEquivalentTo(new RoundV2[]
