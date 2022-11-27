@@ -17,9 +17,9 @@ namespace MTGODecklistCache.Updater.MagicGG
         static string _marker = "window.__NUXT__";
         static string _deckRootPage = "https://s3-us-west-1.amazonaws.com/hvn-decklist.magic.gg/{deckId}.json";
 
-        public static CacheItem GetTournamentDetails(Tournament tournament)
+        public static CacheItemV2 GetTournamentDetails(Tournament tournament)
         {
-            return new CacheItem()
+            return new CacheItemV2()
             {
                 Tournament = tournament,
                 Decks = ParseDecks(tournament.Uri.ToString())
