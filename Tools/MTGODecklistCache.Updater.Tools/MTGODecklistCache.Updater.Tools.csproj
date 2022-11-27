@@ -9,4 +9,8 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -81,9 +81,9 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
         {
             TournamentLoader.GetTournamentDetails(new Tournament()
             {
-                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/pioneer-qualifier-2022-10-0112480040")
+                Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/limited-super-qualifier-2022-09-1112470310")
             }).Decks
-                .First(d => d.Player == "GalaxyXpress")
+                .First(d => d.Player == "chalobisbal")
                 .Mainboard
                 .First(c => c.CardName.StartsWith("Tura")).CardName
                 .Should().Be("Tura Kennerüd, Skyknight");
@@ -122,8 +122,8 @@ namespace MTGODecklistCache.Updater.Mtgo.Tests
             {
                 Uri = new Uri("https://www.mtgo.com/en/mtgo/decklist/strixhaven-championship-limited-qualifier-2021-03-2712277612")
             }).Decks
-                .First(d => d.Player == "JPA93")
-                .Sideboard
+                .First(d => d.Player == "Lifeisrisk7")
+                .Mainboard
                 .First(c => c.CardName.StartsWith("Karfell Kennel")).CardName
                 .Should().NotEndWith(" ") ;
         }

@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 
-namespace MTGODecklistCache.Updater.Mtgo
+namespace MTGODecklistCache.Updater.ManaTraders
 {
     public static class TournamentList
     {

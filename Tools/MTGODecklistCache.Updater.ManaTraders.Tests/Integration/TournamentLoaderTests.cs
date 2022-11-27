@@ -7,7 +7,7 @@ using MTGODecklistCache.Updater.ManaTraders;
 using System.Collections.Generic;
 using System.IO;
 
-namespace MTGODecklistCache.Updater.Mtgo.Tests
+namespace MTGODecklistCache.Updater.ManaTraders.Tests
 {
     public class TournamentLoaderTests
     {

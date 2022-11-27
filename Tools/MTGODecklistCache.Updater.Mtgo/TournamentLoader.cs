@@ -31,19 +31,21 @@ namespace MTGODecklistCache.Updater.Mtgo
 
             var bracket = ParseBracket(json);
             var standing = ParseStanding(json);
-            var order = GetPlayerOrder(bracket, standing);
+            var decks = ParseDecks(tournament, json);
+
+            if(standing!=null && bracket!=null) decks = OrderNormalizer.ReorderDecks(decks, standing, bracket);
 
             return new CacheItem()
             {
                 Bracket = bracket,
                 Standings = standing,
                 Rounds = null,
-                Decks = ParseDecks(tournament, json, order),
+                Decks = decks,
                 Tournament = tournament
             };
         }
 
-        private static Deck[] ParseDecks(Tournament tournament, dynamic json, string[] playerOrder)
+        private static Deck[] ParseDecks(Tournament tournament, dynamic json)
         {
             string eventType = json.event_type;
             DateTime eventDate = json.date;
@@ -65,6 +67,7 @@ namespace MTGODecklistCache.Updater.Mtgo
 
             HashSet<string> addedPlayers = new HashSet<string>();
             var decks = new List<Deck>();
+            int rank = 1;
             foreach (var deck in json.decks)
             {
                 Dictionary<string, int> mainboard = new Dictionary<string, int>();
@@ -92,13 +95,13 @@ namespace MTGODecklistCache.Updater.Mtgo
                 string result = String.Empty;
                 if (eventType == "league") result = "5-0";
                 if (eventType == "tournament" && hasWinloss && playerWinloss.ContainsKey(player)) result = playerWinloss[player];
-                if (eventType == "tournament" && !hasWinloss && playerOrder != null)
+                if (eventType == "tournament" && !hasWinloss)
                 {
-                    int rank = playerOrder.ToList().IndexOf(player) + 1;
                     if (rank == 1) result = "1st Place";
                     if (rank == 2) result = "2nd Place";
                     if (rank == 3) result = "3rd Place";
                     if (rank > 3) result = $"{rank}th Place";
+                    rank++;
                 }
 
                 if (eventType == "tournament" && addedPlayers.Contains(player)) continue;
@@ -113,13 +116,6 @@ namespace MTGODecklistCache.Updater.Mtgo
                     Result = result
                 });
                 addedPlayers.Add(player);
-            }
-
-            if (playerOrder != null)
-            {
-                List<Deck> orderedDecks = new List<Deck>();
-                foreach (var player in playerOrder) orderedDecks.Add(decks.First(d => d.Player == player));
-                decks = orderedDecks;
             }
 
             return decks.ToArray();
@@ -195,42 +191,6 @@ namespace MTGODecklistCache.Updater.Mtgo
                 if (matches.Count == 2) result.Semifinals = matches.ToArray();
                 if (matches.Count == 4) result.Quarterfinals = matches.ToArray();
             }
-
-            return result;
-        }
-
-        private static string[] GetPlayerOrder(Bracket bracket, Standing[] standings)
-        {
-            if (standings == null) return null;
-
-            List<string> result = new List<string>();
-            foreach (var standing in standings) result.Add(standing.Player);
-
-            if (bracket != null)
-            {
-                if (bracket.Quarterfinals != null) result = PushToTop(result, bracket.Quarterfinals.Select(s => s.Player2).ToList(), standings);
-                if (bracket.Semifinals != null) result = PushToTop(result, bracket.Semifinals.Select(s => s.Player2).ToList(), standings);
-                if (bracket.Finals != null) result = PushToTop(result, new List<string>() { bracket.Finals.Player2 }, standings);
-                if (bracket.Finals != null) result = PushToTop(result, new List<string>() { bracket.Finals.Player1 }, standings);
-            }
-
-            return result.Distinct().ToArray();
-        }
-
-        private static List<string> PushToTop(List<string> players, List<string> pushedPlayers, Standing[] standings)
-        {
-            Dictionary<string, int> playerRanks = new Dictionary<string, int>();
-            foreach (var player in pushedPlayers.Where(p => standings.Any(s => s.Player == p)))
-            {
-                var rank = standings.First(s => s.Player == player).Rank;
-                playerRanks.Add(player, rank);
-            }
-
-            string[] remainingPlayers = players.Where(c => !pushedPlayers.Contains(c)).ToArray();
-
-            List<string> result = new List<string>();
-            foreach (var player in playerRanks.OrderBy(p => p.Value)) result.Add(player.Key);
-            foreach (var player in remainingPlayers) result.Add(player);
 
             return result;
         }
