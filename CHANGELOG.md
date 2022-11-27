@@ -24,8 +24,8 @@
 2022-11-15
 
 * channelfireball.com folder moved to Tournament-Archives
-* hunterburtonmemorialopen.com moved to Tournament-Archives
-* labichetournaments moved to Tournament-Archives
+* hunterburtonmemorialopen.com folder moved to Tournament-Archives
+* labichetournaments folder moved to Tournament-Archives
 
 2022-11-21
 
