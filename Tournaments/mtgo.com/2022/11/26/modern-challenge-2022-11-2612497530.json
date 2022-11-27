@@ -4398,52 +4398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Laplasjan",
-        "Player2": "makuto86",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aerien_sol",
-        "Player2": "rooty_tooty",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "YungDingo",
-        "Player2": "tibalt_of_red_sub",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Usama96",
-        "Player2": "Ozymandias17",
-        "Result": "2-1"
-      }
-    ],
-    "LoserSemifinals": null,
-    "Semifinals": [
-      {
-        "Player1": "Laplasjan",
-        "Player2": "YungDingo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aerien_sol",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      }
-    ],
-    "SeventhAndEighthPlace": null,
-    "FifthAndSixthPlace": null,
-    "ThirdAndFourthPlace": null,
-    "Finals": {
-      "Player1": "Aerien_sol",
-      "Player2": "Laplasjan",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Laplasjan",
+          "Player2": "makuto86",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aerien_sol",
+          "Player2": "rooty_tooty",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "YungDingo",
+          "Player2": "tibalt_of_red_sub",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Usama96",
+          "Player2": "Ozymandias17",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Laplasjan",
+          "Player2": "YungDingo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aerien_sol",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Aerien_sol",
+          "Player2": "Laplasjan",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

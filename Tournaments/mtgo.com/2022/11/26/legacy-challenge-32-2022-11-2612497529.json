@@ -4554,52 +4554,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "DNEELEY",
-        "Player2": "grumsh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DNSolver",
-        "Player2": "AlpInco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oceansoul92",
-        "Player2": "Cle0h",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sol-e22558",
-        "Player2": "HanktheObese",
-        "Result": "2-1"
-      }
-    ],
-    "LoserSemifinals": null,
-    "Semifinals": [
-      {
-        "Player1": "DNEELEY",
-        "Player2": "DNSolver",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oceansoul92",
-        "Player2": "Sol-e22558",
-        "Result": "2-1"
-      }
-    ],
-    "SeventhAndEighthPlace": null,
-    "FifthAndSixthPlace": null,
-    "ThirdAndFourthPlace": null,
-    "Finals": {
-      "Player1": "Oceansoul92",
-      "Player2": "DNEELEY",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "DNEELEY",
+          "Player2": "grumsh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DNSolver",
+          "Player2": "AlpInco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "Cle0h",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sol-e22558",
+          "Player2": "HanktheObese",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "DNEELEY",
+          "Player2": "DNSolver",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "Sol-e22558",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "DNEELEY",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

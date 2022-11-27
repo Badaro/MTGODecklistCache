@@ -4274,52 +4274,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Cabezadebolo",
-        "Player2": "VictorCarvalho01",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Yaksic",
-        "Player2": "ThaisM",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yerffej03",
-        "Player2": "JapaneseFisherman",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "j65536d",
-        "Player2": "claudioh",
-        "Result": "2-1"
-      }
-    ],
-    "LoserSemifinals": null,
-    "Semifinals": [
-      {
-        "Player1": "Cabezadebolo",
-        "Player2": "Yaksic",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yerffej03",
-        "Player2": "j65536d",
-        "Result": "2-1"
-      }
-    ],
-    "SeventhAndEighthPlace": null,
-    "FifthAndSixthPlace": null,
-    "ThirdAndFourthPlace": null,
-    "Finals": {
-      "Player1": "Cabezadebolo",
-      "Player2": "yerffej03",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "VictorCarvalho01",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Yaksic",
+          "Player2": "ThaisM",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yerffej03",
+          "Player2": "JapaneseFisherman",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "j65536d",
+          "Player2": "claudioh",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "Yaksic",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yerffej03",
+          "Player2": "j65536d",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "yerffej03",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

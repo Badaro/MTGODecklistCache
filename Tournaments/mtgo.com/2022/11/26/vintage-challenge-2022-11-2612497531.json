@@ -5406,52 +5406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Dan9IN",
-        "Player2": "haveaboavida",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Firetruck",
-        "Player2": "adm29",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TrueHero",
-        "Player2": "42crookedsporks",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lord_Beerus",
-        "Player2": "unluckymonkey",
-        "Result": "2-1"
-      }
-    ],
-    "LoserSemifinals": null,
-    "Semifinals": [
-      {
-        "Player1": "TrueHero",
-        "Player2": "Lord_Beerus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Firetruck",
-        "Player2": "Dan9IN",
-        "Result": "2-0"
-      }
-    ],
-    "SeventhAndEighthPlace": null,
-    "FifthAndSixthPlace": null,
-    "ThirdAndFourthPlace": null,
-    "Finals": {
-      "Player1": "TrueHero",
-      "Player2": "Firetruck",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Dan9IN",
+          "Player2": "haveaboavida",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Firetruck",
+          "Player2": "adm29",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TrueHero",
+          "Player2": "42crookedsporks",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lord_Beerus",
+          "Player2": "unluckymonkey",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TrueHero",
+          "Player2": "Lord_Beerus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Firetruck",
+          "Player2": "Dan9IN",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TrueHero",
+          "Player2": "Firetruck",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

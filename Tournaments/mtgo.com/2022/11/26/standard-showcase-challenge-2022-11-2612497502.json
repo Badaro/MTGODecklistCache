@@ -4006,52 +4006,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kokoko098",
-        "Player2": "Delta_Sanku",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Thalai",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JogandoPelado",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "quinniac",
-        "Result": "2-0"
-      }
-    ],
-    "LoserSemifinals": null,
-    "Semifinals": [
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "Thalai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kokoko098",
-        "Player2": "JogandoPelado",
-        "Result": "2-1"
-      }
-    ],
-    "SeventhAndEighthPlace": null,
-    "FifthAndSixthPlace": null,
-    "ThirdAndFourthPlace": null,
-    "Finals": {
-      "Player1": "Oscar_Franco",
-      "Player2": "kokoko098",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kokoko098",
+          "Player2": "Delta_Sanku",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Thalai",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JogandoPelado",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "quinniac",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "Thalai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kokoko098",
+          "Player2": "JogandoPelado",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "kokoko098",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,
