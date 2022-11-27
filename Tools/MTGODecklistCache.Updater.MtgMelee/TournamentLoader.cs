@@ -23,29 +23,43 @@ namespace MTGODecklistCache.Updater.MtgMelee
 
         public static CacheItem GetTournamentDetails(MtgMeleeTournament tournament)
         {
-            var decks = ParseDecks(tournament.Uri.ToString(), tournament);
+            var data = ParseDecks(tournament.Uri.ToString(), tournament);
 
             // Consolidates matches from deck pages and remove duplicates
-            Dictionary<string, Dictionary<string, RoundItem>> rounds = new Dictionary<string, Dictionary<string, RoundItem>>();
-            foreach (var deck in decks)
+            Dictionary<string, Dictionary<string, RoundItem>> consolidatedRounds = new Dictionary<string, Dictionary<string, RoundItem>>();
+            foreach (var deckData in data)
             {
-                if (deck.Rounds != null)
+                if (deckData.Rounds != null)
                 {
-                    foreach (var round in deck.Rounds)
+                    foreach (var deckRound in deckData.Rounds)
                     {
-                        if (!rounds.ContainsKey(round.RoundName)) rounds.Add(round.RoundName, new Dictionary<string, RoundItem>());
-                        string roundItemKey = $"{round.RoundName}_{round.Matches[0].Player1}_{round.Matches[0].Player2}";
-                        if (!rounds[round.RoundName].ContainsKey(roundItemKey)) rounds[round.RoundName].Add(roundItemKey, round.Matches[0]);
+                        if (!consolidatedRounds.ContainsKey(deckRound.RoundName)) consolidatedRounds.Add(deckRound.RoundName, new Dictionary<string, RoundItem>());
+                        string roundItemKey = $"{deckRound.RoundName}_{deckRound.Matches[0].Player1}_{deckRound.Matches[0].Player2}";
+                        if (!consolidatedRounds[deckRound.RoundName].ContainsKey(roundItemKey)) consolidatedRounds[deckRound.RoundName].Add(roundItemKey, deckRound.Matches[0]);
                     }
                 }
+            }
+
+            var decks = data.Where(d => d.Deck != null).Select(d => d.Deck).ToArray();
+            var standings = data.Where(d => d.Standing != null).Select(d => d.Standing).ToArray();
+            var rounds = consolidatedRounds.Select(r => new Round() { RoundName = r.Key, Matches = r.Value.Select(m => m.Value).ToArray() }).ToArray();
+
+            var bracket = new List<Round>();
+            bracket.AddRange(rounds.Where(r => r.RoundName == "Quarterfinals"));
+            bracket.AddRange(rounds.Where(r => r.RoundName == "Semifinals"));
+            bracket.AddRange(rounds.Where(r => r.RoundName == "Finals"));
+
+            if(bracket.Count() > 0)
+            {
+                decks = OrderNormalizer.ReorderDecks(decks, standings, bracket.ToArray());
             }
 
             return new CacheItem()
             {
                 Tournament = new Tournament(tournament),
-                Decks = decks.Where(d => d.Deck != null).Select(d => d.Deck).ToArray(),
-                Standings = decks.Where(d => d.Standing != null).Select(d => d.Standing).ToArray(),
-                Rounds = rounds.Select(r => new Round() { RoundName = r.Key, Matches = r.Value.Select(m => m.Value).ToArray() }).ToArray()
+                Decks = decks,
+                Standings = standings,
+                Rounds = rounds
             };
         }
 
@@ -311,7 +325,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 };
             }
 
-            if(item==null) throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
+            if (item == null) throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
 
             return new Round
             {
