@@ -1422,48 +1422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sephh",
-        "Player2": "Justador",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "fandenunu",
-        "Player2": "hzk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "tamir1313",
-        "Player2": "Wolftap Boy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "abelusk",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sephh",
-        "Player2": "tamir1313",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "fandenunu",
-        "Player2": "Gul_Dukat",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "fandenunu",
-      "Player2": "Sephh",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sephh",
+          "Player2": "Justador",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "fandenunu",
+          "Player2": "hzk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "tamir1313",
+          "Player2": "Wolftap Boy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "abelusk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sephh",
+          "Player2": "tamir1313",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "fandenunu",
+          "Player2": "Gul_Dukat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "fandenunu",
+          "Player2": "Sephh",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

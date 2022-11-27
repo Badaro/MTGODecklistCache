@@ -4594,48 +4594,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "__BMJ__",
-        "Player2": "MartinMedMitten",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "mmapson125",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "Azerate218",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KelMasterP",
-        "Player2": "travis8427",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "__BMJ__",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KelMasterP",
-        "Player2": "duke12",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Diem4x",
-      "Player2": "KelMasterP",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "__BMJ__",
+          "Player2": "MartinMedMitten",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "mmapson125",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "Azerate218",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KelMasterP",
+          "Player2": "travis8427",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "__BMJ__",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KelMasterP",
+          "Player2": "duke12",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

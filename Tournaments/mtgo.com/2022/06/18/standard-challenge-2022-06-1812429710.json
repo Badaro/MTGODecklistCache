@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "CharlesWang",
-        "Player2": "sick_boy138",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "FerMTG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LucasG1ggs",
-        "Player2": "SoulStrong",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "CharlesWang",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "LucasG1ggs",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lennny",
-      "Player2": "CharlesWang",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "CharlesWang",
+          "Player2": "sick_boy138",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "FerMTG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "SoulStrong",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "CharlesWang",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "LucasG1ggs",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "CharlesWang",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

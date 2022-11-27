@@ -4574,48 +4574,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "stainerson",
-        "Player2": "benchsummer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cherryxman",
-        "Player2": "Finalnub",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pbarrrgh",
-        "Player2": "Brener",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kuhb",
-        "Player2": "shoktroopa",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "pbarrrgh",
-        "Player2": "Cherryxman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "stainerson",
-        "Player2": "Kuhb",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "stainerson",
-      "Player2": "pbarrrgh",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "benchsummer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cherryxman",
+          "Player2": "Finalnub",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pbarrrgh",
+          "Player2": "Brener",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kuhb",
+          "Player2": "shoktroopa",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "pbarrrgh",
+          "Player2": "Cherryxman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "stainerson",
+          "Player2": "Kuhb",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "pbarrrgh",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

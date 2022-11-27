@@ -1394,48 +1394,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Eaglov",
-        "Player2": "Dish",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Lenny_",
-        "Player2": "Katla",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AbramG_MTG_12-3",
-        "Player2": "NoWa1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mrjkl",
-        "Player2": "ScriptKip",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mrjkl",
-        "Player2": "Eaglov",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Lenny_",
-        "Player2": "AbramG_MTG_12-3",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "mrjkl",
-      "Player2": "_Lenny_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "Dish",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Lenny_",
+          "Player2": "Katla",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AbramG_MTG_12-3",
+          "Player2": "NoWa1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mrjkl",
+          "Player2": "ScriptKip",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mrjkl",
+          "Player2": "Eaglov",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Lenny_",
+          "Player2": "AbramG_MTG_12-3",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mrjkl",
+          "Player2": "_Lenny_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

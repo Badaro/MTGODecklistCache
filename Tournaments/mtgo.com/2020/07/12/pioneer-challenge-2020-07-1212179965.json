@@ -3790,48 +3790,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kcomedina",
-        "Player2": "claudioh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "torers",
-        "Player2": "gazmon48",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "qbturtle15",
-        "Player2": "unicornparadise",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "Xwhale",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "qbturtle15",
-        "Player2": "kcomedina",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "torers",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "bolov0",
-      "Player2": "qbturtle15",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kcomedina",
+          "Player2": "claudioh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "torers",
+          "Player2": "gazmon48",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "qbturtle15",
+          "Player2": "unicornparadise",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "Xwhale",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "qbturtle15",
+          "Player2": "kcomedina",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "torers",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

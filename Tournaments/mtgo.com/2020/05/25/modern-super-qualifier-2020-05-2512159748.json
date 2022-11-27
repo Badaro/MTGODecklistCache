@@ -4442,48 +4442,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ArchaeusDota",
-        "Player2": "PredatorStyle",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WhiTe TsaR",
-        "Player2": "B1gDan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "Sanchez5272",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Toastxp",
-        "Player2": "Smok1ngBUDS",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ArchaeusDota",
-        "Player2": "WhiTe TsaR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "Toastxp",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ArchaeusDota",
-      "Player2": "Patxi",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ArchaeusDota",
+          "Player2": "PredatorStyle",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "B1gDan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "Sanchez5272",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Toastxp",
+          "Player2": "Smok1ngBUDS",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ArchaeusDota",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "Toastxp",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ArchaeusDota",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

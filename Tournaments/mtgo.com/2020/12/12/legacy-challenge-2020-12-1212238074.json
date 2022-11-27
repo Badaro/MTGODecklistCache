@@ -4434,48 +4434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ark4n",
-        "Player2": "fluffy21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "EronRelentless",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Baku_91",
-        "Player2": "Shalomas",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanican",
-        "Player2": "Pietrone10",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kanican",
-        "Player2": "Baku_91",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Ark4n",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kanican",
-      "Player2": "JPA93",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "fluffy21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "EronRelentless",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Baku_91",
+          "Player2": "Shalomas",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanican",
+          "Player2": "Pietrone10",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kanican",
+          "Player2": "Baku_91",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kanican",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4346,48 +4346,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "chase00111",
-        "Player2": "Darshik",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bayesta_93",
-        "Player2": "Danny_Bambino",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mistakenn",
-        "Player2": "Putput",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Ditlev_",
-        "Player2": "Smore",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "chase00111",
-        "Player2": "Mistakenn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Ditlev_",
-        "Player2": "Bayesta_93",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Ditlev_",
-      "Player2": "chase00111",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "chase00111",
+          "Player2": "Darshik",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bayesta_93",
+          "Player2": "Danny_Bambino",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mistakenn",
+          "Player2": "Putput",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Ditlev_",
+          "Player2": "Smore",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "chase00111",
+          "Player2": "Mistakenn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Ditlev_",
+          "Player2": "Bayesta_93",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Ditlev_",
+          "Player2": "chase00111",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

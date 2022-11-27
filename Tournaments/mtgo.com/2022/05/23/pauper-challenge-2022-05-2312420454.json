@@ -3690,48 +3690,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Beicodegeia",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jpsn54",
-        "Player2": "Gn42",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "420dragon",
-        "Player2": "Fink64",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "outZEROo",
-        "Player2": "7991ociR",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jpsn54",
-        "Player2": "Beicodegeia",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "outZEROo",
-        "Player2": "420dragon",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Jpsn54",
-      "Player2": "outZEROo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Beicodegeia",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jpsn54",
+          "Player2": "Gn42",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "420dragon",
+          "Player2": "Fink64",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "outZEROo",
+          "Player2": "7991ociR",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jpsn54",
+          "Player2": "Beicodegeia",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "outZEROo",
+          "Player2": "420dragon",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Jpsn54",
+          "Player2": "outZEROo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

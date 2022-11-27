@@ -1402,48 +1402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "nekonekoneko",
-        "Player2": "Boucha",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "asacha",
-        "Player2": "_IlNano_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "Sarlanga",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kom141",
-        "Player2": "Eaglov",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kom141",
-        "Player2": "Beenew",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "asacha",
-        "Player2": "nekonekoneko",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "asacha",
-      "Player2": "kom141",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "nekonekoneko",
+          "Player2": "Boucha",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "asacha",
+          "Player2": "_IlNano_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "Sarlanga",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kom141",
+          "Player2": "Eaglov",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kom141",
+          "Player2": "Beenew",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "asacha",
+          "Player2": "nekonekoneko",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "asacha",
+          "Player2": "kom141",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

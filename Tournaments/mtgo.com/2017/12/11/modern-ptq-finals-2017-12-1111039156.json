@@ -4010,48 +4010,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "reveliam",
-        "Player2": "Twibs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Rooney56",
-        "Player2": "Awesum_Rosum",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oliver_Hart",
-        "Player2": "SPottenger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mylast",
-        "Player2": "Decipio",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oliver_Hart",
-        "Player2": "reveliam",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Rooney56",
-        "Player2": "mylast",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Rooney56",
-      "Player2": "Oliver_Hart",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "reveliam",
+          "Player2": "Twibs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Rooney56",
+          "Player2": "Awesum_Rosum",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oliver_Hart",
+          "Player2": "SPottenger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mylast",
+          "Player2": "Decipio",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oliver_Hart",
+          "Player2": "reveliam",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Rooney56",
+          "Player2": "mylast",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Rooney56",
+          "Player2": "Oliver_Hart",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

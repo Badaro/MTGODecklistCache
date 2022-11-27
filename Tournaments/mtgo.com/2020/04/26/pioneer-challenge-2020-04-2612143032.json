@@ -4038,48 +4038,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Rubberdcuky",
-        "Player2": "talos41",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "napoligas",
-        "Player2": "Mlgb92",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElYallo",
-        "Player2": "Danny_Bambino",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jmulloy",
-        "Player2": "_INF_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jmulloy",
-        "Player2": "ElYallo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rubberdcuky",
-        "Player2": "napoligas",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Rubberdcuky",
-      "Player2": "Jmulloy",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Rubberdcuky",
+          "Player2": "talos41",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "napoligas",
+          "Player2": "Mlgb92",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElYallo",
+          "Player2": "Danny_Bambino",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jmulloy",
+          "Player2": "_INF_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jmulloy",
+          "Player2": "ElYallo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rubberdcuky",
+          "Player2": "napoligas",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Rubberdcuky",
+          "Player2": "Jmulloy",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

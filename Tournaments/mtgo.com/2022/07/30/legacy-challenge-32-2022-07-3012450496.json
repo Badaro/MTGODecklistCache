@@ -4434,48 +4434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Eonwe7",
-        "Player2": "CrusherBotBG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Killabee",
-        "Player2": "LeoFa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tyerube1618",
-        "Player2": "EronRelentless",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Killabee",
-        "Player2": "Eonwe7",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Tyerube1618",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ZYURYO",
-      "Player2": "Killabee",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Eonwe7",
+          "Player2": "CrusherBotBG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Killabee",
+          "Player2": "LeoFa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "EronRelentless",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Killabee",
+          "Player2": "Eonwe7",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Tyerube1618",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Killabee",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

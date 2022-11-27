@@ -4390,48 +4390,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "Beenew",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Didackith",
-        "Player2": "mechint",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "excel0679",
-        "Player2": "mei0024",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LeoFa",
-        "Player2": "Baby",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "LeoFa",
-        "Player2": "Didackith",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "excel0679",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "LeoFa",
-      "Player2": "Diem4x",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "Beenew",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Didackith",
+          "Player2": "mechint",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "excel0679",
+          "Player2": "mei0024",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LeoFa",
+          "Player2": "Baby",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "LeoFa",
+          "Player2": "Didackith",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "excel0679",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "LeoFa",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

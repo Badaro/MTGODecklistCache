@@ -3990,48 +3990,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "fingers1991",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "andrw1232",
-        "Player2": "qbturtle15",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ovmlcabrera",
-        "Player2": "Boland",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "fingers1991",
-        "Player2": "ovmlcabrera",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "andrw1232",
-        "Player2": "claudioh",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "fingers1991",
-      "Player2": "andrw1232",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "fingers1991",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "andrw1232",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ovmlcabrera",
+          "Player2": "Boland",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "fingers1991",
+          "Player2": "ovmlcabrera",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "andrw1232",
+          "Player2": "claudioh",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "fingers1991",
+          "Player2": "andrw1232",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4386,48 +4386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "coert",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MrRaeb",
-        "Player2": "joetru",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "StormQrow",
-        "Player2": "bobthedog",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BananOlaf",
-        "Player2": "Lavaridge",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MrRaeb",
-        "Player2": "BananOlaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "StormQrow",
-        "Player2": "PRGJJAR",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "MrRaeb",
-      "Player2": "StormQrow",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "coert",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MrRaeb",
+          "Player2": "joetru",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "StormQrow",
+          "Player2": "bobthedog",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BananOlaf",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MrRaeb",
+          "Player2": "BananOlaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "StormQrow",
+          "Player2": "PRGJJAR",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MrRaeb",
+          "Player2": "StormQrow",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

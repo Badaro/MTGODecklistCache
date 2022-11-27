@@ -4130,48 +4130,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ichi-roku",
-        "Player2": "The_nayr",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bedell",
-        "Player2": "pedrogush",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kiko",
-        "Player2": "OxyWithMoxy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "otakkun",
-        "Player2": "Rvng",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ichi-roku",
-        "Player2": "otakkun",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kiko",
-        "Player2": "Bedell",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kiko",
-      "Player2": "ichi-roku",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ichi-roku",
+          "Player2": "The_nayr",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bedell",
+          "Player2": "pedrogush",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kiko",
+          "Player2": "OxyWithMoxy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "otakkun",
+          "Player2": "Rvng",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ichi-roku",
+          "Player2": "otakkun",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kiko",
+          "Player2": "Bedell",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kiko",
+          "Player2": "ichi-roku",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

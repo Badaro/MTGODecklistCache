@@ -3598,48 +3598,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Nulyan",
-        "Player2": "DarkestMage",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Future_Trunks",
-        "Player2": "Venom1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Olivetti",
-        "Player2": "rbsmpt",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mezzel",
-        "Player2": "Tommycakes",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Future_Trunks",
-        "Player2": "Nulyan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Olivetti",
-        "Player2": "Mezzel",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Future_Trunks",
-      "Player2": "Olivetti",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Nulyan",
+          "Player2": "DarkestMage",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Future_Trunks",
+          "Player2": "Venom1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Olivetti",
+          "Player2": "rbsmpt",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mezzel",
+          "Player2": "Tommycakes",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Future_Trunks",
+          "Player2": "Nulyan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Olivetti",
+          "Player2": "Mezzel",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Future_Trunks",
+          "Player2": "Olivetti",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

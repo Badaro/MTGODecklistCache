@@ -1378,48 +1378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mariklus86",
-        "Player2": "JeffCunningham",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "BWG",
-        "Player2": "JDreylick",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Habs11",
-        "Player2": "m1cro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Domi-_-",
-        "Player2": "meanfannypack",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mariklus86",
-        "Player2": "Habs11",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "BWG",
-        "Player2": "Domi-_-",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mariklus86",
-      "Player2": "BWG",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mariklus86",
+          "Player2": "JeffCunningham",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "BWG",
+          "Player2": "JDreylick",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Habs11",
+          "Player2": "m1cro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Domi-_-",
+          "Player2": "meanfannypack",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mariklus86",
+          "Player2": "Habs11",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "BWG",
+          "Player2": "Domi-_-",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mariklus86",
+          "Player2": "BWG",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

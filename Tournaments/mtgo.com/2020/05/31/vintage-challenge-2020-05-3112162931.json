@@ -5902,48 +5902,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "thepowernine",
-        "Player2": "leeties",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bryant_Cook",
-        "Player2": "shir kahn",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gernardi",
-        "Player2": "Pun1sher",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Svaca",
-        "Player2": "Amiracle",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Svaca",
-        "Player2": "Gernardi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bryant_Cook",
-        "Player2": "thepowernine",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Bryant_Cook",
-      "Player2": "Svaca",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "thepowernine",
+          "Player2": "leeties",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "shir kahn",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gernardi",
+          "Player2": "Pun1sher",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Svaca",
+          "Player2": "Amiracle",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Svaca",
+          "Player2": "Gernardi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "thepowernine",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "Svaca",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

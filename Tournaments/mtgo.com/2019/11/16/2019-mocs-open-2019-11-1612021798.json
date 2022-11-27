@@ -1298,48 +1298,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TiuTangClan",
-        "Player2": "Selkr",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "captainobv",
-        "Player2": "Gonzo_J",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FilippoK",
-        "Player2": "Xandr",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "C_E.L",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TiuTangClan",
-        "Player2": "FilippoK",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "captainobv",
-        "Player2": "JMM",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "captainobv",
-      "Player2": "TiuTangClan",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TiuTangClan",
+          "Player2": "Selkr",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "captainobv",
+          "Player2": "Gonzo_J",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FilippoK",
+          "Player2": "Xandr",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "C_E.L",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TiuTangClan",
+          "Player2": "FilippoK",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "captainobv",
+          "Player2": "JMM",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "captainobv",
+          "Player2": "TiuTangClan",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

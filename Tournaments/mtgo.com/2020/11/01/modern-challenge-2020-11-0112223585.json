@@ -4650,48 +4650,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "patheus_84",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "HouseOfManaMTG",
-        "Player2": "maxbv",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "shoktroopa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Chefen",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "patheus_84",
-        "Player2": "HouseOfManaMTG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "patheus_84",
-      "Player2": "ZYURYO",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "patheus_84",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "HouseOfManaMTG",
+          "Player2": "maxbv",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "shoktroopa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Chefen",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "patheus_84",
+          "Player2": "HouseOfManaMTG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "patheus_84",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

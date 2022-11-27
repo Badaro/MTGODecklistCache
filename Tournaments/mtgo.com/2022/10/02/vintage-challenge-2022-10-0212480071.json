@@ -5522,48 +5522,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Vertyx_",
-        "Player2": "dancingjesus191",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Miharu_Fuyumiya",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "grumsh",
-        "Player2": "grymn",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GGoggles",
-        "Player2": "_Milhouse",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Dazai",
-        "Player2": "Vertyx_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GGoggles",
-        "Player2": "grumsh",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "GGoggles",
-      "Player2": "Dazai",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Vertyx_",
+          "Player2": "dancingjesus191",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Miharu_Fuyumiya",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "grumsh",
+          "Player2": "grymn",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GGoggles",
+          "Player2": "_Milhouse",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "Vertyx_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GGoggles",
+          "Player2": "grumsh",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GGoggles",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

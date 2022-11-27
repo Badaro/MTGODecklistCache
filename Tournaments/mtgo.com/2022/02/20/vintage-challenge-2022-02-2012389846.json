@@ -5826,48 +5826,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ReneRandrup",
-        "Player2": "Clone9",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "TeamLeaderNA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "grumsh",
-        "Player2": "Murkyblack11",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sixmp",
-        "Player2": "L4rss0n",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ReneRandrup",
-        "Player2": "discoverN",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "grumsh",
-        "Player2": "sixmp",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "grumsh",
-      "Player2": "ReneRandrup",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ReneRandrup",
+          "Player2": "Clone9",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "TeamLeaderNA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "grumsh",
+          "Player2": "Murkyblack11",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sixmp",
+          "Player2": "L4rss0n",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ReneRandrup",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "grumsh",
+          "Player2": "sixmp",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "grumsh",
+          "Player2": "ReneRandrup",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

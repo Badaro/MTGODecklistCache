@@ -3866,48 +3866,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ACG88",
-        "Player2": "kbr3",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Crywolf102190",
-        "Player2": "sandydogmtg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_EzMud1",
-        "Player2": "BBD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Avignon",
-        "Player2": "nola_gold",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Avignon",
-        "Player2": "ACG88",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_EzMud1",
-        "Player2": "Crywolf102190",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Avignon",
-      "Player2": "_EzMud1",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ACG88",
+          "Player2": "kbr3",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Crywolf102190",
+          "Player2": "sandydogmtg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_EzMud1",
+          "Player2": "BBD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Avignon",
+          "Player2": "nola_gold",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Avignon",
+          "Player2": "ACG88",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_EzMud1",
+          "Player2": "Crywolf102190",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Avignon",
+          "Player2": "_EzMud1",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

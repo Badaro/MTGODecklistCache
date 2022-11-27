@@ -5722,48 +5722,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Fnoop",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "sandydogmtg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Slasher21",
-        "Player2": "coe205",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "WadeB",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "Fnoop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Slasher21",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Phill_Hellmuth",
-      "Player2": "Slasher21",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Fnoop",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "sandydogmtg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Slasher21",
+          "Player2": "coe205",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "WadeB",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "Fnoop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Slasher21",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "Slasher21",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3550,48 +3550,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kasa",
-        "Player2": "Sti",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PauloCabral_Br",
-        "Player2": "xfile",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hockeybro26",
-        "Player2": "Leobertucci",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FerMTG",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PauloCabral_Br",
-        "Player2": "kasa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FerMTG",
-        "Player2": "hockeybro26",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "PauloCabral_Br",
-      "Player2": "FerMTG",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "Sti",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PauloCabral_Br",
+          "Player2": "xfile",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hockeybro26",
+          "Player2": "Leobertucci",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FerMTG",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PauloCabral_Br",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FerMTG",
+          "Player2": "hockeybro26",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "PauloCabral_Br",
+          "Player2": "FerMTG",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

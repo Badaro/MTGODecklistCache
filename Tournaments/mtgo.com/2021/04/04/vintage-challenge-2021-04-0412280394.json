@@ -5570,48 +5570,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "WhiTe TsaR",
-        "Player2": "brianpk80",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "Aylett",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LeoFa",
-        "Player2": "_INF_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Slasher21",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mogged",
-        "Player2": "WhiTe TsaR",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LeoFa",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mogged",
-      "Player2": "LeoFa",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "brianpk80",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "Aylett",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LeoFa",
+          "Player2": "_INF_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Slasher21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LeoFa",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "LeoFa",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

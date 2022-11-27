@@ -3178,48 +3178,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Bertram",
-        "Player2": "Tutuzinho",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "__forge__",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "albertoSD",
-        "Player2": "ChezChelios",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JakeHelms",
-        "Player2": "yamakiller",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Bertram",
-        "Player2": "albertoSD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "JakeHelms",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "D00mwake",
-      "Player2": "Bertram",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Bertram",
+          "Player2": "Tutuzinho",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "__forge__",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "albertoSD",
+          "Player2": "ChezChelios",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JakeHelms",
+          "Player2": "yamakiller",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Bertram",
+          "Player2": "albertoSD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "JakeHelms",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "D00mwake",
+          "Player2": "Bertram",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3646,48 +3646,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PauloCabral_Br",
-        "Player2": "Backoff",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Le-cookie",
-        "Player2": "Nulyan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "jupiterbrando",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sarlanga",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PauloCabral_Br",
-        "Player2": "Sarlanga",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "Le-cookie",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "PauloCabral_Br",
-      "Player2": "Edel",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PauloCabral_Br",
+          "Player2": "Backoff",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Le-cookie",
+          "Player2": "Nulyan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "jupiterbrando",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sarlanga",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PauloCabral_Br",
+          "Player2": "Sarlanga",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "Le-cookie",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "PauloCabral_Br",
+          "Player2": "Edel",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

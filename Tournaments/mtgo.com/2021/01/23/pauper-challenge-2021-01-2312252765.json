@@ -3590,48 +3590,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "msskinbolic",
-        "Player2": "Lavaridge",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "zanoza",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "JoaoPurga",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Sarlanga",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hampuse1",
-        "Player2": "Hamuda",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "msskinbolic",
-        "Player2": "kasa",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hampuse1",
-      "Player2": "msskinbolic",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "msskinbolic",
+          "Player2": "Lavaridge",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "zanoza",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "JoaoPurga",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Sarlanga",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hampuse1",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "msskinbolic",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hampuse1",
+          "Player2": "msskinbolic",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

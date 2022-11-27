@@ -4154,48 +4154,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "azatoyellow",
-        "Player2": "SoulStrong",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "Sorento04",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "FerMTG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "coffeannan",
-        "Player2": "FleshEatinGnome",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mogged",
-        "Player2": "coffeannan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "azatoyellow",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mogged",
-      "Player2": "Lennny",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "azatoyellow",
+          "Player2": "SoulStrong",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "Sorento04",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "FerMTG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "coffeannan",
+          "Player2": "FleshEatinGnome",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "coffeannan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "azatoyellow",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

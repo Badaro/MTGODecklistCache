@@ -1386,48 +1386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "trader08111",
-        "Player2": "millennium9999",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Timr0d",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Eaglov",
-        "Player2": "Thali22",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TwistedWombat",
-        "Player2": "Ahvena",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "trader08111",
-        "Player2": "Eaglov",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Timr0d",
-        "Player2": "TwistedWombat",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "trader08111",
-      "Player2": "Timr0d",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "trader08111",
+          "Player2": "millennium9999",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Timr0d",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Eaglov",
+          "Player2": "Thali22",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TwistedWombat",
+          "Player2": "Ahvena",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "trader08111",
+          "Player2": "Eaglov",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Timr0d",
+          "Player2": "TwistedWombat",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "trader08111",
+          "Player2": "Timr0d",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3474,48 +3474,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Tia93_",
-        "Player2": "Poyo_del_Mal",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LuckyinUnlucky",
-        "Player2": "marolanzi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ruin000",
-        "Player2": "jbtwist",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bielzito",
-        "Player2": "kasa",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Tia93_",
-        "Player2": "Bielzito",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ruin000",
-        "Player2": "LuckyinUnlucky",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Tia93_",
-      "Player2": "ruin000",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Tia93_",
+          "Player2": "Poyo_del_Mal",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LuckyinUnlucky",
+          "Player2": "marolanzi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ruin000",
+          "Player2": "jbtwist",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bielzito",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Tia93_",
+          "Player2": "Bielzito",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ruin000",
+          "Player2": "LuckyinUnlucky",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Tia93_",
+          "Player2": "ruin000",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

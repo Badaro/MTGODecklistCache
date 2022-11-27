@@ -3778,48 +3778,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GGman",
-        "Player2": "Knazpa",
-        "Result": "1-1"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "navi_stabber",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SteB",
-        "Player2": "PoteetMTG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "kol4na",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mathonical",
-        "Player2": "Knazpa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SteB",
-        "Player2": "nathansteuer",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mathonical",
-      "Player2": "SteB",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GGman",
+          "Player2": "Knazpa",
+          "Result": "1-1-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "navi_stabber",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SteB",
+          "Player2": "PoteetMTG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "kol4na",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "Knazpa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SteB",
+          "Player2": "nathansteuer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "SteB",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

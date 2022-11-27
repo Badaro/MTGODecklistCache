@@ -5678,48 +5678,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sprouts",
-        "Player2": "Cuikui",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Miharu_Fuyumiya",
-        "Player2": "Dazai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "Enrichetta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "notmi",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "Miharu_Fuyumiya",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sprouts",
-        "Player2": "notmi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "MaxMagicer",
-      "Player2": "Sprouts",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sprouts",
+          "Player2": "Cuikui",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Miharu_Fuyumiya",
+          "Player2": "Dazai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Enrichetta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "notmi",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Miharu_Fuyumiya",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sprouts",
+          "Player2": "notmi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Sprouts",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

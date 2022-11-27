@@ -3386,48 +3386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Chugun",
-        "Player2": "firstshot",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Shatun_",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nahnahe1",
-        "Player2": "BasedCloy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pproteus",
-        "Player2": "rusty_gates",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Shatun_",
-        "Player2": "pproteus",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nahnahe1",
-        "Player2": "Chugun",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Shatun_",
-      "Player2": "nahnahe1",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Chugun",
+          "Player2": "firstshot",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Shatun_",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nahnahe1",
+          "Player2": "BasedCloy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pproteus",
+          "Player2": "rusty_gates",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Shatun_",
+          "Player2": "pproteus",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nahnahe1",
+          "Player2": "Chugun",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Shatun_",
+          "Player2": "nahnahe1",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

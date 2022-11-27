@@ -3466,48 +3466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "frigley",
-        "Player2": "Mezzel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Murk",
-        "Player2": "arucki",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "Hellsau",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pproteus",
-        "Player2": "knightcomplex",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "pproteus",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Murk",
-        "Player2": "frigley",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Murk",
-      "Player2": "pproteus",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "frigley",
+          "Player2": "Mezzel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Murk",
+          "Player2": "arucki",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "Hellsau",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pproteus",
+          "Player2": "knightcomplex",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "pproteus",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Murk",
+          "Player2": "frigley",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Murk",
+          "Player2": "pproteus",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4094,48 +4094,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Erik157751",
-        "Player2": "trunks132",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "coe205",
-        "Player2": "D00mwake",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Wisnia",
-        "Player2": "SuperCow12653",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "TheBigMoke",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Wisnia",
-        "Player2": "Erik157751",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "coe205",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Wisnia",
-      "Player2": "Laplasjan",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Erik157751",
+          "Player2": "trunks132",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "coe205",
+          "Player2": "D00mwake",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Wisnia",
+          "Player2": "SuperCow12653",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "TheBigMoke",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Wisnia",
+          "Player2": "Erik157751",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "coe205",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Wisnia",
+          "Player2": "Laplasjan",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

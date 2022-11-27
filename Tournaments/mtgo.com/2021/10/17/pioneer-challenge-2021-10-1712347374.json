@@ -3998,48 +3998,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Harry13",
-        "Player2": "Smradd",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "BERNASTORRES",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "coco7721",
-        "Player2": "frankwill14",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "Ladon",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "coco7721",
-        "Player2": "Darthkid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Harry13",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "coco7721",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Harry13",
+          "Player2": "Smradd",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "BERNASTORRES",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "coco7721",
+          "Player2": "frankwill14",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "Ladon",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "coco7721",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Harry13",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "coco7721",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

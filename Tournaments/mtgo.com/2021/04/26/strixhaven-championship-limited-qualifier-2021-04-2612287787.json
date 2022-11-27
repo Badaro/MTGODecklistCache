@@ -1410,48 +1410,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kaies",
-        "Player2": "PsyK0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aegisaziz",
-        "Player2": "Bedell",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "Kirblinxy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LouisB",
-        "Player2": "nekonekoneko",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kaies",
-        "Player2": "Aegisaziz",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "LouisB",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Phill_Hellmuth",
-      "Player2": "Kaies",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kaies",
+          "Player2": "PsyK0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aegisaziz",
+          "Player2": "Bedell",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "Kirblinxy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LouisB",
+          "Player2": "nekonekoneko",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kaies",
+          "Player2": "Aegisaziz",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "LouisB",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "Kaies",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

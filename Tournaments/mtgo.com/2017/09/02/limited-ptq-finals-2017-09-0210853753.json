@@ -1402,48 +1402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JouNick",
-        "Player2": "_Holzi_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "oarsman",
-        "Player2": "basilnabi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "-Fish",
-        "Player2": "ziguyan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sonso JF",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "-Fish",
-        "Player2": "Sonso JF",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "oarsman",
-        "Player2": "JouNick",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "-Fish",
-      "Player2": "oarsman",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JouNick",
+          "Player2": "_Holzi_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "oarsman",
+          "Player2": "basilnabi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "-Fish",
+          "Player2": "ziguyan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sonso JF",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "-Fish",
+          "Player2": "Sonso JF",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "oarsman",
+          "Player2": "JouNick",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "-Fish",
+          "Player2": "oarsman",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

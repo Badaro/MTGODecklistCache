@@ -4402,48 +4402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TrueHero",
-        "Player2": "Antarctica",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Capriccioso",
-        "Player2": "SteFaNoGs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kurohiren",
-        "Player2": "JPA93",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "Ozymandias17",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kurohiren",
-        "Player2": "TrueHero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "Capriccioso",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Beenew",
-      "Player2": "kurohiren",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TrueHero",
+          "Player2": "Antarctica",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Capriccioso",
+          "Player2": "SteFaNoGs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kurohiren",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "Ozymandias17",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kurohiren",
+          "Player2": "TrueHero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "Capriccioso",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Beenew",
+          "Player2": "kurohiren",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1354,48 +1354,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "BurningSands",
-        "Player2": "asura4",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "zlyf13",
-        "Player2": "chiralane",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Celldweller",
-        "Player2": "Cenalan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xandr",
-        "Player2": "Wati",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xandr",
-        "Player2": "zlyf13",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Celldweller",
-        "Player2": "BurningSands",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Celldweller",
-      "Player2": "Xandr",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "BurningSands",
+          "Player2": "asura4",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "zlyf13",
+          "Player2": "chiralane",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Celldweller",
+          "Player2": "Cenalan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xandr",
+          "Player2": "Wati",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xandr",
+          "Player2": "zlyf13",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Celldweller",
+          "Player2": "BurningSands",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Celldweller",
+          "Player2": "Xandr",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4058,48 +4058,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Pulskas",
-        "Player2": "Boin",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hogpog_98",
-        "Player2": "MagicDevil666",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tulio_Jaudy",
-        "Player2": "unagieel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Fastfake",
-        "Player2": "Nebula.",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Pulskas",
-        "Player2": "hogpog_98",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tulio_Jaudy",
-        "Player2": "Fastfake",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Tulio_Jaudy",
-      "Player2": "Pulskas",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Pulskas",
+          "Player2": "Boin",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hogpog_98",
+          "Player2": "MagicDevil666",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tulio_Jaudy",
+          "Player2": "unagieel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Fastfake",
+          "Player2": "Nebula.",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Pulskas",
+          "Player2": "hogpog_98",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tulio_Jaudy",
+          "Player2": "Fastfake",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Tulio_Jaudy",
+          "Player2": "Pulskas",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

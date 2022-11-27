@@ -4422,48 +4422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mgoetze",
-        "Player2": "Caleb_Yetman",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thommimp",
-        "Player2": "Sanitoeter",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Evolto",
-        "Player2": "The_nayr",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TheBigMoke",
-        "Player2": "scipios",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mgoetze",
-        "Player2": "Evolto",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thommimp",
-        "Player2": "TheBigMoke",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Thommimp",
-      "Player2": "mgoetze",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mgoetze",
+          "Player2": "Caleb_Yetman",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thommimp",
+          "Player2": "Sanitoeter",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Evolto",
+          "Player2": "The_nayr",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TheBigMoke",
+          "Player2": "scipios",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mgoetze",
+          "Player2": "Evolto",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thommimp",
+          "Player2": "TheBigMoke",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Thommimp",
+          "Player2": "mgoetze",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

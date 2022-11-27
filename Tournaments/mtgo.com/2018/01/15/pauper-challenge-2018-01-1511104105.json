@@ -3530,48 +3530,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "m0torhead",
-        "Player2": "billster47",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mandark",
-        "Player2": "Chippystick",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "BeakerDan",
-        "Player2": "Valorj",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NMurray95",
-        "Player2": "j_money10",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mandark",
-        "Player2": "m0torhead",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BeakerDan",
-        "Player2": "NMurray95",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "BeakerDan",
-      "Player2": "Mandark",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "m0torhead",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mandark",
+          "Player2": "Chippystick",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "BeakerDan",
+          "Player2": "Valorj",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NMurray95",
+          "Player2": "j_money10",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mandark",
+          "Player2": "m0torhead",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BeakerDan",
+          "Player2": "NMurray95",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "BeakerDan",
+          "Player2": "Mandark",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

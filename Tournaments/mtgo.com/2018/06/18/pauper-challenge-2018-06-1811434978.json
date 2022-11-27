@@ -3418,48 +3418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "pokerswizard",
-        "Player2": "pproteus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Swindy",
-        "Player2": "Unknowless",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nulyan",
-        "Player2": "420dragon",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "lollerstank",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Swindy",
-        "Player2": "Nulyan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "pokerswizard",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Venom1",
-      "Player2": "Swindy",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "pokerswizard",
+          "Player2": "pproteus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Swindy",
+          "Player2": "Unknowless",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nulyan",
+          "Player2": "420dragon",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "lollerstank",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Swindy",
+          "Player2": "Nulyan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "pokerswizard",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Swindy",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

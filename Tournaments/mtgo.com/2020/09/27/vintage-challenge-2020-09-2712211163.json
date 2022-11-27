@@ -5622,48 +5622,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "1yo2yo",
-        "Player2": "Clockwork Dean",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Boin",
-        "Player2": "burrarun",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "wambocombo2020",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ger5559",
-        "Player2": "PRGJJAR",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "1yo2yo",
-        "Player2": "ger5559",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "Boin",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "discoverN",
-      "Player2": "1yo2yo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "1yo2yo",
+          "Player2": "Clockwork Dean",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Boin",
+          "Player2": "burrarun",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "wambocombo2020",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ger5559",
+          "Player2": "PRGJJAR",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "1yo2yo",
+          "Player2": "ger5559",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "Boin",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "discoverN",
+          "Player2": "1yo2yo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

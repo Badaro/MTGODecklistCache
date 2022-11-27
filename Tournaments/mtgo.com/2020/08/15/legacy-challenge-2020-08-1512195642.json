@@ -4414,48 +4414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TERANO",
-        "Player2": "musasabi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LeoFa",
-        "Player2": "samus_ssp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "excel0679",
-        "Player2": "silviawataru",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Graciasportanto",
-        "Player2": "audio336",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "excel0679",
-        "Player2": "Graciasportanto",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TERANO",
-        "Player2": "LeoFa",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "TERANO",
-      "Player2": "excel0679",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TERANO",
+          "Player2": "musasabi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LeoFa",
+          "Player2": "samus_ssp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "excel0679",
+          "Player2": "silviawataru",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Graciasportanto",
+          "Player2": "audio336",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "excel0679",
+          "Player2": "Graciasportanto",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TERANO",
+          "Player2": "LeoFa",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TERANO",
+          "Player2": "excel0679",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1314,48 +1314,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "7720",
-        "Player2": "__Noob__",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lavaridge",
-        "Player2": "Full_Grown_Baby",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "floatius",
-        "Player2": "Veveil",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "eli12",
-        "Player2": "Jpsn54",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "eli12",
-        "Player2": "floatius",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "7720",
-        "Player2": "Lavaridge",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "7720",
-      "Player2": "eli12",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "7720",
+          "Player2": "__Noob__",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lavaridge",
+          "Player2": "Full_Grown_Baby",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "floatius",
+          "Player2": "Veveil",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "eli12",
+          "Player2": "Jpsn54",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "eli12",
+          "Player2": "floatius",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "7720",
+          "Player2": "Lavaridge",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "7720",
+          "Player2": "eli12",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

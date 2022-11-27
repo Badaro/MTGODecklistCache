@@ -4566,48 +4566,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Cosmic_Sans",
-        "Player2": "Cachorrowo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SknerusMcKwacz",
-        "Player2": "Rvng",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Rulleboren",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CharLy",
-        "Player2": "Tezzey",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kasa",
-        "Player2": "Cosmic_Sans",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CharLy",
-        "Player2": "SknerusMcKwacz",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "CharLy",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Cosmic_Sans",
+          "Player2": "Cachorrowo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SknerusMcKwacz",
+          "Player2": "Rvng",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Rulleboren",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CharLy",
+          "Player2": "Tezzey",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "Cosmic_Sans",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CharLy",
+          "Player2": "SknerusMcKwacz",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "CharLy",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

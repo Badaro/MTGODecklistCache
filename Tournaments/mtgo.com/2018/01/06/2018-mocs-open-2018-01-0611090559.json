@@ -1386,48 +1386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "keinebeine",
-        "Player2": "JBarbour",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sephh",
-        "Player2": "nasilemak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "xXGimmliXx",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "dweebdog",
-        "Player2": "drcheez",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sephh",
-        "Player2": "dweebdog",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "keinebeine",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "JMM",
-      "Player2": "Sephh",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "keinebeine",
+          "Player2": "JBarbour",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sephh",
+          "Player2": "nasilemak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "xXGimmliXx",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "dweebdog",
+          "Player2": "drcheez",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sephh",
+          "Player2": "dweebdog",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "keinebeine",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JMM",
+          "Player2": "Sephh",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

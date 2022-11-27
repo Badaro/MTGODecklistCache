@@ -4158,48 +4158,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Laplasjan",
-        "Player2": "Phizzle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "CharLy",
-        "Player2": "lokman120",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JakeMondello",
-        "Player2": "_kg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ra_Po",
-        "Player2": "DaniMRebel",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "CharLy",
-        "Player2": "Laplasjan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ra_Po",
-        "Player2": "JakeMondello",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "CharLy",
-      "Player2": "Ra_Po",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Laplasjan",
+          "Player2": "Phizzle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "CharLy",
+          "Player2": "lokman120",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JakeMondello",
+          "Player2": "_kg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ra_Po",
+          "Player2": "DaniMRebel",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "CharLy",
+          "Player2": "Laplasjan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ra_Po",
+          "Player2": "JakeMondello",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "CharLy",
+          "Player2": "Ra_Po",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

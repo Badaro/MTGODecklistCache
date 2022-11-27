@@ -4234,48 +4234,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "qbturtle15",
-        "Player2": "mariogomes097",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Logic_",
-        "Player2": "yume-mana",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kuhb",
-        "Player2": "CitrusD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "azax",
-        "Player2": "mRichi",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kuhb",
-        "Player2": "qbturtle15",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Logic_",
-        "Player2": "azax",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Logic_",
-      "Player2": "Kuhb",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "qbturtle15",
+          "Player2": "mariogomes097",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Logic_",
+          "Player2": "yume-mana",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kuhb",
+          "Player2": "CitrusD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "azax",
+          "Player2": "mRichi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kuhb",
+          "Player2": "qbturtle15",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Logic_",
+          "Player2": "azax",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Logic_",
+          "Player2": "Kuhb",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

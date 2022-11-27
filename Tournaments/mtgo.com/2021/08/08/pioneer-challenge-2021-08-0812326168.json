@@ -4218,48 +4218,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "O_danielakos",
-        "Player2": "manjyui",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "kvza",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "Harry13",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "AliEnWaRe_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Chefen",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "Xerk",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Chefen",
-      "Player2": "O_danielakos",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "O_danielakos",
+          "Player2": "manjyui",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "kvza",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "Harry13",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "AliEnWaRe_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Chefen",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "Xerk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Chefen",
+          "Player2": "O_danielakos",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4486,48 +4486,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "billsive",
-        "Player2": "BERNASTORRES",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Stream",
-        "Player2": "vixyp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HotBread",
-        "Player2": "Oscar_Franco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Fayrawks",
-        "Player2": "cftsoc3",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Fayrawks",
-        "Player2": "HotBread",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Stream",
-        "Player2": "billsive",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Stream",
-      "Player2": "Fayrawks",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "BERNASTORRES",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Stream",
+          "Player2": "vixyp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HotBread",
+          "Player2": "Oscar_Franco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Fayrawks",
+          "Player2": "cftsoc3",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Fayrawks",
+          "Player2": "HotBread",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Stream",
+          "Player2": "billsive",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Stream",
+          "Player2": "Fayrawks",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

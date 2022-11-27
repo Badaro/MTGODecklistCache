@@ -3890,48 +3890,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "John1111",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "mlovbo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ManuGodineau",
-        "Player2": "saidin.raken",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GutoCmtt",
-        "Player2": "Heisen01",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "GutoCmtt",
-        "Player2": "ManuGodineau",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "John1111",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "GutoCmtt",
-      "Player2": "John1111",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "John1111",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "mlovbo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ManuGodineau",
+          "Player2": "saidin.raken",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GutoCmtt",
+          "Player2": "Heisen01",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "GutoCmtt",
+          "Player2": "ManuGodineau",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "John1111",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GutoCmtt",
+          "Player2": "John1111",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

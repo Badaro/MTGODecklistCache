@@ -3926,48 +3926,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TopGrinder",
-        "Player2": "bnpbnp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "oldmac",
-        "Player2": "Treno",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "Oceansoul92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Walker735",
-        "Player2": "rEPTILIUM_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "oldmac",
-        "Player2": "Walker735",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "TopGrinder",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "SanPop",
-      "Player2": "oldmac",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TopGrinder",
+          "Player2": "bnpbnp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "oldmac",
+          "Player2": "Treno",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "Oceansoul92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Walker735",
+          "Player2": "rEPTILIUM_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "oldmac",
+          "Player2": "Walker735",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "TopGrinder",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SanPop",
+          "Player2": "oldmac",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

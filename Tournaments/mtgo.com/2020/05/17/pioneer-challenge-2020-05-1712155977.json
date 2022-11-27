@@ -4074,48 +4074,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "Mlgb92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JapaneseFisherman",
-        "Player2": "xfile",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Pupsta",
-        "Player2": "zildjian88",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "shadow_PT",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "Pupsta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "JapaneseFisherman",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Jaberwocki",
-      "Player2": "Xerk",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Mlgb92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JapaneseFisherman",
+          "Player2": "xfile",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Pupsta",
+          "Player2": "zildjian88",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "shadow_PT",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "Pupsta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "JapaneseFisherman",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "Xerk",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1346,48 +1346,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Rhianne",
-        "Player2": "rizer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cherubino",
-        "Player2": "orantspro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SakeIzumo",
-        "Player2": "Samgrade",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rooney56",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Rooney56",
-        "Player2": "Rhianne",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cherubino",
-        "Player2": "SakeIzumo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Rooney56",
-      "Player2": "cherubino",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Rhianne",
+          "Player2": "rizer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cherubino",
+          "Player2": "orantspro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SakeIzumo",
+          "Player2": "Samgrade",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rooney56",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Rooney56",
+          "Player2": "Rhianne",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cherubino",
+          "Player2": "SakeIzumo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Rooney56",
+          "Player2": "cherubino",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

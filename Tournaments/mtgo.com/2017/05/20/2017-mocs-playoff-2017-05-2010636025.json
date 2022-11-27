@@ -3710,48 +3710,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Naemen",
-        "Player2": "jstihle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Butakov",
-        "Player2": "Tricey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bobcards2",
-        "Player2": "S4mmich",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "ArcaCrema",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bobcards2",
-        "Player2": "Jaberwocki",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Butakov",
-        "Player2": "Naemen",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "bobcards2",
-      "Player2": "Butakov",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Naemen",
+          "Player2": "jstihle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Butakov",
+          "Player2": "Tricey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bobcards2",
+          "Player2": "S4mmich",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "ArcaCrema",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bobcards2",
+          "Player2": "Jaberwocki",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Butakov",
+          "Player2": "Naemen",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bobcards2",
+          "Player2": "Butakov",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

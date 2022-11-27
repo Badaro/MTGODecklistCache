@@ -4170,48 +4170,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "unagieel",
-        "Player2": "kolbej",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mchlpp",
-        "Player2": "Laplasjan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "paucr5",
-        "Player2": "Benkill",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MrRaeb",
-        "Player2": "Xerk",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MrRaeb",
-        "Player2": "mchlpp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "paucr5",
-        "Player2": "unagieel",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MrRaeb",
-      "Player2": "paucr5",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "unagieel",
+          "Player2": "kolbej",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mchlpp",
+          "Player2": "Laplasjan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "paucr5",
+          "Player2": "Benkill",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MrRaeb",
+          "Player2": "Xerk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MrRaeb",
+          "Player2": "mchlpp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "paucr5",
+          "Player2": "unagieel",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MrRaeb",
+          "Player2": "paucr5",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

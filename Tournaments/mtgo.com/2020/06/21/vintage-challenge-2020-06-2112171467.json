@@ -5946,48 +5946,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "NVitral",
-        "Player2": "SingPanMan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lenka",
-        "Player2": "AnziD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LORiWWA",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "noprops",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "NVitral",
-        "Player2": "LORiWWA",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Lenka",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Dazai",
-      "Player2": "NVitral",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "NVitral",
+          "Player2": "SingPanMan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lenka",
+          "Player2": "AnziD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LORiWWA",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "noprops",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "NVitral",
+          "Player2": "LORiWWA",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Lenka",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "NVitral",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

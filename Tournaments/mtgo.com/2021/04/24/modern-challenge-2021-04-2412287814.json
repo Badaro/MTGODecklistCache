@@ -4198,48 +4198,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "hoveydw",
-        "Player2": "GideonRavensword",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bobthedog",
-        "Player2": "djbmppwns",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "toondoslav",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Olioolli",
-        "Player2": "Chanzito",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "hoveydw",
-        "Player2": "bobthedog",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "Olioolli",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "hoveydw",
-      "Player2": "Darthkid",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "hoveydw",
+          "Player2": "GideonRavensword",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bobthedog",
+          "Player2": "djbmppwns",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "toondoslav",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Olioolli",
+          "Player2": "Chanzito",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "hoveydw",
+          "Player2": "bobthedog",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "Olioolli",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "hoveydw",
+          "Player2": "Darthkid",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

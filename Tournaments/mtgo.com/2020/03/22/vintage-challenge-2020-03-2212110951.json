@@ -5958,48 +5958,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Svaca",
-        "Player2": "reiderrabbit",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "gnorilgrande",
-        "Player2": "Pun1sher",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Alpha_Omega",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "keiesu",
-        "Player2": "Montolio",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Alpha_Omega",
-        "Player2": "keiesu",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Svaca",
-        "Player2": "gnorilgrande",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Alpha_Omega",
-      "Player2": "Svaca",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Svaca",
+          "Player2": "reiderrabbit",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "gnorilgrande",
+          "Player2": "Pun1sher",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Alpha_Omega",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "keiesu",
+          "Player2": "Montolio",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Alpha_Omega",
+          "Player2": "keiesu",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Svaca",
+          "Player2": "gnorilgrande",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Alpha_Omega",
+          "Player2": "Svaca",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

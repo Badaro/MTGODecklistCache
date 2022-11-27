@@ -4198,48 +4198,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gitaxian11",
-        "Player2": "Valorj",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "9slinger",
-        "Player2": "Fruechtemann",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nk20",
-        "Player2": "Zeekery",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thefan",
-        "Player2": "Elnitzo",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "nk20",
-        "Player2": "Thefan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gitaxian11",
-        "Player2": "9slinger",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gitaxian11",
-      "Player2": "nk20",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gitaxian11",
+          "Player2": "Valorj",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "9slinger",
+          "Player2": "Fruechtemann",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nk20",
+          "Player2": "Zeekery",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thefan",
+          "Player2": "Elnitzo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "nk20",
+          "Player2": "Thefan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gitaxian11",
+          "Player2": "9slinger",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gitaxian11",
+          "Player2": "nk20",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

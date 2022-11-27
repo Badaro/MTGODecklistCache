@@ -4442,48 +4442,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "musasabi",
-        "Player2": "Damgar",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Earlder1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Carroz",
-        "Player2": "pokerswizard",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lord_Beerus",
-        "Player2": "mikeray4",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Carroz",
-        "Player2": "Lord_Beerus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "musasabi",
-      "Player2": "Carroz",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "Damgar",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Earlder1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Carroz",
+          "Player2": "pokerswizard",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lord_Beerus",
+          "Player2": "mikeray4",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Carroz",
+          "Player2": "Lord_Beerus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "Carroz",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4050,48 +4050,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kohei1202",
-        "Player2": "luke8232",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "fingers1991",
-        "Player2": "10thDegree",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ladon",
-        "Player2": "victorroatt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "qbturtle15",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "claudioh",
-        "Player2": "fingers1991",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kohei1202",
-        "Player2": "Ladon",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "claudioh",
-      "Player2": "kohei1202",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kohei1202",
+          "Player2": "luke8232",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "fingers1991",
+          "Player2": "10thDegree",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ladon",
+          "Player2": "victorroatt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "claudioh",
+          "Player2": "fingers1991",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kohei1202",
+          "Player2": "Ladon",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "claudioh",
+          "Player2": "kohei1202",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

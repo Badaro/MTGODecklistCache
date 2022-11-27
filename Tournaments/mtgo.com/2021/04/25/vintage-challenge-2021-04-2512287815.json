@@ -5414,48 +5414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "_INF_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "swengen",
-        "Player2": "Wizard_2002",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bennybo",
-        "Player2": "duke12",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bedell",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "swengen",
-        "Player2": "Bedell",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "bennybo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MaxMagicer",
-      "Player2": "swengen",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "_INF_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "swengen",
+          "Player2": "Wizard_2002",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bennybo",
+          "Player2": "duke12",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bedell",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "swengen",
+          "Player2": "Bedell",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "bennybo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "swengen",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

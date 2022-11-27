@@ -3738,48 +3738,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Edel",
-        "Player2": "aManatease",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "Kaies",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "unicornparadise",
-        "Player2": "Graciasportanto",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SKK",
-        "Player2": "ErreZeta",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "unicornparadise",
-        "Player2": "Venom1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "SKK",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "unicornparadise",
-      "Player2": "Edel",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Edel",
+          "Player2": "aManatease",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "Kaies",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "unicornparadise",
+          "Player2": "Graciasportanto",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SKK",
+          "Player2": "ErreZeta",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "unicornparadise",
+          "Player2": "Venom1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "SKK",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "unicornparadise",
+          "Player2": "Edel",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

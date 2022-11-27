@@ -3766,48 +3766,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Edel",
-        "Player2": "Misplacedginger",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "teruteru8140",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sunomel",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AliEnWaRe_",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "LukasDusek",
-        "Player2": "Edel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AliEnWaRe_",
-        "Player2": "Sunomel",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "AliEnWaRe_",
-      "Player2": "LukasDusek",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Edel",
+          "Player2": "Misplacedginger",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "teruteru8140",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sunomel",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AliEnWaRe_",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "LukasDusek",
+          "Player2": "Edel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AliEnWaRe_",
+          "Player2": "Sunomel",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "AliEnWaRe_",
+          "Player2": "LukasDusek",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

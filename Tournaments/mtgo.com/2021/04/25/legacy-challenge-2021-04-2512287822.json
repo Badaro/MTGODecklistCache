@@ -4338,48 +4338,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ark4n",
-        "Player2": "Mazzu93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "HJ_Kaiser",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Testacular",
-        "Player2": "slow_brz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KelMasterP",
-        "Player2": "killersuv",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Testacular",
-        "Player2": "KelMasterP",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HJ_Kaiser",
-        "Player2": "Ark4n",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "HJ_Kaiser",
-      "Player2": "Testacular",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "Mazzu93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Testacular",
+          "Player2": "slow_brz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KelMasterP",
+          "Player2": "killersuv",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Testacular",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "Ark4n",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "Testacular",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

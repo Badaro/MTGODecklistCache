@@ -3782,48 +3782,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kampo",
-        "Player2": "PRGJJAR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Brivenix",
-        "Player2": "hetare_ane",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RClint21",
-        "Player2": "NotGood",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "oliverjuqs",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Brivenix",
-        "Player2": "oliverjuqs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RClint21",
-        "Player2": "Kampo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Brivenix",
-      "Player2": "RClint21",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kampo",
+          "Player2": "PRGJJAR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Brivenix",
+          "Player2": "hetare_ane",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RClint21",
+          "Player2": "NotGood",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "oliverjuqs",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Brivenix",
+          "Player2": "oliverjuqs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RClint21",
+          "Player2": "Kampo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Brivenix",
+          "Player2": "RClint21",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

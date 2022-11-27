@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MM_17",
-        "Player2": "CaptainFarbosa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Testacular",
-        "Player2": "grumsh",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Andre4Marini",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "xJCloud",
-        "Player2": "mephidro",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "xJCloud",
-        "Player2": "Testacular",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "MM_17",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "xJCloud",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MM_17",
+          "Player2": "CaptainFarbosa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Testacular",
+          "Player2": "grumsh",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Andre4Marini",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "xJCloud",
+          "Player2": "mephidro",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "xJCloud",
+          "Player2": "Testacular",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "MM_17",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "xJCloud",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

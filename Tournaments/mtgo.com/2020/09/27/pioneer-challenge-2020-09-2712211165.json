@@ -3862,48 +3862,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "McWinSauce",
-        "Player2": "AndyC1986",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "naga0ka",
-        "Player2": "mdvayu2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "marolanzi",
-        "Player2": "Aluren85",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "WaToO",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "naga0ka",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "marolanzi",
-        "Player2": "McWinSauce",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "naga0ka",
-      "Player2": "marolanzi",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "McWinSauce",
+          "Player2": "AndyC1986",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "naga0ka",
+          "Player2": "mdvayu2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "marolanzi",
+          "Player2": "Aluren85",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "WaToO",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "naga0ka",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "marolanzi",
+          "Player2": "McWinSauce",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "naga0ka",
+          "Player2": "marolanzi",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

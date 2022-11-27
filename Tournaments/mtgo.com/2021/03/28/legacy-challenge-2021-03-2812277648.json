@@ -4322,48 +4322,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "basuta",
-        "Player2": "TrueHero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yoshiwata",
-        "Player2": "HJ_Kaiser",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ecobaronen",
-        "Player2": "Kazuga",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "trunks132",
-        "Player2": "Twibs",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "trunks132",
-        "Player2": "yoshiwata",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ecobaronen",
-        "Player2": "basuta",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "trunks132",
-      "Player2": "ecobaronen",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "basuta",
+          "Player2": "TrueHero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yoshiwata",
+          "Player2": "HJ_Kaiser",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ecobaronen",
+          "Player2": "Kazuga",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "trunks132",
+          "Player2": "Twibs",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "trunks132",
+          "Player2": "yoshiwata",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ecobaronen",
+          "Player2": "basuta",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "trunks132",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3706,48 +3706,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Amoras27",
-        "Player2": "ElYallo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "RClint21",
-        "Player2": "Store_Shop5",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sarlanga",
-        "Player2": "ziofrancone",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hjc",
-        "Player2": "lsv",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "hjc",
-        "Player2": "Amoras27",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sarlanga",
-        "Player2": "RClint21",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "hjc",
-      "Player2": "Sarlanga",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Amoras27",
+          "Player2": "ElYallo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "RClint21",
+          "Player2": "Store_Shop5",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sarlanga",
+          "Player2": "ziofrancone",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hjc",
+          "Player2": "lsv",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "hjc",
+          "Player2": "Amoras27",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sarlanga",
+          "Player2": "RClint21",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "hjc",
+          "Player2": "Sarlanga",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

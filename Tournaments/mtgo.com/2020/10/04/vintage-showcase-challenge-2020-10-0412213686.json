@@ -5830,48 +5830,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Montolio",
-        "Player2": "billsive",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kauffj",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bgv1989",
-        "Player2": "Aylett",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Fnoop",
-        "Player2": "__matsugan",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Montolio",
-        "Player2": "bgv1989",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Fnoop",
-        "Player2": "kauffj",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Montolio",
-      "Player2": "Fnoop",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Montolio",
+          "Player2": "billsive",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kauffj",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bgv1989",
+          "Player2": "Aylett",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Fnoop",
+          "Player2": "__matsugan",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Montolio",
+          "Player2": "bgv1989",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Fnoop",
+          "Player2": "kauffj",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Montolio",
+          "Player2": "Fnoop",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

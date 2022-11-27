@@ -1422,48 +1422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "romanmy",
-        "Player2": "Chillcollins",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "schnda",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Craft-D",
-        "Player2": "Polarklint",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "7720",
-        "Player2": "Mudda",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "7720",
-        "Player2": "Craft-D",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "schnda",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "romanmy",
-      "Player2": "7720",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "romanmy",
+          "Player2": "Chillcollins",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "schnda",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Craft-D",
+          "Player2": "Polarklint",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "7720",
+          "Player2": "Mudda",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "7720",
+          "Player2": "Craft-D",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "schnda",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "romanmy",
+          "Player2": "7720",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

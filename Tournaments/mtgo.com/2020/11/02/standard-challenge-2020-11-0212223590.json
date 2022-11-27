@@ -3778,48 +3778,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kricha13",
-        "Player2": "Jedgi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "akjets6",
-        "Player2": "Theo_Jung",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Graciasportanto",
-        "Player2": "ht991122",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "oinkmage",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "akjets6",
-        "Player2": "Graciasportanto",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "Kricha13",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "akjets6",
-      "Player2": "MJ_23",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kricha13",
+          "Player2": "Jedgi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "akjets6",
+          "Player2": "Theo_Jung",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Graciasportanto",
+          "Player2": "ht991122",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "oinkmage",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "akjets6",
+          "Player2": "Graciasportanto",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "Kricha13",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "akjets6",
+          "Player2": "MJ_23",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

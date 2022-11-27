@@ -3730,48 +3730,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "karakusk",
-        "Player2": "darius89",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Benitos",
-        "Player2": "Matsume",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "reddybear",
-        "Player2": "Hampuse1",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sandydogmtg",
-        "Player2": "BlackLotus0014",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Benitos",
-        "Player2": "sandydogmtg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "reddybear",
-        "Player2": "karakusk",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "reddybear",
-      "Player2": "Benitos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "karakusk",
+          "Player2": "darius89",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Benitos",
+          "Player2": "Matsume",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "reddybear",
+          "Player2": "Hampuse1",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sandydogmtg",
+          "Player2": "BlackLotus0014",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "sandydogmtg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "reddybear",
+          "Player2": "karakusk",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "reddybear",
+          "Player2": "Benitos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1426,48 +1426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jaymagic",
-        "Player2": "DeepFryer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "James_Zhi",
-        "Player2": "Bogwood",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Alisha1984",
-        "Player2": "SPottenger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_IlNano_",
-        "Player2": "Sologo_cn",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Alisha1984",
-        "Player2": "_IlNano_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jaymagic",
-        "Player2": "James_Zhi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Alisha1984",
-      "Player2": "jaymagic",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jaymagic",
+          "Player2": "DeepFryer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "James_Zhi",
+          "Player2": "Bogwood",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Alisha1984",
+          "Player2": "SPottenger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_IlNano_",
+          "Player2": "Sologo_cn",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Alisha1984",
+          "Player2": "_IlNano_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jaymagic",
+          "Player2": "James_Zhi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Alisha1984",
+          "Player2": "jaymagic",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

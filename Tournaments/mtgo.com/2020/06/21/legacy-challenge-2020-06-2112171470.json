@@ -4466,48 +4466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "silviawataru",
-        "Player2": "Wizard_2002",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "i_b_TRUE",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "grumsh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "3lik4r",
-        "Player2": "1yo2yo",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "musasabi",
-        "Player2": "i_b_TRUE",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "silviawataru",
-        "Player2": "3lik4r",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "musasabi",
-      "Player2": "silviawataru",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "silviawataru",
+          "Player2": "Wizard_2002",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "i_b_TRUE",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "grumsh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "3lik4r",
+          "Player2": "1yo2yo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "i_b_TRUE",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "silviawataru",
+          "Player2": "3lik4r",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "silviawataru",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4338,48 +4338,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "Ozymandias17",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Masumaro",
-        "Player2": "jundilion",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanican",
-        "Player2": "AnziD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "altniccolo",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kanican",
-        "Player2": "Masumaro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "MaxMagicer",
-      "Player2": "kanican",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "Ozymandias17",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Masumaro",
+          "Player2": "jundilion",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanican",
+          "Player2": "AnziD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "altniccolo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kanican",
+          "Player2": "Masumaro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "kanican",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

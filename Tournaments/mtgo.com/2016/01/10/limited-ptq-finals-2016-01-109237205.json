@@ -1414,48 +1414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "m3l0q",
-        "Player2": "Fredrick",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Martinizzle",
-        "Player2": "Th00mor",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rizer",
-        "Player2": "kyoungshud",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xar_on",
-        "Player2": "Quatch",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Martinizzle",
-        "Player2": "Xar_on",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rizer",
-        "Player2": "m3l0q",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "rizer",
-      "Player2": "Martinizzle",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "m3l0q",
+          "Player2": "Fredrick",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Martinizzle",
+          "Player2": "Th00mor",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rizer",
+          "Player2": "kyoungshud",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xar_on",
+          "Player2": "Quatch",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Martinizzle",
+          "Player2": "Xar_on",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rizer",
+          "Player2": "m3l0q",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "rizer",
+          "Player2": "Martinizzle",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

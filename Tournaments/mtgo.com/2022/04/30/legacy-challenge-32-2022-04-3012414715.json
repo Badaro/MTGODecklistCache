@@ -4498,48 +4498,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Oceansoul92",
-        "Player2": "WaToO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "davy2892",
-        "Player2": "makuto86",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ht991122",
-        "Player2": "DNEELEY",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bryzem1",
-        "Player2": "kanican",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oceansoul92",
-        "Player2": "ht991122",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bryzem1",
-        "Player2": "davy2892",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Bryzem1",
-      "Player2": "Oceansoul92",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "WaToO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "davy2892",
+          "Player2": "makuto86",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ht991122",
+          "Player2": "DNEELEY",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bryzem1",
+          "Player2": "kanican",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "ht991122",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bryzem1",
+          "Player2": "davy2892",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Bryzem1",
+          "Player2": "Oceansoul92",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

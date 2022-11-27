@@ -4262,48 +4262,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Cwoj",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "otakkun",
-        "Player2": "duke12",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "otaba",
-        "Player2": "davy2892",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "2plus2isfive",
-        "Player2": "trunks132",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "otaba",
-        "Player2": "otakkun",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cwoj",
-        "Player2": "2plus2isfive",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Cwoj",
-      "Player2": "otaba",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Cwoj",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "otakkun",
+          "Player2": "duke12",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "otaba",
+          "Player2": "davy2892",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "2plus2isfive",
+          "Player2": "trunks132",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "otaba",
+          "Player2": "otakkun",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cwoj",
+          "Player2": "2plus2isfive",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Cwoj",
+          "Player2": "otaba",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

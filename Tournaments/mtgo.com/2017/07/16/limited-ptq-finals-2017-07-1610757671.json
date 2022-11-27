@@ -1418,48 +1418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "KingLL",
-        "Player2": "jstihle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Bigger_Bear",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Viola",
-        "Player2": "Kitchen_Finks",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "IsaacNewton",
-        "Player2": "sabboth",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "IsaacNewton",
-        "Player2": "Viola",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "KingLL",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "IsaacNewton",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "KingLL",
+          "Player2": "jstihle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Bigger_Bear",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Viola",
+          "Player2": "Kitchen_Finks",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "IsaacNewton",
+          "Player2": "sabboth",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "IsaacNewton",
+          "Player2": "Viola",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "KingLL",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "IsaacNewton",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

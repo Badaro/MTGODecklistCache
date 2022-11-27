@@ -3558,48 +3558,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "tedlyted",
-        "Player2": "Hellsau",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "EvolvingWilds",
-        "Player2": "LuckyOnline",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "__CH1",
-        "Player2": "Amoras27",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "mlovbo",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hampuse1",
-        "Player2": "EvolvingWilds",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "__CH1",
-        "Player2": "tedlyted",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "__CH1",
-      "Player2": "Hampuse1",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "tedlyted",
+          "Player2": "Hellsau",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "EvolvingWilds",
+          "Player2": "LuckyOnline",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "__CH1",
+          "Player2": "Amoras27",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "mlovbo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hampuse1",
+          "Player2": "EvolvingWilds",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "__CH1",
+          "Player2": "tedlyted",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "__CH1",
+          "Player2": "Hampuse1",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

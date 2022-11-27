@@ -4390,48 +4390,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "selesneal",
-        "Player2": "ziyanghuakai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "gabrylele91",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "altniccolo",
-        "Player2": "tibalt_of_red_sub",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "swff",
-        "Player2": "bobthedog",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "swff",
-        "Player2": "altniccolo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "selesneal",
-        "Player2": "WaToO",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "swff",
-      "Player2": "selesneal",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "selesneal",
+          "Player2": "ziyanghuakai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "gabrylele91",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "altniccolo",
+          "Player2": "tibalt_of_red_sub",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "swff",
+          "Player2": "bobthedog",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "swff",
+          "Player2": "altniccolo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "selesneal",
+          "Player2": "WaToO",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "swff",
+          "Player2": "selesneal",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4454,48 +4454,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "lylogoyf",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "iwanteatebi",
-        "Player2": "maian",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "r0cknati0n",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Paradise_lost",
-        "Player2": "btraut",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Chefen",
-        "Player2": "Diem4x",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Paradise_lost",
-        "Player2": "iwanteatebi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Chefen",
-      "Player2": "Paradise_lost",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "lylogoyf",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "iwanteatebi",
+          "Player2": "maian",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "r0cknati0n",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Paradise_lost",
+          "Player2": "btraut",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Chefen",
+          "Player2": "Diem4x",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Paradise_lost",
+          "Player2": "iwanteatebi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Chefen",
+          "Player2": "Paradise_lost",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1430,48 +1430,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Xwhale",
-        "Player2": "Browning",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Talisker",
-        "Player2": "Ramsey0609",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "komattaman",
-        "Player2": "WhiTe TsaR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Thagol",
-        "Player2": "FilippoK",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xwhale",
-        "Player2": "Talisker",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thagol",
-        "Player2": "komattaman",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xwhale",
-      "Player2": "Thagol",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Xwhale",
+          "Player2": "Browning",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Talisker",
+          "Player2": "Ramsey0609",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "komattaman",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Thagol",
+          "Player2": "FilippoK",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xwhale",
+          "Player2": "Talisker",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thagol",
+          "Player2": "komattaman",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xwhale",
+          "Player2": "Thagol",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

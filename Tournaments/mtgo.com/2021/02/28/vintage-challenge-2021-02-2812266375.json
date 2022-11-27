@@ -5630,48 +5630,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_INF_",
-        "Player2": "jaredallsop619",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nerdkneereape",
-        "Player2": "notmi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "evergo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cioffo86",
-        "Player2": "MadMaxErnst",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_INF_",
-        "Player2": "Nerdkneereape",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cioffo86",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "_INF_",
-      "Player2": "Cioffo86",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_INF_",
+          "Player2": "jaredallsop619",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nerdkneereape",
+          "Player2": "notmi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "evergo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cioffo86",
+          "Player2": "MadMaxErnst",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_INF_",
+          "Player2": "Nerdkneereape",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cioffo86",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_INF_",
+          "Player2": "Cioffo86",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

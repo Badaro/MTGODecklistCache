@@ -1426,48 +1426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "Anssi A",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MZBlazer",
-        "Player2": "fluffy21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "SnailArg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "Eaglov",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JMM",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "MZBlazer",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "JMM",
-      "Player2": "KO_Mak",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "Anssi A",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MZBlazer",
+          "Player2": "fluffy21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "SnailArg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "Eaglov",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JMM",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "MZBlazer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JMM",
+          "Player2": "KO_Mak",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

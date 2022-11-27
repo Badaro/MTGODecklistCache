@@ -4122,48 +4122,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SourceOdin",
-        "Player2": "strong sad",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MrSatan",
-        "Player2": "auzzie51",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "miyamoto0321",
-        "Player2": "Leroy_Kilack",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "calmdownbronco",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MrSatan",
-        "Player2": "miyamoto0321",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SourceOdin",
-        "Player2": "McWinSauce",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MrSatan",
-      "Player2": "SourceOdin",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SourceOdin",
+          "Player2": "strong sad",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MrSatan",
+          "Player2": "auzzie51",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "miyamoto0321",
+          "Player2": "Leroy_Kilack",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "calmdownbronco",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MrSatan",
+          "Player2": "miyamoto0321",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SourceOdin",
+          "Player2": "McWinSauce",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MrSatan",
+          "Player2": "SourceOdin",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

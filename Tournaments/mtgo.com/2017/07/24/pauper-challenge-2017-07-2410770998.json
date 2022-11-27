@@ -3686,48 +3686,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "DDevitt",
-        "Player2": "Dotta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "redler",
-        "Player2": "AlphaFrog",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Iltahuikaisu",
-        "Player2": "Olivetti",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hrymfaxe",
-        "Player2": "greenprinny",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "redler",
-        "Player2": "DDevitt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Iltahuikaisu",
-        "Player2": "Hrymfaxe",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "redler",
-      "Player2": "Iltahuikaisu",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "DDevitt",
+          "Player2": "Dotta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "redler",
+          "Player2": "AlphaFrog",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Iltahuikaisu",
+          "Player2": "Olivetti",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hrymfaxe",
+          "Player2": "greenprinny",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "redler",
+          "Player2": "DDevitt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Iltahuikaisu",
+          "Player2": "Hrymfaxe",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "redler",
+          "Player2": "Iltahuikaisu",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

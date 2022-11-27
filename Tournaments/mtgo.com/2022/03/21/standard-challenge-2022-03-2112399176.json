@@ -3946,48 +3946,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "fingers1991",
-        "Player2": "Demian77",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cabezadebolo",
-        "Player2": "bolov0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Salvatto",
-        "Player2": "hcook725",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "albertoSD",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Cabezadebolo",
-        "Player2": "fingers1991",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Salvatto",
-        "Player2": "MJ_23",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Salvatto",
-      "Player2": "Cabezadebolo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "fingers1991",
+          "Player2": "Demian77",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "bolov0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Salvatto",
+          "Player2": "hcook725",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "albertoSD",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "fingers1991",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Salvatto",
+          "Player2": "MJ_23",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Salvatto",
+          "Player2": "Cabezadebolo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

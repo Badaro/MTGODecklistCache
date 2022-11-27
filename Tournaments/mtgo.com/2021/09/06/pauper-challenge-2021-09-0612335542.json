@@ -3526,48 +3526,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mikhathara1994",
-        "Player2": "Boin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NotGood",
-        "Player2": "LuckyOnline",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "kasa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "Unknowless",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "NotGood",
-        "Player2": "Mikhathara1994",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "mlovbo",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "NotGood",
-      "Player2": "Condescend",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mikhathara1994",
+          "Player2": "Boin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NotGood",
+          "Player2": "LuckyOnline",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "Unknowless",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "NotGood",
+          "Player2": "Mikhathara1994",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "mlovbo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "NotGood",
+          "Player2": "Condescend",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

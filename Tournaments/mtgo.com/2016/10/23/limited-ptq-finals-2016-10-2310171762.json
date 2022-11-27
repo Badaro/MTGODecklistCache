@@ -1438,48 +1438,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rizer",
-        "Player2": "Jazza",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Psycho8",
-        "Player2": "Raspoutine17",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "u_mad_bro",
-        "Player2": "AKMiD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "duofanel",
-        "Player2": "bradyoo",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Psycho8",
-        "Player2": "u_mad_bro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rizer",
-        "Player2": "duofanel",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "rizer",
-      "Player2": "Psycho8",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rizer",
+          "Player2": "Jazza",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Psycho8",
+          "Player2": "Raspoutine17",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "u_mad_bro",
+          "Player2": "AKMiD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "duofanel",
+          "Player2": "bradyoo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Psycho8",
+          "Player2": "u_mad_bro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rizer",
+          "Player2": "duofanel",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "rizer",
+          "Player2": "Psycho8",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

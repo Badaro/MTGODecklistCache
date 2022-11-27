@@ -3638,48 +3638,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mlovbo",
-        "Player2": "faradan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GALL",
-        "Player2": "unicornparadise",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hjc",
-        "Player2": "MrPrototype",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cws",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mlovbo",
-        "Player2": "cws",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GALL",
-        "Player2": "hjc",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "GALL",
-      "Player2": "mlovbo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "faradan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GALL",
+          "Player2": "unicornparadise",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hjc",
+          "Player2": "MrPrototype",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cws",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "cws",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GALL",
+          "Player2": "hjc",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GALL",
+          "Player2": "mlovbo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

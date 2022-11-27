@@ -4562,48 +4562,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kanican",
-        "Player2": "kiyoaggro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "slod",
-        "Player2": "Oceansoul92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wambocombo2020",
-        "Player2": "Maxtortion",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "into_play",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "slod",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanican",
-        "Player2": "wambocombo2020",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "slod",
-      "Player2": "kanican",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kanican",
+          "Player2": "kiyoaggro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "slod",
+          "Player2": "Oceansoul92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wambocombo2020",
+          "Player2": "Maxtortion",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "into_play",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "slod",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanican",
+          "Player2": "wambocombo2020",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "slod",
+          "Player2": "kanican",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5514,48 +5514,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "iamfishman",
-        "Player2": "Thiim",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "notmi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mannes",
-        "Player2": "achillies27",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Boin",
-        "Player2": "Miharu_Fuyumiya",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Boin",
-        "Player2": "Condescend",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "iamfishman",
-        "Player2": "Mannes",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Boin",
-      "Player2": "iamfishman",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "iamfishman",
+          "Player2": "Thiim",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "notmi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mannes",
+          "Player2": "achillies27",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Boin",
+          "Player2": "Miharu_Fuyumiya",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Boin",
+          "Player2": "Condescend",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "iamfishman",
+          "Player2": "Mannes",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Boin",
+          "Player2": "iamfishman",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

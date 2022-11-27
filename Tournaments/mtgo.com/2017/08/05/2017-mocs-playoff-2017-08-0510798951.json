@@ -3602,48 +3602,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kuroro",
-        "Player2": "ProHilary",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gerschi",
-        "Player2": "7720",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "RemiFortier",
-        "Player2": "Znapcaster",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bishop989",
-        "Player2": "Louisbach",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kuroro",
-        "Player2": "RemiFortier",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gerschi",
-        "Player2": "Bishop989",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gerschi",
-      "Player2": "kuroro",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kuroro",
+          "Player2": "ProHilary",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gerschi",
+          "Player2": "7720",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "RemiFortier",
+          "Player2": "Znapcaster",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bishop989",
+          "Player2": "Louisbach",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kuroro",
+          "Player2": "RemiFortier",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gerschi",
+          "Player2": "Bishop989",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gerschi",
+          "Player2": "kuroro",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

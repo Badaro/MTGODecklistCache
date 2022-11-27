@@ -5418,48 +5418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TeferiBokaer",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "grymn",
-        "Player2": "billsive",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Michelino",
-        "Player2": "Condescend",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "zajad",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TeferiBokaer",
-        "Player2": "Vertyx_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "grymn",
-        "Player2": "Michelino",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "TeferiBokaer",
-      "Player2": "grymn",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TeferiBokaer",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "grymn",
+          "Player2": "billsive",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Michelino",
+          "Player2": "Condescend",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "zajad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TeferiBokaer",
+          "Player2": "Vertyx_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "grymn",
+          "Player2": "Michelino",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TeferiBokaer",
+          "Player2": "grymn",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

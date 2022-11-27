@@ -3758,48 +3758,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "KingOfPop",
-        "Player2": "Payne_91",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HELLutek",
-        "Player2": "kju92",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "qbturtle15",
-        "Player2": "Bielzito",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aerricc",
-        "Player2": "PonyPuddle",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "qbturtle15",
-        "Player2": "Aerricc",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HELLutek",
-        "Player2": "KingOfPop",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "HELLutek",
-      "Player2": "qbturtle15",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "KingOfPop",
+          "Player2": "Payne_91",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HELLutek",
+          "Player2": "kju92",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "qbturtle15",
+          "Player2": "Bielzito",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aerricc",
+          "Player2": "PonyPuddle",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "qbturtle15",
+          "Player2": "Aerricc",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HELLutek",
+          "Player2": "KingOfPop",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "HELLutek",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

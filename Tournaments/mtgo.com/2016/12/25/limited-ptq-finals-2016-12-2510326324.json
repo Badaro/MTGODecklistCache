@@ -1402,48 +1402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Pintogeddon",
-        "Player2": "cliff_z",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AKMiD",
-        "Player2": "Andor2",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gernardi",
-        "Player2": "drzeuss",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rewkon",
-        "Player2": "Psycho8",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Pintogeddon",
-        "Player2": "rewkon",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AKMiD",
-        "Player2": "Gernardi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Pintogeddon",
-      "Player2": "AKMiD",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Pintogeddon",
+          "Player2": "cliff_z",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AKMiD",
+          "Player2": "Andor2",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gernardi",
+          "Player2": "drzeuss",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rewkon",
+          "Player2": "Psycho8",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Pintogeddon",
+          "Player2": "rewkon",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AKMiD",
+          "Player2": "Gernardi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Pintogeddon",
+          "Player2": "AKMiD",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

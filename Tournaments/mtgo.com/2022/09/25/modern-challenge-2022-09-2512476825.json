@@ -4498,48 +4498,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Bob49",
-        "Player2": "Meltiin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "Talisker",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kefka27",
-        "Player2": "bubbsei",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Control4Daze",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Control4Daze",
-        "Player2": "kefka27",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bob49",
-        "Player2": "WaToO",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Control4Daze",
-      "Player2": "Bob49",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Bob49",
+          "Player2": "Meltiin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "Talisker",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kefka27",
+          "Player2": "bubbsei",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Control4Daze",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Control4Daze",
+          "Player2": "kefka27",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bob49",
+          "Player2": "WaToO",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Control4Daze",
+          "Player2": "Bob49",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

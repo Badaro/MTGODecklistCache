@@ -3666,48 +3666,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "thrabeninspectorarg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "Mamah",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Heisen01",
-        "Player2": "abijhavs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "outZEROo",
-        "Player2": "vini_torres",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "PRGJJAR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Heisen01",
-        "Player2": "outZEROo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Heisen01",
-      "Player2": "Hamuda",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "thrabeninspectorarg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "Mamah",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Heisen01",
+          "Player2": "abijhavs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "outZEROo",
+          "Player2": "vini_torres",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "PRGJJAR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Heisen01",
+          "Player2": "outZEROo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Heisen01",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

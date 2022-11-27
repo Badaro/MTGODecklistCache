@@ -1410,48 +1410,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GMANSokol",
-        "Player2": "zillah",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lopik6",
-        "Player2": "Akerlund",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cabal31000",
-        "Player2": "Viola",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "dani_chad",
-        "Player2": "curlycorki",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "GMANSokol",
-        "Player2": "cabal31000",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lopik6",
-        "Player2": "dani_chad",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "GMANSokol",
-      "Player2": "Lopik6",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GMANSokol",
+          "Player2": "zillah",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lopik6",
+          "Player2": "Akerlund",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cabal31000",
+          "Player2": "Viola",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "dani_chad",
+          "Player2": "curlycorki",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "GMANSokol",
+          "Player2": "cabal31000",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lopik6",
+          "Player2": "dani_chad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GMANSokol",
+          "Player2": "Lopik6",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

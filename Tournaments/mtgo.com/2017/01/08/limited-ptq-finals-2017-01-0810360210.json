@@ -1430,48 +1430,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "drVendigo",
-        "Player2": "baconator5000",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "eli12",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PetyrBaelish",
-        "Player2": "Swoll",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "shachmand",
-        "Player2": "floatius",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "romanmy",
-        "Player2": "shachmand",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "drVendigo",
-        "Player2": "PetyrBaelish",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "romanmy",
-      "Player2": "drVendigo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "drVendigo",
+          "Player2": "baconator5000",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "eli12",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PetyrBaelish",
+          "Player2": "Swoll",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "shachmand",
+          "Player2": "floatius",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "romanmy",
+          "Player2": "shachmand",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "drVendigo",
+          "Player2": "PetyrBaelish",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "romanmy",
+          "Player2": "drVendigo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

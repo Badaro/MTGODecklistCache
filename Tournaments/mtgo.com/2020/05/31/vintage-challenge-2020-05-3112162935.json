@@ -6314,48 +6314,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "nanaiper",
-        "Player2": "SingPanMan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kuroyukihime",
-        "Player2": "leeties",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ktmr-39",
-        "Player2": "Gernardi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "quinniac",
-        "Player2": "Svaca",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ktmr-39",
-        "Player2": "kuroyukihime",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nanaiper",
-        "Player2": "quinniac",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "nanaiper",
-      "Player2": "ktmr-39",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "nanaiper",
+          "Player2": "SingPanMan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kuroyukihime",
+          "Player2": "leeties",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ktmr-39",
+          "Player2": "Gernardi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "quinniac",
+          "Player2": "Svaca",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ktmr-39",
+          "Player2": "kuroyukihime",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nanaiper",
+          "Player2": "quinniac",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "nanaiper",
+          "Player2": "ktmr-39",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

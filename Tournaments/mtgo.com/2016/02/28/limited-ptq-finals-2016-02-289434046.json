@@ -1474,48 +1474,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Lennny",
-        "Player2": "hamstermixer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "tubelkain",
-        "Player2": "okagami0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "paulx441",
-        "Player2": "tabunghasisi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "osiwm",
-        "Player2": "abelusk",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "tubelkain",
-        "Player2": "paulx441",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "osiwm",
-        "Player2": "Lennny",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "tubelkain",
-      "Player2": "osiwm",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "hamstermixer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "tubelkain",
+          "Player2": "okagami0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "paulx441",
+          "Player2": "tabunghasisi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "osiwm",
+          "Player2": "abelusk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "tubelkain",
+          "Player2": "paulx441",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "osiwm",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "tubelkain",
+          "Player2": "osiwm",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

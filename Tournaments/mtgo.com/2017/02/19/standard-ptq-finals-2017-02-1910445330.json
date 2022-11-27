@@ -3802,48 +3802,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "tkpy543",
-        "Player2": "TheYostWithTheMost",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yunk3r",
-        "Player2": "silenttrigger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ColletClow",
-        "Player2": "Phizzle",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gosaku",
-        "Player2": "jmaru",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Gosaku",
-        "Player2": "tkpy543",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ColletClow",
-        "Player2": "yunk3r",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gosaku",
-      "Player2": "ColletClow",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "tkpy543",
+          "Player2": "TheYostWithTheMost",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yunk3r",
+          "Player2": "silenttrigger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ColletClow",
+          "Player2": "Phizzle",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gosaku",
+          "Player2": "jmaru",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Gosaku",
+          "Player2": "tkpy543",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ColletClow",
+          "Player2": "yunk3r",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gosaku",
+          "Player2": "ColletClow",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

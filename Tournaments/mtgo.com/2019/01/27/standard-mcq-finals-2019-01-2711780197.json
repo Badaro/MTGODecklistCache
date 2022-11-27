@@ -3526,48 +3526,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "petomartinez",
-        "Player2": "roter_Erzengel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Finespoo",
-        "Player2": "Bigval777",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Skite",
-        "Player2": "Kadoonyec",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lleaf33",
-        "Player2": "Sniesk",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "petomartinez",
-        "Player2": "lleaf33",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Finespoo",
-        "Player2": "Skite",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "petomartinez",
-      "Player2": "Finespoo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "petomartinez",
+          "Player2": "roter_Erzengel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Finespoo",
+          "Player2": "Bigval777",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Skite",
+          "Player2": "Kadoonyec",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lleaf33",
+          "Player2": "Sniesk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "petomartinez",
+          "Player2": "lleaf33",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Finespoo",
+          "Player2": "Skite",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "petomartinez",
+          "Player2": "Finespoo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

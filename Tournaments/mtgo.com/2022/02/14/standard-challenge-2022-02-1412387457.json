@@ -3958,48 +3958,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "KingHairy",
-        "Player2": "_Shatun_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "billsive",
-        "Player2": "Gul_Dukat",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "O_danielakos",
-        "Player2": "KingHairy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "billsive",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "O_danielakos",
-      "Player2": "Edel",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "KingHairy",
+          "Player2": "_Shatun_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "billsive",
+          "Player2": "Gul_Dukat",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "O_danielakos",
+          "Player2": "KingHairy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "billsive",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "O_danielakos",
+          "Player2": "Edel",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

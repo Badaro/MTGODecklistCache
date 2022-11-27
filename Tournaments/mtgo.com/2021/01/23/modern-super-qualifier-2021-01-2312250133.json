@@ -4274,48 +4274,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "yuyan",
-        "Player2": "taraaasyk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kogamo",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "thedoc96",
-        "Player2": "Laplasjan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jvidarte",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "thedoc96",
-        "Player2": "jvidarte",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kogamo",
-        "Player2": "yuyan",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kogamo",
-      "Player2": "thedoc96",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "yuyan",
+          "Player2": "taraaasyk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kogamo",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "thedoc96",
+          "Player2": "Laplasjan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jvidarte",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "thedoc96",
+          "Player2": "jvidarte",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kogamo",
+          "Player2": "yuyan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kogamo",
+          "Player2": "thedoc96",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

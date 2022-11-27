@@ -3894,48 +3894,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Oliver_Hart",
-        "Player2": "Venom1",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AlphaFrog",
-        "Player2": "Ettore09",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "akjets6",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "1yo2yo",
-        "Player2": "HEROtsukai",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "AlphaFrog",
-        "Player2": "1yo2yo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "Oliver_Hart",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "LukasDusek",
-      "Player2": "AlphaFrog",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Oliver_Hart",
+          "Player2": "Venom1",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AlphaFrog",
+          "Player2": "Ettore09",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "akjets6",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "1yo2yo",
+          "Player2": "HEROtsukai",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "AlphaFrog",
+          "Player2": "1yo2yo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "Oliver_Hart",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "LukasDusek",
+          "Player2": "AlphaFrog",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

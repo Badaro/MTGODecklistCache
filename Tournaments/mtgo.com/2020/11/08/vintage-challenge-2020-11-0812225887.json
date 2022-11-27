@@ -5594,48 +5594,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Slasher21",
-        "Player2": "notmi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GutoCmtt",
-        "Player2": "bennybo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Aylett",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lenka",
-        "Player2": "shir kahn",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "GutoCmtt",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lenka",
-        "Player2": "Slasher21",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lenka",
-      "Player2": "GutoCmtt",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Slasher21",
+          "Player2": "notmi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GutoCmtt",
+          "Player2": "bennybo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Aylett",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lenka",
+          "Player2": "shir kahn",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "GutoCmtt",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lenka",
+          "Player2": "Slasher21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lenka",
+          "Player2": "GutoCmtt",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

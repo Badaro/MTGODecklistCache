@@ -3702,48 +3702,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kungfutrees",
-        "Player2": "Pascal3000",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "greenprinny",
-        "Player2": "Mezzel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Collecter",
-        "Player2": "__CH1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lagerbon",
-        "Player2": "Nisk_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "greenprinny",
-        "Player2": "Lagerbon",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Collecter",
-        "Player2": "kungfutrees",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Collecter",
-      "Player2": "greenprinny",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kungfutrees",
+          "Player2": "Pascal3000",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "greenprinny",
+          "Player2": "Mezzel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Collecter",
+          "Player2": "__CH1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lagerbon",
+          "Player2": "Nisk_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "greenprinny",
+          "Player2": "Lagerbon",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Collecter",
+          "Player2": "kungfutrees",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Collecter",
+          "Player2": "greenprinny",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

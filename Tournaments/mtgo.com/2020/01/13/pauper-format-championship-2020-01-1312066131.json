@@ -3918,48 +3918,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kirblinxy",
-        "Player2": "VVolare",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PonderousCZ",
-        "Player2": "billster47",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "kasa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Raptor56",
-        "Player2": "Pascal3000",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Raptor56",
-        "Player2": "Hampuse1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kirblinxy",
-        "Player2": "PonderousCZ",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kirblinxy",
-      "Player2": "Raptor56",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "VVolare",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PonderousCZ",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Raptor56",
+          "Player2": "Pascal3000",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Raptor56",
+          "Player2": "Hampuse1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "PonderousCZ",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "Raptor56",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

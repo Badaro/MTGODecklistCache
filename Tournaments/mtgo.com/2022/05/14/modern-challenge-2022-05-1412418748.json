@@ -4466,48 +4466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "selesneal",
-        "Player2": "Grixis_man",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "RespectTheCat",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GanYanCHN",
-        "Player2": "Weiden",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Drizzt253",
-        "Player2": "Sliv3r",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Drizzt253",
-        "Player2": "GanYanCHN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "selesneal",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Drizzt253",
-      "Player2": "kanister",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "selesneal",
+          "Player2": "Grixis_man",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "RespectTheCat",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GanYanCHN",
+          "Player2": "Weiden",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Drizzt253",
+          "Player2": "Sliv3r",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Drizzt253",
+          "Player2": "GanYanCHN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "selesneal",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Drizzt253",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

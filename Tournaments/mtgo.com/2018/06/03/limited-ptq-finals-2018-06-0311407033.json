@@ -1422,48 +1422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Jeep",
-        "Player2": "amiel tenenbaum",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "morticiansunion",
-        "Player2": "ponza",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TheSack",
-        "Player2": "adenton",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "Zarutha",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "KO_Mak",
-        "Player2": "morticiansunion",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TheSack",
-        "Player2": "Jeep",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "KO_Mak",
-      "Player2": "TheSack",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Jeep",
+          "Player2": "amiel tenenbaum",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "morticiansunion",
+          "Player2": "ponza",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TheSack",
+          "Player2": "adenton",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "Zarutha",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "KO_Mak",
+          "Player2": "morticiansunion",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TheSack",
+          "Player2": "Jeep",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "KO_Mak",
+          "Player2": "TheSack",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

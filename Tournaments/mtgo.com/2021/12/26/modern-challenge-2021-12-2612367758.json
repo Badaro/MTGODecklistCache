@@ -4354,48 +4354,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Fnoop",
-        "Player2": "Magic_Dan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "MaxMagicer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "k00pa_king",
-        "Player2": "Wisnia",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FerMTG",
-        "Player2": "Jeppebc",
-        "Result": "1-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "musasabi",
-        "Player2": "k00pa_king",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FerMTG",
-        "Player2": "Fnoop",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "FerMTG",
-      "Player2": "musasabi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Fnoop",
+          "Player2": "Magic_Dan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "MaxMagicer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "k00pa_king",
+          "Player2": "Wisnia",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FerMTG",
+          "Player2": "Jeppebc",
+          "Result": "1-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "k00pa_king",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FerMTG",
+          "Player2": "Fnoop",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "FerMTG",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4590,48 +4590,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "BladeofIce",
-        "Player2": "poriden",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kurohiren",
-        "Player2": "AnziD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "basuta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SteFaNoGs",
-        "Player2": "Koke_MTG",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "SteFaNoGs",
-        "Player2": "kurohiren",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "BladeofIce",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "SteFaNoGs",
-      "Player2": "Diem4x",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "BladeofIce",
+          "Player2": "poriden",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kurohiren",
+          "Player2": "AnziD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "basuta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SteFaNoGs",
+          "Player2": "Koke_MTG",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "SteFaNoGs",
+          "Player2": "kurohiren",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "BladeofIce",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SteFaNoGs",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

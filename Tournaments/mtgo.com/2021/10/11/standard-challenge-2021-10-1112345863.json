@@ -3738,48 +3738,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "Tyerube1618",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "LukasDusek",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Oscar_Franco",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Waldo423",
-        "Player2": "AHammer",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "Tunaktunak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Waldo423",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "bolov0",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "Tyerube1618",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "LukasDusek",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Oscar_Franco",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Waldo423",
+          "Player2": "AHammer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "Tunaktunak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Waldo423",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3606,48 +3606,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Falcon_",
-        "Player2": "paucr5",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "L1X0",
-        "Player2": "alemilan19",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oliver_Hart",
-        "Player2": "Sorento04",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "kasa",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Falcon_",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "L1X0",
-        "Player2": "Oliver_Hart",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "L1X0",
-      "Player2": "_Falcon_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Falcon_",
+          "Player2": "paucr5",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "L1X0",
+          "Player2": "alemilan19",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oliver_Hart",
+          "Player2": "Sorento04",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Falcon_",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "L1X0",
+          "Player2": "Oliver_Hart",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "L1X0",
+          "Player2": "_Falcon_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

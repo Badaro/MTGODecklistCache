@@ -4498,48 +4498,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SoulStrong",
-        "Player2": "Irra0770",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "btail08",
-        "Player2": "gyyby297",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bullz0Eye",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zar0s",
-        "Player2": "painhuman",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Zar0s",
-        "Player2": "SoulStrong",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bullz0Eye",
-        "Player2": "btail08",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Bullz0Eye",
-      "Player2": "Zar0s",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SoulStrong",
+          "Player2": "Irra0770",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "btail08",
+          "Player2": "gyyby297",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bullz0Eye",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zar0s",
+          "Player2": "painhuman",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Zar0s",
+          "Player2": "SoulStrong",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bullz0Eye",
+          "Player2": "btail08",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Bullz0Eye",
+          "Player2": "Zar0s",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

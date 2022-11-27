@@ -3874,48 +3874,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PauloMinhoz",
-        "Player2": "RiuuK1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ACG88",
-        "Player2": "HunterBR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Funnyman31399",
-        "Player2": "SambucoDeCulo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "AlfredoTorres",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PauloMinhoz",
-        "Player2": "Funnyman31399",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "ACG88",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "PauloMinhoz",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PauloMinhoz",
+          "Player2": "RiuuK1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ACG88",
+          "Player2": "HunterBR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Funnyman31399",
+          "Player2": "SambucoDeCulo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "AlfredoTorres",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PauloMinhoz",
+          "Player2": "Funnyman31399",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "ACG88",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "PauloMinhoz",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

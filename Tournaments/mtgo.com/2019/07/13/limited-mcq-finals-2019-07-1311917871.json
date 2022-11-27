@@ -1378,48 +1378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LukasDusek",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PT Anan",
-        "Player2": "wantai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "freakflag",
-        "Player2": "Wyuta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DrGuldan",
-        "Player2": "shachmand",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PT Anan",
-        "Player2": "freakflag",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "DrGuldan",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "LukasDusek",
-      "Player2": "PT Anan",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LukasDusek",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PT Anan",
+          "Player2": "wantai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "freakflag",
+          "Player2": "Wyuta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DrGuldan",
+          "Player2": "shachmand",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PT Anan",
+          "Player2": "freakflag",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "DrGuldan",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "LukasDusek",
+          "Player2": "PT Anan",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4050,48 +4050,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "baragalla",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "Coly2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "victorroatt",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BReal2",
-        "Player2": "Stompy45",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "BReal2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "Tunaktunak",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hamuda",
-      "Player2": "Lennny",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "baragalla",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "Coly2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "victorroatt",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BReal2",
+          "Player2": "Stompy45",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "BReal2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "Tunaktunak",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

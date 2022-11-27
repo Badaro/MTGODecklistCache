@@ -1426,48 +1426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Terribad",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "xannman",
-        "Player2": "PT Anan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "joackim83",
-        "Player2": "Rico0389",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xto2",
-        "Player2": "Shaereth",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Terribad",
-        "Player2": "Xto2",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "xannman",
-        "Player2": "joackim83",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "xannman",
-      "Player2": "Terribad",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Terribad",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "xannman",
+          "Player2": "PT Anan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "joackim83",
+          "Player2": "Rico0389",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xto2",
+          "Player2": "Shaereth",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Terribad",
+          "Player2": "Xto2",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "xannman",
+          "Player2": "joackim83",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "xannman",
+          "Player2": "Terribad",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

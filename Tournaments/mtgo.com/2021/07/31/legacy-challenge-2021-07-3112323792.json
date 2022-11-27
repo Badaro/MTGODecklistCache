@@ -4570,48 +4570,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "basuta",
-        "Player2": "B-Carp",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xpz98",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "zhinonono",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SAWATARIX",
-        "Player2": "djseb",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "zhinonono",
-        "Player2": "basuta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SAWATARIX",
-        "Player2": "Xpz98",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "SAWATARIX",
-      "Player2": "zhinonono",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "basuta",
+          "Player2": "B-Carp",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xpz98",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "zhinonono",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "djseb",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "zhinonono",
+          "Player2": "basuta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "Xpz98",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "zhinonono",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3962,48 +3962,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "xhpc007",
-        "Player2": "taiyooooooooooo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lighdar",
-        "Player2": "solace",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "r0310",
-        "Player2": "Tealcerando",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "p_cox",
-        "Player2": "goyo315",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "lighdar",
-        "Player2": "r0310",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "p_cox",
-        "Player2": "xhpc007",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "lighdar",
-      "Player2": "p_cox",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "xhpc007",
+          "Player2": "taiyooooooooooo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lighdar",
+          "Player2": "solace",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "r0310",
+          "Player2": "Tealcerando",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "p_cox",
+          "Player2": "goyo315",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "lighdar",
+          "Player2": "r0310",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "p_cox",
+          "Player2": "xhpc007",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "lighdar",
+          "Player2": "p_cox",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

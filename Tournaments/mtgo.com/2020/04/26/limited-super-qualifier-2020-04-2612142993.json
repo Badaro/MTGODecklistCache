@@ -1398,48 +1398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Skeith678",
-        "Player2": "Lavaridge",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CrazyDog",
-        "Player2": "Iaak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "frilund",
-        "Player2": "Xuxa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RnRaoul",
-        "Player2": "_Joseph_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "RnRaoul",
-        "Player2": "Skeith678",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "frilund",
-        "Player2": "CrazyDog",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "frilund",
-      "Player2": "RnRaoul",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Skeith678",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CrazyDog",
+          "Player2": "Iaak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "frilund",
+          "Player2": "Xuxa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RnRaoul",
+          "Player2": "_Joseph_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "RnRaoul",
+          "Player2": "Skeith678",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "frilund",
+          "Player2": "CrazyDog",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "frilund",
+          "Player2": "RnRaoul",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

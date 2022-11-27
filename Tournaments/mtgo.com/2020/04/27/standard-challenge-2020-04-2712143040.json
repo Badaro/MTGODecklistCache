@@ -3874,48 +3874,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ninja_Kyle",
-        "Player2": "AndyAWKWARD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thatted",
-        "Player2": "willjetz1323",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "ryuumei",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Happymil24",
-        "Player2": "bobjackson",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Venom1",
-        "Player2": "Thatted",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Happymil24",
-        "Player2": "Ninja_Kyle",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Venom1",
-      "Player2": "Happymil24",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ninja_Kyle",
+          "Player2": "AndyAWKWARD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thatted",
+          "Player2": "willjetz1323",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "ryuumei",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Happymil24",
+          "Player2": "bobjackson",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Thatted",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Happymil24",
+          "Player2": "Ninja_Kyle",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Happymil24",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

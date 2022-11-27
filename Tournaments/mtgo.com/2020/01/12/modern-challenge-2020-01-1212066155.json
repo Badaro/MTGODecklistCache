@@ -4350,48 +4350,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sodeq",
-        "Player2": "Chefen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cityofcards",
-        "Player2": "PuntThenWhine",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "LSMD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SourceOdin",
-        "Player2": "jschloss",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "SourceOdin",
-        "Player2": "Gul_Dukat",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "cityofcards",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sodeq",
-      "Player2": "SourceOdin",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "Chefen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cityofcards",
+          "Player2": "PuntThenWhine",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "LSMD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SourceOdin",
+          "Player2": "jschloss",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "SourceOdin",
+          "Player2": "Gul_Dukat",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "cityofcards",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "SourceOdin",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

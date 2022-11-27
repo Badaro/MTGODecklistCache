@@ -5934,48 +5934,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jmd037",
-        "Player2": "thepowernine",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "shir kahn",
-        "Player2": "Michelino",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "keiesu",
-        "Player2": "KelMasterP",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lenka",
-        "Player2": "P4UM",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "shir kahn",
-        "Player2": "jmd037",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lenka",
-        "Player2": "keiesu",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "shir kahn",
-      "Player2": "Lenka",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jmd037",
+          "Player2": "thepowernine",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "shir kahn",
+          "Player2": "Michelino",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "keiesu",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lenka",
+          "Player2": "P4UM",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "shir kahn",
+          "Player2": "jmd037",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lenka",
+          "Player2": "keiesu",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "shir kahn",
+          "Player2": "Lenka",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

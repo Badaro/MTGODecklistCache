@@ -3634,48 +3634,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Grayblan2",
-        "Player2": "paka11",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "aytor_92",
-        "Player2": "iceiceice",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "senberg",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "katoken",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "senberg",
-        "Player2": "Sodeq",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "aytor_92",
-        "Player2": "Grayblan2",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "senberg",
-      "Player2": "aytor_92",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Grayblan2",
+          "Player2": "paka11",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "aytor_92",
+          "Player2": "iceiceice",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "senberg",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "katoken",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "senberg",
+          "Player2": "Sodeq",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "aytor_92",
+          "Player2": "Grayblan2",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "senberg",
+          "Player2": "aytor_92",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1386,48 +1386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "m3l0q",
-        "Player2": "Eken.",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "darkuna",
-        "Player2": "Nostale",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GoDennison",
-        "Player2": "Alexandros151",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Moforino",
-        "Player2": "luca2b",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "GoDennison",
-        "Player2": "darkuna",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Moforino",
-        "Player2": "m3l0q",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "GoDennison",
-      "Player2": "Moforino",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "m3l0q",
+          "Player2": "Eken.",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "darkuna",
+          "Player2": "Nostale",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GoDennison",
+          "Player2": "Alexandros151",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Moforino",
+          "Player2": "luca2b",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "GoDennison",
+          "Player2": "darkuna",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Moforino",
+          "Player2": "m3l0q",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GoDennison",
+          "Player2": "Moforino",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

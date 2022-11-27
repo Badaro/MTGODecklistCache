@@ -5838,48 +5838,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Cherryxman",
-        "Player2": "yuurari_yuko",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Boin",
-        "Player2": "yoshiwata",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Lenka",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kenzaburo",
-        "Player2": "Cho_Manno",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Boin",
-        "Player2": "Cherryxman",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Kenzaburo",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mogged",
-      "Player2": "Boin",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Cherryxman",
+          "Player2": "yuurari_yuko",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Boin",
+          "Player2": "yoshiwata",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Lenka",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kenzaburo",
+          "Player2": "Cho_Manno",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Boin",
+          "Player2": "Cherryxman",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Kenzaburo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "Boin",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

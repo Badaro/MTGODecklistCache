@@ -3826,48 +3826,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bennybo",
-        "Player2": "Joao_Andrade",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mcleskey",
-        "Player2": "gazmon48",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "filipacarola",
-        "Player2": "JogandoPelado",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RhV",
-        "Player2": "IxidorsDreams",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bennybo",
-        "Player2": "filipacarola",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RhV",
-        "Player2": "Mcleskey",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "RhV",
-      "Player2": "bennybo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bennybo",
+          "Player2": "Joao_Andrade",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mcleskey",
+          "Player2": "gazmon48",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "filipacarola",
+          "Player2": "JogandoPelado",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RhV",
+          "Player2": "IxidorsDreams",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bennybo",
+          "Player2": "filipacarola",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RhV",
+          "Player2": "Mcleskey",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "RhV",
+          "Player2": "bennybo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1446,48 +1446,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LukasDusek",
-        "Player2": "GoDennison",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "Kazaner3000",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ION",
-        "Player2": "Gonzo_J",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "7720",
-        "Player2": "SebD",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ION",
-        "Player2": "7720",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ION",
-      "Player2": "LukasDusek",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LukasDusek",
+          "Player2": "GoDennison",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "Kazaner3000",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ION",
+          "Player2": "Gonzo_J",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "7720",
+          "Player2": "SebD",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ION",
+          "Player2": "7720",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ION",
+          "Player2": "LukasDusek",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

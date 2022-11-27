@@ -3674,48 +3674,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Entropy263",
-        "Player2": "aarong",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "heliogil",
-        "Player2": "Yz0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Backoff",
-        "Player2": "HouseOfManaMTG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Ixidor29",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Entropy263",
-        "Player2": "heliogil",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Backoff",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Entropy263",
-      "Player2": "Mogged",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Entropy263",
+          "Player2": "aarong",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "heliogil",
+          "Player2": "Yz0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Backoff",
+          "Player2": "HouseOfManaMTG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Ixidor29",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Entropy263",
+          "Player2": "heliogil",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Backoff",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Entropy263",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

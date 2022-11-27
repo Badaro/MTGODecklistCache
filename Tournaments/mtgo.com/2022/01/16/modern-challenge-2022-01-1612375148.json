@@ -4458,48 +4458,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bubbsei",
-        "Player2": "PieGonti",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "einstein9998",
-        "Player2": "HeyPharaoh",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ulrikk",
-        "Player2": "Capriccioso",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xenowan",
-        "Player2": "SpiderSpace",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xenowan",
-        "Player2": "einstein9998",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bubbsei",
-        "Player2": "Ulrikk",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xenowan",
-      "Player2": "bubbsei",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bubbsei",
+          "Player2": "PieGonti",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "einstein9998",
+          "Player2": "HeyPharaoh",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ulrikk",
+          "Player2": "Capriccioso",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xenowan",
+          "Player2": "SpiderSpace",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xenowan",
+          "Player2": "einstein9998",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bubbsei",
+          "Player2": "Ulrikk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xenowan",
+          "Player2": "bubbsei",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

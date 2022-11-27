@@ -4274,48 +4274,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "trunks132",
-        "Player2": "basuta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "MM_17",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "killersuv",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kazuga",
-        "Player2": "NimblestMongoose",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "killersuv",
-        "Player2": "trunks132",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kazuga",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kazuga",
-      "Player2": "killersuv",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "trunks132",
+          "Player2": "basuta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "MM_17",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "killersuv",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kazuga",
+          "Player2": "NimblestMongoose",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "killersuv",
+          "Player2": "trunks132",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kazuga",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kazuga",
+          "Player2": "killersuv",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

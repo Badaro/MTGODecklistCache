@@ -3530,48 +3530,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Riickitun",
-        "Player2": "indianpancake",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "handsomePPZ",
-        "Player2": "LucasG1ggs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rastaf",
-        "Player2": "duofanel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "beraldi",
-        "Player2": "Hamuda",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Riickitun",
-        "Player2": "beraldi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rastaf",
-        "Player2": "handsomePPZ",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "rastaf",
-      "Player2": "Riickitun",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Riickitun",
+          "Player2": "indianpancake",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "handsomePPZ",
+          "Player2": "LucasG1ggs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rastaf",
+          "Player2": "duofanel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "beraldi",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Riickitun",
+          "Player2": "beraldi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rastaf",
+          "Player2": "handsomePPZ",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "Riickitun",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

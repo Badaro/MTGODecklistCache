@@ -3770,48 +3770,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Yuuka_Kazami",
-        "Player2": "sai_2011",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jaek",
-        "Player2": "chriscob",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "misonikomi",
-        "Player2": "Gereffi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FelixLeong",
-        "Player2": "nathansteuer",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "FelixLeong",
-        "Player2": "misonikomi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jaek",
-        "Player2": "Yuuka_Kazami",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "FelixLeong",
-      "Player2": "jaek",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Yuuka_Kazami",
+          "Player2": "sai_2011",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jaek",
+          "Player2": "chriscob",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "misonikomi",
+          "Player2": "Gereffi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FelixLeong",
+          "Player2": "nathansteuer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "FelixLeong",
+          "Player2": "misonikomi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jaek",
+          "Player2": "Yuuka_Kazami",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "FelixLeong",
+          "Player2": "jaek",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

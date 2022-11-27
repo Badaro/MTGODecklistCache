@@ -4046,48 +4046,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Funnyman31399",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sprouts",
-        "Player2": "Beekeeper",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "stu909090",
-        "Player2": "bocci",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MdvWin",
-        "Player2": "abombdiggity",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "stu909090",
-        "Player2": "Funnyman31399",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sprouts",
-        "Player2": "MdvWin",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sprouts",
-      "Player2": "stu909090",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Funnyman31399",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sprouts",
+          "Player2": "Beekeeper",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "stu909090",
+          "Player2": "bocci",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MdvWin",
+          "Player2": "abombdiggity",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "stu909090",
+          "Player2": "Funnyman31399",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sprouts",
+          "Player2": "MdvWin",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sprouts",
+          "Player2": "stu909090",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

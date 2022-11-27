@@ -3758,48 +3758,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "lockeee",
-        "Player2": "tarkanmag",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Benitos",
-        "Player2": "Nisk_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LordEgg",
-        "Player2": "Masumaro",
-        "Result": "1-0"
-      },
-      {
-        "Player1": "frucile",
-        "Player2": "Nasty",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Benitos",
-        "Player2": "lockeee",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LordEgg",
-        "Player2": "frucile",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Benitos",
-      "Player2": "LordEgg",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "lockeee",
+          "Player2": "tarkanmag",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Benitos",
+          "Player2": "Nisk_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LordEgg",
+          "Player2": "Masumaro",
+          "Result": "1-0-0"
+        },
+        {
+          "Player1": "frucile",
+          "Player2": "Nasty",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "lockeee",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LordEgg",
+          "Player2": "frucile",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "LordEgg",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

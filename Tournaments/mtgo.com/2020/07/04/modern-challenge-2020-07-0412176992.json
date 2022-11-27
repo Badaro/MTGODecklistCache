@@ -4398,48 +4398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TSPJendrek",
-        "Player2": "Shorak123",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "A22en",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LORiWWA",
-        "Player2": "Busterbrown52",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darkiundsa",
-        "Player2": "1yo2yo",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Darkiundsa",
-        "Player2": "LORiWWA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "TSPJendrek",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ZYURYO",
-      "Player2": "Darkiundsa",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "Shorak123",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "A22en",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LORiWWA",
+          "Player2": "Busterbrown52",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darkiundsa",
+          "Player2": "1yo2yo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Darkiundsa",
+          "Player2": "LORiWWA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "TSPJendrek",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Darkiundsa",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

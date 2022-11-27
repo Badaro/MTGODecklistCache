@@ -4518,48 +4518,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "HJ_Kaiser",
-        "Player2": "Overhaul",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wara",
-        "Player2": "zebhillard",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wakarock",
-        "Player2": "YURAI-WHITECATS",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "djizma",
-        "Player2": "joker10289",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "HJ_Kaiser",
-        "Player2": "wakarock",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wara",
-        "Player2": "djizma",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "wara",
-      "Player2": "HJ_Kaiser",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "Overhaul",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wara",
+          "Player2": "zebhillard",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wakarock",
+          "Player2": "YURAI-WHITECATS",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "djizma",
+          "Player2": "joker10289",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "wakarock",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wara",
+          "Player2": "djizma",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "wara",
+          "Player2": "HJ_Kaiser",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

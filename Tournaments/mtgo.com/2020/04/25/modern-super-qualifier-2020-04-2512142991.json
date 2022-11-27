@@ -4382,48 +4382,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Blade400",
-        "Player2": "kbr3",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Naisirc",
-        "Player2": "Brener",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "quinniac",
-        "Player2": "NIMAME",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "im2g00t4ubarn",
-        "Player2": "Rhianne",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "im2g00t4ubarn",
-        "Player2": "quinniac",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Blade400",
-        "Player2": "Naisirc",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Blade400",
-      "Player2": "im2g00t4ubarn",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Blade400",
+          "Player2": "kbr3",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Naisirc",
+          "Player2": "Brener",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "quinniac",
+          "Player2": "NIMAME",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "im2g00t4ubarn",
+          "Player2": "Rhianne",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "im2g00t4ubarn",
+          "Player2": "quinniac",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Blade400",
+          "Player2": "Naisirc",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Blade400",
+          "Player2": "im2g00t4ubarn",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

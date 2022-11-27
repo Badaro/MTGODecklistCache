@@ -1390,48 +1390,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mysteryman21",
-        "Player2": "Paanika",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Fastfake",
-        "Player2": "darkuna",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gonzo_J",
-        "Player2": "AliraSirin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yzpet",
-        "Player2": "SIN",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Fastfake",
-        "Player2": "Gonzo_J",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yzpet",
-        "Player2": "mysteryman21",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "yzpet",
-      "Player2": "Fastfake",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mysteryman21",
+          "Player2": "Paanika",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Fastfake",
+          "Player2": "darkuna",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gonzo_J",
+          "Player2": "AliraSirin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yzpet",
+          "Player2": "SIN",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Fastfake",
+          "Player2": "Gonzo_J",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yzpet",
+          "Player2": "mysteryman21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "yzpet",
+          "Player2": "Fastfake",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1442,48 +1442,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Dashik",
-        "Player2": "xXGimmliXx",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "UrsaMajor",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pacoelflaco",
-        "Player2": "Edel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CReactor",
-        "Player2": "Monsieur_Verdoux",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Dashik",
-        "Player2": "CReactor",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "pacoelflaco",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Dashik",
-      "Player2": "Chefen",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Dashik",
+          "Player2": "xXGimmliXx",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "UrsaMajor",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pacoelflaco",
+          "Player2": "Edel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CReactor",
+          "Player2": "Monsieur_Verdoux",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Dashik",
+          "Player2": "CReactor",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "pacoelflaco",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Dashik",
+          "Player2": "Chefen",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

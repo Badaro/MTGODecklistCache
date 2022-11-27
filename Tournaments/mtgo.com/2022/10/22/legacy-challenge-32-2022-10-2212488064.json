@@ -4482,48 +4482,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_INF_",
-        "Player2": "ganesh_69",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Butakov",
-        "Player2": "davy2892",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Agam1985",
-        "Player2": "YukinoRin",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Baku_91",
-        "Player2": "MoMo321",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_INF_",
-        "Player2": "Butakov",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Baku_91",
-        "Player2": "Agam1985",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Baku_91",
-      "Player2": "_INF_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_INF_",
+          "Player2": "ganesh_69",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Butakov",
+          "Player2": "davy2892",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Agam1985",
+          "Player2": "YukinoRin",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Baku_91",
+          "Player2": "MoMo321",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_INF_",
+          "Player2": "Butakov",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Baku_91",
+          "Player2": "Agam1985",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Baku_91",
+          "Player2": "_INF_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

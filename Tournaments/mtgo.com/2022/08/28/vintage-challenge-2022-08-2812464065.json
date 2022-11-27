@@ -5850,48 +5850,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Nerdkneereape",
-        "Player2": "kasa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hopeof130",
-        "Player2": "ecobaronen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Butakov",
-        "Player2": "KingHairy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sarlanga",
-        "Player2": "NooxTom",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sarlanga",
-        "Player2": "Nerdkneereape",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Butakov",
-        "Player2": "hopeof130",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Butakov",
-      "Player2": "Sarlanga",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Nerdkneereape",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hopeof130",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Butakov",
+          "Player2": "KingHairy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sarlanga",
+          "Player2": "NooxTom",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sarlanga",
+          "Player2": "Nerdkneereape",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Butakov",
+          "Player2": "hopeof130",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Butakov",
+          "Player2": "Sarlanga",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

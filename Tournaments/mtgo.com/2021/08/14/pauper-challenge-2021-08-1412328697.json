@@ -3694,48 +3694,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Walker735",
-        "Player2": "PyotrPavel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Parallax",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mamah",
-        "Player2": "Lintefang",
-        "Result": "1-0"
-      },
-      {
-        "Player1": "renaar",
-        "Player2": "MdvWin",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mamah",
-        "Player2": "Walker735",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Parallax",
-        "Player2": "renaar",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mamah",
-      "Player2": "Parallax",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Walker735",
+          "Player2": "PyotrPavel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Parallax",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mamah",
+          "Player2": "Lintefang",
+          "Result": "1-0-0"
+        },
+        {
+          "Player1": "renaar",
+          "Player2": "MdvWin",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mamah",
+          "Player2": "Walker735",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Parallax",
+          "Player2": "renaar",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mamah",
+          "Player2": "Parallax",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

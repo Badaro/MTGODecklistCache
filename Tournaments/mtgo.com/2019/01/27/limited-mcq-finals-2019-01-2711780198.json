@@ -1306,48 +1306,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "tothelimit",
-        "Player2": "Spiraling",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ruiner",
-        "Player2": "Nulyan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "im2g00t4ubarn",
-        "Player2": "freeonlinemagic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "AHammer",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "im2g00t4ubarn",
-        "Player2": "tothelimit",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "Ruiner",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "JMM",
-      "Player2": "im2g00t4ubarn",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "tothelimit",
+          "Player2": "Spiraling",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ruiner",
+          "Player2": "Nulyan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "im2g00t4ubarn",
+          "Player2": "freeonlinemagic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "AHammer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "im2g00t4ubarn",
+          "Player2": "tothelimit",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "Ruiner",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JMM",
+          "Player2": "im2g00t4ubarn",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

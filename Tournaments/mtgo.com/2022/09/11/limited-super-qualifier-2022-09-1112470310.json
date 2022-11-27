@@ -1365,48 +1365,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MentalMisstep",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "Zach_Dubin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "chalobisbal",
-        "Player2": "Durrrr89",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "Veveil",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Patxi",
-        "Player2": "MentalMisstep",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "chalobisbal",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Chefen",
-      "Player2": "Patxi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MentalMisstep",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "Zach_Dubin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "chalobisbal",
+          "Player2": "Durrrr89",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "Veveil",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Patxi",
+          "Player2": "MentalMisstep",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "chalobisbal",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Chefen",
+          "Player2": "Patxi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

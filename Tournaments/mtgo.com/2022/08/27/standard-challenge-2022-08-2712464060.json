@@ -3682,48 +3682,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Malowless",
-        "Player2": "_Shatun_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "msskinbolic",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "milikin",
-        "Player2": "cftsoc3",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Malowless",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "milikin",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "milikin",
-      "Player2": "Malowless",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Malowless",
+          "Player2": "_Shatun_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "msskinbolic",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "milikin",
+          "Player2": "cftsoc3",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Malowless",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "milikin",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "milikin",
+          "Player2": "Malowless",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

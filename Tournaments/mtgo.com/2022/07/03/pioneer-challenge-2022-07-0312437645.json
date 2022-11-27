@@ -4182,48 +4182,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wkmidori",
-        "Player2": "Ladon",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "Raest",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FishMasterino",
-        "Player2": "tarkanmag",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AliEnWaRe_",
-        "Player2": "pepeteam",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "AliEnWaRe_",
-        "Player2": "FishMasterino",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "wkmidori",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MJ_23",
-      "Player2": "AliEnWaRe_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wkmidori",
+          "Player2": "Ladon",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "Raest",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FishMasterino",
+          "Player2": "tarkanmag",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AliEnWaRe_",
+          "Player2": "pepeteam",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "AliEnWaRe_",
+          "Player2": "FishMasterino",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "wkmidori",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MJ_23",
+          "Player2": "AliEnWaRe_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

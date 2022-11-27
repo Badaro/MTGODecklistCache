@@ -3858,48 +3858,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "hemiola",
-        "Player2": "solace",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_INF_",
-        "Player2": "Wizard_2002",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xwhale",
-        "Player2": "fingers1991",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "genmatsu",
-        "Player2": "SeventhProphet",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "genmatsu",
-        "Player2": "_INF_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xwhale",
-        "Player2": "hemiola",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "genmatsu",
-      "Player2": "Xwhale",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "hemiola",
+          "Player2": "solace",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_INF_",
+          "Player2": "Wizard_2002",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xwhale",
+          "Player2": "fingers1991",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "genmatsu",
+          "Player2": "SeventhProphet",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "genmatsu",
+          "Player2": "_INF_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xwhale",
+          "Player2": "hemiola",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "genmatsu",
+          "Player2": "Xwhale",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

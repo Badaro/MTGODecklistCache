@@ -3798,48 +3798,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rEPTILIUM_",
-        "Player2": "kaikalbuquerque",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "TopGrinder",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lordzedane",
-        "Player2": "JuaKi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "lindoso01",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mathonical",
-        "Player2": "Lordzedane",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "rEPTILIUM_",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "Mathonical",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rEPTILIUM_",
+          "Player2": "kaikalbuquerque",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "TopGrinder",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lordzedane",
+          "Player2": "JuaKi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "lindoso01",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "Lordzedane",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "rEPTILIUM_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "Mathonical",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

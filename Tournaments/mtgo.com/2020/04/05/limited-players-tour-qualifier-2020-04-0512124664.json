@@ -1418,48 +1418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "KelMasterP",
-        "Player2": "L1X0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FilippoK",
-        "Player2": "Benoit",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NoobPT",
-        "Player2": "mikeleee",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "beraldi",
-        "Player2": "jupiterbrando",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "FilippoK",
-        "Player2": "beraldi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NoobPT",
-        "Player2": "KelMasterP",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "FilippoK",
-      "Player2": "NoobPT",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "KelMasterP",
+          "Player2": "L1X0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FilippoK",
+          "Player2": "Benoit",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NoobPT",
+          "Player2": "mikeleee",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "beraldi",
+          "Player2": "jupiterbrando",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "FilippoK",
+          "Player2": "beraldi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NoobPT",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "FilippoK",
+          "Player2": "NoobPT",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3542,48 +3542,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GLNemesis",
-        "Player2": "_DissonancE_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Danker",
-        "Player2": "qbturtle15",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Eggydez",
-        "Player2": "Nulyan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Tia93_",
-        "Player2": "Mandark",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Danker",
-        "Player2": "_Tia93_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GLNemesis",
-        "Player2": "Eggydez",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Danker",
-      "Player2": "GLNemesis",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GLNemesis",
+          "Player2": "_DissonancE_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Danker",
+          "Player2": "qbturtle15",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Eggydez",
+          "Player2": "Nulyan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Tia93_",
+          "Player2": "Mandark",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Danker",
+          "Player2": "_Tia93_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GLNemesis",
+          "Player2": "Eggydez",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Danker",
+          "Player2": "GLNemesis",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

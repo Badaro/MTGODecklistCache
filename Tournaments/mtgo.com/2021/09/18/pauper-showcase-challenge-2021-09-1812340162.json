@@ -3762,48 +3762,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "roter_Erzengel",
-        "Player2": "stainerson",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Miyazono",
-        "Player2": "Backoff",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "insidemtg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "barff",
-        "Player2": "moyashi0904",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "roter_Erzengel",
-        "Player2": "Beenew",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "barff",
-        "Player2": "Miyazono",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "roter_Erzengel",
-      "Player2": "barff",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "roter_Erzengel",
+          "Player2": "stainerson",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Miyazono",
+          "Player2": "Backoff",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "insidemtg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "barff",
+          "Player2": "moyashi0904",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "roter_Erzengel",
+          "Player2": "Beenew",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "barff",
+          "Player2": "Miyazono",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "roter_Erzengel",
+          "Player2": "barff",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

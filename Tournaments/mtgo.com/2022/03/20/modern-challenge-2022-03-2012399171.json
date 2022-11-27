@@ -4462,48 +4462,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PlaytoNguyen",
-        "Player2": "helvetti",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "ginp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "keeline",
-        "Player2": "Bomboleriot",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "gurig",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "keeline",
-        "Player2": "PlaytoNguyen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "WaToO",
-      "Player2": "keeline",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PlaytoNguyen",
+          "Player2": "helvetti",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "ginp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "keeline",
+          "Player2": "Bomboleriot",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "gurig",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "keeline",
+          "Player2": "PlaytoNguyen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "WaToO",
+          "Player2": "keeline",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1410,48 +1410,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "sokos13",
-        "Player2": "mengfanxuan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kaitsail",
-        "Player2": "Jaberwocki",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sahakvic",
-        "Player2": "nathansteuer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wolperd",
-        "Player2": "utared",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kaitsail",
-        "Player2": "wolperd",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sahakvic",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kaitsail",
-      "Player2": "Sahakvic",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "sokos13",
+          "Player2": "mengfanxuan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kaitsail",
+          "Player2": "Jaberwocki",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sahakvic",
+          "Player2": "nathansteuer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wolperd",
+          "Player2": "utared",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kaitsail",
+          "Player2": "wolperd",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sahakvic",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kaitsail",
+          "Player2": "Sahakvic",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

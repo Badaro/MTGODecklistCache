@@ -4378,48 +4378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JB2002",
-        "Player2": "signblindman",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TSPJendrek",
-        "Player2": "AstralPlane",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Blitzlion27",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Yanti",
-        "Player2": "SvenSvenSven",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TSPJendrek",
-        "Player2": "JB2002",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Yanti",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "TSPJendrek",
-      "Player2": "ZYURYO",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JB2002",
+          "Player2": "signblindman",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "AstralPlane",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Blitzlion27",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Yanti",
+          "Player2": "SvenSvenSven",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "JB2002",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Yanti",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "ZYURYO",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

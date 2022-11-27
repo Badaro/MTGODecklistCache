@@ -4378,48 +4378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "pancake_sock",
-        "Player2": "remf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "timmytron",
-        "Player2": "Lein_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "Icywolf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kengur",
-        "Player2": "victorroatt",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "pancake_sock",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kengur",
-        "Player2": "timmytron",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Tunaktunak",
-      "Player2": "Kengur",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "pancake_sock",
+          "Player2": "remf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "timmytron",
+          "Player2": "Lein_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "Icywolf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kengur",
+          "Player2": "victorroatt",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "pancake_sock",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kengur",
+          "Player2": "timmytron",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "Kengur",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

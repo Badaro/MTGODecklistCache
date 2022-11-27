@@ -3798,48 +3798,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "azatoyellow",
-        "Player2": "mRichi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_alice1986_",
-        "Player2": "MarySue",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Searzist",
-        "Player2": "ruin000",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rastaf",
-        "Player2": "-=Alfa=-",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "azatoyellow",
-        "Player2": "rastaf",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Searzist",
-        "Player2": "_alice1986_",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "azatoyellow",
-      "Player2": "Searzist",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "azatoyellow",
+          "Player2": "mRichi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_alice1986_",
+          "Player2": "MarySue",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Searzist",
+          "Player2": "ruin000",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rastaf",
+          "Player2": "-=Alfa=-",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "azatoyellow",
+          "Player2": "rastaf",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Searzist",
+          "Player2": "_alice1986_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "azatoyellow",
+          "Player2": "Searzist",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

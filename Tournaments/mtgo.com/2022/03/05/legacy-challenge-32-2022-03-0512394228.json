@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Byvci",
-        "Player2": "DemonicTutors",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "aurose121",
-        "Player2": "Krazylawlko",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "aslidsiksoraksi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ht991122",
-        "Player2": "SAWATARIX",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ht991122",
-        "Player2": "aurose121",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "Byvci",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ht991122",
-      "Player2": "Diem4x",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Byvci",
+          "Player2": "DemonicTutors",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "aurose121",
+          "Player2": "Krazylawlko",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "aslidsiksoraksi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ht991122",
+          "Player2": "SAWATARIX",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ht991122",
+          "Player2": "aurose121",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "Byvci",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ht991122",
+          "Player2": "Diem4x",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

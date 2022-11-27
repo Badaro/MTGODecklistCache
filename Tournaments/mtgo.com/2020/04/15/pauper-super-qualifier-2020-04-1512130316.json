@@ -3866,48 +3866,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "willoneil",
-        "Player2": "hoku-hawkman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ElYallo",
-        "Player2": "AndyAWKWARD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Raptor56",
-        "Player2": "pepeisra",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_ZodiaK",
-        "Player2": "Boin",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "willoneil",
-        "Player2": "_ZodiaK",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElYallo",
-        "Player2": "Raptor56",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ElYallo",
-      "Player2": "willoneil",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "willoneil",
+          "Player2": "hoku-hawkman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ElYallo",
+          "Player2": "AndyAWKWARD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Raptor56",
+          "Player2": "pepeisra",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_ZodiaK",
+          "Player2": "Boin",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "willoneil",
+          "Player2": "_ZodiaK",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElYallo",
+          "Player2": "Raptor56",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ElYallo",
+          "Player2": "willoneil",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

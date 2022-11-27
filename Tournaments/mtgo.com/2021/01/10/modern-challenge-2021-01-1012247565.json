@@ -4194,48 +4194,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "Mazzu93",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "Mateusf34",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "B1gDan",
-        "Player2": "daibloXSC",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "dm95",
-        "Player2": "sokos13",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "dm95",
-        "Player2": "MaxMagicer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "B1gDan",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "remf",
-      "Player2": "dm95",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Mazzu93",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "Mateusf34",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "B1gDan",
+          "Player2": "daibloXSC",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "dm95",
+          "Player2": "sokos13",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "dm95",
+          "Player2": "MaxMagicer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "B1gDan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "remf",
+          "Player2": "dm95",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

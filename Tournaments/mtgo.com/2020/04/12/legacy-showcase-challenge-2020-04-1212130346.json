@@ -4610,48 +4610,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kanonenfutter",
-        "Player2": "Ozymandias17",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "xJCloud",
-        "Player2": "AnziD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Togno",
-        "Player2": "_goblinlackey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "fpawlusz",
-        "Player2": "fweiiin",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "fpawlusz",
-        "Player2": "xJCloud",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Togno",
-        "Player2": "Kanonenfutter",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Togno",
-      "Player2": "fpawlusz",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kanonenfutter",
+          "Player2": "Ozymandias17",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "xJCloud",
+          "Player2": "AnziD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Togno",
+          "Player2": "_goblinlackey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "fpawlusz",
+          "Player2": "fweiiin",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "fpawlusz",
+          "Player2": "xJCloud",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Togno",
+          "Player2": "Kanonenfutter",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Togno",
+          "Player2": "fpawlusz",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

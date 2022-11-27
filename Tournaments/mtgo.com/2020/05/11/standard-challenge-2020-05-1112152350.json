@@ -3610,48 +3610,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GiestOfIWin",
-        "Player2": "_alice1986_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Glacier7",
-        "Player2": "rastaf",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "James_Zhi",
-        "Player2": "Micro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DeepFryer",
-        "Player2": "napoligas",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Glacier7",
-        "Player2": "James_Zhi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DeepFryer",
-        "Player2": "GiestOfIWin",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "DeepFryer",
-      "Player2": "Glacier7",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GiestOfIWin",
+          "Player2": "_alice1986_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Glacier7",
+          "Player2": "rastaf",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "James_Zhi",
+          "Player2": "Micro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DeepFryer",
+          "Player2": "napoligas",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Glacier7",
+          "Player2": "James_Zhi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DeepFryer",
+          "Player2": "GiestOfIWin",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "DeepFryer",
+          "Player2": "Glacier7",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

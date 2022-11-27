@@ -4386,48 +4386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "CrusherBotBG",
-        "Player2": "bobthedog",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "scipios",
-        "Player2": "Sodeq",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PTarts2win",
-        "Player2": "FriskiFraska",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "swff",
-        "Player2": "ikero_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "CrusherBotBG",
-        "Player2": "PTarts2win",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "scipios",
-        "Player2": "swff",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "CrusherBotBG",
-      "Player2": "scipios",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "bobthedog",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "scipios",
+          "Player2": "Sodeq",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PTarts2win",
+          "Player2": "FriskiFraska",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "swff",
+          "Player2": "ikero_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "PTarts2win",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "scipios",
+          "Player2": "swff",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "scipios",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

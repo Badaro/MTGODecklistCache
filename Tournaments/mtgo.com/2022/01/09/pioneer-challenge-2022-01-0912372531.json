@@ -3934,48 +3934,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Harry13",
-        "Player2": "PTarts2win",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "billster47",
-        "Player2": "Veraquios",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "asnook",
-        "Player2": "wkmidori",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BlueSky92",
-        "Player2": "Ranggyu",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "Harry13",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "asnook",
-        "Player2": "BlueSky92",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "billster47",
-      "Player2": "asnook",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Harry13",
+          "Player2": "PTarts2win",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "billster47",
+          "Player2": "Veraquios",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "asnook",
+          "Player2": "wkmidori",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BlueSky92",
+          "Player2": "Ranggyu",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "Harry13",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "asnook",
+          "Player2": "BlueSky92",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "asnook",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

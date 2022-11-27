@@ -4370,48 +4370,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Carroz",
-        "Player2": "_goblinlackey",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kiyoaggro",
-        "Player2": "BrunoGuerra",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "BranzaDoppioMalto",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sprouts",
-        "Player2": "yoshiwata",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sprouts",
-        "Player2": "Carroz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "kiyoaggro",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ark4n",
-      "Player2": "Sprouts",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Carroz",
+          "Player2": "_goblinlackey",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kiyoaggro",
+          "Player2": "BrunoGuerra",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "BranzaDoppioMalto",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sprouts",
+          "Player2": "yoshiwata",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sprouts",
+          "Player2": "Carroz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "kiyoaggro",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "Sprouts",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

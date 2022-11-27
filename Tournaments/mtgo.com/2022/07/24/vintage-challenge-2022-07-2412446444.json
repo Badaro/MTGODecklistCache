@@ -5594,48 +5594,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "moon11",
-        "Player2": "_Shatun_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "discoverN",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "billsive",
-        "Player2": "Oscar_Franco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "darius89",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billsive",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "moon11",
-        "Player2": "darius89",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "billsive",
-      "Player2": "moon11",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "moon11",
+          "Player2": "_Shatun_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "billsive",
+          "Player2": "Oscar_Franco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "darius89",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "moon11",
+          "Player2": "darius89",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "moon11",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3918,48 +3918,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Boland",
-        "Player2": "MeninoNey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "mei0024",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SuperCow12653",
-        "Player2": "VictorCarvalho01",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "victorroatt",
-        "Player2": "jiaohongchen",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "SuperCow12653",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Boland",
-        "Player2": "victorroatt",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "Boland",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Boland",
+          "Player2": "MeninoNey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "mei0024",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SuperCow12653",
+          "Player2": "VictorCarvalho01",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "victorroatt",
+          "Player2": "jiaohongchen",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "SuperCow12653",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Boland",
+          "Player2": "victorroatt",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Boland",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

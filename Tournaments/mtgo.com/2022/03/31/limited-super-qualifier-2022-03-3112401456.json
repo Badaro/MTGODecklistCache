@@ -1446,48 +1446,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Saitama",
-        "Player2": "daniereski",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MagicSchild",
-        "Player2": "Marych92",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Terribad",
-        "Player2": "_against_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "reew2n",
-        "Player2": "Wasticore",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "reew2n",
-        "Player2": "MagicSchild",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Saitama",
-        "Player2": "Terribad",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Saitama",
-      "Player2": "reew2n",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Saitama",
+          "Player2": "daniereski",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MagicSchild",
+          "Player2": "Marych92",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Terribad",
+          "Player2": "_against_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "reew2n",
+          "Player2": "Wasticore",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "reew2n",
+          "Player2": "MagicSchild",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Saitama",
+          "Player2": "Terribad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Saitama",
+          "Player2": "reew2n",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

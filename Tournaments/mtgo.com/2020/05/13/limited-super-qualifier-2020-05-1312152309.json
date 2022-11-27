@@ -1386,48 +1386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Oppa",
-        "Player2": "numba0nepnoy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venomye",
-        "Player2": "ZHPY",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "drVendigo",
-        "Player2": "roter_Erzengel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Eaglov",
-        "Player2": "MCScards",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "drVendigo",
-        "Player2": "Venomye",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Eaglov",
-        "Player2": "Oppa",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Eaglov",
-      "Player2": "drVendigo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Oppa",
+          "Player2": "numba0nepnoy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venomye",
+          "Player2": "ZHPY",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "drVendigo",
+          "Player2": "roter_Erzengel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Eaglov",
+          "Player2": "MCScards",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "drVendigo",
+          "Player2": "Venomye",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Eaglov",
+          "Player2": "Oppa",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "drVendigo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

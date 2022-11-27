@@ -3850,48 +3850,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "carvs",
-        "Player2": "PauloCabral_Br",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xto2",
-        "Player2": "alex321",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Team5c",
-        "Player2": "rEPTILIUM_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "karn_90",
-        "Player2": "Mamah",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Team5c",
-        "Player2": "Xto2",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "karn_90",
-        "Player2": "carvs",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Team5c",
-      "Player2": "karn_90",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "carvs",
+          "Player2": "PauloCabral_Br",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xto2",
+          "Player2": "alex321",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Team5c",
+          "Player2": "rEPTILIUM_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "karn_90",
+          "Player2": "Mamah",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Team5c",
+          "Player2": "Xto2",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "karn_90",
+          "Player2": "carvs",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Team5c",
+          "Player2": "karn_90",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

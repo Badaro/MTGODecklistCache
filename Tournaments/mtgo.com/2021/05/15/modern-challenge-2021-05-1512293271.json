@@ -4166,48 +4166,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "cntrlfreak",
-        "Player2": "CitrusD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SimoCr",
-        "Player2": "n00bcheesepwner",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sMann2.0",
-        "Player2": "karn_90",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Heibing",
-        "Player2": "SickWorld",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "cntrlfreak",
-        "Player2": "sMann2.0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SimoCr",
-        "Player2": "Heibing",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "cntrlfreak",
-      "Player2": "SimoCr",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "cntrlfreak",
+          "Player2": "CitrusD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SimoCr",
+          "Player2": "n00bcheesepwner",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sMann2.0",
+          "Player2": "karn_90",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Heibing",
+          "Player2": "SickWorld",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "cntrlfreak",
+          "Player2": "sMann2.0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SimoCr",
+          "Player2": "Heibing",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cntrlfreak",
+          "Player2": "SimoCr",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

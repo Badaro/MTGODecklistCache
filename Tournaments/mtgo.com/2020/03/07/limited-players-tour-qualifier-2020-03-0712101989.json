@@ -1430,48 +1430,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "L1X0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ulyanov",
-        "Player2": "Gonzo_J",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "phineas99",
-        "Player2": "BananOlaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "_Falcon_",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "phineas99",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ulyanov",
-        "Player2": "Anssi A",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ulyanov",
-      "Player2": "_Batutinha_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "L1X0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ulyanov",
+          "Player2": "Gonzo_J",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "phineas99",
+          "Player2": "BananOlaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "_Falcon_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "phineas99",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ulyanov",
+          "Player2": "Anssi A",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ulyanov",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

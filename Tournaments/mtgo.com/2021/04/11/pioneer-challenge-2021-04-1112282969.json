@@ -4374,48 +4374,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wkmidori",
-        "Player2": "Zar0s",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GNT",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "Hamuda",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "BoltTheBirds",
-        "Result": "1-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "claudioh",
-        "Player2": "nathansteuer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wkmidori",
-        "Player2": "GNT",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "wkmidori",
-      "Player2": "claudioh",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wkmidori",
+          "Player2": "Zar0s",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GNT",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "BoltTheBirds",
+          "Result": "1-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "claudioh",
+          "Player2": "nathansteuer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wkmidori",
+          "Player2": "GNT",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "wkmidori",
+          "Player2": "claudioh",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

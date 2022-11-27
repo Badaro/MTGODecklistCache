@@ -1398,48 +1398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "delas0ul",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tixis",
-        "Player2": "Ignotus97",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "morticiansunion",
-        "Player2": "Enter",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Altimit",
-        "Player2": "OlonJohnson",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Tixis",
-        "Player2": "morticiansunion",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "Altimit",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "MaxMagicer",
-      "Player2": "Tixis",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "delas0ul",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tixis",
+          "Player2": "Ignotus97",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "morticiansunion",
+          "Player2": "Enter",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Altimit",
+          "Player2": "OlonJohnson",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Tixis",
+          "Player2": "morticiansunion",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Altimit",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Tixis",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1394,48 +1394,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "__Noob__",
-        "Player2": "Sir-Lucius",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Carter_",
-        "Player2": "Flingg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "drVendigo",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Davnderp",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "drVendigo",
-        "Player2": "JPA93",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Carter_",
-        "Player2": "__Noob__",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Carter_",
-      "Player2": "drVendigo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "__Noob__",
+          "Player2": "Sir-Lucius",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Carter_",
+          "Player2": "Flingg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "drVendigo",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Davnderp",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "drVendigo",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Carter_",
+          "Player2": "__Noob__",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Carter_",
+          "Player2": "drVendigo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

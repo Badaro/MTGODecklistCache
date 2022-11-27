@@ -4246,48 +4246,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "JowyCRO",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "iL_Tedesco",
-        "Player2": "Souze6",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "HNmagician",
-        "Player2": "Sanitoeter",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Bigbrownstain",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "HNmagician",
-        "Player2": "iL_Tedesco",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "Dazai",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Diem4x",
-      "Player2": "HNmagician",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "JowyCRO",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "iL_Tedesco",
+          "Player2": "Souze6",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "HNmagician",
+          "Player2": "Sanitoeter",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Bigbrownstain",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "HNmagician",
+          "Player2": "iL_Tedesco",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "HNmagician",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

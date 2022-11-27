@@ -3810,48 +3810,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LimoDrink",
-        "Player2": "DaPokpok",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_sameold",
-        "Player2": "Sperling",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "clemens268",
-        "Player2": "Xuxa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Nikito18",
-        "Player2": "klupicki",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_sameold",
-        "Player2": "LimoDrink",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Nikito18",
-        "Player2": "clemens268",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "_sameold",
-      "Player2": "Nikito18",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LimoDrink",
+          "Player2": "DaPokpok",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_sameold",
+          "Player2": "Sperling",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "clemens268",
+          "Player2": "Xuxa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Nikito18",
+          "Player2": "klupicki",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_sameold",
+          "Player2": "LimoDrink",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Nikito18",
+          "Player2": "clemens268",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_sameold",
+          "Player2": "Nikito18",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4466,48 +4466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "boytriton",
-        "Player2": "Legend_cay",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "gurig",
-        "Player2": "Xenowan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "Bob49",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "_StN_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "romanmy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "boytriton",
-        "Player2": "gurig",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "boytriton",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "boytriton",
+          "Player2": "Legend_cay",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "gurig",
+          "Player2": "Xenowan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "Bob49",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "_StN_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "romanmy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "boytriton",
+          "Player2": "gurig",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "boytriton",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

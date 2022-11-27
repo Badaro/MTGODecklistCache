@@ -3506,48 +3506,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mezzel",
-        "Player2": "carvs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bielzito",
-        "Player2": "ltbarn02",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Raptor56",
-        "Player2": "ShadowMirage",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "firstshot",
-        "Player2": "GALL",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "firstshot",
-        "Player2": "Raptor56",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mezzel",
-        "Player2": "Bielzito",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mezzel",
-      "Player2": "firstshot",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mezzel",
+          "Player2": "carvs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bielzito",
+          "Player2": "ltbarn02",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Raptor56",
+          "Player2": "ShadowMirage",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "firstshot",
+          "Player2": "GALL",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "firstshot",
+          "Player2": "Raptor56",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mezzel",
+          "Player2": "Bielzito",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mezzel",
+          "Player2": "firstshot",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

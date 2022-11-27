@@ -2862,48 +2862,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Nick_Fox",
-        "Player2": "yamakiller",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Vizzerdrix",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Pady_",
-        "Player2": "CyrusCG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Vivarus",
-        "Player2": "Naoto",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Vivarus",
-        "Player2": "Vizzerdrix",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Pady_",
-        "Player2": "Nick_Fox",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Vivarus",
-      "Player2": "_Pady_",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Nick_Fox",
+          "Player2": "yamakiller",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Vizzerdrix",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Pady_",
+          "Player2": "CyrusCG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Vivarus",
+          "Player2": "Naoto",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Vivarus",
+          "Player2": "Vizzerdrix",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Pady_",
+          "Player2": "Nick_Fox",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Vivarus",
+          "Player2": "_Pady_",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

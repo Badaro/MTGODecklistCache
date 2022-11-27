@@ -4358,48 +4358,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "RespectTheCat",
-        "Player2": "Rulleboren",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NickNorman",
-        "Player2": "Sandile",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kate_",
-        "Player2": "Laplasjan",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kate_",
-        "Player2": "NickNorman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "RespectTheCat",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ZYURYO",
-      "Player2": "Kate_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "RespectTheCat",
+          "Player2": "Rulleboren",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NickNorman",
+          "Player2": "Sandile",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kate_",
+          "Player2": "Laplasjan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kate_",
+          "Player2": "NickNorman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "RespectTheCat",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Kate_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

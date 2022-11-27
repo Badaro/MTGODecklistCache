@@ -4142,48 +4142,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "aytor_92",
-        "Player2": "SleepNowInTheFire",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Smdster",
-        "Player2": "asobius",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kaname",
-        "Player2": "_goblinlackey",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "happori",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kaname",
-        "Player2": "aytor_92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Smdster",
-        "Player2": "happori",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kaname",
-      "Player2": "Smdster",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "aytor_92",
+          "Player2": "SleepNowInTheFire",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Smdster",
+          "Player2": "asobius",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kaname",
+          "Player2": "_goblinlackey",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "happori",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kaname",
+          "Player2": "aytor_92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Smdster",
+          "Player2": "happori",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kaname",
+          "Player2": "Smdster",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

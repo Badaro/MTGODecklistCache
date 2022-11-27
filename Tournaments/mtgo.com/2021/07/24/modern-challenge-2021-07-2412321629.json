@@ -4226,48 +4226,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "Lumbersexual",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "SpiderSpace",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Stream",
-        "Player2": "ss0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Boland",
-        "Player2": "Jessazin",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "Boland",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Stream",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Stream",
-      "Player2": "Do0mSwitch",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "Lumbersexual",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "SpiderSpace",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Stream",
+          "Player2": "ss0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Boland",
+          "Player2": "Jessazin",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "Boland",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Stream",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Stream",
+          "Player2": "Do0mSwitch",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

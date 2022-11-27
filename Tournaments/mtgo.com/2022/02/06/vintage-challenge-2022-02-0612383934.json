@@ -5934,48 +5934,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wong4210",
-        "Player2": "ktmr-39",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "MandrillMan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "oosunq",
-        "Player2": "WhiTe TsaR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gaiametris",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Gaiametris",
-        "Player2": "oosunq",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wong4210",
-        "Player2": "Diem4x",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "wong4210",
-      "Player2": "Gaiametris",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wong4210",
+          "Player2": "ktmr-39",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "MandrillMan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "oosunq",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gaiametris",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Gaiametris",
+          "Player2": "oosunq",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wong4210",
+          "Player2": "Diem4x",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "wong4210",
+          "Player2": "Gaiametris",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

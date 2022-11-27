@@ -4110,48 +4110,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kaies",
-        "Player2": "AndyAWKWARD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Degan1",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "xfile",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "arturetges",
-        "Player2": "Boucha",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kaies",
-        "Player2": "arturetges",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "Degan1",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kaies",
-      "Player2": "O_danielakos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kaies",
+          "Player2": "AndyAWKWARD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Degan1",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "xfile",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "arturetges",
+          "Player2": "Boucha",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kaies",
+          "Player2": "arturetges",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "Degan1",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kaies",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

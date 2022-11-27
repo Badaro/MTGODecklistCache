@@ -3782,48 +3782,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PykaPower",
-        "Player2": "JsyvX",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "someoldguy",
-        "Player2": "PR0boszcz",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "trukanshii",
-        "Player2": "nahnahe1",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hellsau",
-        "Player2": "billster47",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hellsau",
-        "Player2": "someoldguy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PykaPower",
-        "Player2": "trukanshii",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hellsau",
-      "Player2": "PykaPower",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PykaPower",
+          "Player2": "JsyvX",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "someoldguy",
+          "Player2": "PR0boszcz",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "trukanshii",
+          "Player2": "nahnahe1",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hellsau",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hellsau",
+          "Player2": "someoldguy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PykaPower",
+          "Player2": "trukanshii",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hellsau",
+          "Player2": "PykaPower",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

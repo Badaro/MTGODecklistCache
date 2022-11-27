@@ -4190,48 +4190,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wkmidori",
-        "Player2": "FromOurGrayWalls",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "L1X0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "curekanata",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MoxSquirrel",
-        "Player2": "PTarts2win",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "remf",
-        "Player2": "MoxSquirrel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wkmidori",
-        "Player2": "duke12",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "remf",
-      "Player2": "wkmidori",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wkmidori",
+          "Player2": "FromOurGrayWalls",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "L1X0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "curekanata",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MoxSquirrel",
+          "Player2": "PTarts2win",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "remf",
+          "Player2": "MoxSquirrel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wkmidori",
+          "Player2": "duke12",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "remf",
+          "Player2": "wkmidori",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

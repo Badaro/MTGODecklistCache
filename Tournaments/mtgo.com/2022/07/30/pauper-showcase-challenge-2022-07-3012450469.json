@@ -3562,48 +3562,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kbol_",
-        "Player2": "FranMtg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "BERNASTORRES",
-        "Player2": "ElkVinci",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kirblinxy",
-        "Player2": "Xenowan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "Wizard_2002",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kbol_",
-        "Player2": "Kirblinxy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "BERNASTORRES",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kbol_",
-      "Player2": "Patxi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kbol_",
+          "Player2": "FranMtg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "BERNASTORRES",
+          "Player2": "ElkVinci",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "Xenowan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "Wizard_2002",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kbol_",
+          "Player2": "Kirblinxy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "BERNASTORRES",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kbol_",
+          "Player2": "Patxi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

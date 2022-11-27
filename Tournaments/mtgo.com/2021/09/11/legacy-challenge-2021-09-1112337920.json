@@ -4330,48 +4330,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "into_play",
-        "Player2": "Bohnz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oceansoul92",
-        "Player2": "SpiRitc",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SAWATARIX",
-        "Player2": "Ozymandias17",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "snoopy-magic",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Oceansoul92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SAWATARIX",
-        "Player2": "into_play",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "SAWATARIX",
-      "Player2": "ZYURYO",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "into_play",
+          "Player2": "Bohnz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "SpiRitc",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "Ozymandias17",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "snoopy-magic",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Oceansoul92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "into_play",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

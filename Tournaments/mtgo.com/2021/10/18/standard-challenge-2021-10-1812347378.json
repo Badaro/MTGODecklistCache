@@ -3598,48 +3598,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LukasDusek",
-        "Player2": "BLJ",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "VipexX",
-        "Player2": "_Falcon_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cftsoc3",
-        "Player2": "Gul_Dukat",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "lazerbeam",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "cftsoc3",
-        "Player2": "LukasDusek",
-        "Result": "1-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "VipexX",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "O_danielakos",
-      "Player2": "cftsoc3",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LukasDusek",
+          "Player2": "BLJ",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "VipexX",
+          "Player2": "_Falcon_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cftsoc3",
+          "Player2": "Gul_Dukat",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "lazerbeam",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "cftsoc3",
+          "Player2": "LukasDusek",
+          "Result": "1-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "VipexX",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "O_danielakos",
+          "Player2": "cftsoc3",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

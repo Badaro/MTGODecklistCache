@@ -1390,48 +1390,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Eaglov",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "daniereski",
-        "Player2": "qbturtle15",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kudo355",
-        "Player2": "Gernardi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TheNutLo",
-        "Player2": "Wirecat",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Eaglov",
-        "Player2": "TheNutLo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "daniereski",
-        "Player2": "Kudo355",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "daniereski",
-      "Player2": "Eaglov",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "daniereski",
+          "Player2": "qbturtle15",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kudo355",
+          "Player2": "Gernardi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TheNutLo",
+          "Player2": "Wirecat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "TheNutLo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "daniereski",
+          "Player2": "Kudo355",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "daniereski",
+          "Player2": "Eaglov",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

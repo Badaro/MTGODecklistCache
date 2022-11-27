@@ -1370,48 +1370,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ElPacoLoco",
-        "Player2": "JoseCabezas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kbzx",
-        "Player2": "WillyBlake",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "Psycho8",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sir-Lucius",
-        "Player2": "Jaya BaIlard",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kbzx",
-        "Player2": "KO_Mak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElPacoLoco",
-        "Player2": "Sir-Lucius",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kbzx",
-      "Player2": "ElPacoLoco",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ElPacoLoco",
+          "Player2": "JoseCabezas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kbzx",
+          "Player2": "WillyBlake",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "Psycho8",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sir-Lucius",
+          "Player2": "Jaya BaIlard",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kbzx",
+          "Player2": "KO_Mak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElPacoLoco",
+          "Player2": "Sir-Lucius",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kbzx",
+          "Player2": "ElPacoLoco",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

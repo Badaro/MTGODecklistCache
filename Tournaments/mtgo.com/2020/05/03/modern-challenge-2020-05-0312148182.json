@@ -4198,48 +4198,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "patheus_84",
-        "Player2": "SknerusMcKwacz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ColletClow",
-        "Player2": "tabulartony1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Adam_Hen",
-        "Player2": "Kenzaburo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gsy",
-        "Player2": "Larry11",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "patheus_84",
-        "Player2": "ColletClow",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Adam_Hen",
-        "Player2": "Gsy",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "patheus_84",
-      "Player2": "Adam_Hen",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "patheus_84",
+          "Player2": "SknerusMcKwacz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ColletClow",
+          "Player2": "tabulartony1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Adam_Hen",
+          "Player2": "Kenzaburo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gsy",
+          "Player2": "Larry11",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "patheus_84",
+          "Player2": "ColletClow",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Adam_Hen",
+          "Player2": "Gsy",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "patheus_84",
+          "Player2": "Adam_Hen",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

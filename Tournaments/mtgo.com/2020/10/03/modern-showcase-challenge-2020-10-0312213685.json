@@ -4202,48 +4202,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "__BMJ__",
-        "Player2": "audio336",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "starfall",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "moyashi0904",
-        "Player2": "Parrit",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Frejat",
-        "Player2": "TrueHero",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Frejat",
-        "Player2": "moyashi0904",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "__BMJ__",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "D00mwake",
-      "Player2": "Frejat",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "__BMJ__",
+          "Player2": "audio336",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "starfall",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "moyashi0904",
+          "Player2": "Parrit",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Frejat",
+          "Player2": "TrueHero",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Frejat",
+          "Player2": "moyashi0904",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "__BMJ__",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "D00mwake",
+          "Player2": "Frejat",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

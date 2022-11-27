@@ -4178,48 +4178,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Talisker",
-        "Player2": "kanister",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "An_Actual_Potato",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "Mateusf34",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mcwright_",
-        "Player2": "Hamuda",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "claudioh",
-        "Player2": "mcwright_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "Talisker",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Diem4x",
-      "Player2": "claudioh",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Talisker",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "An_Actual_Potato",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "Mateusf34",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mcwright_",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "claudioh",
+          "Player2": "mcwright_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "Talisker",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "claudioh",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

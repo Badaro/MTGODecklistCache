@@ -6078,48 +6078,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jaredallsop619",
-        "Player2": "HouseOfManaMTG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "RespectTheCat",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hopeof130",
-        "Player2": "zhinonono",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Wyjx",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "hopeof130",
-        "Player2": "jaredallsop619",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Dazai",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "hopeof130",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jaredallsop619",
+          "Player2": "HouseOfManaMTG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "RespectTheCat",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hopeof130",
+          "Player2": "zhinonono",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Wyjx",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "hopeof130",
+          "Player2": "jaredallsop619",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "hopeof130",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

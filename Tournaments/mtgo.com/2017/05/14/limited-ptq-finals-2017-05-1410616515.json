@@ -1382,48 +1382,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TheFrog2",
-        "Player2": "Iziter",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DarkestMage",
-        "Player2": "ChildOfAlara7",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Snuck",
-        "Player2": "JasonA",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mtgohulk",
-        "Player2": "Fushinopanic",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "DarkestMage",
-        "Player2": "TheFrog2",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Snuck",
-        "Player2": "mtgohulk",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Snuck",
-      "Player2": "DarkestMage",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TheFrog2",
+          "Player2": "Iziter",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DarkestMage",
+          "Player2": "ChildOfAlara7",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Snuck",
+          "Player2": "JasonA",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mtgohulk",
+          "Player2": "Fushinopanic",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "DarkestMage",
+          "Player2": "TheFrog2",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Snuck",
+          "Player2": "mtgohulk",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Snuck",
+          "Player2": "DarkestMage",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

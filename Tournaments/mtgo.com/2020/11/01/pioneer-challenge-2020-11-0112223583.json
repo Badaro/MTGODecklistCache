@@ -4154,48 +4154,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "McWinSauce",
-        "Player2": "darius89",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xwhale",
-        "Player2": "KarnageKardsENT",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "canepis16",
-        "Player2": "AlfredoTorres",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aardos",
-        "Player2": "murilobds",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "canepis16",
-        "Player2": "Aardos",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xwhale",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "canepis16",
-      "Player2": "Xwhale",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "McWinSauce",
+          "Player2": "darius89",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xwhale",
+          "Player2": "KarnageKardsENT",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "canepis16",
+          "Player2": "AlfredoTorres",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aardos",
+          "Player2": "murilobds",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "canepis16",
+          "Player2": "Aardos",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xwhale",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "canepis16",
+          "Player2": "Xwhale",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1442,48 +1442,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SCNA",
-        "Player2": "nekoyanagi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "juggler314",
-        "Player2": "Manipulate",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FilippoK",
-        "Player2": "asura4",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Adam_Hen",
-        "Player2": "nilemsaile",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "juggler314",
-        "Player2": "SCNA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Adam_Hen",
-        "Player2": "FilippoK",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "juggler314",
-      "Player2": "Adam_Hen",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SCNA",
+          "Player2": "nekoyanagi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "juggler314",
+          "Player2": "Manipulate",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FilippoK",
+          "Player2": "asura4",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Adam_Hen",
+          "Player2": "nilemsaile",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "juggler314",
+          "Player2": "SCNA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Adam_Hen",
+          "Player2": "FilippoK",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "juggler314",
+          "Player2": "Adam_Hen",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

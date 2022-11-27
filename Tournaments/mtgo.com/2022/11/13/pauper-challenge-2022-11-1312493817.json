@@ -3530,48 +3530,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gift_given",
-        "Player2": "Rilay",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mahers",
-        "Player2": "aarong",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "INSIST",
-        "Player2": "SpockVidaLoka",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "swiftwarkite2",
-        "Player2": "Chemist1234",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mahers",
-        "Player2": "swiftwarkite2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gift_given",
-        "Player2": "INSIST",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mahers",
-      "Player2": "Gift_given",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gift_given",
+          "Player2": "Rilay",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mahers",
+          "Player2": "aarong",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "INSIST",
+          "Player2": "SpockVidaLoka",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "swiftwarkite2",
+          "Player2": "Chemist1234",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mahers",
+          "Player2": "swiftwarkite2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gift_given",
+          "Player2": "INSIST",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mahers",
+          "Player2": "Gift_given",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

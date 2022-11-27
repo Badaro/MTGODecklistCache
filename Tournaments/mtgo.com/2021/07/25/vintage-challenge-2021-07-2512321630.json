@@ -5422,48 +5422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "SenpaiBlank",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "notmi",
-        "Player2": "kasa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Punchilleno",
-        "Player2": "_INF_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "shir kahn",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Punchilleno",
-        "Player2": "notmi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Beenew",
-      "Player2": "Punchilleno",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "SenpaiBlank",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "notmi",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Punchilleno",
+          "Player2": "_INF_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "shir kahn",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Punchilleno",
+          "Player2": "notmi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Beenew",
+          "Player2": "Punchilleno",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

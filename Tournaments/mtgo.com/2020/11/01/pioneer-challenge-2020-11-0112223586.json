@@ -3962,48 +3962,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AlfredoTorres",
-        "Player2": "bnpbnp",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ColdPier",
-        "Player2": "Yilimitado",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bielzito",
-        "Player2": "kvza",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ekeross",
-        "Player2": "__matsugan",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ekeross",
-        "Player2": "Bielzito",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ColdPier",
-        "Player2": "AlfredoTorres",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "ColdPier",
-      "Player2": "Ekeross",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AlfredoTorres",
+          "Player2": "bnpbnp",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ColdPier",
+          "Player2": "Yilimitado",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bielzito",
+          "Player2": "kvza",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ekeross",
+          "Player2": "__matsugan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ekeross",
+          "Player2": "Bielzito",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ColdPier",
+          "Player2": "AlfredoTorres",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ColdPier",
+          "Player2": "Ekeross",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

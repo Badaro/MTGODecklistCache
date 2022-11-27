@@ -4294,48 +4294,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mot88",
-        "Player2": "trader08111",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chipsoss",
-        "Player2": "_Stream",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kurusu",
-        "Player2": "justinlieberman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hoveydw",
-        "Player2": "pmk",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kurusu",
-        "Player2": "hoveydw",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mot88",
-        "Player2": "Chipsoss",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kurusu",
-      "Player2": "mot88",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mot88",
+          "Player2": "trader08111",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chipsoss",
+          "Player2": "_Stream",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kurusu",
+          "Player2": "justinlieberman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hoveydw",
+          "Player2": "pmk",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kurusu",
+          "Player2": "hoveydw",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mot88",
+          "Player2": "Chipsoss",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kurusu",
+          "Player2": "mot88",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

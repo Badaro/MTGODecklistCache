@@ -5314,48 +5314,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Wizard_2002",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aylett",
-        "Player2": "CodeProvider",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lampalot",
-        "Player2": "Dazai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "S_P_O",
-        "Player2": "discoverN",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "lampalot",
-        "Player2": "Wizard_2002",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "S_P_O",
-        "Player2": "Aylett",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "lampalot",
-      "Player2": "S_P_O",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Wizard_2002",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aylett",
+          "Player2": "CodeProvider",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lampalot",
+          "Player2": "Dazai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "S_P_O",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "lampalot",
+          "Player2": "Wizard_2002",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "S_P_O",
+          "Player2": "Aylett",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "lampalot",
+          "Player2": "S_P_O",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

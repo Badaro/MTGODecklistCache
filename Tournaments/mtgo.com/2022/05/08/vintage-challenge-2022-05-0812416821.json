@@ -5674,48 +5674,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wong4210",
-        "Player2": "Sahakvic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MissTrigger",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Thomas_Serra",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sixmp",
-        "Player2": "SenpaiBlank",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "sixmp",
-        "Player2": "MissTrigger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wong4210",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "sixmp",
-      "Player2": "wong4210",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wong4210",
+          "Player2": "Sahakvic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MissTrigger",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Thomas_Serra",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sixmp",
+          "Player2": "SenpaiBlank",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "sixmp",
+          "Player2": "MissTrigger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wong4210",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "sixmp",
+          "Player2": "wong4210",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

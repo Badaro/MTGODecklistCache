@@ -3874,48 +3874,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Hrymfaxe",
-        "Player2": "CinderDX",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beicodegeia",
-        "Player2": "Oscar_Franco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "John1111",
-        "Player2": "Usama96",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Beicodegeia",
-        "Player2": "Hrymfaxe",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "John1111",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "mlovbo",
-      "Player2": "Beicodegeia",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Hrymfaxe",
+          "Player2": "CinderDX",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beicodegeia",
+          "Player2": "Oscar_Franco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "John1111",
+          "Player2": "Usama96",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Beicodegeia",
+          "Player2": "Hrymfaxe",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "John1111",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "Beicodegeia",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

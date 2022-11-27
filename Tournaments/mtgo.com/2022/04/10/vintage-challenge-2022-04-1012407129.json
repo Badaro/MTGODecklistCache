@@ -6286,48 +6286,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Condescend",
-        "Player2": "Dazai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SenpaiBlank",
-        "Player2": "ReneRandrup",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tw33Ty",
-        "Player2": "Call1Me1Dragon",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sprouts",
-        "Player2": "Falkoneye",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sprouts",
-        "Player2": "SenpaiBlank",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tw33Ty",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sprouts",
-      "Player2": "Tw33Ty",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Condescend",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SenpaiBlank",
+          "Player2": "ReneRandrup",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tw33Ty",
+          "Player2": "Call1Me1Dragon",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sprouts",
+          "Player2": "Falkoneye",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sprouts",
+          "Player2": "SenpaiBlank",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tw33Ty",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sprouts",
+          "Player2": "Tw33Ty",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5650,48 +5650,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "infant_no_1",
-        "Player2": "albertoSD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "markdm",
-        "Player2": "MindOfAKid",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "leeties",
-        "Player2": "Thiim",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Montolio",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "leeties",
-        "Player2": "infant_no_1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "markdm",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "leeties",
-      "Player2": "kasa",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "infant_no_1",
+          "Player2": "albertoSD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "markdm",
+          "Player2": "MindOfAKid",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "leeties",
+          "Player2": "Thiim",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Montolio",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "leeties",
+          "Player2": "infant_no_1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "markdm",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "leeties",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1374,48 +1374,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Aardos",
-        "Player2": "Flingg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rizer",
-        "Player2": "Ahvena",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "Trebz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dreamcrusher119",
-        "Player2": "kennythepig",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Condescend",
-        "Player2": "rizer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aardos",
-        "Player2": "Dreamcrusher119",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Aardos",
-      "Player2": "Condescend",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Aardos",
+          "Player2": "Flingg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rizer",
+          "Player2": "Ahvena",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "Trebz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dreamcrusher119",
+          "Player2": "kennythepig",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Condescend",
+          "Player2": "rizer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aardos",
+          "Player2": "Dreamcrusher119",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Aardos",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

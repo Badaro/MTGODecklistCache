@@ -4354,48 +4354,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "triosk",
-        "Player2": "_Tutenji_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ConnorM426",
-        "Player2": "kanister",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MZBlazer",
-        "Player2": "Fink64",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Macklene",
-        "Player2": "moyashi0904",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ConnorM426",
-        "Player2": "triosk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MZBlazer",
-        "Player2": "Macklene",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MZBlazer",
-      "Player2": "ConnorM426",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "triosk",
+          "Player2": "_Tutenji_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ConnorM426",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MZBlazer",
+          "Player2": "Fink64",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Macklene",
+          "Player2": "moyashi0904",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ConnorM426",
+          "Player2": "triosk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MZBlazer",
+          "Player2": "Macklene",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MZBlazer",
+          "Player2": "ConnorM426",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

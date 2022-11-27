@@ -4142,48 +4142,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AnziD",
-        "Player2": "GHash77",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "into_play",
-        "Player2": "kanister",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BReal2",
-        "Player2": "CloutgoatRanger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bocci",
-        "Player2": "davy2892",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bocci",
-        "Player2": "into_play",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AnziD",
-        "Player2": "BReal2",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "AnziD",
-      "Player2": "bocci",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AnziD",
+          "Player2": "GHash77",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "into_play",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BReal2",
+          "Player2": "CloutgoatRanger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bocci",
+          "Player2": "davy2892",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bocci",
+          "Player2": "into_play",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AnziD",
+          "Player2": "BReal2",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "AnziD",
+          "Player2": "bocci",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

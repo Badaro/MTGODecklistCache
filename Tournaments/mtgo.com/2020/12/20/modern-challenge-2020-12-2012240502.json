@@ -4318,48 +4318,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Boucha",
-        "Player2": "Kurusu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "Beekeeper",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tiemuuu",
-        "Player2": "ElYallo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DenebLyrae",
-        "Player2": "Benkill",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kanister",
-        "Player2": "Tiemuuu",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Boucha",
-        "Player2": "DenebLyrae",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Boucha",
-      "Player2": "kanister",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Boucha",
+          "Player2": "Kurusu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "Beekeeper",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tiemuuu",
+          "Player2": "ElYallo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DenebLyrae",
+          "Player2": "Benkill",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "Tiemuuu",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Boucha",
+          "Player2": "DenebLyrae",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Boucha",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

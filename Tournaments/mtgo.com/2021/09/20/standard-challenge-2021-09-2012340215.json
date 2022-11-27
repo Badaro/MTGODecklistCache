@@ -3378,48 +3378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Windy514",
-        "Player2": "LukasDusek",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sapoa",
-        "Player2": "inosisisi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Karolmo",
-        "Player2": "BLJ",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "orantspro",
-        "Player2": "fingers1991",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sapoa",
-        "Player2": "Windy514",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Karolmo",
-        "Player2": "orantspro",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sapoa",
-      "Player2": "Karolmo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Windy514",
+          "Player2": "LukasDusek",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sapoa",
+          "Player2": "inosisisi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Karolmo",
+          "Player2": "BLJ",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "orantspro",
+          "Player2": "fingers1991",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sapoa",
+          "Player2": "Windy514",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Karolmo",
+          "Player2": "orantspro",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sapoa",
+          "Player2": "Karolmo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

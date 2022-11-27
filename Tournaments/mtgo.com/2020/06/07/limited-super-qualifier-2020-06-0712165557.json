@@ -1422,48 +1422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Broniak",
-        "Player2": "_Joseph_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jmaw",
-        "Player2": "TeamRevolution",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "trader08111",
-        "Player2": "kthanakit26",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "N01",
-        "Player2": "BucketofLithium",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "jmaw",
-        "Player2": "Broniak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "N01",
-        "Player2": "trader08111",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "jmaw",
-      "Player2": "N01",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Broniak",
+          "Player2": "_Joseph_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jmaw",
+          "Player2": "TeamRevolution",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "trader08111",
+          "Player2": "kthanakit26",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "N01",
+          "Player2": "BucketofLithium",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "jmaw",
+          "Player2": "Broniak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "N01",
+          "Player2": "trader08111",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "jmaw",
+          "Player2": "N01",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

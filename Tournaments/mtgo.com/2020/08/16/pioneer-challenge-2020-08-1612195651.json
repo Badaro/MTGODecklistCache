@@ -4158,48 +4158,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Patxi",
-        "Player2": "_Falcon_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beekeeper",
-        "Player2": "katuo079595",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "marolanzi",
-        "Player2": "MJ_23",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Clockwork Dean",
-        "Player2": "trukanshii",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Beekeeper",
-        "Player2": "Clockwork Dean",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "marolanzi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Patxi",
-      "Player2": "Beekeeper",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Patxi",
+          "Player2": "_Falcon_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beekeeper",
+          "Player2": "katuo079595",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "marolanzi",
+          "Player2": "MJ_23",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Clockwork Dean",
+          "Player2": "trukanshii",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Beekeeper",
+          "Player2": "Clockwork Dean",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "marolanzi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Patxi",
+          "Player2": "Beekeeper",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

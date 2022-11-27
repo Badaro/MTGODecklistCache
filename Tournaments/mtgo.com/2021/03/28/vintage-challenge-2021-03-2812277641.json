@@ -5566,48 +5566,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JUJUBEAN__2004",
-        "Player2": "SAWATARIX",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ennuixd",
-        "Player2": "Teredier",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Slasher21",
-        "Player2": "Felo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "PRGJJAR",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "duke12",
-        "Player2": "JUJUBEAN__2004",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ennuixd",
-        "Player2": "Slasher21",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "duke12",
-      "Player2": "Ennuixd",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JUJUBEAN__2004",
+          "Player2": "SAWATARIX",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ennuixd",
+          "Player2": "Teredier",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Slasher21",
+          "Player2": "Felo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "PRGJJAR",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "duke12",
+          "Player2": "JUJUBEAN__2004",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ennuixd",
+          "Player2": "Slasher21",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "duke12",
+          "Player2": "Ennuixd",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

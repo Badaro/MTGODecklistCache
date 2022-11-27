@@ -4266,48 +4266,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wakarock",
-        "Player2": "norumi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TheHamburglar",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "basuta",
-        "Player2": "into_play",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TERANO",
-        "Player2": "Reeplcheep",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TERANO",
-        "Player2": "basuta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TheHamburglar",
-        "Player2": "wakarock",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "TheHamburglar",
-      "Player2": "TERANO",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wakarock",
+          "Player2": "norumi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TheHamburglar",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "basuta",
+          "Player2": "into_play",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TERANO",
+          "Player2": "Reeplcheep",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TERANO",
+          "Player2": "basuta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TheHamburglar",
+          "Player2": "wakarock",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TheHamburglar",
+          "Player2": "TERANO",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

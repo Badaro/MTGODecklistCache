@@ -4390,48 +4390,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Swagga",
-        "Player2": "luckerdog",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "Alakai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bobthedog",
-        "Player2": "Do0mSwitch",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "Bayesta_93",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "Oscar_Franco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Swagga",
-        "Player2": "bobthedog",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "Swagga",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Swagga",
+          "Player2": "luckerdog",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "Alakai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bobthedog",
+          "Player2": "Do0mSwitch",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "Bayesta_93",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Oscar_Franco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Swagga",
+          "Player2": "bobthedog",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Swagga",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

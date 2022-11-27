@@ -4202,48 +4202,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gainsay",
-        "Player2": "Hauka",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HiKiKomoRinGo",
-        "Player2": "Daryl_Ayers",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ExisFlame",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "panoma",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "ExisFlame",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gainsay",
-        "Player2": "HiKiKomoRinGo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "JPA93",
-      "Player2": "Gainsay",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gainsay",
+          "Player2": "Hauka",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HiKiKomoRinGo",
+          "Player2": "Daryl_Ayers",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ExisFlame",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "panoma",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "ExisFlame",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gainsay",
+          "Player2": "HiKiKomoRinGo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "Gainsay",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

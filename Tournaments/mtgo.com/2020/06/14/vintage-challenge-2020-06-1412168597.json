@@ -6170,48 +6170,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "yamakiller",
-        "Player2": "Pun1sher",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ecobaronen",
-        "Player2": "leeties",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aigis",
-        "Player2": "laughingrock",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kauffj",
-        "Player2": "sliphorn",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kauffj",
-        "Player2": "ecobaronen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yamakiller",
-        "Player2": "Aigis",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kauffj",
-      "Player2": "yamakiller",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "yamakiller",
+          "Player2": "Pun1sher",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ecobaronen",
+          "Player2": "leeties",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aigis",
+          "Player2": "laughingrock",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kauffj",
+          "Player2": "sliphorn",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kauffj",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yamakiller",
+          "Player2": "Aigis",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kauffj",
+          "Player2": "yamakiller",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

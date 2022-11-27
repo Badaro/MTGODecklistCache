@@ -5690,48 +5690,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Dazai",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ecobaronen",
-        "Player2": "Beenew",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GYBA",
-        "Player2": "sixmp",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "Fnoop",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Dazai",
-        "Player2": "Vertyx_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ecobaronen",
-        "Player2": "GYBA",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Dazai",
-      "Player2": "ecobaronen",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ecobaronen",
+          "Player2": "Beenew",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GYBA",
+          "Player2": "sixmp",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "Fnoop",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "Vertyx_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ecobaronen",
+          "Player2": "GYBA",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

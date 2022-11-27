@@ -1434,48 +1434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "DavidBeaudrie",
-        "Player2": "scheidguy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NoWa1",
-        "Player2": "Kudo355",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pallpointben",
-        "Player2": "hoopyfrood2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MaCed0",
-        "Player2": "CReactor",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MaCed0",
-        "Player2": "DavidBeaudrie",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NoWa1",
-        "Player2": "pallpointben",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MaCed0",
-      "Player2": "NoWa1",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "DavidBeaudrie",
+          "Player2": "scheidguy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NoWa1",
+          "Player2": "Kudo355",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pallpointben",
+          "Player2": "hoopyfrood2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MaCed0",
+          "Player2": "CReactor",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MaCed0",
+          "Player2": "DavidBeaudrie",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NoWa1",
+          "Player2": "pallpointben",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MaCed0",
+          "Player2": "NoWa1",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

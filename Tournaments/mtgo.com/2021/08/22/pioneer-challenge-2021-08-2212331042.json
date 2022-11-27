@@ -4030,48 +4030,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "medvedev",
-        "Player2": "mei0024",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Tar_Heels_82",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LBBL",
-        "Player2": "Tatsumaki_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "melody_5233",
-        "Player2": "VenerableLammasu",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mogged",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LBBL",
-        "Player2": "melody_5233",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "LBBL",
-      "Player2": "Mogged",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "medvedev",
+          "Player2": "mei0024",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Tar_Heels_82",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LBBL",
+          "Player2": "Tatsumaki_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "melody_5233",
+          "Player2": "VenerableLammasu",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LBBL",
+          "Player2": "melody_5233",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "LBBL",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

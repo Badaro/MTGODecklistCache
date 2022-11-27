@@ -3794,48 +3794,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "luke8232",
-        "Player2": "melody_5233",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Folero",
-        "Player2": "xfile",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "cajunchicken",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "handsomePPZ",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "handsomePPZ",
-        "Player2": "Folero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "luke8232",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "handsomePPZ",
-      "Player2": "Hamuda",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "luke8232",
+          "Player2": "melody_5233",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Folero",
+          "Player2": "xfile",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "cajunchicken",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "handsomePPZ",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "handsomePPZ",
+          "Player2": "Folero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "luke8232",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "handsomePPZ",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

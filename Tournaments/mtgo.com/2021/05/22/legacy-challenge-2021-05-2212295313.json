@@ -4318,48 +4318,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LeoFa",
-        "Player2": "SAWATARIX",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hktknbr",
-        "Player2": "Testacular",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "2plus2isfive",
-        "Player2": "excel0679",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cabbatsu",
-        "Player2": "Oddball",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "cabbatsu",
-        "Player2": "2plus2isfive",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hktknbr",
-        "Player2": "LeoFa",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "hktknbr",
-      "Player2": "cabbatsu",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LeoFa",
+          "Player2": "SAWATARIX",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hktknbr",
+          "Player2": "Testacular",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "2plus2isfive",
+          "Player2": "excel0679",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cabbatsu",
+          "Player2": "Oddball",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "cabbatsu",
+          "Player2": "2plus2isfive",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hktknbr",
+          "Player2": "LeoFa",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "hktknbr",
+          "Player2": "cabbatsu",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

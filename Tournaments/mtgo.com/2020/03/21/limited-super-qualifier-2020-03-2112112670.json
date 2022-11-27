@@ -1382,48 +1382,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mudda",
-        "Player2": "THEsneakyhomunculous",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hfang1",
-        "Player2": "Jpsn54",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oppa",
-        "Player2": "jadoth",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "darkuna",
-        "Player2": "Bucknasty691989",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oppa",
-        "Player2": "Mudda",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hfang1",
-        "Player2": "darkuna",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hfang1",
-      "Player2": "Oppa",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mudda",
+          "Player2": "THEsneakyhomunculous",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hfang1",
+          "Player2": "Jpsn54",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oppa",
+          "Player2": "jadoth",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "darkuna",
+          "Player2": "Bucknasty691989",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oppa",
+          "Player2": "Mudda",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hfang1",
+          "Player2": "darkuna",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hfang1",
+          "Player2": "Oppa",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

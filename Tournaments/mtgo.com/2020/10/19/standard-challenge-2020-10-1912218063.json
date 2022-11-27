@@ -3770,48 +3770,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Terribad",
-        "Player2": "An_Actual_Potato",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phil_Ivey",
-        "Player2": "canepis16",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "telsacow",
-        "Player2": "schnda",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DrDree",
-        "Player2": "kcomedina",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "DrDree",
-        "Player2": "telsacow",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Terribad",
-        "Player2": "Phil_Ivey",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "DrDree",
-      "Player2": "Terribad",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Terribad",
+          "Player2": "An_Actual_Potato",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phil_Ivey",
+          "Player2": "canepis16",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "telsacow",
+          "Player2": "schnda",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DrDree",
+          "Player2": "kcomedina",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "DrDree",
+          "Player2": "telsacow",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Terribad",
+          "Player2": "Phil_Ivey",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "DrDree",
+          "Player2": "Terribad",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

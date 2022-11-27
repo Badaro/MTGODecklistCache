@@ -3874,44 +3874,48 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "txepi",
-        "Player2": "Icteridae",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "romerito1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AndersT",
-        "Player2": "Miharu_Fuyumiya",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LalauWBA",
-        "Player2": "dzedz_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "AndersT",
-        "Player2": "txepi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "LalauWBA",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": null
-  },
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "txepi",
+          "Player2": "Icteridae",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "romerito1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AndersT",
+          "Player2": "Miharu_Fuyumiya",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LalauWBA",
+          "Player2": "dzedz_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "AndersT",
+          "Player2": "txepi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "LalauWBA",
+          "Result": "2-1-0"
+        }
+      ]
+    }
+  ],
   "Standings": [
     {
       "Rank": 1,

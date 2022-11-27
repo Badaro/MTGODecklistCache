@@ -3886,48 +3886,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kampo",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hetare_ane",
-        "Player2": "pepeisra",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_against_",
-        "Player2": "c_is_for_cookie",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beicodegeia",
-        "Player2": "SanPop",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kampo",
-        "Player2": "_against_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beicodegeia",
-        "Player2": "hetare_ane",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Beicodegeia",
-      "Player2": "Kampo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kampo",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hetare_ane",
+          "Player2": "pepeisra",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_against_",
+          "Player2": "c_is_for_cookie",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beicodegeia",
+          "Player2": "SanPop",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kampo",
+          "Player2": "_against_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beicodegeia",
+          "Player2": "hetare_ane",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Beicodegeia",
+          "Player2": "Kampo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

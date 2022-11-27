@@ -5926,48 +5926,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JdPhoenix",
-        "Player2": "MomsBasementStreams",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sneaky homunkulus",
-        "Player2": "kasa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GGoggles",
-        "Player2": "kanister",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DontKnoxTheHustle",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JdPhoenix",
-        "Player2": "Sneaky homunkulus",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DontKnoxTheHustle",
-        "Player2": "GGoggles",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "DontKnoxTheHustle",
-      "Player2": "JdPhoenix",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JdPhoenix",
+          "Player2": "MomsBasementStreams",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sneaky homunkulus",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GGoggles",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DontKnoxTheHustle",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JdPhoenix",
+          "Player2": "Sneaky homunkulus",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DontKnoxTheHustle",
+          "Player2": "GGoggles",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "DontKnoxTheHustle",
+          "Player2": "JdPhoenix",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

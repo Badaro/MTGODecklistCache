@@ -4150,48 +4150,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Rooney56",
-        "Player2": "EdB",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lb_live",
-        "Player2": "cha21",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WhiTe TsaR",
-        "Player2": "eXavie",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "__BMJ__",
-        "Player2": "Bryant_Cook",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "WhiTe TsaR",
-        "Player2": "Rooney56",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lb_live",
-        "Player2": "__BMJ__",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "WhiTe TsaR",
-      "Player2": "lb_live",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Rooney56",
+          "Player2": "EdB",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lb_live",
+          "Player2": "cha21",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "eXavie",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "__BMJ__",
+          "Player2": "Bryant_Cook",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "Rooney56",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lb_live",
+          "Player2": "__BMJ__",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "lb_live",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

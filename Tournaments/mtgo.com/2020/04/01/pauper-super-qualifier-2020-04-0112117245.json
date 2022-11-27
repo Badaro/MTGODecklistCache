@@ -3778,48 +3778,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "quinniac",
-        "Player2": "larkblue",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Folero",
-        "Player2": "Entropy263",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CharLy",
-        "Player2": "cicciogire",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "vorg7",
-        "Player2": "Bogardan420",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "vorg7",
-        "Player2": "CharLy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Folero",
-        "Player2": "quinniac",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Folero",
-      "Player2": "vorg7",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "quinniac",
+          "Player2": "larkblue",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Folero",
+          "Player2": "Entropy263",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CharLy",
+          "Player2": "cicciogire",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "vorg7",
+          "Player2": "Bogardan420",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "vorg7",
+          "Player2": "CharLy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Folero",
+          "Player2": "quinniac",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Folero",
+          "Player2": "vorg7",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

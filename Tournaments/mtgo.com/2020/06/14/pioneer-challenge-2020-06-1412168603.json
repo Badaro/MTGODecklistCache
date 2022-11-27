@@ -3722,48 +3722,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "pproteus",
-        "Player2": "cws",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "indianpancake",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "Jackl",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "oosunq",
-        "Player2": "bntrusty14",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "indianpancake",
-        "Player2": "pproteus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "oosunq",
-        "Player2": "claudioh",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "indianpancake",
-      "Player2": "oosunq",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "pproteus",
+          "Player2": "cws",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "indianpancake",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "Jackl",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "oosunq",
+          "Player2": "bntrusty14",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "indianpancake",
+          "Player2": "pproteus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "oosunq",
+          "Player2": "claudioh",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "indianpancake",
+          "Player2": "oosunq",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

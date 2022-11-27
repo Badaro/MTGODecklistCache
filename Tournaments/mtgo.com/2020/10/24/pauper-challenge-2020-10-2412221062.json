@@ -4034,48 +4034,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Walker735",
-        "Player2": "GutoCmtt",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Calpine",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "JustFarm",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "VingadorMTG",
-        "Player2": "Backoff",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "VingadorMTG",
-        "Player2": "kasa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Walker735",
-        "Player2": "mlovbo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Walker735",
-      "Player2": "VingadorMTG",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Walker735",
+          "Player2": "GutoCmtt",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Calpine",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "JustFarm",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "VingadorMTG",
+          "Player2": "Backoff",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "VingadorMTG",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Walker735",
+          "Player2": "mlovbo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Walker735",
+          "Player2": "VingadorMTG",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

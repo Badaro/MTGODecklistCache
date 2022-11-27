@@ -3518,48 +3518,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Tixis",
-        "Player2": "Ezocratto1989",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cicciogire",
-        "Player2": "Oceansoul92",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JherjamesB",
-        "Player2": "Sti",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "INSIST",
-        "Player2": "ScreenwriterNY",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JherjamesB",
-        "Player2": "Tixis",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "INSIST",
-        "Player2": "cicciogire",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "INSIST",
-      "Player2": "JherjamesB",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Tixis",
+          "Player2": "Ezocratto1989",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cicciogire",
+          "Player2": "Oceansoul92",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JherjamesB",
+          "Player2": "Sti",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "INSIST",
+          "Player2": "ScreenwriterNY",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JherjamesB",
+          "Player2": "Tixis",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "INSIST",
+          "Player2": "cicciogire",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "INSIST",
+          "Player2": "JherjamesB",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

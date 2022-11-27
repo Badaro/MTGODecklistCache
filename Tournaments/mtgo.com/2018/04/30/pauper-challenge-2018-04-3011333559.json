@@ -3734,48 +3734,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Timcanpy",
-        "Player2": "funkydude787",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "reddybear",
-        "Player2": "pproteus",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Benitos",
-        "Player2": "Mezzel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PDX-One",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "reddybear",
-        "Player2": "Timcanpy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Benitos",
-        "Player2": "PDX-One",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "reddybear",
-      "Player2": "Benitos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Timcanpy",
+          "Player2": "funkydude787",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "reddybear",
+          "Player2": "pproteus",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Benitos",
+          "Player2": "Mezzel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PDX-One",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "reddybear",
+          "Player2": "Timcanpy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Benitos",
+          "Player2": "PDX-One",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "reddybear",
+          "Player2": "Benitos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

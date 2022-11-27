@@ -1414,48 +1414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "eragon777",
-        "Player2": "sneakattackkid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Eken.",
-        "Player2": "_IlNano_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "Dish",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Yerbamate",
-        "Player2": "trader08111",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Eken.",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Yerbamate",
-        "Player2": "eragon777",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Eken.",
-      "Player2": "Yerbamate",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "eragon777",
+          "Player2": "sneakattackkid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Eken.",
+          "Player2": "_IlNano_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "Dish",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Yerbamate",
+          "Player2": "trader08111",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Eken.",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Yerbamate",
+          "Player2": "eragon777",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Eken.",
+          "Player2": "Yerbamate",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

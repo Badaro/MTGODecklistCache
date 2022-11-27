@@ -3622,48 +3622,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "rodeo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cftsoc3",
-        "Player2": "Coly2",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kcomedina",
-        "Player2": "qbturtle15",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "cftsoc3",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "kcomedina",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gul_Dukat",
-      "Player2": "_Batutinha_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "rodeo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cftsoc3",
+          "Player2": "Coly2",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kcomedina",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "cftsoc3",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "kcomedina",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1426,48 +1426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "abelusk",
-        "Player2": "BWG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "eli12",
-        "Player2": "GMANSokol",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zyrnak",
-        "Player2": "Wyuta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hypnotoad07",
-        "Player2": "seedy_k",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Zyrnak",
-        "Player2": "abelusk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "eli12",
-        "Player2": "Hypnotoad07",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "eli12",
-      "Player2": "Zyrnak",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "abelusk",
+          "Player2": "BWG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "eli12",
+          "Player2": "GMANSokol",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zyrnak",
+          "Player2": "Wyuta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hypnotoad07",
+          "Player2": "seedy_k",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Zyrnak",
+          "Player2": "abelusk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "eli12",
+          "Player2": "Hypnotoad07",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "eli12",
+          "Player2": "Zyrnak",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5994,48 +5994,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "swengen",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Murkyblack11",
-        "Player2": "alnash",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "eh_loko",
-        "Player2": "albertoSD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "Dead_style",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hampuse1",
-        "Player2": "swengen",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Murkyblack11",
-        "Player2": "eh_loko",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Murkyblack11",
-      "Player2": "Hampuse1",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "swengen",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Murkyblack11",
+          "Player2": "alnash",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "eh_loko",
+          "Player2": "albertoSD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "Dead_style",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hampuse1",
+          "Player2": "swengen",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Murkyblack11",
+          "Player2": "eh_loko",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Murkyblack11",
+          "Player2": "Hampuse1",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

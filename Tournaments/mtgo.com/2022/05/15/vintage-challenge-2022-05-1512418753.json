@@ -5466,48 +5466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Vertyx_",
-        "Player2": "Dafne17",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Enrichetta",
-        "Player2": "fatto10",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "oosunq",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ktmr-39",
-        "Player2": "hellkito",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ktmr-39",
-        "Player2": "Enrichetta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "kanister",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Vertyx_",
-      "Player2": "ktmr-39",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Vertyx_",
+          "Player2": "Dafne17",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Enrichetta",
+          "Player2": "fatto10",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "oosunq",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ktmr-39",
+          "Player2": "hellkito",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ktmr-39",
+          "Player2": "Enrichetta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Vertyx_",
+          "Player2": "ktmr-39",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

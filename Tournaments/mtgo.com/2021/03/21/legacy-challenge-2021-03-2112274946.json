@@ -4406,48 +4406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kauffj",
-        "Player2": "Ozymandias17",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mechint",
-        "Player2": "killersuv",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPinter",
-        "Player2": "matyo804",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "EronRelentless",
-        "Player2": "MadMaxErnst",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mechint",
-        "Player2": "kauffj",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPinter",
-        "Player2": "EronRelentless",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "mechint",
-      "Player2": "JPinter",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kauffj",
+          "Player2": "Ozymandias17",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mechint",
+          "Player2": "killersuv",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPinter",
+          "Player2": "matyo804",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "EronRelentless",
+          "Player2": "MadMaxErnst",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mechint",
+          "Player2": "kauffj",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPinter",
+          "Player2": "EronRelentless",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mechint",
+          "Player2": "JPinter",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

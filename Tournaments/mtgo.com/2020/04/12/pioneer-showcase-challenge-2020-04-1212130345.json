@@ -3978,48 +3978,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rubinho_08",
-        "Player2": "Zeth4",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SourceOdin",
-        "Player2": "MEG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Madvilla1ny",
-        "Player2": "AlexFiero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "filib",
-        "Player2": "r_alloway",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rubinho_08",
-        "Player2": "Madvilla1ny",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SourceOdin",
-        "Player2": "filib",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "rubinho_08",
-      "Player2": "SourceOdin",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rubinho_08",
+          "Player2": "Zeth4",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SourceOdin",
+          "Player2": "MEG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Madvilla1ny",
+          "Player2": "AlexFiero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "filib",
+          "Player2": "r_alloway",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rubinho_08",
+          "Player2": "Madvilla1ny",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SourceOdin",
+          "Player2": "filib",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "rubinho_08",
+          "Player2": "SourceOdin",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

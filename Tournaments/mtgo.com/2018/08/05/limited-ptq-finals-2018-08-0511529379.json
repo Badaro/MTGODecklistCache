@@ -1414,48 +1414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Lilguy1991",
-        "Player2": "hzk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yashimoro",
-        "Player2": "Veveil",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BluffHappy",
-        "Player2": "Hoey07",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Pingo7637",
-        "Player2": "YoungProdigy",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yashimoro",
-        "Player2": "Lilguy1991",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "BluffHappy",
-        "Player2": "Pingo7637",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "BluffHappy",
-      "Player2": "yashimoro",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Lilguy1991",
+          "Player2": "hzk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yashimoro",
+          "Player2": "Veveil",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BluffHappy",
+          "Player2": "Hoey07",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Pingo7637",
+          "Player2": "YoungProdigy",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yashimoro",
+          "Player2": "Lilguy1991",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "BluffHappy",
+          "Player2": "Pingo7637",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "BluffHappy",
+          "Player2": "yashimoro",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

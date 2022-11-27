@@ -1426,48 +1426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "coert",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Enter",
-        "Player2": "kitchenfink",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DeepFryer",
-        "Player2": "drVendigo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "okd",
-        "Player2": "chaoscharm",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "coert",
-        "Player2": "okd",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DeepFryer",
-        "Player2": "Enter",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "coert",
-      "Player2": "DeepFryer",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "coert",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Enter",
+          "Player2": "kitchenfink",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DeepFryer",
+          "Player2": "drVendigo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "okd",
+          "Player2": "chaoscharm",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "coert",
+          "Player2": "okd",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DeepFryer",
+          "Player2": "Enter",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "coert",
+          "Player2": "DeepFryer",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

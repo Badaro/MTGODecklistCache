@@ -3850,48 +3850,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TristanJWL",
-        "Player2": "FunkiMunki",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "GoldenStateWarriors",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Dsaporito",
-        "Player2": "Daking3603",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MKC",
-        "Player2": "hiyarako",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MKC",
-        "Player2": "Dsaporito",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TristanJWL",
-        "Player2": "D00mwake",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MKC",
-      "Player2": "TristanJWL",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TristanJWL",
+          "Player2": "FunkiMunki",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "GoldenStateWarriors",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Dsaporito",
+          "Player2": "Daking3603",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MKC",
+          "Player2": "hiyarako",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MKC",
+          "Player2": "Dsaporito",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TristanJWL",
+          "Player2": "D00mwake",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MKC",
+          "Player2": "TristanJWL",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

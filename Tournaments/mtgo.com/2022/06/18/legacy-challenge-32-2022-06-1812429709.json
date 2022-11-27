@@ -4482,48 +4482,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "DominusDeus",
-        "Player2": "wara",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "tomoro3333",
-        "Player2": "fluffy21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "trunks132",
-        "Player2": "ARAPAKO",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "M0001",
-        "Player2": "nazart",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "tomoro3333",
-        "Player2": "trunks132",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DominusDeus",
-        "Player2": "M0001",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "tomoro3333",
-      "Player2": "DominusDeus",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "DominusDeus",
+          "Player2": "wara",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "tomoro3333",
+          "Player2": "fluffy21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "trunks132",
+          "Player2": "ARAPAKO",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "M0001",
+          "Player2": "nazart",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "tomoro3333",
+          "Player2": "trunks132",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DominusDeus",
+          "Player2": "M0001",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "tomoro3333",
+          "Player2": "DominusDeus",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

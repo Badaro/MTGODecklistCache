@@ -3758,48 +3758,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Condescend",
-        "Player2": "Nulyan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "billster47",
-        "Player2": "Mathonical",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "lindoso01",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "frucile",
-        "Player2": "Caleb_O",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "frucile",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "Hampuse1",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Condescend",
-      "Player2": "billster47",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Condescend",
+          "Player2": "Nulyan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "billster47",
+          "Player2": "Mathonical",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "lindoso01",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "frucile",
+          "Player2": "Caleb_O",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "frucile",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "Hampuse1",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Condescend",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

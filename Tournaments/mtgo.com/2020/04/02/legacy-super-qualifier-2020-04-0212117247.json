@@ -4566,48 +4566,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AnziD",
-        "Player2": "twin_mtg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pokemoki",
-        "Player2": "zerzab11",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Brener",
-        "Player2": "RNGspecialist",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BReal2",
-        "Player2": "yamakiller",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "BReal2",
-        "Player2": "AnziD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pokemoki",
-        "Player2": "Brener",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "pokemoki",
-      "Player2": "BReal2",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AnziD",
+          "Player2": "twin_mtg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pokemoki",
+          "Player2": "zerzab11",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Brener",
+          "Player2": "RNGspecialist",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BReal2",
+          "Player2": "yamakiller",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "BReal2",
+          "Player2": "AnziD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pokemoki",
+          "Player2": "Brener",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "pokemoki",
+          "Player2": "BReal2",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

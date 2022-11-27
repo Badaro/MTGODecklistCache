@@ -4258,48 +4258,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MTGHolic",
-        "Player2": "SeventhProphet",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chemist1234",
-        "Player2": "smile_papa4",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kokoko098",
-        "Player2": "FerMTG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "crK",
-        "Player2": "guinthos201111",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "crK",
-        "Player2": "kokoko098",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MTGHolic",
-        "Player2": "Chemist1234",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MTGHolic",
-      "Player2": "crK",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MTGHolic",
+          "Player2": "SeventhProphet",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chemist1234",
+          "Player2": "smile_papa4",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kokoko098",
+          "Player2": "FerMTG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "crK",
+          "Player2": "guinthos201111",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "crK",
+          "Player2": "kokoko098",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MTGHolic",
+          "Player2": "Chemist1234",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MTGHolic",
+          "Player2": "crK",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4386,48 +4386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "IsolatedSystem",
-        "Player2": "TrueFuturism",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mazzu93",
-        "Player2": "runkor",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "OlleR",
-        "Player2": "Ark4n",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "greenpm33",
-        "Player2": "Enrichetta",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "OlleR",
-        "Player2": "Mazzu93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "IsolatedSystem",
-        "Player2": "greenpm33",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "IsolatedSystem",
-      "Player2": "OlleR",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "IsolatedSystem",
+          "Player2": "TrueFuturism",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mazzu93",
+          "Player2": "runkor",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "OlleR",
+          "Player2": "Ark4n",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "greenpm33",
+          "Player2": "Enrichetta",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "OlleR",
+          "Player2": "Mazzu93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "IsolatedSystem",
+          "Player2": "greenpm33",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "IsolatedSystem",
+          "Player2": "OlleR",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

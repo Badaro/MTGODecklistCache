@@ -4026,48 +4026,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MJ_23",
-        "Player2": "rodeo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "romerito1",
-        "Player2": "_Tia93_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MariGrinder",
-        "Player2": "Fastfake",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "billsive",
-        "Player2": "Traft",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MariGrinder",
-        "Player2": "MJ_23",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "billsive",
-        "Player2": "romerito1",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "billsive",
-      "Player2": "MariGrinder",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MJ_23",
+          "Player2": "rodeo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "romerito1",
+          "Player2": "_Tia93_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MariGrinder",
+          "Player2": "Fastfake",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "billsive",
+          "Player2": "Traft",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MariGrinder",
+          "Player2": "MJ_23",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "billsive",
+          "Player2": "romerito1",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "MariGrinder",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

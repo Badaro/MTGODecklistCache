@@ -2058,48 +2058,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Volollo",
-        "Player2": "Sodeq",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mell0n",
-        "Player2": "LSMD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mechint",
-        "Player2": "shadow_PT",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "didoguidotti1",
-        "Player2": "SebastianStueckl",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Volollo",
-        "Player2": "mechint",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mell0n",
-        "Player2": "didoguidotti1",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "mell0n",
-      "Player2": "Volollo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Volollo",
+          "Player2": "Sodeq",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mell0n",
+          "Player2": "LSMD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mechint",
+          "Player2": "shadow_PT",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "didoguidotti1",
+          "Player2": "SebastianStueckl",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Volollo",
+          "Player2": "mechint",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mell0n",
+          "Player2": "didoguidotti1",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mell0n",
+          "Player2": "Volollo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

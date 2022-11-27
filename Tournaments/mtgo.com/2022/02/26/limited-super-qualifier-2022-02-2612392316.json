@@ -1446,48 +1446,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kihara_Works",
-        "Player2": "LigaMagicBolts",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "albertoSD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "chet186",
-        "Player2": "Slatorade",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MentalMisstep",
-        "Player2": "ucad",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "Kihara_Works",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "chet186",
-        "Player2": "MentalMisstep",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "JPA93",
-      "Player2": "chet186",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kihara_Works",
+          "Player2": "LigaMagicBolts",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "albertoSD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "chet186",
+          "Player2": "Slatorade",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MentalMisstep",
+          "Player2": "ucad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "Kihara_Works",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "chet186",
+          "Player2": "MentalMisstep",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "chet186",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

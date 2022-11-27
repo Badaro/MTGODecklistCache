@@ -3790,48 +3790,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GYBA",
-        "Player2": "ElYallo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wingsfan24",
-        "Player2": "HEROtsukai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "alemilan19",
-        "Player2": "telsacow",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "trukanshii",
-        "Player2": "Poyo_del_Mal",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "alemilan19",
-        "Player2": "trukanshii",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GYBA",
-        "Player2": "wingsfan24",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "GYBA",
-      "Player2": "alemilan19",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GYBA",
+          "Player2": "ElYallo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wingsfan24",
+          "Player2": "HEROtsukai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "alemilan19",
+          "Player2": "telsacow",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "trukanshii",
+          "Player2": "Poyo_del_Mal",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "alemilan19",
+          "Player2": "trukanshii",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GYBA",
+          "Player2": "wingsfan24",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GYBA",
+          "Player2": "alemilan19",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

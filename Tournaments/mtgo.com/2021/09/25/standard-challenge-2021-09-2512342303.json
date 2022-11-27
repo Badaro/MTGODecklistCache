@@ -3346,48 +3346,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "solomonwolf",
-        "Player2": "Coly2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LucasG1ggs",
-        "Player2": "_Falcon_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Karolmo",
-        "Player2": "beraldi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Paskardi",
-        "Player2": "telsacow",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "solomonwolf",
-        "Player2": "Paskardi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LucasG1ggs",
-        "Player2": "Karolmo",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "solomonwolf",
-      "Player2": "LucasG1ggs",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "solomonwolf",
+          "Player2": "Coly2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "_Falcon_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Karolmo",
+          "Player2": "beraldi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Paskardi",
+          "Player2": "telsacow",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "solomonwolf",
+          "Player2": "Paskardi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "Karolmo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "solomonwolf",
+          "Player2": "LucasG1ggs",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

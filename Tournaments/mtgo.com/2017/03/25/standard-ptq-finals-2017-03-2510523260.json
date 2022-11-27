@@ -3998,48 +3998,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ura_frst",
-        "Player2": "Jaberwocki",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Yuuka_Kazami",
-        "Player2": "_Stream",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kaname",
-        "Player2": "zeuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sandydogmtg",
-        "Player2": "beatles",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ura_frst",
-        "Player2": "sandydogmtg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kaname",
-        "Player2": "Yuuka_Kazami",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kaname",
-      "Player2": "ura_frst",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ura_frst",
+          "Player2": "Jaberwocki",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Yuuka_Kazami",
+          "Player2": "_Stream",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kaname",
+          "Player2": "zeuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sandydogmtg",
+          "Player2": "beatles",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ura_frst",
+          "Player2": "sandydogmtg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kaname",
+          "Player2": "Yuuka_Kazami",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kaname",
+          "Player2": "ura_frst",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

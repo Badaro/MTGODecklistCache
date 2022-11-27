@@ -4286,48 +4286,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "TennTyou",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "stonepeanut",
-        "Player2": "Searzist",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kazuga",
-        "Player2": "AlphaFrog",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "PietroSas",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "stonepeanut",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kazuga",
-        "Player2": "kanister",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "stonepeanut",
-      "Player2": "Kazuga",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "TennTyou",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "stonepeanut",
+          "Player2": "Searzist",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kazuga",
+          "Player2": "AlphaFrog",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "PietroSas",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "stonepeanut",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kazuga",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "stonepeanut",
+          "Player2": "Kazuga",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4294,48 +4294,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kanister",
-        "Player2": "Game_Night",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Numstail",
-        "Player2": "Talisker",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bob49",
-        "Player2": "Violent_Outburst",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "selesneal",
-        "Player2": "Jositoshekel",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "selesneal",
-        "Player2": "Numstail",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "Bob49",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kanister",
-      "Player2": "selesneal",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "Game_Night",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Numstail",
+          "Player2": "Talisker",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bob49",
+          "Player2": "Violent_Outburst",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "selesneal",
+          "Player2": "Jositoshekel",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "selesneal",
+          "Player2": "Numstail",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "Bob49",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "selesneal",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

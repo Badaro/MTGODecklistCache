@@ -1434,48 +1434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Allmenmustserve",
-        "Player2": "Bond2King",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Elias",
-        "Player2": "panoma",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "smother2",
-        "Player2": "El_Viejo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AKMiD",
-        "Player2": "Mazuku94",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "smother2",
-        "Player2": "Elias",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Allmenmustserve",
-        "Player2": "AKMiD",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "smother2",
-      "Player2": "Allmenmustserve",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Allmenmustserve",
+          "Player2": "Bond2King",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Elias",
+          "Player2": "panoma",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "smother2",
+          "Player2": "El_Viejo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AKMiD",
+          "Player2": "Mazuku94",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "smother2",
+          "Player2": "Elias",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Allmenmustserve",
+          "Player2": "AKMiD",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "smother2",
+          "Player2": "Allmenmustserve",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

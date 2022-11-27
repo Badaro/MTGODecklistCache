@@ -4322,48 +4322,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MM_17",
-        "Player2": "AlpInco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "karma_00",
-        "Player2": "Angers",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Killabee",
-        "Player2": "tabunghasisi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CrusherBotBG",
-        "Player2": "MissTrigger",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Killabee",
-        "Player2": "CrusherBotBG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MM_17",
-        "Player2": "karma_00",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "MM_17",
-      "Player2": "Killabee",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MM_17",
+          "Player2": "AlpInco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "karma_00",
+          "Player2": "Angers",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Killabee",
+          "Player2": "tabunghasisi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "MissTrigger",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Killabee",
+          "Player2": "CrusherBotBG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MM_17",
+          "Player2": "karma_00",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MM_17",
+          "Player2": "Killabee",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4386,48 +4386,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LucasG1ggs",
-        "Player2": "Edraros3",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "delicinha",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ivc",
-        "Player2": "Xwhale",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "INickStrad",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "LucasG1ggs",
-        "Player2": "Ivc",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "delicinha",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "LucasG1ggs",
-      "Player2": "Gul_Dukat",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "Edraros3",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "delicinha",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ivc",
+          "Player2": "Xwhale",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "INickStrad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "Ivc",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "delicinha",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "Gul_Dukat",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

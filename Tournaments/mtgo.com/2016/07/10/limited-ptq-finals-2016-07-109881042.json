@@ -1446,48 +1446,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mariklus86",
-        "Player2": "Semulin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LocrianPink",
-        "Player2": "Th00mor",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rotn",
-        "Player2": "7720",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ishul",
-        "Player2": "mightremind2",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ishul",
-        "Player2": "Mariklus86",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LocrianPink",
-        "Player2": "rotn",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "LocrianPink",
-      "Player2": "ishul",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mariklus86",
+          "Player2": "Semulin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LocrianPink",
+          "Player2": "Th00mor",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rotn",
+          "Player2": "7720",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ishul",
+          "Player2": "mightremind2",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ishul",
+          "Player2": "Mariklus86",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LocrianPink",
+          "Player2": "rotn",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "LocrianPink",
+          "Player2": "ishul",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

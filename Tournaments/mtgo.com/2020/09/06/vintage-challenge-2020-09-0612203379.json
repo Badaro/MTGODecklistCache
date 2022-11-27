@@ -5578,48 +5578,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "BERNASTORRES",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aylett",
-        "Player2": "TeamLeaderNA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "negusen",
-        "Player2": "yuurari_yuko",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "noprops",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "negusen",
-        "Player2": "BERNASTORRES",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "Aylett",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "PRGJJAR",
-      "Player2": "negusen",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "BERNASTORRES",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aylett",
+          "Player2": "TeamLeaderNA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "negusen",
+          "Player2": "yuurari_yuko",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "noprops",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "negusen",
+          "Player2": "BERNASTORRES",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "Aylett",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "negusen",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

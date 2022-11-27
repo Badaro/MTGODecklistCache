@@ -4030,48 +4030,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "Celldweller",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "zman2340",
-        "Player2": "nietzreznor",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Olivetti",
-        "Player2": "Mlgb92",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zyrnak",
-        "Player2": "Urza_Major",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Olivetti",
-        "Player2": "Zyrnak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "zman2340",
-        "Player2": "_Batutinha_",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "zman2340",
-      "Player2": "Olivetti",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "Celldweller",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "zman2340",
+          "Player2": "nietzreznor",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Olivetti",
+          "Player2": "Mlgb92",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zyrnak",
+          "Player2": "Urza_Major",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Olivetti",
+          "Player2": "Zyrnak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "zman2340",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "zman2340",
+          "Player2": "Olivetti",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

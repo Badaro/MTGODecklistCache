@@ -3978,48 +3978,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "romerito1",
-        "Player2": "remf",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Cherryxman",
-        "Player2": "mltlqur",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Golgarburr",
-        "Player2": "pacoelflaco",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tiemuuu",
-        "Player2": "Bullz0Eye",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Cherryxman",
-        "Player2": "Golgarburr",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "romerito1",
-        "Player2": "Tiemuuu",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "romerito1",
-      "Player2": "Cherryxman",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "romerito1",
+          "Player2": "remf",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Cherryxman",
+          "Player2": "mltlqur",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Golgarburr",
+          "Player2": "pacoelflaco",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tiemuuu",
+          "Player2": "Bullz0Eye",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Cherryxman",
+          "Player2": "Golgarburr",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "romerito1",
+          "Player2": "Tiemuuu",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "romerito1",
+          "Player2": "Cherryxman",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5822,48 +5822,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Etriol",
-        "Player2": "Clone9",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "JUJUBEAN__2004",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thalai",
-        "Player2": "Murkyblack11",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PsiVen",
-        "Player2": "billsive",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PsiVen",
-        "Player2": "Etriol",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thalai",
-        "Player2": "Vertyx_",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Thalai",
-      "Player2": "PsiVen",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Etriol",
+          "Player2": "Clone9",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "JUJUBEAN__2004",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thalai",
+          "Player2": "Murkyblack11",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PsiVen",
+          "Player2": "billsive",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PsiVen",
+          "Player2": "Etriol",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thalai",
+          "Player2": "Vertyx_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Thalai",
+          "Player2": "PsiVen",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

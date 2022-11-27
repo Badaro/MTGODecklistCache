@@ -3766,48 +3766,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "NoobPT",
-        "Player2": "Lollopollo2001",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Phizzle",
-        "Player2": "Bertram",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "-=Alfa=-",
-        "Player2": "Hemsley",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Thommimp",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Phizzle",
-        "Player2": "NoobPT",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thommimp",
-        "Player2": "-=Alfa=-",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Thommimp",
-      "Player2": "Phizzle",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "NoobPT",
+          "Player2": "Lollopollo2001",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Phizzle",
+          "Player2": "Bertram",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "-=Alfa=-",
+          "Player2": "Hemsley",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Thommimp",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Phizzle",
+          "Player2": "NoobPT",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thommimp",
+          "Player2": "-=Alfa=-",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Thommimp",
+          "Player2": "Phizzle",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

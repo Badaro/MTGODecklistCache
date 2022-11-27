@@ -4414,48 +4414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mei0024",
-        "Player2": "TrueHero",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "Laessoe",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "into_play",
-        "Player2": "MagicTurtle3478",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElfKid",
-        "Player2": "Pische10",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "into_play",
-        "Player2": "ElfKid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "mei0024",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "into_play",
-      "Player2": "Ark4n",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mei0024",
+          "Player2": "TrueHero",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "Laessoe",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "into_play",
+          "Player2": "MagicTurtle3478",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElfKid",
+          "Player2": "Pische10",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "into_play",
+          "Player2": "ElfKid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "mei0024",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "into_play",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

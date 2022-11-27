@@ -3834,48 +3834,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "A_AdeptoTerra",
-        "Player2": "Geme",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "dragon7k",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Dashik",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "unicornparadise",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "A_AdeptoTerra",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "dragon7k",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "dragon7k",
-      "Player2": "PRGJJAR",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "A_AdeptoTerra",
+          "Player2": "Geme",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "dragon7k",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Dashik",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "unicornparadise",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "A_AdeptoTerra",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "dragon7k",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "dragon7k",
+          "Player2": "PRGJJAR",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

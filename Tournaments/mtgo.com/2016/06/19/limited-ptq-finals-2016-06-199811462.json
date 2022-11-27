@@ -1458,48 +1458,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jacksad",
-        "Player2": "Tenshi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PL9",
-        "Player2": "edward40hands",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ValueCity",
-        "Player2": "Epattaro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "u_mad_bro",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "jacksad",
-        "Player2": "PL9",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ValueCity",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ValueCity",
-      "Player2": "jacksad",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jacksad",
+          "Player2": "Tenshi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PL9",
+          "Player2": "edward40hands",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ValueCity",
+          "Player2": "Epattaro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "u_mad_bro",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "jacksad",
+          "Player2": "PL9",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ValueCity",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ValueCity",
+          "Player2": "jacksad",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

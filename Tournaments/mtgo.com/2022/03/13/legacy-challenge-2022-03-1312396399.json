@@ -4502,48 +4502,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Bryant_Cook",
-        "Player2": "Baku_91",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GHash77",
-        "Player2": "Andreas_Mueller",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wooop_orc",
-        "Player2": "TGB12",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "2jjm",
-        "Player2": "duckduckmongoose",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "2jjm",
-        "Player2": "wooop_orc",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bryant_Cook",
-        "Player2": "GHash77",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "2jjm",
-      "Player2": "Bryant_Cook",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "Baku_91",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GHash77",
+          "Player2": "Andreas_Mueller",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wooop_orc",
+          "Player2": "TGB12",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "2jjm",
+          "Player2": "duckduckmongoose",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "2jjm",
+          "Player2": "wooop_orc",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "GHash77",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "2jjm",
+          "Player2": "Bryant_Cook",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

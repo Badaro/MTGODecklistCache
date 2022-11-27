@@ -1430,48 +1430,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "msskinbolic",
-        "Player2": "enntwo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bgv1989",
-        "Player2": "Gatol",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "suckatog",
-        "Player2": "Tschjo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "_Pain_",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "suckatog",
-        "Player2": "Anssi A",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "msskinbolic",
-        "Player2": "bgv1989",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "msskinbolic",
-      "Player2": "suckatog",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "msskinbolic",
+          "Player2": "enntwo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bgv1989",
+          "Player2": "Gatol",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "suckatog",
+          "Player2": "Tschjo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "_Pain_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "suckatog",
+          "Player2": "Anssi A",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "msskinbolic",
+          "Player2": "bgv1989",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "msskinbolic",
+          "Player2": "suckatog",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

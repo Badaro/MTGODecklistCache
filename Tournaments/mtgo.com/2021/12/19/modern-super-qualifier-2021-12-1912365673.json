@@ -4550,48 +4550,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JV_7777",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "Serguei",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Falcon_",
-        "Player2": "Tobyr6",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aegisaziz",
-        "Player2": "zachattack23",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JV_7777",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Falcon_",
-        "Player2": "Aegisaziz",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "JV_7777",
-      "Player2": "_Falcon_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JV_7777",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "Serguei",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Falcon_",
+          "Player2": "Tobyr6",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aegisaziz",
+          "Player2": "zachattack23",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JV_7777",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Falcon_",
+          "Player2": "Aegisaziz",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JV_7777",
+          "Player2": "_Falcon_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

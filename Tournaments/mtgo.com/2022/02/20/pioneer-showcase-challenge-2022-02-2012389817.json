@@ -4086,48 +4086,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "FromOurGrayWalls",
-        "Player2": "Hamuda",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "McWinSauce",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Smdster",
-        "Player2": "Coly2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Fnoop",
-        "Player2": "Powen",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Fnoop",
-        "Player2": "Tunaktunak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Smdster",
-        "Player2": "FromOurGrayWalls",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Fnoop",
-      "Player2": "Smdster",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "FromOurGrayWalls",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "McWinSauce",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Smdster",
+          "Player2": "Coly2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Fnoop",
+          "Player2": "Powen",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Fnoop",
+          "Player2": "Tunaktunak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Smdster",
+          "Player2": "FromOurGrayWalls",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Fnoop",
+          "Player2": "Smdster",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

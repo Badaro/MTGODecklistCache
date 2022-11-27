@@ -4118,48 +4118,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AlpInco",
-        "Player2": "Rotanzi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rizer",
-        "Player2": "JoseCabezas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jessy_samek",
-        "Player2": "s_b_i_r_u",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Rhynocerous",
-        "Player2": "Daryl_Ayers",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rizer",
-        "Player2": "jessy_samek",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Rhynocerous",
-        "Player2": "AlpInco",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "rizer",
-      "Player2": "Rhynocerous",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AlpInco",
+          "Player2": "Rotanzi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rizer",
+          "Player2": "JoseCabezas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jessy_samek",
+          "Player2": "s_b_i_r_u",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Rhynocerous",
+          "Player2": "Daryl_Ayers",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rizer",
+          "Player2": "jessy_samek",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Rhynocerous",
+          "Player2": "AlpInco",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "rizer",
+          "Player2": "Rhynocerous",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sorento04",
-        "Player2": "Lifeisrisk7",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Add1ct3d",
-        "Player2": "Rooney56",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "teruteru8140",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Fink64",
-        "Player2": "Lennny",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Venom1",
-        "Player2": "Add1ct3d",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sorento04",
-        "Player2": "Fink64",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Venom1",
-      "Player2": "Sorento04",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sorento04",
+          "Player2": "Lifeisrisk7",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Add1ct3d",
+          "Player2": "Rooney56",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "teruteru8140",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Fink64",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Add1ct3d",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sorento04",
+          "Player2": "Fink64",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Sorento04",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

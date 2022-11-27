@@ -3690,44 +3690,48 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PackofRats",
-        "Player2": "Mathonical",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Spencerbot15",
-        "Player2": "SuperCow12653",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "djbmppwns",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "andrw1232",
-        "Player2": "fingers1991",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "andrw1232",
-        "Player2": "PackofRats",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "Spencerbot15",
-        "Result": "1-0"
-      }
-    ],
-    "Finals": null
-  },
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PackofRats",
+          "Player2": "Mathonical",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Spencerbot15",
+          "Player2": "SuperCow12653",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "djbmppwns",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "andrw1232",
+          "Player2": "fingers1991",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "andrw1232",
+          "Player2": "PackofRats",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "Spencerbot15",
+          "Result": "1-0-0"
+        }
+      ]
+    }
+  ],
   "Standings": [
     {
       "Rank": 1,

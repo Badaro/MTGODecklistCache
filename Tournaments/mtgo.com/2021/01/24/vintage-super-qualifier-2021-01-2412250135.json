@@ -5522,48 +5522,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bozo2112",
-        "Player2": "Kazuga",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "ecobaronen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Falkoneye",
-        "Player2": "Gerschi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rooney56",
-        "Player2": "littledarwin",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Falkoneye",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Rooney56",
-        "Player2": "bozo2112",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Rooney56",
-      "Player2": "Falkoneye",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bozo2112",
+          "Player2": "Kazuga",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Falkoneye",
+          "Player2": "Gerschi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rooney56",
+          "Player2": "littledarwin",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Falkoneye",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Rooney56",
+          "Player2": "bozo2112",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Rooney56",
+          "Player2": "Falkoneye",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3618,48 +3618,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "McLovin1",
-        "Player2": "hzk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "Dartx4",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ghostiami1",
-        "Player2": "Wokattack",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mrounds1216",
-        "Player2": "daren0313",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mrounds1216",
-        "Player2": "ghostiami1",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "McLovin1",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "romanmy",
-      "Player2": "mrounds1216",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "McLovin1",
+          "Player2": "hzk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "Dartx4",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ghostiami1",
+          "Player2": "Wokattack",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mrounds1216",
+          "Player2": "daren0313",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mrounds1216",
+          "Player2": "ghostiami1",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "McLovin1",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "romanmy",
+          "Player2": "mrounds1216",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

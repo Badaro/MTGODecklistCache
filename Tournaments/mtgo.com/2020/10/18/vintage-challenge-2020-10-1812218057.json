@@ -5502,48 +5502,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Venom1",
-        "Player2": "Jadis",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yashimoro",
-        "Player2": "boose",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "illig719",
-        "Player2": "toondoslav",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CafeCafe",
-        "Player2": "Cherryxman",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yashimoro",
-        "Player2": "illig719",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "CafeCafe",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "yashimoro",
-      "Player2": "Venom1",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Jadis",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yashimoro",
+          "Player2": "boose",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "illig719",
+          "Player2": "toondoslav",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CafeCafe",
+          "Player2": "Cherryxman",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yashimoro",
+          "Player2": "illig719",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "CafeCafe",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "yashimoro",
+          "Player2": "Venom1",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

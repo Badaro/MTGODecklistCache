@@ -5462,48 +5462,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "J000111",
-        "Player2": "mac121711",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JKnecht",
-        "Player2": "n3kr0s1s",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "Lord_Beerus",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dan9IN",
-        "Player2": "aronfreyr1212",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JKnecht",
-        "Player2": "Dan9IN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "J000111",
-        "Player2": "PRGJJAR",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "JKnecht",
-      "Player2": "J000111",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "J000111",
+          "Player2": "mac121711",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JKnecht",
+          "Player2": "n3kr0s1s",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "Lord_Beerus",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dan9IN",
+          "Player2": "aronfreyr1212",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JKnecht",
+          "Player2": "Dan9IN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "J000111",
+          "Player2": "PRGJJAR",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JKnecht",
+          "Player2": "J000111",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

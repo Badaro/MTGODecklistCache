@@ -1326,48 +1326,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "drzeuss",
-        "Player2": "superstar",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Elias",
-        "Player2": "Yanatoy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "7720",
-        "Player2": "RTWolF",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "myyamagat",
-        "Player2": "qbturtle15",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "7720",
-        "Player2": "Elias",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "drzeuss",
-        "Player2": "myyamagat",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "7720",
-      "Player2": "drzeuss",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "drzeuss",
+          "Player2": "superstar",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Elias",
+          "Player2": "Yanatoy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "7720",
+          "Player2": "RTWolF",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "myyamagat",
+          "Player2": "qbturtle15",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "7720",
+          "Player2": "Elias",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "drzeuss",
+          "Player2": "myyamagat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "7720",
+          "Player2": "drzeuss",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

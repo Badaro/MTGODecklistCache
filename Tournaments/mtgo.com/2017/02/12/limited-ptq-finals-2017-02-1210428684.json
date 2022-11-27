@@ -1450,48 +1450,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "piccia1",
-        "Player2": "u_mad_bro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "fredmcfred",
-        "Player2": "bernardocssa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "biggertricks",
-        "Player2": "Gonzo_J",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "coluche",
-        "Player2": "Snuck",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "fredmcfred",
-        "Player2": "coluche",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "piccia1",
-        "Player2": "biggertricks",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "piccia1",
-      "Player2": "fredmcfred",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "piccia1",
+          "Player2": "u_mad_bro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "fredmcfred",
+          "Player2": "bernardocssa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "biggertricks",
+          "Player2": "Gonzo_J",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "coluche",
+          "Player2": "Snuck",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "fredmcfred",
+          "Player2": "coluche",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "piccia1",
+          "Player2": "biggertricks",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "piccia1",
+          "Player2": "fredmcfred",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4542,48 +4542,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "tzio",
-        "Player2": "Engelsdorfer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Arrias",
-        "Player2": "Gaudo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SoulStrong",
-        "Player2": "cigarettesaftershrek",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yriel",
-        "Player2": "Penseur",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yriel",
-        "Player2": "tzio",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Arrias",
-        "Player2": "SoulStrong",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Arrias",
-      "Player2": "yriel",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "tzio",
+          "Player2": "Engelsdorfer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Arrias",
+          "Player2": "Gaudo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SoulStrong",
+          "Player2": "cigarettesaftershrek",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yriel",
+          "Player2": "Penseur",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yriel",
+          "Player2": "tzio",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Arrias",
+          "Player2": "SoulStrong",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Arrias",
+          "Player2": "yriel",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

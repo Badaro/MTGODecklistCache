@@ -5606,48 +5606,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "NooxTom",
-        "Player2": "ElfKid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mosh110",
-        "Player2": "oosunq",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cherryxman",
-        "Player2": "AlphaBlade",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Cherryxman",
-        "Player2": "NooxTom",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "mosh110",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Cherryxman",
-      "Player2": "discoverN",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "NooxTom",
+          "Player2": "ElfKid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mosh110",
+          "Player2": "oosunq",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cherryxman",
+          "Player2": "AlphaBlade",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Cherryxman",
+          "Player2": "NooxTom",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "mosh110",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Cherryxman",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

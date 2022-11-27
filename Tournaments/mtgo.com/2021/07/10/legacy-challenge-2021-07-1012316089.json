@@ -4606,48 +4606,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ecobaronen",
-        "Player2": "dani_tb",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Griselpuff",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wiky",
-        "Player2": "azatoyellow",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MentalMisstep",
-        "Player2": "kanican",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "wiky",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ecobaronen",
-        "Player2": "MentalMisstep",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ecobaronen",
-      "Player2": "ZYURYO",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ecobaronen",
+          "Player2": "dani_tb",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Griselpuff",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wiky",
+          "Player2": "azatoyellow",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MentalMisstep",
+          "Player2": "kanican",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "wiky",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ecobaronen",
+          "Player2": "MentalMisstep",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ecobaronen",
+          "Player2": "ZYURYO",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

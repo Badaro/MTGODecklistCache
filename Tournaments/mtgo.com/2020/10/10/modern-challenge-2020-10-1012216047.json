@@ -4326,48 +4326,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Metcalf23",
-        "Player2": "TSPJendrek",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WorstNewbEver",
-        "Player2": "Munich_Casual",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "Curtisaxel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "fried-liver-attack",
-        "Player2": "jacobricher",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "fried-liver-attack",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Metcalf23",
-        "Player2": "WorstNewbEver",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Metcalf23",
-      "Player2": "Jaberwocki",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Metcalf23",
+          "Player2": "TSPJendrek",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WorstNewbEver",
+          "Player2": "Munich_Casual",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "Curtisaxel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "fried-liver-attack",
+          "Player2": "jacobricher",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "fried-liver-attack",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Metcalf23",
+          "Player2": "WorstNewbEver",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Metcalf23",
+          "Player2": "Jaberwocki",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

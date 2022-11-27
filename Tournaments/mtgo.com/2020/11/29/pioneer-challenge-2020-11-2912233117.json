@@ -4166,48 +4166,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ShowTime_",
-        "Player2": "IslandGoSAMe",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Harry13",
-        "Player2": "AlfredoTorres",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "_Caverna_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DioMagoSrl",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Harry13",
-        "Player2": "Xerk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ShowTime_",
-        "Player2": "DioMagoSrl",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "ShowTime_",
-      "Player2": "Harry13",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ShowTime_",
+          "Player2": "IslandGoSAMe",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Harry13",
+          "Player2": "AlfredoTorres",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "_Caverna_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DioMagoSrl",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Harry13",
+          "Player2": "Xerk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ShowTime_",
+          "Player2": "DioMagoSrl",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ShowTime_",
+          "Player2": "Harry13",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

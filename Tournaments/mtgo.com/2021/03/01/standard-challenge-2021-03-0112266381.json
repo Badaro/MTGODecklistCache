@@ -3586,48 +3586,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "sandydogmtg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cftsoc3",
-        "Player2": "Glacier7",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "_Batutinha_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "xfile",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "Venom1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cftsoc3",
-        "Player2": "bolov0",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "billster47",
-      "Player2": "cftsoc3",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "sandydogmtg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cftsoc3",
+          "Player2": "Glacier7",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "xfile",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "Venom1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cftsoc3",
+          "Player2": "bolov0",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "cftsoc3",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

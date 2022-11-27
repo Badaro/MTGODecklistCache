@@ -3310,48 +3310,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "oskiyaa",
-        "Player2": "Mikhathara1994",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mamah",
-        "Player2": "Xenowan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oss-28",
-        "Player2": "BERNASTORRES",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HinaHara",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oss-28",
-        "Player2": "oskiyaa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mamah",
-        "Player2": "HinaHara",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Oss-28",
-      "Player2": "Mamah",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "oskiyaa",
+          "Player2": "Mikhathara1994",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mamah",
+          "Player2": "Xenowan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oss-28",
+          "Player2": "BERNASTORRES",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HinaHara",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oss-28",
+          "Player2": "oskiyaa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mamah",
+          "Player2": "HinaHara",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oss-28",
+          "Player2": "Mamah",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

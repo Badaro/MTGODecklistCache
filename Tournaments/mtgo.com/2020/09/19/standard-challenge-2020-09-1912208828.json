@@ -3574,48 +3574,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "thinenagooyen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_LSN_",
-        "Player2": "air_vengeance",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yashimoro",
-        "Player2": "Thommimp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Terribad",
-        "Player2": "L1X0",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_LSN_",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Terribad",
-        "Player2": "yashimoro",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Terribad",
-      "Player2": "_LSN_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "thinenagooyen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_LSN_",
+          "Player2": "air_vengeance",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yashimoro",
+          "Player2": "Thommimp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Terribad",
+          "Player2": "L1X0",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_LSN_",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Terribad",
+          "Player2": "yashimoro",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Terribad",
+          "Player2": "_LSN_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

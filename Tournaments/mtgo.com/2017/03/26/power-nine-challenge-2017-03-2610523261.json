@@ -5054,48 +5054,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ravager101",
-        "Player2": "Kyle1022",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ifarnung",
-        "Player2": "pedroj",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wappla",
-        "Player2": "HeyNongMan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ZebraUnicorn",
-        "Player2": "J.A.Eliso",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "wappla",
-        "Player2": "ZebraUnicorn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ravager101",
-        "Player2": "ifarnung",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "ravager101",
-      "Player2": "wappla",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ravager101",
+          "Player2": "Kyle1022",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ifarnung",
+          "Player2": "pedroj",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wappla",
+          "Player2": "HeyNongMan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ZebraUnicorn",
+          "Player2": "J.A.Eliso",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "wappla",
+          "Player2": "ZebraUnicorn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ravager101",
+          "Player2": "ifarnung",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ravager101",
+          "Player2": "wappla",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

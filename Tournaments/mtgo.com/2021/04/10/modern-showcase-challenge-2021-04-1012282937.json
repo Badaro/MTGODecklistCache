@@ -4314,48 +4314,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Magic_Dan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Juaspas",
-        "Player2": "jvidarte",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wefoldforfood",
-        "Player2": "mala_grinja",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "wefoldforfood",
-        "Player2": "Juaspas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "wefoldforfood",
-      "Player2": "WaToO",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Magic_Dan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Juaspas",
+          "Player2": "jvidarte",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wefoldforfood",
+          "Player2": "mala_grinja",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "wefoldforfood",
+          "Player2": "Juaspas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "wefoldforfood",
+          "Player2": "WaToO",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

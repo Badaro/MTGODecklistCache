@@ -5902,48 +5902,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ChubbyRain",
-        "Player2": "HanChoBai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "albertoSD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "thepowernine",
-        "Player2": "pproteus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LordEgg",
-        "Player2": "Kikurek",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ChubbyRain",
-        "Player2": "LordEgg",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "thepowernine",
-        "Player2": "kasa",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ChubbyRain",
-      "Player2": "thepowernine",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ChubbyRain",
+          "Player2": "HanChoBai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "albertoSD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "thepowernine",
+          "Player2": "pproteus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LordEgg",
+          "Player2": "Kikurek",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ChubbyRain",
+          "Player2": "LordEgg",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "thepowernine",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ChubbyRain",
+          "Player2": "thepowernine",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

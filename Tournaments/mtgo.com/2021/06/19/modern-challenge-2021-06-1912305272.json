@@ -4250,48 +4250,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mmuck",
-        "Player2": "Manacymbal",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "sneakymisato",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "booglez",
-        "Player2": "Rakdosn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lavaridge",
-        "Player2": "RGNKPheonix20",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kanister",
-        "Player2": "booglez",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mmuck",
-        "Player2": "Lavaridge",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "mmuck",
-      "Player2": "kanister",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mmuck",
+          "Player2": "Manacymbal",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "sneakymisato",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "booglez",
+          "Player2": "Rakdosn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lavaridge",
+          "Player2": "RGNKPheonix20",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "booglez",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mmuck",
+          "Player2": "Lavaridge",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mmuck",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

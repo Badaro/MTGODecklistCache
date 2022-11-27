@@ -1362,48 +1362,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "freddy4tw",
-        "Player2": "LukasDusek",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lavaridge",
-        "Player2": "FedSmoker",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "chet186",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "UrsaMajor",
-        "Player2": "gemaide",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "UrsaMajor",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lavaridge",
-        "Player2": "freddy4tw",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "UrsaMajor",
-      "Player2": "Lavaridge",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "freddy4tw",
+          "Player2": "LukasDusek",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lavaridge",
+          "Player2": "FedSmoker",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "chet186",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "UrsaMajor",
+          "Player2": "gemaide",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "UrsaMajor",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lavaridge",
+          "Player2": "freddy4tw",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "UrsaMajor",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

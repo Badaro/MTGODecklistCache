@@ -4238,48 +4238,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LordAbyss",
-        "Player2": "Tiemuuu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rulleboren",
-        "Player2": "mechint",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "daibloXSC",
-        "Player2": "rodeo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tweedel",
-        "Player2": "RespectTheCat",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Rulleboren",
-        "Player2": "LordAbyss",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tweedel",
-        "Player2": "daibloXSC",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Tweedel",
-      "Player2": "Rulleboren",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LordAbyss",
+          "Player2": "Tiemuuu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rulleboren",
+          "Player2": "mechint",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "daibloXSC",
+          "Player2": "rodeo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tweedel",
+          "Player2": "RespectTheCat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Rulleboren",
+          "Player2": "LordAbyss",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tweedel",
+          "Player2": "daibloXSC",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Tweedel",
+          "Player2": "Rulleboren",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

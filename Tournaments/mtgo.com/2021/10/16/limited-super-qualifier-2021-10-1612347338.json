@@ -1398,48 +1398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TAMOMOMO",
-        "Player2": "Finespoo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jay44bab",
-        "Player2": "duofanel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "moyashi0904",
-        "Player2": "bo11301",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Breca",
-        "Player2": "albertoSD",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "moyashi0904",
-        "Player2": "Breca",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TAMOMOMO",
-        "Player2": "jay44bab",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "TAMOMOMO",
-      "Player2": "moyashi0904",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TAMOMOMO",
+          "Player2": "Finespoo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jay44bab",
+          "Player2": "duofanel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "moyashi0904",
+          "Player2": "bo11301",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Breca",
+          "Player2": "albertoSD",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "moyashi0904",
+          "Player2": "Breca",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TAMOMOMO",
+          "Player2": "jay44bab",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TAMOMOMO",
+          "Player2": "moyashi0904",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

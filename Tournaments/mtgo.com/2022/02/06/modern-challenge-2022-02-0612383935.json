@@ -4250,48 +4250,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "HappySandwich",
-        "Player2": "Xenowan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Delthar",
-        "Player2": "MrCafouillette",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "manoah",
-        "Player2": "Kritik",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BenjiGX",
-        "Player2": "Bob49",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "BenjiGX",
-        "Player2": "Delthar",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HappySandwich",
-        "Player2": "manoah",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "BenjiGX",
-      "Player2": "HappySandwich",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "HappySandwich",
+          "Player2": "Xenowan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Delthar",
+          "Player2": "MrCafouillette",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "manoah",
+          "Player2": "Kritik",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BenjiGX",
+          "Player2": "Bob49",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "BenjiGX",
+          "Player2": "Delthar",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HappySandwich",
+          "Player2": "manoah",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "BenjiGX",
+          "Player2": "HappySandwich",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

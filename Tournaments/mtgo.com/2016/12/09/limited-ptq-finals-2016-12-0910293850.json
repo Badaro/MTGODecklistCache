@@ -1434,48 +1434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "olimen",
-        "Player2": "Anssi A",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Misplacedginger",
-        "Player2": "floatius",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JiRock",
-        "Player2": "JoseCabezas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Wirecat",
-        "Player2": "mahonen",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Misplacedginger",
-        "Player2": "olimen",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JiRock",
-        "Player2": "Wirecat",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Misplacedginger",
-      "Player2": "JiRock",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "olimen",
+          "Player2": "Anssi A",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Misplacedginger",
+          "Player2": "floatius",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JiRock",
+          "Player2": "JoseCabezas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Wirecat",
+          "Player2": "mahonen",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Misplacedginger",
+          "Player2": "olimen",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JiRock",
+          "Player2": "Wirecat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Misplacedginger",
+          "Player2": "JiRock",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

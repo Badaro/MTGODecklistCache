@@ -4214,48 +4214,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "cws",
-        "Player2": "kthanakit26",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Snapcaster-Bolt",
-        "Player2": "NorrathDecay",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "Mussie99",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "RCMerriam",
-        "Player2": "MatiCheto",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "cws",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RCMerriam",
-        "Player2": "Snapcaster-Bolt",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "RCMerriam",
-      "Player2": "Diem4x",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "cws",
+          "Player2": "kthanakit26",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Snapcaster-Bolt",
+          "Player2": "NorrathDecay",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "Mussie99",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "RCMerriam",
+          "Player2": "MatiCheto",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "cws",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RCMerriam",
+          "Player2": "Snapcaster-Bolt",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "RCMerriam",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3382,48 +3382,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Matti",
-        "Player2": "Butakov",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cha21",
-        "Player2": "Se8",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "CachorroDelMal",
-        "Player2": "TiuTangClan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sneaky robot",
-        "Player2": "u_mad_bro",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "sneaky robot",
-        "Player2": "CachorroDelMal",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Matti",
-        "Player2": "cha21",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Matti",
-      "Player2": "sneaky robot",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Matti",
+          "Player2": "Butakov",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cha21",
+          "Player2": "Se8",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "CachorroDelMal",
+          "Player2": "TiuTangClan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sneaky robot",
+          "Player2": "u_mad_bro",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "sneaky robot",
+          "Player2": "CachorroDelMal",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Matti",
+          "Player2": "cha21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Matti",
+          "Player2": "sneaky robot",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

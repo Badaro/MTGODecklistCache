@@ -5482,48 +5482,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Thalai",
-        "Player2": "TrueHero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aylett",
-        "Player2": "Eaglov",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TeamLeaderNA",
-        "Player2": "sixmp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Fnoop",
-        "Player2": "Lavaridge",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TeamLeaderNA",
-        "Player2": "Fnoop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aylett",
-        "Player2": "Thalai",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Aylett",
-      "Player2": "TeamLeaderNA",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Thalai",
+          "Player2": "TrueHero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aylett",
+          "Player2": "Eaglov",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TeamLeaderNA",
+          "Player2": "sixmp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Fnoop",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TeamLeaderNA",
+          "Player2": "Fnoop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aylett",
+          "Player2": "Thalai",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Aylett",
+          "Player2": "TeamLeaderNA",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4202,48 +4202,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kbr3",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "O_danielakos",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jhacer1",
-        "Player2": "DaSneakyPete",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Andreas_Mueller",
-        "Player2": "pmc22337",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "jhacer1",
-        "Player2": "McWinSauce",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kbr3",
-        "Player2": "Andreas_Mueller",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "jhacer1",
-      "Player2": "kbr3",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kbr3",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "O_danielakos",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jhacer1",
+          "Player2": "DaSneakyPete",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Andreas_Mueller",
+          "Player2": "pmc22337",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "jhacer1",
+          "Player2": "McWinSauce",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kbr3",
+          "Player2": "Andreas_Mueller",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "jhacer1",
+          "Player2": "kbr3",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

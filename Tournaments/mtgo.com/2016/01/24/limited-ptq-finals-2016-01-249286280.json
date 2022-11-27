@@ -1442,48 +1442,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JiRock",
-        "Player2": "pookifive",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hirsch",
-        "Player2": "_DarkBeast_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "babones",
-        "Player2": "rubinho_08",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lavaridge",
-        "Player2": "Tractorage",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Lavaridge",
-        "Player2": "JiRock",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "babones",
-        "Player2": "Hirsch",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "babones",
-      "Player2": "Lavaridge",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JiRock",
+          "Player2": "pookifive",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hirsch",
+          "Player2": "_DarkBeast_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "babones",
+          "Player2": "rubinho_08",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lavaridge",
+          "Player2": "Tractorage",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Lavaridge",
+          "Player2": "JiRock",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "babones",
+          "Player2": "Hirsch",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "babones",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4278,48 +4278,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "CanadianNinja",
-        "Player2": "nahuel10",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Good_Game",
-        "Player2": "RespectTheCat",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pargen",
-        "Player2": "ChefOW",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "coert",
-        "Player2": "qbturtle15",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "CanadianNinja",
-        "Player2": "coert",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pargen",
-        "Player2": "Good_Game",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "CanadianNinja",
-      "Player2": "pargen",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "CanadianNinja",
+          "Player2": "nahuel10",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Good_Game",
+          "Player2": "RespectTheCat",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pargen",
+          "Player2": "ChefOW",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "coert",
+          "Player2": "qbturtle15",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "CanadianNinja",
+          "Player2": "coert",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pargen",
+          "Player2": "Good_Game",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "CanadianNinja",
+          "Player2": "pargen",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

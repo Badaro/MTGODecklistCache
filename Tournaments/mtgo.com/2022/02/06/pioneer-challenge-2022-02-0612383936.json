@@ -4054,48 +4054,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Snapcaster-Bolt",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "trukanshii",
-        "Player2": "Tiemuuu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Raest",
-        "Player2": "WrzoBuSeks",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Raest",
-        "Player2": "Snapcaster-Bolt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "trukanshii",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Raest",
-      "Player2": "Diem4x",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Snapcaster-Bolt",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "trukanshii",
+          "Player2": "Tiemuuu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Raest",
+          "Player2": "WrzoBuSeks",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Raest",
+          "Player2": "Snapcaster-Bolt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "trukanshii",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Raest",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

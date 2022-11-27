@@ -5770,48 +5770,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Tsubasa_Cat",
-        "Player2": "SHAKELION",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "Condescend",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rank1Lynx",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sixmp",
-        "Player2": "otakkun",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "sixmp",
-        "Player2": "Rank1Lynx",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "Tsubasa_Cat",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "sixmp",
-      "Player2": "musasabi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Tsubasa_Cat",
+          "Player2": "SHAKELION",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "Condescend",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rank1Lynx",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sixmp",
+          "Player2": "otakkun",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "sixmp",
+          "Player2": "Rank1Lynx",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "Tsubasa_Cat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "sixmp",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

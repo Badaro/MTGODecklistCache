@@ -3682,48 +3682,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "__Noob__",
-        "Player2": "beraldi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_goblinlackey",
-        "Player2": "Thatted",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MATTHEWFOULKES",
-        "Player2": "_Tia93_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Dazai",
-        "Player2": "MATTHEWFOULKES",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "__Noob__",
-        "Player2": "_goblinlackey",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Dazai",
-      "Player2": "__Noob__",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "__Noob__",
+          "Player2": "beraldi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_goblinlackey",
+          "Player2": "Thatted",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MATTHEWFOULKES",
+          "Player2": "_Tia93_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "MATTHEWFOULKES",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "__Noob__",
+          "Player2": "_goblinlackey",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "__Noob__",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

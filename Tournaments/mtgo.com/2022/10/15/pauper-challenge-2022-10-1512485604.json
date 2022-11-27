@@ -3686,48 +3686,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TheWatchWander",
-        "Player2": "Heisen01",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_against_",
-        "Player2": "Byvci",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "b1ast",
-        "Player2": "Tyerube1618",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "lucajak",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Lennny",
-        "Player2": "b1ast",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_against_",
-        "Player2": "TheWatchWander",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lennny",
-      "Player2": "_against_",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TheWatchWander",
+          "Player2": "Heisen01",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_against_",
+          "Player2": "Byvci",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "b1ast",
+          "Player2": "Tyerube1618",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "lucajak",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "b1ast",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_against_",
+          "Player2": "TheWatchWander",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "_against_",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3366,48 +3366,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "pokerswizard",
-        "Player2": "PR0boszcz",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Niederschatten",
-        "Player2": "Ixidor29",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Promidnightz",
-        "Player2": "Oscar_Franco",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HeWhoIsInTheWater",
-        "Player2": "PauloCabral_Br",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "HeWhoIsInTheWater",
-        "Player2": "Niederschatten",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Promidnightz",
-        "Player2": "pokerswizard",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "HeWhoIsInTheWater",
-      "Player2": "Promidnightz",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "pokerswizard",
+          "Player2": "PR0boszcz",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Niederschatten",
+          "Player2": "Ixidor29",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Promidnightz",
+          "Player2": "Oscar_Franco",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HeWhoIsInTheWater",
+          "Player2": "PauloCabral_Br",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "HeWhoIsInTheWater",
+          "Player2": "Niederschatten",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Promidnightz",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "HeWhoIsInTheWater",
+          "Player2": "Promidnightz",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

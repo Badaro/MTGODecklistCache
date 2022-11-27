@@ -5646,48 +5646,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "billsive",
-        "Player2": "MaxMagicer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "Lord_Beerus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "Schiaveto",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DrPringles",
-        "Player2": "Thalai",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "D00mwake",
-        "Player2": "DrPringles",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "billsive",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Vertyx_",
-      "Player2": "D00mwake",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "MaxMagicer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "Lord_Beerus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "Schiaveto",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DrPringles",
+          "Player2": "Thalai",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "D00mwake",
+          "Player2": "DrPringles",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "billsive",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Vertyx_",
+          "Player2": "D00mwake",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

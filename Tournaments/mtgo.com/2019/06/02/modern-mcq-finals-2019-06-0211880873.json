@@ -4086,48 +4086,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kadoonyec",
-        "Player2": "sora1248",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PMartinho",
-        "Player2": "Pathy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "SoulStrong",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Znapcaster",
-        "Player2": "GeneralSmallChild",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kadoonyec",
-        "Player2": "Znapcaster",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "PMartinho",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kadoonyec",
-      "Player2": "Sodeq",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kadoonyec",
+          "Player2": "sora1248",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PMartinho",
+          "Player2": "Pathy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "SoulStrong",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Znapcaster",
+          "Player2": "GeneralSmallChild",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kadoonyec",
+          "Player2": "Znapcaster",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "PMartinho",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kadoonyec",
+          "Player2": "Sodeq",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

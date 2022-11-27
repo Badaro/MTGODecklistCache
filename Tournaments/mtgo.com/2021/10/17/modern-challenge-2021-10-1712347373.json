@@ -4218,48 +4218,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sodeq",
-        "Player2": "Lavaridge",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Benni_R",
-        "Player2": "Moukton1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Parrotlet",
-        "Player2": "Penseur",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "Cuzant",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sodeq",
-        "Player2": "kanister",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Benni_R",
-        "Player2": "Parrotlet",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sodeq",
-      "Player2": "Benni_R",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Benni_R",
+          "Player2": "Moukton1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Parrotlet",
+          "Player2": "Penseur",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "Cuzant",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Benni_R",
+          "Player2": "Parrotlet",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "Benni_R",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

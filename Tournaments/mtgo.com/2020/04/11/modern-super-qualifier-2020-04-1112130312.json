@@ -4278,48 +4278,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "coert",
-        "Player2": "David1987",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "Traft",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Toastxp",
-        "Player2": "Sarv",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ack_s",
-        "Player2": "JV_7777",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "Toastxp",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "coert",
-        "Player2": "ack_s",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "coert",
-      "Player2": "Do0mSwitch",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "coert",
+          "Player2": "David1987",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "Traft",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Toastxp",
+          "Player2": "Sarv",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ack_s",
+          "Player2": "JV_7777",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "Toastxp",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "coert",
+          "Player2": "ack_s",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "coert",
+          "Player2": "Do0mSwitch",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

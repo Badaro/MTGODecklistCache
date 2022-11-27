@@ -6402,48 +6402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bgv1989",
-        "Player2": "Bryant_Cook",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ownforlife",
-        "Player2": "AnziD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Dafne17",
-        "Player2": "shir kahn",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aigis",
-        "Player2": "ravidel85",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ownforlife",
-        "Player2": "Dafne17",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aigis",
-        "Player2": "bgv1989",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ownforlife",
-      "Player2": "Aigis",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bgv1989",
+          "Player2": "Bryant_Cook",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ownforlife",
+          "Player2": "AnziD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Dafne17",
+          "Player2": "shir kahn",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aigis",
+          "Player2": "ravidel85",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ownforlife",
+          "Player2": "Dafne17",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aigis",
+          "Player2": "bgv1989",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ownforlife",
+          "Player2": "Aigis",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

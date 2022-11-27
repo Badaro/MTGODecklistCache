@@ -3674,48 +3674,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Rvng",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aira-",
-        "Player2": "IdraftTheBeatz",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cav0",
-        "Player2": "RRozanski",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mzfroste",
-        "Player2": "Poyo_del_Mal",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mzfroste",
-        "Player2": "Aira-",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Cav0",
-        "Player2": "Rvng",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mzfroste",
-      "Player2": "Cav0",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Rvng",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aira-",
+          "Player2": "IdraftTheBeatz",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cav0",
+          "Player2": "RRozanski",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mzfroste",
+          "Player2": "Poyo_del_Mal",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mzfroste",
+          "Player2": "Aira-",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Cav0",
+          "Player2": "Rvng",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mzfroste",
+          "Player2": "Cav0",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

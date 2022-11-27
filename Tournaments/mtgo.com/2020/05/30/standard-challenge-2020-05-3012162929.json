@@ -3578,48 +3578,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JakeHelms",
-        "Player2": "Venom1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MCScards",
-        "Player2": "napoligas",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ruin000",
-        "Player2": "ConnorM426",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "triosk",
-        "Player2": "albertoSD",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JakeHelms",
-        "Player2": "ruin000",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "triosk",
-        "Player2": "MCScards",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "triosk",
-      "Player2": "JakeHelms",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JakeHelms",
+          "Player2": "Venom1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MCScards",
+          "Player2": "napoligas",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ruin000",
+          "Player2": "ConnorM426",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "triosk",
+          "Player2": "albertoSD",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JakeHelms",
+          "Player2": "ruin000",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "triosk",
+          "Player2": "MCScards",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "triosk",
+          "Player2": "JakeHelms",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3334,48 +3334,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GALL",
-        "Player2": "eli2107",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "enotar",
-        "Player2": "aarong",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sti",
-        "Player2": "LuffyDoChapeuDePalha",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "vihespanhol",
-        "Player2": "Lollopollo2001",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "enotar",
-        "Player2": "GALL",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "vihespanhol",
-        "Player2": "Sti",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "vihespanhol",
-      "Player2": "enotar",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GALL",
+          "Player2": "eli2107",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "enotar",
+          "Player2": "aarong",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sti",
+          "Player2": "LuffyDoChapeuDePalha",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "vihespanhol",
+          "Player2": "Lollopollo2001",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "enotar",
+          "Player2": "GALL",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "vihespanhol",
+          "Player2": "Sti",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "vihespanhol",
+          "Player2": "enotar",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

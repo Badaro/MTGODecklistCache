@@ -3690,48 +3690,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "medvedev",
-        "Player2": "Oceansoul92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "bolov0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Raptor56",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nathanb1992",
-        "Player2": "HinaHara",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Raptor56",
-        "Player2": "nathanb1992",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Hamuda",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Raptor56",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "medvedev",
+          "Player2": "Oceansoul92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "bolov0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Raptor56",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nathanb1992",
+          "Player2": "HinaHara",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Raptor56",
+          "Player2": "nathanb1992",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Raptor56",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

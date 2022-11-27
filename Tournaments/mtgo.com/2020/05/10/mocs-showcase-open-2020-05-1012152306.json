@@ -1402,48 +1402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Fastfake",
-        "Player2": "Xraphie",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "trader08111",
-        "Player2": "Katla",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gobo2009",
-        "Player2": "drVendigo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "C_E.L",
-        "Player2": "CharLy",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Gobo2009",
-        "Player2": "Fastfake",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "C_E.L",
-        "Player2": "trader08111",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "C_E.L",
-      "Player2": "Gobo2009",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Fastfake",
+          "Player2": "Xraphie",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "trader08111",
+          "Player2": "Katla",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gobo2009",
+          "Player2": "drVendigo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "C_E.L",
+          "Player2": "CharLy",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Gobo2009",
+          "Player2": "Fastfake",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "C_E.L",
+          "Player2": "trader08111",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "C_E.L",
+          "Player2": "Gobo2009",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

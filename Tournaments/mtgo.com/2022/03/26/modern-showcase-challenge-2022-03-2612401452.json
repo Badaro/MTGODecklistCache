@@ -4370,48 +4370,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "musasabi",
-        "Player2": "Xwhale",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LORiWWA",
-        "Player2": "sneakymisato",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "felider",
-        "Player2": "Alan07",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Simaomero",
-        "Player2": "stainerson",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Simaomero",
-        "Player2": "LORiWWA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "felider",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "musasabi",
-      "Player2": "Simaomero",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "Xwhale",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LORiWWA",
+          "Player2": "sneakymisato",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "felider",
+          "Player2": "Alan07",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Simaomero",
+          "Player2": "stainerson",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Simaomero",
+          "Player2": "LORiWWA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "felider",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "Simaomero",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

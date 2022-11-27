@@ -3498,48 +3498,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Brunister",
-        "Player2": "THEsneakyhomunculous",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jpsn54",
-        "Player2": "mell0n",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "kasa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zxrogue",
-        "Player2": "Kazuga",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Lennny",
-        "Player2": "Jpsn54",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Zxrogue",
-        "Player2": "Brunister",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lennny",
-      "Player2": "Zxrogue",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Brunister",
+          "Player2": "THEsneakyhomunculous",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jpsn54",
+          "Player2": "mell0n",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zxrogue",
+          "Player2": "Kazuga",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "Jpsn54",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Zxrogue",
+          "Player2": "Brunister",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "Zxrogue",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

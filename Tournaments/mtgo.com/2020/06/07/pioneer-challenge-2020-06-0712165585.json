@@ -4090,48 +4090,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "shadow_PT",
-        "Player2": "WadeB",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "killersuv",
-        "Player2": "billster47",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_LSN_",
-        "Player2": "napoligas",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "qbturtle15",
-        "Player2": "BERNASTORRES",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "shadow_PT",
-        "Player2": "qbturtle15",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_LSN_",
-        "Player2": "killersuv",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "shadow_PT",
-      "Player2": "_LSN_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "shadow_PT",
+          "Player2": "WadeB",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "killersuv",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_LSN_",
+          "Player2": "napoligas",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "qbturtle15",
+          "Player2": "BERNASTORRES",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "shadow_PT",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_LSN_",
+          "Player2": "killersuv",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "shadow_PT",
+          "Player2": "_LSN_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

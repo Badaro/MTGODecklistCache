@@ -4298,48 +4298,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "triosk",
-        "Player2": "Venom1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TheTunnelingCat",
-        "Player2": "robb93",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "Laplasjan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Toastxp",
-        "Player2": "_LSN_",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "triosk",
-        "Player2": "Toastxp",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TheTunnelingCat",
-        "Player2": "Patxi",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "triosk",
-      "Player2": "TheTunnelingCat",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "triosk",
+          "Player2": "Venom1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TheTunnelingCat",
+          "Player2": "robb93",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "Laplasjan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Toastxp",
+          "Player2": "_LSN_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "triosk",
+          "Player2": "Toastxp",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TheTunnelingCat",
+          "Player2": "Patxi",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "triosk",
+          "Player2": "TheTunnelingCat",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

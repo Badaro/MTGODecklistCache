@@ -1418,48 +1418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "NooxTom",
-        "Player2": "kokoko098",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "dweebdog",
-        "Player2": "Zyrnak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Matti",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "xXGimmliXx",
-        "Player2": "MaxCapone",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Matti",
-        "Player2": "NooxTom",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "dweebdog",
-        "Player2": "xXGimmliXx",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Matti",
-      "Player2": "dweebdog",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "NooxTom",
+          "Player2": "kokoko098",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "dweebdog",
+          "Player2": "Zyrnak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Matti",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "xXGimmliXx",
+          "Player2": "MaxCapone",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Matti",
+          "Player2": "NooxTom",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "dweebdog",
+          "Player2": "xXGimmliXx",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Matti",
+          "Player2": "dweebdog",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

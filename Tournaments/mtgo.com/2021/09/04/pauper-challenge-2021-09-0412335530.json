@@ -3706,48 +3706,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mikhathara1994",
-        "Player2": "billster47",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CharlieTheBananaKing",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "LuffyDoChapeuDePalha",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ManBoyChild",
-        "Player2": "musasabi",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "ManBoyChild",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CharlieTheBananaKing",
-        "Player2": "Mikhathara1994",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Oscar_Franco",
-      "Player2": "CharlieTheBananaKing",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mikhathara1994",
+          "Player2": "billster47",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CharlieTheBananaKing",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "LuffyDoChapeuDePalha",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ManBoyChild",
+          "Player2": "musasabi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "ManBoyChild",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CharlieTheBananaKing",
+          "Player2": "Mikhathara1994",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "CharlieTheBananaKing",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

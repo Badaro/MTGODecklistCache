@@ -3906,48 +3906,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mathonical",
-        "Player2": "Kaldarian",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lavaridge",
-        "Player2": "Hampuse1",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "SacredDevil",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Heisen01",
-        "Player2": "bnpbnp",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Lavaridge",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "Heisen01",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lavaridge",
-      "Player2": "SanPop",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "Kaldarian",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lavaridge",
+          "Player2": "Hampuse1",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "SacredDevil",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Heisen01",
+          "Player2": "bnpbnp",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Lavaridge",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "Heisen01",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lavaridge",
+          "Player2": "SanPop",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

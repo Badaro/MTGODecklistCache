@@ -4922,48 +4922,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "The Atog Lord",
-        "Player2": "lllllll",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Thiim",
-        "Player2": "diophan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jazza",
-        "Player2": "UnrestrictBrainstorm",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CrepeMyrte",
-        "Player2": "oRS",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "The Atog Lord",
-        "Player2": "Thiim",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jazza",
-        "Player2": "CrepeMyrte",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "The Atog Lord",
-      "Player2": "Jazza",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "The Atog Lord",
+          "Player2": "lllllll",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Thiim",
+          "Player2": "diophan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jazza",
+          "Player2": "UnrestrictBrainstorm",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CrepeMyrte",
+          "Player2": "oRS",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "The Atog Lord",
+          "Player2": "Thiim",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jazza",
+          "Player2": "CrepeMyrte",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "The Atog Lord",
+          "Player2": "Jazza",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3866,48 +3866,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Thommimp",
-        "Player2": "Poyo_del_Mal",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pokerswizard",
-        "Player2": "alemilan19",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_ruda_",
-        "Player2": "Edel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "-=Alfa=-",
-        "Player2": "NGFC_Mark",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_ruda_",
-        "Player2": "-=Alfa=-",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Thommimp",
-        "Player2": "pokerswizard",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Thommimp",
-      "Player2": "_ruda_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Thommimp",
+          "Player2": "Poyo_del_Mal",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pokerswizard",
+          "Player2": "alemilan19",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_ruda_",
+          "Player2": "Edel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "-=Alfa=-",
+          "Player2": "NGFC_Mark",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_ruda_",
+          "Player2": "-=Alfa=-",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Thommimp",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Thommimp",
+          "Player2": "_ruda_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

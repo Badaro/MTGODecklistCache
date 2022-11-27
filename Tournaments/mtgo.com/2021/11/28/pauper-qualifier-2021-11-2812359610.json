@@ -1786,48 +1786,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mlovbo",
-        "Player2": "hopeof130",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "Beicodegeia",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NotGood",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lindoso01",
-        "Player2": "Darthkid",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mlovbo",
-        "Player2": "lindoso01",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NotGood",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "mlovbo",
-      "Player2": "NotGood",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "hopeof130",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "Beicodegeia",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NotGood",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lindoso01",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "lindoso01",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NotGood",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "NotGood",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

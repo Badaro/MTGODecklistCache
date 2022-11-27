@@ -5978,48 +5978,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Dazai",
-        "Player2": "NathanLipetz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "Cherryxman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "Pasco",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Svaca",
-        "Player2": "leeties",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Dazai",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "discoverN",
-        "Player2": "Svaca",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "discoverN",
-      "Player2": "Dazai",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "NathanLipetz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "Cherryxman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "Pasco",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Svaca",
+          "Player2": "leeties",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Dazai",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "discoverN",
+          "Player2": "Svaca",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "discoverN",
+          "Player2": "Dazai",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

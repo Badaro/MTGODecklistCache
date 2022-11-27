@@ -5526,48 +5526,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Montolio",
-        "Player2": "otakkun",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "notmi",
-        "Player2": "lsv",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kuvalda",
-        "Player2": "HanChoBai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "IamActuallyLvL1",
-        "Player2": "Azerate218",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "IamActuallyLvL1",
-        "Player2": "Kuvalda",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "notmi",
-        "Player2": "Montolio",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "IamActuallyLvL1",
-      "Player2": "notmi",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Montolio",
+          "Player2": "otakkun",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "notmi",
+          "Player2": "lsv",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kuvalda",
+          "Player2": "HanChoBai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "IamActuallyLvL1",
+          "Player2": "Azerate218",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "IamActuallyLvL1",
+          "Player2": "Kuvalda",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "notmi",
+          "Player2": "Montolio",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "IamActuallyLvL1",
+          "Player2": "notmi",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

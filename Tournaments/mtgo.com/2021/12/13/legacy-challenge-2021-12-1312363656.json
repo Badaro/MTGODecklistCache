@@ -4530,48 +4530,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Slatorade",
-        "Player2": "dunkin90",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Stranger99",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TrincoTeq",
-        "Player2": "ccarlson32",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Testacular",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TrincoTeq",
-        "Player2": "Slatorade",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Testacular",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "TrincoTeq",
-      "Player2": "JPA93",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Slatorade",
+          "Player2": "dunkin90",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Stranger99",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TrincoTeq",
+          "Player2": "ccarlson32",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Testacular",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TrincoTeq",
+          "Player2": "Slatorade",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Testacular",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TrincoTeq",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5638,48 +5638,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MadMaxErnst",
-        "Player2": "Aylett",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bennybo",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ikashy",
-        "Player2": "MATTOMARINAIO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ekeross",
-        "Player2": "Ennuixd",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bennybo",
-        "Player2": "Ekeross",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ikashy",
-        "Player2": "MadMaxErnst",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "bennybo",
-      "Player2": "Ikashy",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MadMaxErnst",
+          "Player2": "Aylett",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bennybo",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ikashy",
+          "Player2": "MATTOMARINAIO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ekeross",
+          "Player2": "Ennuixd",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bennybo",
+          "Player2": "Ekeross",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ikashy",
+          "Player2": "MadMaxErnst",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bennybo",
+          "Player2": "Ikashy",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5454,48 +5454,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "NooxTom",
-        "Player2": "moon11",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yPrincipe",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "Thomas_Serra",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "Butakov",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yPrincipe",
-        "Player2": "duke12",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "NooxTom",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "yPrincipe",
-      "Player2": "kanister",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "NooxTom",
+          "Player2": "moon11",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yPrincipe",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "Thomas_Serra",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "Butakov",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yPrincipe",
+          "Player2": "duke12",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "NooxTom",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "yPrincipe",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

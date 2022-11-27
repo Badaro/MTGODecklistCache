@@ -4282,48 +4282,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SIN",
-        "Player2": "billsive",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LBBL",
-        "Player2": "MagicianMagico",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mei0024",
-        "Player2": "manaproducti0ns",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "fwdr3",
-        "Player2": "iaky91",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mei0024",
-        "Player2": "SIN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LBBL",
-        "Player2": "fwdr3",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "mei0024",
-      "Player2": "LBBL",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SIN",
+          "Player2": "billsive",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LBBL",
+          "Player2": "MagicianMagico",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mei0024",
+          "Player2": "manaproducti0ns",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "fwdr3",
+          "Player2": "iaky91",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mei0024",
+          "Player2": "SIN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LBBL",
+          "Player2": "fwdr3",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mei0024",
+          "Player2": "LBBL",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

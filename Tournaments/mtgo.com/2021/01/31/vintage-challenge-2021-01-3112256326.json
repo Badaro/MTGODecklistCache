@@ -5562,48 +5562,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "hodortimebaby",
-        "Player2": "Dazai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bennybo",
-        "Player2": "TrueHero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "s063",
-        "Player2": "SingPanMan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "unicornparadise",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "hodortimebaby",
-        "Player2": "s063",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "bennybo",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Beenew",
-      "Player2": "hodortimebaby",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "hodortimebaby",
+          "Player2": "Dazai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bennybo",
+          "Player2": "TrueHero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "s063",
+          "Player2": "SingPanMan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "unicornparadise",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "hodortimebaby",
+          "Player2": "s063",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "bennybo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Beenew",
+          "Player2": "hodortimebaby",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

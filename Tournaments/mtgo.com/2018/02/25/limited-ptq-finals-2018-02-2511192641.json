@@ -1398,48 +1398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "katuo079595",
-        "Player2": "lasebase",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hauka",
-        "Player2": "Longobarda",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FTK75",
-        "Player2": "esheres",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mudda",
-        "Player2": "popoiu",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "katuo079595",
-        "Player2": "Mudda",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hauka",
-        "Player2": "FTK75",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "katuo079595",
-      "Player2": "Hauka",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "katuo079595",
+          "Player2": "lasebase",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hauka",
+          "Player2": "Longobarda",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FTK75",
+          "Player2": "esheres",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mudda",
+          "Player2": "popoiu",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "katuo079595",
+          "Player2": "Mudda",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hauka",
+          "Player2": "FTK75",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "katuo079595",
+          "Player2": "Hauka",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

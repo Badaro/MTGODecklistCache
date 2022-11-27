@@ -1338,48 +1338,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Veveil",
-        "Player2": "Redminnow",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JustShhh",
-        "Player2": "Blackkeys260",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FTK75",
-        "Player2": "scheidguy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MaxCapone",
-        "Player2": "Chris.westerlund",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Veveil",
-        "Player2": "MaxCapone",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FTK75",
-        "Player2": "JustShhh",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Veveil",
-      "Player2": "FTK75",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Veveil",
+          "Player2": "Redminnow",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JustShhh",
+          "Player2": "Blackkeys260",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FTK75",
+          "Player2": "scheidguy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MaxCapone",
+          "Player2": "Chris.westerlund",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Veveil",
+          "Player2": "MaxCapone",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FTK75",
+          "Player2": "JustShhh",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Veveil",
+          "Player2": "FTK75",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

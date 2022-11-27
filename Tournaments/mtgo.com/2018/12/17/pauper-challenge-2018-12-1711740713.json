@@ -3646,48 +3646,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_DissonancE_",
-        "Player2": "Amoras27",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zelgian",
-        "Player2": "Nasty",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Benitos",
-        "Player2": "deluxeicoff",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Brener",
-        "Player2": "kanister",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Benitos",
-        "Player2": "Zelgian",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_DissonancE_",
-        "Player2": "Brener",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_DissonancE_",
-      "Player2": "Benitos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_DissonancE_",
+          "Player2": "Amoras27",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zelgian",
+          "Player2": "Nasty",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Benitos",
+          "Player2": "deluxeicoff",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Brener",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "Zelgian",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_DissonancE_",
+          "Player2": "Brener",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_DissonancE_",
+          "Player2": "Benitos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

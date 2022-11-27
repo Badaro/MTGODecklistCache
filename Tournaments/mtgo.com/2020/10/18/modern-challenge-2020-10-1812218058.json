@@ -4286,48 +4286,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Darkiundsa",
-        "Player2": "Jositoshekel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "azax",
-        "Player2": "JustJack",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nekonii",
-        "Player2": "Mcleskey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "stayrospet",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "stayrospet",
-        "Player2": "azax",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Darkiundsa",
-        "Player2": "Nekonii",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Darkiundsa",
-      "Player2": "stayrospet",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Darkiundsa",
+          "Player2": "Jositoshekel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "azax",
+          "Player2": "JustJack",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nekonii",
+          "Player2": "Mcleskey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "stayrospet",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "stayrospet",
+          "Player2": "azax",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Darkiundsa",
+          "Player2": "Nekonii",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Darkiundsa",
+          "Player2": "stayrospet",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

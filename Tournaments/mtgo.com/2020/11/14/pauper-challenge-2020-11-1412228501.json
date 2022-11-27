@@ -4054,48 +4054,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TopGrinder",
-        "Player2": "thesoulforged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hellkito",
-        "Player2": "JoaoPurga",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DonFlamenco",
-        "Player2": "Brivenix",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kasa",
-        "Player2": "DonFlamenco",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hellkito",
-        "Player2": "TopGrinder",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "hellkito",
-      "Player2": "kasa",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TopGrinder",
+          "Player2": "thesoulforged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hellkito",
+          "Player2": "JoaoPurga",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DonFlamenco",
+          "Player2": "Brivenix",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "DonFlamenco",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hellkito",
+          "Player2": "TopGrinder",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "hellkito",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

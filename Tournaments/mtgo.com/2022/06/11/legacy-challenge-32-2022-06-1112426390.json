@@ -4282,48 +4282,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Baku_91",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tixis",
-        "Player2": "sora1248",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "artilleryfrost",
-        "Player2": "dgreen16",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "NooxTom",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Tixis",
-        "Player2": "artilleryfrost",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Baku_91",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Tixis",
-      "Player2": "Baku_91",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Baku_91",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tixis",
+          "Player2": "sora1248",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "artilleryfrost",
+          "Player2": "dgreen16",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "NooxTom",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Tixis",
+          "Player2": "artilleryfrost",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Baku_91",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Tixis",
+          "Player2": "Baku_91",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

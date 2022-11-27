@@ -1906,48 +1906,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Finespoo",
-        "Player2": "_Shatun_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "azatoyellow",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "Harry13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TellKou",
-        "Player2": "lilianaofthevess",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "TellKou",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "azatoyellow",
-        "Player2": "Finespoo",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "bolov0",
-      "Player2": "azatoyellow",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Finespoo",
+          "Player2": "_Shatun_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "azatoyellow",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "Harry13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TellKou",
+          "Player2": "lilianaofthevess",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "TellKou",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "azatoyellow",
+          "Player2": "Finespoo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "azatoyellow",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

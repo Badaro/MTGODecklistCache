@@ -1366,48 +1366,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Terribad",
-        "Player2": "blackmagix",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "u_mad_bro",
-        "Player2": "TAK47",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "eheh_dude",
-        "Player2": "_Ditlev_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "James_Zhi",
-        "Player2": "LandK",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "James_Zhi",
-        "Player2": "eheh_dude",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "u_mad_bro",
-        "Player2": "Terribad",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "u_mad_bro",
-      "Player2": "James_Zhi",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Terribad",
+          "Player2": "blackmagix",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "u_mad_bro",
+          "Player2": "TAK47",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "eheh_dude",
+          "Player2": "_Ditlev_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "James_Zhi",
+          "Player2": "LandK",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "James_Zhi",
+          "Player2": "eheh_dude",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "u_mad_bro",
+          "Player2": "Terribad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "u_mad_bro",
+          "Player2": "James_Zhi",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

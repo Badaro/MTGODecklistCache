@@ -3818,48 +3818,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JMM",
-        "Player2": "ihugiu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dotta",
-        "Player2": "D00mwake",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Romani",
-        "Player2": "Mojo00",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sugawara24",
-        "Player2": "contrap",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Dotta",
-        "Player2": "JMM",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Romani",
-        "Player2": "sugawara24",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Romani",
-      "Player2": "Dotta",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JMM",
+          "Player2": "ihugiu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dotta",
+          "Player2": "D00mwake",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Romani",
+          "Player2": "Mojo00",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sugawara24",
+          "Player2": "contrap",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Dotta",
+          "Player2": "JMM",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Romani",
+          "Player2": "sugawara24",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Romani",
+          "Player2": "Dotta",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

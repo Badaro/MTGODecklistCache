@@ -4538,48 +4538,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Thalai",
-        "Player2": "runkor",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Fuz65",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kiyoaggro",
-        "Player2": "HJ_Kaiser",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kauffj",
-        "Player2": "Gernardi",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "Thalai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kiyoaggro",
-        "Player2": "kauffj",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kiyoaggro",
-      "Player2": "JPA93",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Thalai",
+          "Player2": "runkor",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Fuz65",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kiyoaggro",
+          "Player2": "HJ_Kaiser",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kauffj",
+          "Player2": "Gernardi",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "Thalai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kiyoaggro",
+          "Player2": "kauffj",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kiyoaggro",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

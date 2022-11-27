@@ -4454,48 +4454,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "Lavaridge",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Archer.",
-        "Player2": "billsive",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "fluffy21",
-        "Player2": "reisyasu",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bennybo",
-        "Player2": "jankyb",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bennybo",
-        "Player2": "fluffy21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gul_Dukat",
-        "Player2": "Archer.",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "bennybo",
-      "Player2": "Gul_Dukat",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "Lavaridge",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Archer.",
+          "Player2": "billsive",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "fluffy21",
+          "Player2": "reisyasu",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bennybo",
+          "Player2": "jankyb",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bennybo",
+          "Player2": "fluffy21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gul_Dukat",
+          "Player2": "Archer.",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bennybo",
+          "Player2": "Gul_Dukat",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

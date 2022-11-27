@@ -4538,48 +4538,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rexjak",
-        "Player2": "kanister",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MrJACEone",
-        "Player2": "Ozymandias17",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "bomberboss",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "golphinus",
-        "Player2": "luinil",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rexjak",
-        "Player2": "MrJACEone",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "golphinus",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "McWinSauce",
-      "Player2": "rexjak",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rexjak",
+          "Player2": "kanister",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MrJACEone",
+          "Player2": "Ozymandias17",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "bomberboss",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "golphinus",
+          "Player2": "luinil",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rexjak",
+          "Player2": "MrJACEone",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "golphinus",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "McWinSauce",
+          "Player2": "rexjak",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

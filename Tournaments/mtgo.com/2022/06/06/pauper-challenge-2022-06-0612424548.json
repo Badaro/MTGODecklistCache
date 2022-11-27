@@ -3426,48 +3426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "420dragon",
-        "Player2": "Ramelao",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "billster47",
-        "Player2": "spartano",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "jaimeputoamo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lollopollo2001",
-        "Player2": "aarong",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "Lollopollo2001",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "420dragon",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "billster47",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "420dragon",
+          "Player2": "Ramelao",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "billster47",
+          "Player2": "spartano",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "jaimeputoamo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lollopollo2001",
+          "Player2": "aarong",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "Lollopollo2001",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "420dragon",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3886,48 +3886,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AndyAWKWARD",
-        "Player2": "LucasG1ggs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ryuumei",
-        "Player2": "melv.p",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_EmmeMoure_",
-        "Player2": "EmotionsAreNotPositiveEV",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "tangrams",
-        "Player2": "greg75",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_EmmeMoure_",
-        "Player2": "tangrams",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AndyAWKWARD",
-        "Player2": "ryuumei",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "AndyAWKWARD",
-      "Player2": "_EmmeMoure_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AndyAWKWARD",
+          "Player2": "LucasG1ggs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ryuumei",
+          "Player2": "melv.p",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_EmmeMoure_",
+          "Player2": "EmotionsAreNotPositiveEV",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "tangrams",
+          "Player2": "greg75",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_EmmeMoure_",
+          "Player2": "tangrams",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AndyAWKWARD",
+          "Player2": "ryuumei",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "AndyAWKWARD",
+          "Player2": "_EmmeMoure_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

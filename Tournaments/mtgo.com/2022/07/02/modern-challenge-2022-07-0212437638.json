@@ -4378,48 +4378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Maltanis01",
-        "Player2": "AelaleA37",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Metaponto",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bobthedog",
-        "Player2": "tritty",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ayzkub_",
-        "Player2": "Mordeka1ser",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bobthedog",
-        "Player2": "Dazai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Maltanis01",
-        "Player2": "Ayzkub_",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Maltanis01",
-      "Player2": "bobthedog",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Maltanis01",
+          "Player2": "AelaleA37",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Metaponto",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bobthedog",
+          "Player2": "tritty",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ayzkub_",
+          "Player2": "Mordeka1ser",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bobthedog",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Maltanis01",
+          "Player2": "Ayzkub_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Maltanis01",
+          "Player2": "bobthedog",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3630,48 +3630,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "painas",
-        "Player2": "kungfutrees",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "Unknowless",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hellsau",
-        "Player2": "TheMaverickGirl",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mezzel",
-        "Player2": "grinderA",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hellsau",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mezzel",
-        "Player2": "painas",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mezzel",
-      "Player2": "Hellsau",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "painas",
+          "Player2": "kungfutrees",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "Unknowless",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hellsau",
+          "Player2": "TheMaverickGirl",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mezzel",
+          "Player2": "grinderA",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hellsau",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mezzel",
+          "Player2": "painas",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mezzel",
+          "Player2": "Hellsau",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

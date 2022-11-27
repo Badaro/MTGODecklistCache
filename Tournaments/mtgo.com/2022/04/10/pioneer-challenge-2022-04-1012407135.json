@@ -4042,48 +4042,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sarlanga",
-        "Player2": "Styro88",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hcook725",
-        "Player2": "LvdL",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "shindy",
-        "Player2": "VanillaJames",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Picathartes",
-        "Player2": "Joryago",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Picathartes",
-        "Player2": "shindy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hcook725",
-        "Player2": "Sarlanga",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "hcook725",
-      "Player2": "Picathartes",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sarlanga",
+          "Player2": "Styro88",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hcook725",
+          "Player2": "LvdL",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "shindy",
+          "Player2": "VanillaJames",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Picathartes",
+          "Player2": "Joryago",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Picathartes",
+          "Player2": "shindy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hcook725",
+          "Player2": "Sarlanga",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "hcook725",
+          "Player2": "Picathartes",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

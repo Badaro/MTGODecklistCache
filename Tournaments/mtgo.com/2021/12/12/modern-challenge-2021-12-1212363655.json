@@ -4286,48 +4286,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SoulStrong",
-        "Player2": "CrusherBotBG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Phizzle",
-        "Player2": "TSPJendrek",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Stayconf",
-        "Player2": "Kihara_Works",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RyanWu",
-        "Player2": "starfall",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "RyanWu",
-        "Player2": "Stayconf",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phizzle",
-        "Player2": "SoulStrong",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "RyanWu",
-      "Player2": "Phizzle",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SoulStrong",
+          "Player2": "CrusherBotBG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Phizzle",
+          "Player2": "TSPJendrek",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Stayconf",
+          "Player2": "Kihara_Works",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RyanWu",
+          "Player2": "starfall",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "RyanWu",
+          "Player2": "Stayconf",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phizzle",
+          "Player2": "SoulStrong",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "RyanWu",
+          "Player2": "Phizzle",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

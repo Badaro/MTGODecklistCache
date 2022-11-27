@@ -3646,48 +3646,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "stainerson",
-        "Player2": "ruin000",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "_Shatun_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_ruda_",
-        "Player2": "Morenothings",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cstr",
-        "Player2": "Mcleskey",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_ruda_",
-        "Player2": "stainerson",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "cstr",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "McWinSauce",
-      "Player2": "_ruda_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "ruin000",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "_Shatun_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_ruda_",
+          "Player2": "Morenothings",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cstr",
+          "Player2": "Mcleskey",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_ruda_",
+          "Player2": "stainerson",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "cstr",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "McWinSauce",
+          "Player2": "_ruda_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3662,48 +3662,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Eaglov",
-        "Player2": "Wizard_2002",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "Hampuse1",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "saikyoluige",
-        "Player2": "MatheusPonciano",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "saikyoluige",
-        "Player2": "Eaglov",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hamuda",
-      "Player2": "saikyoluige",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "Wizard_2002",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "Hampuse1",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "saikyoluige",
+          "Player2": "MatheusPonciano",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "saikyoluige",
+          "Player2": "Eaglov",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "saikyoluige",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

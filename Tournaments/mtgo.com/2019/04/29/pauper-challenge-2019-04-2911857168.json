@@ -3854,48 +3854,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "duke12",
-        "Player2": "BeReborn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "apa19",
-        "Player2": "janicestone",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cha21",
-        "Player2": "Rooney56",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rileydk",
-        "Player2": "sandydogmtg",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "cha21",
-        "Player2": "rileydk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "apa19",
-        "Player2": "duke12",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "apa19",
-      "Player2": "cha21",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "duke12",
+          "Player2": "BeReborn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "apa19",
+          "Player2": "janicestone",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cha21",
+          "Player2": "Rooney56",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rileydk",
+          "Player2": "sandydogmtg",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "cha21",
+          "Player2": "rileydk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "apa19",
+          "Player2": "duke12",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "apa19",
+          "Player2": "cha21",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4574,48 +4574,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "VipexX",
-        "Player2": "TonyScapone",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "wordy333",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "Bryant_Cook",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "r0cknati0n",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "r0cknati0n",
-        "Player2": "JPA93",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "VipexX",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "r0cknati0n",
-      "Player2": "Beenew",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "VipexX",
+          "Player2": "TonyScapone",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "wordy333",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "Bryant_Cook",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "r0cknati0n",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "r0cknati0n",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "VipexX",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "r0cknati0n",
+          "Player2": "Beenew",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

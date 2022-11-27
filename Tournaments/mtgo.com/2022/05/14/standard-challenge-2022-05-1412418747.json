@@ -4170,48 +4170,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "wefoldforfood",
-        "Player2": "XlperTxT",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LarryBeal",
-        "Player2": "ovmlcabrera",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "_INF_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sokos13",
-        "Player2": "LucasG1ggs",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "LarryBeal",
-        "Player2": "wefoldforfood",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sokos13",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "sokos13",
-      "Player2": "LarryBeal",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "wefoldforfood",
+          "Player2": "XlperTxT",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LarryBeal",
+          "Player2": "ovmlcabrera",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "_INF_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sokos13",
+          "Player2": "LucasG1ggs",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "LarryBeal",
+          "Player2": "wefoldforfood",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sokos13",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "sokos13",
+          "Player2": "LarryBeal",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

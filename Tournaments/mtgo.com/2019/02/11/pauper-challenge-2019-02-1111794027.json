@@ -3578,48 +3578,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Folero",
-        "Player2": "Amoras27",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Nulyan",
-        "Player2": "TonyMontana",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Brivenix",
-        "Player2": "kolthau",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Caleb_O",
-        "Player2": "PauloCabral_Br",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Nulyan",
-        "Player2": "Brivenix",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Folero",
-        "Player2": "Caleb_O",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Nulyan",
-      "Player2": "Folero",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Folero",
+          "Player2": "Amoras27",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Nulyan",
+          "Player2": "TonyMontana",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Brivenix",
+          "Player2": "kolthau",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Caleb_O",
+          "Player2": "PauloCabral_Br",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Nulyan",
+          "Player2": "Brivenix",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Folero",
+          "Player2": "Caleb_O",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Nulyan",
+          "Player2": "Folero",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

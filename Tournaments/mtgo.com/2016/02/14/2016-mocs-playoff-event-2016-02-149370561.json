@@ -4050,48 +4050,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TombSimon",
-        "Player2": "FFfreaK",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "osiwm",
-        "Player2": "chepa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "leearson",
-        "Player2": "beena",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "twop",
-        "Player2": "kbol_",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "twop",
-        "Player2": "leearson",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TombSimon",
-        "Player2": "osiwm",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "twop",
-      "Player2": "TombSimon",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TombSimon",
+          "Player2": "FFfreaK",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "osiwm",
+          "Player2": "chepa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "leearson",
+          "Player2": "beena",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "twop",
+          "Player2": "kbol_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "twop",
+          "Player2": "leearson",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TombSimon",
+          "Player2": "osiwm",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "twop",
+          "Player2": "TombSimon",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

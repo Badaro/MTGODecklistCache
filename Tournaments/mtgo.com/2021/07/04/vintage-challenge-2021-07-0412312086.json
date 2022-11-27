@@ -5538,48 +5538,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Patxi",
-        "Player2": "Fnoop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BenCapen",
-        "Player2": "MagerMistake",
-        "Result": "1-0"
-      },
-      {
-        "Player1": "Jenara19",
-        "Player2": "SenpaiBlank",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nammersquats",
-        "Player2": "wordy333",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jenara19",
-        "Player2": "BenCapen",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nammersquats",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Nammersquats",
-      "Player2": "Jenara19",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Patxi",
+          "Player2": "Fnoop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BenCapen",
+          "Player2": "MagerMistake",
+          "Result": "1-0-0"
+        },
+        {
+          "Player1": "Jenara19",
+          "Player2": "SenpaiBlank",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nammersquats",
+          "Player2": "wordy333",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jenara19",
+          "Player2": "BenCapen",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nammersquats",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Nammersquats",
+          "Player2": "Jenara19",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

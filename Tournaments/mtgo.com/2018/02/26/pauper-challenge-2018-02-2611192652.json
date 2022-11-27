@@ -3678,48 +3678,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Vagar",
-        "Player2": "Mathonical",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "billster47",
-        "Player2": "karatedom",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Zamite626",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mw_94gA",
-        "Player2": "PietroSas",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mw_94gA",
-        "Player2": "Vagar",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "billster47",
-        "Player2": "Zamite626",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "mw_94gA",
-      "Player2": "billster47",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Vagar",
+          "Player2": "Mathonical",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "billster47",
+          "Player2": "karatedom",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Zamite626",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mw_94gA",
+          "Player2": "PietroSas",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mw_94gA",
+          "Player2": "Vagar",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "billster47",
+          "Player2": "Zamite626",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mw_94gA",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

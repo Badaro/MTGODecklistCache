@@ -4686,48 +4686,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kazuga",
-        "Player2": "Kr0k39",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "aspiringspike",
-        "Player2": "CordoTwin",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SoulStrong",
-        "Player2": "Nikachu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xwhale",
-        "Player2": "DcNo",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "SoulStrong",
-        "Player2": "Xwhale",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "aspiringspike",
-        "Player2": "Kazuga",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "SoulStrong",
-      "Player2": "aspiringspike",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kazuga",
+          "Player2": "Kr0k39",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "aspiringspike",
+          "Player2": "CordoTwin",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SoulStrong",
+          "Player2": "Nikachu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xwhale",
+          "Player2": "DcNo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "SoulStrong",
+          "Player2": "Xwhale",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "aspiringspike",
+          "Player2": "Kazuga",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SoulStrong",
+          "Player2": "aspiringspike",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3514,48 +3514,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Brener",
-        "Player2": "Nisk_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Benitos",
-        "Player2": "Finespoo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RazielSarafan",
-        "Player2": "pproteus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "janicestone",
-        "Player2": "kolthau",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Benitos",
-        "Player2": "janicestone",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Brener",
-        "Player2": "RazielSarafan",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Brener",
-      "Player2": "Benitos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Brener",
+          "Player2": "Nisk_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Benitos",
+          "Player2": "Finespoo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RazielSarafan",
+          "Player2": "pproteus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "janicestone",
+          "Player2": "kolthau",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "janicestone",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Brener",
+          "Player2": "RazielSarafan",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Brener",
+          "Player2": "Benitos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

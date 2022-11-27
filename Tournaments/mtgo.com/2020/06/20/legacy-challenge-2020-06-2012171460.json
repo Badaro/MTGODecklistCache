@@ -4486,48 +4486,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "yehua",
-        "Player2": "Decoutan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "haneman",
-        "Player2": "JollyMaeh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "poriden",
-        "Player2": "3lik4r",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "katobu",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yehua",
-        "Player2": "haneman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "poriden",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "musasabi",
-      "Player2": "yehua",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "yehua",
+          "Player2": "Decoutan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "haneman",
+          "Player2": "JollyMaeh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "poriden",
+          "Player2": "3lik4r",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "katobu",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yehua",
+          "Player2": "haneman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "poriden",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "yehua",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

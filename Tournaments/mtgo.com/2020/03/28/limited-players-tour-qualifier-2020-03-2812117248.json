@@ -1422,48 +1422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Amurica",
-        "Player2": "Zarkorath",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LSMD",
-        "Player2": "TellKou",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "jsteed",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yunosuke02",
-        "Player2": "Promidnightz",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yunosuke02",
-        "Player2": "Amurica",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "LSMD",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "yunosuke02",
-      "Player2": "Anssi A",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Amurica",
+          "Player2": "Zarkorath",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LSMD",
+          "Player2": "TellKou",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "jsteed",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yunosuke02",
+          "Player2": "Promidnightz",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yunosuke02",
+          "Player2": "Amurica",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "LSMD",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "yunosuke02",
+          "Player2": "Anssi A",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -5922,48 +5922,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "LeoFa",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "tomo0109",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "oosunq",
-        "Player2": "AfraidofBUG",
-        "Result": "1-0"
-      },
-      {
-        "Player1": "_Shatun_",
-        "Player2": "Beenew",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "musasabi",
-        "Player2": "LeoFa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "oosunq",
-        "Player2": "_Shatun_",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "oosunq",
-      "Player2": "musasabi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "LeoFa",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "tomo0109",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "oosunq",
+          "Player2": "AfraidofBUG",
+          "Result": "1-0-0"
+        },
+        {
+          "Player1": "_Shatun_",
+          "Player2": "Beenew",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "LeoFa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "oosunq",
+          "Player2": "_Shatun_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "oosunq",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

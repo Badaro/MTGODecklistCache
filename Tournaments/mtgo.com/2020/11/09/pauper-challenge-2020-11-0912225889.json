@@ -3998,48 +3998,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mathonical",
-        "Player2": "SacredDevil",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bicyclops",
-        "Player2": "SanPop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "Oceansoul92",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Akromes",
-        "Player2": "Amoras27",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mlovbo",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Akromes",
-        "Player2": "Bicyclops",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Akromes",
-      "Player2": "mlovbo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "SacredDevil",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bicyclops",
+          "Player2": "SanPop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "Oceansoul92",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Akromes",
+          "Player2": "Amoras27",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Akromes",
+          "Player2": "Bicyclops",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Akromes",
+          "Player2": "mlovbo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

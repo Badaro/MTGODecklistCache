@@ -3970,48 +3970,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Obliterage",
-        "Player2": "makusong24",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "Fink64",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sapoa",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Demian77",
-        "Player2": "mmuck",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Demian77",
-        "Player2": "Obliterage",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "Sapoa",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Batutinha_",
-      "Player2": "Demian77",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Obliterage",
+          "Player2": "makusong24",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "Fink64",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sapoa",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Demian77",
+          "Player2": "mmuck",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Demian77",
+          "Player2": "Obliterage",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "Sapoa",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "Demian77",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

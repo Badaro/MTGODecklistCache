@@ -3618,48 +3618,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "cicciogire",
-        "Player2": "Mamah",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "brandon__logan",
-        "Player2": "Hellsau",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gabc",
-        "Player2": "MLupa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "July0",
-        "Player2": "ziofrancone",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Gabc",
-        "Player2": "brandon__logan",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cicciogire",
-        "Player2": "July0",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gabc",
-      "Player2": "cicciogire",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "cicciogire",
+          "Player2": "Mamah",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "brandon__logan",
+          "Player2": "Hellsau",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gabc",
+          "Player2": "MLupa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "July0",
+          "Player2": "ziofrancone",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Gabc",
+          "Player2": "brandon__logan",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cicciogire",
+          "Player2": "July0",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gabc",
+          "Player2": "cicciogire",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

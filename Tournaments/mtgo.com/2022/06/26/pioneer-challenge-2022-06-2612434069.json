@@ -4426,48 +4426,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "frakom",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_against_",
-        "Player2": "Tunaktunak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "ilGianB1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "moon11",
-        "Player2": "Misplacedginger",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "moon11",
-        "Player2": "Xerk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_against_",
-        "Player2": "remf",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_against_",
-      "Player2": "moon11",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "frakom",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_against_",
+          "Player2": "Tunaktunak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "ilGianB1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "moon11",
+          "Player2": "Misplacedginger",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "moon11",
+          "Player2": "Xerk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_against_",
+          "Player2": "remf",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_against_",
+          "Player2": "moon11",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

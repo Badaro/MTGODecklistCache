@@ -3902,48 +3902,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "billsive",
-        "Player2": "Mcleskey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PTarts2win",
-        "Player2": "kcomedina",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cws",
-        "Player2": "bolov0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "trukanshii",
-        "Player2": "duofanel",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "trukanshii",
-        "Player2": "billsive",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PTarts2win",
-        "Player2": "cws",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "trukanshii",
-      "Player2": "PTarts2win",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "Mcleskey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PTarts2win",
+          "Player2": "kcomedina",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cws",
+          "Player2": "bolov0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "trukanshii",
+          "Player2": "duofanel",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "trukanshii",
+          "Player2": "billsive",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PTarts2win",
+          "Player2": "cws",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "trukanshii",
+          "Player2": "PTarts2win",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

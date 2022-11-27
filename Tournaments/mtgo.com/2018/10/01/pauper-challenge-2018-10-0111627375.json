@@ -3738,48 +3738,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Theflotist",
-        "Player2": "JuaKi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Blloodpet",
-        "Player2": "TSPJendrek",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "qbturtle15",
-        "Player2": "Nasty",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "andreev",
-        "Player2": "ak1",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "qbturtle15",
-        "Player2": "Blloodpet",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Theflotist",
-        "Player2": "andreev",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Theflotist",
-      "Player2": "qbturtle15",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Theflotist",
+          "Player2": "JuaKi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Blloodpet",
+          "Player2": "TSPJendrek",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "qbturtle15",
+          "Player2": "Nasty",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "andreev",
+          "Player2": "ak1",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "qbturtle15",
+          "Player2": "Blloodpet",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Theflotist",
+          "Player2": "andreev",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Theflotist",
+          "Player2": "qbturtle15",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

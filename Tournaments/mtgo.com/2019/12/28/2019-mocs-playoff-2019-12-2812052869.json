@@ -4374,48 +4374,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "sandydogmtg",
-        "Player2": "Bayesta_93",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "Broniak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "VTCLA",
-        "Player2": "SourceOdin",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Brunister",
-        "Player2": "GodlikeNg",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "VTCLA",
-        "Player2": "Brunister",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "sandydogmtg",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "VTCLA",
-      "Player2": "bolov0",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "sandydogmtg",
+          "Player2": "Bayesta_93",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "Broniak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "VTCLA",
+          "Player2": "SourceOdin",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Brunister",
+          "Player2": "GodlikeNg",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "VTCLA",
+          "Player2": "Brunister",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "sandydogmtg",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "VTCLA",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

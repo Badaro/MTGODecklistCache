@@ -5450,48 +5450,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Diem4x",
-        "Player2": "Ilulu",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TabaDonk",
-        "Player2": "fistfullofmetal",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "EnderF1705",
-        "Player2": "_Shatun_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SHAKELION",
-        "Player2": "oosunq",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "EnderF1705",
-        "Player2": "TabaDonk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "SHAKELION",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Diem4x",
-      "Player2": "EnderF1705",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "Ilulu",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TabaDonk",
+          "Player2": "fistfullofmetal",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "EnderF1705",
+          "Player2": "_Shatun_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SHAKELION",
+          "Player2": "oosunq",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "EnderF1705",
+          "Player2": "TabaDonk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "SHAKELION",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Diem4x",
+          "Player2": "EnderF1705",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

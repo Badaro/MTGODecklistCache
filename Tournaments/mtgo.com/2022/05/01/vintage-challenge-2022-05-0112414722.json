@@ -5450,48 +5450,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Breckoroni",
-        "Player2": "Dazai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MissTrigger",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "Violent_Outburst",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "oosunq",
-        "Player2": "MadMaxErnst",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "oosunq",
-        "Player2": "Breckoroni",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "MissTrigger",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "duke12",
-      "Player2": "oosunq",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Breckoroni",
+          "Player2": "Dazai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MissTrigger",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "Violent_Outburst",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "oosunq",
+          "Player2": "MadMaxErnst",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "oosunq",
+          "Player2": "Breckoroni",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "MissTrigger",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "duke12",
+          "Player2": "oosunq",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3942,48 +3942,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "zeuth",
-        "Player2": "contrap",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ProHilary",
-        "Player2": "nola_gold",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sesquialtera",
-        "Player2": "strong sad",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Pascal3000",
-        "Player2": "jaek",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "zeuth",
-        "Player2": "Sesquialtera",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Pascal3000",
-        "Player2": "ProHilary",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "zeuth",
-      "Player2": "Pascal3000",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "zeuth",
+          "Player2": "contrap",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ProHilary",
+          "Player2": "nola_gold",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sesquialtera",
+          "Player2": "strong sad",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Pascal3000",
+          "Player2": "jaek",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "zeuth",
+          "Player2": "Sesquialtera",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Pascal3000",
+          "Player2": "ProHilary",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "zeuth",
+          "Player2": "Pascal3000",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3494,48 +3494,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Amplumnox",
-        "Player2": "Gn42",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "msskinbolic",
-        "Player2": "_Marian_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ura_frst",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "_DissonancE_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Amplumnox",
-        "Player2": "ura_frst",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "mlovbo",
-      "Player2": "Amplumnox",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Amplumnox",
+          "Player2": "Gn42",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "msskinbolic",
+          "Player2": "_Marian_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ura_frst",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "_DissonancE_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Amplumnox",
+          "Player2": "ura_frst",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "Amplumnox",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

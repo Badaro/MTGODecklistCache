@@ -3594,48 +3594,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Eaglov",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Rixxen",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "saikyoluige",
-        "Player2": "Tozla",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ixidor29",
-        "Player2": "Backoff",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Eaglov",
-        "Player2": "saikyoluige",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "Ixidor29",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "Eaglov",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Rixxen",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "saikyoluige",
+          "Player2": "Tozla",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ixidor29",
+          "Player2": "Backoff",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Eaglov",
+          "Player2": "saikyoluige",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "Ixidor29",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "Eaglov",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

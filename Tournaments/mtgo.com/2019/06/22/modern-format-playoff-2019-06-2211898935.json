@@ -1990,48 +1990,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "milikin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "_ctrl_q_f_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Nilsfit",
-        "Player2": "kangurello",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KillaGerm",
-        "Player2": "jessy_samek",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Nilsfit",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "KillaGerm",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Do0mSwitch",
-      "Player2": "Nilsfit",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "milikin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "_ctrl_q_f_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Nilsfit",
+          "Player2": "kangurello",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KillaGerm",
+          "Player2": "jessy_samek",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Nilsfit",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "KillaGerm",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "Nilsfit",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

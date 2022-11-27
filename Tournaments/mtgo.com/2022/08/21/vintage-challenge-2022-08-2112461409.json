@@ -6022,48 +6022,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "adm29",
-        "Player2": "lordoflifegain",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Slasher21",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "abr_",
-        "Player2": "Cherryxman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ElfKid",
-        "Player2": "sandydogmtg",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ElfKid",
-        "Player2": "adm29",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "abr_",
-        "Player2": "Slasher21",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "abr_",
-      "Player2": "ElfKid",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "adm29",
+          "Player2": "lordoflifegain",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Slasher21",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "abr_",
+          "Player2": "Cherryxman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ElfKid",
+          "Player2": "sandydogmtg",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ElfKid",
+          "Player2": "adm29",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "abr_",
+          "Player2": "Slasher21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "abr_",
+          "Player2": "ElfKid",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

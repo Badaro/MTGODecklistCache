@@ -3558,48 +3558,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kcomedina",
-        "Player2": "Salvatto",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gobern",
-        "Player2": "Fink64",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "milikin",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "levunga21",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kcomedina",
-        "Player2": "Do0mSwitch",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gobern",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gobern",
-      "Player2": "kcomedina",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kcomedina",
+          "Player2": "Salvatto",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gobern",
+          "Player2": "Fink64",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "milikin",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "levunga21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kcomedina",
+          "Player2": "Do0mSwitch",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gobern",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gobern",
+          "Player2": "kcomedina",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

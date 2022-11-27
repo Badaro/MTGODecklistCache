@@ -3838,48 +3838,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Misplacedginger",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "thinenagooyen",
-        "Player2": "andycsoto",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DaveLombardoJr",
-        "Player2": "GiestOfIWin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pokerswizard",
-        "Player2": "DontKnoxTheHustle",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Misplacedginger",
-        "Player2": "DaveLombardoJr",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pokerswizard",
-        "Player2": "thinenagooyen",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Misplacedginger",
-      "Player2": "pokerswizard",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Misplacedginger",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "thinenagooyen",
+          "Player2": "andycsoto",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DaveLombardoJr",
+          "Player2": "GiestOfIWin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pokerswizard",
+          "Player2": "DontKnoxTheHustle",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Misplacedginger",
+          "Player2": "DaveLombardoJr",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pokerswizard",
+          "Player2": "thinenagooyen",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Misplacedginger",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

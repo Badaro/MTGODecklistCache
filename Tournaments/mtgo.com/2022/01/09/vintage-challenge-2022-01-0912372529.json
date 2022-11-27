@@ -5794,48 +5794,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "travis8427",
-        "Player2": "Fnoop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Slasher21",
-        "Player2": "karn_90",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "TrueHero",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Vertyx_",
-        "Player2": "Tsubasa_Cat",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Vertyx_",
-        "Player2": "Slasher21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "travis8427",
-        "Player2": "kanister",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Vertyx_",
-      "Player2": "travis8427",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "travis8427",
+          "Player2": "Fnoop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Slasher21",
+          "Player2": "karn_90",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "TrueHero",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Vertyx_",
+          "Player2": "Tsubasa_Cat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Vertyx_",
+          "Player2": "Slasher21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "travis8427",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Vertyx_",
+          "Player2": "travis8427",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

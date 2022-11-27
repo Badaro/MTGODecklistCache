@@ -4090,48 +4090,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "yamayama",
-        "Player2": "wara",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yoshiwata",
-        "Player2": "Aegisaziz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Scabs",
-        "Player2": "toondoslav",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "ecobaronen",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yoshiwata",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yamayama",
-        "Player2": "Scabs",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "yamayama",
-      "Player2": "yoshiwata",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "yamayama",
+          "Player2": "wara",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yoshiwata",
+          "Player2": "Aegisaziz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Scabs",
+          "Player2": "toondoslav",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "ecobaronen",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yoshiwata",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yamayama",
+          "Player2": "Scabs",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "yamayama",
+          "Player2": "yoshiwata",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

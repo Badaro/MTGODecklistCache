@@ -3714,48 +3714,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "Sapoa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kogamo",
-        "Player2": "_Falcon_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "panza_quiroga",
-        "Player2": "wambocombo2020",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Albimtg",
-        "Player2": "Edel",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Albimtg",
-        "Player2": "kogamo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "panza_quiroga",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "panza_quiroga",
-      "Player2": "Albimtg",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "Sapoa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kogamo",
+          "Player2": "_Falcon_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "panza_quiroga",
+          "Player2": "wambocombo2020",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Albimtg",
+          "Player2": "Edel",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Albimtg",
+          "Player2": "kogamo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "panza_quiroga",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "panza_quiroga",
+          "Player2": "Albimtg",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

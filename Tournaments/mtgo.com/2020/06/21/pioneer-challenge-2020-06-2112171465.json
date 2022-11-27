@@ -4006,48 +4006,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mei0024",
-        "Player2": "wkmidori",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cometa183",
-        "Player2": "MeiaTola",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "qbturtle15",
-        "Player2": "FreshKale",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mdvayu2",
-        "Player2": "Vilaboy",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mdvayu2",
-        "Player2": "mei0024",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cometa183",
-        "Player2": "qbturtle15",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "cometa183",
-      "Player2": "mdvayu2",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mei0024",
+          "Player2": "wkmidori",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cometa183",
+          "Player2": "MeiaTola",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "qbturtle15",
+          "Player2": "FreshKale",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mdvayu2",
+          "Player2": "Vilaboy",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mdvayu2",
+          "Player2": "mei0024",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cometa183",
+          "Player2": "qbturtle15",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cometa183",
+          "Player2": "mdvayu2",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

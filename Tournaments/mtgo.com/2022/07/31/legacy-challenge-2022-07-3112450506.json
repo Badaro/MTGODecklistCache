@@ -4354,48 +4354,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "DNSolver",
-        "Player2": "trunks132",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Minest110",
-        "Player2": "kurohiren",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Numstail",
-        "Player2": "MindGoblinMTG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "shindy",
-        "Player2": "hipeople351",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Minest110",
-        "Player2": "shindy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Numstail",
-        "Player2": "DNSolver",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Minest110",
-      "Player2": "Numstail",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "DNSolver",
+          "Player2": "trunks132",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Minest110",
+          "Player2": "kurohiren",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Numstail",
+          "Player2": "MindGoblinMTG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "shindy",
+          "Player2": "hipeople351",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Minest110",
+          "Player2": "shindy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Numstail",
+          "Player2": "DNSolver",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Minest110",
+          "Player2": "Numstail",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4058,48 +4058,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Phizzle",
-        "Player2": "Jaberwocki",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "_Stream",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "chepa",
-        "Player2": "Eisenhammer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ManacleRend",
-        "Player2": "AntzzzOnALog",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ManacleRend",
-        "Player2": "Anssi A",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "chepa",
-        "Player2": "Phizzle",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ManacleRend",
-      "Player2": "chepa",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Phizzle",
+          "Player2": "Jaberwocki",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "_Stream",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "chepa",
+          "Player2": "Eisenhammer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ManacleRend",
+          "Player2": "AntzzzOnALog",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ManacleRend",
+          "Player2": "Anssi A",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "chepa",
+          "Player2": "Phizzle",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ManacleRend",
+          "Player2": "chepa",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

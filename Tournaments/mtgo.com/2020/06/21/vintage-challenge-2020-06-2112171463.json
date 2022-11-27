@@ -5746,48 +5746,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "aooaaooa",
-        "Player2": "AnziD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "notmi",
-        "Player2": "Misplacedginger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Montolio",
-        "Player2": "Bryant_Cook",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GGoggles",
-        "Player2": "kauffj",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "notmi",
-        "Player2": "aooaaooa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GGoggles",
-        "Player2": "Montolio",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "notmi",
-      "Player2": "GGoggles",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "aooaaooa",
+          "Player2": "AnziD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "notmi",
+          "Player2": "Misplacedginger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Montolio",
+          "Player2": "Bryant_Cook",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GGoggles",
+          "Player2": "kauffj",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "notmi",
+          "Player2": "aooaaooa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GGoggles",
+          "Player2": "Montolio",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "notmi",
+          "Player2": "GGoggles",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

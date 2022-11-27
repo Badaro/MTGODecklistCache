@@ -4270,48 +4270,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "tiko",
-        "Player2": "aspiringspike",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "homsar52",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "quinniac",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "frakom",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "tiko",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "Tunaktunak",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "MaxMagicer",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "tiko",
+          "Player2": "aspiringspike",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "homsar52",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "quinniac",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "frakom",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "tiko",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "Tunaktunak",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "MaxMagicer",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

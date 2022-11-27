@@ -6466,48 +6466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AnziD",
-        "Player2": "abr_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "billsive",
-        "Player2": "Shorak123",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "CNewman",
-        "Player2": "ecobaronen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "gnorilgrande",
-        "Player2": "WWolf",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billsive",
-        "Player2": "AnziD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "gnorilgrande",
-        "Player2": "CNewman",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "gnorilgrande",
-      "Player2": "billsive",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AnziD",
+          "Player2": "abr_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "billsive",
+          "Player2": "Shorak123",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "CNewman",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "gnorilgrande",
+          "Player2": "WWolf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billsive",
+          "Player2": "AnziD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "gnorilgrande",
+          "Player2": "CNewman",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "gnorilgrande",
+          "Player2": "billsive",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

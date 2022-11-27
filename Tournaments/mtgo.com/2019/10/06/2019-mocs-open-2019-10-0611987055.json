@@ -1334,48 +1334,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "lampalot",
-        "Player2": "aytor_92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Zyrnak",
-        "Player2": "floatius",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DarkestMage",
-        "Player2": "Dot11",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Amurica",
-        "Player2": "_sameold",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "DarkestMage",
-        "Player2": "Amurica",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "lampalot",
-        "Player2": "Zyrnak",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "DarkestMage",
-      "Player2": "lampalot",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "lampalot",
+          "Player2": "aytor_92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Zyrnak",
+          "Player2": "floatius",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DarkestMage",
+          "Player2": "Dot11",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Amurica",
+          "Player2": "_sameold",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "DarkestMage",
+          "Player2": "Amurica",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "lampalot",
+          "Player2": "Zyrnak",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "DarkestMage",
+          "Player2": "lampalot",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3234,48 +3234,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "renaar",
-        "Player2": "Gn42",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MatheusPonciano",
-        "Player2": "AlexFiero",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kampo",
-        "Player2": "LuffyDoChapeuDePalha",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "msskinbolic",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "MatheusPonciano",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "renaar",
-        "Player2": "Kampo",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hamuda",
-      "Player2": "renaar",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "renaar",
+          "Player2": "Gn42",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MatheusPonciano",
+          "Player2": "AlexFiero",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kampo",
+          "Player2": "LuffyDoChapeuDePalha",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "msskinbolic",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "MatheusPonciano",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "renaar",
+          "Player2": "Kampo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "renaar",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

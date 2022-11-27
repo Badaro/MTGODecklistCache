@@ -4294,48 +4294,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Jedgi",
-        "Player2": "pbarrrgh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "gazmon48",
-        "Player2": "Reflax",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mRichi",
-        "Player2": "cntrlfreak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "nazart",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "WaToO",
-        "Player2": "gazmon48",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jedgi",
-        "Player2": "mRichi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "WaToO",
-      "Player2": "Jedgi",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Jedgi",
+          "Player2": "pbarrrgh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "gazmon48",
+          "Player2": "Reflax",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mRichi",
+          "Player2": "cntrlfreak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "nazart",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "WaToO",
+          "Player2": "gazmon48",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jedgi",
+          "Player2": "mRichi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "WaToO",
+          "Player2": "Jedgi",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

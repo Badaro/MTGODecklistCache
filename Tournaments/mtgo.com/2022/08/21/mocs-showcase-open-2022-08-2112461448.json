@@ -1406,48 +1406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "stainerson",
-        "Player2": "Rex_Iudex",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "cbholt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tixis",
-        "Player2": "cubix911",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Thalai",
-        "Player2": "mysteryman21",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "stainerson",
-        "Player2": "Thalai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tixis",
-        "Player2": "JMM",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "stainerson",
-      "Player2": "Tixis",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "Rex_Iudex",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "cbholt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tixis",
+          "Player2": "cubix911",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Thalai",
+          "Player2": "mysteryman21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "Thalai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tixis",
+          "Player2": "JMM",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "Tixis",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

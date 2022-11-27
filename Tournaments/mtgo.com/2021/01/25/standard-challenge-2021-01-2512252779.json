@@ -3774,48 +3774,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GinkoHS",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "yuyan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GoDennison",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gobern",
-        "Player2": "doc05",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "GoDennison",
-        "Player2": "GinkoHS",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LukasDusek",
-        "Player2": "Gobern",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "GoDennison",
-      "Player2": "LukasDusek",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GinkoHS",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "yuyan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GoDennison",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gobern",
+          "Player2": "doc05",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "GoDennison",
+          "Player2": "GinkoHS",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LukasDusek",
+          "Player2": "Gobern",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GoDennison",
+          "Player2": "LukasDusek",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

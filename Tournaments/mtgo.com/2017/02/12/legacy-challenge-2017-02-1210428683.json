@@ -4190,48 +4190,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Julian23",
-        "Player2": "LewisCBR",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AnziD",
-        "Player2": "Ark4n",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Call1Me1Dragon",
-        "Player2": "ThunderPork",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mou",
-        "Player2": "Janchu88",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Julian23",
-        "Player2": "Call1Me1Dragon",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mou",
-        "Player2": "AnziD",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Julian23",
-      "Player2": "Mou",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Julian23",
+          "Player2": "LewisCBR",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AnziD",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Call1Me1Dragon",
+          "Player2": "ThunderPork",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mou",
+          "Player2": "Janchu88",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Julian23",
+          "Player2": "Call1Me1Dragon",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mou",
+          "Player2": "AnziD",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Julian23",
+          "Player2": "Mou",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

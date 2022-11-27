@@ -4518,48 +4518,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Sodeq",
-        "Player2": "Titasun",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MrCafouillette",
-        "Player2": "Samlg01",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "Moniz0801",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_INF_",
-        "Player2": "Mordeka1ser",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MrCafouillette",
-        "Player2": "Darthkid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "_INF_",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "MrCafouillette",
-      "Player2": "Sodeq",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "Titasun",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MrCafouillette",
+          "Player2": "Samlg01",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "Moniz0801",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_INF_",
+          "Player2": "Mordeka1ser",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MrCafouillette",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "_INF_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MrCafouillette",
+          "Player2": "Sodeq",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

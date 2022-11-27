@@ -4082,48 +4082,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Slasher21",
-        "Player2": "canepis16",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "cezarpn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "Theo_Jung",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "TaylorSpain",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "nathansteuer",
-        "Player2": "Slasher21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MJ_23",
-        "Player2": "claudioh",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MJ_23",
-      "Player2": "nathansteuer",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Slasher21",
+          "Player2": "canepis16",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "cezarpn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "Theo_Jung",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "TaylorSpain",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "nathansteuer",
+          "Player2": "Slasher21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MJ_23",
+          "Player2": "claudioh",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MJ_23",
+          "Player2": "nathansteuer",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4642,48 +4642,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "WaToO",
-        "Player2": "gyyby297",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yriel",
-        "Player2": "Mistakenn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GanYanCHN",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "HeyPharaoh",
-        "Player2": "CrusherBotBG",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yriel",
-        "Player2": "WaToO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GanYanCHN",
-        "Player2": "HeyPharaoh",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "yriel",
-      "Player2": "GanYanCHN",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "WaToO",
+          "Player2": "gyyby297",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yriel",
+          "Player2": "Mistakenn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GanYanCHN",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "HeyPharaoh",
+          "Player2": "CrusherBotBG",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yriel",
+          "Player2": "WaToO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GanYanCHN",
+          "Player2": "HeyPharaoh",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "yriel",
+          "Player2": "GanYanCHN",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

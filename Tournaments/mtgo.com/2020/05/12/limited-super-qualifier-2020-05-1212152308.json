@@ -1478,48 +1478,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "sukka",
-        "Player2": "Mafiaboy514",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "LukasDusek",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "dunyosaur",
-        "Player2": "LeoFa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DDMeelow",
-        "Player2": "Thali22",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "DDMeelow",
-        "Player2": "dunyosaur",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sukka",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "DDMeelow",
-      "Player2": "sukka",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "sukka",
+          "Player2": "Mafiaboy514",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "LukasDusek",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "dunyosaur",
+          "Player2": "LeoFa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DDMeelow",
+          "Player2": "Thali22",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "DDMeelow",
+          "Player2": "dunyosaur",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sukka",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "DDMeelow",
+          "Player2": "sukka",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

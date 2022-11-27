@@ -4258,48 +4258,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Brener",
-        "Player2": "MLupa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "McWinSauce",
-        "Player2": "LSMD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Nisus",
-        "Player2": "LORiWWA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Toastxp",
-        "Player2": "_IlNano_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Brener",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Toastxp",
-        "Player2": "Nisus",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Toastxp",
-      "Player2": "Brener",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Brener",
+          "Player2": "MLupa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "McWinSauce",
+          "Player2": "LSMD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Nisus",
+          "Player2": "LORiWWA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Toastxp",
+          "Player2": "_IlNano_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Brener",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Toastxp",
+          "Player2": "Nisus",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Toastxp",
+          "Player2": "Brener",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

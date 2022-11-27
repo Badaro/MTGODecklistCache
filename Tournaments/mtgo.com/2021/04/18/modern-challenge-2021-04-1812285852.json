@@ -4378,48 +4378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "fer_magic",
-        "Player2": "mchlpp",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kiko",
-        "Player2": "scipios",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Usama96",
-        "Player2": "Sprouts",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Meltiin",
-        "Player2": "patheus_84",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kiko",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Meltiin",
-        "Player2": "fer_magic",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Meltiin",
-      "Player2": "kiko",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "fer_magic",
+          "Player2": "mchlpp",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kiko",
+          "Player2": "scipios",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Usama96",
+          "Player2": "Sprouts",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Meltiin",
+          "Player2": "patheus_84",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kiko",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Meltiin",
+          "Player2": "fer_magic",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Meltiin",
+          "Player2": "kiko",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

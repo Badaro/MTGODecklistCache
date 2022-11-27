@@ -4254,48 +4254,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "dm95",
-        "Player2": "Justodeangelo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Grantfly",
-        "Player2": "Fnoop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mRichi",
-        "Player2": "CharlesBukowski",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WilliamRegal",
-        "Player2": "Shiomiya",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "dm95",
-        "Player2": "Grantfly",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mRichi",
-        "Player2": "WilliamRegal",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "mRichi",
-      "Player2": "dm95",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "dm95",
+          "Player2": "Justodeangelo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Grantfly",
+          "Player2": "Fnoop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mRichi",
+          "Player2": "CharlesBukowski",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WilliamRegal",
+          "Player2": "Shiomiya",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "dm95",
+          "Player2": "Grantfly",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mRichi",
+          "Player2": "WilliamRegal",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mRichi",
+          "Player2": "dm95",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

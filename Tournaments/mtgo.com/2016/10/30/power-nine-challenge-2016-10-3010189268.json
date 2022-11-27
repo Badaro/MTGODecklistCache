@@ -5294,48 +5294,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "KDBKGB",
-        "Player2": "Uncle_Rico",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "k_f_chicken",
-        "Player2": "Egget",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TigersBadger",
-        "Player2": "Sharkcaster_Mage",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "glick",
-        "Player2": "ziguyan",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "k_f_chicken",
-        "Player2": "TigersBadger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "glick",
-        "Player2": "KDBKGB",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "glick",
-      "Player2": "k_f_chicken",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "KDBKGB",
+          "Player2": "Uncle_Rico",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "k_f_chicken",
+          "Player2": "Egget",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TigersBadger",
+          "Player2": "Sharkcaster_Mage",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "glick",
+          "Player2": "ziguyan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "k_f_chicken",
+          "Player2": "TigersBadger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "glick",
+          "Player2": "KDBKGB",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "glick",
+          "Player2": "k_f_chicken",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

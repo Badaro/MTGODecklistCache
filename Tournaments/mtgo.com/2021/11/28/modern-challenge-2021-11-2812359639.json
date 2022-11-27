@@ -4322,48 +4322,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bigjc00",
-        "Player2": "Eyelash",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ltbeast",
-        "Player2": "TVigs",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mell0n",
-        "Player2": "Do0mSwitch",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SoulStrong",
-        "Player2": "Celldweller",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bigjc00",
-        "Player2": "ltbeast",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mell0n",
-        "Player2": "SoulStrong",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "bigjc00",
-      "Player2": "mell0n",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bigjc00",
+          "Player2": "Eyelash",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ltbeast",
+          "Player2": "TVigs",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mell0n",
+          "Player2": "Do0mSwitch",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SoulStrong",
+          "Player2": "Celldweller",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bigjc00",
+          "Player2": "ltbeast",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mell0n",
+          "Player2": "SoulStrong",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bigjc00",
+          "Player2": "mell0n",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

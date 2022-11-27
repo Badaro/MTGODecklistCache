@@ -3970,48 +3970,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bobjackson",
-        "Player2": "Folero",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "Comebackkid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Usama96",
-        "Player2": "xfile",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Coly2",
-        "Player2": "JogandoPelado",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bobjackson",
-        "Player2": "Coly2",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jaberwocki",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "bobjackson",
-      "Player2": "Jaberwocki",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bobjackson",
+          "Player2": "Folero",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "Comebackkid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Usama96",
+          "Player2": "xfile",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Coly2",
+          "Player2": "JogandoPelado",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bobjackson",
+          "Player2": "Coly2",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jaberwocki",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bobjackson",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

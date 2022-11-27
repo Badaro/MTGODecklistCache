@@ -3746,48 +3746,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "kasa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Heisen01",
-        "Player2": "Misplacedginger",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Finespoo",
-        "Player2": "Lennny",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gabc",
-        "Player2": "mlovbo",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Heisen01",
-        "Player2": "Finespoo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gabc",
-        "Player2": "Oscar_Franco",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Heisen01",
-      "Player2": "Gabc",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Heisen01",
+          "Player2": "Misplacedginger",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Finespoo",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gabc",
+          "Player2": "mlovbo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Heisen01",
+          "Player2": "Finespoo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gabc",
+          "Player2": "Oscar_Franco",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Heisen01",
+          "Player2": "Gabc",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

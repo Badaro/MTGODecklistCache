@@ -4226,48 +4226,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kurusu",
-        "Player2": "Mateusf34",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "staffmat1992",
-        "Player2": "CVXW",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "trunks132",
-        "Player2": "ZYX_Jerry",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "Moniz0801",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "trunks132",
-        "Player2": "staffmat1992",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "Kurusu",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Laplasjan",
-      "Player2": "trunks132",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kurusu",
+          "Player2": "Mateusf34",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "staffmat1992",
+          "Player2": "CVXW",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "trunks132",
+          "Player2": "ZYX_Jerry",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "Moniz0801",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "trunks132",
+          "Player2": "staffmat1992",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "Kurusu",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Laplasjan",
+          "Player2": "trunks132",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

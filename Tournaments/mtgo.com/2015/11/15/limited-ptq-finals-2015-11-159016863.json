@@ -1418,48 +1418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "redground",
-        "Player2": "merton519",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Louisbach",
-        "Player2": "Coopes",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mazuku94",
-        "Player2": "BLOBBB",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lord_Ehri",
-        "Player2": "biggertricks",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mazuku94",
-        "Player2": "Lord_Ehri",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "redground",
-        "Player2": "Louisbach",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "redground",
-      "Player2": "Mazuku94",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "redground",
+          "Player2": "merton519",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Louisbach",
+          "Player2": "Coopes",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mazuku94",
+          "Player2": "BLOBBB",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lord_Ehri",
+          "Player2": "biggertricks",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mazuku94",
+          "Player2": "Lord_Ehri",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "redground",
+          "Player2": "Louisbach",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "redground",
+          "Player2": "Mazuku94",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

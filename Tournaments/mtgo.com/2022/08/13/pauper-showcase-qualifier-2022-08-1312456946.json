@@ -1398,48 +1398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "pinkbom69",
-        "Player2": "Ezocratto1989",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hellsau",
-        "Player2": "Walker735",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tyerube1618",
-        "Player2": "Patxi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oss-28",
-        "Player2": "carvs",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oss-28",
-        "Player2": "Hellsau",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tyerube1618",
-        "Player2": "pinkbom69",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Oss-28",
-      "Player2": "Tyerube1618",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "pinkbom69",
+          "Player2": "Ezocratto1989",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hellsau",
+          "Player2": "Walker735",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "Patxi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oss-28",
+          "Player2": "carvs",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oss-28",
+          "Player2": "Hellsau",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "pinkbom69",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oss-28",
+          "Player2": "Tyerube1618",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

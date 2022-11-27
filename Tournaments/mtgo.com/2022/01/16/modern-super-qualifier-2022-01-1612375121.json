@@ -4358,48 +4358,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "three0",
-        "Player2": "Leviathan102",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "zachattack23",
-        "Player2": "duanceyao",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cavedan",
-        "Player2": "Kurusu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FerMTG",
-        "Player2": "Henkers",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "zachattack23",
-        "Player2": "three0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "FerMTG",
-        "Player2": "cavedan",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "FerMTG",
-      "Player2": "zachattack23",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "three0",
+          "Player2": "Leviathan102",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "zachattack23",
+          "Player2": "duanceyao",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cavedan",
+          "Player2": "Kurusu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FerMTG",
+          "Player2": "Henkers",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "zachattack23",
+          "Player2": "three0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "FerMTG",
+          "Player2": "cavedan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "FerMTG",
+          "Player2": "zachattack23",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

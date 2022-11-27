@@ -3958,48 +3958,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_goblinlackey",
-        "Player2": "Oatesy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "Joao_Andrade",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "bmac668",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "torers",
-        "Player2": "musasabi",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "torers",
-        "Player2": "_goblinlackey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "remf",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "O_danielakos",
-      "Player2": "torers",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_goblinlackey",
+          "Player2": "Oatesy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "Joao_Andrade",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "bmac668",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "torers",
+          "Player2": "musasabi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "torers",
+          "Player2": "_goblinlackey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "remf",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "O_danielakos",
+          "Player2": "torers",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

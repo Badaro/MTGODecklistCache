@@ -4214,48 +4214,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "apriolo1",
-        "Player2": "staffmat1992",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Selami",
-        "Player2": "benbot9003",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "Lord_of_Puntlantis",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "trunks132",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "apriolo1",
-        "Player2": "Selami",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "_Batutinha_",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "apriolo1",
-      "Player2": "Sodeq",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "apriolo1",
+          "Player2": "staffmat1992",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Selami",
+          "Player2": "benbot9003",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "Lord_of_Puntlantis",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "trunks132",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "apriolo1",
+          "Player2": "Selami",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "_Batutinha_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "apriolo1",
+          "Player2": "Sodeq",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3930,48 +3930,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Tyerube1618",
-        "Player2": "i_dont_know",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Diem4x",
-        "Player2": "claudioh",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ladon",
-        "Player2": "Darthkid",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Tia93_",
-        "Player2": "Stanku",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ladon",
-        "Player2": "_Tia93_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tyerube1618",
-        "Player2": "Diem4x",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Tyerube1618",
-      "Player2": "Ladon",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "i_dont_know",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Diem4x",
+          "Player2": "claudioh",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ladon",
+          "Player2": "Darthkid",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Tia93_",
+          "Player2": "Stanku",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ladon",
+          "Player2": "_Tia93_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "Diem4x",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "Ladon",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

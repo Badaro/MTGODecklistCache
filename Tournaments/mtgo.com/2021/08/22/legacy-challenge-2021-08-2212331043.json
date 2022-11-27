@@ -4398,48 +4398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "trunks132",
-        "Player2": "wingzerofnc",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AyeItsNick",
-        "Player2": "Shadaro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NAKISHIMA",
-        "Player2": "Parrotlet",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "maxbv",
-        "Player2": "yamakiller",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "maxbv",
-        "Player2": "NAKISHIMA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AyeItsNick",
-        "Player2": "trunks132",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "maxbv",
-      "Player2": "AyeItsNick",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "trunks132",
+          "Player2": "wingzerofnc",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AyeItsNick",
+          "Player2": "Shadaro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NAKISHIMA",
+          "Player2": "Parrotlet",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "maxbv",
+          "Player2": "yamakiller",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "maxbv",
+          "Player2": "NAKISHIMA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AyeItsNick",
+          "Player2": "trunks132",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "maxbv",
+          "Player2": "AyeItsNick",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

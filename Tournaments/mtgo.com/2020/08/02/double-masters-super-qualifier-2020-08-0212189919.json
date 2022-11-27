@@ -1378,48 +1378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ERUERUFU",
-        "Player2": "shopshops",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hiboufou",
-        "Player2": "ATXroy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sokos13",
-        "Player2": "TiltnTumble",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "stainerson",
-        "Player2": "BananOlaf",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hiboufou",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "stainerson",
-        "Player2": "ERUERUFU",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "stainerson",
-      "Player2": "Hiboufou",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ERUERUFU",
+          "Player2": "shopshops",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hiboufou",
+          "Player2": "ATXroy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sokos13",
+          "Player2": "TiltnTumble",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "stainerson",
+          "Player2": "BananOlaf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hiboufou",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "stainerson",
+          "Player2": "ERUERUFU",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "Hiboufou",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

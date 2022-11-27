@@ -4374,48 +4374,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Slaydftw",
-        "Player2": "Fluorspar",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ArchaeusDota",
-        "Player2": "Do0mSwitch",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "xfile",
-        "Player2": "Xerk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Makia",
-        "Player2": "DemonicTutors",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ArchaeusDota",
-        "Player2": "Slaydftw",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Makia",
-        "Player2": "xfile",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Makia",
-      "Player2": "ArchaeusDota",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Slaydftw",
+          "Player2": "Fluorspar",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ArchaeusDota",
+          "Player2": "Do0mSwitch",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "xfile",
+          "Player2": "Xerk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Makia",
+          "Player2": "DemonicTutors",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ArchaeusDota",
+          "Player2": "Slaydftw",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Makia",
+          "Player2": "xfile",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Makia",
+          "Player2": "ArchaeusDota",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

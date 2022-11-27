@@ -4262,48 +4262,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mogged",
-        "Player2": "FerMTG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Yotsugi",
-        "Player2": "Cabezadebolo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Breckoroni",
-        "Player2": "Christianhartz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "guinthos201111",
-        "Player2": "Danielpena397",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "guinthos201111",
-        "Player2": "Breckoroni",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Yotsugi",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "guinthos201111",
-      "Player2": "Yotsugi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mogged",
+          "Player2": "FerMTG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Yotsugi",
+          "Player2": "Cabezadebolo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Breckoroni",
+          "Player2": "Christianhartz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "guinthos201111",
+          "Player2": "Danielpena397",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "guinthos201111",
+          "Player2": "Breckoroni",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Yotsugi",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "guinthos201111",
+          "Player2": "Yotsugi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

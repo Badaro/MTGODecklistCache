@@ -1358,48 +1358,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "McWinSauce",
-        "Player2": "TennTyou",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Eken.",
-        "Player2": "msskinbolic",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JaguarXJ",
-        "Player2": "ThomasH",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "WhiTe TsaR",
-        "Player2": "Finespoo",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "WhiTe TsaR",
-        "Player2": "McWinSauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Eken.",
-        "Player2": "JaguarXJ",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Eken.",
-      "Player2": "WhiTe TsaR",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "McWinSauce",
+          "Player2": "TennTyou",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Eken.",
+          "Player2": "msskinbolic",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JaguarXJ",
+          "Player2": "ThomasH",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "Finespoo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "WhiTe TsaR",
+          "Player2": "McWinSauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Eken.",
+          "Player2": "JaguarXJ",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Eken.",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

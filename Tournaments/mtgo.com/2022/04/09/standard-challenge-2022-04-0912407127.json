@@ -4042,48 +4042,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SilvergillLord",
-        "Player2": "bless_von",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cftsoc3",
-        "Player2": "MJ_23",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Idea029",
-        "Player2": "O_danielakos",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "Darthkid",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "SilvergillLord",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cftsoc3",
-        "Player2": "Idea029",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "cftsoc3",
-      "Player2": "Hamuda",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SilvergillLord",
+          "Player2": "bless_von",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cftsoc3",
+          "Player2": "MJ_23",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Idea029",
+          "Player2": "O_danielakos",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "SilvergillLord",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cftsoc3",
+          "Player2": "Idea029",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cftsoc3",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

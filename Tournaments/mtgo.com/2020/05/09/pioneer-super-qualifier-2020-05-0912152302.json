@@ -3938,48 +3938,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TheSaberVault",
-        "Player2": "pokerswizard",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JoseCabezas",
-        "Player2": "kanister",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MindOfAKid",
-        "Player2": "Capitano_CL",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RNGspecialist",
-        "Player2": "Faellan",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "MindOfAKid",
-        "Player2": "JoseCabezas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TheSaberVault",
-        "Player2": "RNGspecialist",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "TheSaberVault",
-      "Player2": "MindOfAKid",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TheSaberVault",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JoseCabezas",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MindOfAKid",
+          "Player2": "Capitano_CL",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RNGspecialist",
+          "Player2": "Faellan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "MindOfAKid",
+          "Player2": "JoseCabezas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TheSaberVault",
+          "Player2": "RNGspecialist",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TheSaberVault",
+          "Player2": "MindOfAKid",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

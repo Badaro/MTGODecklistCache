@@ -3678,48 +3678,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gobern",
-        "Player2": "Malfico",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pjc08",
-        "Player2": "Superjerk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "whitnen",
-        "Player2": "RayFuturePro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "gottelicious",
-        "Player2": "JeffCunningham",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "whitnen",
-        "Player2": "pjc08",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gobern",
-        "Player2": "gottelicious",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gobern",
-      "Player2": "whitnen",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gobern",
+          "Player2": "Malfico",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pjc08",
+          "Player2": "Superjerk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "whitnen",
+          "Player2": "RayFuturePro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "gottelicious",
+          "Player2": "JeffCunningham",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "whitnen",
+          "Player2": "pjc08",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gobern",
+          "Player2": "gottelicious",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gobern",
+          "Player2": "whitnen",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

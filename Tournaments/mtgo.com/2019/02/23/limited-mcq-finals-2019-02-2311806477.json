@@ -1382,48 +1382,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Valar-Morghulis",
-        "Player2": "Diceshake",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "chengyiw",
-        "Player2": "superstar",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wantai",
-        "Player2": "twiztidg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Lavaridge",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "chengyiw",
-        "Player2": "wantai",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Valar-Morghulis",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "JPA93",
-      "Player2": "chengyiw",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Valar-Morghulis",
+          "Player2": "Diceshake",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "chengyiw",
+          "Player2": "superstar",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wantai",
+          "Player2": "twiztidg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Lavaridge",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "chengyiw",
+          "Player2": "wantai",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Valar-Morghulis",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "chengyiw",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

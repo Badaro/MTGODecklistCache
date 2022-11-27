@@ -1838,48 +1838,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "lindoso01",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Team5c",
-        "Player2": "Modern_Monkey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "frucile",
-        "Player2": "FranMtg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "pokerswizard",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "frucile",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Team5c",
-        "Player2": "Hampuse1",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Team5c",
-      "Player2": "billster47",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "lindoso01",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Team5c",
+          "Player2": "Modern_Monkey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "frucile",
+          "Player2": "FranMtg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "frucile",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Team5c",
+          "Player2": "Hampuse1",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Team5c",
+          "Player2": "billster47",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

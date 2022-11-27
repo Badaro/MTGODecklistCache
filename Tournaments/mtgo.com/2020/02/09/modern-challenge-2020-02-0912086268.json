@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "phol",
-        "Player2": "Mistakenn",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AronGomu",
-        "Player2": "EtherSnake",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "Twibs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FranPi",
-        "Player2": "TheTunnelingCat",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Chefen",
-        "Player2": "phol",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "FranPi",
-        "Player2": "AronGomu",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "FranPi",
-      "Player2": "Chefen",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "phol",
+          "Player2": "Mistakenn",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AronGomu",
+          "Player2": "EtherSnake",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "Twibs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FranPi",
+          "Player2": "TheTunnelingCat",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Chefen",
+          "Player2": "phol",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "FranPi",
+          "Player2": "AronGomu",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "FranPi",
+          "Player2": "Chefen",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

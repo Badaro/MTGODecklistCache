@@ -4170,48 +4170,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Rvng",
-        "Player2": "XxShuicunexX",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "OddlyUneven",
-        "Player2": "Simaomero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "M4RK",
-        "Player2": "Beenew",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Amplumnox",
-        "Player2": "Mateusf34",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "M4RK",
-        "Player2": "Rvng",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Amplumnox",
-        "Player2": "OddlyUneven",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "M4RK",
-      "Player2": "Amplumnox",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Rvng",
+          "Player2": "XxShuicunexX",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "OddlyUneven",
+          "Player2": "Simaomero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "M4RK",
+          "Player2": "Beenew",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Amplumnox",
+          "Player2": "Mateusf34",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "M4RK",
+          "Player2": "Rvng",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Amplumnox",
+          "Player2": "OddlyUneven",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "M4RK",
+          "Player2": "Amplumnox",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

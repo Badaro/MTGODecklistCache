@@ -4242,48 +4242,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kanican",
-        "Player2": "zhinonono",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "medvedev",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "VictorHugo2001",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SAWATARIX",
-        "Player2": "MoMo321",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ark4n",
-        "Player2": "SAWATARIX",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "VictorHugo2001",
-        "Player2": "kanican",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ark4n",
-      "Player2": "VictorHugo2001",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kanican",
+          "Player2": "zhinonono",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "medvedev",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "VictorHugo2001",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SAWATARIX",
+          "Player2": "MoMo321",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "SAWATARIX",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "VictorHugo2001",
+          "Player2": "kanican",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "VictorHugo2001",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4454,48 +4454,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Leastbean",
-        "Player2": "EronRelentless",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cl1ffy81",
-        "Player2": "luciencool",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "DNEELEY",
-        "Player2": "Ark4n",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "ItIsUnfair",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "cl1ffy81",
-        "Player2": "Leastbean",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "DNEELEY",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "cl1ffy81",
-      "Player2": "JPA93",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Leastbean",
+          "Player2": "EronRelentless",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cl1ffy81",
+          "Player2": "luciencool",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "DNEELEY",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "ItIsUnfair",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "cl1ffy81",
+          "Player2": "Leastbean",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "DNEELEY",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cl1ffy81",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

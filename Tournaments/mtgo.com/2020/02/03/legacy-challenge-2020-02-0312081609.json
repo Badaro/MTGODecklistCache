@@ -4558,48 +4558,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Egget",
-        "Player2": "Stryfo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Larrum",
-        "Player2": "SoulStrong",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rehmster6066",
-        "Player2": "iargimon",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "tye8fl",
-        "Player2": "AronGomu",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Egget",
-        "Player2": "Larrum",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "tye8fl",
-        "Player2": "rehmster6066",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "tye8fl",
-      "Player2": "Egget",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Egget",
+          "Player2": "Stryfo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Larrum",
+          "Player2": "SoulStrong",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rehmster6066",
+          "Player2": "iargimon",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "tye8fl",
+          "Player2": "AronGomu",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Egget",
+          "Player2": "Larrum",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "tye8fl",
+          "Player2": "rehmster6066",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "tye8fl",
+          "Player2": "Egget",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

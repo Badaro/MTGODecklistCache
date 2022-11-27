@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "leclairandy",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sokos13",
-        "Player2": "Baumi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "kuriroy2567",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "YungDingo",
-        "Player2": "KingHairy",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "YungDingo",
-        "Player2": "leclairandy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "sokos13",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "YungDingo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "leclairandy",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sokos13",
+          "Player2": "Baumi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "kuriroy2567",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "YungDingo",
+          "Player2": "KingHairy",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "YungDingo",
+          "Player2": "leclairandy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "sokos13",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "YungDingo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

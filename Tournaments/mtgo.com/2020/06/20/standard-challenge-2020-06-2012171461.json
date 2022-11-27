@@ -3614,48 +3614,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "keiesu",
-        "Player2": "Harry13",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bcs8995",
-        "Player2": "beraldi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Butakov",
-        "Player2": "ruin000",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "pokerswizard",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Butakov",
-        "Player2": "bcs8995",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "keiesu",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Venom1",
-      "Player2": "Butakov",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "keiesu",
+          "Player2": "Harry13",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bcs8995",
+          "Player2": "beraldi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Butakov",
+          "Player2": "ruin000",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Butakov",
+          "Player2": "bcs8995",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "keiesu",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "Butakov",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

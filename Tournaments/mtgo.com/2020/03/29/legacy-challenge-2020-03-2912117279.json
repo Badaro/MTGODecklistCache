@@ -4450,48 +4450,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Samu_27",
-        "Player2": "3erpz",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yamakiller",
-        "Player2": "wonderPreaux",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KelMasterP",
-        "Player2": "Mannes",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NovaT28",
-        "Player2": "TonyScapone",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "KelMasterP",
-        "Player2": "NovaT28",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Samu_27",
-        "Player2": "yamakiller",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Samu_27",
-      "Player2": "KelMasterP",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Samu_27",
+          "Player2": "3erpz",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yamakiller",
+          "Player2": "wonderPreaux",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KelMasterP",
+          "Player2": "Mannes",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NovaT28",
+          "Player2": "TonyScapone",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "KelMasterP",
+          "Player2": "NovaT28",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Samu_27",
+          "Player2": "yamakiller",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Samu_27",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

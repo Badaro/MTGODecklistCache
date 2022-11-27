@@ -4558,48 +4558,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "OnlyLandsDotCom",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BigB3N",
-        "Player2": "ForThoseWhoHaveHeart",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CordoTwin",
-        "Player2": "Parrotlet",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ss0",
-        "Player2": "AwesomPossum",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "CordoTwin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ss0",
-        "Player2": "BigB3N",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "rastaf",
-      "Player2": "ss0",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "OnlyLandsDotCom",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BigB3N",
+          "Player2": "ForThoseWhoHaveHeart",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CordoTwin",
+          "Player2": "Parrotlet",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ss0",
+          "Player2": "AwesomPossum",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "CordoTwin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ss0",
+          "Player2": "BigB3N",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "ss0",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

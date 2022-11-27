@@ -4374,48 +4374,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Duplicatore",
-        "Player2": "Ark4n",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mzfroste",
-        "Player2": "GGoggles",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "urawik3",
-        "Player2": "djbmppwns",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jtl005",
-        "Player2": "egadd2894",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "urawik3",
-        "Player2": "jtl005",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mzfroste",
-        "Player2": "Duplicatore",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mzfroste",
-      "Player2": "urawik3",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Duplicatore",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mzfroste",
+          "Player2": "GGoggles",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "urawik3",
+          "Player2": "djbmppwns",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jtl005",
+          "Player2": "egadd2894",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "urawik3",
+          "Player2": "jtl005",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mzfroste",
+          "Player2": "Duplicatore",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mzfroste",
+          "Player2": "urawik3",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

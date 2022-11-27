@@ -4062,48 +4062,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "therf",
-        "Player2": "Fluorspar",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gerschi",
-        "Player2": "selesneal",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "CrusherBotBG",
-        "Player2": "Ihavethefire",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dexta",
-        "Player2": "kiko",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "therf",
-        "Player2": "Gerschi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "CrusherBotBG",
-        "Player2": "Dexta",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "CrusherBotBG",
-      "Player2": "therf",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "therf",
+          "Player2": "Fluorspar",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gerschi",
+          "Player2": "selesneal",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "Ihavethefire",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dexta",
+          "Player2": "kiko",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "therf",
+          "Player2": "Gerschi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "Dexta",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "CrusherBotBG",
+          "Player2": "therf",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

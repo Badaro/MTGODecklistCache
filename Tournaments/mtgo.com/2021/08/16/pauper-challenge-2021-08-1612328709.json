@@ -3778,48 +3778,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Leobertucci",
-        "Player2": "Tweedel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Unknowless",
-        "Player2": "mlovbo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "lsmguys",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Raptor56",
-        "Player2": "kasa",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Unknowless",
-        "Player2": "Darthkid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Leobertucci",
-        "Player2": "Raptor56",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Unknowless",
-      "Player2": "Leobertucci",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Leobertucci",
+          "Player2": "Tweedel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Unknowless",
+          "Player2": "mlovbo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "lsmguys",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Raptor56",
+          "Player2": "kasa",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Unknowless",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Leobertucci",
+          "Player2": "Raptor56",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Unknowless",
+          "Player2": "Leobertucci",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

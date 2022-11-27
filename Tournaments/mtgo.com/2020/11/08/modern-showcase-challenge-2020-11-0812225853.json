@@ -4518,48 +4518,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PieGonti",
-        "Player2": "Brunister",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "Zar0s",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "pokerswizard",
-        "Player2": "Martin_Dominguez",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mcleskey",
-        "Player2": "Ozymandias17",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mcleskey",
-        "Player2": "PieGonti",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sodeq",
-        "Player2": "pokerswizard",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sodeq",
-      "Player2": "Mcleskey",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PieGonti",
+          "Player2": "Brunister",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "Zar0s",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "pokerswizard",
+          "Player2": "Martin_Dominguez",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mcleskey",
+          "Player2": "Ozymandias17",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mcleskey",
+          "Player2": "PieGonti",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sodeq",
+          "Player2": "pokerswizard",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sodeq",
+          "Player2": "Mcleskey",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

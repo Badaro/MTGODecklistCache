@@ -3714,48 +3714,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gosaku",
-        "Player2": "Graciasportanto",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tirentu",
-        "Player2": "_Antoniou_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Watchwolf92",
-        "Player2": "O_danielakos",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LSMD",
-        "Player2": "J0hnStar",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Tirentu",
-        "Player2": "LSMD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Watchwolf92",
-        "Player2": "Gosaku",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Watchwolf92",
-      "Player2": "Tirentu",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gosaku",
+          "Player2": "Graciasportanto",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tirentu",
+          "Player2": "_Antoniou_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Watchwolf92",
+          "Player2": "O_danielakos",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LSMD",
+          "Player2": "J0hnStar",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Tirentu",
+          "Player2": "LSMD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Watchwolf92",
+          "Player2": "Gosaku",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Watchwolf92",
+          "Player2": "Tirentu",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

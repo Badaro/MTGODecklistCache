@@ -4010,48 +4010,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JakeHelms",
-        "Player2": "Hampuse1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "Alleyezonme",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "c_is_for_cookie",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kampo",
-        "Player2": "Oscar_Franco",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kampo",
-        "Player2": "JakeHelms",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Hamuda",
-      "Player2": "Kampo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JakeHelms",
+          "Player2": "Hampuse1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "Alleyezonme",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "c_is_for_cookie",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kampo",
+          "Player2": "Oscar_Franco",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kampo",
+          "Player2": "JakeHelms",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "Kampo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

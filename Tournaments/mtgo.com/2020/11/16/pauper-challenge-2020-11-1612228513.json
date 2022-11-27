@@ -4110,48 +4110,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Liv_One",
-        "Player2": "chocotone",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "CinderDX",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Store_Shop28",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TopGrinder",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Store_Shop28",
-        "Player2": "kasa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TopGrinder",
-        "Player2": "Liv_One",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Store_Shop28",
-      "Player2": "TopGrinder",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Liv_One",
+          "Player2": "chocotone",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "CinderDX",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Store_Shop28",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TopGrinder",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Store_Shop28",
+          "Player2": "kasa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TopGrinder",
+          "Player2": "Liv_One",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Store_Shop28",
+          "Player2": "TopGrinder",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

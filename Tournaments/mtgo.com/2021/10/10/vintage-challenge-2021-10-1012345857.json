@@ -5862,48 +5862,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Folero",
-        "Player2": "fistfullofmetal",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "HotaruTenshi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "s063",
-        "Player2": "oosunq",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NathanLipetz",
-        "Player2": "Murkyblack11",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PRGJJAR",
-        "Player2": "Folero",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NathanLipetz",
-        "Player2": "s063",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "NathanLipetz",
-      "Player2": "PRGJJAR",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Folero",
+          "Player2": "fistfullofmetal",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "HotaruTenshi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "s063",
+          "Player2": "oosunq",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NathanLipetz",
+          "Player2": "Murkyblack11",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PRGJJAR",
+          "Player2": "Folero",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NathanLipetz",
+          "Player2": "s063",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "NathanLipetz",
+          "Player2": "PRGJJAR",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

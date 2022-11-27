@@ -4418,48 +4418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kim-Jong-un",
-        "Player2": "RespectTheCat",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kevincito",
-        "Player2": "Dreddybajs",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Makia",
-        "Player2": "Bob49",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "NickNorman",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "Kim-Jong-un",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Makia",
-        "Player2": "Kevincito",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "Makia",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kim-Jong-un",
+          "Player2": "RespectTheCat",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kevincito",
+          "Player2": "Dreddybajs",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Makia",
+          "Player2": "Bob49",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "NickNorman",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Kim-Jong-un",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Makia",
+          "Player2": "Kevincito",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Makia",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

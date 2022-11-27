@@ -1414,48 +1414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jacksad",
-        "Player2": "Tipexx",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Schnabulant",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bobthedog",
-        "Player2": "trotyl",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "captainobv",
-        "Player2": "kbol_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "captainobv",
-        "Player2": "jacksad",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bobthedog",
-        "Player2": "Dazai",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "bobthedog",
-      "Player2": "captainobv",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jacksad",
+          "Player2": "Tipexx",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Schnabulant",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bobthedog",
+          "Player2": "trotyl",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "captainobv",
+          "Player2": "kbol_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "captainobv",
+          "Player2": "jacksad",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bobthedog",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bobthedog",
+          "Player2": "captainobv",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

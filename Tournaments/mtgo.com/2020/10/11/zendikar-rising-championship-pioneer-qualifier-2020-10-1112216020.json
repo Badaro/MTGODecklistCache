@@ -3814,48 +3814,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Traft",
-        "Player2": "Slatorade",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kvza",
-        "Player2": "Patxi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Wizard_2002",
-        "Player2": "James_Zhi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "yashimoro",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Wizard_2002",
-        "Player2": "Traft",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "kvza",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "SanPop",
-      "Player2": "Wizard_2002",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Traft",
+          "Player2": "Slatorade",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kvza",
+          "Player2": "Patxi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Wizard_2002",
+          "Player2": "James_Zhi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "yashimoro",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Wizard_2002",
+          "Player2": "Traft",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "kvza",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SanPop",
+          "Player2": "Wizard_2002",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

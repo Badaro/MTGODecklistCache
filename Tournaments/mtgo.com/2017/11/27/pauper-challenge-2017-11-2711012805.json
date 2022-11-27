@@ -3534,48 +3534,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "greenprinny",
-        "Player2": "Olivetti",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "g4gale",
-        "Player2": "doves",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AJV20",
-        "Player2": "Kzrds",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TrulyUnknowing",
-        "Player2": "_DissonancE_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "AJV20",
-        "Player2": "g4gale",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TrulyUnknowing",
-        "Player2": "greenprinny",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "TrulyUnknowing",
-      "Player2": "AJV20",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "greenprinny",
+          "Player2": "Olivetti",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "g4gale",
+          "Player2": "doves",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AJV20",
+          "Player2": "Kzrds",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TrulyUnknowing",
+          "Player2": "_DissonancE_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "AJV20",
+          "Player2": "g4gale",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TrulyUnknowing",
+          "Player2": "greenprinny",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TrulyUnknowing",
+          "Player2": "AJV20",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

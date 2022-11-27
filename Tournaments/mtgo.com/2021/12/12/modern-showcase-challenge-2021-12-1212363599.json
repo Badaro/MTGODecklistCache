@@ -4554,48 +4554,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "Daking3603",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "zachattack23",
-        "Player2": "hauterho",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Penseur",
-        "Player2": "BReal2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GabeIsman",
-        "Player2": "therf",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Penseur",
-        "Player2": "GabeIsman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "zachattack23",
-        "Player2": "rastaf",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "zachattack23",
-      "Player2": "Penseur",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "Daking3603",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "zachattack23",
+          "Player2": "hauterho",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Penseur",
+          "Player2": "BReal2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GabeIsman",
+          "Player2": "therf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Penseur",
+          "Player2": "GabeIsman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "zachattack23",
+          "Player2": "rastaf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "zachattack23",
+          "Player2": "Penseur",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

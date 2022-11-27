@@ -4594,48 +4594,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PanJ",
-        "Player2": "__BMJ__",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "manoah",
-        "Player2": "C_E.L",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Dreddybajs",
-        "Player2": "ChillingLauge",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ajani89",
-        "Player2": "GAUDARD",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ajani89",
-        "Player2": "Dreddybajs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "manoah",
-        "Player2": "PanJ",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ajani89",
-      "Player2": "manoah",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PanJ",
+          "Player2": "__BMJ__",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "manoah",
+          "Player2": "C_E.L",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Dreddybajs",
+          "Player2": "ChillingLauge",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ajani89",
+          "Player2": "GAUDARD",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ajani89",
+          "Player2": "Dreddybajs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "manoah",
+          "Player2": "PanJ",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ajani89",
+          "Player2": "manoah",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

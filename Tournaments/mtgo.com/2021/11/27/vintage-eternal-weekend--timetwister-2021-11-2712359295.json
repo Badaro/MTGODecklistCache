@@ -2866,48 +2866,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jamiewvh",
-        "Player2": "discoverN",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "abethemage",
-        "Player2": "Talisker",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SentientTea",
-        "Player2": "eggybenny",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "swengen",
-        "Player2": "NooxTom",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "abethemage",
-        "Player2": "jamiewvh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "swengen",
-        "Player2": "SentientTea",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "abethemage",
-      "Player2": "swengen",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jamiewvh",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "abethemage",
+          "Player2": "Talisker",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SentientTea",
+          "Player2": "eggybenny",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "swengen",
+          "Player2": "NooxTom",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "abethemage",
+          "Player2": "jamiewvh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "swengen",
+          "Player2": "SentientTea",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "abethemage",
+          "Player2": "swengen",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

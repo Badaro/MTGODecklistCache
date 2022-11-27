@@ -4082,48 +4082,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "GYBA",
-        "Player2": "Rocardito",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rastaf",
-        "Player2": "Shadowz2005",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lifeisrisk7",
-        "Player2": "MJ_23",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "luke8232",
-        "Player2": "bolov0",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "GYBA",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lifeisrisk7",
-        "Player2": "luke8232",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lifeisrisk7",
-      "Player2": "rastaf",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "GYBA",
+          "Player2": "Rocardito",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rastaf",
+          "Player2": "Shadowz2005",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lifeisrisk7",
+          "Player2": "MJ_23",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "luke8232",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "GYBA",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lifeisrisk7",
+          "Player2": "luke8232",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lifeisrisk7",
+          "Player2": "rastaf",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

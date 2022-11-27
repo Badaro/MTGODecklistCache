@@ -4018,48 +4018,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "lleaf33",
-        "Player2": "Yvon35",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ls149950",
-        "Player2": "stainerson",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bladede",
-        "Player2": "melv.p",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "SakeIzumo",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bladede",
-        "Player2": "lleaf33",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "ls149950",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "bladede",
-      "Player2": "Do0mSwitch",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "lleaf33",
+          "Player2": "Yvon35",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ls149950",
+          "Player2": "stainerson",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bladede",
+          "Player2": "melv.p",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "SakeIzumo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bladede",
+          "Player2": "lleaf33",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "ls149950",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "bladede",
+          "Player2": "Do0mSwitch",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3770,48 +3770,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ryuji",
-        "Player2": "TheSpellWeaver",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kbol_",
-        "Player2": "Nunomgg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JouNick",
-        "Player2": "jdez",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jun.I",
-        "Player2": "Isolating",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ryuji",
-        "Player2": "Jun.I",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kbol_",
-        "Player2": "JouNick",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kbol_",
-      "Player2": "Ryuji",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ryuji",
+          "Player2": "TheSpellWeaver",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kbol_",
+          "Player2": "Nunomgg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JouNick",
+          "Player2": "jdez",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jun.I",
+          "Player2": "Isolating",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ryuji",
+          "Player2": "Jun.I",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kbol_",
+          "Player2": "JouNick",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kbol_",
+          "Player2": "Ryuji",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

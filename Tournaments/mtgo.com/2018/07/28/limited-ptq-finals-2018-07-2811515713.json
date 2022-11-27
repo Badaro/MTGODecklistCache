@@ -1358,48 +1358,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "hogpog_98",
-        "Player2": "Ariochk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Moogles",
-        "Player2": "Marangon3",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "yu-riSc",
-        "Player2": "SUKE",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ishul",
-        "Player2": "pacisjack07",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Moogles",
-        "Player2": "hogpog_98",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ishul",
-        "Player2": "yu-riSc",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Moogles",
-      "Player2": "ishul",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "hogpog_98",
+          "Player2": "Ariochk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Moogles",
+          "Player2": "Marangon3",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "yu-riSc",
+          "Player2": "SUKE",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ishul",
+          "Player2": "pacisjack07",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Moogles",
+          "Player2": "hogpog_98",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ishul",
+          "Player2": "yu-riSc",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Moogles",
+          "Player2": "ishul",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

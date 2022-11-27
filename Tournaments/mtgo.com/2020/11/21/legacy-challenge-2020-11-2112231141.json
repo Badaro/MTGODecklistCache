@@ -4246,48 +4246,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Angers",
-        "Player2": "vMI-NAv",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "kanican",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "Laessoe",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GanYanCHN",
-        "Player2": "yashimoro",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "musasabi",
-        "Player2": "Angers",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GanYanCHN",
-        "Player2": "Ark4n",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "GanYanCHN",
-      "Player2": "musasabi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Angers",
+          "Player2": "vMI-NAv",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "kanican",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "Laessoe",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GanYanCHN",
+          "Player2": "yashimoro",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "musasabi",
+          "Player2": "Angers",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GanYanCHN",
+          "Player2": "Ark4n",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "GanYanCHN",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

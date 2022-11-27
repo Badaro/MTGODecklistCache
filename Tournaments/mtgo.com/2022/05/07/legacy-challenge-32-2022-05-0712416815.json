@@ -4414,48 +4414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Phellipe",
-        "Player2": "alexwest",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ganesh_69",
-        "Player2": "A_0",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oceansoul92",
-        "Player2": "ehhh",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "burrarun",
-        "Player2": "nazart",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "burrarun",
-        "Player2": "Oceansoul92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phellipe",
-        "Player2": "ganesh_69",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Phellipe",
-      "Player2": "burrarun",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Phellipe",
+          "Player2": "alexwest",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ganesh_69",
+          "Player2": "A_0",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oceansoul92",
+          "Player2": "ehhh",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "burrarun",
+          "Player2": "nazart",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "burrarun",
+          "Player2": "Oceansoul92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phellipe",
+          "Player2": "ganesh_69",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Phellipe",
+          "Player2": "burrarun",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

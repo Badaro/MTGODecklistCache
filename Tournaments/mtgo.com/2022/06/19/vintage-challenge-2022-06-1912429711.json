@@ -5118,48 +5118,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "PsiVen",
-        "Player2": "Tw33Ty",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "Shadowz2005",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "D00mwake",
-        "Player2": "BARGAHOF",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MarioBBrega",
-        "Player2": "NooxTom",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "D00mwake",
-        "Player2": "MarioBBrega",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "PsiVen",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kanister",
-      "Player2": "D00mwake",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "PsiVen",
+          "Player2": "Tw33Ty",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "Shadowz2005",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "D00mwake",
+          "Player2": "BARGAHOF",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MarioBBrega",
+          "Player2": "NooxTom",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "D00mwake",
+          "Player2": "MarioBBrega",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "PsiVen",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "D00mwake",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3870,48 +3870,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TheUnseen",
-        "Player2": "WrzoBuSeks",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "laa11",
-        "Player2": "mtgpirate",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Highmoon",
-        "Player2": "BO55sauce",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bigmanaben",
-        "Player2": "Arianne",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Highmoon",
-        "Player2": "TheUnseen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "laa11",
-        "Player2": "bigmanaben",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Highmoon",
-      "Player2": "laa11",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TheUnseen",
+          "Player2": "WrzoBuSeks",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "laa11",
+          "Player2": "mtgpirate",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Highmoon",
+          "Player2": "BO55sauce",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bigmanaben",
+          "Player2": "Arianne",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Highmoon",
+          "Player2": "TheUnseen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "laa11",
+          "Player2": "bigmanaben",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Highmoon",
+          "Player2": "laa11",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

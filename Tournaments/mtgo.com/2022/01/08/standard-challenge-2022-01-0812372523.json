@@ -3546,48 +3546,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Venom1",
-        "Player2": "LucasG1ggs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "melody_5233",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "canepis16",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Cabezadebolo",
-        "Player2": "ranranjintianchiwhat",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "Cabezadebolo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "musasabi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Venom1",
-      "Player2": "_Batutinha_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "LucasG1ggs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "melody_5233",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "canepis16",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "ranranjintianchiwhat",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "Cabezadebolo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "musasabi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

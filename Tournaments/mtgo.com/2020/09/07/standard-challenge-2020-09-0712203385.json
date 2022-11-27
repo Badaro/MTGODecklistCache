@@ -3758,48 +3758,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Beekeeper",
-        "Player2": "Synergizer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "empen",
-        "Player2": "themightylinguine",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GYBA",
-        "Player2": "ht991122",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LucasG1ggs",
-        "Player2": "kaikalbuquerque",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Beekeeper",
-        "Player2": "LucasG1ggs",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "empen",
-        "Player2": "GYBA",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "empen",
-      "Player2": "Beekeeper",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Beekeeper",
+          "Player2": "Synergizer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "empen",
+          "Player2": "themightylinguine",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GYBA",
+          "Player2": "ht991122",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LucasG1ggs",
+          "Player2": "kaikalbuquerque",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Beekeeper",
+          "Player2": "LucasG1ggs",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "empen",
+          "Player2": "GYBA",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "empen",
+          "Player2": "Beekeeper",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

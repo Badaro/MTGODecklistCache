@@ -3558,48 +3558,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Kirblinxy",
-        "Player2": "outZEROo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Backoff",
-        "Player2": "Gn42",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "galeogiao",
-        "Player2": "Arukasnobnes",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Tunaktunak",
-        "Player2": "cenora_jf",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Kirblinxy",
-        "Player2": "galeogiao",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Backoff",
-        "Player2": "Tunaktunak",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kirblinxy",
-      "Player2": "Backoff",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "outZEROo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Backoff",
+          "Player2": "Gn42",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "galeogiao",
+          "Player2": "Arukasnobnes",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Tunaktunak",
+          "Player2": "cenora_jf",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "galeogiao",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Backoff",
+          "Player2": "Tunaktunak",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kirblinxy",
+          "Player2": "Backoff",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

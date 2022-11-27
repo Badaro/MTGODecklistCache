@@ -3698,48 +3698,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "triosk",
-        "Player2": "_Tutenji_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gonito",
-        "Player2": "sandydogmtg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cabezadebolo",
-        "Player2": "CaptainFarbosa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "telsacow",
-        "Player2": "Fink64",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Gonito",
-        "Player2": "Cabezadebolo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "telsacow",
-        "Player2": "triosk",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "telsacow",
-      "Player2": "Gonito",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "triosk",
+          "Player2": "_Tutenji_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gonito",
+          "Player2": "sandydogmtg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cabezadebolo",
+          "Player2": "CaptainFarbosa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "telsacow",
+          "Player2": "Fink64",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Gonito",
+          "Player2": "Cabezadebolo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "telsacow",
+          "Player2": "triosk",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "telsacow",
+          "Player2": "Gonito",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

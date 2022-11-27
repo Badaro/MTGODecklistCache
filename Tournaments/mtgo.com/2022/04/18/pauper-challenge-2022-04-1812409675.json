@@ -3618,48 +3618,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Backoff",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "Bryant_Cook",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kampo",
-        "Player2": "Sarlanga",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JogandoPelado",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Backoff",
-        "Player2": "JogandoPelado",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Kampo",
-        "Player2": "SanPop",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Kampo",
-      "Player2": "Backoff",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Backoff",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "Bryant_Cook",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kampo",
+          "Player2": "Sarlanga",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JogandoPelado",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Backoff",
+          "Player2": "JogandoPelado",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Kampo",
+          "Player2": "SanPop",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Kampo",
+          "Player2": "Backoff",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

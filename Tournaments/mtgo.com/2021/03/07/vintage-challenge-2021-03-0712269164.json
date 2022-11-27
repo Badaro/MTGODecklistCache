@@ -5406,48 +5406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "albertoSD",
-        "Player2": "ScreenwriterNY",
-        "Result": "1-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Yamaro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "Nerdkneereape",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "HJ_Kaiser",
-        "Player2": "discoverN",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "HJ_Kaiser",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "albertoSD",
-        "Player2": "Dazai",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "albertoSD",
-      "Player2": "HJ_Kaiser",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "albertoSD",
+          "Player2": "ScreenwriterNY",
+          "Result": "1-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Yamaro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "Nerdkneereape",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "HJ_Kaiser",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "albertoSD",
+          "Player2": "Dazai",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "albertoSD",
+          "Player2": "HJ_Kaiser",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

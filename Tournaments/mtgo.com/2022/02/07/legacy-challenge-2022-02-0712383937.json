@@ -4202,48 +4202,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Didackith",
-        "Player2": "Gul_Dukat",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Roodslay",
-        "Player2": "Baku_91",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "DNEELEY",
-        "Player2": "twinlesstwin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "gucci_gabe",
-        "Player2": "trunks132",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Roodslay",
-        "Player2": "gucci_gabe",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Didackith",
-        "Player2": "DNEELEY",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Didackith",
-      "Player2": "Roodslay",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Didackith",
+          "Player2": "Gul_Dukat",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Roodslay",
+          "Player2": "Baku_91",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "DNEELEY",
+          "Player2": "twinlesstwin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "gucci_gabe",
+          "Player2": "trunks132",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Roodslay",
+          "Player2": "gucci_gabe",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Didackith",
+          "Player2": "DNEELEY",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Didackith",
+          "Player2": "Roodslay",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

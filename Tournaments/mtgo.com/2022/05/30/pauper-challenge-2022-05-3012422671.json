@@ -3518,48 +3518,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "7991ociR",
-        "Player2": "Ixidor29",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jpsn54",
-        "Player2": "_against_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Patxi",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "7991ociR",
-        "Player2": "Patxi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jpsn54",
-        "Player2": "O_danielakos",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Jpsn54",
-      "Player2": "7991ociR",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "7991ociR",
+          "Player2": "Ixidor29",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jpsn54",
+          "Player2": "_against_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Patxi",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "7991ociR",
+          "Player2": "Patxi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jpsn54",
+          "Player2": "O_danielakos",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Jpsn54",
+          "Player2": "7991ociR",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

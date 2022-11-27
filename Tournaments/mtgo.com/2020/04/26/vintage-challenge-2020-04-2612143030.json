@@ -6570,48 +6570,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Clone9",
-        "Player2": "Pohlman",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Pun1sher",
-        "Player2": "thedeck84",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Alpha_Omega",
-        "Player2": "thepowernine",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "atlante",
-        "Player2": "Team5c",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Clone9",
-        "Player2": "Pun1sher",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Alpha_Omega",
-        "Player2": "atlante",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Clone9",
-      "Player2": "Alpha_Omega",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Clone9",
+          "Player2": "Pohlman",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Pun1sher",
+          "Player2": "thedeck84",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Alpha_Omega",
+          "Player2": "thepowernine",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "atlante",
+          "Player2": "Team5c",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Clone9",
+          "Player2": "Pun1sher",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Alpha_Omega",
+          "Player2": "atlante",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Clone9",
+          "Player2": "Alpha_Omega",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

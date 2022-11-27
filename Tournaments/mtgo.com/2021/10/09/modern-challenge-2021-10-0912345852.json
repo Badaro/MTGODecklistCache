@@ -4198,48 +4198,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Wolfie98",
-        "Player2": "PuntThenWhine",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "PTarts2win",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "frakom",
-        "Player2": "kanister",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Curryvore",
-        "Player2": "_Tia93_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Curryvore",
-        "Player2": "Wolfie98",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "frakom",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Curryvore",
-      "Player2": "Darthkid",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Wolfie98",
+          "Player2": "PuntThenWhine",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "PTarts2win",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "frakom",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Curryvore",
+          "Player2": "_Tia93_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Curryvore",
+          "Player2": "Wolfie98",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "frakom",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Curryvore",
+          "Player2": "Darthkid",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

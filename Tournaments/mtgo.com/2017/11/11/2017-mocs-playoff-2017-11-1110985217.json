@@ -3746,48 +3746,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "reiderrabbit",
-        "Player2": "Finespoo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ArcaCrema",
-        "Player2": "Rholden",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Arianne",
-        "Player2": "duke12",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kbol_",
-        "Player2": "Mulldrifter",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "reiderrabbit",
-        "Player2": "ArcaCrema",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kbol_",
-        "Player2": "Arianne",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "reiderrabbit",
-      "Player2": "kbol_",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "reiderrabbit",
+          "Player2": "Finespoo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ArcaCrema",
+          "Player2": "Rholden",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Arianne",
+          "Player2": "duke12",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kbol_",
+          "Player2": "Mulldrifter",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "reiderrabbit",
+          "Player2": "ArcaCrema",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kbol_",
+          "Player2": "Arianne",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "reiderrabbit",
+          "Player2": "kbol_",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

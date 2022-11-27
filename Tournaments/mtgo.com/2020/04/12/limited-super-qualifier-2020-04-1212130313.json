@@ -1402,48 +1402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Jani",
-        "Player2": "chet186",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Darkiundsa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "trader08111",
-        "Player2": "hyphon68450",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "contrap",
-        "Player2": "ZLossek",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jani",
-        "Player2": "trader08111",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "contrap",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Jani",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Jani",
+          "Player2": "chet186",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Darkiundsa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "trader08111",
+          "Player2": "hyphon68450",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "contrap",
+          "Player2": "ZLossek",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jani",
+          "Player2": "trader08111",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "contrap",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Jani",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

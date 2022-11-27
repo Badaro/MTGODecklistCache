@@ -4474,48 +4474,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Gerschi",
-        "Player2": "Kuranari-Jackpa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Beenew",
-        "Player2": "Ark4n",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "AnziD",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Baby",
-        "Player2": "asnook",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Beenew",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Baby",
-        "Player2": "Gerschi",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Baby",
-      "Player2": "Beenew",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Gerschi",
+          "Player2": "Kuranari-Jackpa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Beenew",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "AnziD",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Baby",
+          "Player2": "asnook",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Beenew",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Baby",
+          "Player2": "Gerschi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Baby",
+          "Player2": "Beenew",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

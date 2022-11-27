@@ -3398,48 +3398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Geme",
-        "Player2": "SanPop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cicciogire",
-        "Player2": "AliEnWaRe_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Auron94",
-        "Player2": "Gift_given",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "Hamuda",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "medvedev",
-        "Player2": "Auron94",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "cicciogire",
-        "Player2": "Geme",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "cicciogire",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Geme",
+          "Player2": "SanPop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cicciogire",
+          "Player2": "AliEnWaRe_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Auron94",
+          "Player2": "Gift_given",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "medvedev",
+          "Player2": "Auron94",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "cicciogire",
+          "Player2": "Geme",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cicciogire",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

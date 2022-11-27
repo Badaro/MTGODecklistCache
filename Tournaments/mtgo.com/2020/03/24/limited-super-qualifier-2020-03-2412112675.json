@@ -1378,48 +1378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Funny",
-        "Player2": "skream",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gerardo94",
-        "Player2": "angelopa89",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "KanyMTG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "azatoyellow",
-        "Player2": "lasebase",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "azatoyellow",
-        "Player2": "Funny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Gerardo94",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "JPA93",
-      "Player2": "azatoyellow",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Funny",
+          "Player2": "skream",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gerardo94",
+          "Player2": "angelopa89",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "KanyMTG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "azatoyellow",
+          "Player2": "lasebase",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "azatoyellow",
+          "Player2": "Funny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Gerardo94",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "azatoyellow",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

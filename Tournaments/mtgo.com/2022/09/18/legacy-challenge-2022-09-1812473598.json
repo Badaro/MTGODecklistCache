@@ -4622,48 +4622,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ozymandias17",
-        "Player2": "LeoFa",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "fishduggery",
-        "Player2": "JPA93",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AnziD",
-        "Player2": "Hakumei1234",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "runkor",
-        "Player2": "Enrichetta",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "runkor",
-        "Player2": "fishduggery",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "AnziD",
-        "Player2": "Ozymandias17",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "AnziD",
-      "Player2": "runkor",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ozymandias17",
+          "Player2": "LeoFa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "fishduggery",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AnziD",
+          "Player2": "Hakumei1234",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "runkor",
+          "Player2": "Enrichetta",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "runkor",
+          "Player2": "fishduggery",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "AnziD",
+          "Player2": "Ozymandias17",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "AnziD",
+          "Player2": "runkor",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

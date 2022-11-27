@@ -3674,48 +3674,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "BeReborn",
-        "Player2": "Raptor56",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SteB",
-        "Player2": "maybenextime",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "GALL",
-        "Player2": "TheMagePower",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "janicestone",
-        "Player2": "Nasty",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "janicestone",
-        "Player2": "SteB",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BeReborn",
-        "Player2": "GALL",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "BeReborn",
-      "Player2": "janicestone",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "BeReborn",
+          "Player2": "Raptor56",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SteB",
+          "Player2": "maybenextime",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "GALL",
+          "Player2": "TheMagePower",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "janicestone",
+          "Player2": "Nasty",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "janicestone",
+          "Player2": "SteB",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BeReborn",
+          "Player2": "GALL",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "BeReborn",
+          "Player2": "janicestone",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

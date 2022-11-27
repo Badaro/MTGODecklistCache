@@ -3718,48 +3718,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "DontKnoxTheHustle",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jankyb",
-        "Player2": "_Batutinha_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "alemilan19",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Terribad",
-        "Player2": "Xuxa",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "Terribad",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jankyb",
-        "Player2": "nathansteuer",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "jankyb",
-      "Player2": "bolov0",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "DontKnoxTheHustle",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jankyb",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "alemilan19",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Terribad",
+          "Player2": "Xuxa",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "Terribad",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jankyb",
+          "Player2": "nathansteuer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "jankyb",
+          "Player2": "bolov0",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

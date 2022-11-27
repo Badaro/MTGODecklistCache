@@ -3766,48 +3766,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Edel",
-        "Player2": "_Batutinha_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mcleskey",
-        "Player2": "LucasG1ggs",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lukas261997",
-        "Player2": "telsacow",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "1yo2yo",
-        "Player2": "Beekeeper",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mcleskey",
-        "Player2": "Lukas261997",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "1yo2yo",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Edel",
-      "Player2": "Mcleskey",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Edel",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mcleskey",
+          "Player2": "LucasG1ggs",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lukas261997",
+          "Player2": "telsacow",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "1yo2yo",
+          "Player2": "Beekeeper",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mcleskey",
+          "Player2": "Lukas261997",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "1yo2yo",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Edel",
+          "Player2": "Mcleskey",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

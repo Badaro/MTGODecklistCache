@@ -4506,48 +4506,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jamiewvh",
-        "Player2": "ht991122",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Pietrone10",
-        "Player2": "WaToO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ak4suk1",
-        "Player2": "shiromuni",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wara",
-        "Player2": "msskinbolic",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "wara",
-        "Player2": "jamiewvh",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Pietrone10",
-        "Player2": "Ak4suk1",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Pietrone10",
-      "Player2": "wara",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jamiewvh",
+          "Player2": "ht991122",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Pietrone10",
+          "Player2": "WaToO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ak4suk1",
+          "Player2": "shiromuni",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wara",
+          "Player2": "msskinbolic",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "wara",
+          "Player2": "jamiewvh",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Pietrone10",
+          "Player2": "Ak4suk1",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Pietrone10",
+          "Player2": "wara",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4566,48 +4566,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "yehua",
-        "Player2": "laywer",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "lynnchalice",
-        "Player2": "norumi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "haneman",
-        "Player2": "THE_DADDY",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wakarock",
-        "Player2": "Yamaro",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yehua",
-        "Player2": "lynnchalice",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wakarock",
-        "Player2": "haneman",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "wakarock",
-      "Player2": "yehua",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "yehua",
+          "Player2": "laywer",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "lynnchalice",
+          "Player2": "norumi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "haneman",
+          "Player2": "THE_DADDY",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wakarock",
+          "Player2": "Yamaro",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yehua",
+          "Player2": "lynnchalice",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wakarock",
+          "Player2": "haneman",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "wakarock",
+          "Player2": "yehua",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

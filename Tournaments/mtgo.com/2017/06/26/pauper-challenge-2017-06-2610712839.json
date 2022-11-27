@@ -3586,48 +3586,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TaotheNinja",
-        "Player2": "K_Prinz",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "batjones22",
-        "Player2": "Hrymfaxe",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "CodWag",
-        "Player2": "tarkanmag",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xto2",
-        "Player2": "AlwaysFace",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TaotheNinja",
-        "Player2": "batjones22",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xto2",
-        "Player2": "CodWag",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xto2",
-      "Player2": "TaotheNinja",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TaotheNinja",
+          "Player2": "K_Prinz",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "batjones22",
+          "Player2": "Hrymfaxe",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "CodWag",
+          "Player2": "tarkanmag",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xto2",
+          "Player2": "AlwaysFace",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TaotheNinja",
+          "Player2": "batjones22",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xto2",
+          "Player2": "CodWag",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xto2",
+          "Player2": "TaotheNinja",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1354,48 +1354,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Cabalasp",
-        "Player2": "lampalot",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "steelers413",
-        "Player2": "JakeShoes",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pmc22337",
-        "Player2": "al8ert.dk",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "Sirbonezoni",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Cabalasp",
-        "Player2": "pmc22337",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "romanmy",
-        "Player2": "steelers413",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "romanmy",
-      "Player2": "Cabalasp",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Cabalasp",
+          "Player2": "lampalot",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "steelers413",
+          "Player2": "JakeShoes",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pmc22337",
+          "Player2": "al8ert.dk",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "Sirbonezoni",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Cabalasp",
+          "Player2": "pmc22337",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "romanmy",
+          "Player2": "steelers413",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "romanmy",
+          "Player2": "Cabalasp",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

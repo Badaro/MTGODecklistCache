@@ -4110,48 +4110,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "romerito1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WaToO",
-        "Player2": "YawgmothPT",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Rooney56",
-        "Player2": "RClint21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "darius89",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "WaToO",
-        "Player2": "Rooney56",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "MaxMagicer",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Oscar_Franco",
-      "Player2": "WaToO",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "romerito1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WaToO",
+          "Player2": "YawgmothPT",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Rooney56",
+          "Player2": "RClint21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "darius89",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "WaToO",
+          "Player2": "Rooney56",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "MaxMagicer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "WaToO",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

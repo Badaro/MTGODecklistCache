@@ -4242,48 +4242,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "stainerson",
-        "Player2": "remf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "albert62",
-        "Player2": "Jenara19",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SCJ",
-        "Player2": "_IlNano_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nahuel10",
-        "Player2": "tia05",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "albert62",
-        "Player2": "SCJ",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nahuel10",
-        "Player2": "stainerson",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "albert62",
-      "Player2": "nahuel10",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "remf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "albert62",
+          "Player2": "Jenara19",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SCJ",
+          "Player2": "_IlNano_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nahuel10",
+          "Player2": "tia05",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "albert62",
+          "Player2": "SCJ",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nahuel10",
+          "Player2": "stainerson",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "albert62",
+          "Player2": "nahuel10",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

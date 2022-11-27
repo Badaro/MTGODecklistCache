@@ -4370,48 +4370,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "swff",
-        "Player2": "musasabi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jessy_samek",
-        "Player2": "jamiieJR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "PieGonti",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Do0mSwitch",
-        "Player2": "Aardos",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "jessy_samek",
-        "Player2": "Do0mSwitch",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "swff",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Laplasjan",
-      "Player2": "jessy_samek",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "swff",
+          "Player2": "musasabi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jessy_samek",
+          "Player2": "jamiieJR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "PieGonti",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Do0mSwitch",
+          "Player2": "Aardos",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "jessy_samek",
+          "Player2": "Do0mSwitch",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "swff",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Laplasjan",
+          "Player2": "jessy_samek",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

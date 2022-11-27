@@ -4014,48 +4014,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MZBlazer",
-        "Player2": "FreedMania",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Glacier7",
-        "Player2": "WhiTe TsaR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Darthkid",
-        "Player2": "Corrado",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "The_nayr",
-        "Player2": "Hamuda",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Darthkid",
-        "Player2": "The_nayr",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MZBlazer",
-        "Player2": "Glacier7",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MZBlazer",
-      "Player2": "Darthkid",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MZBlazer",
+          "Player2": "FreedMania",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Glacier7",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Darthkid",
+          "Player2": "Corrado",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "The_nayr",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Darthkid",
+          "Player2": "The_nayr",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MZBlazer",
+          "Player2": "Glacier7",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MZBlazer",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3850,48 +3850,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "CharLy",
-        "Player2": "Wicki",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Leafpanda",
-        "Player2": "SakeIzumo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Capriccioso",
-        "Player2": "Zyrnak",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Theo_Jung",
-        "Player2": "MdvWin",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "CharLy",
-        "Player2": "Leafpanda",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Capriccioso",
-        "Player2": "Theo_Jung",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Capriccioso",
-      "Player2": "CharLy",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "CharLy",
+          "Player2": "Wicki",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Leafpanda",
+          "Player2": "SakeIzumo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Capriccioso",
+          "Player2": "Zyrnak",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Theo_Jung",
+          "Player2": "MdvWin",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "CharLy",
+          "Player2": "Leafpanda",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Capriccioso",
+          "Player2": "Theo_Jung",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Capriccioso",
+          "Player2": "CharLy",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

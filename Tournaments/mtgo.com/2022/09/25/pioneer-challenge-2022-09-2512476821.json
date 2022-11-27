@@ -4310,48 +4310,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ThaisM",
-        "Player2": "-Fish",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Parsmasher",
-        "Player2": "Never_DidntHaveIt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rastaf",
-        "Player2": "billsive",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "Magicofplayer1",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "Parsmasher",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "claudioh",
-        "Player2": "ThaisM",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "claudioh",
-      "Player2": "rastaf",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ThaisM",
+          "Player2": "-Fish",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Parsmasher",
+          "Player2": "Never_DidntHaveIt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rastaf",
+          "Player2": "billsive",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "Magicofplayer1",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "Parsmasher",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "claudioh",
+          "Player2": "ThaisM",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "claudioh",
+          "Player2": "rastaf",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

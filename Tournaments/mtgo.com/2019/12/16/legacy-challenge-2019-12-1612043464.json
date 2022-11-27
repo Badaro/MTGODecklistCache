@@ -4302,48 +4302,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Antarctica",
-        "Player2": "HJ_Kaiser",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oddball",
-        "Player2": "Alakazimdk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JHK",
-        "Player2": "popposennsei",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wooop_orc",
-        "Player2": "Jenara19",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JHK",
-        "Player2": "Antarctica",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Oddball",
-        "Player2": "wooop_orc",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "JHK",
-      "Player2": "Oddball",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Antarctica",
+          "Player2": "HJ_Kaiser",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oddball",
+          "Player2": "Alakazimdk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JHK",
+          "Player2": "popposennsei",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wooop_orc",
+          "Player2": "Jenara19",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JHK",
+          "Player2": "Antarctica",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Oddball",
+          "Player2": "wooop_orc",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JHK",
+          "Player2": "Oddball",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

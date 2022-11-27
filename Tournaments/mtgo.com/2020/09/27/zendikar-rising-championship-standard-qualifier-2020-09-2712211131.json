@@ -3870,48 +3870,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "HEROtsukai",
-        "Player2": "air_vengeance",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "M_LIT",
-        "Player2": "telsacow",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "lampalot",
-        "Player2": "Do0mSwitch",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "karatedom",
-        "Player2": "Edel",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "lampalot",
-        "Player2": "karatedom",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "M_LIT",
-        "Player2": "HEROtsukai",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "lampalot",
-      "Player2": "M_LIT",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "HEROtsukai",
+          "Player2": "air_vengeance",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "M_LIT",
+          "Player2": "telsacow",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "lampalot",
+          "Player2": "Do0mSwitch",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "karatedom",
+          "Player2": "Edel",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "lampalot",
+          "Player2": "karatedom",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "M_LIT",
+          "Player2": "HEROtsukai",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "lampalot",
+          "Player2": "M_LIT",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

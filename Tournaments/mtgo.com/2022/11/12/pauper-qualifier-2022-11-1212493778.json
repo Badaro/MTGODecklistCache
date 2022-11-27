@@ -1818,48 +1818,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "OlavoJusMTM",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "hjc",
-        "Player2": "Baladin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Casatti",
-        "Player2": "Mahers",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rudberg",
-        "Player2": "TopGrinder",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "hjc",
-        "Player2": "_Batutinha_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Casatti",
-        "Player2": "Rudberg",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "hjc",
-      "Player2": "Casatti",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "OlavoJusMTM",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "hjc",
+          "Player2": "Baladin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Casatti",
+          "Player2": "Mahers",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rudberg",
+          "Player2": "TopGrinder",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "hjc",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Casatti",
+          "Player2": "Rudberg",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "hjc",
+          "Player2": "Casatti",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

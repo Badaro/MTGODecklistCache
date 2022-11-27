@@ -4170,48 +4170,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "victorroatt",
-        "Player2": "Bertram",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LBBL",
-        "Player2": "Nick_Fox",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "quinniac",
-        "Player2": "FromOurGrayWalls",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wkmidori",
-        "Player2": "O_danielakos",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "quinniac",
-        "Player2": "LBBL",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wkmidori",
-        "Player2": "victorroatt",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "quinniac",
-      "Player2": "wkmidori",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "victorroatt",
+          "Player2": "Bertram",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LBBL",
+          "Player2": "Nick_Fox",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "quinniac",
+          "Player2": "FromOurGrayWalls",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wkmidori",
+          "Player2": "O_danielakos",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "quinniac",
+          "Player2": "LBBL",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wkmidori",
+          "Player2": "victorroatt",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "quinniac",
+          "Player2": "wkmidori",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

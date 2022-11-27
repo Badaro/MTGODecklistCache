@@ -3538,48 +3538,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Doctor_Wyrm",
-        "Player2": "billster47",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KingOfPop",
-        "Player2": "Mojo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ch0b1",
-        "Player2": "Brivenix",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Paulinho",
-        "Player2": "Mathonical",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Doctor_Wyrm",
-        "Player2": "KingOfPop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ch0b1",
-        "Player2": "Paulinho",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ch0b1",
-      "Player2": "Doctor_Wyrm",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Doctor_Wyrm",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KingOfPop",
+          "Player2": "Mojo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ch0b1",
+          "Player2": "Brivenix",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Paulinho",
+          "Player2": "Mathonical",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Doctor_Wyrm",
+          "Player2": "KingOfPop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ch0b1",
+          "Player2": "Paulinho",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ch0b1",
+          "Player2": "Doctor_Wyrm",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

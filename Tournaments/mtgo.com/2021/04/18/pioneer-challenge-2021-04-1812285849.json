@@ -4250,48 +4250,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Harry13",
-        "Player2": "duke12",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McIeskey",
-        "Player2": "hcook725",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "xf13rc3byerly",
-        "Player2": "_Caverna_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tyerube1618",
-        "Player2": "remf",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Harry13",
-        "Player2": "xf13rc3byerly",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McIeskey",
-        "Player2": "Tyerube1618",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "McIeskey",
-      "Player2": "Harry13",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Harry13",
+          "Player2": "duke12",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McIeskey",
+          "Player2": "hcook725",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "xf13rc3byerly",
+          "Player2": "_Caverna_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tyerube1618",
+          "Player2": "remf",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Harry13",
+          "Player2": "xf13rc3byerly",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McIeskey",
+          "Player2": "Tyerube1618",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "McIeskey",
+          "Player2": "Harry13",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

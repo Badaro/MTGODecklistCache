@@ -1418,48 +1418,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Usama96",
-        "Player2": "Mudda",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ahvena",
-        "Player2": "StryxFamiliar",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Elnitzo",
-        "Player2": "greir",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "caesar607",
-        "Player2": "Phizzle",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ahvena",
-        "Player2": "caesar607",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Elnitzo",
-        "Player2": "Usama96",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ahvena",
-      "Player2": "Elnitzo",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Usama96",
+          "Player2": "Mudda",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ahvena",
+          "Player2": "StryxFamiliar",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Elnitzo",
+          "Player2": "greir",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "caesar607",
+          "Player2": "Phizzle",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ahvena",
+          "Player2": "caesar607",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Elnitzo",
+          "Player2": "Usama96",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ahvena",
+          "Player2": "Elnitzo",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

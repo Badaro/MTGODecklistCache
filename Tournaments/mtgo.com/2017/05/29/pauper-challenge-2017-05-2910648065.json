@@ -3806,48 +3806,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Vilaboy",
-        "Player2": "RodrigoPinheiro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hrymfaxe",
-        "Player2": "jsiri84",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "MrApple65",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nexest",
-        "Player2": "billster47",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hrymfaxe",
-        "Player2": "Vilaboy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "Nexest",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mathonical",
-      "Player2": "Hrymfaxe",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Vilaboy",
+          "Player2": "RodrigoPinheiro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hrymfaxe",
+          "Player2": "jsiri84",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "MrApple65",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nexest",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hrymfaxe",
+          "Player2": "Vilaboy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "Nexest",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "Hrymfaxe",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

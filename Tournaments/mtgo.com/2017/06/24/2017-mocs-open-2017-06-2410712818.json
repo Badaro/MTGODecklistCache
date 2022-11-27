@@ -1406,48 +1406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Baetog",
-        "Player2": "solace",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "SheIonizes",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RALC",
-        "Player2": "Znapcaster",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Sephh",
-        "Player2": "Tulio_Jaudy",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Sephh",
-        "Player2": "Lennny",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "RALC",
-        "Player2": "Baetog",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Sephh",
-      "Player2": "RALC",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Baetog",
+          "Player2": "solace",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "SheIonizes",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RALC",
+          "Player2": "Znapcaster",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Sephh",
+          "Player2": "Tulio_Jaudy",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Sephh",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "RALC",
+          "Player2": "Baetog",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Sephh",
+          "Player2": "RALC",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

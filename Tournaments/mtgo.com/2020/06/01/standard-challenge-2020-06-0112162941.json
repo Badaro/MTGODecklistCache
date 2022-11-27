@@ -3878,48 +3878,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "unicornparadise",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Poyo_del_Mal",
-        "Player2": "Searzist",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Micro",
-        "Player2": "napoligas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "PykaPower",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "rastaf",
-        "Player2": "Micro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Venom1",
-        "Player2": "Poyo_del_Mal",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Venom1",
-      "Player2": "rastaf",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "unicornparadise",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Poyo_del_Mal",
+          "Player2": "Searzist",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Micro",
+          "Player2": "napoligas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "PykaPower",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "rastaf",
+          "Player2": "Micro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Venom1",
+          "Player2": "Poyo_del_Mal",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Venom1",
+          "Player2": "rastaf",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4298,48 +4298,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "sinforlife54",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "Moniz0801",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Oscar_Franco",
-        "Player2": "ArchaeusDota",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BERNASTORRES",
-        "Player2": "Morgento",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "BERNASTORRES",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Laplasjan",
-        "Player2": "Oscar_Franco",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Laplasjan",
-      "Player2": "BERNASTORRES",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "sinforlife54",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "Moniz0801",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Oscar_Franco",
+          "Player2": "ArchaeusDota",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BERNASTORRES",
+          "Player2": "Morgento",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "BERNASTORRES",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Laplasjan",
+          "Player2": "Oscar_Franco",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Laplasjan",
+          "Player2": "BERNASTORRES",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

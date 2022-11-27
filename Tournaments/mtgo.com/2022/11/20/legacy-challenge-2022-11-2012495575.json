@@ -4318,48 +4318,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TheWitchKling",
-        "Player2": "utley26",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Testacular",
-        "Player2": "lazerbeam",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "WeareVenom",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "luinil",
-        "Player2": "MeTheKaptain",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "TheWitchKling",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Testacular",
-        "Player2": "luinil",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Testacular",
-      "Player2": "JPA93",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TheWitchKling",
+          "Player2": "utley26",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Testacular",
+          "Player2": "lazerbeam",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "WeareVenom",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "luinil",
+          "Player2": "MeTheKaptain",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "TheWitchKling",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Testacular",
+          "Player2": "luinil",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Testacular",
+          "Player2": "JPA93",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3682,48 +3682,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "HinaHara",
-        "Player2": "Tyerube1618",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "420dragon",
-        "Player2": "billster47",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JakeHelms",
-        "Player2": "TopGrinder",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NotGood",
-        "Player2": "janicestone",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "NotGood",
-        "Player2": "JakeHelms",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "420dragon",
-        "Player2": "HinaHara",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "420dragon",
-      "Player2": "NotGood",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "HinaHara",
+          "Player2": "Tyerube1618",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "420dragon",
+          "Player2": "billster47",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JakeHelms",
+          "Player2": "TopGrinder",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NotGood",
+          "Player2": "janicestone",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "NotGood",
+          "Player2": "JakeHelms",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "420dragon",
+          "Player2": "HinaHara",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "420dragon",
+          "Player2": "NotGood",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

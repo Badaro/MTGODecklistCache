@@ -1390,48 +1390,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Veveil",
-        "Player2": "duofanel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Finespoo",
-        "Player2": "beraldi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "krbigos",
-        "Player2": "_goblinlackey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "floatius",
-        "Player2": "Flingg",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Finespoo",
-        "Player2": "krbigos",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Veveil",
-        "Player2": "floatius",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Veveil",
-      "Player2": "Finespoo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Veveil",
+          "Player2": "duofanel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Finespoo",
+          "Player2": "beraldi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "krbigos",
+          "Player2": "_goblinlackey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "floatius",
+          "Player2": "Flingg",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Finespoo",
+          "Player2": "krbigos",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Veveil",
+          "Player2": "floatius",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Veveil",
+          "Player2": "Finespoo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

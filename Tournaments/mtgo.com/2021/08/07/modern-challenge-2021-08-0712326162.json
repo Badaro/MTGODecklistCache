@@ -4354,48 +4354,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "klien7",
-        "Player2": "yriel",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jadecavy",
-        "Player2": "eMJay0202",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tarmogoyf1234",
-        "Player2": "Keraan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "starfall",
-        "Player2": "viableash",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Tarmogoyf1234",
-        "Player2": "klien7",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "starfall",
-        "Player2": "Jadecavy",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "starfall",
-      "Player2": "Tarmogoyf1234",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "klien7",
+          "Player2": "yriel",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jadecavy",
+          "Player2": "eMJay0202",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tarmogoyf1234",
+          "Player2": "Keraan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "starfall",
+          "Player2": "viableash",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Tarmogoyf1234",
+          "Player2": "klien7",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "starfall",
+          "Player2": "Jadecavy",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "starfall",
+          "Player2": "Tarmogoyf1234",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

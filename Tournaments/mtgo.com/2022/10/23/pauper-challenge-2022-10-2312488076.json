@@ -3470,48 +3470,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_against_",
-        "Player2": "IAB_MaGiC",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Purgatory_01",
-        "Player2": "TheWatchWander",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Backoff",
-        "Player2": "Mahers",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Purgatory_01",
-        "Player2": "_against_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Backoff",
-        "Player2": "Hamuda",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Purgatory_01",
-      "Player2": "Backoff",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_against_",
+          "Player2": "IAB_MaGiC",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Purgatory_01",
+          "Player2": "TheWatchWander",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Backoff",
+          "Player2": "Mahers",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Purgatory_01",
+          "Player2": "_against_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Backoff",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Purgatory_01",
+          "Player2": "Backoff",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

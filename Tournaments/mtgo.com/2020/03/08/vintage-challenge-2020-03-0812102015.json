@@ -5422,48 +5422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Oklahomigan",
-        "Player2": "thepowernine",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mou",
-        "Player2": "C_E.L",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "federusher",
-        "Player2": "kanister",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "LORiWWA",
-        "Player2": "Devouring Commander",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Oklahomigan",
-        "Player2": "federusher",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mou",
-        "Player2": "LORiWWA",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Oklahomigan",
-      "Player2": "Mou",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Oklahomigan",
+          "Player2": "thepowernine",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mou",
+          "Player2": "C_E.L",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "federusher",
+          "Player2": "kanister",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "LORiWWA",
+          "Player2": "Devouring Commander",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Oklahomigan",
+          "Player2": "federusher",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mou",
+          "Player2": "LORiWWA",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Oklahomigan",
+          "Player2": "Mou",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

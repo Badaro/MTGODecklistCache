@@ -3822,48 +3822,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Aya_",
-        "Player2": "WhiteStripe",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "beatles",
-        "Player2": "Alcatrazz0722",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Matsukasa10",
-        "Player2": "Fabian",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "chriscob",
-        "Player2": "AntzzzOnALog",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Matsukasa10",
-        "Player2": "beatles",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aya_",
-        "Player2": "chriscob",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Matsukasa10",
-      "Player2": "Aya_",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Aya_",
+          "Player2": "WhiteStripe",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "beatles",
+          "Player2": "Alcatrazz0722",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Matsukasa10",
+          "Player2": "Fabian",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "chriscob",
+          "Player2": "AntzzzOnALog",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Matsukasa10",
+          "Player2": "beatles",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aya_",
+          "Player2": "chriscob",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Matsukasa10",
+          "Player2": "Aya_",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

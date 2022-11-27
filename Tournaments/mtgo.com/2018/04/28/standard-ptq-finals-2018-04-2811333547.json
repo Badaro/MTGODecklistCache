@@ -3514,48 +3514,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Michai",
-        "Player2": "Eazzy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "WrzoBuSeks",
-        "Player2": "AutumnLily",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Team5c",
-        "Player2": "JHF",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "myyamagat",
-        "Player2": "lleaf33",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "myyamagat",
-        "Player2": "Michai",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Team5c",
-        "Player2": "WrzoBuSeks",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Team5c",
-      "Player2": "myyamagat",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Michai",
+          "Player2": "Eazzy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "WrzoBuSeks",
+          "Player2": "AutumnLily",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Team5c",
+          "Player2": "JHF",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "myyamagat",
+          "Player2": "lleaf33",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "myyamagat",
+          "Player2": "Michai",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Team5c",
+          "Player2": "WrzoBuSeks",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Team5c",
+          "Player2": "myyamagat",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

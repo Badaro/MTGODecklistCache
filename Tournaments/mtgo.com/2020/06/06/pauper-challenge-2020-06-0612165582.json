@@ -3682,48 +3682,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "joker10289",
-        "Player2": "ManuGodineau",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "RClint21",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nahnahe1",
-        "Player2": "July0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beranrd",
-        "Player2": "c_is_for_cookie",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Beranrd",
-        "Player2": "joker10289",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Anssi A",
-        "Player2": "nahnahe1",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Beranrd",
-      "Player2": "Anssi A",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "joker10289",
+          "Player2": "ManuGodineau",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "RClint21",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nahnahe1",
+          "Player2": "July0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beranrd",
+          "Player2": "c_is_for_cookie",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Beranrd",
+          "Player2": "joker10289",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Anssi A",
+          "Player2": "nahnahe1",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Beranrd",
+          "Player2": "Anssi A",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

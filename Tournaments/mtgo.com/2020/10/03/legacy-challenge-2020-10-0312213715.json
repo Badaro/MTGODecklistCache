@@ -4250,48 +4250,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "yashimoro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dazai",
-        "Player2": "Azerate218",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "r0cknati0n",
-        "Player2": "Pische10",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "basuta",
-        "Player2": "TheStyle",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JPA93",
-        "Player2": "basuta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "r0cknati0n",
-        "Player2": "Dazai",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "r0cknati0n",
-      "Player2": "JPA93",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "yashimoro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dazai",
+          "Player2": "Azerate218",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "r0cknati0n",
+          "Player2": "Pische10",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "basuta",
+          "Player2": "TheStyle",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JPA93",
+          "Player2": "basuta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "r0cknati0n",
+          "Player2": "Dazai",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "r0cknati0n",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

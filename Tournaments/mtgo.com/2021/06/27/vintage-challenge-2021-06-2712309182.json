@@ -5770,48 +5770,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "discoverN",
-        "Player2": "JMahncke",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "s063",
-        "Player2": "_INF_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "WhiTe TsaR",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bullwinkkle6705",
-        "Player2": "Slasher21",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "discoverN",
-        "Player2": "Bullwinkkle6705",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "s063",
-        "Player2": "MaxMagicer",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "s063",
-      "Player2": "discoverN",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "discoverN",
+          "Player2": "JMahncke",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "s063",
+          "Player2": "_INF_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "WhiTe TsaR",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bullwinkkle6705",
+          "Player2": "Slasher21",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "discoverN",
+          "Player2": "Bullwinkkle6705",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "s063",
+          "Player2": "MaxMagicer",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "s063",
+          "Player2": "discoverN",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

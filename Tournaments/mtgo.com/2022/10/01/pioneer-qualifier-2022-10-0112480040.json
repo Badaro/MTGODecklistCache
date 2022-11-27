@@ -2210,48 +2210,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Aje8",
-        "Player2": "_Stream",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Edel",
-        "Player2": "Swagga",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yashimoro",
-        "Player2": "OldManOfTheC",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jpsn54",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "yashimoro",
-        "Player2": "Edel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Aje8",
-        "Player2": "Jpsn54",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Aje8",
-      "Player2": "yashimoro",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Aje8",
+          "Player2": "_Stream",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Edel",
+          "Player2": "Swagga",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yashimoro",
+          "Player2": "OldManOfTheC",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jpsn54",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "yashimoro",
+          "Player2": "Edel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Aje8",
+          "Player2": "Jpsn54",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Aje8",
+          "Player2": "yashimoro",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

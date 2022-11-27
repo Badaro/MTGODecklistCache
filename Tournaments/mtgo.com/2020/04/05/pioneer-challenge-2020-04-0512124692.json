@@ -3778,48 +3778,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mlgb92",
-        "Player2": "THE_RAKE",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "EddDeedoo",
-        "Player2": "Phizzle",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "manwithplane251",
-        "Player2": "_Antoniou_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aardos",
-        "Player2": "tylerjjobrien",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Aardos",
-        "Player2": "Mlgb92",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "EddDeedoo",
-        "Player2": "manwithplane251",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "EddDeedoo",
-      "Player2": "Aardos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mlgb92",
+          "Player2": "THE_RAKE",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "EddDeedoo",
+          "Player2": "Phizzle",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "manwithplane251",
+          "Player2": "_Antoniou_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aardos",
+          "Player2": "tylerjjobrien",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Aardos",
+          "Player2": "Mlgb92",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "EddDeedoo",
+          "Player2": "manwithplane251",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "EddDeedoo",
+          "Player2": "Aardos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

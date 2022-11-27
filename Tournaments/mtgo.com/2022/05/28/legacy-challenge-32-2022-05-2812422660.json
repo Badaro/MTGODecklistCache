@@ -4322,48 +4322,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "tomoro3333",
-        "Player2": "Killabee",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "OrnatePuzzles",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "Butakov",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "wiky",
-        "Player2": "Malowless",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "medvedev",
-        "Player2": "duke12",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "tomoro3333",
-        "Player2": "wiky",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "medvedev",
-      "Player2": "tomoro3333",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "tomoro3333",
+          "Player2": "Killabee",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "OrnatePuzzles",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "Butakov",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "wiky",
+          "Player2": "Malowless",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "medvedev",
+          "Player2": "duke12",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "tomoro3333",
+          "Player2": "wiky",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "medvedev",
+          "Player2": "tomoro3333",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1474,48 +1474,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Aspankxx",
-        "Player2": "YATING",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nilemsaile",
-        "Player2": "syrupman",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "lucianonano",
-        "Player2": "Omimi",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "nilemsaile",
-        "Player2": "lucianonano",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "Aspankxx",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "nilemsaile",
-      "Player2": "Ark4n",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Aspankxx",
+          "Player2": "YATING",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nilemsaile",
+          "Player2": "syrupman",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "lucianonano",
+          "Player2": "Omimi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "nilemsaile",
+          "Player2": "lucianonano",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "Aspankxx",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "nilemsaile",
+          "Player2": "Ark4n",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

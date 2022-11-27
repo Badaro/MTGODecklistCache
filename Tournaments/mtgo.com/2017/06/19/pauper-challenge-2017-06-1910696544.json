@@ -3662,48 +3662,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Mathonical",
-        "Player2": "pproteus",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Brivenix",
-        "Player2": "deluxeicoff",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "GutoCmtt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "redler",
-        "Player2": "Mandark",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Brivenix",
-        "Player2": "redler",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "Mathonical",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Brivenix",
-      "Player2": "mlovbo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "pproteus",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Brivenix",
+          "Player2": "deluxeicoff",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "GutoCmtt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "redler",
+          "Player2": "Mandark",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Brivenix",
+          "Player2": "redler",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "Mathonical",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Brivenix",
+          "Player2": "mlovbo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

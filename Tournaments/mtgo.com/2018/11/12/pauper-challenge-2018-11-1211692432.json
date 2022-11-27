@@ -3774,48 +3774,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Entropy263",
-        "Player2": "LimitedPower",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "patrickj",
-        "Player2": "SIKOSLOVAKE",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "leitluk",
-        "Player2": "frucile",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Iguinkk",
-        "Player2": "LucasWDL",
-        "Result": "1-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "patrickj",
-        "Player2": "leitluk",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Iguinkk",
-        "Player2": "Entropy263",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Iguinkk",
-      "Player2": "patrickj",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Entropy263",
+          "Player2": "LimitedPower",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "patrickj",
+          "Player2": "SIKOSLOVAKE",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "leitluk",
+          "Player2": "frucile",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Iguinkk",
+          "Player2": "LucasWDL",
+          "Result": "1-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "patrickj",
+          "Player2": "leitluk",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Iguinkk",
+          "Player2": "Entropy263",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Iguinkk",
+          "Player2": "patrickj",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

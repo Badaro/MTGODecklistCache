@@ -3718,48 +3718,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "yamakiller",
-        "Player2": "petomartinez",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nayaoka",
-        "Player2": "HellMonkey",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "avb",
-        "Player2": "nazora",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cwllc",
-        "Player2": "koko_lopez",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "avb",
-        "Player2": "nayaoka",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "cwllc",
-        "Player2": "yamakiller",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "cwllc",
-      "Player2": "avb",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "yamakiller",
+          "Player2": "petomartinez",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nayaoka",
+          "Player2": "HellMonkey",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "avb",
+          "Player2": "nazora",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cwllc",
+          "Player2": "koko_lopez",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "avb",
+          "Player2": "nayaoka",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "cwllc",
+          "Player2": "yamakiller",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cwllc",
+          "Player2": "avb",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

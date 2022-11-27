@@ -3806,48 +3806,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Benitos",
-        "Player2": "Th0rnside",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "ACtuallyMeAmKing",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "janicestone",
-        "Player2": "Medily",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SteB",
-        "Player2": "cl1ffy81",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Benitos",
-        "Player2": "SteB",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Mathonical",
-        "Player2": "janicestone",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Mathonical",
-      "Player2": "Benitos",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "Th0rnside",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "ACtuallyMeAmKing",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "janicestone",
+          "Player2": "Medily",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SteB",
+          "Player2": "cl1ffy81",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Benitos",
+          "Player2": "SteB",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Mathonical",
+          "Player2": "janicestone",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Mathonical",
+          "Player2": "Benitos",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

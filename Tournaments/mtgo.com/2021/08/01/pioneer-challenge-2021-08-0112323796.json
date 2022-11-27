@@ -4182,48 +4182,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "nekonekoneko",
-        "Player2": "Sahakvic",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xuxa",
-        "Player2": "Hamuda",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "lazerbeam",
-        "Player2": "Ramzamela7",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "adebevoise",
-        "Player2": "Tunaktunak",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xuxa",
-        "Player2": "lazerbeam",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nekonekoneko",
-        "Player2": "adebevoise",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "nekonekoneko",
-      "Player2": "Xuxa",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "nekonekoneko",
+          "Player2": "Sahakvic",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xuxa",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "lazerbeam",
+          "Player2": "Ramzamela7",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "adebevoise",
+          "Player2": "Tunaktunak",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xuxa",
+          "Player2": "lazerbeam",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nekonekoneko",
+          "Player2": "adebevoise",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "nekonekoneko",
+          "Player2": "Xuxa",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3778,48 +3778,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Marian_",
-        "Player2": "JoseCabezas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GYBA",
-        "Player2": "Thatted",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Usama96",
-        "Player2": "Kaies",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tixis",
-        "Player2": "_Spata_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Marian_",
-        "Player2": "Usama96",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Tixis",
-        "Player2": "GYBA",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Tixis",
-      "Player2": "_Marian_",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Marian_",
+          "Player2": "JoseCabezas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GYBA",
+          "Player2": "Thatted",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Usama96",
+          "Player2": "Kaies",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tixis",
+          "Player2": "_Spata_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Marian_",
+          "Player2": "Usama96",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Tixis",
+          "Player2": "GYBA",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Tixis",
+          "Player2": "_Marian_",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

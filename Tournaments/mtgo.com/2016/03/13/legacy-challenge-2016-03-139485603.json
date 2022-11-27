@@ -4046,48 +4046,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "dsck",
-        "Player2": "Call1Me1Dragon",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Webb",
-        "Player2": "gotsjo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JordanTheJew",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "whataboutcats",
-        "Player2": "mortr3d",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "JordanTheJew",
-        "Player2": "dsck",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Webb",
-        "Player2": "whataboutcats",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "JordanTheJew",
-      "Player2": "Webb",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "dsck",
+          "Player2": "Call1Me1Dragon",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Webb",
+          "Player2": "gotsjo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JordanTheJew",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "whataboutcats",
+          "Player2": "mortr3d",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "JordanTheJew",
+          "Player2": "dsck",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Webb",
+          "Player2": "whataboutcats",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "JordanTheJew",
+          "Player2": "Webb",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

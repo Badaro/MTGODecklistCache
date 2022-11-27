@@ -1378,48 +1378,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "stainerson",
-        "Player2": "Dave_Finkle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "slowbro1",
-        "Player2": "ErreZeta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xuxa",
-        "Player2": "canepis16",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "eyalorel",
-        "Player2": "superdan_7",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xuxa",
-        "Player2": "slowbro1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "stainerson",
-        "Player2": "eyalorel",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "stainerson",
-      "Player2": "Xuxa",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "Dave_Finkle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "slowbro1",
+          "Player2": "ErreZeta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xuxa",
+          "Player2": "canepis16",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "eyalorel",
+          "Player2": "superdan_7",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xuxa",
+          "Player2": "slowbro1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "stainerson",
+          "Player2": "eyalorel",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "stainerson",
+          "Player2": "Xuxa",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4230,48 +4230,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Aluren85",
-        "Player2": "CrusherBotBG",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SickWorld",
-        "Player2": "Irra0770",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kefka27",
-        "Player2": "Jaberwocki",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Xwhale",
-        "Player2": "Darthkid",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Aluren85",
-        "Player2": "SickWorld",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kefka27",
-        "Player2": "Xwhale",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Aluren85",
-      "Player2": "kefka27",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Aluren85",
+          "Player2": "CrusherBotBG",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SickWorld",
+          "Player2": "Irra0770",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kefka27",
+          "Player2": "Jaberwocki",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Xwhale",
+          "Player2": "Darthkid",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Aluren85",
+          "Player2": "SickWorld",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kefka27",
+          "Player2": "Xwhale",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Aluren85",
+          "Player2": "kefka27",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

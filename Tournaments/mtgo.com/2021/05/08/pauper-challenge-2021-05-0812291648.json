@@ -3798,48 +3798,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "Smradd",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "chickenandrofls",
-        "Player2": "pepeisra",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "barff",
-        "Player2": "CinderDX",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "RClint21",
-        "Player2": "A_AdeptoTerra",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "barff",
-        "Player2": "chickenandrofls",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "RClint21",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "barff",
-      "Player2": "Hamuda",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "Smradd",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "chickenandrofls",
+          "Player2": "pepeisra",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "barff",
+          "Player2": "CinderDX",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "RClint21",
+          "Player2": "A_AdeptoTerra",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "barff",
+          "Player2": "chickenandrofls",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "RClint21",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "barff",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

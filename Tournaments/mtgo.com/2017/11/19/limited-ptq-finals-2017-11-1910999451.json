@@ -1326,48 +1326,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ManacleRend",
-        "Player2": "Wyern",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "I sNaRe I",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Wyuta",
-        "Player2": "Chwarga_",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "BurningSands",
-        "Player2": "blumax8",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "BurningSands",
-        "Player2": "Wyuta",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "ManacleRend",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Lennny",
-      "Player2": "BurningSands",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ManacleRend",
+          "Player2": "Wyern",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "I sNaRe I",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Wyuta",
+          "Player2": "Chwarga_",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "BurningSands",
+          "Player2": "blumax8",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "BurningSands",
+          "Player2": "Wyuta",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "ManacleRend",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "BurningSands",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

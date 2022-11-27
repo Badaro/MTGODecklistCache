@@ -4198,48 +4198,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kanister",
-        "Player2": "levunga21",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "L1X0",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Joseph_",
-        "Player2": "Gobern",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "_Tia93_",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kanister",
-        "Player2": "Chefen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Joseph_",
-        "Player2": "Hamuda",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "kanister",
-      "Player2": "_Joseph_",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "levunga21",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "L1X0",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Joseph_",
+          "Player2": "Gobern",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "_Tia93_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "Chefen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Joseph_",
+          "Player2": "Hamuda",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "_Joseph_",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

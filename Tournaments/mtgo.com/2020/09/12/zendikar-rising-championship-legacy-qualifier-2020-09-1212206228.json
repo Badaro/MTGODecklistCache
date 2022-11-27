@@ -4530,48 +4530,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "otakkun",
-        "Player2": "Theo_Jung",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bryant_Cook",
-        "Player2": "ht991122",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jtl005",
-        "Player2": "Capriccioso",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Treno",
-        "Player2": "musasabi",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Bryant_Cook",
-        "Player2": "otakkun",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jtl005",
-        "Player2": "Treno",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Bryant_Cook",
-      "Player2": "jtl005",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "otakkun",
+          "Player2": "Theo_Jung",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "ht991122",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jtl005",
+          "Player2": "Capriccioso",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Treno",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "otakkun",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jtl005",
+          "Player2": "Treno",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Bryant_Cook",
+          "Player2": "jtl005",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

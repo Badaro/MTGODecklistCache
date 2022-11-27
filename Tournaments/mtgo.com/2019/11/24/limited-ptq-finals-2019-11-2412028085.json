@@ -1406,48 +1406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jakajaka",
-        "Player2": "shachmand",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Jpsn54",
-        "Player2": "Hoej",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "caesar607",
-        "Player2": "Alloran",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JMM",
-        "Player2": "Quatch",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Jpsn54",
-        "Player2": "jakajaka",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "caesar607",
-        "Player2": "JMM",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "caesar607",
-      "Player2": "Jpsn54",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jakajaka",
+          "Player2": "shachmand",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Jpsn54",
+          "Player2": "Hoej",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "caesar607",
+          "Player2": "Alloran",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JMM",
+          "Player2": "Quatch",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Jpsn54",
+          "Player2": "jakajaka",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "caesar607",
+          "Player2": "JMM",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "caesar607",
+          "Player2": "Jpsn54",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

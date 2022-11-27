@@ -4454,48 +4454,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Thrall90",
-        "Player2": "KelMasterP",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mogged",
-        "Player2": "danielnunes",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "Caedyrn",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "twinlesstwin",
-        "Player2": "Thalai",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Thrall90",
-        "Player2": "nathansteuer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "twinlesstwin",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "twinlesstwin",
-      "Player2": "Thrall90",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Thrall90",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mogged",
+          "Player2": "danielnunes",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "Caedyrn",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "twinlesstwin",
+          "Player2": "Thalai",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Thrall90",
+          "Player2": "nathansteuer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "twinlesstwin",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "twinlesstwin",
+          "Player2": "Thrall90",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

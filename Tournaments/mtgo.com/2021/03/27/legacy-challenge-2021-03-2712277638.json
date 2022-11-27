@@ -4482,48 +4482,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jmanner",
-        "Player2": "AlphaBlade",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "otaba",
-        "Player2": "maian",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "Kazurban",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kazuga",
-        "Player2": "MM_17",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "otaba",
-        "Player2": "jmanner",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "musasabi",
-        "Player2": "Kazuga",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "otaba",
-      "Player2": "musasabi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jmanner",
+          "Player2": "AlphaBlade",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "otaba",
+          "Player2": "maian",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "Kazurban",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kazuga",
+          "Player2": "MM_17",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "otaba",
+          "Player2": "jmanner",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "musasabi",
+          "Player2": "Kazuga",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "otaba",
+          "Player2": "musasabi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

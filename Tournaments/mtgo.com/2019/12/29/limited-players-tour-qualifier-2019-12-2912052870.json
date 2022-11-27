@@ -1338,48 +1338,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kdellagrotte",
-        "Player2": "Bigval777",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xto2",
-        "Player2": "Folero",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kbzx",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Beekeeper",
-        "Player2": "fake-news",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "kdellagrotte",
-        "Player2": "Xto2",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Beekeeper",
-        "Player2": "kbzx",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Beekeeper",
-      "Player2": "kdellagrotte",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kdellagrotte",
+          "Player2": "Bigval777",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xto2",
+          "Player2": "Folero",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kbzx",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Beekeeper",
+          "Player2": "fake-news",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "kdellagrotte",
+          "Player2": "Xto2",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Beekeeper",
+          "Player2": "kbzx",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Beekeeper",
+          "Player2": "kdellagrotte",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

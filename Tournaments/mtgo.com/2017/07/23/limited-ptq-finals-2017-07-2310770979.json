@@ -1398,48 +1398,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Eken.",
-        "Player2": "Jackomatrus",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Veveil",
-        "Player2": "Gonzo_J",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ChillingLauge",
-        "Player2": "Tractorage",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "LittleShadow",
-        "Player2": "brokenvow",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Eken.",
-        "Player2": "ChillingLauge",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Veveil",
-        "Player2": "LittleShadow",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Veveil",
-      "Player2": "Eken.",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Eken.",
+          "Player2": "Jackomatrus",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Veveil",
+          "Player2": "Gonzo_J",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ChillingLauge",
+          "Player2": "Tractorage",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "LittleShadow",
+          "Player2": "brokenvow",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Eken.",
+          "Player2": "ChillingLauge",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Veveil",
+          "Player2": "LittleShadow",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Veveil",
+          "Player2": "Eken.",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

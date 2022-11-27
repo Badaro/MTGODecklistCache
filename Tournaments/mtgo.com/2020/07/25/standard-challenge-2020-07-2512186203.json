@@ -3710,48 +3710,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Thommimp",
-        "Player2": "Poyo_del_Mal",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Traft",
-        "Player2": "kthanakit26",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Bielzito",
-        "Player2": "elad3127",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "marolanzi",
-        "Player2": "ht991122",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "marolanzi",
-        "Player2": "Traft",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Thommimp",
-        "Player2": "Bielzito",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Thommimp",
-      "Player2": "marolanzi",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Thommimp",
+          "Player2": "Poyo_del_Mal",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Traft",
+          "Player2": "kthanakit26",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Bielzito",
+          "Player2": "elad3127",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "marolanzi",
+          "Player2": "ht991122",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "marolanzi",
+          "Player2": "Traft",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Thommimp",
+          "Player2": "Bielzito",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Thommimp",
+          "Player2": "marolanzi",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

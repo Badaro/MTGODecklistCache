@@ -1414,48 +1414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bo11301",
-        "Player2": "jstihle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "THE_NARD",
-        "Player2": "pshlos_grrr",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Qaeron",
-        "Player2": "JoseCabezas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PTDBond",
-        "Player2": "Phizzle",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Qaeron",
-        "Player2": "THE_NARD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PTDBond",
-        "Player2": "bo11301",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "PTDBond",
-      "Player2": "Qaeron",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bo11301",
+          "Player2": "jstihle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "THE_NARD",
+          "Player2": "pshlos_grrr",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Qaeron",
+          "Player2": "JoseCabezas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PTDBond",
+          "Player2": "Phizzle",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Qaeron",
+          "Player2": "THE_NARD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PTDBond",
+          "Player2": "bo11301",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "PTDBond",
+          "Player2": "Qaeron",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

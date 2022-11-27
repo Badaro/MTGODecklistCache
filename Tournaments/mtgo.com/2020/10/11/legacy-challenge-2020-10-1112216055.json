@@ -4534,48 +4534,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kentaro_hokori",
-        "Player2": "MissTrigger",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "monkeyscantcry",
-        "Player2": "ecobaronen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Andreas_Mueller",
-        "Player2": "TheJigIsAlwaysup",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Jacobisboss",
-        "Player2": "twinlesstwin",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Andreas_Mueller",
-        "Player2": "Jacobisboss",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "monkeyscantcry",
-        "Player2": "kentaro_hokori",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "monkeyscantcry",
-      "Player2": "Andreas_Mueller",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kentaro_hokori",
+          "Player2": "MissTrigger",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "monkeyscantcry",
+          "Player2": "ecobaronen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Andreas_Mueller",
+          "Player2": "TheJigIsAlwaysup",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Jacobisboss",
+          "Player2": "twinlesstwin",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Andreas_Mueller",
+          "Player2": "Jacobisboss",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "monkeyscantcry",
+          "Player2": "kentaro_hokori",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "monkeyscantcry",
+          "Player2": "Andreas_Mueller",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

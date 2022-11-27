@@ -2358,48 +2358,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "NicolasGEM",
-        "Player2": "AFX",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MeninoNey",
-        "Player2": "Idea013",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Pastratta",
-        "Player2": "Elbegast",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kurusu",
-        "Player2": "MentalMisstep",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Pastratta",
-        "Player2": "Kurusu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NicolasGEM",
-        "Player2": "MeninoNey",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "NicolasGEM",
-      "Player2": "Pastratta",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "NicolasGEM",
+          "Player2": "AFX",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MeninoNey",
+          "Player2": "Idea013",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Pastratta",
+          "Player2": "Elbegast",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kurusu",
+          "Player2": "MentalMisstep",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Pastratta",
+          "Player2": "Kurusu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NicolasGEM",
+          "Player2": "MeninoNey",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "NicolasGEM",
+          "Player2": "Pastratta",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

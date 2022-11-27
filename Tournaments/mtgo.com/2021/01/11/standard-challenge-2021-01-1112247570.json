@@ -3666,48 +3666,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "duke12",
-        "Player2": "bozokaboy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "AlfredoTorres",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "moonstearneo",
-        "Player2": "MarySue",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "MKC",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "_Batutinha_",
-        "Player2": "moonstearneo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "KO_Mak",
-        "Player2": "duke12",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Batutinha_",
-      "Player2": "KO_Mak",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "duke12",
+          "Player2": "bozokaboy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "AlfredoTorres",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "moonstearneo",
+          "Player2": "MarySue",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "MKC",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "moonstearneo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "KO_Mak",
+          "Player2": "duke12",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Batutinha_",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4510,48 +4510,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Bob49",
-        "Player2": "Lord_Beerus",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "XlperTxT",
-        "Player2": "patheus_84",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "billster47",
-        "Player2": "joe77",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MartinezDP",
-        "Player2": "RiceTackler",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "billster47",
-        "Player2": "MartinezDP",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "XlperTxT",
-        "Player2": "Bob49",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "XlperTxT",
-      "Player2": "billster47",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Bob49",
+          "Player2": "Lord_Beerus",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "XlperTxT",
+          "Player2": "patheus_84",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "billster47",
+          "Player2": "joe77",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MartinezDP",
+          "Player2": "RiceTackler",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "billster47",
+          "Player2": "MartinezDP",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "XlperTxT",
+          "Player2": "Bob49",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "XlperTxT",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

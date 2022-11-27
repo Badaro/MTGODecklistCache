@@ -1382,48 +1382,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SethS",
-        "Player2": "felider",
-        "Result": "2-0"
-      },
-      {
-        "Player1": ".Tree",
-        "Player2": "Akiragirl15",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "BenjaminBreeg",
-        "Player2": "toiro",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kyn202",
-        "Player2": "TellKou",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "BenjaminBreeg",
-        "Player2": ".Tree",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kyn202",
-        "Player2": "SethS",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kyn202",
-      "Player2": "BenjaminBreeg",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SethS",
+          "Player2": "felider",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": ".Tree",
+          "Player2": "Akiragirl15",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "BenjaminBreeg",
+          "Player2": "toiro",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kyn202",
+          "Player2": "TellKou",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "BenjaminBreeg",
+          "Player2": ".Tree",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kyn202",
+          "Player2": "SethS",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kyn202",
+          "Player2": "BenjaminBreeg",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

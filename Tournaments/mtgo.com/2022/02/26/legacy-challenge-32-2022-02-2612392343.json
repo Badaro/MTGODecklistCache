@@ -4402,48 +4402,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Flow_true",
-        "Player2": "Killah_SUV",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Bryzem1",
-        "Player2": "runkor",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ARAPAKO",
-        "Player2": "DemonicTutors",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Wurst_",
-        "Player2": "HNmagician",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Wurst_",
-        "Player2": "Bryzem1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ARAPAKO",
-        "Player2": "Flow_true",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Wurst_",
-      "Player2": "ARAPAKO",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Flow_true",
+          "Player2": "Killah_SUV",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bryzem1",
+          "Player2": "runkor",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ARAPAKO",
+          "Player2": "DemonicTutors",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Wurst_",
+          "Player2": "HNmagician",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Wurst_",
+          "Player2": "Bryzem1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ARAPAKO",
+          "Player2": "Flow_true",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Wurst_",
+          "Player2": "ARAPAKO",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

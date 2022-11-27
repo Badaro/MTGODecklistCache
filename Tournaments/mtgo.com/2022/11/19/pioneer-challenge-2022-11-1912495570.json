@@ -4122,48 +4122,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "jwf239",
-        "Player2": "smile_papa4",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "laa11",
-        "Player2": "wkmidori",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "luckerdog",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "yerffej03",
-        "Player2": "Kihara_Works",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "laa11",
-        "Player2": "yerffej03",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "O_danielakos",
-        "Player2": "jwf239",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "laa11",
-      "Player2": "O_danielakos",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "jwf239",
+          "Player2": "smile_papa4",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "laa11",
+          "Player2": "wkmidori",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "luckerdog",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "yerffej03",
+          "Player2": "Kihara_Works",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "laa11",
+          "Player2": "yerffej03",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "O_danielakos",
+          "Player2": "jwf239",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "laa11",
+          "Player2": "O_danielakos",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

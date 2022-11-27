@@ -6086,48 +6086,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "noprops",
-        "Player2": "IamActuallyLvL1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "negusen",
-        "Player2": "Condescend",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Treno",
-        "Player2": "SkaraBrae1",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "killersuv",
-        "Player2": "furyure",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "killersuv",
-        "Player2": "negusen",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Treno",
-        "Player2": "noprops",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Treno",
-      "Player2": "killersuv",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "noprops",
+          "Player2": "IamActuallyLvL1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "negusen",
+          "Player2": "Condescend",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Treno",
+          "Player2": "SkaraBrae1",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "killersuv",
+          "Player2": "furyure",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "killersuv",
+          "Player2": "negusen",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Treno",
+          "Player2": "noprops",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Treno",
+          "Player2": "killersuv",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

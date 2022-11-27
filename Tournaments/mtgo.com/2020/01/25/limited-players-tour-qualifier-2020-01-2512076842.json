@@ -1430,48 +1430,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Coly2",
-        "Player2": "WrzoBuSeks",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phill_Hellmuth",
-        "Player2": "SIKOSLOVAKE",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GYBA",
-        "Player2": "JoseCabezas",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Phizzle",
-        "Player2": "James_Zhi",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Phizzle",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GYBA",
-        "Player2": "Coly2",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Phizzle",
-      "Player2": "GYBA",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Coly2",
+          "Player2": "WrzoBuSeks",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phill_Hellmuth",
+          "Player2": "SIKOSLOVAKE",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GYBA",
+          "Player2": "JoseCabezas",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Phizzle",
+          "Player2": "James_Zhi",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Phizzle",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GYBA",
+          "Player2": "Coly2",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Phizzle",
+          "Player2": "GYBA",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

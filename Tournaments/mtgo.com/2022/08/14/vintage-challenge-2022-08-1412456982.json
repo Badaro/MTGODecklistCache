@@ -5946,48 +5946,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "abr_",
-        "Player2": "Phill_Hellmuth",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "scalo94",
-        "Player2": "Capriccioso",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bless_von",
-        "Player2": "musasabi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NooxTom",
-        "Player2": "ecobaronen",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "scalo94",
-        "Player2": "abr_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "NooxTom",
-        "Player2": "bless_von",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "NooxTom",
-      "Player2": "scalo94",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "abr_",
+          "Player2": "Phill_Hellmuth",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "scalo94",
+          "Player2": "Capriccioso",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bless_von",
+          "Player2": "musasabi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NooxTom",
+          "Player2": "ecobaronen",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "scalo94",
+          "Player2": "abr_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "NooxTom",
+          "Player2": "bless_von",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "NooxTom",
+          "Player2": "scalo94",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

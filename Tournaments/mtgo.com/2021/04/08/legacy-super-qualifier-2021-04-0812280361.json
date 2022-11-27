@@ -4438,48 +4438,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ark4n",
-        "Player2": "wordy333",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "killersuv",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "nathansteuer",
-        "Player2": "ome",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Pascal3000",
-        "Player2": "Shalomas",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "nathansteuer",
-        "Player2": "Pascal3000",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "JPA93",
-        "Player2": "Ark4n",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "nathansteuer",
-      "Player2": "JPA93",
-      "Result": "1-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "wordy333",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "killersuv",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "nathansteuer",
+          "Player2": "ome",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Pascal3000",
+          "Player2": "Shalomas",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "nathansteuer",
+          "Player2": "Pascal3000",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "JPA93",
+          "Player2": "Ark4n",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "nathansteuer",
+          "Player2": "JPA93",
+          "Result": "1-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -4466,48 +4466,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ziguyan",
-        "Player2": "J.A.Eliso",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "idsan",
-        "Player2": "JordanTheJew",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "jedigof",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ncsu31sb",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "idsan",
-        "Player2": "ncsu31sb",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Ark4n",
-        "Player2": "ziguyan",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Ark4n",
-      "Player2": "idsan",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ziguyan",
+          "Player2": "J.A.Eliso",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "idsan",
+          "Player2": "JordanTheJew",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "jedigof",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ncsu31sb",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "idsan",
+          "Player2": "ncsu31sb",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Ark4n",
+          "Player2": "ziguyan",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Ark4n",
+          "Player2": "idsan",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

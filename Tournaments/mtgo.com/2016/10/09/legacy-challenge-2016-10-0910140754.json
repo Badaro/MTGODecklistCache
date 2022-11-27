@@ -4134,48 +4134,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AnziD",
-        "Player2": "bocci",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Mathilda",
-        "Player2": "FriendRudy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ItIsUnfair",
-        "Player2": "monkeyscantcry",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jhk_",
-        "Player2": "_Shatun_",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Mathilda",
-        "Player2": "AnziD",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "ItIsUnfair",
-        "Player2": "jhk_",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "ItIsUnfair",
-      "Player2": "Mathilda",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AnziD",
+          "Player2": "bocci",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Mathilda",
+          "Player2": "FriendRudy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ItIsUnfair",
+          "Player2": "monkeyscantcry",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jhk_",
+          "Player2": "_Shatun_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Mathilda",
+          "Player2": "AnziD",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "ItIsUnfair",
+          "Player2": "jhk_",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ItIsUnfair",
+          "Player2": "Mathilda",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

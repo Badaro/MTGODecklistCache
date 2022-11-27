@@ -2230,48 +2230,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "AronGomu",
-        "Player2": "Koke_MTG",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SorboOne",
-        "Player2": "Lejay",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Eruxus",
-        "Player2": "gottelicious",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jjkbb2005",
-        "Player2": "Stryfo",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Eruxus",
-        "Player2": "jjkbb2005",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SorboOne",
-        "Player2": "AronGomu",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "SorboOne",
-      "Player2": "Eruxus",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "AronGomu",
+          "Player2": "Koke_MTG",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SorboOne",
+          "Player2": "Lejay",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Eruxus",
+          "Player2": "gottelicious",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jjkbb2005",
+          "Player2": "Stryfo",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Eruxus",
+          "Player2": "jjkbb2005",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SorboOne",
+          "Player2": "AronGomu",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "SorboOne",
+          "Player2": "Eruxus",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

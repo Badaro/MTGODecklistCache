@@ -3726,48 +3726,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Condescend",
-        "Player2": "kaikas",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "fish_can_topdeck",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "_against_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Sarlanga",
-        "Player2": "pepeisra",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "remf",
-        "Player2": "mlovbo",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "Sarlanga",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Condescend",
-      "Player2": "remf",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Condescend",
+          "Player2": "kaikas",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "fish_can_topdeck",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "_against_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Sarlanga",
+          "Player2": "pepeisra",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "remf",
+          "Player2": "mlovbo",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "Sarlanga",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Condescend",
+          "Player2": "remf",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

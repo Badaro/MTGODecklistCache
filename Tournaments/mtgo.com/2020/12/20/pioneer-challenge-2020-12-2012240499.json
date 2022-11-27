@@ -3942,48 +3942,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Lennny",
-        "Player2": "Salvatto",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElYallo",
-        "Player2": "Curveiganhei",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "klien7",
-        "Player2": "Usama96",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "KarnageKardsENT",
-        "Player2": "_Batutinha_",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ElYallo",
-        "Player2": "KarnageKardsENT",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lennny",
-        "Player2": "klien7",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "ElYallo",
-      "Player2": "Lennny",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Lennny",
+          "Player2": "Salvatto",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElYallo",
+          "Player2": "Curveiganhei",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "klien7",
+          "Player2": "Usama96",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "KarnageKardsENT",
+          "Player2": "_Batutinha_",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ElYallo",
+          "Player2": "KarnageKardsENT",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lennny",
+          "Player2": "klien7",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "ElYallo",
+          "Player2": "Lennny",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

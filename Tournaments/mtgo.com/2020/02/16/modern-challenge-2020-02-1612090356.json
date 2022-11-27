@@ -4434,48 +4434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "KelMasterP",
-        "Player2": "Bullwinkkle6705",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Genxim",
-        "Player2": "Darkwonyx",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TSPJendrek",
-        "Player2": "bigjc00",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "phol",
-        "Player2": "offline",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TSPJendrek",
-        "Player2": "phol",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Genxim",
-        "Player2": "KelMasterP",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "TSPJendrek",
-      "Player2": "Genxim",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "KelMasterP",
+          "Player2": "Bullwinkkle6705",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Genxim",
+          "Player2": "Darkwonyx",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "bigjc00",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "phol",
+          "Player2": "offline",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "phol",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Genxim",
+          "Player2": "KelMasterP",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "TSPJendrek",
+          "Player2": "Genxim",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

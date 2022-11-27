@@ -4018,48 +4018,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "cws",
-        "Player2": "napoligas",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "gnorilgrande",
-        "Player2": "pepeteam",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Aardos",
-        "Player2": "LalauWBA",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "jbtwist",
-        "Player2": "Danker",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "cws",
-        "Player2": "gnorilgrande",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "jbtwist",
-        "Player2": "Aardos",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "cws",
-      "Player2": "jbtwist",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "cws",
+          "Player2": "napoligas",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "gnorilgrande",
+          "Player2": "pepeteam",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Aardos",
+          "Player2": "LalauWBA",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "jbtwist",
+          "Player2": "Danker",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "cws",
+          "Player2": "gnorilgrande",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "jbtwist",
+          "Player2": "Aardos",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "cws",
+          "Player2": "jbtwist",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

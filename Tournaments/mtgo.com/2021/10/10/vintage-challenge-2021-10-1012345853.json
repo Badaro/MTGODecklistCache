@@ -5470,48 +5470,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Clone9",
-        "Player2": "s063",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "grymn",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "lampalot",
-        "Player2": "Mogged",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "JOANANTON",
-        "Player2": "Thiim",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Clone9",
-        "Player2": "lampalot",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "medvedev",
-        "Player2": "JOANANTON",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Clone9",
-      "Player2": "medvedev",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Clone9",
+          "Player2": "s063",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "grymn",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "lampalot",
+          "Player2": "Mogged",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "JOANANTON",
+          "Player2": "Thiim",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Clone9",
+          "Player2": "lampalot",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "JOANANTON",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Clone9",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

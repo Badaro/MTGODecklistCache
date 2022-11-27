@@ -1346,48 +1346,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "SKK",
-        "Player2": "KO_Mak",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Antillectual",
-        "Player2": "canepis16",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Gobern",
-        "Player2": "dudekman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Wasticore",
-        "Player2": "jessy_samek",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "SKK",
-        "Player2": "Wasticore",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Gobern",
-        "Player2": "Antillectual",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Gobern",
-      "Player2": "SKK",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "SKK",
+          "Player2": "KO_Mak",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Antillectual",
+          "Player2": "canepis16",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Gobern",
+          "Player2": "dudekman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Wasticore",
+          "Player2": "jessy_samek",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "SKK",
+          "Player2": "Wasticore",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Gobern",
+          "Player2": "Antillectual",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Gobern",
+          "Player2": "SKK",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

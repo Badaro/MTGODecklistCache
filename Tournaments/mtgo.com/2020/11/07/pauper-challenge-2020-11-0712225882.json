@@ -4138,48 +4138,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "kasa",
-        "Player2": "Arkam",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "carvs",
-        "Player2": "Pilototo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "hellkito",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GutoCmtt",
-        "Player2": "Liv_One",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Hamuda",
-        "Player2": "GutoCmtt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "kasa",
-        "Player2": "carvs",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kasa",
-      "Player2": "Hamuda",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "Arkam",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "carvs",
+          "Player2": "Pilototo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "hellkito",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GutoCmtt",
+          "Player2": "Liv_One",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Hamuda",
+          "Player2": "GutoCmtt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "kasa",
+          "Player2": "carvs",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kasa",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

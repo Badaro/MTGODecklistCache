@@ -3434,48 +3434,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "pepeteam",
-        "Player2": "tagosaku",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "katuo079595",
-        "Player2": "Phizzle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "orantspro",
-        "Player2": "_LSN_",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElYallo",
-        "Player2": "azureu09",
-        "Result": "1-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ElYallo",
-        "Player2": "orantspro",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "pepeteam",
-        "Player2": "katuo079595",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "pepeteam",
-      "Player2": "ElYallo",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "pepeteam",
+          "Player2": "tagosaku",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "katuo079595",
+          "Player2": "Phizzle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "orantspro",
+          "Player2": "_LSN_",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElYallo",
+          "Player2": "azureu09",
+          "Result": "1-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ElYallo",
+          "Player2": "orantspro",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "pepeteam",
+          "Player2": "katuo079595",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "pepeteam",
+          "Player2": "ElYallo",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

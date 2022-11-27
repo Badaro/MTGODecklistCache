@@ -5686,48 +5686,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "duke12",
-        "Player2": "JOANANTON",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Cuikui",
-        "Player2": "GGoggles",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TaZi",
-        "Player2": "Fantaman95",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Miharu_Fuyumiya",
-        "Player2": "thepowernine",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Cuikui",
-        "Player2": "TaZi",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "duke12",
-        "Player2": "Miharu_Fuyumiya",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Cuikui",
-      "Player2": "duke12",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "duke12",
+          "Player2": "JOANANTON",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Cuikui",
+          "Player2": "GGoggles",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TaZi",
+          "Player2": "Fantaman95",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Miharu_Fuyumiya",
+          "Player2": "thepowernine",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Cuikui",
+          "Player2": "TaZi",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "duke12",
+          "Player2": "Miharu_Fuyumiya",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Cuikui",
+          "Player2": "duke12",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

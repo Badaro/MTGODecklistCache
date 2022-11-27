@@ -4054,48 +4054,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "BReal2",
-        "Player2": "Danielpena397",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "MomsBasementStreams",
-        "Player2": "Shadowz2005",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TeamLeaderNA",
-        "Player2": "Roberto777",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "victorroatt",
-        "Player2": "Tacosalad",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "TeamLeaderNA",
-        "Player2": "victorroatt",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MomsBasementStreams",
-        "Player2": "BReal2",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "MomsBasementStreams",
-      "Player2": "TeamLeaderNA",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "BReal2",
+          "Player2": "Danielpena397",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "MomsBasementStreams",
+          "Player2": "Shadowz2005",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TeamLeaderNA",
+          "Player2": "Roberto777",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "victorroatt",
+          "Player2": "Tacosalad",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "TeamLeaderNA",
+          "Player2": "victorroatt",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MomsBasementStreams",
+          "Player2": "BReal2",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "MomsBasementStreams",
+          "Player2": "TeamLeaderNA",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

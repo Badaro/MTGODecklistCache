@@ -1406,48 +1406,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "TheBestEver",
-        "Player2": "buyiedward",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "ThinThinAnteKid",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Zemonck",
-        "Player2": "AWKellogg",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Phokus1",
-        "Player2": "ReiSe",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Phokus1",
-        "Player2": "TheBestEver",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Zemonck",
-        "Player2": "Xerk",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Zemonck",
-      "Player2": "Phokus1",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "TheBestEver",
+          "Player2": "buyiedward",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "ThinThinAnteKid",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Zemonck",
+          "Player2": "AWKellogg",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Phokus1",
+          "Player2": "ReiSe",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Phokus1",
+          "Player2": "TheBestEver",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Zemonck",
+          "Player2": "Xerk",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Zemonck",
+          "Player2": "Phokus1",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

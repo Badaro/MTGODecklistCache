@@ -5750,48 +5750,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Ennuixd",
-        "Player2": "discoverN",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "hadesblade",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SingPanMan",
-        "Player2": "Surv",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zar0s",
-        "Player2": "killersuv",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Ennuixd",
-        "Player2": "SingPanMan",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Zar0s",
-        "Player2": "Condescend",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Zar0s",
-      "Player2": "Ennuixd",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Ennuixd",
+          "Player2": "discoverN",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "hadesblade",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SingPanMan",
+          "Player2": "Surv",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zar0s",
+          "Player2": "killersuv",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Ennuixd",
+          "Player2": "SingPanMan",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Zar0s",
+          "Player2": "Condescend",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Zar0s",
+          "Player2": "Ennuixd",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

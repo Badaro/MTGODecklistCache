@@ -3558,48 +3558,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mothkebab",
-        "Player2": "Anssi A",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "Sapdaddy",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "wrapter",
-        "Player2": "BSWeitz",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "twop",
-        "Player2": "leearson",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "mothkebab",
-        "Player2": "twop",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "kanister",
-        "Player2": "wrapter",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "kanister",
-      "Player2": "mothkebab",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mothkebab",
+          "Player2": "Anssi A",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "Sapdaddy",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "wrapter",
+          "Player2": "BSWeitz",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "twop",
+          "Player2": "leearson",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "mothkebab",
+          "Player2": "twop",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "kanister",
+          "Player2": "wrapter",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "kanister",
+          "Player2": "mothkebab",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

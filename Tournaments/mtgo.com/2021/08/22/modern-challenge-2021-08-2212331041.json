@@ -4430,48 +4430,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bobthedog",
-        "Player2": "Predicted",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "artem_go",
-        "Player2": "Ndabe",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "swff",
-        "Player2": "bellfy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "MaxMagicer",
-        "Player2": "tunicoberno",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "swff",
-        "Player2": "MaxMagicer",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bobthedog",
-        "Player2": "artem_go",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "swff",
-      "Player2": "bobthedog",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bobthedog",
+          "Player2": "Predicted",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "artem_go",
+          "Player2": "Ndabe",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "swff",
+          "Player2": "bellfy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "MaxMagicer",
+          "Player2": "tunicoberno",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "swff",
+          "Player2": "MaxMagicer",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bobthedog",
+          "Player2": "artem_go",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "swff",
+          "Player2": "bobthedog",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

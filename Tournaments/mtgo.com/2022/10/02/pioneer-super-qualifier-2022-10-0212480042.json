@@ -4342,48 +4342,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "J_tekt",
-        "Player2": "lucadaky",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Volttera",
-        "Player2": "Xwhale",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sokos13",
-        "Player2": "Dritte",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hamuda",
-        "Player2": "Sahakvic",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Volttera",
-        "Player2": "sokos13",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "J_tekt",
-        "Player2": "Hamuda",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "J_tekt",
-      "Player2": "Volttera",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "J_tekt",
+          "Player2": "lucadaky",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Volttera",
+          "Player2": "Xwhale",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sokos13",
+          "Player2": "Dritte",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hamuda",
+          "Player2": "Sahakvic",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Volttera",
+          "Player2": "sokos13",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "J_tekt",
+          "Player2": "Hamuda",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "J_tekt",
+          "Player2": "Volttera",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

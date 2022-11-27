@@ -5414,48 +5414,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Thiim",
-        "Player2": "Enrichetta",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Nammersquats",
-        "Player2": "WingedHussar",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TunnelGaan",
-        "Player2": "zajad",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Clone9",
-        "Player2": "TeamLeaderNA",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Thiim",
-        "Player2": "Nammersquats",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Clone9",
-        "Player2": "TunnelGaan",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Thiim",
-      "Player2": "Clone9",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Thiim",
+          "Player2": "Enrichetta",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Nammersquats",
+          "Player2": "WingedHussar",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TunnelGaan",
+          "Player2": "zajad",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Clone9",
+          "Player2": "TeamLeaderNA",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Thiim",
+          "Player2": "Nammersquats",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Clone9",
+          "Player2": "TunnelGaan",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Thiim",
+          "Player2": "Clone9",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

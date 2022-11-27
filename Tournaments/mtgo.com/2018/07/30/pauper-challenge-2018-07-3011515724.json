@@ -3626,48 +3626,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Toastmachine",
-        "Player2": "LazZoO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "Kzrds",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Amoras27",
-        "Player2": "mlovbo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Condescend",
-        "Player2": "BERNASTORRES",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Amoras27",
-        "Player2": "Condescend",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Hampuse1",
-        "Player2": "Toastmachine",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Amoras27",
-      "Player2": "Hampuse1",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Toastmachine",
+          "Player2": "LazZoO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "Kzrds",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Amoras27",
+          "Player2": "mlovbo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Condescend",
+          "Player2": "BERNASTORRES",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Amoras27",
+          "Player2": "Condescend",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Hampuse1",
+          "Player2": "Toastmachine",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Amoras27",
+          "Player2": "Hampuse1",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

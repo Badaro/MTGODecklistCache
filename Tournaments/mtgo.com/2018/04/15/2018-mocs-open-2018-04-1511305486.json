@@ -1422,48 +1422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MrSmits",
-        "Player2": "Ggb",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AutumnLily",
-        "Player2": "trojanmamba",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dawnelemental",
-        "Player2": "Phizzle",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rizer",
-        "Player2": "TCMagic",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "AutumnLily",
-        "Player2": "MrSmits",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Dawnelemental",
-        "Player2": "rizer",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "AutumnLily",
-      "Player2": "Dawnelemental",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MrSmits",
+          "Player2": "Ggb",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AutumnLily",
+          "Player2": "trojanmamba",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dawnelemental",
+          "Player2": "Phizzle",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rizer",
+          "Player2": "TCMagic",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "AutumnLily",
+          "Player2": "MrSmits",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Dawnelemental",
+          "Player2": "rizer",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "AutumnLily",
+          "Player2": "Dawnelemental",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -3942,48 +3942,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bolov0",
-        "Player2": "CHILLEDADED",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "McIeskey",
-        "Player2": "kcomedina",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "remf",
-        "Player2": "Usama96",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PTarts2win",
-        "Player2": "BoltTheBirds",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "PTarts2win",
-        "Player2": "remf",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bolov0",
-        "Player2": "McIeskey",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "PTarts2win",
-      "Player2": "bolov0",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bolov0",
+          "Player2": "CHILLEDADED",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "McIeskey",
+          "Player2": "kcomedina",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "remf",
+          "Player2": "Usama96",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PTarts2win",
+          "Player2": "BoltTheBirds",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "PTarts2win",
+          "Player2": "remf",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bolov0",
+          "Player2": "McIeskey",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "PTarts2win",
+          "Player2": "bolov0",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

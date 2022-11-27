@@ -4066,48 +4066,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "bless_von",
-        "Player2": "Mogged",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "melody_5233",
-        "Player2": "MJ_23",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Lifeisrisk7",
-        "Player2": "RyanWu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Xerk",
-        "Player2": "Terribad",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Xerk",
-        "Player2": "Lifeisrisk7",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "bless_von",
-        "Player2": "melody_5233",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Xerk",
-      "Player2": "bless_von",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "bless_von",
+          "Player2": "Mogged",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "melody_5233",
+          "Player2": "MJ_23",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Lifeisrisk7",
+          "Player2": "RyanWu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Xerk",
+          "Player2": "Terribad",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "Lifeisrisk7",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "bless_von",
+          "Player2": "melody_5233",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Xerk",
+          "Player2": "bless_von",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

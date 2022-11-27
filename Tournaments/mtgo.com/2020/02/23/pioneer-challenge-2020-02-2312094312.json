@@ -3906,48 +3906,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "OafMcNamara",
-        "Player2": "chenstein9",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Chefen",
-        "Player2": "stainerson",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Kenzaburo",
-        "Player2": "TFTIjhub",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "rofelos",
-        "Player2": "bobthedog",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "OafMcNamara",
-        "Player2": "Kenzaburo",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "rofelos",
-        "Player2": "Chefen",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "OafMcNamara",
-      "Player2": "rofelos",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "OafMcNamara",
+          "Player2": "chenstein9",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Chefen",
+          "Player2": "stainerson",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Kenzaburo",
+          "Player2": "TFTIjhub",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "rofelos",
+          "Player2": "bobthedog",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "OafMcNamara",
+          "Player2": "Kenzaburo",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "rofelos",
+          "Player2": "Chefen",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "OafMcNamara",
+          "Player2": "rofelos",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

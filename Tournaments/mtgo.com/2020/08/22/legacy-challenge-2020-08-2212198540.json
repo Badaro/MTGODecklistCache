@@ -4326,48 +4326,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Flow_true",
-        "Player2": "dsissowin",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Samu_27",
-        "Player2": "haneman",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TERANO",
-        "Player2": "ZYURYO",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "ElfKid",
-        "Player2": "JPA93",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Flow_true",
-        "Player2": "Samu_27",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TERANO",
-        "Player2": "ElfKid",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "Flow_true",
-      "Player2": "TERANO",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Flow_true",
+          "Player2": "dsissowin",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Samu_27",
+          "Player2": "haneman",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TERANO",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "ElfKid",
+          "Player2": "JPA93",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Flow_true",
+          "Player2": "Samu_27",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TERANO",
+          "Player2": "ElfKid",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Flow_true",
+          "Player2": "TERANO",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

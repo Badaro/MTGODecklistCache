@@ -3750,48 +3750,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "mlovbo",
-        "Player2": "Lennny",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "killersuv",
-        "Player2": "TopGrinder",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "SacredDevil",
-        "Player2": "Xwhale",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "RiuuK1",
-        "Player2": "Mcleskey",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "RiuuK1",
-        "Player2": "killersuv",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "mlovbo",
-        "Player2": "SacredDevil",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "mlovbo",
-      "Player2": "RiuuK1",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "Lennny",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "killersuv",
+          "Player2": "TopGrinder",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "SacredDevil",
+          "Player2": "Xwhale",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "RiuuK1",
+          "Player2": "Mcleskey",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "RiuuK1",
+          "Player2": "killersuv",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "mlovbo",
+          "Player2": "SacredDevil",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "mlovbo",
+          "Player2": "RiuuK1",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

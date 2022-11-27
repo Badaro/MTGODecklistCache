@@ -4294,48 +4294,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "medvedev",
-        "Player2": "silviawataru",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "koko_lopez",
-        "Player2": "kauffj",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Baku_91",
-        "Player2": "markdm",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "alopcas",
-        "Player2": "v001",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Baku_91",
-        "Player2": "koko_lopez",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "alopcas",
-        "Player2": "medvedev",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "alopcas",
-      "Player2": "Baku_91",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "medvedev",
+          "Player2": "silviawataru",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "koko_lopez",
+          "Player2": "kauffj",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Baku_91",
+          "Player2": "markdm",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "alopcas",
+          "Player2": "v001",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Baku_91",
+          "Player2": "koko_lopez",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "alopcas",
+          "Player2": "medvedev",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "alopcas",
+          "Player2": "Baku_91",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

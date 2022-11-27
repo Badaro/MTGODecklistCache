@@ -4214,48 +4214,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "Jadacant",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "sultai4lyfe",
-        "Player2": "yamakiller",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "AronGomu",
-        "Player2": "Meltiin",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "bntrusty14",
-        "Player2": "Irkus",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "ZYURYO",
-        "Player2": "bntrusty14",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sultai4lyfe",
-        "Player2": "AronGomu",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "sultai4lyfe",
-      "Player2": "ZYURYO",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "Jadacant",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "sultai4lyfe",
+          "Player2": "yamakiller",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "AronGomu",
+          "Player2": "Meltiin",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "bntrusty14",
+          "Player2": "Irkus",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "ZYURYO",
+          "Player2": "bntrusty14",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sultai4lyfe",
+          "Player2": "AronGomu",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "sultai4lyfe",
+          "Player2": "ZYURYO",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

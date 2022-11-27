@@ -4138,48 +4138,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "UmekawaneikU",
-        "Player2": "Gernardi",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "B1gDan",
-        "Player2": "kthanakit26",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "__BMJ__",
-        "Player2": "Ekeross",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "hcook725",
-        "Player2": "Mlgb92",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "hcook725",
-        "Player2": "__BMJ__",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "B1gDan",
-        "Player2": "UmekawaneikU",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "B1gDan",
-      "Player2": "hcook725",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "UmekawaneikU",
+          "Player2": "Gernardi",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "B1gDan",
+          "Player2": "kthanakit26",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "__BMJ__",
+          "Player2": "Ekeross",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "hcook725",
+          "Player2": "Mlgb92",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "hcook725",
+          "Player2": "__BMJ__",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "B1gDan",
+          "Player2": "UmekawaneikU",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "B1gDan",
+          "Player2": "hcook725",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

@@ -1358,48 +1358,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Melkor8",
-        "Player2": "Darkiundsa",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "PonyPuddle",
-        "Player2": "Spiraling",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "melv.p",
-        "Player2": "mindcandy",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "TheCoddler",
-        "Player2": "3au4oT",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "melv.p",
-        "Player2": "TheCoddler",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "PonyPuddle",
-        "Player2": "Melkor8",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "melv.p",
-      "Player2": "PonyPuddle",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Melkor8",
+          "Player2": "Darkiundsa",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "PonyPuddle",
+          "Player2": "Spiraling",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "melv.p",
+          "Player2": "mindcandy",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "TheCoddler",
+          "Player2": "3au4oT",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "melv.p",
+          "Player2": "TheCoddler",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "PonyPuddle",
+          "Player2": "Melkor8",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "melv.p",
+          "Player2": "PonyPuddle",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

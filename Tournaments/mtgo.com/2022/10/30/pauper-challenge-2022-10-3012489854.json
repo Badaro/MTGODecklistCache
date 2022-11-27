@@ -3454,48 +3454,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "_Tia93_",
-        "Player2": "Byvci",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "GALL",
-        "Player2": "billster47",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "SanPop",
-        "Player2": "DarkPantsu",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Rudberg",
-        "Player2": "Killah_SUV",
-        "Result": "2-0"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Rudberg",
-        "Player2": "SanPop",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "_Tia93_",
-        "Player2": "GALL",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "_Tia93_",
-      "Player2": "Rudberg",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "_Tia93_",
+          "Player2": "Byvci",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "GALL",
+          "Player2": "billster47",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "SanPop",
+          "Player2": "DarkPantsu",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Rudberg",
+          "Player2": "Killah_SUV",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Rudberg",
+          "Player2": "SanPop",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "_Tia93_",
+          "Player2": "GALL",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "_Tia93_",
+          "Player2": "Rudberg",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

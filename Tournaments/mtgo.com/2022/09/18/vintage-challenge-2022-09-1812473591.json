@@ -5422,48 +5422,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "Falkoneye",
-        "Player2": "duke12",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "NooxTom",
-        "Player2": "jankyb",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Breckoroni",
-        "Player2": "thepowernine",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "satu2112",
-        "Player2": "_Milhouse",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "Falkoneye",
-        "Player2": "Breckoroni",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "satu2112",
-        "Player2": "NooxTom",
-        "Result": "2-0"
-      }
-    ],
-    "Finals": {
-      "Player1": "Falkoneye",
-      "Player2": "satu2112",
-      "Result": "2-1"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "Falkoneye",
+          "Player2": "duke12",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "NooxTom",
+          "Player2": "jankyb",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Breckoroni",
+          "Player2": "thepowernine",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "satu2112",
+          "Player2": "_Milhouse",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "Falkoneye",
+          "Player2": "Breckoroni",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "satu2112",
+          "Player2": "NooxTom",
+          "Result": "2-0-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "Falkoneye",
+          "Player2": "satu2112",
+          "Result": "2-1-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,

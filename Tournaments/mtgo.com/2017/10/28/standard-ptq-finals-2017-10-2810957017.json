@@ -3858,48 +3858,58 @@
       ]
     }
   ],
-  "Rounds": null,
-  "Bracket": {
-    "Quarterfinals": [
-      {
-        "Player1": "MysticLion",
-        "Player2": "Plain Bagel",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "sandydogmtg",
-        "Player2": "Tixis",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "TFTIjhub",
-        "Player2": "Neat_Monster",
-        "Result": "2-0"
-      },
-      {
-        "Player1": "Michai",
-        "Player2": "hieraru",
-        "Result": "2-1"
-      }
-    ],
-    "Semifinals": [
-      {
-        "Player1": "sandydogmtg",
-        "Player2": "MysticLion",
-        "Result": "2-1"
-      },
-      {
-        "Player1": "Michai",
-        "Player2": "TFTIjhub",
-        "Result": "2-1"
-      }
-    ],
-    "Finals": {
-      "Player1": "sandydogmtg",
-      "Player2": "Michai",
-      "Result": "2-0"
+  "Rounds": [
+    {
+      "RoundName": "Quarterfinals",
+      "Matches": [
+        {
+          "Player1": "MysticLion",
+          "Player2": "Plain Bagel",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "sandydogmtg",
+          "Player2": "Tixis",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "TFTIjhub",
+          "Player2": "Neat_Monster",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "Michai",
+          "Player2": "hieraru",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Semifinals",
+      "Matches": [
+        {
+          "Player1": "sandydogmtg",
+          "Player2": "MysticLion",
+          "Result": "2-1-0"
+        },
+        {
+          "Player1": "Michai",
+          "Player2": "TFTIjhub",
+          "Result": "2-1-0"
+        }
+      ]
+    },
+    {
+      "RoundName": "Finals",
+      "Matches": [
+        {
+          "Player1": "sandydogmtg",
+          "Player2": "Michai",
+          "Result": "2-0-0"
+        }
+      ]
     }
-  },
+  ],
   "Standings": [
     {
       "Rank": 1,
