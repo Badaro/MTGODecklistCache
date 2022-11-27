@@ -75,14 +75,14 @@ namespace MTGODecklistCache.Updater.MtgMelee
                 string json = Encoding.UTF8.GetString(new WebClient().UploadValues(phaseUrl, "POST", HttpUtility.ParseQueryString(phaseParameters)));
                 var phase = JsonConvert.DeserializeObject<dynamic>(json);
 
+                int bufferWidth = 80;
+                // try { bufferWidth = Console.BufferWidth; } catch { };
+
                 foreach (var player in phase.data)
                 {
                     hasData = true;
                     string playerName = player.Name;
                     playerName = NormalizeSpaces(playerName);
-
-                    int bufferWidth = 0;
-                    try { bufferWidth = Console.BufferWidth; } catch { };
 
                     if (bufferWidth > 0)
                     {
@@ -91,7 +91,7 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     }
                     else
                     {
-                        Console.Write($"[MtgMelee] Downloading player {playerName} ({++currentPosition})");
+                        Console.WriteLine($"[MtgMelee] Downloading player {playerName} ({++currentPosition})");
                     }
 
                     int playerPoints = player.Points;
