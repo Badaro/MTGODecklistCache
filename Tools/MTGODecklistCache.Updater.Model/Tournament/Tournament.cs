@@ -12,6 +12,12 @@ namespace MTGODecklistCache.Updater.Model
         public Uri Uri { get; set; }
         [JsonIgnore]
         public string JsonFile { get; set; }
+        public string OriginalJsonFile { get; set; }
+
+        public bool ShouldSerializeOriginalJsonFile()
+        {
+            return false;
+        }
 
         public Tournament()
         {

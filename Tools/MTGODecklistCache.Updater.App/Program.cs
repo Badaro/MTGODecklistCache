@@ -65,6 +65,12 @@ namespace MTGODecklistCache.Updater.App
                 if (!Directory.Exists(targetFolder)) Directory.CreateDirectory(targetFolder);
 
                 string targetFile = Path.Combine(targetFolder, tournament.JsonFile);
+                if (!String.IsNullOrEmpty(tournament.OriginalJsonFile) && tournament.OriginalJsonFile!=tournament.JsonFile)
+                {
+                    string originalTargetFile = Path.Combine(targetFolder, tournament.OriginalJsonFile);
+                    if (File.Exists(originalTargetFile)) File.Move(originalTargetFile, targetFile);
+                }
+
                 if (File.Exists(targetFile))
                 {
                     Console.WriteLine($"-- Already downloaded, skipping");

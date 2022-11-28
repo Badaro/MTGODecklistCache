@@ -19,6 +19,7 @@ namespace MTGODecklistCache.Updater.Common
                 T tournament = JsonConvert.DeserializeObject<T>(File.ReadAllText(tournamentFile));
                 tournament.Date = tournament.Date.ToUniversalTime();
                 tournament.JsonFile = $"{Path.GetFileNameWithoutExtension(tournamentFile).Replace("_", "-").ToLowerInvariant()}-{ tournament.Date.ToString("yyyy-MM-dd")}.json";
+                if(tournament.OriginalJsonFile!=null) tournament.OriginalJsonFile = $"{Path.GetFileNameWithoutExtension(tournament.OriginalJsonFile).Replace("_", "-").ToLowerInvariant()}-{tournament.Date.ToString("yyyy-MM-dd")}.json";
                 tournaments.Add(tournament);
             }
             return tournaments.ToArray();
