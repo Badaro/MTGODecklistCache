@@ -65,17 +65,20 @@ namespace MTGODecklistCache.Updater.App
                 if (!Directory.Exists(targetFolder)) Directory.CreateDirectory(targetFolder);
 
                 string targetFile = Path.Combine(targetFolder, tournament.JsonFile);
-                if (!String.IsNullOrEmpty(tournament.OriginalJsonFile) && tournament.OriginalJsonFile!=tournament.JsonFile)
+                if (!String.IsNullOrEmpty(tournament.OriginalJsonFile) && tournament.OriginalJsonFile != tournament.JsonFile)
                 {
-                    Console.WriteLine($"-- File move requested");
                     string originalTargetFile = Path.Combine(targetFolder, tournament.OriginalJsonFile);
-                    if (File.Exists(originalTargetFile)) File.Move(originalTargetFile, targetFile);
+                    if (File.Exists(originalTargetFile))
+                    {
+                        Console.WriteLine($"-- File move requested");
+                        if (File.Exists(originalTargetFile)) File.Move(originalTargetFile, targetFile);
 
-                    // Also allows updating the title when doing normalization
-                    dynamic content = JsonConvert.DeserializeObject(File.ReadAllText(targetFile));
-                    content.Tournament.Name = tournament.Name;
+                        // Also allows updating the title when doing normalization
+                        dynamic content = JsonConvert.DeserializeObject(File.ReadAllText(targetFile));
+                        content.Tournament.Name = tournament.Name;
 
-                    File.WriteAllText(targetFile, JsonConvert.SerializeObject(content, Formatting.Indented));
+                        File.WriteAllText(targetFile, JsonConvert.SerializeObject(content, Formatting.Indented));
+                    }
                 }
 
                 if (File.Exists(targetFile))
