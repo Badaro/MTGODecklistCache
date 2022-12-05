@@ -324,6 +324,27 @@ namespace MTGODecklistCache.Updater.MtgMelee
                     Result = "0-2-0"
                 };
             }
+            if (roundResult.StartsWith($"Not reported"))
+            {
+                if (String.Compare(playerName, roundOpponent) < 0)
+                {
+                    item = new RoundItem()
+                    {
+                        Player1 = playerName,
+                        Player2 = roundOpponent,
+                        Result = "0-0-0"
+                    };
+                }
+                else
+                {
+                    item = new RoundItem()
+                    {
+                        Player1 = roundOpponent,
+                        Player2 = playerName,
+                        Result = "0-0-0"
+                    };
+                }
+            }
 
             if (item == null) throw new FormatException($"Cannot parse round data for player {playerName} and opponent {roundOpponent}");
 
