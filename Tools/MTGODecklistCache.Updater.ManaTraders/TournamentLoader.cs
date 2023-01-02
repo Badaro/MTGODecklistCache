@@ -183,7 +183,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
 
             List<RoundItem> brackets = new List<RoundItem>();
 
-            foreach(var bracketRoot in bracketRootNodes)
+            foreach (var bracketRoot in bracketRootNodes)
             {
                 var bracketNodes = bracketRoot.SelectNodes("ul/li");
                 foreach (var bracketNode in bracketNodes)
@@ -224,7 +224,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
             }
 
             List<Round> rounds = new List<Round>();
-            if(brackets.Count==7)
+            if (brackets.Count == 7)
             {
                 // No extra rounds
                 rounds.Add(new Round()
@@ -283,7 +283,7 @@ namespace MTGODecklistCache.Updater.ManaTraders
 
             }
 
-            return rounds.ToArray();
+            return rounds.Where(r => r.Matches.Length > 0).ToArray();
         }
 
         private static Round[] ParseSwiss(string swissUrl)
