@@ -33,7 +33,10 @@ namespace MTGODecklistCache.Updater.Mtgo
                 HtmlDocument doc = new HtmlDocument();
                 doc.LoadHtml(htmlContent);
 
-                foreach (var tournamentNode in doc.DocumentNode.SelectNodes("//li[@class='decklists-item']"))
+                var tournamentNodes = doc.DocumentNode.SelectNodes("//li[@class='decklists-item']");
+                if (tournamentNodes == null) continue;
+
+                foreach (var tournamentNode in tournamentNodes)
                 {
                     var title = tournamentNode.SelectSingleNode("a/div/h3").InnerHtml;
                     var url = tournamentNode.SelectSingleNode("a").Attributes["href"].Value;
