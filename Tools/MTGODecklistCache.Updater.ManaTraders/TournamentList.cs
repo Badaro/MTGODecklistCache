@@ -43,6 +43,9 @@ namespace MTGODecklistCache.Updater.ManaTraders
                 tournamentDate = tournamentDate.AddMonths(1).AddDays(-1); // We're using the last day of the month as date
                 if (tournamentDate > DateTime.UtcNow) continue;
 
+                // Skips invitationals for now since they are broken
+                if (tournamentDate.Month == 12) continue;
+
                 format = format[0].ToString().ToUpper() + format.Substring(1); // Standardize with first letter in uppercase
 
                 tournaments.Add(new Tournament()
