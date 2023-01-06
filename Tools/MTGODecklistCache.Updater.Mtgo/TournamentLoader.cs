@@ -64,6 +64,9 @@ namespace MTGODecklistCache.Updater.Mtgo
                 }
             }
 
+            bool hasDecks = HasProperty(json, "decks");
+            if (!hasDecks) return null;
+
             HashSet<string> addedPlayers = new HashSet<string>();
             var decks = new List<Deck>();
             int rank = 1;
