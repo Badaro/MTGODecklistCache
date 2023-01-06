@@ -53,7 +53,9 @@ namespace MTGODecklistCache.Updater.App
                 t => MTGODecklistCache.Updater.MtgMelee.TournamentLoader.GetTournamentDetails(t));
         }
 
-        static void UpdateFolder<TTournament, TCacheItem>(string cacheRootFolder, string provider, Func<TTournament[]> tournamentList, Func<TTournament, TCacheItem> tournamentLoader) where TTournament : Tournament
+        static void UpdateFolder<TTournament, TCacheItem>(string cacheRootFolder, string provider, Func<TTournament[]> tournamentList, Func<TTournament, TCacheItem> tournamentLoader) 
+            where TTournament : Tournament 
+            where TCacheItem : CacheItem
         {
             string cacheFolder = Path.Combine(cacheRootFolder, provider);
 
@@ -88,6 +90,12 @@ namespace MTGODecklistCache.Updater.App
                 }
 
                 var details = tournamentLoader(tournament);
+                if(details.Decks==null)
+                {
+                    Console.WriteLine($"-- Tournament has no decks, skipping");
+                    continue;
+                }
+
                 string contents = JsonConvert.SerializeObject(details, Formatting.Indented);
 
                 File.WriteAllText(targetFile, contents);
