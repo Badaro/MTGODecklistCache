@@ -12,4 +12,4 @@ There's also a folder containg the code I'm using to generate this data:
 
 * Tools -> Tool to update and validate the repository
 
-You do *not* need to run this tool. It's there just as a reference for others who could be interested in building their own parser.
+You do *not* need to run this tool. It's there just as a reference for others who could be interested in building their own scraper.
