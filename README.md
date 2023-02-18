@@ -4,7 +4,7 @@ This repository contains a cache in JSON format of tournaments posted on the [MT
 * Tournaments -> Tournament repository, organized by website and date
 * Tournaments-Archive -> Tournament repository archive (for sources no longer being updated or maintained), organized by website and date
 
-Each JSON file contains a tournament object, an array of decks, plus standings and bracket information when appropriate. Check Tools/MTGODecklistCache.Updater.Model to see exactly what these entities contain.
+Each JSON file contains a tournament object, an array of decks, plus standings and bracket information when appropriate. Check [this folder](https://github.com/Badaro/MTGODecklistCache/tree/master/Tools/MTGODecklistCache.Updater.Model) to see exactly what these entities contain.
 
 To use this data, clone the repository and run `git pull` periodically to get the latest tournaments. MTGO data is automatically updated daily around 17:00 UTC.
 
