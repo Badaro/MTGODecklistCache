@@ -9,12 +9,14 @@ namespace MTGODecklistCache.Updater.Tools
     public static class CardNameNormalizer
     {
         static readonly string _apiEndpoint = "https://api.scryfall.com/cards/search?order=cmc&q={query}";
-        static Dictionary<string, string> _normalization = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase);
+        static Dictionary<string, string> _normalization = new Dictionary<string, string>(StringComparer.InvariantCulture);
 
         static CardNameNormalizer()
         {
-            AddTextReplacement("Aether", "Æther");
-            AddTextReplacement("Aether", "Ã\u0086ther");
+            AddTextReplacement("Aether -is:dfc", "Aether", "Æther");
+            AddTextReplacement("Aether -is:dfc", "Aether", "Ã\u0086ther");
+            AddMultinameCards("is:dfc -is:extra Aether", (f, b) => $"{f}", t => $"{t.Replace("Aether", "Æther")}", true);
+            AddMultinameCards("is:dfc -is:extra Aether", (f, b) => $"{f}", t => $"{t.Replace("Aether", "Ã\u0086ther")}", true);
 
             AddMultinameCards("is:split", (f, b) => $"{f} // {b}");
             AddMultinameCards("is:dfc -is:extra", (f, b) => $"{f}");
@@ -60,9 +62,9 @@ namespace MTGODecklistCache.Updater.Tools
             else return card;
         }
 
-        private static void AddTextReplacement(string validString, string invalidString)
+        private static void AddTextReplacement(string query, string validString, string invalidString)
         {
-            string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode($"{validString} -is:dfc"));
+            string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode(query));
             bool hasMore;
             do
             {
@@ -85,7 +87,7 @@ namespace MTGODecklistCache.Updater.Tools
         }
 
 
-        private static void AddMultinameCards(string criteria, Func<string, string, string> createTargetName)
+        private static void AddMultinameCards(string criteria, Func<string, string, string> createTargetName, Func<string, string> textReplacement = null, bool onlyCombinedNames = false)
         {
             string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode(criteria));
             bool hasMore;
@@ -98,9 +100,13 @@ namespace MTGODecklistCache.Updater.Tools
                 {
                     string front = card.card_faces[0].name;
                     string back = card.card_faces[1].name;
+
+                    if (textReplacement != null) front = textReplacement(front);
+                    if (textReplacement != null) back = textReplacement(back);
+
                     string target = createTargetName(front, back);
 
-                    _normalization.Add(front, target);
+                    if(!onlyCombinedNames) _normalization.Add(front, target);
                     _normalization.Add($"{front}/{back}", target);
                     _normalization.Add($"{front} / {back}", target);
                     _normalization.Add($"{front}//{back}", target);
