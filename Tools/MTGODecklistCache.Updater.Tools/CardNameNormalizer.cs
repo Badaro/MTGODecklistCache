@@ -62,7 +62,7 @@ namespace MTGODecklistCache.Updater.Tools
 
         private static void AddTextReplacement(string validString, string invalidString)
         {
-            string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode(validString));
+            string api = _apiEndpoint.Replace("{query}", WebUtility.UrlEncode($"{validString} -is:dfc"));
             bool hasMore;
             do
             {
