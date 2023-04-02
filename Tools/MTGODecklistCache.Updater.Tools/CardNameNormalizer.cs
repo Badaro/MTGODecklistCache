@@ -3,6 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Net;
 using Newtonsoft.Json;
+using System.Dynamic;
+using Newtonsoft.Json.Linq;
 
 namespace MTGODecklistCache.Updater.Tools
 {
@@ -98,6 +100,10 @@ namespace MTGODecklistCache.Updater.Tools
 
                 foreach (var card in data.data)
                 {
+                    // FDB: Sometimes happens during spoiler season there's a DFC card "partially" 
+                    //      added with only one face known, those need to be skipped
+                    if (!(card as JObject).ContainsKey("card_faces")) continue;
+
                     string front = card.card_faces[0].name;
                     string back = card.card_faces[1].name;
 
