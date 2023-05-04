@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Validator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Common", "MTGODecklistCache.Updater.Common\MTGODecklistCache.Updater.Common.csproj", "{071301B3-3E77-40BC-A3C9-3CDC37C29391}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.MagicGG", "MTGODecklistCache.Updater.MagicGG\MTGODecklistCache.Updater.MagicGG.csproj", "{74990A04-3EAF-40BD-9BE1-CAF303EF2973}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.MtgMelee", "MTGODecklistCache.Updater.MtgMelee\MTGODecklistCache.Updater.MtgMelee.csproj", "{3796E19A-B84F-44D1-A4B5-6DB9B345A9FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{48F65E7F-E367-40F3-871C-71D48240CE38}"
@@ -25,13 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Mtgo.Tests", "MTGODecklistCache.Updater.Mtgo.Tests\MTGODecklistCache.Updater.Mtgo.Tests.csproj", "{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.MagicGG.Tests", "MTGODecklistCache.Updater.MagicGG.Tests\MTGODecklistCache.Updater.MagicGG.Tests.csproj", "{06880017-637D-49ED-BEFE-9CA771482932}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.ManaTraders.Tests", "MTGODecklistCache.Updater.ManaTraders.Tests\MTGODecklistCache.Updater.ManaTraders.Tests.csproj", "{F4799375-9464-46BB-B156-CE58970D5916}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.MtgMelee.Tests", "MTGODecklistCache.Updater.MtgMelee.Tests\MTGODecklistCache.Updater.MtgMelee.Tests.csproj", "{173E6B2A-3F9C-49DC-8DA1-E2E63BEA606B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGODecklistCache.Updater.Tools.Tests", "MTGODecklistCache.Updater.Tools.Tests\MTGODecklistCache.Updater.Tools.Tests.csproj", "{F2CA9417-D41E-4096-8E7A-D7E1DED915B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGODecklistCache.Updater.Tools.Tests", "MTGODecklistCache.Updater.Tools.Tests\MTGODecklistCache.Updater.Tools.Tests.csproj", "{F2CA9417-D41E-4096-8E7A-D7E1DED915B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +55,6 @@ Global
 		{071301B3-3E77-40BC-A3C9-3CDC37C29391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{071301B3-3E77-40BC-A3C9-3CDC37C29391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{071301B3-3E77-40BC-A3C9-3CDC37C29391}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74990A04-3EAF-40BD-9BE1-CAF303EF2973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74990A04-3EAF-40BD-9BE1-CAF303EF2973}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74990A04-3EAF-40BD-9BE1-CAF303EF2973}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74990A04-3EAF-40BD-9BE1-CAF303EF2973}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3796E19A-B84F-44D1-A4B5-6DB9B345A9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3796E19A-B84F-44D1-A4B5-6DB9B345A9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3796E19A-B84F-44D1-A4B5-6DB9B345A9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,10 +71,6 @@ Global
 		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06880017-637D-49ED-BEFE-9CA771482932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06880017-637D-49ED-BEFE-9CA771482932}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06880017-637D-49ED-BEFE-9CA771482932}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06880017-637D-49ED-BEFE-9CA771482932}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4799375-9464-46BB-B156-CE58970D5916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4799375-9464-46BB-B156-CE58970D5916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4799375-9464-46BB-B156-CE58970D5916}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -101,11 +89,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{84F743AC-CF45-43F6-82AF-3C609494C470} = {48F65E7F-E367-40F3-871C-71D48240CE38}
-		{74990A04-3EAF-40BD-9BE1-CAF303EF2973} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{3796E19A-B84F-44D1-A4B5-6DB9B345A9FB} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{E5BE5B78-995F-492A-94E5-A996697025B8} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{CD859235-84A2-4426-ADF3-EF1F1B5A9E73} = {48F65E7F-E367-40F3-871C-71D48240CE38}
-		{06880017-637D-49ED-BEFE-9CA771482932} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{F4799375-9464-46BB-B156-CE58970D5916} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 		{173E6B2A-3F9C-49DC-8DA1-E2E63BEA606B} = {48F65E7F-E367-40F3-871C-71D48240CE38}
 	EndGlobalSection

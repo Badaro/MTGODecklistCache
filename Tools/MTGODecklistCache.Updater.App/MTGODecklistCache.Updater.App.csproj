@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MTGODecklistCache.Updater.Common\MTGODecklistCache.Updater.Common.csproj" />
-    <ProjectReference Include="..\MTGODecklistCache.Updater.MagicGG\MTGODecklistCache.Updater.MagicGG.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.ManaTraders\MTGODecklistCache.Updater.ManaTraders.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.Model\MTGODecklistCache.Updater.Model.csproj" />
     <ProjectReference Include="..\MTGODecklistCache.Updater.MtgMelee\MTGODecklistCache.Updater.MtgMelee.csproj" />
@@ -65,30 +64,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Update="RawData\MtgMelee\LegacyEuropeanTour\2022\08\Grand_Open_Qualifier_Copenhagen_Modern.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2022-magic-online-champions-showcase-season-2-pioneer-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2022-magic-online-champions-showcase-season-1-modern-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2021-magic-online-champions-showcase-season-3-modern-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2021-magic-online-champions-showcase-season-2-modern-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2021-magic-online-champions-showcase-season-1-modern-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-3-modern-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-2-modern-decklists.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="RawData\MagicGG\2020-magic-online-champions-showcase-season-1-modern-decklists.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Update="RawData\MtgMelee\NerdRageGaming\2022\11\NRG_Series_10k_Trial_Fort_Wayne_Team_Legacy.json">

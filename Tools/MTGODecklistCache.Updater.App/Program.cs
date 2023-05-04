@@ -42,11 +42,6 @@ namespace MTGODecklistCache.Updater.App
                 () => MTGODecklistCache.Updater.ManaTraders.TournamentList.GetTournaments(),
                 t => MTGODecklistCache.Updater.ManaTraders.TournamentLoader.GetTournamentDetails(t));
 
-            // Updates MagicGG cache folder
-            UpdateFolder(cacheFolder, "magic.gg",
-                () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<Tournament>(Path.Combine(rawDataFolder, "MagicGG")),
-                t => MTGODecklistCache.Updater.MagicGG.TournamentLoader.GetTournamentDetails(t));
-
             // Updates MtgMelee cache folder
             UpdateFolder(cacheFolder, "mtgmelee.com",
                 () => MTGODecklistCache.Updater.Common.FolderTournamentList.GetTournaments<MtgMeleeTournament>(Path.Combine(rawDataFolder, "MtgMelee")),
