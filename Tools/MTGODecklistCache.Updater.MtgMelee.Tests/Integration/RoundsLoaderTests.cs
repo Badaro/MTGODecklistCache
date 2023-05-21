@@ -20,19 +20,19 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         {
             _testData = TournamentLoader.GetTournamentDetails(new MtgMeleeTournament()
             {
-                Uri = new Uri("https://mtgmelee.com/Tournament/View/12867"),
+                Uri = new Uri("https://melee.gg/Tournament/View/12867"),
                 Date = new DateTime(2022, 11, 19, 00, 00, 00, DateTimeKind.Utc)
             }).Rounds;
 
             _testData2 = TournamentLoader.GetTournamentDetails(new MtgMeleeTournament()
             {
-                Uri = new Uri("https://mtgmelee.com/Tournament/View/7708"),
+                Uri = new Uri("https://melee.gg/Tournament/View/7708"),
                 Date = new DateTime(2021, 11, 09, 00, 00, 00, DateTimeKind.Utc)
             }).Rounds;
 
             _testData3 = TournamentLoader.GetTournamentDetails(new MtgMeleeTournament()
             {
-                Uri = new Uri("https://mtgmelee.com/Tournament/View/12946"),
+                Uri = new Uri("https://melee.gg/Tournament/View/12946"),
                 Date = new DateTime(2022, 11, 20, 00, 00, 00, DateTimeKind.Utc)
             }).Rounds;
         }
