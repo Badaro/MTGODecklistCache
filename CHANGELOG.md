@@ -39,3 +39,6 @@
 2022-11-27
 * Brackets property has been removed, data previously there has been moved to the Rounds property
 * Rounds now have a RoundName (string) property instead of a RoundNumber (int) property
+
+2023-05-21
+* mtgmelee.com has changed their domain to melee.gg, folder and data was updated to reflect this
