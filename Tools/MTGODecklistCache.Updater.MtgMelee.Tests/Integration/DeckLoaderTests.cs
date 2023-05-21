@@ -18,7 +18,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
         {
             _testData = TournamentLoader.GetTournamentDetails(new MtgMeleeTournament()
             {
-                Uri = new Uri("https://mtgmelee.com/Tournament/View/12867"),
+                Uri = new Uri("https://melee.gg/Tournament/View/12867"),
                 Date = new DateTime(2022, 11, 19, 00, 00, 00, DateTimeKind.Utc)
             }).Decks;
         }
@@ -72,7 +72,7 @@ namespace MTGODecklistCache.Updater.MtgMelee.Tests
             testDeck.Should().BeEquivalentTo(new Deck()
             {
                 Player = "リヒト ＿蝦夷決闘者",
-                AnchorUri = new Uri("https://mtgmelee.com/Decklist/View/257085"),
+                AnchorUri = new Uri("https://melee.gg/Decklist/View/257085"),
                 Date = null,
                 Result = "1st Place",
                 Mainboard = new DeckItem[]
