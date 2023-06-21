@@ -57,9 +57,9 @@ namespace MTGODecklistCache.Updater.ManaTraders
             doc.LoadHtml(pageContent);
 
             var tables = doc.DocumentNode.SelectNodes("//table[@class='table table-tournament-rankings']").ToArray();
-            if (tables.Length < 3) return result;
+            if (tables.Length < 2) return result;
 
-            var deckTables = tables[1];
+            var deckTables = tables[tables.Length-2];
             foreach (var row in deckTables.SelectNodes("tbody/tr"))
             {
                 var columns = row.SelectNodes("td").ToArray();
