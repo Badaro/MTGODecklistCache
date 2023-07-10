@@ -42,6 +42,10 @@ namespace MTGODecklistCache.Updater.Tools
             _normalization.Add("JuzA?m Djinn", "Juzám Djinn");
             _normalization.Add("Sol'kanar the Tainted", "Sol'Kanar the Tainted");
             _normalization.Add("Minsc ?amp? Boo, Timeless Heroes", "Minsc & Boo, Timeless Heroes");
+            _normalization.Add("LÃ³rien Revealed", "Lórien Revealed");
+            _normalization.Add("Troll of Khazad-dÃ»m", "Troll of Khazad-dûm");
+            _normalization.Add("PalantÃ­r of Orthanc", "Palantír of Orthanc");
+            _normalization.Add("SmÃ©agol, Helpful Guide", "Sméagol, Helpful Guide");
 
             // MTGO normalization errors
             _normalization.Add("Jotun Grunt", "Jötun Grunt");
