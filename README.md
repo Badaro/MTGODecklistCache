@@ -6,7 +6,7 @@ This repository contains a cache in JSON format of tournaments posted on the [MT
 
 Each JSON file contains a tournament object, an array of decks, plus standings and bracket information when appropriate. Check [this folder](https://github.com/Badaro/MTGODecklistCache/tree/master/Tools/MTGODecklistCache.Updater.Model) to see exactly what these entities contain.
 
-To use this data, clone the repository and run `git pull` periodically to get the latest tournaments. MTGO data is automatically updated daily around 17:00 UTC.
+To use this data, clone the repository and run `git pull` periodically to get the latest tournaments. MTGO data is automatically updated daily around 17:00 UTC, Manatraders data at the same time on the last day of the month. Melee.gg data is manually selected and usually updated on Sundays and Mondays.
 
 There's also a folder containg the code I'm using to generate this data:
 
