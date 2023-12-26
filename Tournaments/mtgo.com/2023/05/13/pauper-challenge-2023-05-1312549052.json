@@ -2,46 +2,22 @@
   "Tournament": {
     "Date": "2023-05-13T00:00:00Z",
     "Name": "Pauper Challenge",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052"
+    "Uri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052"
   },
   "Decks": [
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Oceansoul92",
       "Result": "1st Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Oceansoul92",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Oceansoul92",
       "Mainboard": [
         {
-          "Count": 18,
-          "CardName": "Island"
-        },
-        {
           "Count": 4,
-          "CardName": "Ninja of the Deep Hours"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spellstutter Sprite"
+          "CardName": "Brinebarrow Intruder"
         },
         {
           "Count": 4,
           "CardName": "Counterspell"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mutagenic Growth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Snap"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faerie Seer"
         },
         {
           "Count": 4,
@@ -49,18 +25,50 @@
         },
         {
           "Count": 4,
-          "CardName": "Of One Mind"
+          "CardName": "Faerie Seer"
         },
         {
-          "Count": 4,
-          "CardName": "Brinebarrow Intruder"
+          "Count": 18,
+          "CardName": "Island"
         },
         {
           "Count": 4,
           "CardName": "Moon-Circuit Hacker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 4,
+          "CardName": "Of One Mind"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snap"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Annul"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
         {
           "Count": 2,
           "CardName": "Hydroblast"
@@ -70,40 +78,20 @@
           "CardName": "Relic of Progenitus"
         },
         {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
-        },
-        {
           "Count": 2,
           "CardName": "Steel Sabotage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Annul"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Dreddybajs",
       "Result": "2nd Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Dreddybajs",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Dreddybajs",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Wild Growth"
-        },
-        {
-          "Count": 3,
-          "CardName": "Skred"
-        },
-        {
           "Count": 4,
-          "CardName": "Mwonvuli Acid-Moss"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thermokarst"
+          "CardName": "Annoyed Altisaur"
         },
         {
           "Count": 4,
@@ -111,31 +99,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Utopia Sprawl"
-        },
-        {
-          "Count": 1,
-          "CardName": "Snow-Covered Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Llanowar Visionary"
+          "CardName": "Avenging Hunter"
         },
         {
           "Count": 4,
           "CardName": "Boarding Party"
         },
         {
-          "Count": 4,
-          "CardName": "Annoyed Altisaur"
-        },
-        {
           "Count": 2,
           "CardName": "Highland Forest"
-        },
-        {
-          "Count": 16,
-          "CardName": "Snow-Covered Forest"
         },
         {
           "Count": 4,
@@ -143,25 +115,53 @@
         },
         {
           "Count": 4,
-          "CardName": "Avenging Hunter"
+          "CardName": "Llanowar Visionary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mwonvuli Acid-Moss"
+        },
+        {
+          "Count": 3,
+          "CardName": "Skred"
+        },
+        {
+          "Count": 16,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thermokarst"
+        },
+        {
+          "Count": 4,
+          "CardName": "Utopia Sprawl"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wild Growth"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Penumbra Spider"
-        },
-        {
           "Count": 4,
           "CardName": "Deglamer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fiery Cannonade"
         },
         {
           "Count": 2,
           "CardName": "Gorilla Shaman"
         },
         {
-          "Count": 3,
-          "CardName": "Fiery Cannonade"
+          "Count": 2,
+          "CardName": "Penumbra Spider"
         },
         {
           "Count": 4,
@@ -170,14 +170,26 @@
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Casanova_13",
       "Result": "3rd Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Casanova_13",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Casanova_13",
       "Mainboard": [
         {
+          "Count": 4,
+          "CardName": "Akroan Skyguard"
+        },
+        {
           "Count": 2,
-          "CardName": "Spirit Link"
+          "CardName": "Benevolent Blessing"
+        },
+        {
+          "Count": 1,
+          "CardName": "Benevolent Bodyguard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cartouche of Solidarity"
         },
         {
           "Count": 4,
@@ -188,36 +200,12 @@
           "CardName": "Emerge Unscathed"
         },
         {
-          "Count": 1,
-          "CardName": "Benevolent Bodyguard"
-        },
-        {
           "Count": 4,
           "CardName": "Ethereal Armor"
         },
         {
           "Count": 4,
-          "CardName": "Akroan Skyguard"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lagonna-Band Trailblazer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Secluded Steppe"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cartouche of Solidarity"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sacred Cat"
-        },
-        {
-          "Count": 15,
-          "CardName": "Plains"
+          "CardName": "Hyena Umbra"
         },
         {
           "Count": 4,
@@ -225,21 +213,33 @@
         },
         {
           "Count": 4,
+          "CardName": "Lagonna-Band Trailblazer"
+        },
+        {
+          "Count": 15,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sacred Cat"
+        },
+        {
+          "Count": 2,
+          "CardName": "Secluded Steppe"
+        },
+        {
+          "Count": 4,
           "CardName": "Sentinel's Eyes"
         },
         {
           "Count": 2,
-          "CardName": "Benevolent Blessing"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hyena Umbra"
+          "CardName": "Spirit Link"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Freewind Falcon"
+          "CardName": "Beckon Apparition"
         },
         {
           "Count": 1,
@@ -247,51 +247,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Spirit Link"
-        },
-        {
-          "Count": 2,
           "CardName": "Death Speakers"
         },
         {
           "Count": 2,
-          "CardName": "Beckon Apparition"
+          "CardName": "Freewind Falcon"
         },
         {
           "Count": 2,
           "CardName": "Gut Shot"
         },
         {
+          "Count": 3,
+          "CardName": "Revoke Existence"
+        },
+        {
           "Count": 1,
           "CardName": "Sacred Cat"
         },
         {
-          "Count": 3,
-          "CardName": "Revoke Existence"
+          "Count": 2,
+          "CardName": "Spirit Link"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "_Shatun_",
       "Result": "4th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck__Shatun_",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck__Shatun_",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Utopia Sprawl"
-        },
-        {
-          "Count": 3,
-          "CardName": "Skred"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mwonvuli Acid-Moss"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thermokarst"
+          "CardName": "Annoyed Altisaur"
         },
         {
           "Count": 4,
@@ -299,7 +287,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Llanowar Visionary"
+          "CardName": "Avenging Hunter"
         },
         {
           "Count": 4,
@@ -310,24 +298,36 @@
           "CardName": "Highland Forest"
         },
         {
-          "Count": 1,
-          "CardName": "Snow-Covered Mountain"
+          "Count": 4,
+          "CardName": "Jewel Thief"
+        },
+        {
+          "Count": 4,
+          "CardName": "Llanowar Visionary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mwonvuli Acid-Moss"
+        },
+        {
+          "Count": 3,
+          "CardName": "Skred"
         },
         {
           "Count": 16,
           "CardName": "Snow-Covered Forest"
         },
         {
-          "Count": 4,
-          "CardName": "Jewel Thief"
+          "Count": 1,
+          "CardName": "Snow-Covered Mountain"
         },
         {
           "Count": 4,
-          "CardName": "Avenging Hunter"
+          "CardName": "Thermokarst"
         },
         {
           "Count": 4,
-          "CardName": "Annoyed Altisaur"
+          "CardName": "Utopia Sprawl"
         },
         {
           "Count": 2,
@@ -341,6 +341,10 @@
         },
         {
           "Count": 2,
+          "CardName": "Fiery Cannonade"
+        },
+        {
+          "Count": 2,
           "CardName": "Flame Slash"
         },
         {
@@ -349,55 +353,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Fiery Cannonade"
+          "CardName": "Smash to Dust"
         },
         {
           "Count": 4,
           "CardName": "Weather the Storm"
-        },
-        {
-          "Count": 2,
-          "CardName": "Smash to Dust"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "_against_",
       "Result": "5th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck__against_",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck__against_",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Krark-Clan Shaman"
-        },
-        {
           "Count": 3,
-          "CardName": "Seat of the Synod"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vault of Whispers"
+          "CardName": "Blood Fountain"
         },
         {
           "Count": 1,
-          "CardName": "Great Furnace"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galvanic Blast"
+          "CardName": "Chainer's Edict"
         },
         {
           "Count": 2,
-          "CardName": "Nihil Spellbomb"
+          "CardName": "Chromatic Star"
         },
         {
           "Count": 4,
-          "CardName": "Ichor Wellspring"
+          "CardName": "Deadly Dispute"
         },
         {
-          "Count": 1,
-          "CardName": "Thoughtcast"
+          "Count": 4,
+          "CardName": "Drossforge Bridge"
         },
         {
           "Count": 3,
@@ -405,51 +393,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Myr Enforcer"
+          "CardName": "Galvanic Blast"
         },
         {
           "Count": 2,
           "CardName": "Gearseeker Serpent"
         },
         {
-          "Count": 2,
-          "CardName": "Metallic Rebuke"
-        },
-        {
-          "Count": 2,
-          "CardName": "Chromatic Star"
-        },
-        {
           "Count": 1,
-          "CardName": "Makeshift Munitions"
+          "CardName": "Great Furnace"
         },
         {
           "Count": 4,
-          "CardName": "Drossforge Bridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mistvault Bridge"
-        },
-        {
-          "Count": 3,
-          "CardName": "Silverbluff Bridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Deadly Dispute"
-        },
-        {
-          "Count": 3,
-          "CardName": "Blood Fountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reckoner's Bargain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Kenku Artificer"
+          "CardName": "Ichor Wellspring"
         },
         {
           "Count": 1,
@@ -457,7 +413,51 @@
         },
         {
           "Count": 1,
-          "CardName": "Chainer's Edict"
+          "CardName": "Kenku Artificer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Krark-Clan Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Makeshift Munitions"
+        },
+        {
+          "Count": 2,
+          "CardName": "Metallic Rebuke"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mistvault Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Myr Enforcer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 3,
+          "CardName": "Silverbluff Bridge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thoughtcast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vault of Whispers"
         }
       ],
       "Sideboard": [
@@ -466,12 +466,8 @@
           "CardName": "Blue Elemental Blast"
         },
         {
-          "Count": 4,
-          "CardName": "Red Elemental Blast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Turn Aside"
+          "Count": 2,
+          "CardName": "Breath Weapon"
         },
         {
           "Count": 2,
@@ -479,59 +475,31 @@
         },
         {
           "Count": 2,
-          "CardName": "Breath Weapon"
+          "CardName": "Negate"
         },
         {
-          "Count": 2,
-          "CardName": "Negate"
+          "Count": 4,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Turn Aside"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "SenpaiBlank",
       "Result": "6th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_SenpaiBlank",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_SenpaiBlank",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Snap"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sunscape Familiar"
-        },
-        {
-          "Count": 1,
-          "CardName": "Remove Soul"
-        },
-        {
-          "Count": 8,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sea Gate Oracle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Preordain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mulldrifter"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sage's Row Denizen"
-        },
         {
           "Count": 3,
           "CardName": "Archaeomancer"
         },
         {
-          "Count": 1,
-          "CardName": "Deep Analysis"
+          "Count": 4,
+          "CardName": "Ash Barrens"
         },
         {
           "Count": 4,
@@ -539,11 +507,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Mortuary Mire"
+          "CardName": "Deep Analysis"
         },
         {
           "Count": 2,
-          "CardName": "Plains"
+          "CardName": "Ephemerate"
         },
         {
           "Count": 2,
@@ -554,35 +522,59 @@
           "CardName": "God-Pharaoh's Faithful"
         },
         {
+          "Count": 8,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mortuary Mire"
+        },
+        {
           "Count": 4,
-          "CardName": "Ash Barrens"
+          "CardName": "Mulldrifter"
         },
         {
           "Count": 2,
-          "CardName": "Ephemerate"
+          "CardName": "Obscura Storefront"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Preordain"
         },
         {
           "Count": 2,
           "CardName": "Prohibit"
         },
         {
-          "Count": 3,
-          "CardName": "The Modern Age"
-        },
-        {
-          "Count": 2,
-          "CardName": "Obscura Storefront"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Last Breath"
-        },
-        {
           "Count": 1,
           "CardName": "Remove Soul"
         },
+        {
+          "Count": 1,
+          "CardName": "Sage's Row Denizen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sea Gate Oracle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snap"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sunscape Familiar"
+        },
+        {
+          "Count": 3,
+          "CardName": "The Modern Age"
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 3,
           "CardName": "Dust to Dust"
@@ -592,32 +584,36 @@
           "CardName": "Holy Light"
         },
         {
+          "Count": 4,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Last Breath"
+        },
+        {
           "Count": 2,
           "CardName": "Negate"
         },
         {
-          "Count": 2,
-          "CardName": "Revoke Existence"
+          "Count": 1,
+          "CardName": "Remove Soul"
         },
         {
-          "Count": 4,
-          "CardName": "Hydroblast"
+          "Count": 2,
+          "CardName": "Revoke Existence"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Alvatar",
       "Result": "7th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Alvatar",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Alvatar",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Guardian of the Guildpact"
-        },
-        {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
+          "Count": 1,
+          "CardName": "Abundant Growth"
         },
         {
           "Count": 3,
@@ -625,31 +621,55 @@
         },
         {
           "Count": 4,
-          "CardName": "Journey to Nowhere"
+          "CardName": "Basilisk Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Citadel Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cliffgate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
         },
         {
           "Count": 4,
           "CardName": "Flame Slash"
         },
         {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
           "Count": 4,
           "CardName": "Gatecreeper Vine"
         },
         {
-          "Count": 3,
-          "CardName": "Saruli Gatekeepers"
+          "Count": 4,
+          "CardName": "Guardian of the Guildpact"
         },
         {
-          "Count": 1,
-          "CardName": "Abundant Growth"
+          "Count": 2,
+          "CardName": "Heap Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Journey to Nowhere"
         },
         {
           "Count": 4,
           "CardName": "Kor Skyfisher"
         },
         {
+          "Count": 2,
+          "CardName": "Lightning Bolt"
+        },
+        {
           "Count": 4,
-          "CardName": "Sacred Cat"
+          "CardName": "Manor Gate"
         },
         {
           "Count": 1,
@@ -660,36 +680,16 @@
           "CardName": "Plains"
         },
         {
-          "Count": 1,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 4,
-          "CardName": "Basilisk Gate"
+          "CardName": "Sacred Cat"
         },
         {
-          "Count": 4,
-          "CardName": "Citadel Gate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cliffgate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Heap Gate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Manor Gate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lightning Bolt"
+          "Count": 3,
+          "CardName": "Saruli Gatekeepers"
         },
         {
           "Count": 1,
@@ -697,6 +697,10 @@
         }
       ],
       "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Arms of Hadar"
+        },
         {
           "Count": 2,
           "CardName": "Crimson Acolyte"
@@ -707,7 +711,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Relic of Progenitus"
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pyroblast"
         },
         {
           "Count": 3,
@@ -715,63 +723,51 @@
         },
         {
           "Count": 1,
-          "CardName": "Saruli Gatekeepers"
+          "CardName": "Relic of Progenitus"
         },
         {
-          "Count": 3,
-          "CardName": "Pyroblast"
+          "Count": 1,
+          "CardName": "Saruli Gatekeepers"
         },
         {
           "Count": 1,
           "CardName": "Suffocating Fumes"
-        },
-        {
-          "Count": 1,
-          "CardName": "Arms of Hadar"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lightning Bolt"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "cicciogire",
       "Result": "8th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_cicciogire",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_cicciogire",
       "Mainboard": [
         {
           "Count": 4,
           "CardName": "Brainstorm"
         },
         {
-          "Count": 4,
-          "CardName": "Snuff Out"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deep Analysis"
+          "Count": 2,
+          "CardName": "Consider"
         },
         {
           "Count": 4,
-          "CardName": "Preordain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Scour"
+          "CardName": "Contaminated Aquifer"
         },
         {
           "Count": 4,
           "CardName": "Counterspell"
         },
         {
-          "Count": 3,
-          "CardName": "Spell Pierce"
+          "Count": 1,
+          "CardName": "Crawl from the Cellar"
         },
         {
-          "Count": 2,
-          "CardName": "Unexpected Fangs"
+          "Count": 3,
+          "CardName": "Deep Analysis"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fallaji Archaeologist"
         },
         {
           "Count": 4,
@@ -782,28 +778,32 @@
           "CardName": "Ice Tunnel"
         },
         {
-          "Count": 2,
-          "CardName": "Consider"
-        },
-        {
-          "Count": 1,
-          "CardName": "Crawl from the Cellar"
-        },
-        {
           "Count": 10,
           "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Scour"
         },
         {
           "Count": 4,
           "CardName": "Tolarian Terror"
         },
         {
-          "Count": 4,
-          "CardName": "Contaminated Aquifer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fallaji Archaeologist"
+          "Count": 2,
+          "CardName": "Unexpected Fangs"
         }
       ],
       "Sideboard": [
@@ -812,16 +812,20 @@
           "CardName": "Chainer's Edict"
         },
         {
+          "Count": 1,
+          "CardName": "Dispel"
+        },
+        {
           "Count": 4,
           "CardName": "Hydroblast"
         },
         {
-          "Count": 1,
-          "CardName": "Shrivel"
-        },
-        {
           "Count": 2,
           "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shrivel"
         },
         {
           "Count": 3,
@@ -829,72 +833,20 @@
         },
         {
           "Count": 1,
-          "CardName": "Dispel"
+          "CardName": "Suffocating Fumes"
         },
         {
           "Count": 1,
           "CardName": "Thorn of the Black Rose"
-        },
-        {
-          "Count": 1,
-          "CardName": "Suffocating Fumes"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "pepeteam",
       "Result": "9th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_pepeteam",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_pepeteam",
       "Mainboard": [
-        {
-          "Count": 3,
-          "CardName": "Guardian of the Guildpact"
-        },
-        {
-          "Count": 4,
-          "CardName": "Journey to Nowhere"
-        },
-        {
-          "Count": 3,
-          "CardName": "Flame Slash"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kor Skyfisher"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gatecreeper Vine"
-        },
-        {
-          "Count": 3,
-          "CardName": "Saruli Gatekeepers"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sacred Cat"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ephemerate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
-        },
-        {
-          "Count": 3,
-          "CardName": "Inspiring Overseer"
-        },
         {
           "Count": 4,
           "CardName": "Basilisk Gate"
@@ -909,23 +861,71 @@
         },
         {
           "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flame Slash"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gatecreeper Vine"
+        },
+        {
+          "Count": 3,
+          "CardName": "Guardian of the Guildpact"
+        },
+        {
+          "Count": 2,
           "CardName": "Heap Gate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Journey to Nowhere"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
           "CardName": "Manor Gate"
         },
         {
-          "Count": 1,
-          "CardName": "Smash to Dust"
-        },
-        {
           "Count": 2,
           "CardName": "Plains"
         },
         {
+          "Count": 4,
+          "CardName": "Sacred Cat"
+        },
+        {
+          "Count": 3,
+          "CardName": "Saruli Gatekeepers"
+        },
+        {
           "Count": 1,
-          "CardName": "Forest"
+          "CardName": "Smash to Dust"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
         }
       ],
       "Sideboard": [
@@ -934,16 +934,8 @@
           "CardName": "Crimson Acolyte"
         },
         {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
-        },
-        {
           "Count": 4,
           "CardName": "Dust to Dust"
-        },
-        {
-          "Count": 1,
-          "CardName": "Saruli Gatekeepers"
         },
         {
           "Count": 3,
@@ -954,44 +946,88 @@
           "CardName": "Red Elemental Blast"
         },
         {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Saruli Gatekeepers"
+        },
+        {
           "Count": 1,
           "CardName": "Twin-Silk Spider"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Gn42",
       "Result": "10th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Gn42",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Gn42",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Snap"
-        },
-        {
-          "Count": 2,
-          "CardName": "Prohibit"
-        },
-        {
-          "Count": 2,
-          "CardName": "Plains"
+          "Count": 3,
+          "CardName": "Archaeomancer"
         },
         {
           "Count": 4,
-          "CardName": "Sunscape Familiar"
+          "CardName": "Ash Barrens"
+        },
+        {
+          "Count": 4,
+          "CardName": "Azorius Chancery"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dawnbringer Cleric"
         },
         {
           "Count": 1,
           "CardName": "Deep Analysis"
         },
         {
+          "Count": 2,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ghostly Flicker"
+        },
+        {
+          "Count": 3,
+          "CardName": "God-Pharaoh's Faithful"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mortuary Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mulldrifter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Obscura Storefront"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Preordain"
+        },
+        {
           "Count": 1,
           "CardName": "Prismatic Strands"
         },
         {
-          "Count": 9,
-          "CardName": "Snow-Covered Island"
+          "Count": 2,
+          "CardName": "Prohibit"
         },
         {
           "Count": 1,
@@ -1002,62 +1038,30 @@
           "CardName": "Sea Gate Oracle"
         },
         {
-          "Count": 1,
-          "CardName": "Ghostly Flicker"
+          "Count": 4,
+          "CardName": "Snap"
         },
         {
-          "Count": 3,
-          "CardName": "Archaeomancer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mortuary Mire"
-        },
-        {
-          "Count": 3,
-          "CardName": "God-Pharaoh's Faithful"
+          "Count": 9,
+          "CardName": "Snow-Covered Island"
         },
         {
           "Count": 4,
-          "CardName": "Mulldrifter"
+          "CardName": "Sunscape Familiar"
         },
         {
-          "Count": 1,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ephemerate"
-        },
+          "Count": 3,
+          "CardName": "The Modern Age"
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 1,
           "CardName": "Dawnbringer Cleric"
         },
         {
-          "Count": 3,
-          "CardName": "The Modern Age"
-        },
-        {
           "Count": 1,
-          "CardName": "Obscura Storefront"
-        },
-        {
-          "Count": 4,
-          "CardName": "Preordain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ash Barrens"
-        },
-        {
-          "Count": 4,
-          "CardName": "Azorius Chancery"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Last Breath"
+          "CardName": "Destroy Evil"
         },
         {
           "Count": 2,
@@ -1068,16 +1072,8 @@
           "CardName": "Hydroblast"
         },
         {
-          "Count": 1,
-          "CardName": "Remove Soul"
-        },
-        {
           "Count": 2,
-          "CardName": "Revoke Existence"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dawnbringer Cleric"
+          "CardName": "Last Breath"
         },
         {
           "Count": 2,
@@ -1085,63 +1081,43 @@
         },
         {
           "Count": 1,
-          "CardName": "Destroy Evil"
+          "CardName": "Remove Soul"
+        },
+        {
+          "Count": 2,
+          "CardName": "Revoke Existence"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "LasVegasChaos",
       "Result": "11th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_LasVegasChaos",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_LasVegasChaos",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Ancestral Mask"
-        },
-        {
-          "Count": 3,
-          "CardName": "Silhana Ledgewalker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Utopia Sprawl"
-        },
-        {
-          "Count": 4,
-          "CardName": "Slippery Bogle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Armadillo Cloak"
-        },
         {
           "Count": 4,
           "CardName": "Abundant Growth"
         },
         {
           "Count": 4,
-          "CardName": "Ethereal Armor"
+          "CardName": "Ancestral Mask"
         },
         {
           "Count": 4,
-          "CardName": "Gladecover Scout"
-        },
-        {
-          "Count": 2,
-          "CardName": "Cartouche of Solidarity"
+          "CardName": "Armadillo Cloak"
         },
         {
           "Count": 2,
           "CardName": "Ash Barrens"
         },
         {
-          "Count": 1,
-          "CardName": "Cave of Temptation"
+          "Count": 2,
+          "CardName": "Cartouche of Solidarity"
         },
         {
           "Count": 1,
-          "CardName": "Sentinel's Eyes"
+          "CardName": "Cave of Temptation"
         },
         {
           "Count": 4,
@@ -1149,41 +1125,53 @@
         },
         {
           "Count": 4,
-          "CardName": "Rancor"
-        },
-        {
-          "Count": 3,
-          "CardName": "Plains"
+          "CardName": "Ethereal Armor"
         },
         {
           "Count": 11,
           "CardName": "Forest"
         },
         {
+          "Count": 4,
+          "CardName": "Gladecover Scout"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rancor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sentinel's Eyes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Silhana Ledgewalker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slippery Bogle"
+        },
+        {
           "Count": 1,
           "CardName": "Spirit Link"
+        },
+        {
+          "Count": 4,
+          "CardName": "Utopia Sprawl"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Freewind Falcon"
-        },
-        {
-          "Count": 1,
-          "CardName": "Standard Bearer"
-        },
         {
           "Count": 1,
           "CardName": "Flaring Pain"
         },
         {
-          "Count": 2,
-          "CardName": "Vitality Charm"
-        },
-        {
-          "Count": 3,
-          "CardName": "Scattershot Archer"
+          "Count": 4,
+          "CardName": "Freewind Falcon"
         },
         {
           "Count": 1,
@@ -1194,28 +1182,32 @@
           "CardName": "Ram Through"
         },
         {
+          "Count": 3,
+          "CardName": "Scattershot Archer"
+        },
+        {
           "Count": 1,
           "CardName": "Spirit Link"
+        },
+        {
+          "Count": 1,
+          "CardName": "Standard Bearer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vitality Charm"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "yPrincipe",
       "Result": "12th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_yPrincipe",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_yPrincipe",
       "Mainboard": [
         {
-          "Count": 11,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Plains"
-        },
-        {
           "Count": 4,
-          "CardName": "Rancor"
+          "CardName": "Abundant Growth"
         },
         {
           "Count": 4,
@@ -1227,27 +1219,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Silhana Ledgewalker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Utopia Sprawl"
-        },
-        {
-          "Count": 4,
-          "CardName": "Slippery Bogle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Abundant Growth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ethereal Armor"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gladecover Scout"
+          "CardName": "Ash Barrens"
         },
         {
           "Count": 2,
@@ -1258,34 +1230,62 @@
           "CardName": "Cave of Temptation"
         },
         {
-          "Count": 2,
-          "CardName": "Sentinel's Eyes"
-        },
-        {
           "Count": 4,
           "CardName": "Commune with Spirits"
         },
         {
+          "Count": 4,
+          "CardName": "Ethereal Armor"
+        },
+        {
+          "Count": 11,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gladecover Scout"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rancor"
+        },
+        {
           "Count": 2,
-          "CardName": "Ash Barrens"
+          "CardName": "Sentinel's Eyes"
+        },
+        {
+          "Count": 2,
+          "CardName": "Silhana Ledgewalker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slippery Bogle"
         },
         {
           "Count": 1,
           "CardName": "Spirit Link"
+        },
+        {
+          "Count": 4,
+          "CardName": "Utopia Sprawl"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Flaring Pain"
+        },
         {
           "Count": 4,
           "CardName": "Freewind Falcon"
         },
         {
           "Count": 2,
-          "CardName": "Standard Bearer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Flaring Pain"
+          "CardName": "Ram Through"
         },
         {
           "Count": 3,
@@ -1293,71 +1293,31 @@
         },
         {
           "Count": 2,
-          "CardName": "Ram Through"
+          "CardName": "Spirit Link"
         },
         {
           "Count": 2,
-          "CardName": "Spirit Link"
+          "CardName": "Standard Bearer"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "AliEnWaRe_",
       "Result": "13th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_AliEnWaRe_",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_AliEnWaRe_",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Orzhov Basilica"
-        },
-        {
-          "Count": 2,
-          "CardName": "Unmake"
-        },
-        {
-          "Count": 3,
-          "CardName": "Kor Skyfisher"
-        },
         {
           "Count": 2,
           "CardName": "Bojuka Bog"
         },
         {
           "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 4,
           "CardName": "Cast Down"
-        },
-        {
-          "Count": 6,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vampire Sovereign"
         },
         {
           "Count": 1,
           "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ephemerate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Omen of the Dead"
-        },
-        {
-          "Count": 2,
-          "CardName": "Suffocating Fumes"
         },
         {
           "Count": 2,
@@ -1365,15 +1325,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Spirited Companion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Inspiring Overseer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Obscura Storefront"
+          "CardName": "Ephemerate"
         },
         {
           "Count": 4,
@@ -1381,21 +1333,69 @@
         },
         {
           "Count": 4,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Storefront"
+        },
+        {
+          "Count": 1,
+          "CardName": "Omen of the Dead"
+        },
+        {
+          "Count": 4,
+          "CardName": "Orzhov Basilica"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
           "CardName": "Scoured Barrens"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Suffocating Fumes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unmake"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vampire Sovereign"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Honorable Scout"
+          "CardName": "Arms of Hadar"
         },
         {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
+          "Count": 1,
+          "CardName": "Chainer's Edict"
         },
         {
           "Count": 2,
-          "CardName": "Lone Missionary"
+          "CardName": "Dawnbringer Cleric"
         },
         {
           "Count": 4,
@@ -1403,59 +1403,75 @@
         },
         {
           "Count": 1,
-          "CardName": "Chainer's Edict"
+          "CardName": "Honorable Scout"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lone Missionary"
+        },
+        {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 1,
           "CardName": "Revoke Existence"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
-        },
-        {
-          "Count": 1,
-          "CardName": "Arms of Hadar"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "IAB_MaGiC",
       "Result": "14th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_IAB_MaGiC",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_IAB_MaGiC",
       "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Barren Moor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blood Fountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 3,
+          "CardName": "Cast Down"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chainer's Edict"
+        },
         {
           "Count": 3,
           "CardName": "Crypt Rats"
         },
         {
-          "Count": 2,
-          "CardName": "Spinning Darkness"
-        },
-        {
           "Count": 4,
-          "CardName": "Vault of Whispers"
-        },
-        {
-          "Count": 1,
-          "CardName": "Golgari Rot Farm"
-        },
-        {
-          "Count": 2,
-          "CardName": "Orzhov Basilica"
-        },
-        {
-          "Count": 1,
-          "CardName": "Barren Moor"
+          "CardName": "Deadly Dispute"
         },
         {
           "Count": 1,
           "CardName": "Disfigure"
         },
         {
-          "Count": 2,
-          "CardName": "Snuff Out"
+          "Count": 1,
+          "CardName": "Golgari Rot Farm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gurmag Angler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ichor Wellspring"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ill-Gotten Inheritance"
         },
         {
           "Count": 3,
@@ -1463,101 +1479,85 @@
         },
         {
           "Count": 1,
-          "CardName": "Bojuka Bog"
-        },
-        {
-          "Count": 1,
           "CardName": "Nihil Spellbomb"
         },
         {
-          "Count": 4,
-          "CardName": "Ichor Wellspring"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gurmag Angler"
-        },
-        {
-          "Count": 3,
-          "CardName": "Cast Down"
-        },
-        {
           "Count": 2,
-          "CardName": "Vampire Sovereign"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ill-Gotten Inheritance"
+          "CardName": "Orzhov Basilica"
         },
         {
           "Count": 1,
           "CardName": "Pulse of Murasa"
         },
         {
+          "Count": 4,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spinning Darkness"
+        },
+        {
           "Count": 1,
           "CardName": "Suffocating Fumes"
         },
         {
-          "Count": 1,
-          "CardName": "Unexpected Fangs"
-        },
-        {
-          "Count": 1,
-          "CardName": "Wilt"
+          "Count": 9,
+          "CardName": "Swamp"
         },
         {
           "Count": 1,
           "CardName": "Thorn of the Black Rose"
         },
         {
-          "Count": 4,
-          "CardName": "Deadly Dispute"
+          "Count": 1,
+          "CardName": "Unexpected Fangs"
         },
         {
           "Count": 2,
-          "CardName": "Blood Fountain"
+          "CardName": "Vampire Sovereign"
         },
         {
           "Count": 4,
-          "CardName": "Reckoner's Bargain"
+          "CardName": "Vault of Whispers"
         },
         {
-          "Count": 9,
-          "CardName": "Swamp"
+          "Count": 1,
+          "CardName": "Wilt"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 1,
-          "CardName": "Circle of Protection: Blue"
-        },
         {
           "Count": 1,
           "CardName": "Circle of Protection: Black"
         },
         {
           "Count": 1,
-          "CardName": "Circle of Protection: Red"
+          "CardName": "Circle of Protection: Blue"
         },
         {
-          "Count": 4,
-          "CardName": "Duress"
+          "Count": 1,
+          "CardName": "Circle of Protection: Red"
         },
         {
           "Count": 3,
           "CardName": "Deglamer"
         },
         {
-          "Count": 1,
-          "CardName": "Relic of Progenitus"
+          "Count": 4,
+          "CardName": "Duress"
         },
         {
           "Count": 1,
           "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 3,
@@ -1566,62 +1566,22 @@
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "msskinbolic",
       "Result": "15th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_msskinbolic",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_msskinbolic",
       "Mainboard": [
-        {
-          "Count": 6,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Unmake"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kor Skyfisher"
-        },
         {
           "Count": 2,
           "CardName": "Bojuka Bog"
         },
         {
           "Count": 4,
-          "CardName": "Orzhov Basilica"
+          "CardName": "Cast Down"
         },
         {
           "Count": 1,
           "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cast Down"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vampire Sovereign"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ephemerate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Omen of the Dead"
-        },
-        {
-          "Count": 2,
-          "CardName": "Suffocating Fumes"
         },
         {
           "Count": 2,
@@ -1629,7 +1589,39 @@
         },
         {
           "Count": 4,
-          "CardName": "Spirited Companion"
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goliath Paladin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Storefront"
+        },
+        {
+          "Count": 1,
+          "CardName": "Omen of the Dead"
+        },
+        {
+          "Count": 4,
+          "CardName": "Orzhov Basilica"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pegasus Guardian"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -1637,33 +1629,45 @@
         },
         {
           "Count": 4,
-          "CardName": "Inspiring Overseer"
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Suffocating Fumes"
         },
         {
           "Count": 3,
-          "CardName": "Obscura Storefront"
+          "CardName": "Swamp"
         },
         {
           "Count": 4,
-          "CardName": "Goliath Paladin"
+          "CardName": "Thraben Inspector"
         },
         {
-          "Count": 1,
-          "CardName": "Pegasus Guardian"
+          "Count": 2,
+          "CardName": "Unmake"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vampire Sovereign"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
         {
           "Count": 4,
           "CardName": "Dust to Dust"
         },
         {
-          "Count": 4,
-          "CardName": "Relic of Progenitus"
-        },
-        {
           "Count": 2,
           "CardName": "Lone Missionary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 2,
@@ -1672,66 +1676,18 @@
         {
           "Count": 1,
           "CardName": "Suffocating Fumes"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "ecobaronen",
       "Result": "16th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_ecobaronen",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_ecobaronen",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Mental Note"
-        },
-        {
-          "Count": 4,
-          "CardName": "Counterspell"
-        },
-        {
-          "Count": 4,
-          "CardName": "Snuff Out"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Scour"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dispel"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deep Analysis"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gurmag Angler"
-        },
-        {
-          "Count": 4,
           "CardName": "Brainstorm"
-        },
-        {
-          "Count": 10,
-          "CardName": "Snow-Covered Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Unexpected Fangs"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ice Tunnel"
         },
         {
           "Count": 2,
@@ -1739,15 +1695,59 @@
         },
         {
           "Count": 4,
-          "CardName": "Tolarian Terror"
+          "CardName": "Contaminated Aquifer"
         },
         {
           "Count": 4,
-          "CardName": "Contaminated Aquifer"
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deep Analysis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dispel"
         },
         {
           "Count": 2,
           "CardName": "Fallaji Archaeologist"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gurmag Angler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ice Tunnel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mental Note"
+        },
+        {
+          "Count": 10,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Scour"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tolarian Terror"
+        },
+        {
+          "Count": 3,
+          "CardName": "Unexpected Fangs"
         }
       ],
       "Sideboard": [
@@ -1756,16 +1756,16 @@
           "CardName": "Annul"
         },
         {
-          "Count": 3,
-          "CardName": "Shrivel"
+          "Count": 4,
+          "CardName": "Diabolic Edict"
         },
         {
           "Count": 4,
           "CardName": "Hydroblast"
         },
         {
-          "Count": 4,
-          "CardName": "Diabolic Edict"
+          "Count": 3,
+          "CardName": "Shrivel"
         },
         {
           "Count": 1,
@@ -1774,14 +1774,18 @@
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": ".Martinellinho.",
       "Result": "17th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_.Martinellinho.",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_.Martinellinho.",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Orzhov Basilica"
+          "Count": 2,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cast Down"
         },
         {
           "Count": 4,
@@ -1789,55 +1793,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Unmake"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bojuka Bog"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scoured Barrens"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 1,
-          "CardName": "Thorn of the Black Rose"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cast Down"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vampire Sovereign"
+          "CardName": "Dawnbringer Cleric"
         },
         {
           "Count": 4,
           "CardName": "Ephemerate"
         },
         {
-          "Count": 7,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Suffocating Fumes"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
-        },
-        {
-          "Count": 3,
-          "CardName": "Spirited Companion"
+          "Count": 4,
+          "CardName": "Goliath Paladin"
         },
         {
           "Count": 4,
@@ -1848,30 +1812,66 @@
           "CardName": "Obscura Storefront"
         },
         {
+          "Count": 3,
+          "CardName": "Orzhov Basilica"
+        },
+        {
+          "Count": 7,
+          "CardName": "Plains"
+        },
+        {
           "Count": 4,
-          "CardName": "Goliath Paladin"
+          "CardName": "Scoured Barrens"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Suffocating Fumes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thorn of the Black Rose"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unmake"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vampire Sovereign"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Prismatic Strands"
+          "Count": 3,
+          "CardName": "Chainer's Edict"
         },
         {
           "Count": 4,
           "CardName": "Dust to Dust"
         },
         {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
-        },
-        {
-          "Count": 3,
-          "CardName": "Chainer's Edict"
-        },
-        {
           "Count": 2,
           "CardName": "Lone Missionary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismatic Strands"
+        },
+        {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 2,
@@ -1880,66 +1880,14 @@
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "BuddyTheFrog",
       "Result": "18th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_BuddyTheFrog",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_BuddyTheFrog",
       "Mainboard": [
-        {
-          "Count": 7,
-          "CardName": "Island"
-        },
-        {
-          "Count": 2,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sunscape Familiar"
-        },
-        {
-          "Count": 1,
-          "CardName": "Prismatic Strands"
-        },
-        {
-          "Count": 4,
-          "CardName": "Azorius Chancery"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mulldrifter"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sea Gate Oracle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Preordain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ghostly Flicker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sage's Row Denizen"
-        },
         {
           "Count": 3,
           "CardName": "Archaeomancer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Deep Analysis"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tranquil Cove"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mortuary Mire"
         },
         {
           "Count": 4,
@@ -1947,11 +1895,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Snap"
+          "CardName": "Azorius Chancery"
         },
         {
-          "Count": 3,
-          "CardName": "God-Pharaoh's Faithful"
+          "Count": 1,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 2,
+          "CardName": "Deep Analysis"
+        },
+        {
+          "Count": 1,
+          "CardName": "Energy Refractor"
         },
         {
           "Count": 2,
@@ -1959,7 +1915,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Prohibit"
+          "CardName": "Ghostly Flicker"
+        },
+        {
+          "Count": 3,
+          "CardName": "God-Pharaoh's Faithful"
+        },
+        {
+          "Count": 7,
+          "CardName": "Island"
         },
         {
           "Count": 1,
@@ -1967,41 +1931,73 @@
         },
         {
           "Count": 1,
-          "CardName": "Dawnbringer Cleric"
+          "CardName": "Mortuary Mire"
         },
         {
-          "Count": 2,
-          "CardName": "The Modern Age"
+          "Count": 4,
+          "CardName": "Mulldrifter"
         },
         {
           "Count": 1,
           "CardName": "Obscura Storefront"
         },
         {
-          "Count": 1,
-          "CardName": "Energy Refractor"
-        }
-      ],
-      "Sideboard": [
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Preordain"
+        },
         {
           "Count": 1,
           "CardName": "Prismatic Strands"
         },
         {
-          "Count": 4,
-          "CardName": "Dust to Dust"
+          "Count": 2,
+          "CardName": "Prohibit"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sage's Row Denizen"
         },
         {
           "Count": 2,
-          "CardName": "Hydroblast"
+          "CardName": "Sea Gate Oracle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snap"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sunscape Familiar"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Modern Age"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tranquil Cove"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Destroy Evil"
         },
         {
           "Count": 1,
           "CardName": "Dispel"
         },
         {
-          "Count": 2,
-          "CardName": "Blue Elemental Blast"
+          "Count": 4,
+          "CardName": "Dust to Dust"
         },
         {
           "Count": 1,
@@ -2009,67 +2005,35 @@
         },
         {
           "Count": 2,
-          "CardName": "Revoke Existence"
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismatic Strands"
         },
         {
           "Count": 2,
-          "CardName": "Destroy Evil"
+          "CardName": "Revoke Existence"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "duke12",
       "Result": "19th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_duke12",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_duke12",
       "Mainboard": [
-        {
-          "Count": 1,
-          "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 2,
-          "CardName": "Unmake"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scoured Barrens"
-        },
         {
           "Count": 2,
           "CardName": "Bojuka Bog"
         },
         {
           "Count": 4,
-          "CardName": "Thraben Inspector"
-        },
-        {
-          "Count": 3,
-          "CardName": "Kor Skyfisher"
-        },
-        {
-          "Count": 4,
           "CardName": "Cast Down"
         },
         {
-          "Count": 3,
-          "CardName": "Vampire Sovereign"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ephemerate"
-        },
-        {
           "Count": 1,
-          "CardName": "Omen of the Dead"
-        },
-        {
-          "Count": 2,
-          "CardName": "Suffocating Fumes"
-        },
-        {
-          "Count": 6,
-          "CardName": "Plains"
+          "CardName": "Chainer's Edict"
         },
         {
           "Count": 2,
@@ -2077,15 +2041,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Spirited Companion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Inspiring Overseer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Obscura Storefront"
+          "CardName": "Ephemerate"
         },
         {
           "Count": 4,
@@ -2093,81 +2049,109 @@
         },
         {
           "Count": 4,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Storefront"
+        },
+        {
+          "Count": 1,
+          "CardName": "Omen of the Dead"
+        },
+        {
+          "Count": 4,
           "CardName": "Orzhov Basilica"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scoured Barrens"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Suffocating Fumes"
         },
         {
           "Count": 3,
           "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unmake"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vampire Sovereign"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Honorable Scout"
+          "CardName": "Arms of Hadar"
         },
         {
           "Count": 1,
           "CardName": "Chainer's Edict"
         },
         {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
           "Count": 4,
           "CardName": "Dust to Dust"
         },
         {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
+          "Count": 1,
+          "CardName": "Honorable Scout"
         },
         {
           "Count": 2,
           "CardName": "Lone Missionary"
         },
         {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
+        },
+        {
           "Count": 1,
           "CardName": "Revoke Existence"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
-        },
-        {
-          "Count": 1,
-          "CardName": "Arms of Hadar"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Cherryxman",
       "Result": "20th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Cherryxman",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Cherryxman",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Spinning Darkness"
-        },
-        {
-          "Count": 3,
-          "CardName": "Snuff Out"
-        },
-        {
-          "Count": 2,
-          "CardName": "Crypt Rats"
-        },
-        {
-          "Count": 8,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vault of Whispers"
-        },
-        {
-          "Count": 2,
-          "CardName": "Duress"
-        },
-        {
           "Count": 4,
-          "CardName": "Khalni Garden"
+          "CardName": "Avenging Hunter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Barren Moor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blood Fountain"
         },
         {
           "Count": 2,
@@ -2175,35 +2159,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Chainer's Edict"
-        },
-        {
-          "Count": 3,
-          "CardName": "Golgari Rot Farm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pulse of Murasa"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thorn of the Black Rose"
-        },
-        {
-          "Count": 4,
           "CardName": "Cast Down"
         },
         {
-          "Count": 1,
-          "CardName": "Fungal Infection"
-        },
-        {
-          "Count": 1,
-          "CardName": "Barren Moor"
-        },
-        {
           "Count": 4,
-          "CardName": "Llanowar Visionary"
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Crypt Rats"
+        },
+        {
+          "Count": 1,
+          "CardName": "Crystal Grotto"
         },
         {
           "Count": 4,
@@ -2211,45 +2179,61 @@
         },
         {
           "Count": 2,
-          "CardName": "Blood Fountain"
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Fungal Infection"
+        },
+        {
+          "Count": 3,
+          "CardName": "Golgari Rot Farm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ichor Wellspring"
+        },
+        {
+          "Count": 4,
+          "CardName": "Khalni Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Llanowar Visionary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pulse of Murasa"
         },
         {
           "Count": 1,
           "CardName": "Reckoner's Bargain"
         },
         {
-          "Count": 4,
-          "CardName": "Avenging Hunter"
+          "Count": 3,
+          "CardName": "Snuff Out"
         },
         {
-          "Count": 1,
-          "CardName": "Crystal Grotto"
+          "Count": 3,
+          "CardName": "Spinning Darkness"
         },
         {
-          "Count": 1,
-          "CardName": "Ichor Wellspring"
+          "Count": 8,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thorn of the Black Rose"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vault of Whispers"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
           "CardName": "Crypt Rats"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wrench Mind"
-        },
-        {
-          "Count": 1,
-          "CardName": "Raven's Crime"
-        },
-        {
-          "Count": 2,
-          "CardName": "Gorilla Shaman"
-        },
-        {
-          "Count": 1,
-          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 2,
@@ -2260,44 +2244,40 @@
           "CardName": "Fangren Marauder"
         },
         {
+          "Count": 2,
+          "CardName": "Gorilla Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Raven's Crime"
+        },
+        {
+          "Count": 1,
+          "CardName": "Relic of Progenitus"
+        },
+        {
           "Count": 3,
           "CardName": "Weather the Storm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wrench Mind"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "billster47",
       "Result": "21th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_billster47",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_billster47",
       "Mainboard": [
         {
           "Count": 4,
+          "CardName": "Brinebarrow Intruder"
+        },
+        {
+          "Count": 4,
           "CardName": "Counterspell"
-        },
-        {
-          "Count": 4,
-          "CardName": "Snap"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ninja of the Deep Hours"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spellstutter Sprite"
-        },
-        {
-          "Count": 18,
-          "CardName": "Snow-Covered Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mutagenic Growth"
         },
         {
           "Count": 4,
@@ -2309,25 +2289,53 @@
         },
         {
           "Count": 4,
+          "CardName": "Moon-Circuit Hacker"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 4,
           "CardName": "Of One Mind"
         },
         {
           "Count": 4,
-          "CardName": "Brinebarrow Intruder"
+          "CardName": "Snap"
+        },
+        {
+          "Count": 18,
+          "CardName": "Snow-Covered Island"
         },
         {
           "Count": 4,
-          "CardName": "Moon-Circuit Hacker"
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Annul"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blue Elemental Blast"
+        },
         {
           "Count": 1,
           "CardName": "Curfew"
         },
         {
           "Count": 2,
-          "CardName": "Annul"
+          "CardName": "Dispel"
         },
         {
           "Count": 4,
@@ -2338,28 +2346,28 @@
           "CardName": "Relic of Progenitus"
         },
         {
-          "Count": 2,
-          "CardName": "Dispel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Blue Elemental Blast"
-        },
-        {
           "Count": 1,
           "CardName": "Weakstone's Subjugation"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "discoverN",
       "Result": "22th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_discoverN",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_discoverN",
       "Mainboard": [
         {
-          "Count": 9,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dwarven Forge-Chanter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Experimental Synthesizer"
         },
         {
           "Count": 4,
@@ -2367,7 +2375,27 @@
         },
         {
           "Count": 4,
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
           "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 9,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Impulse"
+        },
+        {
+          "Count": 3,
+          "CardName": "Searing Blaze"
         },
         {
           "Count": 9,
@@ -2375,35 +2403,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Chain Lightning"
-        },
-        {
-          "Count": 3,
-          "CardName": "Searing Blaze"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lava Spike"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reckless Impulse"
-        },
-        {
-          "Count": 4,
           "CardName": "Voldaren Epicure"
-        },
-        {
-          "Count": 4,
-          "CardName": "Experimental Synthesizer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Dwarven Forge-Chanter"
         },
         {
           "Count": 4,
@@ -2412,72 +2412,76 @@
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Gorilla Shaman"
+          "Count": 4,
+          "CardName": "End the Festivities"
         },
         {
           "Count": 4,
           "CardName": "Flame Slash"
         },
         {
-          "Count": 4,
-          "CardName": "Shattering Blow"
-        },
-        {
           "Count": 1,
-          "CardName": "Radiant Fountain"
+          "CardName": "Gorilla Shaman"
         },
         {
           "Count": 1,
           "CardName": "Mine Collapse"
         },
         {
+          "Count": 1,
+          "CardName": "Radiant Fountain"
+        },
+        {
           "Count": 4,
-          "CardName": "End the Festivities"
+          "CardName": "Shattering Blow"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Maccaciock",
       "Result": "23th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Maccaciock",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Maccaciock",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Counterspell"
-        },
-        {
           "Count": 2,
-          "CardName": "Skred"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mulldrifter"
+          "CardName": "Archaeomancer"
         },
         {
           "Count": 1,
-          "CardName": "Dispel"
+          "CardName": "Ardent Elementalist"
         },
         {
-          "Count": 2,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 2,
-          "CardName": "Preordain"
+          "Count": 1,
+          "CardName": "Ash Barrens"
         },
         {
           "Count": 3,
           "CardName": "Augur of Bolas"
         },
         {
-          "Count": 2,
-          "CardName": "Archaeomancer"
+          "Count": 1,
+          "CardName": "Behold the Multiverse"
         },
         {
           "Count": 2,
           "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
         },
         {
           "Count": 3,
@@ -2485,31 +2489,27 @@
         },
         {
           "Count": 2,
-          "CardName": "Snow-Covered Plains"
-        },
-        {
-          "Count": 9,
-          "CardName": "Snow-Covered Island"
-        },
-        {
-          "Count": 2,
-          "CardName": "Snow-Covered Mountain"
+          "CardName": "Fire // Ice"
         },
         {
           "Count": 1,
-          "CardName": "Ash Barrens"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cleansing Wildfire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Behold the Multiverse"
+          "CardName": "Kenku Artificer"
         },
         {
           "Count": 1,
           "CardName": "Late to Dinner"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mulldrifter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Preordain"
         },
         {
           "Count": 4,
@@ -2521,50 +2521,26 @@
         },
         {
           "Count": 2,
-          "CardName": "Fire // Ice"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ardent Elementalist"
-        },
-        {
-          "Count": 1,
-          "CardName": "Kenku Artificer"
+          "CardName": "Skred"
         },
         {
           "Count": 1,
           "CardName": "Smash to Dust"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 3,
-          "CardName": "Pyroblast"
         },
         {
-          "Count": 1,
-          "CardName": "Dust to Dust"
-        },
-        {
-          "Count": 1,
-          "CardName": "Stonehorn Dignitary"
+          "Count": 9,
+          "CardName": "Snow-Covered Island"
         },
         {
           "Count": 2,
-          "CardName": "Red Elemental Blast"
+          "CardName": "Snow-Covered Mountain"
         },
         {
-          "Count": 1,
-          "CardName": "Revoke Existence"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hydroblast"
-        },
+          "Count": 2,
+          "CardName": "Snow-Covered Plains"
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 4,
           "CardName": "Blue Elemental Blast"
@@ -2576,26 +2552,42 @@
         {
           "Count": 1,
           "CardName": "Destroy Evil"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Revoke Existence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stonehorn Dignitary"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "ezocratto",
       "Result": "24th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_ezocratto",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_ezocratto",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Ninja of the Deep Hours"
-        },
-        {
-          "Count": 4,
-          "CardName": "Skred"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spellstutter Sprite"
+          "Count": 2,
+          "CardName": "Ash Barrens"
         },
         {
           "Count": 4,
@@ -2607,15 +2599,11 @@
         },
         {
           "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 4,
           "CardName": "Faerie Seer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ash Barrens"
-        },
-        {
-          "Count": 3,
-          "CardName": "Preordain"
         },
         {
           "Count": 2,
@@ -2623,7 +2611,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Volatile Fjord"
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lose Focus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Maestros Theater"
+        },
+        {
+          "Count": 3,
+          "CardName": "Moon-Circuit Hacker"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 3,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Skred"
         },
         {
           "Count": 10,
@@ -2634,46 +2646,34 @@
           "CardName": "Snow-Covered Mountain"
         },
         {
-          "Count": 1,
-          "CardName": "Lose Focus"
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         },
         {
           "Count": 4,
-          "CardName": "Counterspell"
-        },
-        {
-          "Count": 3,
-          "CardName": "Moon-Circuit Hacker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Maestros Theater"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Volatile Fjord"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
         {
           "Count": 2,
           "CardName": "Curfew"
         },
         {
-          "Count": 2,
-          "CardName": "Relic of Progenitus"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
+          "Count": 1,
+          "CardName": "Electrickery"
         },
         {
           "Count": 3,
           "CardName": "Red Elemental Blast"
         },
         {
-          "Count": 1,
-          "CardName": "Electrickery"
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 3,
@@ -2682,22 +2682,50 @@
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "twister66",
       "Result": "25th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_twister66",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_twister66",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Island"
+          "Count": 1,
+          "CardName": "Ash Barrens"
+        },
+        {
+          "Count": 2,
+          "CardName": "Azorius Guildgate"
         },
         {
           "Count": 4,
-          "CardName": "Prismatic Strands"
+          "CardName": "Basilisk Gate"
         },
         {
           "Count": 3,
           "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Citadel Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 1,
+          "CardName": "Destroy Evil"
+        },
+        {
+          "Count": 1,
+          "CardName": "Heap Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Island"
         },
         {
           "Count": 4,
@@ -2713,11 +2741,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Squadron Hawk"
+          "CardName": "Prismatic Strands"
         },
         {
           "Count": 4,
-          "CardName": "Counterspell"
+          "CardName": "Sacred Cat"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sea Gate"
         },
         {
           "Count": 2,
@@ -2725,53 +2757,29 @@
         },
         {
           "Count": 2,
-          "CardName": "Azorius Guildgate"
+          "CardName": "Smash to Dust"
         },
         {
           "Count": 4,
-          "CardName": "Sacred Cat"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ash Barrens"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dawnbringer Cleric"
+          "CardName": "Squadron Hawk"
         },
         {
           "Count": 4,
           "CardName": "The Modern Age"
-        },
-        {
-          "Count": 4,
-          "CardName": "Basilisk Gate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Citadel Gate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Heap Gate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sea Gate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Destroy Evil"
-        },
-        {
-          "Count": 2,
-          "CardName": "Smash to Dust"
         }
       ],
       "Sideboard": [
         {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
           "Count": 3,
           "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 4,
+          "CardName": "Red Elemental Blast"
         },
         {
           "Count": 2,
@@ -2780,90 +2788,22 @@
         {
           "Count": 2,
           "CardName": "Revoke Existence"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Red Elemental Blast"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Vertyx_",
       "Result": "26th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Vertyx_",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Vertyx_",
       "Mainboard": [
-        {
-          "Count": 2,
-          "CardName": "Krark-Clan Shaman"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thoughtcast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Seat of the Synod"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vault of Whispers"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galvanic Blast"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nihil Spellbomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Great Furnace"
-        },
-        {
-          "Count": 4,
-          "CardName": "Myr Enforcer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gearseeker Serpent"
-        },
-        {
-          "Count": 2,
-          "CardName": "Metallic Rebuke"
-        },
-        {
-          "Count": 4,
-          "CardName": "Drossforge Bridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mistvault Bridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Silverbluff Bridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Deadly Dispute"
-        },
         {
           "Count": 3,
           "CardName": "Blood Fountain"
         },
         {
-          "Count": 4,
-          "CardName": "Reckoner's Bargain"
-        },
-        {
           "Count": 1,
-          "CardName": "Kenku Artificer"
+          "CardName": "Chainer's Edict"
         },
         {
           "Count": 2,
@@ -2871,21 +2811,89 @@
         },
         {
           "Count": 4,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 4,
+          "CardName": "Drossforge Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gearseeker Serpent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Great Furnace"
+        },
+        {
+          "Count": 4,
           "CardName": "Ichor Wellspring"
         },
         {
           "Count": 1,
-          "CardName": "Chainer's Edict"
+          "CardName": "Kenku Artificer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Krark-Clan Shaman"
+        },
+        {
+          "Count": 2,
+          "CardName": "Metallic Rebuke"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mistvault Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Myr Enforcer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silverbluff Bridge"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thoughtcast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vault of Whispers"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Breath Weapon"
+        },
         {
           "Count": 1,
           "CardName": "Chainer's Edict"
         },
         {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 4,
@@ -2894,42 +2902,18 @@
         {
           "Count": 2,
           "CardName": "Unexpected Fangs"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Breath Weapon"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "renaar",
       "Result": "27th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_renaar",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_renaar",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Mental Note"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dispel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Delver of Secrets"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Scour"
+          "CardName": "Accumulated Knowledge"
         },
         {
           "Count": 2,
@@ -2937,19 +2921,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Accumulated Knowledge"
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 4,
+          "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
         },
         {
           "Count": 4,
           "CardName": "Frantic Inventory"
         },
         {
-          "Count": 3,
-          "CardName": "Serpentine Curve"
+          "Count": 17,
+          "CardName": "Island"
         },
         {
           "Count": 4,
-          "CardName": "Counterspell"
+          "CardName": "Mental Note"
         },
         {
           "Count": 2,
@@ -2957,18 +2953,26 @@
         },
         {
           "Count": 3,
+          "CardName": "Serpentine Curve"
+        },
+        {
+          "Count": 3,
           "CardName": "Spell Pierce"
         },
         {
           "Count": 4,
-          "CardName": "Tolarian Terror"
+          "CardName": "Thought Scour"
         },
         {
-          "Count": 17,
-          "CardName": "Island"
+          "Count": 4,
+          "CardName": "Tolarian Terror"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
         {
           "Count": 2,
           "CardName": "Echoing Truth"
@@ -2978,53 +2982,21 @@
           "CardName": "Hydroblast"
         },
         {
-          "Count": 3,
-          "CardName": "Spreading Seas"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
-        },
-        {
           "Count": 2,
           "CardName": "Lose Focus"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spreading Seas"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Mogged",
       "Result": "28th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Mogged",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Mogged",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Spellstutter Sprite"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mutagenic Growth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Snap"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faerie Seer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faerie Miscreant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Of One Mind"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ninja of the Deep Hours"
-        },
         {
           "Count": 4,
           "CardName": "Brinebarrow Intruder"
@@ -3035,25 +3007,53 @@
         },
         {
           "Count": 4,
+          "CardName": "Faerie Miscreant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Seer"
+        },
+        {
+          "Count": 18,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
           "CardName": "Moon-Circuit Hacker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 4,
+          "CardName": "Of One Mind"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snap"
         },
         {
           "Count": 2,
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 18,
-          "CardName": "Island"
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Relic of Progenitus"
+          "Count": 4,
+          "CardName": "Annul"
         },
         {
-          "Count": 1,
-          "CardName": "Steel Sabotage"
+          "Count": 3,
+          "CardName": "Blue Elemental Blast"
         },
         {
           "Count": 3,
@@ -3064,108 +3064,28 @@
           "CardName": "Hydroblast"
         },
         {
-          "Count": 3,
-          "CardName": "Blue Elemental Blast"
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
         },
         {
-          "Count": 4,
-          "CardName": "Annul"
+          "Count": 1,
+          "CardName": "Steel Sabotage"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "RClint21",
       "Result": "29th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_RClint21",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_RClint21",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Impulse"
-        },
-        {
-          "Count": 1,
-          "CardName": "Remote Isle"
-        },
-        {
-          "Count": 1,
-          "CardName": "Crop Rotation"
-        },
-        {
-          "Count": 2,
-          "CardName": "Moment's Peace"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Power Plant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Mine"
-        },
-        {
-          "Count": 1,
-          "CardName": "Compulsive Research"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mystical Teachings"
-        },
-        {
-          "Count": 3,
-          "CardName": "Expedition Map"
-        },
         {
           "Count": 1,
           "CardName": "Bojuka Bog"
         },
         {
-          "Count": 4,
-          "CardName": "Mulldrifter"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mnemonic Wall"
-        },
-        {
           "Count": 1,
-          "CardName": "Sea Gate Oracle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Tower"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ghostly Flicker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pulse of Murasa"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dinrova Horror"
-        },
-        {
-          "Count": 1,
-          "CardName": "Condescend"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unwind"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ephemerate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Prohibit"
-        },
-        {
-          "Count": 1,
-          "CardName": "Weather the Storm"
+          "CardName": "Breath Weapon"
         },
         {
           "Count": 1,
@@ -3173,7 +3093,63 @@
         },
         {
           "Count": 1,
-          "CardName": "Quandrix Campus"
+          "CardName": "Compulsive Research"
+        },
+        {
+          "Count": 1,
+          "CardName": "Condescend"
+        },
+        {
+          "Count": 1,
+          "CardName": "Crop Rotation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Crystal Grotto"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dinrova Horror"
+        },
+        {
+          "Count": 4,
+          "CardName": "Energy Refractor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Expedition Map"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ghostly Flicker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Impulse"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mnemonic Wall"
+        },
+        {
+          "Count": 2,
+          "CardName": "Moment's Peace"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mulldrifter"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Teachings"
         },
         {
           "Count": 2,
@@ -3181,7 +3157,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Breath Weapon"
+          "CardName": "Prohibit"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pulse of Murasa"
+        },
+        {
+          "Count": 1,
+          "CardName": "Quandrix Campus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Remote Isle"
         },
         {
           "Count": 3,
@@ -3189,29 +3177,33 @@
         },
         {
           "Count": 1,
-          "CardName": "Crystal Grotto"
+          "CardName": "Sea Gate Oracle"
         },
         {
-          "Count": 2,
-          "CardName": "Island"
+          "Count": 1,
+          "CardName": "Unwind"
         },
         {
           "Count": 4,
-          "CardName": "Energy Refractor"
+          "CardName": "Urza's Mine"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Power Plant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Tower"
+        },
+        {
+          "Count": 1,
+          "CardName": "Weather the Storm"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Moment's Peace"
-        },
-        {
-          "Count": 1,
-          "CardName": "Scattershot"
-        },
-        {
-          "Count": 1,
-          "CardName": "Negate"
+          "CardName": "Ancient Grudge"
         },
         {
           "Count": 3,
@@ -3219,23 +3211,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Pyroblast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Stonehorn Dignitary"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ancient Grudge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Red Elemental Blast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hydroblast"
+          "CardName": "Cast Down"
         },
         {
           "Count": 1,
@@ -3243,47 +3219,51 @@
         },
         {
           "Count": 1,
-          "CardName": "Weather the Storm"
+          "CardName": "Hydroblast"
         },
         {
           "Count": 1,
-          "CardName": "Cast Down"
+          "CardName": "Moment's Peace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scattershot"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stonehorn Dignitary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Weather the Storm"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "Backoff",
       "Result": "30th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_Backoff",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Backoff",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Snap"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ninja of the Deep Hours"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mutagenic Growth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spellstutter Sprite"
+          "CardName": "Brinebarrow Intruder"
         },
         {
           "Count": 4,
           "CardName": "Counterspell"
-        },
-        {
-          "Count": 18,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faerie Seer"
         },
         {
           "Count": 4,
@@ -3291,22 +3271,50 @@
         },
         {
           "Count": 4,
-          "CardName": "Of One Mind"
+          "CardName": "Faerie Seer"
         },
         {
-          "Count": 4,
-          "CardName": "Brinebarrow Intruder"
+          "Count": 18,
+          "CardName": "Island"
         },
         {
           "Count": 4,
           "CardName": "Moon-Circuit Hacker"
         },
         {
+          "Count": 4,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 4,
+          "CardName": "Of One Mind"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snap"
+        },
+        {
           "Count": 2,
           "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Annul"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
         {
           "Count": 2,
           "CardName": "Hydroblast"
@@ -3316,25 +3324,37 @@
           "CardName": "Relic of Progenitus"
         },
         {
-          "Count": 4,
-          "CardName": "Annul"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blue Elemental Blast"
-        },
-        {
           "Count": 2,
           "CardName": "Steel Sabotage"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "abijhavs",
       "Result": "31th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_abijhavs",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_abijhavs",
       "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Burning Prophet"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dwarven Forge-Chanter"
+        },
+        {
+          "Count": 3,
+          "CardName": "End the Festivities"
+        },
+        {
+          "Count": 4,
+          "CardName": "Experimental Synthesizer"
+        },
         {
           "Count": 1,
           "CardName": "Fireblast"
@@ -3344,16 +3364,20 @@
           "CardName": "Forgotten Cave"
         },
         {
-          "Count": 17,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Searing Blaze"
+          "Count": 3,
+          "CardName": "Lava Dart"
         },
         {
           "Count": 4,
           "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 17,
+          "CardName": "Mountain"
         },
         {
           "Count": 2,
@@ -3361,35 +3385,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Chain Lightning"
-        },
-        {
-          "Count": 3,
-          "CardName": "Burning Prophet"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lava Dart"
-        },
-        {
-          "Count": 3,
-          "CardName": "End the Festivities"
-        },
-        {
-          "Count": 4,
           "CardName": "Reckless Impulse"
         },
         {
-          "Count": 4,
-          "CardName": "Experimental Synthesizer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dwarven Forge-Chanter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
+          "Count": 2,
+          "CardName": "Searing Blaze"
         },
         {
           "Count": 4,
@@ -3398,40 +3398,44 @@
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Raze"
+          "Count": 1,
+          "CardName": "End the Festivities"
         },
         {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
+          "Count": 4,
+          "CardName": "Raze"
         },
         {
           "Count": 3,
           "CardName": "Red Elemental Blast"
         },
         {
-          "Count": 4,
-          "CardName": "Smash to Smithereens"
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
         },
         {
-          "Count": 1,
-          "CardName": "End the Festivities"
+          "Count": 4,
+          "CardName": "Smash to Smithereens"
         }
       ]
     },
     {
-      "Date": "2023-05-13T00:00:00Z",
+      "Date": "2023-05-13T09:00:00",
       "Player": "NickNorman",
       "Result": "32th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-05-1312549052#deck_NickNorman",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_NickNorman",
       "Mainboard": [
         {
-          "Count": 17,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 3,
+          "CardName": "End the Festivities"
         },
         {
           "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Experimental Synthesizer"
         },
         {
           "Count": 1,
@@ -3439,31 +3443,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Searing Blaze"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chain Lightning"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
+          "CardName": "Kessig Flamebreather"
         },
         {
           "Count": 3,
           "CardName": "Lava Dart"
         },
         {
-          "Count": 3,
-          "CardName": "Thermo-Alchemist"
-        },
-        {
-          "Count": 3,
-          "CardName": "End the Festivities"
+          "Count": 4,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
-          "CardName": "Kessig Flamebreather"
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 17,
+          "CardName": "Mountain"
         },
         {
           "Count": 4,
@@ -3471,11 +3467,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Experimental Synthesizer"
+          "CardName": "Searing Blaze"
         },
         {
           "Count": 1,
           "CardName": "The Autonomous Furnace"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thermo-Alchemist"
         },
         {
           "Count": 4,
@@ -3484,8 +3484,8 @@
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Relic of Progenitus"
+          "Count": 1,
+          "CardName": "End the Festivities"
         },
         {
           "Count": 3,
@@ -3497,15 +3497,1845 @@
         },
         {
           "Count": 3,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 3,
           "CardName": "Shattering Blow"
         },
         {
           "Count": 2,
           "CardName": "Smash to Smithereens"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "eduardojmp",
+      "Result": "33th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_eduardojmp",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Abundant Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ancestral Mask"
+        },
+        {
+          "Count": 4,
+          "CardName": "Armadillo Cloak"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ash Barrens"
+        },
+        {
+          "Count": 2,
+          "CardName": "Cartouche of Solidarity"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of Temptation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Commune with Spirits"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ethereal Armor"
+        },
+        {
+          "Count": 11,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gladecover Scout"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rancor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sentinel's Eyes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Silhana Ledgewalker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slippery Bogle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spirit Link"
+        },
+        {
+          "Count": 4,
+          "CardName": "Utopia Sprawl"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Freewind Falcon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gut Shot"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ram Through"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scattershot Archer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spirit Link"
+        },
+        {
+          "Count": 2,
+          "CardName": "Standard Bearer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vitality Charm"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "_DissonancE_",
+      "Result": "34th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck__DissonancE_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Battle Screech"
+        },
+        {
+          "Count": 3,
+          "CardName": "Guardians' Pledge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Idyllic Grange"
+        },
+        {
+          "Count": 4,
+          "CardName": "Journey to Nowhere"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lunarch Veteran"
+        },
+        {
+          "Count": 4,
+          "CardName": "Militia Bugler"
+        },
+        {
+          "Count": 18,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Prismatic Strands"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine's Informant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Recommission"
+        },
+        {
+          "Count": 4,
+          "CardName": "Squadron Hawk"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Crimson Acolyte"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ramosian Rally"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Revoke Existence"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sunlance"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "PieGonti",
+      "Result": "35th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_PieGonti",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brinebarrow Intruder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Miscreant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Seer"
+        },
+        {
+          "Count": 18,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Moon-Circuit Hacker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 4,
+          "CardName": "Of One Mind"
+        },
+        {
+          "Count": 1,
+          "CardName": "Saiba Cryptomancer"
+        },
+        {
+          "Count": 1,
+          "CardName": "Smoke Shroud"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snap"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Annul"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Steel Sabotage"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "Hampuse1",
+      "Result": "36th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Hampuse1",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Ardent Elementalist"
+        },
+        {
+          "Count": 1,
+          "CardName": "Boros Garrison"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 1,
+          "CardName": "Electrickery"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Faithless Looting"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goliath Paladin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Journey to Nowhere"
+        },
+        {
+          "Count": 1,
+          "CardName": "Late to Dinner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Palace Sentinels"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prismatic Strands"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rustvale Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slagwoods Bridge"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stonehorn Dignitary"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Arashin Cleric"
+        },
+        {
+          "Count": 2,
+          "CardName": "Breath Weapon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Red Elemental Blast"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "_Batutinha_",
+      "Result": "37th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck__Batutinha_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Basilisk Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Black Dragon Gate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Cast Down"
+        },
+        {
+          "Count": 4,
+          "CardName": "Citadel Gate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gatecreeper Vine"
+        },
+        {
+          "Count": 4,
+          "CardName": "Guardian of the Guildpact"
+        },
+        {
+          "Count": 2,
+          "CardName": "Heap Gate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Journey to Nowhere"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 4,
+          "CardName": "Manor Gate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sacred Cat"
+        },
+        {
+          "Count": 4,
+          "CardName": "Saruli Gatekeepers"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flaring Pain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Red Elemental Blast"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "ivanguille",
+      "Result": "38th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_ivanguille",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Archaeomancer"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ash Barrens"
+        },
+        {
+          "Count": 4,
+          "CardName": "Augur of Bolas"
+        },
+        {
+          "Count": 2,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flame Slash"
+        },
+        {
+          "Count": 1,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Late to Dinner"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mulldrifter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rustvale Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silverbluff Bridge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Skred"
+        },
+        {
+          "Count": 2,
+          "CardName": "Smash to Dust"
+        },
+        {
+          "Count": 9,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Breath Weapon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Destroy Evil"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Revoke Existence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormod's Crypt"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "SanPop",
+      "Result": "39th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_SanPop",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Bind the Monster"
+        },
+        {
+          "Count": 3,
+          "CardName": "Brinebarrow Intruder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Miscreant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Seer"
+        },
+        {
+          "Count": 19,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Moon-Circuit Hacker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Moonblade Shinobi"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ninja of the Deep Hours"
+        },
+        {
+          "Count": 4,
+          "CardName": "Saiba Cryptomancer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Smoke Shroud"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snap"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spellstutter Sprite"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Annul"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Inside Out"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spire Golem"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "Forgerred",
+      "Result": "40th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Forgerred",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Avenging Hunter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blood Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cast Down"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Crypt Rats"
+        },
+        {
+          "Count": 1,
+          "CardName": "Crystal Grotto"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fungal Infection"
+        },
+        {
+          "Count": 2,
+          "CardName": "Golgari Rot Farm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ichor Wellspring"
+        },
+        {
+          "Count": 4,
+          "CardName": "Khalni Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Llanowar Visionary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pulse of Murasa"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spinning Darkness"
+        },
+        {
+          "Count": 7,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thorn of the Black Rose"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vault of Whispers"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Crypt Rats"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fangren Marauder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gorilla Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Weather the Storm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wrench Mind"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "medvedev",
+      "Result": "41th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_medvedev",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Avenging Hunter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Barren Moor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blood Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cast Down"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Crypt Rats"
+        },
+        {
+          "Count": 1,
+          "CardName": "Crystal Grotto"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fungal Infection"
+        },
+        {
+          "Count": 3,
+          "CardName": "Golgari Rot Farm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ichor Wellspring"
+        },
+        {
+          "Count": 4,
+          "CardName": "Khalni Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Llanowar Visionary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pulse of Murasa"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spinning Darkness"
+        },
+        {
+          "Count": 8,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thorn of the Black Rose"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vault of Whispers"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Crypt Rats"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fangren Marauder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gorilla Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Raven's Crime"
+        },
+        {
+          "Count": 1,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 3,
+          "CardName": "Weather the Storm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wrench Mind"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "Tunaktunak",
+      "Result": "42th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Tunaktunak",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cast Down"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goliath Paladin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kor Skyfisher"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Storefront"
+        },
+        {
+          "Count": 1,
+          "CardName": "Omen of the Dead"
+        },
+        {
+          "Count": 4,
+          "CardName": "Orzhov Basilica"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scoured Barrens"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Suffocating Fumes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thraben Inspector"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unmake"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vampire Sovereign"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Arms of Hadar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Honorable Scout"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lone Missionary"
+        },
+        {
+          "Count": 3,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Revoke Existence"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "LuffyDoChapeuDePalha",
+      "Result": "43th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_LuffyDoChapeuDePalha",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Blood Fountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Chromatic Star"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 4,
+          "CardName": "Drossforge Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gearseeker Serpent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Great Furnace"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ichor Wellspring"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kenku Artificer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Krark-Clan Shaman"
+        },
+        {
+          "Count": 2,
+          "CardName": "Makeshift Munitions"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mistvault Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Myr Enforcer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silverbluff Bridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtcast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vault of Whispers"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Breath Weapon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 3,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unexpected Fangs"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "Eonwe7",
+      "Result": "44th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Eonwe7",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Blood Fountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cast Down"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chromatic Star"
+        },
+        {
+          "Count": 2,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Drossforge Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gearseeker Serpent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Great Furnace"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ichor Wellspring"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kenku Artificer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Krark-Clan Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mistvault Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Myr Enforcer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner's Bargain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silverbluff Bridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Suffocating Fumes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thoughtcast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vault of Whispers"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Krark-Clan Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unexpected Fangs"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "Mahers",
+      "Result": "45th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_Mahers",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 2,
+          "CardName": "End the Festivities"
+        },
+        {
+          "Count": 4,
+          "CardName": "Experimental Synthesizer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fireblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forgotten Cave"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kessig Flamebreather"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lava Dart"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 17,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Impulse"
+        },
+        {
+          "Count": 3,
+          "CardName": "Skewer the Critics"
+        },
+        {
+          "Count": 4,
+          "CardName": "Voldaren Epicure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wrenn's Resolve"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Electrickery"
         },
         {
           "Count": 1,
           "CardName": "End the Festivities"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flame Slash"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flaring Pain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Smash to Smithereens"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "AlpInco",
+      "Result": "46th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_AlpInco",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Abrade"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ardent Elementalist"
+        },
+        {
+          "Count": 1,
+          "CardName": "Boros Garrison"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 1,
+          "CardName": "Electrickery"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ephemerate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Faithless Looting"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goliath Paladin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inspiring Overseer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Journey to Nowhere"
+        },
+        {
+          "Count": 1,
+          "CardName": "Late to Dinner"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Palace Sentinels"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prismatic Strands"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rustvale Bridge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slagwoods Bridge"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spirited Companion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stonehorn Dignitary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thornglint Bridge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Arashin Cleric"
+        },
+        {
+          "Count": 2,
+          "CardName": "Breath Weapon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dawnbringer Cleric"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dust to Dust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gorilla Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pyroblast"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "WErN8ZumHhedL0rp",
+      "Result": "47th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck_WErN8ZumHhedL0rp",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Experimental Synthesizer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fireblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Firebrand Archer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kessig Flamebreather"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lava Dart"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 16,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Impulse"
+        },
+        {
+          "Count": 3,
+          "CardName": "Searing Blaze"
+        },
+        {
+          "Count": 1,
+          "CardName": "Teach by Example"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Autonomous Furnace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Voldaren Epicure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wrenn's Resolve"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "End the Festivities"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flame Slash"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raze"
+        },
+        {
+          "Count": 1,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Searing Blaze"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shattering Blow"
+        },
+        {
+          "Count": 2,
+          "CardName": "Smash to Smithereens"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "_dr4gun0v_",
+      "Result": "48th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck__dr4gun0v_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Apostle's Blessing"
+        },
+        {
+          "Count": 4,
+          "CardName": "Crash Through"
+        },
+        {
+          "Count": 4,
+          "CardName": "Festival Crasher"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ghitu Amplifier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kiln Fiend"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lava Dart"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Manamorphose"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 18,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutagenic Growth"
+        },
+        {
+          "Count": 3,
+          "CardName": "Reckless Impulse"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temur Battle Rage"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Brute Force"
+        },
+        {
+          "Count": 2,
+          "CardName": "End the Festivities"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flaring Pain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underworld Rage-Hound"
+        }
+      ]
+    },
+    {
+      "Date": "2023-05-13T09:00:00",
+      "Player": "_Falcon_",
+      "Result": "49th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/pauper-challenge-2023-05-1312549052#deck__Falcon_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 3,
+          "CardName": "Consider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Contaminated Aquifer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deep Analysis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gurmag Angler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ice Tunnel"
+        },
+        {
+          "Count": 10,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mental Note"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 1,
+          "CardName": "Suffocating Fumes"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Scour"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tolarian Terror"
+        },
+        {
+          "Count": 3,
+          "CardName": "Unexpected Fangs"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Annul"
+        },
+        {
+          "Count": 1,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Chainer's Edict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Rotten Reunion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shrivel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Suffocating Fumes"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thorn of the Black Rose"
         }
       ]
     }
@@ -3818,6 +5648,134 @@
       "OMWP": 0.5556,
       "GWP": 0.3571,
       "OGWP": 0.5342
+    },
+    {
+      "Rank": 33,
+      "Player": "eduardojmp",
+      "Points": 6,
+      "OMWP": 0.5,
+      "GWP": 0.375,
+      "OGWP": 0.5056
+    },
+    {
+      "Rank": 34,
+      "Player": "_DissonancE_",
+      "Points": 6,
+      "OMWP": 0.4722,
+      "GWP": 0.3846,
+      "OGWP": 0.4389
+    },
+    {
+      "Rank": 35,
+      "Player": "PieGonti",
+      "Points": 6,
+      "OMWP": 0.4722,
+      "GWP": 0.2857,
+      "OGWP": 0.5022
+    },
+    {
+      "Rank": 36,
+      "Player": "Hampuse1",
+      "Points": 6,
+      "OMWP": 0.4444,
+      "GWP": 0.375,
+      "OGWP": 0.4611
+    },
+    {
+      "Rank": 37,
+      "Player": "_Batutinha_",
+      "Points": 6,
+      "OMWP": 0.4167,
+      "GWP": 0.4,
+      "OGWP": 0.4418
+    },
+    {
+      "Rank": 38,
+      "Player": "ivanguille",
+      "Points": 6,
+      "OMWP": 0.3889,
+      "GWP": 0.4375,
+      "OGWP": 0.4155
+    },
+    {
+      "Rank": 39,
+      "Player": "SanPop",
+      "Points": 3,
+      "OMWP": 0.5556,
+      "GWP": 0.375,
+      "OGWP": 0.5834
+    },
+    {
+      "Rank": 40,
+      "Player": "Forgerred",
+      "Points": 3,
+      "OMWP": 0.5333,
+      "GWP": 0.3571,
+      "OGWP": 0.525
+    },
+    {
+      "Rank": 41,
+      "Player": "medvedev",
+      "Points": 3,
+      "OMWP": 0.5,
+      "GWP": 0.3846,
+      "OGWP": 0.4784
+    },
+    {
+      "Rank": 42,
+      "Player": "Tunaktunak",
+      "Points": 3,
+      "OMWP": 0.3889,
+      "GWP": 0.3333,
+      "OGWP": 0.4224
+    },
+    {
+      "Rank": 43,
+      "Player": "LuffyDoChapeuDePalha",
+      "Points": 3,
+      "OMWP": 0.3889,
+      "GWP": 0.2857,
+      "OGWP": 0.4012
+    },
+    {
+      "Rank": 44,
+      "Player": "Eonwe7",
+      "Points": 0,
+      "OMWP": 0.8333,
+      "GWP": 0.0,
+      "OGWP": 0.8462
+    },
+    {
+      "Rank": 45,
+      "Player": "Mahers",
+      "Points": 0,
+      "OMWP": 0.8333,
+      "GWP": 0.0,
+      "OGWP": 0.7143
+    },
+    {
+      "Rank": 46,
+      "Player": "AlpInco",
+      "Points": 0,
+      "OMWP": 0.6111,
+      "GWP": 0.0,
+      "OGWP": 0.5683
+    },
+    {
+      "Rank": 47,
+      "Player": "WErN8ZumHhedL0rp",
+      "Points": 0,
+      "OMWP": 0.5833,
+      "GWP": 0.2,
+      "OGWP": 0.5479
+    },
+    {
+      "Rank": 48,
+      "Player": "_dr4gun0v_",
+      "Points": 0,
+      "OMWP": 0.3889,
+      "GWP": 0.1429,
+      "OGWP": 0.4139
     }
   ]
 }

@@ -2,22 +2,22 @@
   "Tournament": {
     "Date": "2023-06-22T00:00:00Z",
     "Name": "Legacy Preliminary",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/legacy-preliminary-2023-06-2212560101"
+    "Uri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101"
   },
   "Decks": [
     {
-      "Date": "2023-06-22T00:00:00Z",
+      "Date": "2023-06-22T22:00:00",
       "Player": "CrusherBotBG",
       "Result": "4-0",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-preliminary-2023-06-2212560101#deck_CrusherBotBG",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_CrusherBotBG",
       "Mainboard": [
         {
           "Count": 4,
           "CardName": "Ancient Den"
         },
         {
-          "Count": 1,
-          "CardName": "Sword of Fire and Ice"
+          "Count": 4,
+          "CardName": "Colossus Hammer"
         },
         {
           "Count": 1,
@@ -25,7 +25,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Stoneforge Mystic"
+          "CardName": "Esper Sentinel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ingenious Smith"
         },
         {
           "Count": 1,
@@ -33,27 +37,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Mox Opal"
-        },
-        {
-          "Count": 4,
-          "CardName": "Puresteel Paladin"
-        },
-        {
-          "Count": 1,
-          "CardName": "Paradise Mantle"
-        },
-        {
-          "Count": 3,
-          "CardName": "Wasteland"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sigarda's Aid"
-        },
-        {
-          "Count": 4,
           "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mox Opal"
         },
         {
           "Count": 3,
@@ -61,7 +49,23 @@
         },
         {
           "Count": 1,
+          "CardName": "Paradise Mantle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Puresteel Paladin"
+        },
+        {
+          "Count": 1,
           "CardName": "Retrofitter Foundry"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadowspear"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sigarda's Aid"
         },
         {
           "Count": 4,
@@ -73,54 +77,224 @@
         },
         {
           "Count": 4,
-          "CardName": "Colossus Hammer"
+          "CardName": "Stoneforge Mystic"
         },
         {
           "Count": 1,
-          "CardName": "Shadowspear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Esper Sentinel"
+          "CardName": "Sword of Fire and Ice"
         },
         {
           "Count": 4,
           "CardName": "Urza's Saga"
         },
         {
-          "Count": 4,
-          "CardName": "Ingenious Smith"
+          "Count": 3,
+          "CardName": "Wasteland"
         }
       ],
       "Sideboard": [
         {
           "Count": 4,
-          "CardName": "Swords to Plowshares"
+          "CardName": "Leyline of the Void"
+        },
+        {
+          "Count": 2,
+          "CardName": "Loran of the Third Path"
         },
         {
           "Count": 4,
           "CardName": "Mana Tithe"
         },
         {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
           "Count": 4,
-          "CardName": "Leyline of the Void"
+          "CardName": "Swords to Plowshares"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "Deimus_",
+      "Result": "3-1",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_Deimus_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Ancient Tomb"
+        },
+        {
+          "Count": 2,
+          "CardName": "Boseiju, Who Endures"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chalice of the Void"
+        },
+        {
+          "Count": 4,
+          "CardName": "Emry, Lurker of the Loch"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Haywire Mite"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kappa Cannoneer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mishra's Bauble"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mox Opal"
+        },
+        {
+          "Count": 2,
+          "CardName": "Orcish Bowmasters"
+        },
+        {
+          "Count": 2,
+          "CardName": "Otawara, Soaring City"
         },
         {
           "Count": 1,
           "CardName": "Pithing Needle"
         },
         {
+          "Count": 1,
+          "CardName": "Sai, Master Thopterist"
+        },
+        {
+          "Count": 4,
+          "CardName": "Seat of the Synod"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadowspear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thought Monitor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtcast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unlicensed Hearse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Bauble"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Saga"
+        }
+      ],
+      "Sideboard": [
+        {
           "Count": 2,
-          "CardName": "Loran of the Third Path"
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 2,
+          "CardName": "Faerie Macabre"
+        },
+        {
+          "Count": 3,
+          "CardName": "Force of Negation"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreacher"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hurkyl's Recall"
+        },
+        {
+          "Count": 1,
+          "CardName": "Life from the Loam"
+        },
+        {
+          "Count": 2,
+          "CardName": "Torpor Orb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unlicensed Hearse"
         }
       ]
     },
     {
-      "Date": "2023-06-22T00:00:00Z",
+      "Date": "2023-06-22T22:00:00",
       "Player": "Geodude_Jared",
       "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-preliminary-2023-06-2212560101#deck_Geodude_Jared",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_Geodude_Jared",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Cabal Ritual"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Consider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dark Ritual"
+        },
+        {
+          "Count": 2,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Doomsday"
+        },
+        {
+          "Count": 2,
+          "CardName": "Edge of Autumn"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
         {
           "Count": 1,
           "CardName": "Island"
@@ -138,52 +312,16 @@
           "CardName": "Misdirection"
         },
         {
-          "Count": 2,
-          "CardName": "Daze"
-        },
-        {
-          "Count": 3,
-          "CardName": "Cabal Ritual"
+          "Count": 1,
+          "CardName": "Mishra's Bauble"
         },
         {
           "Count": 2,
-          "CardName": "Edge of Autumn"
-        },
-        {
-          "Count": 2,
-          "CardName": "Street Wraith"
-        },
-        {
-          "Count": 4,
-          "CardName": "Force of Will"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brainstorm"
+          "CardName": "Misty Rainforest"
         },
         {
           "Count": 4,
           "CardName": "Personal Tutor"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dark Ritual"
-        },
-        {
-          "Count": 4,
-          "CardName": "Underground Sea"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cavern of Souls"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 2,
-          "CardName": "Flooded Strand"
         },
         {
           "Count": 2,
@@ -191,45 +329,37 @@
         },
         {
           "Count": 4,
-          "CardName": "Doomsday"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thassa's Oracle"
-        },
-        {
-          "Count": 4,
           "CardName": "Ponder"
-        },
-        {
-          "Count": 2,
-          "CardName": "Misty Rainforest"
         },
         {
           "Count": 3,
           "CardName": "Scalding Tarn"
         },
         {
-          "Count": 1,
-          "CardName": "Consider"
+          "Count": 2,
+          "CardName": "Street Wraith"
         },
         {
-          "Count": 1,
-          "CardName": "Mishra's Bauble"
+          "Count": 2,
+          "CardName": "Thassa's Oracle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 4,
+          "CardName": "Underground Sea"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Skeletal Scrying"
+          "CardName": "Defense Grid"
         },
         {
-          "Count": 3,
-          "CardName": "Leyline of Sanctity"
-        },
-        {
-          "Count": 1,
-          "CardName": "Surgical Extraction"
+          "Count": 2,
+          "CardName": "Duress"
         },
         {
           "Count": 1,
@@ -240,24 +370,28 @@
           "CardName": "Force of Negation"
         },
         {
+          "Count": 3,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
           "Count": 2,
           "CardName": "Mystical Dispute"
         },
         {
-          "Count": 2,
-          "CardName": "Duress"
+          "Count": 1,
+          "CardName": "Skeletal Scrying"
         },
         {
           "Count": 1,
-          "CardName": "Defense Grid"
+          "CardName": "Surgical Extraction"
         }
       ]
     },
     {
-      "Date": "2023-06-22T00:00:00Z",
+      "Date": "2023-06-22T22:00:00",
       "Player": "OSCA66",
       "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-preliminary-2023-06-2212560101#deck_OSCA66",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_OSCA66",
       "Mainboard": [
         {
           "Count": 4,
@@ -268,60 +402,8 @@
           "CardName": "Daze"
         },
         {
-          "Count": 3,
-          "CardName": "Tarmogoyf"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 2,
-          "CardName": "Scalding Tarn"
-        },
-        {
-          "Count": 2,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
           "Count": 4,
           "CardName": "Delver of Secrets"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tropical Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Volcanic Island"
-        },
-        {
-          "Count": 2,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 2,
-          "CardName": "Polluted Delta"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wasteland"
-        },
-        {
-          "Count": 4,
-          "CardName": "Force of Will"
-        },
-        {
-          "Count": 3,
-          "CardName": "Murktide Regent"
         },
         {
           "Count": 4,
@@ -329,21 +411,85 @@
         },
         {
           "Count": 2,
-          "CardName": "Unholy Heat"
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
           "CardName": "Mishra's Bauble"
+        },
+        {
+          "Count": 2,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 3,
+          "CardName": "Murktide Regent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unholy Heat"
+        },
+        {
+          "Count": 4,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Ancient Grudge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Force of Negation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
         {
           "Count": 2,
           "CardName": "Meltdown"
         },
         {
-          "Count": 1,
-          "CardName": "Ancient Grudge"
+          "Count": 2,
+          "CardName": "Minsc & Boo, Timeless Heroes"
         },
         {
           "Count": 4,
@@ -355,47 +501,275 @@
         },
         {
           "Count": 1,
-          "CardName": "Grafdigger's Cage"
+          "CardName": "Sylvan Library"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "mattn",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_mattn",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
         },
         {
           "Count": 1,
-          "CardName": "Sylvan Library"
+          "CardName": "Cabal Ritual"
+        },
+        {
+          "Count": 1,
+          "CardName": "Consider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dark Ritual"
+        },
+        {
+          "Count": 4,
+          "CardName": "Doomsday"
+        },
+        {
+          "Count": 1,
+          "CardName": "Duress"
         },
         {
           "Count": 2,
+          "CardName": "Edge of Autumn"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lion's Eye Diamond"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 3,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Personal Tutor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 2,
+          "CardName": "Street Wraith"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thassa's Oracle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 4,
+          "CardName": "Underground Sea"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 4,
           "CardName": "Force of Negation"
         },
         {
+          "Count": 4,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sheoldred, the Apocalypse"
+        },
+        {
           "Count": 2,
+          "CardName": "Subtlety"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "Wizard_2002",
+      "Result": "1-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_Wizard_2002",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Boseiju, Who Endures"
+        },
+        {
+          "Count": 2,
+          "CardName": "Brazen Borrower"
+        },
+        {
+          "Count": 3,
+          "CardName": "Crashing Footfalls"
+        },
+        {
+          "Count": 4,
+          "CardName": "Elvish Spirit Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fire // Ice"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Negation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 4,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Murktide Regent"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 3,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sea Gate Restoration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shardless Agent"
+        },
+        {
+          "Count": 4,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Taiga"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Violent Outburst"
+        },
+        {
+          "Count": 2,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Wooded Foothills"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Blood Moon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Endurance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Vigor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fury"
+        },
+        {
+          "Count": 1,
+          "CardName": "Inevitable Betrayal"
+        },
+        {
+          "Count": 3,
           "CardName": "Minsc & Boo, Timeless Heroes"
         }
       ]
     },
     {
-      "Date": "2023-06-22T00:00:00Z",
-      "Player": "Deimus_",
-      "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-preliminary-2023-06-2212560101#deck_Deimus_",
+      "Date": "2023-06-22T22:00:00",
+      "Player": "Snusnumrick",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_Snusnumrick",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Island"
+          "Count": 4,
+          "CardName": "Brainstorm"
         },
         {
           "Count": 4,
-          "CardName": "Chalice of the Void"
+          "CardName": "Daze"
         },
         {
           "Count": 4,
-          "CardName": "Seat of the Synod"
+          "CardName": "Delver of Secrets"
         },
         {
           "Count": 4,
-          "CardName": "Urza's Bauble"
+          "CardName": "Dragon's Rage Channeler"
         },
         {
-          "Count": 1,
-          "CardName": "Pithing Needle"
+          "Count": 3,
+          "CardName": "Flooded Strand"
         },
         {
           "Count": 4,
@@ -403,105 +777,869 @@
         },
         {
           "Count": 3,
-          "CardName": "Lotus Petal"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mox Opal"
+          "CardName": "Forth Eorlingas!"
         },
         {
           "Count": 4,
-          "CardName": "Thoughtcast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sai, Master Thopterist"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ancient Tomb"
-        },
-        {
-          "Count": 4,
-          "CardName": "Emry, Lurker of the Loch"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shadowspear"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thought Monitor"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Saga"
-        },
-        {
-          "Count": 2,
-          "CardName": "Boseiju, Who Endures"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kappa Cannoneer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unlicensed Hearse"
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
           "CardName": "Mishra's Bauble"
         },
         {
+          "Count": 2,
+          "CardName": "Misty Rainforest"
+        },
+        {
           "Count": 1,
-          "CardName": "Haywire Mite"
+          "CardName": "Mystic Sanctuary"
         },
         {
           "Count": 2,
-          "CardName": "Orcish Bowmasters"
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pteramander"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Engineered Explosives"
-        },
-        {
-          "Count": 1,
-          "CardName": "Life from the Loam"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hurkyl's Recall"
+          "CardName": "Blue Elemental Blast"
         },
         {
           "Count": 2,
-          "CardName": "Torpor Orb"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dismember"
-        },
-        {
-          "Count": 2,
-          "CardName": "Faerie Macabre"
-        },
-        {
-          "Count": 3,
           "CardName": "Force of Negation"
         },
         {
           "Count": 2,
-          "CardName": "Hullbreacher"
+          "CardName": "Grafdigger's Cage"
         },
         {
           "Count": 1,
-          "CardName": "Unlicensed Hearse"
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Meltdown"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wear // Tear"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "RebelSenator",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_RebelSenator",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Animate Dead"
+        },
+        {
+          "Count": 3,
+          "CardName": "Archon of Cruelty"
+        },
+        {
+          "Count": 3,
+          "CardName": "Atraxa, Grand Unifier"
+        },
+        {
+          "Count": 2,
+          "CardName": "Badlands"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dark Ritual"
+        },
+        {
+          "Count": 4,
+          "CardName": "Entomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Exhume"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faithless Looting"
+        },
+        {
+          "Count": 4,
+          "CardName": "Grief"
+        },
+        {
+          "Count": 1,
+          "CardName": "Griselbrand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 2,
+          "CardName": "Marsh Flats"
+        },
+        {
+          "Count": 3,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reanimate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 1,
+          "CardName": "Serra's Emissary"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snow-Covered Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 4,
+          "CardName": "Unmask"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Faerie Macabre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Fatal Push"
+        },
+        {
+          "Count": 1,
+          "CardName": "Iona, Shield of Emeria"
+        },
+        {
+          "Count": 2,
+          "CardName": "Prismatic Ending"
+        },
+        {
+          "Count": 2,
+          "CardName": "Serenity"
+        },
+        {
+          "Count": 4,
+          "CardName": "Show and Tell"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wear // Tear"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "DMianete",
+      "Result": "1-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_DMianete",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Brazen Borrower"
+        },
+        {
+          "Count": 2,
+          "CardName": "Cabal Therapy"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cephalid Illusionist"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dread Return"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Marsh Flats"
+        },
+        {
+          "Count": 3,
+          "CardName": "Narcomoeba"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nomads en-Kor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Orim's Chant"
+        },
+        {
+          "Count": 1,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 1,
+          "CardName": "Retrofitter Foundry"
+        },
+        {
+          "Count": 3,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shuko"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Staff of the Storyteller"
+        },
+        {
+          "Count": 2,
+          "CardName": "Step Through"
+        },
+        {
+          "Count": 2,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thassa's Oracle"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 1,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Urza's Saga"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Faerie Macabre"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Force of Negation"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hurkyl's Recall"
+        },
+        {
+          "Count": 3,
+          "CardName": "Prismatic Ending"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swords to Plowshares"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "qbturtle15",
+      "Result": "0-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_qbturtle15",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dragon's Rage Channeler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mishra's Bauble"
+        },
+        {
+          "Count": 2,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 3,
+          "CardName": "Murktide Regent"
+        },
+        {
+          "Count": 3,
+          "CardName": "Orcish Bowmasters"
+        },
+        {
+          "Count": 2,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Force of Negation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Meltdown"
+        },
+        {
+          "Count": 1,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 4,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snuff Out"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "burnt_taco77",
+      "Result": "1-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_burnt_taco77",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Ancient Tomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Archon of Emeria"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 4,
+          "CardName": "Caves of Chaos Adventurer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Chalice of the Void"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chrome Mox"
+        },
+        {
+          "Count": 4,
+          "CardName": "City of Traitors"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 3,
+          "CardName": "Forth Eorlingas!"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gemstone Caverns"
+        },
+        {
+          "Count": 1,
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plateau"
+        },
+        {
+          "Count": 4,
+          "CardName": "Seasoned Dungeoneer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Solitude"
+        },
+        {
+          "Count": 3,
+          "CardName": "The One Ring"
+        },
+        {
+          "Count": 1,
+          "CardName": "Touch the Spirit Realm"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Containment Priest"
+        },
+        {
+          "Count": 3,
+          "CardName": "Faerie Macabre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Fury"
+        },
+        {
+          "Count": 2,
+          "CardName": "Loran of the Third Path"
+        },
+        {
+          "Count": 3,
+          "CardName": "Magus of the Moon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swords to Plowshares"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "Mzfroste",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_Mzfroste",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Back to Basics"
+        },
+        {
+          "Count": 1,
+          "CardName": "Batterskull"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kaldra Compleat"
+        },
+        {
+          "Count": 3,
+          "CardName": "Orcish Bowmasters"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 3,
+          "CardName": "Prismatic Ending"
+        },
+        {
+          "Count": 3,
+          "CardName": "Prismatic Vista"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snow-Covered Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stoneforge Mystic"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 2,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 1,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wasteland"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Blue Elemental Blast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 1,
+          "CardName": "Opposition Agent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Palace Jailer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plague Engineer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rest in Peace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Trailblazer's Torch"
+        }
+      ]
+    },
+    {
+      "Date": "2023-06-22T22:00:00",
+      "Player": "ASRiccardo",
+      "Result": "",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-preliminary-2023-06-2212560101#deck_ASRiccardo",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Ancient Tomb"
+        },
+        {
+          "Count": 2,
+          "CardName": "Archon of Cruelty"
+        },
+        {
+          "Count": 2,
+          "CardName": "Atraxa, Grand Unifier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 2,
+          "CardName": "City of Traitors"
+        },
+        {
+          "Count": 3,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 3,
+          "CardName": "Emrakul, the Aeons Torn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 2,
+          "CardName": "Griselbrand"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Show and Tell"
+        },
+        {
+          "Count": 1,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sneak Attack"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vesuvan Drifter"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Brotherhood's End"
+        },
+        {
+          "Count": 3,
+          "CardName": "Defense Grid"
+        },
+        {
+          "Count": 2,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Magus of the Moon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Meltdown"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wipe Away"
         }
       ]
     }
@@ -539,6 +1677,70 @@
       "OMWP": 0.4167,
       "GWP": 0.6364,
       "OGWP": 0.4167
+    },
+    {
+      "Rank": 5,
+      "Player": "mattn",
+      "Points": 6,
+      "OMWP": 0.6458,
+      "GWP": 0.4444,
+      "OGWP": 0.6202
+    },
+    {
+      "Rank": 6,
+      "Player": "Wizard_2002",
+      "Points": 6,
+      "OMWP": 0.6111,
+      "GWP": 0.4286,
+      "OGWP": 0.5444
+    },
+    {
+      "Rank": 7,
+      "Player": "Snusnumrick",
+      "Points": 6,
+      "OMWP": 0.6042,
+      "GWP": 0.5556,
+      "OGWP": 0.5258
+    },
+    {
+      "Rank": 8,
+      "Player": "RebelSenator",
+      "Points": 6,
+      "OMWP": 0.5417,
+      "GWP": 0.5,
+      "OGWP": 0.4905
+    },
+    {
+      "Rank": 9,
+      "Player": "DMianete",
+      "Points": 3,
+      "OMWP": 0.625,
+      "GWP": 0.25,
+      "OGWP": 0.5996
+    },
+    {
+      "Rank": 10,
+      "Player": "qbturtle15",
+      "Points": 3,
+      "OMWP": 0.5278,
+      "GWP": 0.25,
+      "OGWP": 0.5121
+    },
+    {
+      "Rank": 11,
+      "Player": "burnt_taco77",
+      "Points": 3,
+      "OMWP": 0.5208,
+      "GWP": 0.4,
+      "OGWP": 0.4861
+    },
+    {
+      "Rank": 12,
+      "Player": "Mzfroste",
+      "Points": 0,
+      "OMWP": 0.625,
+      "GWP": 0.0,
+      "OGWP": 0.6111
     }
   ]
 }

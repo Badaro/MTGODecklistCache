@@ -2,15 +2,55 @@
   "Tournament": {
     "Date": "2020-01-18T00:00:00Z",
     "Name": "Standard Challenge",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839"
+    "Uri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839"
   },
   "Decks": [
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "D00mwake",
       "Result": "1st Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_D00mwake",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_D00mwake",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Castle Ardenvale"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Guidemother"
+        },
+        {
+          "Count": 4,
+          "CardName": "Giant Killer"
+        },
+        {
+          "Count": 1,
+          "CardName": "Haazda Marshal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Healer's Hawk"
+        },
+        {
+          "Count": 4,
+          "CardName": "Heraldic Banner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hunted Witness"
+        },
+        {
+          "Count": 4,
+          "CardName": "Loyal Pegasus"
+        },
+        {
+          "Count": 16,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raise the Alarm"
+        },
         {
           "Count": 4,
           "CardName": "Tithe Taker"
@@ -21,57 +61,17 @@
         },
         {
           "Count": 4,
-          "CardName": "Faerie Guidemother"
-        },
-        {
-          "Count": 1,
-          "CardName": "Haazda Marshal"
-        },
-        {
-          "Count": 4,
-          "CardName": "Loyal Pegasus"
-        },
-        {
-          "Count": 4,
-          "CardName": "Giant Killer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hunted Witness"
-        },
-        {
-          "Count": 4,
-          "CardName": "Heraldic Banner"
-        },
-        {
-          "Count": 4,
-          "CardName": "Castle Ardenvale"
-        },
-        {
-          "Count": 16,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Healer's Hawk"
-        },
-        {
-          "Count": 4,
           "CardName": "Venerated Loxodon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Raise the Alarm"
         }
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Gideon Blackblade"
+          "Count": 3,
+          "CardName": "Devout Decree"
         },
         {
           "Count": 4,
-          "CardName": "Hushbringer"
+          "CardName": "Gideon Blackblade"
         },
         {
           "Count": 1,
@@ -79,27 +79,31 @@
         },
         {
           "Count": 3,
-          "CardName": "Devout Decree"
+          "CardName": "Glass Casket"
         },
         {
-          "Count": 3,
-          "CardName": "Glass Casket"
+          "Count": 4,
+          "CardName": "Hushbringer"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Bertram",
       "Result": "2nd Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Bertram",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Bertram",
       "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Ayara, First of Locthwain"
+        },
         {
           "Count": 1,
           "CardName": "Bolas's Citadel"
         },
         {
-          "Count": 2,
-          "CardName": "Tymaret, Chosen from Death"
+          "Count": 4,
+          "CardName": "Castle Locthwain"
         },
         {
           "Count": 3,
@@ -107,15 +111,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Nightmare Shepherd"
-        },
-        {
-          "Count": 21,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Yarok's Fenlurker"
+          "CardName": "Dread Presence"
         },
         {
           "Count": 4,
@@ -127,7 +123,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Dread Presence"
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nightmare Shepherd"
+        },
+        {
+          "Count": 21,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tymaret, Chosen from Death"
         },
         {
           "Count": 2,
@@ -135,29 +143,29 @@
         },
         {
           "Count": 4,
-          "CardName": "Murderous Rider"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ayara, First of Locthwain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Castle Locthwain"
+          "CardName": "Yarok's Fenlurker"
         }
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Noxious Grasp"
+          "Count": 1,
+          "CardName": "Bolas's Citadel"
         },
         {
           "Count": 2,
           "CardName": "Duress"
         },
         {
+          "Count": 2,
+          "CardName": "Erebos's Intervention"
+        },
+        {
           "Count": 1,
           "CardName": "Liliana, Dreadhorde General"
+        },
+        {
+          "Count": 3,
+          "CardName": "Noxious Grasp"
         },
         {
           "Count": 4,
@@ -170,54 +178,50 @@
         {
           "Count": 1,
           "CardName": "Woe Strider"
-        },
-        {
-          "Count": 1,
-          "CardName": "Bolas's Citadel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Erebos's Intervention"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "albertoSD",
       "Result": "3rd Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_albertoSD",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_albertoSD",
       "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Fabled Passage"
+          "CardName": "Arboreal Grazer"
         },
         {
           "Count": 4,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cavalier of Thorns"
-        },
-        {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 2,
-          "CardName": "Finale of Devastation"
+          "CardName": "Breeding Pool"
         },
         {
           "Count": 2,
           "CardName": "Castle Garenbrig"
         },
         {
-          "Count": 4,
-          "CardName": "Nissa, Who Shakes the World"
+          "Count": 2,
+          "CardName": "Castle Vantress"
         },
         {
           "Count": 4,
-          "CardName": "Risen Reef"
+          "CardName": "Cavalier of Thorns"
+        },
+        {
+          "Count": 1,
+          "CardName": "End-Raze Forerunners"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Finale of Devastation"
+        },
+        {
+          "Count": 9,
+          "CardName": "Forest"
         },
         {
           "Count": 4,
@@ -228,98 +232,16 @@
           "CardName": "Hydroid Krasis"
         },
         {
-          "Count": 9,
-          "CardName": "Forest"
-        },
-        {
           "Count": 4,
-          "CardName": "Leafkin Druid"
-        },
-        {
-          "Count": 2,
-          "CardName": "Arboreal Grazer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Castle Vantress"
-        },
-        {
-          "Count": 4,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 4,
-          "CardName": "Temple of Mystery"
-        },
-        {
-          "Count": 1,
-          "CardName": "Thassa, Deep-Dwelling"
-        },
-        {
-          "Count": 1,
-          "CardName": "End-Raze Forerunners"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Shifting Ceratops"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lovestruck Beast"
-        },
-        {
-          "Count": 3,
-          "CardName": "Wicked Wolf"
-        },
-        {
-          "Count": 3,
-          "CardName": "Aether Gust"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mystical Dispute"
-        },
-        {
-          "Count": 1,
-          "CardName": "Thassa, Deep-Dwelling"
-        }
-      ]
-    },
-    {
-      "Date": "2020-01-18T00:00:00Z",
-      "Player": "JakeHelms",
-      "Result": "4th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_JakeHelms",
-      "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Leafkin Druid"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Akroan War"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple of Epiphany"
-        },
-        {
-          "Count": 3,
-          "CardName": "Neoform"
-        },
-        {
-          "Count": 4,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 1,
           "CardName": "Island"
         },
         {
-          "Count": 2,
-          "CardName": "Claim the Firstborn"
+          "Count": 4,
+          "CardName": "Leafkin Druid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nissa, Who Shakes the World"
         },
         {
           "Count": 4,
@@ -327,23 +249,57 @@
         },
         {
           "Count": 4,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 3,
           "CardName": "Temple of Mystery"
         },
         {
-          "Count": 4,
-          "CardName": "Stomping Ground"
+          "Count": 1,
+          "CardName": "Thassa, Deep-Dwelling"
         },
         {
           "Count": 4,
-          "CardName": "Nissa, Who Shakes the World"
+          "CardName": "Uro, Titan of Nature's Wrath"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Aether Gust"
         },
         {
           "Count": 3,
-          "CardName": "Paradise Druid"
+          "CardName": "Lovestruck Beast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shifting Ceratops"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thassa, Deep-Dwelling"
+        },
+        {
+          "Count": 3,
+          "CardName": "Wicked Wolf"
+        }
+      ]
+    },
+    {
+      "Date": "2020-01-18T14:00:00",
+      "Player": "JakeHelms",
+      "Result": "4th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_JakeHelms",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 2,
+          "CardName": "Castle Vantress"
         },
         {
           "Count": 3,
@@ -354,24 +310,8 @@
           "CardName": "Chandra, Acolyte of Flame"
         },
         {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Omnath, Locus of the Roil"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thassa, Deep-Dwelling"
-        },
-        {
           "Count": 2,
-          "CardName": "Temple of Abandon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Castle Vantress"
+          "CardName": "Claim the Firstborn"
         },
         {
           "Count": 1,
@@ -379,11 +319,71 @@
         },
         {
           "Count": 2,
-          "CardName": "Hydroid Krasis"
+          "CardName": "Forest"
         },
         {
           "Count": 2,
-          "CardName": "Forest"
+          "CardName": "Hydroid Krasis"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leafkin Druid"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Neoform"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 3,
+          "CardName": "Omnath, Locus of the Roil"
+        },
+        {
+          "Count": 3,
+          "CardName": "Paradise Druid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Risen Reef"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Abandon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple of Epiphany"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temple of Mystery"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thassa, Deep-Dwelling"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Akroan War"
         }
       ],
       "Sideboard": [
@@ -392,24 +392,24 @@
           "CardName": "Act of Treason"
         },
         {
+          "Count": 1,
+          "CardName": "Agent of Treachery"
+        },
+        {
           "Count": 2,
-          "CardName": "Mystic Repeal"
+          "CardName": "Chandra, Awakened Inferno"
         },
         {
           "Count": 2,
           "CardName": "Claim the Firstborn"
         },
         {
-          "Count": 1,
-          "CardName": "Shifting Ceratops"
+          "Count": 2,
+          "CardName": "Mystic Repeal"
         },
         {
           "Count": 2,
           "CardName": "Mystical Dispute"
-        },
-        {
-          "Count": 1,
-          "CardName": "Agent of Treachery"
         },
         {
           "Count": 2,
@@ -417,31 +417,23 @@
         },
         {
           "Count": 1,
-          "CardName": "Whirlwind Denial"
+          "CardName": "Shifting Ceratops"
         },
         {
-          "Count": 2,
-          "CardName": "Chandra, Awakened Inferno"
+          "Count": 1,
+          "CardName": "Whirlwind Denial"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "yamakiller",
       "Result": "5th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_yamakiller",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_yamakiller",
       "Mainboard": [
         {
-          "Count": 9,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
-        {
           "Count": 4,
-          "CardName": "Gutterbones"
+          "CardName": "Blacklance Paragon"
         },
         {
           "Count": 4,
@@ -452,20 +444,32 @@
           "CardName": "Bonecrusher Giant"
         },
         {
+          "Count": 1,
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Drill Bit"
+        },
+        {
           "Count": 4,
           "CardName": "Embercleave"
         },
         {
-          "Count": 1,
-          "CardName": "Castle Locthwain"
+          "Count": 4,
+          "CardName": "Fervent Champion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gutterbones"
         },
         {
           "Count": 4,
           "CardName": "Knight of the Ebon Legion"
         },
         {
-          "Count": 4,
-          "CardName": "Blacklance Paragon"
+          "Count": 6,
+          "CardName": "Mountain"
         },
         {
           "Count": 2,
@@ -477,29 +481,37 @@
         },
         {
           "Count": 4,
-          "CardName": "Tournament Grounds"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fervent Champion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Drill Bit"
-        },
-        {
-          "Count": 4,
           "CardName": "Stormfist Crusader"
+        },
+        {
+          "Count": 9,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tournament Grounds"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Legion's End"
+          "CardName": "Cavalier of Night"
         },
         {
           "Count": 3,
           "CardName": "Embereth Shieldbreaker"
+        },
+        {
+          "Count": 2,
+          "CardName": "Epic Downfall"
+        },
+        {
+          "Count": 2,
+          "CardName": "Legion's End"
+        },
+        {
+          "Count": 1,
+          "CardName": "Massacre Girl"
         },
         {
           "Count": 2,
@@ -511,59 +523,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Cavalier of Night"
-        },
-        {
-          "Count": 2,
           "CardName": "Spawn of Mayhem"
-        },
-        {
-          "Count": 1,
-          "CardName": "Massacre Girl"
-        },
-        {
-          "Count": 2,
-          "CardName": "Epic Downfall"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "__forge__",
       "Result": "6th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck___forge__",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck___forge__",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Witch's Oven"
-        },
-        {
-          "Count": 3,
-          "CardName": "Rix Maadi Reveler"
-        },
-        {
-          "Count": 3,
-          "CardName": "Drag to the Underworld"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cauldron Familiar"
-        },
-        {
-          "Count": 2,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 7,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mayhem Devil"
+          "CardName": "Blood Crypt"
         },
         {
           "Count": 3,
@@ -571,7 +543,19 @@
         },
         {
           "Count": 3,
-          "CardName": "Nightmare Shepherd"
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cauldron Familiar"
+        },
+        {
+          "Count": 3,
+          "CardName": "Drag to the Underworld"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fabled Passage"
         },
         {
           "Count": 4,
@@ -579,38 +563,42 @@
         },
         {
           "Count": 4,
-          "CardName": "Woe Strider"
+          "CardName": "Mayhem Devil"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nightmare Shepherd"
         },
         {
           "Count": 4,
           "CardName": "Priest of Forgotten Gods"
         },
         {
+          "Count": 3,
+          "CardName": "Rix Maadi Reveler"
+        },
+        {
+          "Count": 7,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 4,
           "CardName": "Temple of Malice"
         },
         {
-          "Count": 3,
-          "CardName": "Castle Locthwain"
+          "Count": 4,
+          "CardName": "Witch's Oven"
         },
         {
           "Count": 4,
-          "CardName": "Blood Crypt"
+          "CardName": "Woe Strider"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Experimental Frenzy"
-        },
-        {
-          "Count": 2,
-          "CardName": "Embereth Shieldbreaker"
-        },
         {
           "Count": 1,
           "CardName": "Careless Celebrant"
@@ -624,20 +612,32 @@
           "CardName": "Drill Bit"
         },
         {
+          "Count": 2,
+          "CardName": "Embereth Shieldbreaker"
+        },
+        {
           "Count": 3,
           "CardName": "Epic Downfall"
+        },
+        {
+          "Count": 2,
+          "CardName": "Experimental Frenzy"
+        },
+        {
+          "Count": 2,
+          "CardName": "Noxious Grasp"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "ChezChelios",
       "Result": "7th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_ChezChelios",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_ChezChelios",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Forest"
+          "Count": 4,
+          "CardName": "Aether Gust"
         },
         {
           "Count": 4,
@@ -645,15 +645,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Overgrown Tomb"
+          "CardName": "Casualties of War"
         },
         {
-          "Count": 3,
-          "CardName": "Temple of Malady"
+          "Count": 4,
+          "CardName": "Deathsprout"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Growth Spiral"
         },
         {
           "Count": 4,
           "CardName": "Hydroid Krasis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
         },
         {
           "Count": 4,
@@ -661,23 +677,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Deathsprout"
+          "CardName": "Overgrown Tomb"
         },
         {
-          "Count": 3,
-          "CardName": "Temple of Mystery"
+          "Count": 4,
+          "CardName": "Paradise Druid"
         },
         {
           "Count": 2,
           "CardName": "Swamp"
         },
         {
-          "Count": 4,
-          "CardName": "Fabled Passage"
+          "Count": 3,
+          "CardName": "Temple of Malady"
         },
         {
-          "Count": 4,
-          "CardName": "Aether Gust"
+          "Count": 3,
+          "CardName": "Temple of Mystery"
         },
         {
           "Count": 4,
@@ -685,41 +701,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Paradise Druid"
-        },
-        {
-          "Count": 4,
           "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Casualties of War"
-        },
-        {
-          "Count": 4,
-          "CardName": "Growth Spiral"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Enter the God-Eternals"
+        },
         {
           "Count": 4,
           "CardName": "Mystical Dispute"
         },
         {
           "Count": 2,
-          "CardName": "Ritual of Soot"
-        },
-        {
-          "Count": 4,
-          "CardName": "Enter the God-Eternals"
+          "CardName": "Noxious Grasp"
         },
         {
           "Count": 2,
-          "CardName": "Noxious Grasp"
+          "CardName": "Ritual of Soot"
         },
         {
           "Count": 3,
@@ -728,70 +728,42 @@
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Tutuzinho",
       "Result": "8th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Tutuzinho",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Tutuzinho",
       "Mainboard": [
         {
           "Count": 3,
           "CardName": "Ashiok, Nightmare Muse"
         },
         {
-          "Count": 3,
-          "CardName": "Mortify"
-        },
-        {
           "Count": 4,
-          "CardName": "Teferi, Time Raveler"
+          "CardName": "Atris, Oracle of Half-Truths"
         },
         {
-          "Count": 3,
-          "CardName": "Tyrant's Scorn"
-        },
-        {
-          "Count": 3,
-          "CardName": "Oath of Kaya"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple of Enlightenment"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Erasure"
+          "Count": 1,
+          "CardName": "Castle Locthwain"
         },
         {
           "Count": 3,
           "CardName": "Despark"
         },
         {
-          "Count": 4,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Atris, Oracle of Half-Truths"
-        },
-        {
           "Count": 2,
           "CardName": "Dream Trawler"
         },
         {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple of Deceit"
+          "Count": 4,
+          "CardName": "Fabled Passage"
         },
         {
           "Count": 4,
           "CardName": "Godless Shrine"
         },
         {
-          "Count": 1,
-          "CardName": "Castle Locthwain"
+          "Count": 4,
+          "CardName": "Hallowed Fountain"
         },
         {
           "Count": 4,
@@ -799,7 +771,35 @@
         },
         {
           "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mortify"
+        },
+        {
+          "Count": 3,
+          "CardName": "Oath of Kaya"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
           "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple of Deceit"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Enlightenment"
         },
         {
           "Count": 1,
@@ -807,37 +807,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Hallowed Fountain"
+          "CardName": "Thought Erasure"
         },
         {
-          "Count": 2,
-          "CardName": "Plains"
+          "Count": 3,
+          "CardName": "Tyrant's Scorn"
         },
         {
           "Count": 4,
-          "CardName": "Fabled Passage"
+          "CardName": "Watery Grave"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Time Wipe"
-        },
-        {
-          "Count": 2,
-          "CardName": "Elspeth Conquers Death"
-        },
-        {
-          "Count": 1,
-          "CardName": "Liliana, Dreadhorde General"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kaya, Orzhov Usurper"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dovin's Veto"
+          "CardName": "Despark"
         },
         {
           "Count": 2,
@@ -845,43 +829,43 @@
         },
         {
           "Count": 2,
-          "CardName": "Noxious Grasp"
+          "CardName": "Dovin's Veto"
+        },
+        {
+          "Count": 2,
+          "CardName": "Elspeth Conquers Death"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kaya, Orzhov Usurper"
+        },
+        {
+          "Count": 1,
+          "CardName": "Liliana, Dreadhorde General"
         },
         {
           "Count": 2,
           "CardName": "Mystical Dispute"
         },
         {
+          "Count": 2,
+          "CardName": "Noxious Grasp"
+        },
+        {
           "Count": 1,
-          "CardName": "Despark"
+          "CardName": "Time Wipe"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "azureu09",
       "Result": "9th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_azureu09",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_azureu09",
       "Mainboard": [
         {
           "Count": 4,
           "CardName": "Ayara, First of Locthwain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lazotep Reaver"
-        },
-        {
-          "Count": 3,
-          "CardName": "Woe Strider"
-        },
-        {
-          "Count": 2,
-          "CardName": "Midnight Reaper"
-        },
-        {
-          "Count": 20,
-          "CardName": "Swamp"
         },
         {
           "Count": 3,
@@ -889,11 +873,23 @@
         },
         {
           "Count": 4,
+          "CardName": "Burglar Rat"
+        },
+        {
+          "Count": 4,
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 4,
           "CardName": "Gray Merchant of Asphodel"
         },
         {
           "Count": 4,
-          "CardName": "Yarok's Fenlurker"
+          "CardName": "Lazotep Reaver"
+        },
+        {
+          "Count": 2,
+          "CardName": "Midnight Reaper"
         },
         {
           "Count": 4,
@@ -901,15 +897,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Burglar Rat"
-        },
-        {
-          "Count": 4,
           "CardName": "Nightmare Shepherd"
         },
         {
+          "Count": 20,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Woe Strider"
+        },
+        {
           "Count": 4,
-          "CardName": "Castle Locthwain"
+          "CardName": "Yarok's Fenlurker"
         }
       ],
       "Sideboard": [
@@ -926,12 +926,12 @@
           "CardName": "Epic Downfall"
         },
         {
-          "Count": 2,
-          "CardName": "Pharika's Libation"
-        },
-        {
           "Count": 4,
           "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pharika's Libation"
         },
         {
           "Count": 1,
@@ -940,38 +940,30 @@
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "GameBoi27",
       "Result": "10th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_GameBoi27",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_GameBoi27",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Fervent Champion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scorch Spitter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Phoenix of Ash"
-        },
-        {
-          "Count": 4,
-          "CardName": "Light Up the Stage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shock"
-        },
         {
           "Count": 3,
           "CardName": "Castle Embereth"
         },
         {
           "Count": 4,
+          "CardName": "Embercleave"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fervent Champion"
+        },
+        {
+          "Count": 4,
           "CardName": "Infuriate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Light Up the Stage"
         },
         {
           "Count": 17,
@@ -979,7 +971,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Runaway Steam-Kin"
+          "CardName": "Phoenix of Ash"
         },
         {
           "Count": 4,
@@ -987,7 +979,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Embercleave"
+          "CardName": "Runaway Steam-Kin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scorch Spitter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shock"
         },
         {
           "Count": 4,
@@ -996,44 +996,64 @@
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Embereth Shieldbreaker"
+          "Count": 2,
+          "CardName": "Chandra, Acolyte of Flame"
         },
         {
           "Count": 4,
           "CardName": "Claim the Firstborn"
         },
         {
-          "Count": 4,
-          "CardName": "Unchained Berserker"
+          "Count": 1,
+          "CardName": "Embereth Shieldbreaker"
         },
         {
           "Count": 1,
           "CardName": "Experimental Frenzy"
         },
         {
-          "Count": 2,
-          "CardName": "Chandra, Acolyte of Flame"
-        },
-        {
           "Count": 3,
           "CardName": "Redcap Melee"
+        },
+        {
+          "Count": 4,
+          "CardName": "Unchained Berserker"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "jbtwist",
       "Result": "11th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_jbtwist",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_jbtwist",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Gray Merchant of Asphodel"
+          "CardName": "Ayara, First of Locthwain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bolas's Citadel"
         },
         {
           "Count": 4,
-          "CardName": "Ayara, First of Locthwain"
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Cavalier of Night"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disfigure"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dreadhorde Invasion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gray Merchant of Asphodel"
         },
         {
           "Count": 4,
@@ -1044,28 +1064,16 @@
           "CardName": "Murderous Rider"
         },
         {
-          "Count": 2,
-          "CardName": "Disfigure"
-        },
-        {
-          "Count": 2,
-          "CardName": "Cavalier of Night"
-        },
-        {
           "Count": 4,
-          "CardName": "Yarok's Fenlurker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dreadhorde Invasion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Castle Locthwain"
+          "CardName": "Nightmare Shepherd"
         },
         {
           "Count": 21,
           "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Witch's Cottage"
         },
         {
           "Count": 2,
@@ -1073,37 +1081,17 @@
         },
         {
           "Count": 4,
-          "CardName": "Nightmare Shepherd"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bolas's Citadel"
-        },
-        {
-          "Count": 1,
-          "CardName": "Witch's Cottage"
+          "CardName": "Yarok's Fenlurker"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 1,
-          "CardName": "The Elderspell"
-        },
-        {
-          "Count": 2,
-          "CardName": "Deathless Knight"
-        },
-        {
-          "Count": 2,
-          "CardName": "Epic Downfall"
-        },
         {
           "Count": 2,
           "CardName": "Davriel, Rogue Shadowmage"
         },
         {
           "Count": 2,
-          "CardName": "Midnight Reaper"
+          "CardName": "Deathless Knight"
         },
         {
           "Count": 4,
@@ -1111,43 +1099,35 @@
         },
         {
           "Count": 2,
+          "CardName": "Epic Downfall"
+        },
+        {
+          "Count": 2,
+          "CardName": "Midnight Reaper"
+        },
+        {
+          "Count": 2,
           "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Elderspell"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "xfile",
       "Result": "12th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_xfile",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_xfile",
       "Mainboard": [
         {
           "Count": 4,
+          "CardName": "Ajani's Pridemate"
+        },
+        {
+          "Count": 4,
           "CardName": "Alseid of Life's Bounty"
-        },
-        {
-          "Count": 4,
-          "CardName": "Healer's Hawk"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faerie Guidemother"
-        },
-        {
-          "Count": 1,
-          "CardName": "Elspeth, Sun's Nemesis"
-        },
-        {
-          "Count": 21,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Giant Killer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Venerated Loxodon"
         },
         {
           "Count": 2,
@@ -1155,11 +1135,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Ajani's Pridemate"
+          "CardName": "Daxos, Blessed by the Sun"
+        },
+        {
+          "Count": 1,
+          "CardName": "Elspeth, Sun's Nemesis"
         },
         {
           "Count": 4,
-          "CardName": "Linden, the Steadfast Queen"
+          "CardName": "Faerie Guidemother"
+        },
+        {
+          "Count": 4,
+          "CardName": "Giant Killer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Healer's Hawk"
         },
         {
           "Count": 4,
@@ -1167,57 +1159,57 @@
         },
         {
           "Count": 4,
-          "CardName": "Daxos, Blessed by the Sun"
+          "CardName": "Linden, the Steadfast Queen"
+        },
+        {
+          "Count": 21,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Venerated Loxodon"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 3,
-          "CardName": "Revoke Existence"
-        },
-        {
-          "Count": 2,
-          "CardName": "Elspeth Conquers Death"
-        },
         {
           "Count": 4,
           "CardName": "Devout Decree"
         },
         {
           "Count": 2,
-          "CardName": "Tomik, Distinguished Advokist"
+          "CardName": "Elspeth Conquers Death"
+        },
+        {
+          "Count": 2,
+          "CardName": "Elspeth, Sun's Nemesis"
         },
         {
           "Count": 2,
           "CardName": "Glass Casket"
         },
         {
+          "Count": 3,
+          "CardName": "Revoke Existence"
+        },
+        {
           "Count": 2,
-          "CardName": "Elspeth, Sun's Nemesis"
+          "CardName": "Tomik, Distinguished Advokist"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "McWinSauce",
       "Result": "13th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_McWinSauce",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_McWinSauce",
       "Mainboard": [
         {
           "Count": 3,
+          "CardName": "Ashiok, Nightmare Muse"
+        },
+        {
+          "Count": 3,
           "CardName": "Atris, Oracle of Half-Truths"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple of Silence"
-        },
-        {
-          "Count": 4,
-          "CardName": "Teferi, Time Raveler"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hero of Precinct One"
         },
         {
           "Count": 1,
@@ -1225,27 +1217,15 @@
         },
         {
           "Count": 3,
-          "CardName": "Murderous Rider"
-        },
-        {
-          "Count": 3,
-          "CardName": "Oath of Kaya"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple of Enlightenment"
-        },
-        {
-          "Count": 3,
           "CardName": "Dream Trawler"
         },
         {
-          "Count": 2,
-          "CardName": "Plains"
+          "Count": 1,
+          "CardName": "Elspeth, Sun's Nemesis"
         },
         {
           "Count": 3,
-          "CardName": "Ashiok, Nightmare Muse"
+          "CardName": "Fabled Passage"
         },
         {
           "Count": 4,
@@ -1257,53 +1237,69 @@
         },
         {
           "Count": 4,
-          "CardName": "Thought Erasure"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fabled Passage"
+          "CardName": "Hero of Precinct One"
         },
         {
           "Count": 2,
           "CardName": "Island"
         },
         {
+          "Count": 3,
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 3,
+          "CardName": "Oath of Kaya"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 4,
-          "CardName": "Tyrant's Scorn"
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Enlightenment"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Silence"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Erasure"
         },
         {
           "Count": 3,
           "CardName": "Time Wipe"
         },
         {
-          "Count": 1,
-          "CardName": "Elspeth, Sun's Nemesis"
+          "Count": 4,
+          "CardName": "Tyrant's Scorn"
         },
         {
           "Count": 4,
           "CardName": "Watery Grave"
-        },
-        {
-          "Count": 1,
-          "CardName": "Swamp"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Duress"
-        },
         {
           "Count": 3,
           "CardName": "Basilica Bell-Haunt"
         },
         {
           "Count": 2,
-          "CardName": "Negate"
+          "CardName": "Despark"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
         },
         {
           "Count": 2,
@@ -1311,67 +1307,31 @@
         },
         {
           "Count": 2,
-          "CardName": "Despark"
+          "CardName": "Negate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noxious Grasp"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "HEROtsukai",
       "Result": "14th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_HEROtsukai",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_HEROtsukai",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Gruul Spellbreaker"
-        },
-        {
-          "Count": 3,
-          "CardName": "Pelt Collector"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Questing Beast"
-        },
-        {
-          "Count": 9,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 7,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stomping Ground"
-        },
         {
           "Count": 4,
           "CardName": "Bonecrusher Giant"
         },
         {
-          "Count": 2,
-          "CardName": "Paradise Druid"
+          "Count": 1,
+          "CardName": "Castle Embereth"
         },
         {
           "Count": 3,
           "CardName": "Domri's Ambush"
-        },
-        {
-          "Count": 4,
-          "CardName": "Embercleave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rimrock Knight"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Embereth"
         },
         {
           "Count": 4,
@@ -1379,73 +1339,105 @@
         },
         {
           "Count": 4,
+          "CardName": "Embercleave"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 9,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gruul Spellbreaker"
+        },
+        {
+          "Count": 4,
           "CardName": "Lovestruck Beast"
+        },
+        {
+          "Count": 7,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Paradise Druid"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pelt Collector"
+        },
+        {
+          "Count": 4,
+          "CardName": "Questing Beast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rimrock Knight"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stomping Ground"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 3,
-          "CardName": "Mystic Repeal"
-        },
         {
           "Count": 1,
           "CardName": "Domri's Ambush"
         },
         {
           "Count": 3,
-          "CardName": "Vivien, Champion of the Wilds"
+          "CardName": "Embereth Shieldbreaker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lava Coil"
         },
         {
           "Count": 3,
-          "CardName": "Embereth Shieldbreaker"
+          "CardName": "Mystic Repeal"
         },
         {
           "Count": 4,
           "CardName": "Shock"
         },
         {
-          "Count": 1,
-          "CardName": "Lava Coil"
+          "Count": 3,
+          "CardName": "Vivien, Champion of the Wilds"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "yoman5",
       "Result": "15th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_yoman5",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_yoman5",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Absorb"
+        },
         {
           "Count": 4,
           "CardName": "Banishing Light"
         },
         {
-          "Count": 4,
-          "CardName": "Temple of Enlightenment"
+          "Count": 2,
+          "CardName": "Castle Ardenvale"
         },
         {
-          "Count": 6,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Omen of the Sea"
+          "Count": 1,
+          "CardName": "Dovin's Veto"
         },
         {
           "Count": 2,
-          "CardName": "Thassa's Intervention"
+          "CardName": "Dream Trawler"
         },
         {
           "Count": 4,
           "CardName": "Hallowed Fountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "The Birth of Meletis"
-        },
-        {
-          "Count": 4,
-          "CardName": "Absorb"
         },
         {
           "Count": 1,
@@ -1456,24 +1448,16 @@
           "CardName": "Island"
         },
         {
-          "Count": 2,
-          "CardName": "Castle Ardenvale"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dream Trawler"
-        },
-        {
           "Count": 1,
           "CardName": "Labyrinth of Skophos"
         },
         {
-          "Count": 1,
-          "CardName": "Dovin's Veto"
+          "Count": 4,
+          "CardName": "Omen of the Sea"
         },
         {
-          "Count": 4,
-          "CardName": "Thirst for Meaning"
+          "Count": 6,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -1482,12 +1466,28 @@
         {
           "Count": 4,
           "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple of Enlightenment"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thassa's Intervention"
+        },
+        {
+          "Count": 4,
+          "CardName": "The Birth of Meletis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thirst for Meaning"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Heliod's Intervention"
+          "Count": 3,
+          "CardName": "Aether Gust"
         },
         {
           "Count": 2,
@@ -1495,11 +1495,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 3,
-          "CardName": "Aether Gust"
+          "CardName": "Elspeth Conquers Death"
         },
         {
           "Count": 2,
@@ -1507,75 +1503,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Whirlwind Denial"
+          "CardName": "Heliod's Intervention"
+        },
+        {
+          "Count": 2,
+          "CardName": "Narset, Parter of Veils"
         },
         {
           "Count": 2,
           "CardName": "Sorcerous Spyglass"
         },
         {
-          "Count": 2,
-          "CardName": "Elspeth Conquers Death"
+          "Count": 1,
+          "CardName": "Whirlwind Denial"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Lukas261997",
       "Result": "16th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Lukas261997",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Lukas261997",
       "Mainboard": [
         {
           "Count": 2,
           "CardName": "Aether Gust"
         },
         {
-          "Count": 2,
-          "CardName": "Mountain"
-        },
-        {
           "Count": 4,
-          "CardName": "Deafening Clarion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 3,
-          "CardName": "Temple of Triumph"
-        },
-        {
-          "Count": 4,
-          "CardName": "Teferi, Time Raveler"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cavalier of Flame"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shimmer of Possibility"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kenrith, the Returned King"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sphinx of Foresight"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cavalier of Gales"
+          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 3,
@@ -1583,49 +1539,93 @@
         },
         {
           "Count": 4,
-          "CardName": "Hallowed Fountain"
+          "CardName": "Cavalier of Flame"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cavalier of Gales"
         },
         {
           "Count": 4,
-          "CardName": "Bonecrusher Giant"
-        },
-        {
-          "Count": 2,
-          "CardName": "God-Eternal Oketra"
+          "CardName": "Deafening Clarion"
         },
         {
           "Count": 3,
           "CardName": "Fabled Passage"
         },
         {
+          "Count": 4,
+          "CardName": "Fires of Invention"
+        },
+        {
+          "Count": 2,
+          "CardName": "God-Eternal Oketra"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kenrith, the Returned King"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
           "Count": 1,
           "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shimmer of Possibility"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sphinx of Foresight"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
         },
         {
           "Count": 3,
           "CardName": "Temple of Epiphany"
         },
         {
-          "Count": 4,
-          "CardName": "Fires of Invention"
+          "Count": 3,
+          "CardName": "Temple of Triumph"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Justice Strike"
-        },
-        {
-          "Count": 2,
-          "CardName": "Devout Decree"
-        },
         {
           "Count": 1,
           "CardName": "Aether Gust"
         },
         {
           "Count": 2,
+          "CardName": "Devout Decree"
+        },
+        {
+          "Count": 2,
           "CardName": "Disenchant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Justice Strike"
         },
         {
           "Count": 4,
@@ -1638,14 +1638,14 @@
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "sebastianpozzo",
       "Result": "17th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_sebastianpozzo",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_sebastianpozzo",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Mayhem Devil"
+          "CardName": "Blood Crypt"
         },
         {
           "Count": 3,
@@ -1653,35 +1653,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Blood Crypt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 3,
-          "CardName": "Gutterbones"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rankle, Master of Pranks"
-        },
-        {
-          "Count": 4,
           "CardName": "Cauldron Familiar"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 4,
-          "CardName": "Godless Shrine"
         },
         {
           "Count": 4,
@@ -1689,27 +1661,55 @@
         },
         {
           "Count": 4,
-          "CardName": "Witch's Oven"
-        },
-        {
-          "Count": 4,
-          "CardName": "Priest of Forgotten Gods"
+          "CardName": "Cruel Celebrant"
         },
         {
           "Count": 4,
           "CardName": "Fabled Passage"
         },
         {
+          "Count": 4,
+          "CardName": "Godless Shrine"
+        },
+        {
           "Count": 3,
-          "CardName": "Swamp"
+          "CardName": "Gutterbones"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mayhem Devil"
         },
         {
           "Count": 3,
           "CardName": "Midnight Reaper"
         },
         {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
           "Count": 4,
-          "CardName": "Cruel Celebrant"
+          "CardName": "Priest of Forgotten Gods"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rankle, Master of Pranks"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Witch's Oven"
         },
         {
           "Count": 4,
@@ -1718,16 +1718,12 @@
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "The Akroan War"
+          "Count": 1,
+          "CardName": "Despark"
         },
         {
           "Count": 2,
           "CardName": "Devout Decree"
-        },
-        {
-          "Count": 2,
-          "CardName": "Embereth Shieldbreaker"
         },
         {
           "Count": 4,
@@ -1735,39 +1731,59 @@
         },
         {
           "Count": 2,
-          "CardName": "Epic Downfall"
+          "CardName": "Embereth Shieldbreaker"
         },
         {
-          "Count": 1,
-          "CardName": "Despark"
+          "Count": 2,
+          "CardName": "Epic Downfall"
         },
         {
           "Count": 2,
           "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Akroan War"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Venom1",
       "Result": "18th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Venom1",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Venom1",
       "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Castle Locthwain"
+        },
         {
           "Count": 4,
           "CardName": "Cauldron Familiar"
         },
         {
-          "Count": 4,
-          "CardName": "Overgrown Tomb"
+          "Count": 3,
+          "CardName": "Fabled Passage"
         },
         {
-          "Count": 4,
-          "CardName": "Midnight Reaper"
+          "Count": 11,
+          "CardName": "Forest"
         },
         {
           "Count": 1,
           "CardName": "Garruk, Cursed Huntsman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gilded Goose"
+        },
+        {
+          "Count": 3,
+          "CardName": "Massacre Girl"
+        },
+        {
+          "Count": 4,
+          "CardName": "Midnight Reaper"
         },
         {
           "Count": 3,
@@ -1775,47 +1791,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Trail of Crumbs"
-        },
-        {
-          "Count": 4,
-          "CardName": "Witch's Oven"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wicked Wolf"
-        },
-        {
-          "Count": 3,
-          "CardName": "Massacre Girl"
+          "CardName": "Overgrown Tomb"
         },
         {
           "Count": 2,
-          "CardName": "Vraska, Golgari Queen"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Locthwain"
-        },
-        {
-          "Count": 11,
-          "CardName": "Forest"
+          "CardName": "Paradise Druid"
         },
         {
           "Count": 6,
           "CardName": "Swamp"
         },
         {
-          "Count": 3,
-          "CardName": "Fabled Passage"
-        },
-        {
           "Count": 4,
-          "CardName": "Gilded Goose"
+          "CardName": "Trail of Crumbs"
         },
         {
           "Count": 2,
-          "CardName": "Paradise Druid"
+          "CardName": "Vraska, Golgari Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wicked Wolf"
+        },
+        {
+          "Count": 4,
+          "CardName": "Witch's Oven"
         }
       ],
       "Sideboard": [
@@ -1825,55 +1825,47 @@
         },
         {
           "Count": 2,
-          "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 2,
           "CardName": "Duress"
         },
         {
+          "Count": 4,
+          "CardName": "Lovestruck Beast"
+        },
+        {
           "Count": 2,
-          "CardName": "Thrashing Brontodon"
+          "CardName": "Noxious Grasp"
         },
         {
           "Count": 3,
           "CardName": "Ritual of Soot"
         },
         {
-          "Count": 4,
-          "CardName": "Lovestruck Beast"
+          "Count": 2,
+          "CardName": "Thrashing Brontodon"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "ACG88",
       "Result": "19th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_ACG88",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_ACG88",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Acclaimed Contender"
+        },
         {
           "Count": 1,
           "CardName": "Aurelia, Exemplar of Justice"
         },
         {
+          "Count": 3,
+          "CardName": "Embercleave"
+        },
+        {
           "Count": 4,
           "CardName": "Fervent Champion"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tajic, Legion's Edge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Worthy Knight"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Circle of Loyalty"
         },
         {
           "Count": 3,
@@ -1884,36 +1876,12 @@
           "CardName": "Inspiring Veteran"
         },
         {
-          "Count": 3,
-          "CardName": "Embercleave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Venerable Knight"
-        },
-        {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Weaselback Redcap"
-        },
-        {
-          "Count": 3,
-          "CardName": "Venerated Loxodon"
-        },
-        {
           "Count": 2,
           "CardName": "Integrity // Intervention"
         },
         {
-          "Count": 4,
-          "CardName": "Tournament Grounds"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple of Triumph"
+          "Count": 6,
+          "CardName": "Mountain"
         },
         {
           "Count": 6,
@@ -1921,25 +1889,53 @@
         },
         {
           "Count": 4,
-          "CardName": "Acclaimed Contender"
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tajic, Legion's Edge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Triumph"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Circle of Loyalty"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tournament Grounds"
+        },
+        {
+          "Count": 4,
+          "CardName": "Venerable Knight"
+        },
+        {
+          "Count": 3,
+          "CardName": "Venerated Loxodon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Weaselback Redcap"
+        },
+        {
+          "Count": 4,
+          "CardName": "Worthy Knight"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Bonecrusher Giant"
+        },
         {
           "Count": 3,
           "CardName": "Devout Decree"
         },
         {
-          "Count": 2,
-          "CardName": "Unbreakable Formation"
-        },
-        {
           "Count": 3,
           "CardName": "Embereth Shieldbreaker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 1,
@@ -1948,22 +1944,30 @@
         {
           "Count": 4,
           "CardName": "Hushbringer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unbreakable Formation"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "PTarts2win",
       "Result": "20th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_PTarts2win",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_PTarts2win",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Faerie Guidemother"
+          "CardName": "Ajani's Pridemate"
         },
         {
-          "Count": 18,
-          "CardName": "Plains"
+          "Count": 4,
+          "CardName": "Alseid of Life's Bounty"
+        },
+        {
+          "Count": 3,
+          "CardName": "Castle Ardenvale"
         },
         {
           "Count": 2,
@@ -1971,7 +1975,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Ajani's Pridemate"
+          "CardName": "Daxos, Blessed by the Sun"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faerie Guidemother"
+        },
+        {
+          "Count": 3,
+          "CardName": "Giant Killer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Healer's Hawk"
         },
         {
           "Count": 4,
@@ -1983,31 +1999,15 @@
         },
         {
           "Count": 3,
-          "CardName": "Giant Killer"
-        },
-        {
-          "Count": 3,
           "CardName": "Linden, the Steadfast Queen"
         },
         {
-          "Count": 3,
-          "CardName": "Castle Ardenvale"
+          "Count": 18,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
           "CardName": "Venerated Loxodon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Daxos, Blessed by the Sun"
-        },
-        {
-          "Count": 4,
-          "CardName": "Alseid of Life's Bounty"
-        },
-        {
-          "Count": 4,
-          "CardName": "Healer's Hawk"
         }
       ],
       "Sideboard": [
@@ -2016,116 +2016,52 @@
           "CardName": "Citywide Bust"
         },
         {
+          "Count": 1,
+          "CardName": "Conclave Tribunal"
+        },
+        {
           "Count": 3,
           "CardName": "Gideon Blackblade"
         },
         {
-          "Count": 2,
-          "CardName": "Tomik, Distinguished Advokist"
+          "Count": 3,
+          "CardName": "Glass Casket"
         },
         {
           "Count": 4,
           "CardName": "Hushbringer"
         },
         {
-          "Count": 1,
-          "CardName": "Conclave Tribunal"
-        },
-        {
-          "Count": 3,
-          "CardName": "Glass Casket"
+          "Count": 2,
+          "CardName": "Tomik, Distinguished Advokist"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "PykaPower",
       "Result": "21th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_PykaPower",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_PykaPower",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 3,
-          "CardName": "Temple of Triumph"
-        },
-        {
-          "Count": 4,
-          "CardName": "Teferi, Time Raveler"
-        },
         {
           "Count": 3,
           "CardName": "Bonecrusher Giant"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple of Enlightenment"
-        },
-        {
-          "Count": 3,
-          "CardName": "Medomai's Prophecy"
         },
         {
           "Count": 1,
           "CardName": "Brazen Borrower"
         },
         {
-          "Count": 1,
-          "CardName": "Justice Strike"
+          "Count": 2,
+          "CardName": "Castle Vantress"
         },
         {
           "Count": 4,
           "CardName": "Cavalier of Flame"
         },
         {
-          "Count": 4,
-          "CardName": "Fires of Invention"
-        },
-        {
-          "Count": 3,
-          "CardName": "Temple of Epiphany"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hallowed Fountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Castle Vantress"
-        },
-        {
           "Count": 3,
           "CardName": "Cavalier of Gales"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 1,
-          "CardName": "God-Eternal Oketra"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kenrith, the Returned King"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sphinx of Foresight"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
         },
         {
           "Count": 3,
@@ -2133,13 +2069,81 @@
         },
         {
           "Count": 2,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fires of Invention"
+        },
+        {
+          "Count": 1,
+          "CardName": "God-Eternal Oketra"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Justice Strike"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kenrith, the Returned King"
+        },
+        {
+          "Count": 3,
+          "CardName": "Medomai's Prophecy"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
           "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sphinx of Foresight"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Enlightenment"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temple of Epiphany"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temple of Triumph"
         }
       ],
       "Sideboard": [
         {
+          "Count": 3,
+          "CardName": "Aether Gust"
+        },
+        {
           "Count": 1,
-          "CardName": "God-Eternal Oketra"
+          "CardName": "Devout Decree"
         },
         {
           "Count": 1,
@@ -2147,11 +2151,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Devout Decree"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tithe Taker"
+          "CardName": "God-Eternal Oketra"
         },
         {
           "Count": 4,
@@ -2162,56 +2162,24 @@
           "CardName": "Shatter the Sky"
         },
         {
-          "Count": 3,
-          "CardName": "Aether Gust"
+          "Count": 4,
+          "CardName": "Tithe Taker"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Sahakvic",
       "Result": "22th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Sahakvic",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Sahakvic",
       "Mainboard": [
         {
-          "Count": 7,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gallia of the Endless Dance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kraul Harpooner"
-        },
-        {
           "Count": 4,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 2,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 11,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gruul Spellbreaker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Growth-Chamber Guardian"
+          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 1,
           "CardName": "Chandra, Fire Artisan"
-        },
-        {
-          "Count": 1,
-          "CardName": "Nylea, Keen-Eyed"
         },
         {
           "Count": 4,
@@ -2222,12 +2190,24 @@
           "CardName": "Embercleave"
         },
         {
-          "Count": 1,
-          "CardName": "Klothys, God of Destiny"
+          "Count": 2,
+          "CardName": "Fabled Passage"
         },
         {
-          "Count": 2,
-          "CardName": "Sarkhan the Masterless"
+          "Count": 11,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gallia of the Endless Dance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gilded Goose"
+        },
+        {
+          "Count": 4,
+          "CardName": "Growth-Chamber Guardian"
         },
         {
           "Count": 1,
@@ -2235,7 +2215,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Bonecrusher Giant"
+          "CardName": "Gruul Spellbreaker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Klothys, God of Destiny"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kraul Harpooner"
+        },
+        {
+          "Count": 7,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nylea, Keen-Eyed"
         },
         {
           "Count": 4,
@@ -2243,33 +2239,21 @@
         },
         {
           "Count": 2,
-          "CardName": "Wicked Wolf"
+          "CardName": "Sarkhan the Masterless"
         },
         {
           "Count": 4,
-          "CardName": "Gilded Goose"
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wicked Wolf"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Sorcerous Spyglass"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shock"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shifting Ceratops"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mystic Repeal"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wicked Wolf"
+          "CardName": "Embereth Shieldbreaker"
         },
         {
           "Count": 3,
@@ -2277,51 +2261,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Embereth Shieldbreaker"
+          "CardName": "Mystic Repeal"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shifting Ceratops"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shock"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sorcerous Spyglass"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wicked Wolf"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "ElYallo",
       "Result": "23th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_ElYallo",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_ElYallo",
       "Mainboard": [
-        {
-          "Count": 3,
-          "CardName": "Castle Locthwain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Murderous Rider"
-        },
         {
           "Count": 4,
           "CardName": "Blood Crypt"
         },
         {
-          "Count": 4,
-          "CardName": "Mayhem Devil"
-        },
-        {
-          "Count": 4,
-          "CardName": "Witch's Oven"
-        },
-        {
-          "Count": 4,
-          "CardName": "Priest of Forgotten Gods"
-        },
-        {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kroxa, Titan of Death's Hunger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gutterbones"
+          "Count": 3,
+          "CardName": "Castle Locthwain"
         },
         {
           "Count": 4,
@@ -2336,22 +2308,54 @@
           "CardName": "Fabled Passage"
         },
         {
-          "Count": 7,
-          "CardName": "Swamp"
+          "Count": 4,
+          "CardName": "Gutterbones"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kroxa, Titan of Death's Hunger"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mayhem Devil"
+        },
+        {
+          "Count": 4,
+          "CardName": "Midnight Reaper"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Priest of Forgotten Gods"
         },
         {
           "Count": 2,
           "CardName": "Rankle, Master of Pranks"
         },
         {
+          "Count": 7,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 4,
-          "CardName": "Midnight Reaper"
+          "CardName": "Witch's Oven"
         }
       ],
       "Sideboard": [
         {
+          "Count": 4,
+          "CardName": "Agonizing Remorse"
+        },
+        {
           "Count": 3,
-          "CardName": "Tibalt, Rakish Instigator"
+          "CardName": "Epic Downfall"
         },
         {
           "Count": 2,
@@ -2359,31 +2363,27 @@
         },
         {
           "Count": 3,
-          "CardName": "Epic Downfall"
-        },
-        {
-          "Count": 3,
           "CardName": "Noxious Grasp"
         },
         {
-          "Count": 4,
-          "CardName": "Agonizing Remorse"
+          "Count": 3,
+          "CardName": "Tibalt, Rakish Instigator"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "lazerbeam",
       "Result": "24th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_lazerbeam",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_lazerbeam",
       "Mainboard": [
         {
-          "Count": 21,
-          "CardName": "Swamp"
+          "Count": 3,
+          "CardName": "Ayara, First of Locthwain"
         },
         {
           "Count": 4,
-          "CardName": "Gray Merchant of Asphodel"
+          "CardName": "Castle Locthwain"
         },
         {
           "Count": 4,
@@ -2391,89 +2391,93 @@
         },
         {
           "Count": 2,
-          "CardName": "Spawn of Mayhem"
+          "CardName": "Cavalier of Night"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gray Merchant of Asphodel"
         },
         {
           "Count": 4,
           "CardName": "Gutterbones"
         },
         {
-          "Count": 2,
-          "CardName": "Nightmare Shepherd"
-        },
-        {
           "Count": 4,
           "CardName": "Murderous Rider"
         },
         {
-          "Count": 4,
-          "CardName": "Yarok's Fenlurker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Castle Locthwain"
+          "Count": 2,
+          "CardName": "Nightmare Shepherd"
         },
         {
           "Count": 2,
-          "CardName": "Cavalier of Night"
+          "CardName": "Rankle, Master of Pranks"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spawn of Mayhem"
+        },
+        {
+          "Count": 21,
+          "CardName": "Swamp"
         },
         {
           "Count": 4,
           "CardName": "Witch's Oven"
         },
         {
-          "Count": 3,
-          "CardName": "Ayara, First of Locthwain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rankle, Master of Pranks"
+          "Count": 4,
+          "CardName": "Yarok's Fenlurker"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Noxious Grasp"
-        },
         {
           "Count": 2,
           "CardName": "Davriel, Rogue Shadowmage"
         },
         {
-          "Count": 1,
-          "CardName": "The Elderspell"
-        },
-        {
-          "Count": 2,
-          "CardName": "Legion's End"
+          "Count": 3,
+          "CardName": "Deathless Knight"
         },
         {
           "Count": 3,
           "CardName": "Duress"
         },
         {
-          "Count": 3,
-          "CardName": "Deathless Knight"
+          "Count": 2,
+          "CardName": "Legion's End"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Elderspell"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Cherryxman",
       "Result": "25th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Cherryxman",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Cherryxman",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Tin Street Dodger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Infuriate"
+          "CardName": "Barge In"
         },
         {
           "Count": 4,
           "CardName": "Castle Embereth"
+        },
+        {
+          "Count": 1,
+          "CardName": "Claim the Firstborn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Embercleave"
         },
         {
           "Count": 4,
@@ -2484,12 +2488,16 @@
           "CardName": "Grim Initiate"
         },
         {
-          "Count": 1,
-          "CardName": "Claim the Firstborn"
+          "Count": 4,
+          "CardName": "Infuriate"
         },
         {
           "Count": 4,
           "CardName": "Light Up the Stage"
+        },
+        {
+          "Count": 15,
+          "CardName": "Mountain"
         },
         {
           "Count": 4,
@@ -2497,26 +2505,22 @@
         },
         {
           "Count": 4,
-          "CardName": "Weaselback Redcap"
-        },
-        {
-          "Count": 4,
-          "CardName": "Embercleave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Barge In"
-        },
-        {
-          "Count": 4,
           "CardName": "Runaway Steam-Kin"
         },
         {
-          "Count": 15,
-          "CardName": "Mountain"
+          "Count": 4,
+          "CardName": "Tin Street Dodger"
+        },
+        {
+          "Count": 4,
+          "CardName": "Weaselback Redcap"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Claim the Firstborn"
+        },
         {
           "Count": 4,
           "CardName": "Embereth Shieldbreaker"
@@ -2526,21 +2530,41 @@
           "CardName": "Lava Coil"
         },
         {
-          "Count": 3,
-          "CardName": "Claim the Firstborn"
-        },
-        {
           "Count": 4,
           "CardName": "Unchained Berserker"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "AlphaFrog3040",
       "Result": "26th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_AlphaFrog3040",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_AlphaFrog3040",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 4,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 4,
+          "CardName": "Casualties of War"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathsprout"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
         {
           "Count": 4,
           "CardName": "Growth Spiral"
@@ -2550,36 +2574,8 @@
           "CardName": "Hydroid Krasis"
         },
         {
-          "Count": 4,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 4,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Voracious Hydra"
-        },
-        {
-          "Count": 3,
-          "CardName": "Temple of Malady"
-        },
-        {
           "Count": 2,
           "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Gust"
-        },
-        {
-          "Count": 4,
-          "CardName": "Deathsprout"
         },
         {
           "Count": 4,
@@ -2590,16 +2586,16 @@
           "CardName": "Overgrown Tomb"
         },
         {
+          "Count": 4,
+          "CardName": "Paradise Druid"
+        },
+        {
           "Count": 2,
           "CardName": "Swamp"
         },
         {
-          "Count": 4,
-          "CardName": "Casualties of War"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
+          "Count": 3,
+          "CardName": "Temple of Malady"
         },
         {
           "Count": 3,
@@ -2607,10 +2603,18 @@
         },
         {
           "Count": 4,
-          "CardName": "Paradise Druid"
+          "CardName": "Voracious Hydra"
+        },
+        {
+          "Count": 4,
+          "CardName": "Watery Grave"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Enter the God-Eternals"
+        },
         {
           "Count": 4,
           "CardName": "Mystical Dispute"
@@ -2620,56 +2624,24 @@
           "CardName": "Noxious Grasp"
         },
         {
-          "Count": 3,
-          "CardName": "Tyrant's Scorn"
-        },
-        {
-          "Count": 4,
-          "CardName": "Enter the God-Eternals"
-        },
-        {
           "Count": 2,
           "CardName": "Ritual of Soot"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tyrant's Scorn"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "Thatted",
       "Result": "27th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_Thatted",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_Thatted",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Nyx Lotus"
-        },
         {
           "Count": 2,
           "CardName": "Agent of Treachery"
-        },
-        {
-          "Count": 16,
-          "CardName": "Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Gadwick, the Wizened"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cavalier of Gales"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Corridor Monitor"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thassa, Deep-Dwelling"
         },
         {
           "Count": 4,
@@ -2677,65 +2649,97 @@
         },
         {
           "Count": 4,
-          "CardName": "Kiora, Behemoth Beckoner"
-        },
-        {
-          "Count": 4,
           "CardName": "Brazen Borrower"
         },
         {
           "Count": 4,
-          "CardName": "Thassa's Oracle"
+          "CardName": "Castle Vantress"
         },
         {
           "Count": 4,
-          "CardName": "Castle Vantress"
+          "CardName": "Cavalier of Gales"
+        },
+        {
+          "Count": 4,
+          "CardName": "Corridor Monitor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gadwick, the Wizened"
+        },
+        {
+          "Count": 16,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kiora, Behemoth Beckoner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nyx Lotus"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thassa, Deep-Dwelling"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thassa's Oracle"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Soul-Guide Lantern"
+          "Count": 3,
+          "CardName": "Aether Gust"
         },
         {
           "Count": 1,
           "CardName": "Agent of Treachery"
         },
         {
-          "Count": 2,
-          "CardName": "Sorcerous Spyglass"
+          "Count": 3,
+          "CardName": "Frogify"
         },
         {
           "Count": 4,
           "CardName": "Mystical Dispute"
         },
         {
-          "Count": 3,
-          "CardName": "Aether Gust"
+          "Count": 2,
+          "CardName": "Sorcerous Spyglass"
         },
         {
-          "Count": 3,
-          "CardName": "Frogify"
+          "Count": 2,
+          "CardName": "Soul-Guide Lantern"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "____DELBAS",
       "Result": "28th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_____DELBAS",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_____DELBAS",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Tournament Grounds"
-        },
         {
           "Count": 4,
           "CardName": "Blacklance Paragon"
         },
         {
-          "Count": 9,
-          "CardName": "Swamp"
+          "Count": 4,
+          "CardName": "Blood Crypt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bonecrusher Giant"
+        },
+        {
+          "Count": 1,
+          "CardName": "Castle Locthwain"
         },
         {
           "Count": 4,
@@ -2743,7 +2747,19 @@
         },
         {
           "Count": 4,
-          "CardName": "Stormfist Crusader"
+          "CardName": "Embercleave"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fervent Champion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gutterbones"
+        },
+        {
+          "Count": 4,
+          "CardName": "Knight of the Ebon Legion"
         },
         {
           "Count": 6,
@@ -2755,53 +2771,37 @@
         },
         {
           "Count": 4,
-          "CardName": "Knight of the Ebon Legion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fervent Champion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gutterbones"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Locthwain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bonecrusher Giant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Embercleave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blood Crypt"
-        },
-        {
-          "Count": 4,
           "CardName": "Rotting Regisaur"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormfist Crusader"
+        },
+        {
+          "Count": 9,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tournament Grounds"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
+          "CardName": "Cavalier of Night"
+        },
+        {
+          "Count": 3,
+          "CardName": "Embereth Shieldbreaker"
+        },
+        {
+          "Count": 2,
+          "CardName": "Epic Downfall"
+        },
+        {
+          "Count": 2,
           "CardName": "Legion's End"
-        },
-        {
-          "Count": 2,
-          "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spawn of Mayhem"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sorcerous Spyglass"
         },
         {
           "Count": 1,
@@ -2809,59 +2809,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Cavalier of Night"
+          "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorcerous Spyglass"
         },
         {
           "Count": 2,
-          "CardName": "Epic Downfall"
-        },
-        {
-          "Count": 3,
-          "CardName": "Embereth Shieldbreaker"
+          "CardName": "Spawn of Mayhem"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "AndyAWKWARD",
       "Result": "29th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_AndyAWKWARD",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_AndyAWKWARD",
       "Mainboard": [
         {
-          "Count": 1,
-          "CardName": "Witch's Cottage"
-        },
-        {
-          "Count": 20,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Yarok's Fenlurker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cauldron Familiar"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gray Merchant of Asphodel"
+          "Count": 3,
+          "CardName": "Ayara, First of Locthwain"
         },
         {
           "Count": 1,
           "CardName": "Bolas's Citadel"
         },
         {
-          "Count": 3,
-          "CardName": "Ayara, First of Locthwain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tymaret, Chosen from Death"
+          "Count": 4,
+          "CardName": "Castle Locthwain"
         },
         {
           "Count": 4,
-          "CardName": "Witch's Oven"
+          "CardName": "Cauldron Familiar"
         },
         {
           "Count": 1,
@@ -2877,7 +2857,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Murderous Rider"
+          "CardName": "Gray Merchant of Asphodel"
         },
         {
           "Count": 3,
@@ -2885,21 +2865,41 @@
         },
         {
           "Count": 4,
-          "CardName": "Castle Locthwain"
+          "CardName": "Murderous Rider"
         },
         {
           "Count": 4,
           "CardName": "Nightmare Shepherd"
+        },
+        {
+          "Count": 20,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tymaret, Chosen from Death"
+        },
+        {
+          "Count": 1,
+          "CardName": "Witch's Cottage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Witch's Oven"
+        },
+        {
+          "Count": 2,
+          "CardName": "Yarok's Fenlurker"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Erebos, Bleak-Hearted"
+          "Count": 1,
+          "CardName": "Bolas's Citadel"
         },
         {
           "Count": 2,
-          "CardName": "Duress"
+          "CardName": "Cling to Dust"
         },
         {
           "Count": 1,
@@ -2907,19 +2907,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Cling to Dust"
+          "CardName": "Drill Bit"
         },
         {
           "Count": 2,
-          "CardName": "Drill Bit"
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Erebos, Bleak-Hearted"
         },
         {
           "Count": 3,
           "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Bolas's Citadel"
         },
         {
           "Count": 2,
@@ -2928,46 +2928,14 @@
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "TopGrinder",
       "Result": "30th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_TopGrinder",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_TopGrinder",
       "Mainboard": [
-        {
-          "Count": 18,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Witch's Oven"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gutterbones"
-        },
         {
           "Count": 4,
           "CardName": "Ayara, First of Locthwain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Labyrinth of Skophos"
-        },
-        {
-          "Count": 2,
-          "CardName": "Drag to the Underworld"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cavalier of Night"
-        },
-        {
-          "Count": 2,
-          "CardName": "Orzhov Enforcer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Gray Merchant of Asphodel"
         },
         {
           "Count": 1,
@@ -2982,19 +2950,71 @@
           "CardName": "Cauldron Familiar"
         },
         {
+          "Count": 1,
+          "CardName": "Cavalier of Night"
+        },
+        {
+          "Count": 2,
+          "CardName": "Drag to the Underworld"
+        },
+        {
+          "Count": 3,
+          "CardName": "Erebos, Bleak-Hearted"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gray Merchant of Asphodel"
+        },
+        {
           "Count": 4,
-          "CardName": "Priest of Forgotten Gods"
+          "CardName": "Gutterbones"
+        },
+        {
+          "Count": 2,
+          "CardName": "Labyrinth of Skophos"
         },
         {
           "Count": 4,
           "CardName": "Murderous Rider"
         },
         {
-          "Count": 3,
-          "CardName": "Erebos, Bleak-Hearted"
+          "Count": 2,
+          "CardName": "Orzhov Enforcer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Priest of Forgotten Gods"
+        },
+        {
+          "Count": 18,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Witch's Oven"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Agonizing Remorse"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bolas's Citadel"
+        },
+        {
+          "Count": 3,
+          "CardName": "Davriel, Rogue Shadowmage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Epic Downfall"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gruesome Menagerie"
+        },
         {
           "Count": 2,
           "CardName": "Legion's End"
@@ -3002,42 +3022,34 @@
         {
           "Count": 2,
           "CardName": "Ritual of Soot"
-        },
-        {
-          "Count": 3,
-          "CardName": "Epic Downfall"
-        },
-        {
-          "Count": 3,
-          "CardName": "Davriel, Rogue Shadowmage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Bolas's Citadel"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gruesome Menagerie"
-        },
-        {
-          "Count": 3,
-          "CardName": "Agonizing Remorse"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "quinniac",
       "Result": "31th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_quinniac",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_quinniac",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Loyal Pegasus"
+          "CardName": "Alseid of Life's Bounty"
+        },
+        {
+          "Count": 3,
+          "CardName": "Castle Ardenvale"
         },
         {
           "Count": 4,
-          "CardName": "Raise the Alarm"
+          "CardName": "Faerie Guidemother"
+        },
+        {
+          "Count": 4,
+          "CardName": "Giant Killer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Healer's Hawk"
         },
         {
           "Count": 4,
@@ -3049,15 +3061,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Unbreakable Formation"
-        },
-        {
-          "Count": 4,
-          "CardName": "Giant Killer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Venerated Loxodon"
+          "CardName": "Loyal Pegasus"
         },
         {
           "Count": 17,
@@ -3065,19 +3069,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Healer's Hawk"
+          "CardName": "Raise the Alarm"
         },
         {
           "Count": 4,
-          "CardName": "Faerie Guidemother"
-        },
-        {
-          "Count": 3,
-          "CardName": "Castle Ardenvale"
+          "CardName": "Unbreakable Formation"
         },
         {
           "Count": 4,
-          "CardName": "Alseid of Life's Bounty"
+          "CardName": "Venerated Loxodon"
         }
       ],
       "Sideboard": [
@@ -3086,60 +3086,32 @@
           "CardName": "Banishing Light"
         },
         {
-          "Count": 3,
-          "CardName": "Hushbringer"
-        },
-        {
           "Count": 4,
           "CardName": "Devout Decree"
         },
         {
           "Count": 4,
           "CardName": "Gideon Blackblade"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hushbringer"
         }
       ]
     },
     {
-      "Date": "2020-01-18T00:00:00Z",
+      "Date": "2020-01-18T14:00:00",
       "Player": "dkisch87",
       "Result": "32th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2020-01-1812071839#deck_dkisch87",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_dkisch87",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Rimrock Knight"
-        },
-        {
-          "Count": 4,
-          "CardName": "Castle Embereth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Light Up the Stage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Infuriate"
-        },
         {
           "Count": 4,
           "CardName": "Barge In"
         },
         {
           "Count": 4,
-          "CardName": "Tin Street Dodger"
-        },
-        {
-          "Count": 15,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fervent Champion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Weaselback Redcap"
+          "CardName": "Castle Embereth"
         },
         {
           "Count": 1,
@@ -3151,29 +3123,273 @@
         },
         {
           "Count": 4,
+          "CardName": "Fervent Champion"
+        },
+        {
+          "Count": 4,
           "CardName": "Grim Initiate"
         },
         {
           "Count": 4,
+          "CardName": "Infuriate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Light Up the Stage"
+        },
+        {
+          "Count": 15,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rimrock Knight"
+        },
+        {
+          "Count": 4,
           "CardName": "Runaway Steam-Kin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tin Street Dodger"
+        },
+        {
+          "Count": 4,
+          "CardName": "Weaselback Redcap"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Lava Coil"
-        },
-        {
-          "Count": 4,
-          "CardName": "Embereth Shieldbreaker"
-        },
         {
           "Count": 3,
           "CardName": "Claim the Firstborn"
         },
         {
           "Count": 4,
+          "CardName": "Embereth Shieldbreaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lava Coil"
+        },
+        {
+          "Count": 4,
           "CardName": "Unchained Berserker"
+        }
+      ]
+    },
+    {
+      "Date": "2020-01-18T14:00:00",
+      "Player": "AlfredoTorres",
+      "Result": "33th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_AlfredoTorres",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Bonecrusher Giant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Castle Vantress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cavalier of Flame"
+        },
+        {
+          "Count": 3,
+          "CardName": "Cavalier of Gales"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deafening Clarion"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fires of Invention"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Justice Strike"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kenrith, the Returned King"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shimmer of Possibility"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sphinx of Foresight"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temple of Epiphany"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temple of Triumph"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 3,
+          "CardName": "Devout Decree"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disenchant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorcerous Spyglass"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tithe Taker"
+        }
+      ]
+    },
+    {
+      "Date": "2020-01-18T14:00:00",
+      "Player": "coert",
+      "Result": "34th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2020-01-1812071839#deck_coert",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Ayara, First of Locthwain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bolas's Citadel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cauldron Familiar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eat to Extinction"
+        },
+        {
+          "Count": 2,
+          "CardName": "Erebos, Bleak-Hearted"
+        },
+        {
+          "Count": 1,
+          "CardName": "Erebos's Intervention"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gray Merchant of Asphodel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Liliana, Dreadhorde General"
+        },
+        {
+          "Count": 1,
+          "CardName": "Midnight Reaper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nightmare Shepherd"
+        },
+        {
+          "Count": 20,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tymaret, Chosen from Death"
+        },
+        {
+          "Count": 4,
+          "CardName": "Witch's Oven"
+        },
+        {
+          "Count": 4,
+          "CardName": "Yarok's Fenlurker"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Bolas's Citadel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Drag to the Underworld"
+        },
+        {
+          "Count": 3,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 3,
+          "CardName": "Eat to Extinction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion's End"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leyline of the Void"
+        },
+        {
+          "Count": 1,
+          "CardName": "Liliana, Dreadhorde General"
         }
       ]
     }
@@ -3183,8 +3399,8 @@
       "RoundName": "Quarterfinals",
       "Matches": [
         {
-          "Player1": "Bertram",
-          "Player2": "Tutuzinho",
+          "Player1": "JakeHelms",
+          "Player2": "yamakiller",
           "Result": "2-1-0"
         },
         {
@@ -3198,8 +3414,8 @@
           "Result": "2-0-0"
         },
         {
-          "Player1": "JakeHelms",
-          "Player2": "yamakiller",
+          "Player1": "Bertram",
+          "Player2": "Tutuzinho",
           "Result": "2-1-0"
         }
       ]
@@ -3208,14 +3424,14 @@
       "RoundName": "Semifinals",
       "Matches": [
         {
-          "Player1": "Bertram",
-          "Player2": "albertoSD",
-          "Result": "2-1-0"
-        },
-        {
           "Player1": "D00mwake",
           "Player2": "JakeHelms",
           "Result": "2-0-0"
+        },
+        {
+          "Player1": "Bertram",
+          "Player2": "albertoSD",
+          "Result": "2-1-0"
         }
       ]
     },

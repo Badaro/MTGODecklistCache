@@ -2,46 +2,70 @@
   "Tournament": {
     "Date": "2015-12-09T00:00:00Z",
     "Name": "Legacy Daily Swiss",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742"
+    "Uri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742"
   },
   "Decks": [
     {
-      "Date": "2015-12-09T00:00:00Z",
+      "Date": "2015-12-09T03:00:00",
       "Player": "The Atog Lord",
       "Result": "4-0",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742#deck_The Atog Lord",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_The Atog Lord",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Swords to Plowshares"
-        },
-        {
-          "Count": 2,
-          "CardName": "Snapcaster Mage"
-        },
-        {
-          "Count": 3,
-          "CardName": "Jace, the Mind Sculptor"
+          "CardName": "Brainstorm"
         },
         {
           "Count": 2,
           "CardName": "Cabal Therapy"
         },
         {
-          "Count": 2,
-          "CardName": "Marsh Flats"
+          "Count": 1,
+          "CardName": "Council's Judgment"
         },
         {
-          "Count": 1,
-          "CardName": "Underground Sea"
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gitaxian Probe"
         },
         {
           "Count": 2,
           "CardName": "Island"
         },
         {
+          "Count": 3,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
           "Count": 1,
-          "CardName": "Scrubland"
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 2,
+          "CardName": "Marsh Flats"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Mentor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Painful Truths"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -52,56 +76,24 @@
           "CardName": "Ponder"
         },
         {
+          "Count": 1,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snapcaster Mage"
+        },
+        {
           "Count": 2,
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 4,
-          "CardName": "Force of Will"
-        },
-        {
           "Count": 1,
-          "CardName": "Council's Judgment"
-        },
-        {
-          "Count": 2,
-          "CardName": "Painful Truths"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tundra"
+          "CardName": "Swamp"
         },
         {
           "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Karakas"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tropical Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Gitaxian Probe"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Mentor"
-        },
-        {
-          "Count": 4,
-          "CardName": "Deathrite Shaman"
+          "CardName": "Swords to Plowshares"
         },
         {
           "Count": 1,
@@ -109,17 +101,21 @@
         },
         {
           "Count": 1,
-          "CardName": "Swamp"
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 1,
+          "CardName": "Underground Sea"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Supreme Verdict"
-        },
-        {
-          "Count": 1,
-          "CardName": "Painful Truths"
+          "Count": 3,
+          "CardName": "Abrupt Decay"
         },
         {
           "Count": 1,
@@ -127,35 +123,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Flusterstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Engineered Explosives"
-        },
-        {
-          "Count": 1,
-          "CardName": "Notion Thief"
-        },
-        {
-          "Count": 1,
-          "CardName": "Surgical Extraction"
-        },
-        {
-          "Count": 1,
-          "CardName": "Zealous Persecution"
-        },
-        {
-          "Count": 1,
-          "CardName": "Vendilion Clique"
-        },
-        {
-          "Count": 1,
           "CardName": "Containment Priest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Abrupt Decay"
         },
         {
           "Count": 1,
@@ -163,27 +131,51 @@
         },
         {
           "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
           "CardName": "Gerrard's Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Notion Thief"
+        },
+        {
+          "Count": 1,
+          "CardName": "Painful Truths"
+        },
+        {
+          "Count": 1,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vendilion Clique"
+        },
+        {
+          "Count": 1,
+          "CardName": "Zealous Persecution"
         }
       ]
     },
     {
-      "Date": "2015-12-09T00:00:00Z",
+      "Date": "2015-12-09T03:00:00",
       "Player": "sheeps42",
       "Result": "4-0",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742#deck_sheeps42",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_sheeps42",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Manabond"
-        },
-        {
-          "Count": 2,
-          "CardName": "Windswept Heath"
-        },
-        {
           "Count": 4,
-          "CardName": "Exploration"
+          "CardName": "Crop Rotation"
         },
         {
           "Count": 4,
@@ -191,11 +183,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Wasteland"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gamble"
+          "CardName": "Exploration"
         },
         {
           "Count": 1,
@@ -203,31 +191,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Grove of the Burnwillows"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mox Diamond"
-        },
-        {
-          "Count": 4,
-          "CardName": "Life from the Loam"
-        },
-        {
-          "Count": 4,
-          "CardName": "Crop Rotation"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Tabernacle at Pendrell Vale"
-        },
-        {
-          "Count": 2,
-          "CardName": "Taiga"
+          "CardName": "Gamble"
         },
         {
           "Count": 1,
@@ -235,7 +199,43 @@
         },
         {
           "Count": 4,
+          "CardName": "Grove of the Burnwillows"
+        },
+        {
+          "Count": 4,
+          "CardName": "Life from the Loam"
+        },
+        {
+          "Count": 2,
+          "CardName": "Manabond"
+        },
+        {
+          "Count": 3,
+          "CardName": "Maze of Ith"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mox Diamond"
+        },
+        {
+          "Count": 4,
           "CardName": "Punishing Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rishadan Port"
+        },
+        {
+          "Count": 2,
+          "CardName": "Taiga"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Tabernacle at Pendrell Vale"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thespian's Stage"
         },
         {
           "Count": 2,
@@ -243,21 +243,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Rishadan Port"
+          "CardName": "Wasteland"
         },
         {
-          "Count": 4,
-          "CardName": "Thespian's Stage"
+          "Count": 2,
+          "CardName": "Windswept Heath"
         },
         {
-          "Count": 3,
-          "CardName": "Maze of Ith"
+          "Count": 2,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Boseiju, Who Shelters All"
+          "Count": 2,
+          "CardName": "Boil"
         },
         {
           "Count": 1,
@@ -265,95 +265,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Karakas"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sphere of Resistance"
+          "CardName": "Boseiju, Who Shelters All"
         },
         {
           "Count": 2,
           "CardName": "Chalice of the Void"
         },
         {
-          "Count": 2,
-          "CardName": "Boil"
-        },
-        {
-          "Count": 4,
-          "CardName": "Krosan Grip"
-        }
-      ]
-    },
-    {
-      "Date": "2015-12-09T00:00:00Z",
-      "Player": "Nitsuj42",
-      "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742#deck_Nitsuj42",
-      "Mainboard": [
-        {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ponder"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tundra"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tropical Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 1,
-          "CardName": "Scrubland"
-        },
-        {
           "Count": 1,
           "CardName": "Karakas"
         },
         {
           "Count": 4,
-          "CardName": "Polluted Delta"
-        },
-        {
-          "Count": 2,
-          "CardName": "Jace, the Mind Sculptor"
-        },
-        {
-          "Count": 3,
-          "CardName": "Gitaxian Probe"
+          "CardName": "Krosan Grip"
         },
         {
           "Count": 4,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 2,
-          "CardName": "Painful Truths"
-        },
-        {
-          "Count": 1,
-          "CardName": "Underground Sea"
-        },
-        {
-          "Count": 1,
-          "CardName": "Council's Judgment"
-        },
+          "CardName": "Sphere of Resistance"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Nitsuj42",
+      "Result": "3-1",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Nitsuj42",
+      "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Swords to Plowshares"
+          "CardName": "Brainstorm"
         },
         {
           "Count": 3,
@@ -361,27 +301,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Tasigur, the Golden Fang"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
+          "CardName": "Council's Judgment"
         },
         {
           "Count": 4,
-          "CardName": "Monastery Mentor"
+          "CardName": "Deathrite Shaman"
         },
         {
-          "Count": 2,
-          "CardName": "Snapcaster Mage"
+          "Count": 4,
+          "CardName": "Flooded Strand"
         },
         {
           "Count": 4,
           "CardName": "Force of Will"
         },
         {
+          "Count": 3,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
           "Count": 1,
-          "CardName": "Plains"
+          "CardName": "Karakas"
         },
         {
           "Count": 2,
@@ -389,29 +337,69 @@
         },
         {
           "Count": 4,
-          "CardName": "Deathrite Shaman"
+          "CardName": "Monastery Mentor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Painful Truths"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tasigur, the Golden Fang"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 1,
+          "CardName": "Underground Sea"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Supreme Verdict"
-        },
-        {
           "Count": 2,
-          "CardName": "Zealous Persecution"
+          "CardName": "Abrupt Decay"
         },
         {
           "Count": 1,
-          "CardName": "Vendilion Clique"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pithing Needle"
-        },
-        {
-          "Count": 1,
-          "CardName": "Flusterstorm"
+          "CardName": "Divert"
         },
         {
           "Count": 1,
@@ -419,15 +407,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Null Rod"
-        },
-        {
-          "Count": 1,
-          "CardName": "Divert"
-        },
-        {
-          "Count": 2,
-          "CardName": "Abrupt Decay"
+          "CardName": "Flusterstorm"
         },
         {
           "Count": 1,
@@ -435,7 +415,15 @@
         },
         {
           "Count": 1,
-          "CardName": "Surgical Extraction"
+          "CardName": "Notion Thief"
+        },
+        {
+          "Count": 1,
+          "CardName": "Null Rod"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
         },
         {
           "Count": 1,
@@ -443,71 +431,31 @@
         },
         {
           "Count": 1,
-          "CardName": "Notion Thief"
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vendilion Clique"
+        },
+        {
+          "Count": 2,
+          "CardName": "Zealous Persecution"
         }
       ]
     },
     {
-      "Date": "2015-12-09T00:00:00Z",
+      "Date": "2015-12-09T03:00:00",
       "Player": "TERROl2",
       "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742#deck_TERROl2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_TERROl2",
       "Mainboard": [
-        {
-          "Count": 3,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 4,
-          "CardName": "Force of Will"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tarmogoyf"
-        },
         {
           "Count": 4,
           "CardName": "Brainstorm"
-        },
-        {
-          "Count": 4,
-          "CardName": "Polluted Delta"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tropical Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Daze"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wasteland"
-        },
-        {
-          "Count": 4,
-          "CardName": "Nimble Mongoose"
-        },
-        {
-          "Count": 3,
-          "CardName": "Volcanic Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Delver of Secrets"
-        },
-        {
-          "Count": 4,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stifle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ponder"
         },
         {
           "Count": 3,
@@ -515,7 +463,59 @@
         },
         {
           "Count": 4,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 4,
           "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nimble Mongoose"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stifle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
         }
       ],
       "Sideboard": [
@@ -525,15 +525,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Vendilion Clique"
+          "CardName": "Blue Elemental Blast"
         },
         {
-          "Count": 1,
-          "CardName": "Hurkyl's Recall"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pithing Needle"
+          "Count": 2,
+          "CardName": "Flusterstorm"
         },
         {
           "Count": 1,
@@ -541,11 +537,23 @@
         },
         {
           "Count": 1,
+          "CardName": "Hurkyl's Recall"
+        },
+        {
+          "Count": 1,
           "CardName": "Null Rod"
         },
         {
           "Count": 1,
-          "CardName": "Blue Elemental Blast"
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rough // Tumble"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scavenging Ooze"
         },
         {
           "Count": 2,
@@ -557,59 +565,27 @@
         },
         {
           "Count": 1,
-          "CardName": "Scavenging Ooze"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rough // Tumble"
-        },
-        {
-          "Count": 2,
-          "CardName": "Flusterstorm"
+          "CardName": "Vendilion Clique"
         }
       ]
     },
     {
-      "Date": "2015-12-09T00:00:00Z",
+      "Date": "2015-12-09T03:00:00",
       "Player": "tyobe0440",
       "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742#deck_tyobe0440",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_tyobe0440",
       "Mainboard": [
-        {
-          "Count": 2,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 4,
-          "CardName": "Underground Sea"
-        },
         {
           "Count": 4,
           "CardName": "Abrupt Decay"
         },
         {
-          "Count": 1,
-          "CardName": "Liliana of the Veil"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wasteland"
-        },
-        {
-          "Count": 4,
-          "CardName": "Delver of Secrets"
-        },
-        {
           "Count": 2,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Verdant Catacombs"
+          "CardName": "Bayou"
         },
         {
           "Count": 4,
-          "CardName": "Deathrite Shaman"
+          "CardName": "Brainstorm"
         },
         {
           "Count": 2,
@@ -617,31 +593,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Hymn to Tourach"
+          "CardName": "Daze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Delver of Secrets"
         },
         {
           "Count": 3,
           "CardName": "Force of Will"
         },
         {
-          "Count": 2,
-          "CardName": "Bayou"
+          "Count": 4,
+          "CardName": "Hymn to Tourach"
         },
         {
           "Count": 1,
-          "CardName": "Tropical Island"
+          "CardName": "Liliana of the Veil"
         },
         {
-          "Count": 4,
-          "CardName": "Brainstorm"
-        },
-        {
-          "Count": 4,
-          "CardName": "Daze"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tarmogoyf"
+          "Count": 2,
+          "CardName": "Misty Rainforest"
         },
         {
           "Count": 4,
@@ -650,24 +626,44 @@
         {
           "Count": 4,
           "CardName": "Ponder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disfigure"
+        },
         {
           "Count": 1,
           "CardName": "Duress"
         },
         {
-          "Count": 1,
-          "CardName": "Sylvan Library"
-        },
-        {
           "Count": 2,
-          "CardName": "Surgical Extraction"
-        },
-        {
-          "Count": 2,
-          "CardName": "Disfigure"
+          "CardName": "Flusterstorm"
         },
         {
           "Count": 2,
@@ -675,7 +671,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Pithing Needle"
+          "CardName": "Jace, the Mind Sculptor"
         },
         {
           "Count": 1,
@@ -683,55 +679,39 @@
         },
         {
           "Count": 1,
-          "CardName": "Jace, the Mind Sculptor"
-        },
-        {
-          "Count": 1,
           "CardName": "Null Rod"
         },
         {
           "Count": 1,
-          "CardName": "Vendilion Clique"
+          "CardName": "Pithing Needle"
         },
         {
           "Count": 2,
-          "CardName": "Flusterstorm"
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vendilion Clique"
         }
       ]
     },
     {
-      "Date": "2015-12-09T00:00:00Z",
+      "Date": "2015-12-09T03:00:00",
       "Player": "slaxx",
       "Result": "3-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/legacy-daily-swiss-2015-12-099101742#deck_slaxx",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_slaxx",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Swords to Plowshares"
-        },
-        {
           "Count": 2,
-          "CardName": "Scalding Tarn"
-        },
-        {
-          "Count": 2,
-          "CardName": "Counterspell"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tundra"
-        },
-        {
-          "Count": 2,
-          "CardName": "Polluted Delta"
+          "CardName": "Arid Mesa"
         },
         {
           "Count": 4,
-          "CardName": "Force of Will"
-        },
-        {
-          "Count": 3,
-          "CardName": "Jace, the Mind Sculptor"
+          "CardName": "Brainstorm"
         },
         {
           "Count": 1,
@@ -742,54 +722,74 @@
           "CardName": "Counterbalance"
         },
         {
-          "Count": 4,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flooded Strand"
-        },
-        {
           "Count": 2,
-          "CardName": "Arid Mesa"
+          "CardName": "Counterspell"
         },
         {
           "Count": 2,
           "CardName": "Entreat the Angels"
         },
         {
-          "Count": 3,
-          "CardName": "Snapcaster Mage"
+          "Count": 4,
+          "CardName": "Flooded Strand"
         },
         {
-          "Count": 2,
-          "CardName": "Volcanic Island"
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 4,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Jace, the Mind Sculptor"
         },
         {
           "Count": 2,
           "CardName": "Plains"
         },
         {
-          "Count": 4,
-          "CardName": "Sensei's Divining Top"
+          "Count": 2,
+          "CardName": "Polluted Delta"
         },
         {
           "Count": 4,
           "CardName": "Ponder"
         },
         {
+          "Count": 2,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sensei's Divining Top"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swords to Plowshares"
+        },
+        {
           "Count": 4,
           "CardName": "Terminus"
         },
         {
-          "Count": 4,
-          "CardName": "Brainstorm"
+          "Count": 3,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 2,
+          "CardName": "Volcanic Island"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Monastery Mentor"
+          "Count": 1,
+          "CardName": "Containment Priest"
         },
         {
           "Count": 2,
@@ -797,7 +797,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Containment Priest"
+          "CardName": "Izzet Staticaster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Monastery Mentor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Red Elemental Blast"
         },
         {
           "Count": 2,
@@ -805,11 +817,1967 @@
         },
         {
           "Count": 2,
+          "CardName": "Vendilion Clique"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wear // Tear"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Louisbach",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Louisbach",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cabal Therapy"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dark Confidant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grim Lavamancer"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gurmag Angler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Murderous Cut"
+        },
+        {
+          "Count": 1,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stifle"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
+        },
+        {
+          "Count": 4,
+          "CardName": "Young Pyromancer"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Cabal Therapy"
+        },
+        {
+          "Count": 1,
+          "CardName": "Darkblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Electrickery"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ghost Quarter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Null Rod"
+        },
+        {
+          "Count": 1,
+          "CardName": "Perish"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Price of Progress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sulfuric Vortex"
+        },
+        {
+          "Count": 1,
+          "CardName": "Surgical Extraction"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Webb",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Webb",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Ancient Tomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chalice of the Void"
+        },
+        {
+          "Count": 3,
+          "CardName": "Choke"
+        },
+        {
+          "Count": 4,
+          "CardName": "City of Traitors"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dryad Arbor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Elvish Spirit Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eureka"
+        },
+        {
+          "Count": 6,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Living Wish"
+        },
+        {
+          "Count": 3,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Natural Order"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nicol Bolas, Planeswalker"
+        },
+        {
+          "Count": 2,
+          "CardName": "Progenitus"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 1,
+          "CardName": "Terastodon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Trinisphere"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ugin, the Spirit Dragon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wooded Foothills"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Ashen Rider"
+        },
+        {
+          "Count": 1,
+          "CardName": "Boseiju, Who Shelters All"
+        },
+        {
+          "Count": 2,
+          "CardName": "Elderscale Wurm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Faerie Macabre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hornet Queen"
+        },
+        {
+          "Count": 1,
+          "CardName": "Iona, Shield of Emeria"
+        },
+        {
+          "Count": 3,
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leyline of Sanctity"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "FancyCats",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_FancyCats",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forked Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gurmag Angler"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stifle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
+        },
+        {
+          "Count": 4,
+          "CardName": "Young Pyromancer"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Cabal Therapy"
+        },
+        {
+          "Count": 1,
+          "CardName": "Darkblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
           "CardName": "Pyroblast"
         },
         {
           "Count": 2,
+          "CardName": "Submerge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sulfuric Vortex"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormod's Crypt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Yixlid Jailer"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Butakov",
+      "Result": "2-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Butakov",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ancestral Vision"
+        },
+        {
+          "Count": 3,
+          "CardName": "Baleful Strix"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bayou"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Creeping Tar Pit"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hymn to Tourach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Liliana of the Veil"
+        },
+        {
+          "Count": 2,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shardless Agent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 4,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Bitterblossom"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disfigure"
+        },
+        {
+          "Count": 1,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hymn to Tourach"
+        },
+        {
+          "Count": 1,
+          "CardName": "Life from the Loam"
+        },
+        {
+          "Count": 1,
+          "CardName": "Night of Souls' Betrayal"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 2,
           "CardName": "Vendilion Clique"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Kzrds",
+      "Result": "1-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Kzrds",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Bayou"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Careful Study"
+        },
+        {
+          "Count": 3,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 1,
+          "CardName": "Elesh Norn, Grand Cenobite"
+        },
+        {
+          "Count": 4,
+          "CardName": "Entomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Exhume"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grave Titan"
+        },
+        {
+          "Count": 3,
+          "CardName": "Griselbrand"
+        },
+        {
+          "Count": 1,
+          "CardName": "Iona, Shield of Emeria"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reanimate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tidespout Tyrant"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underground Sea"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ashen Rider"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Echoing Truth"
+        },
+        {
+          "Count": 1,
+          "CardName": "Inkwell Leviathan"
+        },
+        {
+          "Count": 1,
+          "CardName": "Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Show and Tell"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Eajo",
+      "Result": "1-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Eajo",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Batterskull"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bayou"
+        },
+        {
+          "Count": 1,
+          "CardName": "Birds of Paradise"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dark Depths"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dryad Arbor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gaddock Teeg"
+        },
+        {
+          "Count": 4,
+          "CardName": "Green Sun's Zenith"
+        },
+        {
+          "Count": 1,
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 4,
+          "CardName": "Knight of the Reliquary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mother of Runes"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Qasali Pridemage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Savannah"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scavenging Ooze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scryb Ranger"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stoneforge Mystic"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sword of Fire and Ice"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thespian's Stage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Titania, Protector of Argoth"
+        },
+        {
+          "Count": 1,
+          "CardName": "Umezawa's Jitte"
+        },
+        {
+          "Count": 2,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 3,
+          "CardName": "Wasteland"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 1,
+          "CardName": "Choke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Containment Priest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Crop Rotation"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mirran Crusader"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mox Diamond"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nature's Claim"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormod's Crypt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Zealous Persecution"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "romariovidal",
+      "Result": "1-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_romariovidal",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Ancient Tomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Boseiju, Who Shelters All"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 2,
+          "CardName": "City of Traitors"
+        },
+        {
+          "Count": 2,
+          "CardName": "Emrakul, the Aeons Torn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eureka"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 3,
+          "CardName": "Griselbrand"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Petal"
+        },
+        {
+          "Count": 3,
+          "CardName": "Omniscience"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Preordain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Show and Tell"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ugin, the Spirit Dragon"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Boseiju, Who Shelters All"
+        },
+        {
+          "Count": 2,
+          "CardName": "Defense Grid"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Krosan Grip"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nature's Claim"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nicol Bolas, Planeswalker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Xantid Swarm"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Goodnewseveryone",
+      "Result": "1-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Goodnewseveryone",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Aether Vial"
+        },
+        {
+          "Count": 1,
+          "CardName": "Batterskull"
+        },
+        {
+          "Count": 1,
+          "CardName": "Brimaz, King of Oreskos"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flagstones of Trokair"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flickerwisp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Horizon Canopy"
+        },
+        {
+          "Count": 3,
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mirran Crusader"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mishra's Factory"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mother of Runes"
+        },
+        {
+          "Count": 4,
+          "CardName": "Phyrexian Revoker"
+        },
+        {
+          "Count": 8,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rishadan Port"
+        },
+        {
+          "Count": 1,
+          "CardName": "Serra Avenger"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spirit of the Labyrinth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stoneforge Mystic"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sword of Fire and Ice"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 1,
+          "CardName": "Umezawa's Jitte"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vryn Wingmare"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wasteland"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Cataclysm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Containment Priest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Council's Judgment"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ethersworn Canonist"
+        },
+        {
+          "Count": 1,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ratchet Bomb"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rest in Peace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sunlance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wilt-Leaf Liege"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "pellenik",
+      "Result": "1-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_pellenik",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Badlands"
+        },
+        {
+          "Count": 2,
+          "CardName": "Baleful Strix"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bayou"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Cabal Therapy"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Painful Truths"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "True-Name Nemesis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 3,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Young Pyromancer"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blood Moon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forked Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Izzet Staticaster"
+        },
+        {
+          "Count": 1,
+          "CardName": "Murderous Cut"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thoughtseize"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "TheMidnightClad",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_TheMidnightClad",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Become Immense"
+        },
+        {
+          "Count": 2,
+          "CardName": "Berserk"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blighted Agent"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Crop Rotation"
+        },
+        {
+          "Count": 3,
+          "CardName": "Daze"
+        },
+        {
+          "Count": 3,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gitaxian Probe"
+        },
+        {
+          "Count": 4,
+          "CardName": "Glistener Elf"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inkmoth Nexus"
+        },
+        {
+          "Count": 4,
+          "CardName": "Invigorate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noble Hierarch"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pendelhaven"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stifle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sylvan Library"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vines of Vastwood"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wasteland"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hydroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 2,
+          "CardName": "Krosan Grip"
+        },
+        {
+          "Count": 1,
+          "CardName": "Necropede"
+        },
+        {
+          "Count": 1,
+          "CardName": "Rest in Peace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Savannah"
+        },
+        {
+          "Count": 1,
+          "CardName": "Submerge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 2,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 1,
+          "CardName": "Teferi's Response"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "ziggy_stardust",
+      "Result": "0-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_ziggy_stardust",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Academy Ruins"
+        },
+        {
+          "Count": 2,
+          "CardName": "Baleful Strix"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Crucible of Worlds"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dack Fayden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 3,
+          "CardName": "Grove of the Burnwillows"
+        },
+        {
+          "Count": 1,
+          "CardName": "Intuition"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Life from the Loam"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Notion Thief"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 3,
+          "CardName": "Punishing Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Snare"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tropical Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "True-Name Nemesis"
+        },
+        {
+          "Count": 3,
+          "CardName": "Underground Sea"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unearth"
+        },
+        {
+          "Count": 2,
+          "CardName": "Volcanic Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wasteland"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ancient Grudge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flusterstorm"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nihil Spellbomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Null Rod"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sudden Demise"
+        },
+        {
+          "Count": 1,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Sprayquaza",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Sprayquaza",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Bayou"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cabal Therapy"
+        },
+        {
+          "Count": 1,
+          "CardName": "Courser of Kruphix"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deathrite Shaman"
+        },
+        {
+          "Count": 2,
+          "CardName": "Diabolic Intent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragonlord Dromoka"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dryad Arbor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Eternal Witness"
+        },
+        {
+          "Count": 3,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Green Sun's Zenith"
+        },
+        {
+          "Count": 1,
+          "CardName": "Karador, Ghost Chieftain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Karakas"
+        },
+        {
+          "Count": 2,
+          "CardName": "Marsh Flats"
+        },
+        {
+          "Count": 1,
+          "CardName": "Meren of Clan Nel Toth"
+        },
+        {
+          "Count": 2,
+          "CardName": "Painful Truths"
+        },
+        {
+          "Count": 4,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pernicious Deed"
+        },
+        {
+          "Count": 1,
+          "CardName": "Phyrexian Tower"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 1,
+          "CardName": "Savannah"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scavenging Ooze"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scrubland"
+        },
+        {
+          "Count": 4,
+          "CardName": "Siege Rhino"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sigarda, Host of Herons"
+        },
+        {
+          "Count": 2,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Veteran Explorer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Carpet of Flowers"
+        },
+        {
+          "Count": 3,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ethersworn Canonist"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gaddock Teeg"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Qasali Pridemage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Surgical Extraction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Toxic Deluge"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "esmyth",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_esmyth",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Abbot of Keral Keep"
+        },
+        {
+          "Count": 1,
+          "CardName": "Arid Mesa"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chain Lightning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eidolon of the Great Revel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fireblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goblin Guide"
+        },
+        {
+          "Count": 2,
+          "CardName": "Grim Lavamancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 10,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Price of Progress"
+        },
+        {
+          "Count": 3,
+          "CardName": "Rift Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sulfuric Vortex"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Electrickery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Exquisite Firecraft"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pyrostatic Pillar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Searing Blaze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Smash to Smithereens"
+        }
+      ]
+    },
+    {
+      "Date": "2015-12-09T03:00:00",
+      "Player": "Mzfroste",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/legacy-daily-swiss-2015-12-099101742#deck_Mzfroste",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Arid Mesa"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brainstorm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Counterbalance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Counterspell"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Force of Will"
+        },
+        {
+          "Count": 4,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Jace, the Mind Sculptor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Monastery Mentor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ponder"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pyroblast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Red Elemental Blast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sensei's Divining Top"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swords to Plowshares"
+        },
+        {
+          "Count": 4,
+          "CardName": "Terminus"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tundra"
+        },
+        {
+          "Count": 2,
+          "CardName": "Volcanic Island"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Blood Moon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Council's Judgment"
+        },
+        {
+          "Count": 1,
+          "CardName": "Entreat the Angels"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flusterstorm"
         },
         {
           "Count": 1,
@@ -817,11 +2785,23 @@
         },
         {
           "Count": 2,
-          "CardName": "Wear // Tear"
+          "CardName": "Pyroblast"
         },
         {
           "Count": 1,
-          "CardName": "Red Elemental Blast"
+          "CardName": "Pyroclasm"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rest in Peace"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vendilion Clique"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wear // Tear"
         }
       ]
     }
@@ -875,6 +2855,118 @@
       "OMWP": 0.375,
       "GWP": 0.5455,
       "OGWP": 0.4444
+    },
+    {
+      "Rank": 7,
+      "Player": "Louisbach",
+      "Points": 6,
+      "OMWP": 0.75,
+      "GWP": 0.5455,
+      "OGWP": 0.6364
+    },
+    {
+      "Rank": 8,
+      "Player": "Webb",
+      "Points": 6,
+      "OMWP": 0.6042,
+      "GWP": 0.5556,
+      "OGWP": 0.5877
+    },
+    {
+      "Rank": 9,
+      "Player": "FancyCats",
+      "Points": 6,
+      "OMWP": 0.6042,
+      "GWP": 0.5,
+      "OGWP": 0.5833
+    },
+    {
+      "Rank": 10,
+      "Player": "Butakov",
+      "Points": 6,
+      "OMWP": 0.4792,
+      "GWP": 0.5,
+      "OGWP": 0.4394
+    },
+    {
+      "Rank": 11,
+      "Player": "Kzrds",
+      "Points": 3,
+      "OMWP": 0.75,
+      "GWP": 0.5,
+      "OGWP": 0.6448
+    },
+    {
+      "Rank": 12,
+      "Player": "Eajo",
+      "Points": 3,
+      "OMWP": 0.6944,
+      "GWP": 0.2857,
+      "OGWP": 0.6111
+    },
+    {
+      "Rank": 13,
+      "Player": "romariovidal",
+      "Points": 3,
+      "OMWP": 0.6111,
+      "GWP": 0.4444,
+      "OGWP": 0.5065
+    },
+    {
+      "Rank": 14,
+      "Player": "Goodnewseveryone",
+      "Points": 3,
+      "OMWP": 0.6111,
+      "GWP": 0.2857,
+      "OGWP": 0.5741
+    },
+    {
+      "Rank": 15,
+      "Player": "pellenik",
+      "Points": 3,
+      "OMWP": 0.3889,
+      "GWP": 0.4286,
+      "OGWP": 0.4444
+    },
+    {
+      "Rank": 16,
+      "Player": "TheMidnightClad",
+      "Points": 0,
+      "OMWP": 0.75,
+      "GWP": 0.0,
+      "OGWP": 0.7
+    },
+    {
+      "Rank": 17,
+      "Player": "ziggy_stardust",
+      "Points": 0,
+      "OMWP": 0.75,
+      "GWP": 0.0,
+      "OGWP": 0.6852
+    },
+    {
+      "Rank": 18,
+      "Player": "Sprayquaza",
+      "Points": 0,
+      "OMWP": 0.5417,
+      "GWP": 0.3333,
+      "OGWP": 0.4394
+    },
+    {
+      "Rank": 19,
+      "Player": "esmyth",
+      "Points": 0,
+      "OMWP": 0.4167,
+      "GWP": 0.3333,
+      "OGWP": 0.4167
+    },
+    {
+      "Rank": 20,
+      "Player": "Mzfroste",
+      "Points": 0,
+      "OMWP": 0.4167,
+      "GWP": 0.2,
+      "OGWP": 0.4643
     }
   ]
 }

@@ -2,18 +2,42 @@
   "Tournament": {
     "Date": "2016-10-04T00:00:00Z",
     "Name": "Modern PTQ Preliminary",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672"
+    "Uri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672"
   },
   "Decks": [
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "raginpirate",
       "Result": "5-0",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_raginpirate",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_raginpirate",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Phantasmal Image"
+          "Count": 4,
+          "CardName": "Aether Vial"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cursecatcher"
+        },
+        {
+          "Count": 4,
+          "CardName": "Harbinger of the Tides"
+        },
+        {
+          "Count": 15,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kira, Great Glass-Spinner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lord of Atlantis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Master of the Pearl Trident"
         },
         {
           "Count": 3,
@@ -21,7 +45,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Mutavault"
+          "CardName": "Merrow Reejerey"
         },
         {
           "Count": 1,
@@ -29,27 +53,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Harbinger of the Tides"
+          "CardName": "Mutavault"
         },
         {
-          "Count": 4,
-          "CardName": "Aether Vial"
+          "Count": 2,
+          "CardName": "Phantasmal Image"
         },
         {
           "Count": 4,
           "CardName": "Silvergill Adept"
-        },
-        {
-          "Count": 1,
-          "CardName": "Kira, Great Glass-Spinner"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spreading Seas"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cursecatcher"
         },
         {
           "Count": 2,
@@ -57,33 +69,33 @@
         },
         {
           "Count": 4,
-          "CardName": "Merrow Reejerey"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lord of Atlantis"
-        },
-        {
-          "Count": 15,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Master of the Pearl Trident"
+          "CardName": "Spreading Seas"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Relic of Progenitus"
+          "CardName": "Dismember"
         },
         {
           "Count": 1,
           "CardName": "Ghost Quarter"
         },
         {
+          "Count": 3,
+          "CardName": "Hurkyl's Recall"
+        },
+        {
           "Count": 1,
           "CardName": "Kira, Great Glass-Spinner"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Remand"
         },
         {
           "Count": 2,
@@ -92,50 +104,22 @@
         {
           "Count": 2,
           "CardName": "Vapor Snag"
-        },
-        {
-          "Count": 3,
-          "CardName": "Hurkyl's Recall"
-        },
-        {
-          "Count": 2,
-          "CardName": "Remand"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dismember"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "Lejay",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Lejay",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Lejay",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Scalding Tarn"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
+          "CardName": "Ancestral Vision"
         },
         {
           "Count": 2,
-          "CardName": "Gigadrowse"
-        },
-        {
-          "Count": 3,
-          "CardName": "Snapcaster Mage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Faithless Looting"
-        },
-        {
-          "Count": 4,
-          "CardName": "Serum Visions"
+          "CardName": "Day's Undoing"
         },
         {
           "Count": 4,
@@ -143,7 +127,55 @@
         },
         {
           "Count": 4,
+          "CardName": "Exhaustion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Faithless Looting"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gigadrowse"
+        },
+        {
+          "Count": 8,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mikokoro, Center of the Sea"
+        },
+        {
+          "Count": 1,
+          "CardName": "Minamo, School at Water's Edge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
           "CardName": "Remand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Serum Visions"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Steam Vents"
         },
         {
           "Count": 4,
@@ -155,57 +187,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Ancestral Vision"
-        },
-        {
-          "Count": 8,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
           "CardName": "Time Warp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mikokoro, Center of the Sea"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 4,
-          "CardName": "Exhaustion"
-        },
-        {
-          "Count": 1,
-          "CardName": "Minamo, School at Water's Edge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Day's Undoing"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 3,
-          "CardName": "Hurkyl's Recall"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thing in the Ice"
-        },
         {
           "Count": 2,
           "CardName": "Disrupting Shoal"
         },
         {
           "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 1,
           "CardName": "Flame Slash"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hurkyl's Recall"
         },
         {
           "Count": 2,
@@ -220,52 +220,44 @@
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 1,
-          "CardName": "Engineered Explosives"
+          "Count": 3,
+          "CardName": "Thing in the Ice"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "WannaBeBeatle",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_WannaBeBeatle",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_WannaBeBeatle",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Bloodstained Mire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 3,
-          "CardName": "Life from the Loam"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stinkweed Imp"
-        },
-        {
           "Count": 2,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dakmor Salvage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mana Confluence"
+          "CardName": "Blood Crypt"
         },
         {
           "Count": 4,
           "CardName": "Bloodghast"
         },
         {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
           "Count": 1,
           "CardName": "Collective Brutality"
+        },
+        {
+          "Count": 3,
+          "CardName": "Conflagrate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Copperline Gorge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dakmor Salvage"
         },
         {
           "Count": 4,
@@ -273,31 +265,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Prized Amalgam"
-        },
-        {
-          "Count": 4,
           "CardName": "Golgari Grave-Troll"
-        },
-        {
-          "Count": 3,
-          "CardName": "Conflagrate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Blood Crypt"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 4,
-          "CardName": "Narcomoeba"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tormenting Voice"
         },
         {
           "Count": 1,
@@ -305,25 +273,77 @@
         },
         {
           "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
           "CardName": "Insolent Neonate"
         },
         {
           "Count": 3,
-          "CardName": "Copperline Gorge"
+          "CardName": "Life from the Loam"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mana Confluence"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Narcomoeba"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prized Amalgam"
+        },
+        {
+          "Count": 1,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stinkweed Imp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tormenting Voice"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Gnaw to the Bone"
+          "CardName": "Ancient Grudge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Collective Brutality"
+        },
+        {
+          "Count": 1,
+          "CardName": "Darkblast"
         },
         {
           "Count": 1,
           "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 2,
+          "CardName": "Gnaw to the Bone"
+        },
+        {
+          "Count": 3,
+          "CardName": "Leyline of the Void"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lightning Axe"
         },
         {
           "Count": 1,
@@ -332,46 +352,50 @@
         {
           "Count": 2,
           "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ancient Grudge"
-        },
-        {
-          "Count": 3,
-          "CardName": "Leyline of the Void"
-        },
-        {
-          "Count": 1,
-          "CardName": "Darkblast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Collective Brutality"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lightning Axe"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "EronRelentless",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_EronRelentless",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_EronRelentless",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Boros Elite"
+        },
+        {
+          "Count": 4,
+          "CardName": "Champion of the Parish"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gather the Townsfolk"
+        },
+        {
+          "Count": 4,
+          "CardName": "Godless Shrine"
+        },
+        {
+          "Count": 3,
+          "CardName": "Honor of the Pure"
+        },
         {
           "Count": 3,
           "CardName": "Kytheon, Hero of Akros"
         },
         {
-          "Count": 10,
-          "CardName": "Plains"
+          "Count": 4,
+          "CardName": "Path to Exile"
         },
         {
-          "Count": 4,
-          "CardName": "Thalia's Lieutenant"
+          "Count": 10,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -383,50 +407,42 @@
         },
         {
           "Count": 3,
-          "CardName": "Honor of the Pure"
-        },
-        {
-          "Count": 4,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 1,
-          "CardName": "Vault of the Archangel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Boros Elite"
-        },
-        {
-          "Count": 3,
           "CardName": "Thalia, Guardian of Thraben"
         },
         {
-          "Count": 3,
-          "CardName": "Flooded Strand"
-        },
-        {
           "Count": 4,
-          "CardName": "Godless Shrine"
-        },
-        {
-          "Count": 3,
-          "CardName": "Windswept Heath"
-        },
-        {
-          "Count": 4,
-          "CardName": "Champion of the Parish"
+          "CardName": "Thalia's Lieutenant"
         },
         {
           "Count": 4,
           "CardName": "Thraben Inspector"
         },
         {
-          "Count": 4,
-          "CardName": "Gather the Townsfolk"
+          "Count": 1,
+          "CardName": "Vault of the Archangel"
+        },
+        {
+          "Count": 3,
+          "CardName": "Windswept Heath"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Dark Confidant"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kataki, War's Wage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mark of Asylum"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nearheath Pilgrim"
+        },
         {
           "Count": 2,
           "CardName": "Rest in Peace"
@@ -437,67 +453,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Zealous Persecution"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mark of Asylum"
-        },
-        {
-          "Count": 3,
-          "CardName": "Dark Confidant"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nearheath Pilgrim"
-        },
-        {
-          "Count": 2,
           "CardName": "Stony Silence"
         },
         {
-          "Count": 1,
-          "CardName": "Kataki, War's Wage"
+          "Count": 2,
+          "CardName": "Zealous Persecution"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "_lluks_",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck__lluks_",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck__lluks_",
       "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Ancient Stirrings"
+        },
+        {
+          "Count": 1,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 3,
+          "CardName": "Brushland"
+        },
         {
           "Count": 4,
           "CardName": "Cavern of Souls"
         },
         {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 2,
-          "CardName": "Eldrazi Skyspawner"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eldrazi Displacer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
           "Count": 1,
           "CardName": "Dismember"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eldrazi Temple"
         },
         {
           "Count": 4,
@@ -505,47 +493,59 @@
         },
         {
           "Count": 4,
-          "CardName": "Noble Hierarch"
+          "CardName": "Eldrazi Displacer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Eldrazi Skyspawner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldrazi Temple"
         },
         {
           "Count": 1,
-          "CardName": "Breeding Pool"
+          "CardName": "Engineered Explosives"
         },
         {
-          "Count": 1,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 3,
-          "CardName": "Matter Reshaper"
+          "Count": 2,
+          "CardName": "Forest"
         },
         {
           "Count": 1,
           "CardName": "Hallowed Fountain"
         },
         {
-          "Count": 1,
-          "CardName": "Spellskite"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ancient Stirrings"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reality Smasher"
-        },
-        {
           "Count": 3,
-          "CardName": "Yavimaya Coast"
+          "CardName": "Matter Reshaper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noble Hierarch"
+        },
+        {
+          "Count": 4,
+          "CardName": "Path to Exile"
         },
         {
           "Count": 1,
           "CardName": "Plains"
         },
         {
+          "Count": 4,
+          "CardName": "Reality Smasher"
+        },
+        {
           "Count": 1,
-          "CardName": "Engineered Explosives"
+          "CardName": "Spellskite"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought-Knot Seer"
         },
         {
           "Count": 4,
@@ -553,17 +553,25 @@
         },
         {
           "Count": 3,
-          "CardName": "Brushland"
+          "CardName": "Yavimaya Coast"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Blessed Alliance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dismember"
+        },
         {
           "Count": 1,
           "CardName": "Elspeth, Sun's Champion"
         },
         {
           "Count": 1,
-          "CardName": "Spellskite"
+          "CardName": "Engineered Explosives"
         },
         {
           "Count": 3,
@@ -571,59 +579,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Dismember"
+          "CardName": "Rest in Peace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spellskite"
         },
         {
           "Count": 3,
           "CardName": "Stony Silence"
         },
         {
-          "Count": 1,
-          "CardName": "Rest in Peace"
-        },
-        {
-          "Count": 2,
-          "CardName": "Blessed Alliance"
-        },
-        {
           "Count": 2,
           "CardName": "Stubborn Denial"
-        },
-        {
-          "Count": 1,
-          "CardName": "Engineered Explosives"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "Chicken93",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Chicken93",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Chicken93",
       "Mainboard": [
-        {
-          "Count": 2,
-          "CardName": "Remand"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lord of Atlantis"
-        },
-        {
-          "Count": 3,
-          "CardName": "Merrow Reejerey"
-        },
-        {
-          "Count": 2,
-          "CardName": "Unsubstantiate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Master of Waves"
-        },
         {
           "Count": 4,
           "CardName": "Aether Vial"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cursecatcher"
         },
         {
           "Count": 4,
@@ -634,12 +618,24 @@
           "CardName": "Island"
         },
         {
-          "Count": 4,
-          "CardName": "Spreading Seas"
+          "Count": 2,
+          "CardName": "Kira, Great Glass-Spinner"
         },
         {
           "Count": 4,
-          "CardName": "Silvergill Adept"
+          "CardName": "Lord of Atlantis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Master of the Pearl Trident"
+        },
+        {
+          "Count": 4,
+          "CardName": "Master of Waves"
+        },
+        {
+          "Count": 3,
+          "CardName": "Merrow Reejerey"
         },
         {
           "Count": 1,
@@ -647,29 +643,37 @@
         },
         {
           "Count": 4,
-          "CardName": "Seachrome Coast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cursecatcher"
-        },
-        {
-          "Count": 4,
           "CardName": "Mutavault"
         },
         {
           "Count": 2,
-          "CardName": "Kira, Great Glass-Spinner"
+          "CardName": "Remand"
         },
         {
           "Count": 4,
-          "CardName": "Master of the Pearl Trident"
+          "CardName": "Seachrome Coast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silvergill Adept"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spreading Seas"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unsubstantiate"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Spell Pierce"
+          "CardName": "Dispel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gut Shot"
         },
         {
           "Count": 4,
@@ -677,79 +681,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Dispel"
+          "CardName": "Relic of Progenitus"
         },
         {
           "Count": 2,
-          "CardName": "Relic of Progenitus"
+          "CardName": "Spell Pierce"
         },
         {
           "Count": 1,
           "CardName": "Unsubstantiate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gut Shot"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "adlar",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_adlar",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_adlar",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Noble Hierarch"
-        },
-        {
-          "Count": 1,
-          "CardName": "Birds of Paradise"
-        },
-        {
-          "Count": 4,
-          "CardName": "Windswept Heath"
-        },
-        {
-          "Count": 4,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 1,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spellskite"
-        },
-        {
-          "Count": 3,
-          "CardName": "Brushland"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reality Smasher"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Engineered Explosives"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
         {
           "Count": 4,
           "CardName": "Ancient Stirrings"
         },
         {
           "Count": 1,
-          "CardName": "Hallowed Fountain"
+          "CardName": "Birds of Paradise"
+        },
+        {
+          "Count": 1,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 3,
+          "CardName": "Brushland"
         },
         {
           "Count": 4,
@@ -760,24 +724,52 @@
           "CardName": "Drowner of Hope"
         },
         {
-          "Count": 1,
-          "CardName": "Eternal Witness"
+          "Count": 4,
+          "CardName": "Eldrazi Displacer"
         },
         {
           "Count": 4,
           "CardName": "Eldrazi Temple"
         },
         {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
+          "Count": 2,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eternal Witness"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hallowed Fountain"
         },
         {
           "Count": 4,
           "CardName": "Matter Reshaper"
         },
         {
-          "Count": 3,
-          "CardName": "Yavimaya Coast"
+          "Count": 4,
+          "CardName": "Noble Hierarch"
+        },
+        {
+          "Count": 4,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reality Smasher"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spellskite"
         },
         {
           "Count": 1,
@@ -785,13 +777,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Eldrazi Displacer"
+          "CardName": "Thought-Knot Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 3,
+          "CardName": "Yavimaya Coast"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Worship"
+          "Count": 2,
+          "CardName": "Blessed Alliance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Elspeth, Sun's Champion"
         },
         {
           "Count": 1,
@@ -799,15 +803,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Blessed Alliance"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stubborn Denial"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stony Silence"
+          "CardName": "Grafdigger's Cage"
         },
         {
           "Count": 1,
@@ -815,83 +811,35 @@
         },
         {
           "Count": 2,
-          "CardName": "Elspeth, Sun's Champion"
+          "CardName": "Stony Silence"
         },
         {
-          "Count": 2,
-          "CardName": "Grafdigger's Cage"
+          "Count": 4,
+          "CardName": "Stubborn Denial"
+        },
+        {
+          "Count": 1,
+          "CardName": "Worship"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "HermonHero",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_HermonHero",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_HermonHero",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Copperline Gorge"
-        },
         {
           "Count": 4,
           "CardName": "Architects of Will"
         },
         {
-          "Count": 2,
-          "CardName": "Faerie Macabre"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shriekmaw"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fulminator Mage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monstrous Carabid"
-        },
-        {
-          "Count": 4,
-          "CardName": "Demonic Dread"
-        },
-        {
           "Count": 3,
-          "CardName": "Living End"
+          "CardName": "Beast Within"
         },
         {
           "Count": 4,
           "CardName": "Blackcleave Cliffs"
-        },
-        {
-          "Count": 4,
-          "CardName": "Street Wraith"
-        },
-        {
-          "Count": 1,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Violent Outburst"
-        },
-        {
-          "Count": 4,
-          "CardName": "Deadshot Minotaur"
-        },
-        {
-          "Count": 3,
-          "CardName": "Beast Within"
         },
         {
           "Count": 1,
@@ -900,6 +848,50 @@
         {
           "Count": 4,
           "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Copperline Gorge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deadshot Minotaur"
+        },
+        {
+          "Count": 4,
+          "CardName": "Demonic Dread"
+        },
+        {
+          "Count": 2,
+          "CardName": "Faerie Macabre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fulminator Mage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Living End"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monstrous Carabid"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shriekmaw"
         },
         {
           "Count": 3,
@@ -910,22 +902,26 @@
           "CardName": "Stomping Ground"
         },
         {
+          "Count": 4,
+          "CardName": "Street Wraith"
+        },
+        {
           "Count": 2,
           "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Violent Outburst"
         }
       ],
       "Sideboard": [
         {
+          "Count": 3,
+          "CardName": "Brindle Boar"
+        },
+        {
           "Count": 1,
           "CardName": "Dismember"
-        },
-        {
-          "Count": 2,
-          "CardName": "Slaughter Games"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ricochet Trap"
         },
         {
           "Count": 2,
@@ -933,71 +929,67 @@
         },
         {
           "Count": 3,
-          "CardName": "Brindle Boar"
+          "CardName": "Ingot Chewer"
         },
         {
           "Count": 3,
-          "CardName": "Ingot Chewer"
+          "CardName": "Ricochet Trap"
         },
         {
           "Count": 1,
           "CardName": "Shriekmaw"
+        },
+        {
+          "Count": 2,
+          "CardName": "Slaughter Games"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "whateverfor",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_whateverfor",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_whateverfor",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Liliana of the Veil"
-        },
-        {
-          "Count": 3,
-          "CardName": "Noble Hierarch"
-        },
-        {
-          "Count": 3,
-          "CardName": "Grim Flayer"
+          "Count": 2,
+          "CardName": "Abrupt Decay"
         },
         {
           "Count": 1,
           "CardName": "Collective Brutality"
         },
         {
-          "Count": 4,
-          "CardName": "Tarmogoyf"
+          "Count": 1,
+          "CardName": "Forest"
         },
         {
           "Count": 1,
           "CardName": "Gideon, Ally of Zendikar"
         },
         {
+          "Count": 1,
+          "CardName": "Godless Shrine"
+        },
+        {
+          "Count": 3,
+          "CardName": "Grim Flayer"
+        },
+        {
           "Count": 3,
           "CardName": "Inquisition of Kozilek"
         },
         {
-          "Count": 2,
-          "CardName": "Overgrown Tomb"
+          "Count": 4,
+          "CardName": "Liliana of the Veil"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lingering Souls"
         },
         {
           "Count": 3,
-          "CardName": "Shambling Vent"
-        },
-        {
-          "Count": 3,
-          "CardName": "Scavenging Ooze"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Godless Shrine"
+          "CardName": "Marsh Flats"
         },
         {
           "Count": 2,
@@ -1005,129 +997,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 1,
           "CardName": "Murderous Cut"
         },
         {
           "Count": 3,
-          "CardName": "Windswept Heath"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 3,
-          "CardName": "Marsh Flats"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lingering Souls"
+          "CardName": "Noble Hierarch"
         },
         {
           "Count": 2,
-          "CardName": "Abrupt Decay"
-        },
-        {
-          "Count": 1,
-          "CardName": "Forest"
+          "CardName": "Overgrown Tomb"
         },
         {
           "Count": 4,
           "CardName": "Path to Exile"
         },
         {
-          "Count": 3,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 4,
-          "CardName": "Verdant Catacombs"
-        },
-        {
-          "Count": 2,
-          "CardName": "Twilight Mire"
-        }
-      ],
-      "Sideboard": [
-        {
           "Count": 1,
-          "CardName": "Gideon, Ally of Zendikar"
+          "CardName": "Plains"
         },
         {
           "Count": 3,
-          "CardName": "Leyline of the Void"
+          "CardName": "Scavenging Ooze"
         },
         {
-          "Count": 2,
-          "CardName": "Kitchen Finks"
-        },
-        {
-          "Count": 1,
-          "CardName": "Collective Brutality"
+          "Count": 3,
+          "CardName": "Shambling Vent"
         },
         {
           "Count": 1,
-          "CardName": "Liliana, the Last Hope"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pithing Needle"
-        },
-        {
-          "Count": 1,
-          "CardName": "Engineered Explosives"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stony Silence"
-        },
-        {
-          "Count": 1,
-          "CardName": "Blessed Alliance"
-        },
-        {
-          "Count": 1,
-          "CardName": "Damnation"
-        },
-        {
-          "Count": 1,
-          "CardName": "Maelstrom Pulse"
-        }
-      ]
-    },
-    {
-      "Date": "2016-10-04T00:00:00Z",
-      "Player": "Greenman11",
-      "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Greenman11",
-      "Mainboard": [
-        {
-          "Count": 2,
           "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Dark Confidant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Inquisition of Kozilek"
-        },
-        {
-          "Count": 3,
-          "CardName": "Raging Ravine"
-        },
-        {
-          "Count": 1,
-          "CardName": "Maelstrom Pulse"
-        },
-        {
-          "Count": 2,
-          "CardName": "Abrupt Decay"
         },
         {
           "Count": 4,
@@ -1135,55 +1033,101 @@
         },
         {
           "Count": 1,
-          "CardName": "Stomping Ground"
+          "CardName": "Temple Garden"
         },
         {
-          "Count": 1,
-          "CardName": "Wooded Foothills"
+          "Count": 3,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 2,
+          "CardName": "Twilight Mire"
         },
         {
           "Count": 4,
-          "CardName": "Bloodstained Mire"
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 3,
+          "CardName": "Windswept Heath"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Blessed Alliance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Collective Brutality"
+        },
+        {
+          "Count": 1,
+          "CardName": "Damnation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 1,
+          "CardName": "Gideon, Ally of Zendikar"
         },
         {
           "Count": 2,
-          "CardName": "Overgrown Tomb"
+          "CardName": "Kitchen Finks"
+        },
+        {
+          "Count": 3,
+          "CardName": "Leyline of the Void"
+        },
+        {
+          "Count": 1,
+          "CardName": "Liliana, the Last Hope"
+        },
+        {
+          "Count": 1,
+          "CardName": "Maelstrom Pulse"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
         },
         {
           "Count": 2,
-          "CardName": "Kalitas, Traitor of Ghet"
-        },
+          "CardName": "Stony Silence"
+        }
+      ]
+    },
+    {
+      "Date": "2016-10-04T00:30:00",
+      "Player": "Greenman11",
+      "Result": "3-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Greenman11",
+      "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Scavenging Ooze"
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blackcleave Cliffs"
         },
         {
           "Count": 1,
           "CardName": "Blood Crypt"
         },
         {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
           "Count": 1,
-          "CardName": "Twilight Mire"
+          "CardName": "Collective Brutality"
         },
         {
           "Count": 4,
-          "CardName": "Liliana of the Veil"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 3,
-          "CardName": "Terminate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kolaghan's Command"
-        },
-        {
-          "Count": 4,
-          "CardName": "Verdant Catacombs"
+          "CardName": "Dark Confidant"
         },
         {
           "Count": 1,
@@ -1195,45 +1139,81 @@
         },
         {
           "Count": 4,
-          "CardName": "Lightning Bolt"
+          "CardName": "Inquisition of Kozilek"
         },
         {
-          "Count": 1,
-          "CardName": "Collective Brutality"
+          "Count": 2,
+          "CardName": "Kalitas, Traitor of Ghet"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kolaghan's Command"
         },
         {
           "Count": 4,
-          "CardName": "Blackcleave Cliffs"
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Liliana of the Veil"
+        },
+        {
+          "Count": 1,
+          "CardName": "Maelstrom Pulse"
+        },
+        {
+          "Count": 2,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 3,
+          "CardName": "Raging Ravine"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scavenging Ooze"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tarmogoyf"
+        },
+        {
+          "Count": 3,
+          "CardName": "Terminate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Twilight Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Anger of the Gods"
-        },
-        {
-          "Count": 1,
-          "CardName": "Painful Truths"
-        },
-        {
-          "Count": 2,
-          "CardName": "Fulminator Mage"
-        },
-        {
-          "Count": 3,
-          "CardName": "Kitchen Finks"
-        },
-        {
-          "Count": 2,
           "CardName": "Ancient Grudge"
         },
         {
-          "Count": 1,
-          "CardName": "Duress"
-        },
-        {
-          "Count": 1,
-          "CardName": "Nihil Spellbomb"
+          "Count": 2,
+          "CardName": "Anger of the Gods"
         },
         {
           "Count": 1,
@@ -1241,39 +1221,43 @@
         },
         {
           "Count": 1,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fulminator Mage"
+        },
+        {
+          "Count": 1,
           "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kitchen Finks"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nihil Spellbomb"
         },
         {
           "Count": 1,
           "CardName": "Olivia Voldaren"
+        },
+        {
+          "Count": 1,
+          "CardName": "Painful Truths"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "Gallatin",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Gallatin",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Gallatin",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 3,
-          "CardName": "Life from the Loam"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodstained Mire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dakmor Salvage"
+          "Count": 1,
+          "CardName": "Blackcleave Cliffs"
         },
         {
           "Count": 2,
@@ -1284,48 +1268,52 @@
           "CardName": "Bloodghast"
         },
         {
-          "Count": 1,
-          "CardName": "Blackcleave Cliffs"
-        },
-        {
-          "Count": 3,
-          "CardName": "Copperline Gorge"
-        },
-        {
           "Count": 4,
-          "CardName": "Insolent Neonate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faithless Looting"
+          "CardName": "Bloodstained Mire"
         },
         {
           "Count": 4,
           "CardName": "Collective Brutality"
         },
         {
-          "Count": 4,
-          "CardName": "Stinkweed Imp"
+          "Count": 3,
+          "CardName": "Conflagrate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Copperline Gorge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dakmor Salvage"
         },
         {
           "Count": 4,
-          "CardName": "Narcomoeba"
+          "CardName": "Faithless Looting"
         },
         {
           "Count": 1,
-          "CardName": "Tormenting Voice"
+          "CardName": "Forest"
         },
         {
           "Count": 4,
           "CardName": "Golgari Grave-Troll"
         },
         {
+          "Count": 4,
+          "CardName": "Insolent Neonate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Life from the Loam"
+        },
+        {
           "Count": 1,
           "CardName": "Mountain"
         },
         {
-          "Count": 1,
-          "CardName": "Forest"
+          "Count": 4,
+          "CardName": "Narcomoeba"
         },
         {
           "Count": 4,
@@ -1336,18 +1324,26 @@
           "CardName": "Steam Vents"
         },
         {
-          "Count": 3,
-          "CardName": "Conflagrate"
+          "Count": 4,
+          "CardName": "Stinkweed Imp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormenting Voice"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Nature's Claim"
-        },
-        {
-          "Count": 1,
-          "CardName": "Gnaw to the Bone"
+          "Count": 2,
+          "CardName": "Abrupt Decay"
         },
         {
           "Count": 2,
@@ -1358,8 +1354,8 @@
           "CardName": "Darkblast"
         },
         {
-          "Count": 2,
-          "CardName": "Lightning Axe"
+          "Count": 1,
+          "CardName": "Gnaw to the Bone"
         },
         {
           "Count": 4,
@@ -1367,7 +1363,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Abrupt Decay"
+          "CardName": "Lightning Axe"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nature's Claim"
         },
         {
           "Count": 2,
@@ -1376,66 +1376,14 @@
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "AveryW",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_AveryW",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_AveryW",
       "Mainboard": [
         {
           "Count": 3,
-          "CardName": "Spatial Contortion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Endbringer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Mine"
-        },
-        {
-          "Count": 2,
-          "CardName": "Relic of Progenitus"
-        },
-        {
-          "Count": 3,
           "CardName": "Dismember"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ghost Quarter"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ulamog, the Ceaseless Hunger"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spellskite"
-        },
-        {
-          "Count": 4,
-          "CardName": "Endless One"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sanctum of Ugin"
-        },
-        {
-          "Count": 1,
-          "CardName": "Urborg, Tomb of Yawgmoth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Tower"
-        },
-        {
-          "Count": 4,
-          "CardName": "Expedition Map"
         },
         {
           "Count": 4,
@@ -1443,7 +1391,71 @@
         },
         {
           "Count": 4,
+          "CardName": "Endbringer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Endless One"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expedition Map"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ghost Quarter"
+        },
+        {
+          "Count": 4,
           "CardName": "Matter Reshaper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reality Smasher"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sanctum of Ugin"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sea Gate Wreckage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spatial Contortion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spellskite"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought-Knot Seer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ulamog, the Ceaseless Hunger"
+        },
+        {
+          "Count": 1,
+          "CardName": "Urborg, Tomb of Yawgmoth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Mine"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Power Plant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Urza's Tower"
         },
         {
           "Count": 1,
@@ -1452,24 +1464,32 @@
         {
           "Count": 2,
           "CardName": "Wastes"
-        },
-        {
-          "Count": 4,
-          "CardName": "Urza's Power Plant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reality Smasher"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sea Gate Wreckage"
         }
       ],
       "Sideboard": [
         {
+          "Count": 3,
+          "CardName": "All Is Dust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Basilisk Collar"
+        },
+        {
           "Count": 1,
           "CardName": "Bojuka Bog"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bottle Gnomes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Chalice of the Void"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ratchet Bomb"
         },
         {
           "Count": 2,
@@ -1477,55 +1497,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Bottle Gnomes"
-        },
-        {
-          "Count": 1,
           "CardName": "Spellskite"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ratchet Bomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Basilisk Collar"
-        },
-        {
-          "Count": 3,
-          "CardName": "All Is Dust"
-        },
-        {
-          "Count": 3,
-          "CardName": "Chalice of the Void"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "ShowTime_",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_ShowTime_",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_ShowTime_",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Copperline Gorge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lava Spike"
-        },
-        {
-          "Count": 3,
-          "CardName": "Rift Bolt"
+          "Count": 2,
+          "CardName": "Arid Mesa"
         },
         {
           "Count": 4,
@@ -1533,35 +1517,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Wild Nacatl"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 2,
-          "CardName": "Arid Mesa"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goblin Guide"
+          "CardName": "Bloodstained Mire"
         },
         {
           "Count": 4,
           "CardName": "Boros Charm"
         },
         {
-          "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Grim Lavamancer"
+          "Count": 3,
+          "CardName": "Copperline Gorge"
         },
         {
           "Count": 4,
@@ -1569,81 +1533,85 @@
         },
         {
           "Count": 4,
-          "CardName": "Searing Blaze"
+          "CardName": "Goblin Guide"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grim Lavamancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lava Spike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
         },
         {
           "Count": 2,
           "CardName": "Mountain"
         },
         {
+          "Count": 3,
+          "CardName": "Rift Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sacred Foundry"
+        },
+        {
           "Count": 4,
-          "CardName": "Bloodstained Mire"
+          "CardName": "Searing Blaze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Nacatl"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Kor Firewalker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Skullcrack"
-        },
-        {
           "Count": 2,
           "CardName": "Deflecting Palm"
+        },
+        {
+          "Count": 3,
+          "CardName": "Destructive Revelry"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kor Firewalker"
         },
         {
           "Count": 4,
           "CardName": "Path to Exile"
         },
         {
-          "Count": 3,
-          "CardName": "Destructive Revelry"
+          "Count": 2,
+          "CardName": "Skullcrack"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "MooS",
       "Result": "2-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_MooS",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_MooS",
       "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 4,
-          "CardName": "Polluted Delta"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shivan Reef"
-        },
-        {
-          "Count": 2,
           "CardName": "Bloodstained Mire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goblin Electromancer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sleight of Hand"
-        },
-        {
-          "Count": 4,
-          "CardName": "Desperate Ritual"
-        },
-        {
-          "Count": 4,
-          "CardName": "Manamorphose"
-        },
-        {
-          "Count": 3,
-          "CardName": "Island"
         },
         {
           "Count": 3,
@@ -1651,19 +1619,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Pyretic Ritual"
-        },
-        {
-          "Count": 2,
-          "CardName": "Grapeshot"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Serum Visions"
+          "CardName": "Desperate Ritual"
         },
         {
           "Count": 4,
@@ -1671,21 +1627,73 @@
         },
         {
           "Count": 4,
-          "CardName": "Thought Scour"
+          "CardName": "Goblin Electromancer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Grapeshot"
+        },
+        {
+          "Count": 3,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Manamorphose"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Past in Flames"
+        },
+        {
+          "Count": 4,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pyretic Ritual"
         },
         {
           "Count": 4,
           "CardName": "Pyromancer Ascension"
         },
         {
-          "Count": 3,
-          "CardName": "Past in Flames"
+          "Count": 4,
+          "CardName": "Serum Visions"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shivan Reef"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sleight of Hand"
+        },
+        {
+          "Count": 2,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Scour"
         }
       ],
       "Sideboard": [
         {
           "Count": 3,
           "CardName": "Annul"
+        },
+        {
+          "Count": 1,
+          "CardName": "Echoing Truth"
+        },
+        {
+          "Count": 2,
+          "CardName": "Empty the Warrens"
         },
         {
           "Count": 4,
@@ -1696,112 +1704,24 @@
           "CardName": "Pyroclasm"
         },
         {
-          "Count": 2,
-          "CardName": "Empty the Warrens"
-        },
-        {
-          "Count": 1,
-          "CardName": "Echoing Truth"
-        },
-        {
           "Count": 3,
           "CardName": "Shatterstorm"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "AntzzzOnALog",
       "Result": "2-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_AntzzzOnALog",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_AntzzzOnALog",
       "Mainboard": [
         {
           "Count": 4,
           "CardName": "Ancestral Vision"
         },
         {
-          "Count": 4,
-          "CardName": "Path to Exile"
-        },
-        {
           "Count": 1,
           "CardName": "Arid Mesa"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Serum Visions"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spell Snare"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 2,
-          "CardName": "Vendilion Clique"
-        },
-        {
-          "Count": 4,
-          "CardName": "Snapcaster Mage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 1,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spell Queller"
-        },
-        {
-          "Count": 2,
-          "CardName": "Remand"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mana Leak"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lightning Helix"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sulfur Falls"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hallowed Fountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scalding Tarn"
         },
         {
           "Count": 2,
@@ -1812,86 +1732,36 @@
           "CardName": "Electrolyze"
         },
         {
-          "Count": 1,
-          "CardName": "Shadow of Doubt"
-        }
-      ],
-      "Sideboard": [
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
         {
-          "Count": 1,
-          "CardName": "Shadow of Doubt"
+          "Count": 2,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Bolt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lightning Helix"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mana Leak"
         },
         {
           "Count": 1,
-          "CardName": "Ajani Vengeant"
+          "CardName": "Mountain"
         },
         {
           "Count": 1,
           "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Izzet Staticaster"
-        },
-        {
-          "Count": 1,
-          "CardName": "Stony Silence"
-        },
-        {
-          "Count": 2,
-          "CardName": "Anger of the Gods"
-        },
-        {
-          "Count": 1,
-          "CardName": "Wear // Tear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Jace, Architect of Thought"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dispel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Molten Rain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Relic of Progenitus"
-        },
-        {
-          "Count": 1,
-          "CardName": "Celestial Purge"
-        }
-      ]
-    },
-    {
-      "Date": "2016-10-04T00:00:00Z",
-      "Player": "yusuke213",
-      "Result": "2-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_yusuke213",
-      "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Leonin Arbiter"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thalia, Guardian of Thraben"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Vial"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ghost Quarter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
         },
         {
           "Count": 4,
@@ -1899,15 +1769,145 @@
         },
         {
           "Count": 1,
-          "CardName": "Swamp"
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Remand"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Serum Visions"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadow of Doubt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spell Queller"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spell Snare"
+        },
+        {
+          "Count": 2,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sulfur Falls"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vendilion Clique"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Ajani Vengeant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Anger of the Gods"
+        },
+        {
+          "Count": 1,
+          "CardName": "Celestial Purge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dispel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Izzet Staticaster"
+        },
+        {
+          "Count": 1,
+          "CardName": "Jace, Architect of Thought"
+        },
+        {
+          "Count": 2,
+          "CardName": "Molten Rain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadow of Doubt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stony Silence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wear // Tear"
+        }
+      ]
+    },
+    {
+      "Date": "2016-10-04T00:30:00",
+      "Player": "yusuke213",
+      "Result": "2-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_yusuke213",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Aether Vial"
         },
         {
           "Count": 4,
           "CardName": "Caves of Koilos"
         },
         {
+          "Count": 3,
+          "CardName": "Eldrazi Displacer"
+        },
+        {
           "Count": 4,
-          "CardName": "Tidehollow Sculler"
+          "CardName": "Eldrazi Temple"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flickerwisp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ghost Quarter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Godless Shrine"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leonin Arbiter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Path to Exile"
         },
         {
           "Count": 2,
@@ -1922,8 +1922,16 @@
           "CardName": "Sea Gate Wreckage"
         },
         {
-          "Count": 4,
-          "CardName": "Eldrazi Temple"
+          "Count": 3,
+          "CardName": "Shambling Vent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thalia, Guardian of Thraben"
         },
         {
           "Count": 2,
@@ -1931,29 +1939,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Godless Shrine"
+          "CardName": "Thought-Knot Seer"
         },
         {
           "Count": 4,
-          "CardName": "Flickerwisp"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shambling Vent"
+          "CardName": "Tidehollow Sculler"
         },
         {
           "Count": 3,
           "CardName": "Wasteland Strangler"
-        },
-        {
-          "Count": 3,
-          "CardName": "Eldrazi Displacer"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Zealous Persecution"
+          "CardName": "Anguished Unmaking"
         },
         {
           "Count": 2,
@@ -1961,11 +1961,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Felidar Cub"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mangara of Corondor"
+          "CardName": "Burrenton Forge-Tender"
         },
         {
           "Count": 2,
@@ -1973,87 +1969,31 @@
         },
         {
           "Count": 2,
+          "CardName": "Felidar Cub"
+        },
+        {
+          "Count": 2,
           "CardName": "Kor Firewalker"
         },
         {
-          "Count": 2,
-          "CardName": "Burrenton Forge-Tender"
+          "Count": 1,
+          "CardName": "Mangara of Corondor"
         },
         {
           "Count": 2,
-          "CardName": "Anguished Unmaking"
+          "CardName": "Zealous Persecution"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "TVigs",
       "Result": "2-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_TVigs",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_TVigs",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Ethereal Armor"
-        },
-        {
-          "Count": 2,
-          "CardName": "Unflinching Courage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Slippery Bogle"
-        },
-        {
-          "Count": 4,
-          "CardName": "Horizon Canopy"
-        },
-        {
-          "Count": 3,
-          "CardName": "Silhana Ledgewalker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Gladecover Scout"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rancor"
-        },
-        {
-          "Count": 1,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Spider Umbra"
-        },
-        {
-          "Count": 4,
-          "CardName": "Windswept Heath"
-        },
-        {
-          "Count": 3,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 4,
-          "CardName": "Razorverge Thicket"
-        },
-        {
-          "Count": 4,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 3,
-          "CardName": "Spirit Mantle"
+          "CardName": "Daybreak Coronet"
         },
         {
           "Count": 1,
@@ -2061,41 +2001,101 @@
         },
         {
           "Count": 4,
-          "CardName": "Daybreak Coronet"
+          "CardName": "Ethereal Armor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gladecover Scout"
+        },
+        {
+          "Count": 4,
+          "CardName": "Horizon Canopy"
         },
         {
           "Count": 4,
           "CardName": "Hyena Umbra"
+        },
+        {
+          "Count": 3,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rancor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Razorverge Thicket"
+        },
+        {
+          "Count": 3,
+          "CardName": "Silhana Ledgewalker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slippery Bogle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spider Umbra"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spirit Mantle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unflinching Courage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Spellskite"
-        },
-        {
           "Count": 1,
           "CardName": "Gaddock Teeg"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spirit Link"
-        },
-        {
-          "Count": 2,
-          "CardName": "Natural State"
-        },
-        {
-          "Count": 2,
-          "CardName": "Leyline of Sanctity"
         },
         {
           "Count": 4,
           "CardName": "Kor Spiritdancer"
         },
         {
+          "Count": 2,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
+          "Count": 2,
+          "CardName": "Natural State"
+        },
+        {
           "Count": 1,
           "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spellskite"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spirit Link"
         },
         {
           "Count": 2,
@@ -2104,38 +2104,30 @@
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "Phever103",
       "Result": "1-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Phever103",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Phever103",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Serum Visions"
+          "Count": 2,
+          "CardName": "Blackcleave Cliffs"
         },
         {
           "Count": 1,
           "CardName": "Blood Crypt"
         },
         {
-          "Count": 4,
-          "CardName": "Goryo's Vengeance"
+          "Count": 1,
+          "CardName": "Bloodstained Mire"
         },
         {
           "Count": 2,
-          "CardName": "Steam Vents"
+          "CardName": "Collective Brutality"
         },
         {
-          "Count": 4,
-          "CardName": "Simian Spirit Guide"
-        },
-        {
-          "Count": 1,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sleight of Hand"
+          "Count": 2,
+          "CardName": "Creeping Tar Pit"
         },
         {
           "Count": 4,
@@ -2143,31 +2135,27 @@
         },
         {
           "Count": 4,
-          "CardName": "Griselbrand"
+          "CardName": "Faithless Looting"
         },
         {
           "Count": 4,
-          "CardName": "Scalding Tarn"
+          "CardName": "Goryo's Vengeance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Griselbrand"
         },
         {
           "Count": 1,
           "CardName": "Island"
         },
         {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
           "Count": 4,
-          "CardName": "Through the Breach"
+          "CardName": "Izzet Charm"
         },
         {
           "Count": 2,
-          "CardName": "Creeping Tar Pit"
-        },
-        {
-          "Count": 2,
-          "CardName": "Blackcleave Cliffs"
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 1,
@@ -2178,62 +2166,90 @@
           "CardName": "Polluted Delta"
         },
         {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Serum Visions"
+        },
+        {
+          "Count": 4,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sleight of Hand"
+        },
+        {
           "Count": 2,
-          "CardName": "Collective Brutality"
+          "CardName": "Steam Vents"
         },
         {
           "Count": 1,
-          "CardName": "Bloodstained Mire"
+          "CardName": "Swamp"
         },
         {
           "Count": 4,
-          "CardName": "Faithless Looting"
+          "CardName": "Through the Breach"
         },
         {
-          "Count": 4,
-          "CardName": "Izzet Charm"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lightning Bolt"
+          "Count": 1,
+          "CardName": "Watery Grave"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Quicksilver Amulet"
+          "Count": 4,
+          "CardName": "Anger of the Gods"
         },
         {
           "Count": 4,
-          "CardName": "Anger of the Gods"
+          "CardName": "Leyline of Sanctity"
         },
         {
           "Count": 1,
           "CardName": "Murderous Cut"
         },
         {
-          "Count": 4,
-          "CardName": "Thoughtseize"
+          "Count": 2,
+          "CardName": "Quicksilver Amulet"
         },
         {
           "Count": 4,
-          "CardName": "Leyline of Sanctity"
+          "CardName": "Thoughtseize"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "mashmalovsky",
       "Result": "2-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_mashmalovsky",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_mashmalovsky",
       "Mainboard": [
         {
+          "Count": 4,
+          "CardName": "Architects of Will"
+        },
+        {
           "Count": 3,
-          "CardName": "Living End"
+          "CardName": "Beast Within"
         },
         {
           "Count": 4,
-          "CardName": "Monstrous Carabid"
+          "CardName": "Blackcleave Cliffs"
+        },
+        {
+          "Count": 1,
+          "CardName": "Blood Crypt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Copperline Gorge"
         },
         {
           "Count": 4,
@@ -2244,16 +2260,8 @@
           "CardName": "Demonic Dread"
         },
         {
-          "Count": 4,
-          "CardName": "Architects of Will"
-        },
-        {
-          "Count": 4,
-          "CardName": "Street Wraith"
-        },
-        {
-          "Count": 1,
-          "CardName": "Blood Crypt"
+          "Count": 2,
+          "CardName": "Faerie Macabre"
         },
         {
           "Count": 1,
@@ -2265,7 +2273,39 @@
         },
         {
           "Count": 1,
+          "CardName": "Jungle Weaver"
+        },
+        {
+          "Count": 3,
+          "CardName": "Living End"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monstrous Carabid"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shriekmaw"
+        },
+        {
+          "Count": 3,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 1,
           "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 4,
+          "CardName": "Street Wraith"
         },
         {
           "Count": 2,
@@ -2274,88 +2314,68 @@
         {
           "Count": 4,
           "CardName": "Violent Outburst"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodstained Mire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 2,
-          "CardName": "Faerie Macabre"
-        },
-        {
-          "Count": 4,
-          "CardName": "Copperline Gorge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shriekmaw"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blackcleave Cliffs"
-        },
-        {
-          "Count": 3,
-          "CardName": "Beast Within"
-        },
-        {
-          "Count": 3,
-          "CardName": "Simian Spirit Guide"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Jungle Weaver"
         }
       ],
       "Sideboard": [
         {
+          "Count": 3,
+          "CardName": "Brindle Boar"
+        },
+        {
           "Count": 1,
-          "CardName": "Krosan Grip"
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 2,
+          "CardName": "Faerie Macabre"
         },
         {
           "Count": 3,
           "CardName": "Ingot Chewer"
         },
         {
-          "Count": 2,
-          "CardName": "Slaughter Games"
+          "Count": 1,
+          "CardName": "Krosan Grip"
         },
         {
           "Count": 3,
           "CardName": "Ricochet Trap"
         },
         {
-          "Count": 3,
-          "CardName": "Brindle Boar"
-        },
-        {
           "Count": 2,
-          "CardName": "Faerie Macabre"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dismember"
+          "CardName": "Slaughter Games"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "garr3tt",
       "Result": "1-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_garr3tt",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_garr3tt",
       "Mainboard": [
         {
           "Count": 4,
+          "CardName": "Bedlam Reveler"
+        },
+        {
+          "Count": 4,
           "CardName": "Delver of Secrets"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 1,
+          "CardName": "Electrolyze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flame Slash"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
         },
         {
           "Count": 2,
@@ -2363,23 +2383,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Young Pyromancer"
-        },
-        {
-          "Count": 4,
           "CardName": "Gitaxian Probe"
-        },
-        {
-          "Count": 4,
-          "CardName": "Serum Visions"
-        },
-        {
-          "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Scour"
         },
         {
           "Count": 3,
@@ -2387,23 +2391,27 @@
         },
         {
           "Count": 4,
-          "CardName": "Flooded Strand"
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
-          "CardName": "Bedlam Reveler"
+          "CardName": "Monastery Swiftspear"
         },
         {
-          "Count": 2,
-          "CardName": "Vapor Snag"
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scalding Tarn"
+        },
+        {
+          "Count": 4,
+          "CardName": "Serum Visions"
         },
         {
           "Count": 2,
           "CardName": "Snapcaster Mage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dismember"
         },
         {
           "Count": 3,
@@ -2415,41 +2423,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Electrolyze"
+          "CardName": "Thought Scour"
         },
         {
           "Count": 2,
-          "CardName": "Flame Slash"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
+          "CardName": "Vapor Snag"
         },
         {
           "Count": 4,
-          "CardName": "Scalding Tarn"
+          "CardName": "Young Pyromancer"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Sudden Shock"
-        },
-        {
-          "Count": 1,
-          "CardName": "Izzet Staticaster"
-        },
-        {
-          "Count": 2,
-          "CardName": "Smash to Smithereens"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Claw"
+          "Count": 3,
+          "CardName": "Blood Moon"
         },
         {
           "Count": 1,
@@ -2457,24 +2445,52 @@
         },
         {
           "Count": 2,
+          "CardName": "Dragon's Claw"
+        },
+        {
+          "Count": 1,
+          "CardName": "Izzet Staticaster"
+        },
+        {
+          "Count": 2,
           "CardName": "Magma Spray"
         },
         {
           "Count": 2,
-          "CardName": "Tormod's Crypt"
+          "CardName": "Smash to Smithereens"
         },
         {
-          "Count": 3,
-          "CardName": "Blood Moon"
+          "Count": 2,
+          "CardName": "Sudden Shock"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tormod's Crypt"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "spinsparx",
       "Result": "1-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_spinsparx",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_spinsparx",
       "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Arid Mesa"
+        },
+        {
+          "Count": 3,
+          "CardName": "Atarka's Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bloodstained Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Burning-Tree Emissary"
+        },
         {
           "Count": 1,
           "CardName": "Devastating Summons"
@@ -2484,8 +2500,56 @@
           "CardName": "Dryad Arbor"
         },
         {
+          "Count": 4,
+          "CardName": "Experiment One"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
           "Count": 3,
           "CardName": "Forked Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ghor-Clan Rampager"
+        },
+        {
+          "Count": 1,
+          "CardName": "Goblin Bushwhacker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goblin Guide"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kird Ape"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Bushwhacker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 2,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
         },
         {
           "Count": 2,
@@ -2496,48 +2560,8 @@
           "CardName": "Temple Garden"
         },
         {
-          "Count": 1,
-          "CardName": "Goblin Bushwhacker"
-        },
-        {
-          "Count": 3,
-          "CardName": "Atarka's Command"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Simian Spirit Guide"
-        },
-        {
           "Count": 4,
-          "CardName": "Burning-Tree Emissary"
-        },
-        {
-          "Count": 1,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Experiment One"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 2,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bloodstained Mire"
+          "CardName": "Wild Nacatl"
         },
         {
           "Count": 4,
@@ -2545,42 +2569,10 @@
         },
         {
           "Count": 4,
-          "CardName": "Wild Nacatl"
-        },
-        {
-          "Count": 2,
-          "CardName": "Arid Mesa"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ghor-Clan Rampager"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kird Ape"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goblin Guide"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reckless Bushwhacker"
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 1,
-          "CardName": "Qasali Pridemage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ranger of Eos"
-        },
         {
           "Count": 1,
           "CardName": "Burrenton Forge-Tender"
@@ -2590,44 +2582,56 @@
           "CardName": "Gaddock Teeg"
         },
         {
-          "Count": 2,
-          "CardName": "Scavenging Ooze"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tin Street Hooligan"
-        },
-        {
-          "Count": 1,
-          "CardName": "Path to Exile"
-        },
-        {
-          "Count": 2,
-          "CardName": "Selfless Spirit"
-        },
-        {
           "Count": 1,
           "CardName": "Kataki, War's Wage"
         },
         {
           "Count": 2,
           "CardName": "Lone Missionary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Path to Exile"
+        },
+        {
+          "Count": 1,
+          "CardName": "Qasali Pridemage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ranger of Eos"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scavenging Ooze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Selfless Spirit"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tin Street Hooligan"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "kutusov10",
       "Result": "1-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_kutusov10",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_kutusov10",
       "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Arid Mesa"
+        },
         {
           "Count": 4,
           "CardName": "Atarka's Command"
         },
         {
-          "Count": 4,
-          "CardName": "Rift Bolt"
+          "Count": 2,
+          "CardName": "Bedlam Reveler"
         },
         {
           "Count": 3,
@@ -2635,31 +2639,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Monastery Swiftspear"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bedlam Reveler"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lightning Bolt"
-        },
-        {
-          "Count": 3,
-          "CardName": "Searing Blaze"
+          "CardName": "Boros Charm"
         },
         {
           "Count": 2,
@@ -2670,16 +2650,8 @@
           "CardName": "Eidolon of the Great Revel"
         },
         {
-          "Count": 2,
-          "CardName": "Sacred Foundry"
-        },
-        {
           "Count": 4,
-          "CardName": "Wild Nacatl"
-        },
-        {
-          "Count": 3,
-          "CardName": "Arid Mesa"
+          "CardName": "Goblin Guide"
         },
         {
           "Count": 4,
@@ -2687,21 +2659,57 @@
         },
         {
           "Count": 4,
-          "CardName": "Boros Charm"
+          "CardName": "Lightning Bolt"
         },
         {
           "Count": 4,
-          "CardName": "Goblin Guide"
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rift Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 3,
+          "CardName": "Searing Blaze"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Nacatl"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Dragon's Claw"
+          "CardName": "Deflecting Palm"
         },
         {
           "Count": 2,
-          "CardName": "Path to Exile"
+          "CardName": "Destructive Revelry"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Claw"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grim Lavamancer"
         },
         {
           "Count": 3,
@@ -2709,11 +2717,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Destructive Revelry"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spellskite"
+          "CardName": "Path to Exile"
         },
         {
           "Count": 2,
@@ -2721,39 +2725,35 @@
         },
         {
           "Count": 1,
-          "CardName": "Grim Lavamancer"
-        },
-        {
-          "Count": 2,
-          "CardName": "Deflecting Palm"
+          "CardName": "Spellskite"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "angrychicken11",
       "Result": "1-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_angrychicken11",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_angrychicken11",
       "Mainboard": [
         {
-          "Count": 1,
-          "CardName": "Snow-Covered Forest"
+          "Count": 4,
+          "CardName": "Architects of Will"
         },
         {
-          "Count": 1,
-          "CardName": "Kessig Wolf Run"
+          "Count": 2,
+          "CardName": "Beast Within"
         },
         {
           "Count": 4,
-          "CardName": "Verdant Catacombs"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fulminator Mage"
+          "CardName": "Blackcleave Cliffs"
         },
         {
           "Count": 1,
-          "CardName": "Jungle Weaver"
+          "CardName": "Blood Crypt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Copperline Gorge"
         },
         {
           "Count": 4,
@@ -2764,28 +2764,28 @@
           "CardName": "Demonic Dread"
         },
         {
-          "Count": 4,
-          "CardName": "Blackcleave Cliffs"
+          "Count": 2,
+          "CardName": "Faerie Macabre"
         },
         {
           "Count": 4,
-          "CardName": "Monstrous Carabid"
+          "CardName": "Fulminator Mage"
         },
         {
-          "Count": 3,
-          "CardName": "Simian Spirit Guide"
+          "Count": 1,
+          "CardName": "Jungle Weaver"
         },
         {
-          "Count": 4,
-          "CardName": "Architects of Will"
+          "Count": 1,
+          "CardName": "Kessig Wolf Run"
         },
         {
           "Count": 3,
           "CardName": "Living End"
         },
         {
-          "Count": 1,
-          "CardName": "Snow-Covered Swamp"
+          "Count": 4,
+          "CardName": "Monstrous Carabid"
         },
         {
           "Count": 1,
@@ -2793,23 +2793,23 @@
         },
         {
           "Count": 2,
-          "CardName": "Faerie Macabre"
+          "CardName": "Shriekmaw"
+        },
+        {
+          "Count": 3,
+          "CardName": "Simian Spirit Guide"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Snow-Covered Swamp"
         },
         {
           "Count": 1,
           "CardName": "Stomping Ground"
-        },
-        {
-          "Count": 1,
-          "CardName": "Twisted Abomination"
-        },
-        {
-          "Count": 2,
-          "CardName": "Beast Within"
-        },
-        {
-          "Count": 4,
-          "CardName": "Copperline Gorge"
         },
         {
           "Count": 4,
@@ -2817,11 +2817,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Blood Crypt"
+          "CardName": "Twisted Abomination"
         },
         {
-          "Count": 2,
-          "CardName": "Shriekmaw"
+          "Count": 4,
+          "CardName": "Verdant Catacombs"
         },
         {
           "Count": 4,
@@ -2831,31 +2831,23 @@
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Krosan Grip"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shriekmaw"
+          "CardName": "Anger of the Gods"
         },
         {
           "Count": 1,
           "CardName": "Avalanche Riders"
         },
         {
+          "Count": 1,
+          "CardName": "Brindle Boar"
+        },
+        {
           "Count": 2,
           "CardName": "Faerie Macabre"
         },
         {
-          "Count": 1,
-          "CardName": "Anger of the Gods"
-        },
-        {
           "Count": 2,
           "CardName": "Gnaw to the Bone"
-        },
-        {
-          "Count": 1,
-          "CardName": "Brindle Boar"
         },
         {
           "Count": 3,
@@ -2863,51 +2855,63 @@
         },
         {
           "Count": 1,
-          "CardName": "Slaughter Games"
+          "CardName": "Krosan Grip"
         },
         {
           "Count": 2,
           "CardName": "Ricochet Trap"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shriekmaw"
+        },
+        {
+          "Count": 1,
+          "CardName": "Slaughter Games"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "Jacanidae",
       "Result": "1-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Jacanidae",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Jacanidae",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Windswept Heath"
-        },
-        {
-          "Count": 1,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reality Smasher"
-        },
-        {
-          "Count": 3,
-          "CardName": "Yavimaya Coast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dismember"
+          "CardName": "Ancient Stirrings"
         },
         {
           "Count": 1,
           "CardName": "Birds of Paradise"
         },
         {
+          "Count": 1,
+          "CardName": "Breeding Pool"
+        },
+        {
           "Count": 3,
           "CardName": "Brushland"
         },
         {
+          "Count": 3,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dismember"
+        },
+        {
           "Count": 4,
-          "CardName": "Noble Hierarch"
+          "CardName": "Drowner of Hope"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldrazi Displacer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldrazi Temple"
         },
         {
           "Count": 2,
@@ -2923,39 +2927,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Drowner of Hope"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ancient Stirrings"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 4,
           "CardName": "Matter Reshaper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noble Hierarch"
         },
         {
           "Count": 4,
           "CardName": "Path to Exile"
         },
         {
-          "Count": 4,
-          "CardName": "Eldrazi Temple"
+          "Count": 1,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
-          "CardName": "Eldrazi Displacer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Cavern of Souls"
+          "CardName": "Reality Smasher"
         },
         {
           "Count": 2,
@@ -2963,13 +2951,33 @@
         },
         {
           "Count": 1,
-          "CardName": "Plains"
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought-Knot Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 3,
+          "CardName": "Yavimaya Coast"
         }
       ],
       "Sideboard": [
         {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
           "Count": 1,
-          "CardName": "Worship"
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 3,
+          "CardName": "Engineered Explosives"
         },
         {
           "Count": 1,
@@ -2980,100 +2988,40 @@
           "CardName": "Grafdigger's Cage"
         },
         {
-          "Count": 3,
-          "CardName": "Engineered Explosives"
+          "Count": 2,
+          "CardName": "Stony Silence"
         },
         {
           "Count": 2,
           "CardName": "Stubborn Denial"
         },
         {
-          "Count": 2,
-          "CardName": "Disdainful Stroke"
-        },
-        {
           "Count": 1,
-          "CardName": "Dismember"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stony Silence"
+          "CardName": "Worship"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "jmeckes177",
       "Result": "1-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_jmeckes177",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_jmeckes177",
       "Mainboard": [
         {
           "Count": 2,
           "CardName": "Birds of Paradise"
         },
         {
-          "Count": 2,
-          "CardName": "Dakmor Salvage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Polluted Delta"
-        },
-        {
           "Count": 3,
-          "CardName": "Darkblast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lotleth Troll"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodghast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Faithless Looting"
-        },
-        {
-          "Count": 3,
-          "CardName": "Insolent Neonate"
+          "CardName": "Blackcleave Cliffs"
         },
         {
           "Count": 1,
           "CardName": "Blood Crypt"
         },
         {
-          "Count": 2,
-          "CardName": "Rotting Rats"
-        },
-        {
           "Count": 4,
-          "CardName": "Prized Amalgam"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vengevine"
-        },
-        {
-          "Count": 3,
-          "CardName": "Blackcleave Cliffs"
-        },
-        {
-          "Count": 2,
-          "CardName": "Marsh Flats"
-        },
-        {
-          "Count": 2,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Watery Grave"
+          "CardName": "Bloodghast"
         },
         {
           "Count": 3,
@@ -3084,16 +3032,68 @@
           "CardName": "Copperline Gorge"
         },
         {
-          "Count": 1,
-          "CardName": "Stomping Ground"
+          "Count": 2,
+          "CardName": "Dakmor Salvage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Darkblast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Faithless Looting"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gravecrawler"
+        },
+        {
+          "Count": 3,
+          "CardName": "Insolent Neonate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotleth Troll"
+        },
+        {
+          "Count": 2,
+          "CardName": "Marsh Flats"
+        },
+        {
+          "Count": 4,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 2,
+          "CardName": "Polluted Delta"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prized Amalgam"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rotting Rats"
         },
         {
           "Count": 4,
           "CardName": "Stinkweed Imp"
         },
         {
+          "Count": 1,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 4,
-          "CardName": "Gravecrawler"
+          "CardName": "Vengevine"
+        },
+        {
+          "Count": 1,
+          "CardName": "Watery Grave"
         }
       ],
       "Sideboard": [
@@ -3103,7 +3103,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Rakdos Charm"
+          "CardName": "Gnaw to the Bone"
         },
         {
           "Count": 4,
@@ -3111,19 +3111,43 @@
         },
         {
           "Count": 4,
-          "CardName": "Gnaw to the Bone"
+          "CardName": "Rakdos Charm"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "JacksonHicks1",
       "Result": "1-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_JacksonHicks1",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_JacksonHicks1",
       "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Apostle's Blessing"
+        },
+        {
+          "Count": 3,
+          "CardName": "Become Immense"
+        },
         {
           "Count": 4,
           "CardName": "Blighted Agent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 1,
+          "CardName": "Distortion Strike"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
         },
         {
           "Count": 4,
@@ -3131,31 +3155,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Wooded Foothills"
-        },
-        {
-          "Count": 4,
           "CardName": "Glistener Elf"
-        },
-        {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Apostle's Blessing"
-        },
-        {
-          "Count": 1,
-          "CardName": "Misty Rainforest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mutagenic Growth"
-        },
-        {
-          "Count": 2,
-          "CardName": "Breeding Pool"
         },
         {
           "Count": 4,
@@ -3166,32 +3166,28 @@
           "CardName": "Might of Old Krosa"
         },
         {
-          "Count": 2,
-          "CardName": "Pendelhaven"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dismember"
-        },
-        {
           "Count": 1,
-          "CardName": "Wild Defiance"
-        },
-        {
-          "Count": 1,
-          "CardName": "Distortion Strike"
-        },
-        {
-          "Count": 3,
-          "CardName": "Become Immense"
+          "CardName": "Misty Rainforest"
         },
         {
           "Count": 4,
-          "CardName": "Windswept Heath"
+          "CardName": "Mutagenic Growth"
         },
         {
           "Count": 4,
           "CardName": "Noble Hierarch"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pendelhaven"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Twisted Image"
         },
         {
           "Count": 4,
@@ -3203,25 +3199,33 @@
         },
         {
           "Count": 1,
-          "CardName": "Spell Pierce"
+          "CardName": "Wild Defiance"
         },
         {
-          "Count": 2,
-          "CardName": "Twisted Image"
+          "Count": 4,
+          "CardName": "Windswept Heath"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wooded Foothills"
         }
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Kitchen Finks"
+          "Count": 1,
+          "CardName": "Distortion Strike"
         },
         {
           "Count": 1,
           "CardName": "Dryad Arbor"
         },
         {
-          "Count": 1,
-          "CardName": "Twisted Image"
+          "Count": 4,
+          "CardName": "Kitchen Finks"
+        },
+        {
+          "Count": 4,
+          "CardName": "Natural State"
         },
         {
           "Count": 3,
@@ -3232,48 +3236,52 @@
           "CardName": "Spellskite"
         },
         {
-          "Count": 4,
-          "CardName": "Natural State"
-        },
-        {
           "Count": 1,
-          "CardName": "Distortion Strike"
+          "CardName": "Twisted Image"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "thadopestx",
       "Result": "0-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_thadopestx",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_thadopestx",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Sedge Sliver"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sliver Hive"
-        },
-        {
-          "Count": 3,
-          "CardName": "Diffusion Sliver"
-        },
-        {
-          "Count": 4,
-          "CardName": "Galerider Sliver"
+          "CardName": "Aether Vial"
         },
         {
           "Count": 1,
-          "CardName": "Watery Grave"
+          "CardName": "Blood Crypt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 2,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 4,
+          "CardName": "Collected Company"
         },
         {
           "Count": 2,
           "CardName": "Darkheart Sliver"
         },
         {
-          "Count": 4,
-          "CardName": "Manaweft Sliver"
+          "Count": 3,
+          "CardName": "Diffusion Sliver"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dormant Sliver"
+        },
+        {
+          "Count": 2,
+          "CardName": "Firewake Sliver"
         },
         {
           "Count": 1,
@@ -3281,11 +3289,43 @@
         },
         {
           "Count": 4,
-          "CardName": "Mutavault"
+          "CardName": "Galerider Sliver"
         },
         {
           "Count": 4,
-          "CardName": "Collected Company"
+          "CardName": "Manaweft Sliver"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutavault"
+        },
+        {
+          "Count": 3,
+          "CardName": "Necrotic Sliver"
+        },
+        {
+          "Count": 1,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Predatory Sliver"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sedge Sliver"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sinew Sliver"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sliver Hive"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
         },
         {
           "Count": 1,
@@ -3296,48 +3336,8 @@
           "CardName": "Verdant Catacombs"
         },
         {
-          "Count": 2,
-          "CardName": "Firewake Sliver"
-        },
-        {
           "Count": 1,
-          "CardName": "Blood Crypt"
-        },
-        {
-          "Count": 4,
-          "CardName": "Predatory Sliver"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sinew Sliver"
-        },
-        {
-          "Count": 3,
-          "CardName": "Necrotic Sliver"
-        },
-        {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dormant Sliver"
-        },
-        {
-          "Count": 2,
-          "CardName": "Cavern of Souls"
-        },
-        {
-          "Count": 1,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 4,
-          "CardName": "Aether Vial"
+          "CardName": "Watery Grave"
         }
       ],
       "Sideboard": [
@@ -3347,19 +3347,27 @@
         },
         {
           "Count": 1,
-          "CardName": "Necrotic Sliver"
+          "CardName": "Darkheart Sliver"
         },
         {
           "Count": 1,
-          "CardName": "Telekinetic Sliver"
+          "CardName": "Diffusion Sliver"
+        },
+        {
+          "Count": 2,
+          "CardName": "Frenetic Sliver"
         },
         {
           "Count": 3,
           "CardName": "Harmonic Sliver"
         },
         {
-          "Count": 2,
-          "CardName": "Frenetic Sliver"
+          "Count": 1,
+          "CardName": "Necrotic Sliver"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nihil Spellbomb"
         },
         {
           "Count": 1,
@@ -3371,51 +3379,23 @@
         },
         {
           "Count": 1,
-          "CardName": "Darkheart Sliver"
-        },
-        {
-          "Count": 3,
-          "CardName": "Nihil Spellbomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Diffusion Sliver"
+          "CardName": "Telekinetic Sliver"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "CaNaSiaN",
       "Result": "0-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_CaNaSiaN",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_CaNaSiaN",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Sleight of Hand"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple of Enlightenment"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lotus Bloom"
-        },
-        {
-          "Count": 4,
-          "CardName": "Pentad Prism"
+          "CardName": "Ad Nauseam"
         },
         {
           "Count": 4,
           "CardName": "Angel's Grace"
-        },
-        {
-          "Count": 2,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Phyrexian Unlife"
         },
         {
           "Count": 4,
@@ -3423,11 +3403,35 @@
         },
         {
           "Count": 4,
-          "CardName": "Simian Spirit Guide"
+          "CardName": "Gemstone Mine"
+        },
+        {
+          "Count": 1,
+          "CardName": "Laboratory Maniac"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lightning Storm"
         },
         {
           "Count": 4,
-          "CardName": "Gemstone Mine"
+          "CardName": "Lotus Bloom"
+        },
+        {
+          "Count": 3,
+          "CardName": "Pact of Negation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pentad Prism"
+        },
+        {
+          "Count": 4,
+          "CardName": "Phyrexian Unlife"
+        },
+        {
+          "Count": 2,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -3438,28 +3442,24 @@
           "CardName": "Serum Visions"
         },
         {
-          "Count": 1,
-          "CardName": "Lightning Storm"
+          "Count": 4,
+          "CardName": "Simian Spirit Guide"
         },
         {
           "Count": 4,
-          "CardName": "Ad Nauseam"
+          "CardName": "Sleight of Hand"
         },
         {
           "Count": 3,
-          "CardName": "Pact of Negation"
+          "CardName": "Spoils of the Vault"
         },
         {
           "Count": 4,
           "CardName": "Temple of Deceit"
         },
         {
-          "Count": 1,
-          "CardName": "Laboratory Maniac"
-        },
-        {
-          "Count": 3,
-          "CardName": "Spoils of the Vault"
+          "Count": 2,
+          "CardName": "Temple of Enlightenment"
         }
       ],
       "Sideboard": [
@@ -3468,8 +3468,12 @@
           "CardName": "Boseiju, Who Shelters All"
         },
         {
-          "Count": 2,
-          "CardName": "Thoughtseize"
+          "Count": 3,
+          "CardName": "Darkness"
+        },
+        {
+          "Count": 1,
+          "CardName": "Echoing Truth"
         },
         {
           "Count": 4,
@@ -3477,35 +3481,55 @@
         },
         {
           "Count": 1,
-          "CardName": "Slaughter Pact"
-        },
-        {
-          "Count": 1,
-          "CardName": "Echoing Truth"
-        },
-        {
-          "Count": 1,
           "CardName": "Pact of Negation"
         },
         {
-          "Count": 3,
-          "CardName": "Darkness"
+          "Count": 1,
+          "CardName": "Slaughter Pact"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "mkennedymma",
       "Result": "0-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_mkennedymma",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_mkennedymma",
       "Mainboard": [
         {
+          "Count": 2,
+          "CardName": "Blessed Alliance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Celestial Colonnade"
+        },
+        {
           "Count": 3,
-          "CardName": "Mana Leak"
+          "CardName": "Cryptic Command"
         },
         {
           "Count": 1,
-          "CardName": "Prairie Stream"
+          "CardName": "Detention Sphere"
+        },
+        {
+          "Count": 2,
+          "CardName": "Elspeth, Sun's Champion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flooded Strand"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ghost Quarter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Glacial Fortress"
         },
         {
           "Count": 3,
@@ -3517,7 +3541,11 @@
         },
         {
           "Count": 3,
-          "CardName": "Plains"
+          "CardName": "Jace, Vryn's Prodigy"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mana Leak"
         },
         {
           "Count": 2,
@@ -3528,60 +3556,16 @@
           "CardName": "Path to Exile"
         },
         {
-          "Count": 2,
-          "CardName": "Blessed Alliance"
-        },
-        {
-          "Count": 4,
-          "CardName": "Celestial Colonnade"
-        },
-        {
           "Count": 3,
-          "CardName": "Jace, Vryn's Prodigy"
+          "CardName": "Plains"
         },
         {
           "Count": 2,
           "CardName": "Polluted Delta"
         },
         {
-          "Count": 3,
-          "CardName": "Snapcaster Mage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Elspeth, Sun's Champion"
-        },
-        {
           "Count": 1,
-          "CardName": "Glacial Fortress"
-        },
-        {
-          "Count": 2,
-          "CardName": "Supreme Verdict"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sphinx's Revelation"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flooded Strand"
-        },
-        {
-          "Count": 1,
-          "CardName": "Detention Sphere"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wall of Omens"
-        },
-        {
-          "Count": 3,
-          "CardName": "Cryptic Command"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ghost Quarter"
+          "CardName": "Prairie Stream"
         },
         {
           "Count": 1,
@@ -3590,28 +3574,28 @@
         {
           "Count": 4,
           "CardName": "Serum Visions"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snapcaster Mage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sphinx's Revelation"
+        },
+        {
+          "Count": 2,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wall of Omens"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Crucible of Worlds"
-        },
-        {
-          "Count": 2,
           "CardName": "Batterskull"
-        },
-        {
-          "Count": 1,
-          "CardName": "Supreme Verdict"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rest in Peace"
         },
         {
           "Count": 1,
@@ -3619,83 +3603,47 @@
         },
         {
           "Count": 1,
-          "CardName": "Engineered Explosives"
+          "CardName": "Crucible of Worlds"
         },
         {
           "Count": 1,
           "CardName": "Dispel"
         },
         {
+          "Count": 1,
+          "CardName": "Engineered Explosives"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rest in Peace"
+        },
+        {
           "Count": 4,
           "CardName": "Stony Silence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Supreme Verdict"
         }
       ]
     },
     {
-      "Date": "2016-10-04T00:00:00Z",
+      "Date": "2016-10-04T00:30:00",
       "Player": "paulx441",
       "Result": "0-3",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_paulx441",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_paulx441",
       "Mainboard": [
-        {
-          "Count": 1,
-          "CardName": "Island"
-        },
-        {
-          "Count": 2,
-          "CardName": "Master of Etherium"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blinkmoth Nexus"
-        },
-        {
-          "Count": 3,
-          "CardName": "Glimmervoid"
-        },
         {
           "Count": 4,
           "CardName": "Arcbound Ravager"
         },
         {
           "Count": 4,
-          "CardName": "Signal Pest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Memnite"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vault Skirge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Etched Champion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ornithopter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mox Opal"
-        },
-        {
-          "Count": 4,
-          "CardName": "Steel Overseer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Inkmoth Nexus"
-        },
-        {
-          "Count": 4,
-          "CardName": "Springleaf Drum"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
+          "CardName": "Blinkmoth Nexus"
         },
         {
           "Count": 4,
@@ -3706,14 +3654,66 @@
           "CardName": "Darksteel Citadel"
         },
         {
+          "Count": 2,
+          "CardName": "Etched Champion"
+        },
+        {
           "Count": 4,
           "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Glimmervoid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inkmoth Nexus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Master of Etherium"
+        },
+        {
+          "Count": 3,
+          "CardName": "Memnite"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mox Opal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ornithopter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Signal Pest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Springleaf Drum"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steel Overseer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vault Skirge"
         }
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Spell Pierce"
+          "Count": 2,
+          "CardName": "Ancient Grudge"
         },
         {
           "Count": 2,
@@ -3732,16 +3732,358 @@
           "CardName": "Grafdigger's Cage"
         },
         {
+          "Count": 3,
+          "CardName": "Spell Pierce"
+        },
+        {
           "Count": 1,
           "CardName": "Tormod's Crypt"
         },
         {
           "Count": 2,
           "CardName": "Whipflare"
+        }
+      ]
+    },
+    {
+      "Date": "2016-10-04T00:30:00",
+      "Player": "Zonast",
+      "Result": "",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Zonast",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Aether Vial"
         },
         {
           "Count": 2,
+          "CardName": "Cavern of Souls"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cursecatcher"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 2,
+          "CardName": "Harbinger of the Tides"
+        },
+        {
+          "Count": 12,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kira, Great Glass-Spinner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lord of Atlantis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Master of the Pearl Trident"
+        },
+        {
+          "Count": 3,
+          "CardName": "Master of Waves"
+        },
+        {
+          "Count": 3,
+          "CardName": "Merrow Reejerey"
+        },
+        {
+          "Count": 1,
+          "CardName": "Minamo, School at Water's Edge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutavault"
+        },
+        {
+          "Count": 1,
+          "CardName": "Oboro, Palace in the Clouds"
+        },
+        {
+          "Count": 4,
+          "CardName": "Silvergill Adept"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spreading Seas"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tidebinder Mage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vapor Snag"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Chalice of the Void"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hurkyl's Recall"
+        },
+        {
+          "Count": 2,
+          "CardName": "Relic of Progenitus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swan Song"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tectonic Edge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tidebinder Mage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unified Will"
+        }
+      ]
+    },
+    {
+      "Date": "2016-10-04T00:30:00",
+      "Player": "Satoken0611",
+      "Result": "",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Satoken0611",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Daybreak Coronet"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dryad Arbor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ethereal Armor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gladecover Scout"
+        },
+        {
+          "Count": 4,
+          "CardName": "Horizon Canopy"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hyena Umbra"
+        },
+        {
+          "Count": 2,
+          "CardName": "Keen Sense"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kor Spiritdancer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Misty Rainforest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rancor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Razorverge Thicket"
+        },
+        {
+          "Count": 4,
+          "CardName": "Slippery Bogle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spider Umbra"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spirit Mantle"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 3,
+          "CardName": "Unflinching Courage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Verdant Catacombs"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wooded Bastion"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Choke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gaddock Teeg"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nature's Claim"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stony Silence"
+        }
+      ]
+    },
+    {
+      "Date": "2016-10-04T00:30:00",
+      "Player": "Bicyclops",
+      "Result": "",
+      "AnchorUri": "https://www.mtgo.com/decklist/modern-ptq-preliminary-2016-10-0410124672#deck_Bicyclops",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Arcbound Ravager"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blinkmoth Nexus"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cranial Plating"
+        },
+        {
+          "Count": 4,
+          "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Etched Champion"
+        },
+        {
+          "Count": 3,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Glimmervoid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inkmoth Nexus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Master of Etherium"
+        },
+        {
+          "Count": 2,
+          "CardName": "Memnite"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mox Opal"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ornithopter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Signal Pest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spellskite"
+        },
+        {
+          "Count": 4,
+          "CardName": "Springleaf Drum"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steel Overseer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vault Skirge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
           "CardName": "Ancient Grudge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dismember"
+        },
+        {
+          "Count": 2,
+          "CardName": "Etched Champion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Galvanic Blast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ghirapur Aether Grid"
+        },
+        {
+          "Count": 3,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stubborn Denial"
+        },
+        {
+          "Count": 2,
+          "CardName": "Whipflare"
         }
       ]
     }

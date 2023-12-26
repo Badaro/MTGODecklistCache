@@ -2,18 +2,22 @@
   "Tournament": {
     "Date": "2020-12-03T00:00:00Z",
     "Name": "Pioneer Preliminary",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149"
+    "Uri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149"
   },
   "Decks": [
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "xfile",
       "Result": "4-0",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_xfile",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_xfile",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Eidolon of the Great Revel"
+          "CardName": "Bomat Courier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 1,
@@ -21,11 +25,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Monastery Swiftspear"
+          "CardName": "Collective Defiance"
         },
         {
           "Count": 4,
-          "CardName": "Lightning Strike"
+          "CardName": "Eidolon of the Great Revel"
         },
         {
           "Count": 4,
@@ -33,19 +37,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Wild Slash"
+          "CardName": "Lightning Strike"
         },
         {
           "Count": 4,
-          "CardName": "Bomat Courier"
-        },
-        {
-          "Count": 4,
-          "CardName": "Soul-Scar Mage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ramunap Ruins"
+          "CardName": "Monastery Swiftspear"
         },
         {
           "Count": 13,
@@ -53,7 +49,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Bonecrusher Giant"
+          "CardName": "Ramunap Ruins"
         },
         {
           "Count": 2,
@@ -61,17 +57,21 @@
         },
         {
           "Count": 4,
-          "CardName": "Collective Defiance"
+          "CardName": "Soul-Scar Mage"
         },
         {
           "Count": 4,
           "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Slash"
         }
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Grafdigger's Cage"
+          "Count": 2,
+          "CardName": "Chandra, Torch of Defiance"
         },
         {
           "Count": 4,
@@ -79,11 +79,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Chandra, Torch of Defiance"
+          "CardName": "Goblin Rabblemaster"
         },
         {
-          "Count": 2,
-          "CardName": "Goblin Rabblemaster"
+          "Count": 3,
+          "CardName": "Grafdigger's Cage"
         },
         {
           "Count": 4,
@@ -92,46 +92,14 @@
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "gottelicious",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_gottelicious",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_gottelicious",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Darksteel Citadel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Valakut Awakening"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chandra, Torch of Defiance"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cascading Cataracts"
-        },
-        {
-          "Count": 3,
-          "CardName": "Golos, Tireless Pilgrim"
-        },
-        {
           "Count": 1,
-          "CardName": "Scavenger Grounds"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sanctum of Ugin"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cleansing Wildfire"
+          "CardName": "Abrade"
         },
         {
           "Count": 4,
@@ -143,11 +111,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Ugin, the Spirit Dragon"
+          "CardName": "Cascading Cataracts"
+        },
+        {
+          "Count": 4,
+          "CardName": "Chandra, Torch of Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Emrakul, the Promised End"
         },
         {
           "Count": 3,
-          "CardName": "Vessel of Volatility"
+          "CardName": "Golos, Tireless Pilgrim"
+        },
+        {
+          "Count": 3,
+          "CardName": "Irencrag Feat"
         },
         {
           "Count": 4,
@@ -158,20 +146,8 @@
           "CardName": "Mountain"
         },
         {
-          "Count": 2,
-          "CardName": "Shatterskull Smashing"
-        },
-        {
           "Count": 1,
           "CardName": "Radiant Fountain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Irencrag Feat"
-        },
-        {
-          "Count": 1,
-          "CardName": "Abrade"
         },
         {
           "Count": 2,
@@ -179,29 +155,37 @@
         },
         {
           "Count": 1,
-          "CardName": "Emrakul, the Promised End"
+          "CardName": "Sanctum of Ugin"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scavenger Grounds"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shatterskull Smashing"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought-Knot Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ugin, the Spirit Dragon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valakut Awakening"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vessel of Volatility"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Ratchet Bomb"
-        },
-        {
-          "Count": 2,
-          "CardName": "Grafdigger's Cage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ulamog, the Ceaseless Hunger"
-        },
-        {
-          "Count": 1,
-          "CardName": "Trading Post"
-        },
-        {
-          "Count": 2,
-          "CardName": "Star of Extinction"
+          "CardName": "Abrade"
         },
         {
           "Count": 2,
@@ -213,35 +197,39 @@
         },
         {
           "Count": 2,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ratchet Bomb"
+        },
+        {
+          "Count": 2,
           "CardName": "Soul-Guide Lantern"
         },
         {
           "Count": 2,
-          "CardName": "Abrade"
+          "CardName": "Star of Extinction"
+        },
+        {
+          "Count": 1,
+          "CardName": "Trading Post"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ulamog, the Ceaseless Hunger"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "Jezo",
       "Result": "4-1",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_Jezo",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_Jezo",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Brightclimb Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Selfless Savior"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ethereal Armor"
-        },
-        {
-          "Count": 4,
-          "CardName": "Concealed Courtyard"
+          "CardName": "All That Glitters"
         },
         {
           "Count": 4,
@@ -249,7 +237,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Gryff's Boon"
+          "CardName": "Brightclimb Pathway"
         },
         {
           "Count": 3,
@@ -257,27 +245,39 @@
         },
         {
           "Count": 4,
-          "CardName": "Hateful Eidolon"
-        },
-        {
-          "Count": 4,
           "CardName": "Caves of Koilos"
         },
         {
-          "Count": 3,
-          "CardName": "Plains"
+          "Count": 4,
+          "CardName": "Concealed Courtyard"
         },
         {
           "Count": 4,
-          "CardName": "Stonecoil Serpent"
+          "CardName": "Ethereal Armor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Godless Shrine"
+        },
+        {
+          "Count": 4,
+          "CardName": "Gryff's Boon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hateful Eidolon"
         },
         {
           "Count": 4,
           "CardName": "Karametra's Blessing"
         },
         {
-          "Count": 4,
-          "CardName": "Sram, Senior Edificer"
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Selfless Savior"
         },
         {
           "Count": 3,
@@ -285,78 +285,46 @@
         },
         {
           "Count": 4,
-          "CardName": "All That Glitters"
+          "CardName": "Sram, Senior Edificer"
         },
         {
           "Count": 4,
-          "CardName": "Godless Shrine"
+          "CardName": "Stonecoil Serpent"
         }
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Lurrus of the Dream-Den"
-        },
-        {
-          "Count": 2,
-          "CardName": "Isolate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thoughtseize"
+          "Count": 3,
+          "CardName": "Apostle of Purifying Light"
         },
         {
           "Count": 3,
-          "CardName": "Apostle of Purifying Light"
+          "CardName": "Fatal Push"
         },
         {
           "Count": 2,
           "CardName": "Grafdigger's Cage"
         },
         {
-          "Count": 3,
-          "CardName": "Fatal Push"
-        }
-      ]
-    },
-    {
-      "Date": "2020-12-03T00:00:00Z",
-      "Player": "Niedzwiedz",
-      "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_Niedzwiedz",
-      "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Scrapheap Scrounger"
-        },
-        {
-          "Count": 4,
-          "CardName": "Mutavault"
+          "Count": 2,
+          "CardName": "Isolate"
         },
         {
           "Count": 1,
-          "CardName": "Urborg, Tomb of Yawgmoth"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rankle, Master of Pranks"
+          "CardName": "Lurrus of the Dream-Den"
         },
         {
           "Count": 4,
           "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 15,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Skyclave Shade"
-        },
-        {
-          "Count": 4,
-          "CardName": "Murderous Rider"
-        },
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "Niedzwiedz",
+      "Result": "3-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_Niedzwiedz",
+      "Mainboard": [
         {
           "Count": 4,
           "CardName": "Bloodsoaked Champion"
@@ -374,22 +342,54 @@
           "CardName": "Fatal Push"
         },
         {
+          "Count": 1,
+          "CardName": "Heartless Act"
+        },
+        {
           "Count": 4,
           "CardName": "Knight of the Ebon Legion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mutavault"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rankle, Master of Pranks"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scrapheap Scrounger"
+        },
+        {
+          "Count": 1,
+          "CardName": "Skyclave Shade"
         },
         {
           "Count": 2,
           "CardName": "Spawn of Mayhem"
         },
         {
+          "Count": 15,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thoughtseize"
+        },
+        {
           "Count": 1,
-          "CardName": "Heartless Act"
+          "CardName": "Urborg, Tomb of Yawgmoth"
         }
       ],
       "Sideboard": [
         {
           "Count": 3,
-          "CardName": "Soul-Guide Lantern"
+          "CardName": "Aethersphere Harvester"
         },
         {
           "Count": 2,
@@ -397,47 +397,31 @@
         },
         {
           "Count": 2,
-          "CardName": "Legion's End"
-        },
-        {
-          "Count": 2,
           "CardName": "Heartless Act"
         },
         {
-          "Count": 3,
-          "CardName": "Aethersphere Harvester"
+          "Count": 2,
+          "CardName": "Legion's End"
         },
         {
           "Count": 3,
           "CardName": "Self-Inflicted Wound"
+        },
+        {
+          "Count": 3,
+          "CardName": "Soul-Guide Lantern"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "Lukas261997",
       "Result": "2-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_Lukas261997",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_Lukas261997",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Wolfwillow Haven"
-        },
-        {
-          "Count": 2,
-          "CardName": "Scavenging Ooze"
-        },
-        {
-          "Count": 15,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Nissa, Who Shakes the World"
-        },
-        {
-          "Count": 4,
-          "CardName": "Karn, the Great Creator"
+          "CardName": "Burning-Tree Emissary"
         },
         {
           "Count": 2,
@@ -445,11 +429,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Oath of Nissa"
+          "CardName": "Elvish Mystic"
         },
         {
-          "Count": 4,
-          "CardName": "Vivien, Arkbow Ranger"
+          "Count": 15,
+          "CardName": "Forest"
         },
         {
           "Count": 2,
@@ -457,7 +441,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Elvish Mystic"
+          "CardName": "Karn, the Great Creator"
+        },
+        {
+          "Count": 4,
+          "CardName": "Llanowar Elves"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nykthos, Shrine to Nyx"
+        },
+        {
+          "Count": 4,
+          "CardName": "Oath of Nissa"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scavenging Ooze"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vivien, Arkbow Ranger"
         },
         {
           "Count": 4,
@@ -465,29 +473,13 @@
         },
         {
           "Count": 4,
-          "CardName": "Burning-Tree Emissary"
-        },
-        {
-          "Count": 4,
-          "CardName": "Llanowar Elves"
-        },
-        {
-          "Count": 4,
-          "CardName": "Nykthos, Shrine to Nyx"
+          "CardName": "Wolfwillow Haven"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "God-Pharaoh's Statue"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ulamog, the Ceaseless Hunger"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Great Henge"
+          "CardName": "Aligned Hedron Network"
         },
         {
           "Count": 1,
@@ -495,7 +487,15 @@
         },
         {
           "Count": 1,
-          "CardName": "Verdurous Gearhulk"
+          "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 1,
+          "CardName": "God-Pharaoh's Statue"
+        },
+        {
+          "Count": 1,
+          "CardName": "Grafdigger's Cage"
         },
         {
           "Count": 1,
@@ -503,11 +503,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Stonecoil Serpent"
-        },
-        {
-          "Count": 1,
-          "CardName": "Aligned Hedron Network"
+          "CardName": "Meteor Golem"
         },
         {
           "Count": 1,
@@ -523,7 +519,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Meteor Golem"
+          "CardName": "Stonecoil Serpent"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Great Henge"
         },
         {
           "Count": 1,
@@ -531,23 +531,55 @@
         },
         {
           "Count": 1,
-          "CardName": "Grafdigger's Cage"
+          "CardName": "Ulamog, the Ceaseless Hunger"
         },
         {
           "Count": 1,
-          "CardName": "Darksteel Citadel"
+          "CardName": "Verdurous Gearhulk"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "Ekeross",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_Ekeross",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_Ekeross",
       "Mainboard": [
         {
           "Count": 4,
+          "CardName": "Agadeem's Awakening"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bala Ged Recovery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Balustrade Spy"
+        },
+        {
+          "Count": 4,
+          "CardName": "Creeping Chill"
+        },
+        {
+          "Count": 1,
+          "CardName": "Driven // Despair"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldritch Evolution"
+        },
+        {
+          "Count": 4,
           "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 1,
+          "CardName": "Haunted Dead"
+        },
+        {
+          "Count": 1,
+          "CardName": "Narcomoeba"
         },
         {
           "Count": 2,
@@ -555,39 +587,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Tangled Florahedron"
-        },
-        {
-          "Count": 1,
-          "CardName": "Silundi Vision"
-        },
-        {
-          "Count": 2,
-          "CardName": "Worldspine Wurm"
-        },
-        {
-          "Count": 3,
-          "CardName": "Silversmote Ghoul"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eldritch Evolution"
-        },
-        {
-          "Count": 1,
-          "CardName": "Haunted Dead"
-        },
-        {
-          "Count": 4,
-          "CardName": "Undercity Informer"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sylvan Caryatid"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bala Ged Recovery"
+          "CardName": "Paradise Druid"
         },
         {
           "Count": 4,
@@ -598,24 +598,24 @@
           "CardName": "Prized Amalgam"
         },
         {
-          "Count": 1,
-          "CardName": "Driven // Despair"
-        },
-        {
-          "Count": 4,
-          "CardName": "Paradise Druid"
-        },
-        {
-          "Count": 1,
-          "CardName": "Narcomoeba"
-        },
-        {
           "Count": 4,
           "CardName": "Sea Gate Restoration"
         },
         {
+          "Count": 1,
+          "CardName": "Silundi Vision"
+        },
+        {
+          "Count": 3,
+          "CardName": "Silversmote Ghoul"
+        },
+        {
           "Count": 4,
-          "CardName": "Creeping Chill"
+          "CardName": "Sylvan Caryatid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tangled Florahedron"
         },
         {
           "Count": 4,
@@ -623,14 +623,22 @@
         },
         {
           "Count": 4,
-          "CardName": "Balustrade Spy"
+          "CardName": "Undercity Informer"
         },
         {
-          "Count": 4,
-          "CardName": "Agadeem's Awakening"
+          "Count": 2,
+          "CardName": "Worldspine Wurm"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Archon of Emeria"
+        },
         {
           "Count": 1,
           "CardName": "Natural State"
@@ -641,55 +649,27 @@
         },
         {
           "Count": 4,
-          "CardName": "Thoughtseize"
-        },
-        {
-          "Count": 4,
           "CardName": "Thassa's Oracle"
         },
         {
-          "Count": 1,
-          "CardName": "Archon of Emeria"
-        },
-        {
           "Count": 4,
-          "CardName": "Abrupt Decay"
+          "CardName": "Thoughtseize"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "Patxi",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_Patxi",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_Patxi",
       "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Chemister's Insight"
+          "CardName": "Abrupt Decay"
         },
         {
           "Count": 1,
-          "CardName": "Castle Locthwain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sinister Sabotage"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lumbering Falls"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Vantress"
+          "CardName": "Bloodchief's Thirst"
         },
         {
           "Count": 2,
@@ -697,11 +677,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Forest"
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Castle Vantress"
         },
         {
           "Count": 4,
-          "CardName": "Shark Typhoon"
+          "CardName": "Censor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Chemister's Insight"
         },
         {
           "Count": 2,
@@ -712,16 +700,52 @@
           "CardName": "Extinction Event"
         },
         {
-          "Count": 4,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 2,
-          "CardName": "Abrupt Decay"
+          "Count": 3,
+          "CardName": "Fabled Passage"
         },
         {
           "Count": 3,
-          "CardName": "Wilderness Reclamation"
+          "CardName": "Fatal Push"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Heartless Act"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hinterland Harbor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lumbering Falls"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sinister Sabotage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
         },
         {
           "Count": 3,
@@ -732,66 +756,26 @@
           "CardName": "Uro, Titan of Nature's Wrath"
         },
         {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
           "Count": 4,
-          "CardName": "Censor"
+          "CardName": "Watery Grave"
         },
         {
           "Count": 3,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hinterland Harbor"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fatal Push"
-        },
-        {
-          "Count": 1,
-          "CardName": "Heartless Act"
+          "CardName": "Wilderness Reclamation"
         },
         {
           "Count": 4,
           "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 1,
-          "CardName": "Bloodchief's Thirst"
         }
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Mystical Dispute"
+          "Count": 2,
+          "CardName": "Aether Gust"
         },
         {
           "Count": 1,
           "CardName": "Ashiok, Nightmare Muse"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shadows' Verdict"
-        },
-        {
-          "Count": 1,
-          "CardName": "Notion Thief"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lochmere Serpent"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nightpack Ambusher"
         },
         {
           "Count": 2,
@@ -802,64 +786,44 @@
           "CardName": "Erebos's Intervention"
         },
         {
+          "Count": 1,
+          "CardName": "Lochmere Serpent"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
           "Count": 2,
-          "CardName": "Aether Gust"
+          "CardName": "Nightpack Ambusher"
+        },
+        {
+          "Count": 1,
+          "CardName": "Notion Thief"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadows' Verdict"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "oosunq",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_oosunq",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_oosunq",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Omen of the Sun"
-        },
-        {
-          "Count": 4,
-          "CardName": "Teferi, Time Raveler"
-        },
-        {
-          "Count": 4,
-          "CardName": "Raugrin Triome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hallowed Fountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sacred Foundry"
-        },
-        {
-          "Count": 4,
-          "CardName": "Transmogrify"
+          "Count": 3,
+          "CardName": "Agent of Treachery"
         },
         {
           "Count": 3,
-          "CardName": "Glacial Fortress"
+          "CardName": "Anger of the Gods"
         },
         {
-          "Count": 4,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 4,
-          "CardName": "Omen of the Sea"
-        },
-        {
-          "Count": 1,
-          "CardName": "Expansion // Explosion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Steam Vents"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lukka, Coppercoat Outcast"
+          "Count": 3,
+          "CardName": "Castle Ardenvale"
         },
         {
           "Count": 4,
@@ -870,40 +834,52 @@
           "CardName": "Elspeth Conquers Death"
         },
         {
+          "Count": 1,
+          "CardName": "Expansion // Explosion"
+        },
+        {
           "Count": 4,
           "CardName": "Fires of Invention"
         },
         {
           "Count": 3,
-          "CardName": "Anger of the Gods"
-        },
-        {
-          "Count": 1,
-          "CardName": "Valakut Awakening"
+          "CardName": "Glacial Fortress"
         },
         {
           "Count": 4,
-          "CardName": "The Birth of Meletis"
-        },
-        {
-          "Count": 3,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Supreme Verdict"
-        },
-        {
-          "Count": 3,
-          "CardName": "Castle Ardenvale"
+          "CardName": "Hallowed Fountain"
         },
         {
           "Count": 4,
           "CardName": "Ketria Triome"
         },
         {
+          "Count": 1,
+          "CardName": "Lukka, Coppercoat Outcast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 4,
+          "CardName": "Omen of the Sea"
+        },
+        {
+          "Count": 4,
+          "CardName": "Omen of the Sun"
+        },
+        {
           "Count": 3,
-          "CardName": "Agent of Treachery"
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raugrin Triome"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sacred Foundry"
         },
         {
           "Count": 4,
@@ -911,17 +887,45 @@
         },
         {
           "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 4,
           "CardName": "Sulfur Falls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 4,
+          "CardName": "The Birth of Meletis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Transmogrify"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valakut Awakening"
         }
       ],
       "Sideboard": [
         {
           "Count": 3,
-          "CardName": "Mystical Dispute"
+          "CardName": "Dovin's Veto"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dream Trawler"
         },
         {
           "Count": 3,
-          "CardName": "Rest in Peace"
+          "CardName": "Mystical Dispute"
         },
         {
           "Count": 1,
@@ -929,71 +933,31 @@
         },
         {
           "Count": 3,
-          "CardName": "Dovin's Veto"
+          "CardName": "Rest in Peace"
         },
         {
           "Count": 1,
           "CardName": "Supreme Verdict"
         },
         {
-          "Count": 2,
-          "CardName": "Dream Trawler"
+          "Count": 1,
+          "CardName": "Void Winnower"
         },
         {
           "Count": 1,
           "CardName": "Yorion, Sky Nomad"
-        },
-        {
-          "Count": 1,
-          "CardName": "Void Winnower"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "ACG88",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_ACG88",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_ACG88",
       "Mainboard": [
-        {
-          "Count": 15,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Nykthos, Shrine to Nyx"
-        },
-        {
-          "Count": 4,
-          "CardName": "Karn, the Great Creator"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wolfwillow Haven"
-        },
-        {
-          "Count": 4,
-          "CardName": "Voracious Hydra"
-        },
-        {
-          "Count": 4,
-          "CardName": "Elvish Mystic"
-        },
         {
           "Count": 4,
           "CardName": "Burning-Tree Emissary"
-        },
-        {
-          "Count": 4,
-          "CardName": "Oath of Nissa"
-        },
-        {
-          "Count": 3,
-          "CardName": "Nissa, Who Shakes the World"
-        },
-        {
-          "Count": 2,
-          "CardName": "Llanowar Visionary"
         },
         {
           "Count": 2,
@@ -1001,41 +965,57 @@
         },
         {
           "Count": 4,
+          "CardName": "Elvish Mystic"
+        },
+        {
+          "Count": 15,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hashep Oasis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Karn, the Great Creator"
+        },
+        {
+          "Count": 4,
           "CardName": "Llanowar Elves"
+        },
+        {
+          "Count": 2,
+          "CardName": "Llanowar Visionary"
+        },
+        {
+          "Count": 3,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nykthos, Shrine to Nyx"
+        },
+        {
+          "Count": 4,
+          "CardName": "Oath of Nissa"
         },
         {
           "Count": 4,
           "CardName": "Vivien, Arkbow Ranger"
         },
         {
-          "Count": 2,
-          "CardName": "Hashep Oasis"
+          "Count": 4,
+          "CardName": "Voracious Hydra"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wolfwillow Haven"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Tormod's Crypt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Verdurous Gearhulk"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Great Henge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pithing Needle"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ulamog, the Ceaseless Hunger"
-        },
-        {
-          "Count": 1,
-          "CardName": "Skysovereign, Consul Flagship"
+          "CardName": "Aligned Hedron Network"
         },
         {
           "Count": 1,
@@ -1043,23 +1023,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Scavenging Ooze"
-        },
-        {
-          "Count": 1,
-          "CardName": "Grafdigger's Cage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Aligned Hedron Network"
-        },
-        {
-          "Count": 1,
-          "CardName": "Heart of Kiran"
-        },
-        {
-          "Count": 1,
-          "CardName": "Stonecoil Serpent"
+          "CardName": "Darksteel Citadel"
         },
         {
           "Count": 1,
@@ -1067,79 +1031,59 @@
         },
         {
           "Count": 1,
-          "CardName": "Darksteel Citadel"
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Heart of Kiran"
         },
         {
           "Count": 1,
           "CardName": "Orbs of Warding"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scavenging Ooze"
+        },
+        {
+          "Count": 1,
+          "CardName": "Skysovereign, Consul Flagship"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stonecoil Serpent"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Great Henge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormod's Crypt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ulamog, the Ceaseless Hunger"
+        },
+        {
+          "Count": 1,
+          "CardName": "Verdurous Gearhulk"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "ArchaeusDota",
       "Result": "2-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_ArchaeusDota",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_ArchaeusDota",
       "Mainboard": [
         {
           "Count": 4,
           "CardName": "Anger of the Gods"
-        },
-        {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Valakut Awakening"
-        },
-        {
-          "Count": 2,
-          "CardName": "Golos, Tireless Pilgrim"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mazemind Tome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Darksteel Citadel"
-        },
-        {
-          "Count": 4,
-          "CardName": "Cleansing Wildfire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Vessel of Volatility"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought-Knot Seer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Radiant Fountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Chandra, Torch of Defiance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Irencrag Feat"
-        },
-        {
-          "Count": 1,
-          "CardName": "Scavenger Grounds"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ugin, the Spirit Dragon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bonecrusher Giant"
         },
         {
           "Count": 1,
@@ -1147,14 +1091,74 @@
         },
         {
           "Count": 4,
+          "CardName": "Bonecrusher Giant"
+        },
+        {
+          "Count": 4,
           "CardName": "Cascading Cataracts"
         },
         {
           "Count": 4,
+          "CardName": "Chandra, Torch of Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cleansing Wildfire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Darksteel Citadel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Golos, Tireless Pilgrim"
+        },
+        {
+          "Count": 2,
+          "CardName": "Irencrag Feat"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mazemind Tome"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Radiant Fountain"
+        },
+        {
+          "Count": 4,
           "CardName": "Ramunap Ruins"
+        },
+        {
+          "Count": 1,
+          "CardName": "Scavenger Grounds"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought-Knot Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ugin, the Spirit Dragon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valakut Awakening"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vessel of Volatility"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Damping Sphere"
+        },
         {
           "Count": 2,
           "CardName": "Emrakul, the Promised End"
@@ -1165,43 +1169,75 @@
         },
         {
           "Count": 3,
-          "CardName": "Damping Sphere"
+          "CardName": "Magma Spray"
         },
         {
           "Count": 3,
           "CardName": "Soul-Guide Lantern"
-        },
-        {
-          "Count": 3,
-          "CardName": "Magma Spray"
         }
       ]
     },
     {
-      "Date": "2020-12-03T00:00:00Z",
+      "Date": "2020-12-03T11:00:00",
       "Player": "WhiTe TsaR",
       "Result": "3-2",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/pioneer-preliminary-2020-12-0312233149#deck_WhiTe TsaR",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_WhiTe TsaR",
       "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 3,
+          "CardName": "Escape to the Wilds"
+        },
+        {
+          "Count": 1,
+          "CardName": "Evolving Wilds"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fae of Wishes"
+        },
         {
           "Count": 3,
           "CardName": "Forest"
         },
         {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
+          "Count": 3,
+          "CardName": "Genesis Ultimatum"
         },
         {
           "Count": 1,
-          "CardName": "Rootbound Crag"
+          "CardName": "Glacial Fortress"
         },
         {
           "Count": 4,
-          "CardName": "Lotus Cobra"
+          "CardName": "Growth Spiral"
         },
         {
           "Count": 3,
           "CardName": "Hinterland Harbor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kenrith, the Returned King"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ketria Triome"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Cobra"
         },
         {
           "Count": 1,
@@ -1213,30 +1249,6 @@
         },
         {
           "Count": 1,
-          "CardName": "Evolving Wilds"
-        },
-        {
-          "Count": 2,
-          "CardName": "Temple Garden"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Escape to the Wilds"
-        },
-        {
-          "Count": 3,
-          "CardName": "Genesis Ultimatum"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 1,
           "CardName": "Plains"
         },
         {
@@ -1244,28 +1256,8 @@
           "CardName": "Raugrin Triome"
         },
         {
-          "Count": 2,
-          "CardName": "Ketria Triome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fae of Wishes"
-        },
-        {
           "Count": 1,
-          "CardName": "Kenrith, the Returned King"
-        },
-        {
-          "Count": 1,
-          "CardName": "Glacial Fortress"
-        },
-        {
-          "Count": 4,
-          "CardName": "Teferi, Time Raveler"
-        },
-        {
-          "Count": 2,
-          "CardName": "Breeding Pool"
+          "CardName": "Rootbound Crag"
         },
         {
           "Count": 2,
@@ -1273,7 +1265,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Growth Spiral"
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
         }
       ],
       "Sideboard": [
@@ -1283,11 +1283,15 @@
         },
         {
           "Count": 1,
-          "CardName": "Dovin's Veto"
+          "CardName": "Chained to the Rocks"
         },
         {
           "Count": 1,
-          "CardName": "Supreme Verdict"
+          "CardName": "Damping Sphere"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dovin's Veto"
         },
         {
           "Count": 1,
@@ -1295,7 +1299,15 @@
         },
         {
           "Count": 1,
-          "CardName": "Ugin, the Spirit Dragon"
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pithing Needle"
+        },
+        {
+          "Count": 1,
+          "CardName": "Possibility Storm"
         },
         {
           "Count": 1,
@@ -1307,31 +1319,1381 @@
         },
         {
           "Count": 1,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 1,
           "CardName": "Tormod's Crypt"
         },
         {
           "Count": 1,
-          "CardName": "Grafdigger's Cage"
+          "CardName": "Ugin, the Spirit Dragon"
         },
         {
           "Count": 1,
           "CardName": "Wildest Dreams"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "L3D91",
+      "Result": "2-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_L3D91",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Bomat Courier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bonecrusher Giant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Collective Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ghitu Lavarunner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Light Up the Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Strike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 13,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ramunap Ruins"
         },
         {
           "Count": 1,
-          "CardName": "Possibility Storm"
+          "CardName": "Shatterskull Smashing"
+        },
+        {
+          "Count": 4,
+          "CardName": "Soul-Scar Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Slash"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wizard's Lightning"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Chandra, Torch of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Damping Sphere"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goblin Chainwhirler"
+        },
+        {
+          "Count": 3,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roiling Vortex"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "JV_7777",
+      "Result": "2-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_JV_7777",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Agadeem's Awakening"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bala Ged Recovery"
+        },
+        {
+          "Count": 2,
+          "CardName": "Balustrade Spy"
+        },
+        {
+          "Count": 4,
+          "CardName": "Creeping Chill"
         },
         {
           "Count": 1,
-          "CardName": "Pithing Needle"
+          "CardName": "Driven // Despair"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eldritch Evolution"
         },
         {
           "Count": 1,
+          "CardName": "Haunted Dead"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kazandu Mammoth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Neoform"
+        },
+        {
+          "Count": 4,
+          "CardName": "Paradise Druid"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prized Amalgam"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sea Gate Restoration"
+        },
+        {
+          "Count": 3,
+          "CardName": "Silversmote Ghoul"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sylvan Caryatid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tangled Florahedron"
+        },
+        {
+          "Count": 4,
+          "CardName": "Turntimber Symbiosis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Undercity Informer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vastwood Fortification"
+        },
+        {
+          "Count": 2,
+          "CardName": "Worldspine Wurm"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 4,
+          "CardName": "Leyline of Sanctity"
+        },
+        {
+          "Count": 3,
+          "CardName": "Leyline of the Void"
+        },
+        {
+          "Count": 1,
+          "CardName": "Narcomoeba"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reclamation Sage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thoughtseize"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "trukanshii",
+      "Result": "2-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_trukanshii",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 2,
+          "CardName": "Castle Vantress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expansion // Explosion"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Growth Spiral"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Izzet Charm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ketria Triome"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 3,
+          "CardName": "Omnath, Locus of Creation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Radiant Flames"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raugrin Triome"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 3,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 3,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wilderness Reclamation"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cyclonic Rift"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dovin's Veto"
+        },
+        {
+          "Count": 2,
+          "CardName": "Entrancing Melody"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Niv-Mizzet, Parun"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Soul-Guide Lantern"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "ElfKid",
+      "Result": "2-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_ElfKid",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Arboreal Grazer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bala Ged Recovery"
+        },
+        {
+          "Count": 3,
+          "CardName": "Baral, Chief of Compliance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Blast Zone"
+        },
+        {
+          "Count": 4,
+          "CardName": "Botanical Sanctum"
+        },
+        {
+          "Count": 4,
+          "CardName": "Dig Through Time"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fae of Wishes"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hidden Strings"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Field"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mastermind's Acquisition"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pore Over the Pages"
+        },
+        {
+          "Count": 4,
+          "CardName": "Strategic Planning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sylvan Scrying"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple of Mystery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thespian's Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vizier of Tumbling Sands"
+        },
+        {
+          "Count": 4,
+          "CardName": "Yavimaya Coast"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Alpine Moon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Anger of the Gods"
+        },
+        {
+          "Count": 1,
+          "CardName": "Approach of the Second Sun"
+        },
+        {
+          "Count": 2,
+          "CardName": "Niv-Mizzet, Parun"
+        },
+        {
+          "Count": 1,
+          "CardName": "Omniscience"
+        },
+        {
+          "Count": 1,
+          "CardName": "Peer into the Abyss"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shifting Ceratops"
+        },
+        {
+          "Count": 1,
+          "CardName": "Thought Distortion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormod's Crypt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ugin, the Spirit Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Void Snare"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wilt"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "Pintogeddon2",
+      "Result": "2-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_Pintogeddon2",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Blood Crypt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bring to Light"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dreadbore"
+        },
+        {
+          "Count": 1,
+          "CardName": "Drowned Catacomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 1,
+          "CardName": "Glacial Fortress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Indatha Triome"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ketria Triome"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mana Confluence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nahiri, the Harbinger"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nicol Bolas, the Ravager"
+        },
+        {
+          "Count": 3,
+          "CardName": "Niv-Mizzet Reborn"
+        },
+        {
+          "Count": 2,
+          "CardName": "Omnath, Locus of Creation"
+        },
+        {
+          "Count": 2,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Raugrin Triome"
+        },
+        {
+          "Count": 1,
+          "CardName": "Rootbound Crag"
+        },
+        {
+          "Count": 1,
+          "CardName": "Savai Triome"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadows' Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Slaughter Games"
+        },
+        {
+          "Count": 1,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 1,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sylvan Caryatid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tolsimir, Friend to Wolves"
+        },
+        {
+          "Count": 3,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 1,
+          "CardName": "Utter End"
+        },
+        {
+          "Count": 1,
+          "CardName": "Watery Grave"
+        },
+        {
+          "Count": 2,
+          "CardName": "Zagoth Triome"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Dovin's Veto"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fatal Push"
+        },
+        {
+          "Count": 1,
+          "CardName": "Notion Thief"
+        },
+        {
+          "Count": 1,
+          "CardName": "Slaughter Games"
+        },
+        {
+          "Count": 3,
+          "CardName": "Soul-Guide Lantern"
+        },
+        {
+          "Count": 1,
+          "CardName": "Surrak Dragonclaw"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thoughtseize"
+        },
+        {
+          "Count": 1,
+          "CardName": "Warleader's Helix"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "alemilan19",
+      "Result": "1-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_alemilan19",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Abrupt Decay"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bloodchief's Thirst"
+        },
+        {
+          "Count": 1,
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Castle Vantress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Censor"
+        },
+        {
+          "Count": 3,
+          "CardName": "Chemister's Insight"
+        },
+        {
+          "Count": 2,
+          "CardName": "Drowned Catacomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fatal Push"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Growth Spiral"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hinterland Harbor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lumbering Falls"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Nightpack Ambusher"
+        },
+        {
+          "Count": 3,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sinister Sabotage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 3,
+          "CardName": "Watery Grave"
+        },
+        {
+          "Count": 3,
+          "CardName": "Wilderness Reclamation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Zagoth Triome"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 2,
+          "CardName": "Erebos's Intervention"
+        },
+        {
+          "Count": 2,
+          "CardName": "Heartless Act"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Notion Thief"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shadows' Verdict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Soul-Guide Lantern"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "MissTrigger",
+      "Result": "1-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_MissTrigger",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Bomat Courier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bonecrusher Giant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Collective Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ghitu Lavarunner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Light Up the Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Strike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 13,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ramunap Ruins"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shatterskull Smashing"
+        },
+        {
+          "Count": 4,
+          "CardName": "Soul-Scar Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Slash"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wizard's Lightning"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Chandra, Torch of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Damping Sphere"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goblin Chainwhirler"
+        },
+        {
+          "Count": 3,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roiling Vortex"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "IntegralHDK",
+      "Result": "0-3",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_IntegralHDK",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Battlefield Forge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Boros Charm"
+        },
+        {
+          "Count": 4,
+          "CardName": "Eidolon of the Great Revel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ghitu Lavarunner"
+        },
+        {
+          "Count": 4,
+          "CardName": "Inspiring Vantage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Light Up the Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lightning Strike"
+        },
+        {
+          "Count": 4,
+          "CardName": "Monastery Swiftspear"
+        },
+        {
+          "Count": 7,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sacred Foundry"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shock"
+        },
+        {
+          "Count": 4,
+          "CardName": "Soul-Scar Mage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Viashino Pyromancer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wild Slash"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wizard's Lightning"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
           "CardName": "Chained to the Rocks"
         },
         {
           "Count": 1,
+          "CardName": "Lurrus of the Dream-Den"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roiling Vortex"
+        },
+        {
+          "Count": 4,
+          "CardName": "Searing Blood"
+        },
+        {
+          "Count": 3,
+          "CardName": "Soul-Guide Lantern"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "ZYURYO",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_ZYURYO",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Anger of the Gods"
+        },
+        {
+          "Count": 1,
+          "CardName": "Blast Zone"
+        },
+        {
+          "Count": 4,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 3,
+          "CardName": "Castle Vantress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Censor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Chemister's Insight"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expansion // Explosion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Growth Spiral"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ketria Triome"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lumbering Falls"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rootbound Crag"
+        },
+        {
+          "Count": 1,
+          "CardName": "Search for Azcanta"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Steam Vents"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sulfur Falls"
+        },
+        {
+          "Count": 3,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wilderness Reclamation"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 1,
+          "CardName": "Back to Nature"
+        },
+        {
+          "Count": 2,
           "CardName": "Damping Sphere"
+        },
+        {
+          "Count": 3,
+          "CardName": "Magma Spray"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Niv-Mizzet, Parun"
+        },
+        {
+          "Count": 2,
+          "CardName": "Scorching Dragonfire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul-Guide Lantern"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "otakkun",
+      "Result": "0-2",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck_otakkun",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 4,
+          "CardName": "Escape to the Wilds"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Genesis Ultimatum"
+        },
+        {
+          "Count": 4,
+          "CardName": "Growth Spiral"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hinterland Harbor"
+        },
+        {
+          "Count": 3,
+          "CardName": "Island"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kenrith, the Returned King"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ketria Triome"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Cobra"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Omnath, Locus of Creation"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raugrin Triome"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stomping Ground"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sylvan Caryatid"
+        },
+        {
+          "Count": 4,
+          "CardName": "Teferi, Time Raveler"
+        },
+        {
+          "Count": 3,
+          "CardName": "Temple Garden"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tolsimir, Friend to Wolves"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ugin, the Spirit Dragon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Aether Gust"
+        },
+        {
+          "Count": 2,
+          "CardName": "Containment Priest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Damping Sphere"
+        },
+        {
+          "Count": 3,
+          "CardName": "Deafening Clarion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dovin's Veto"
+        },
+        {
+          "Count": 2,
+          "CardName": "Magma Spray"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul-Guide Lantern"
+        }
+      ]
+    },
+    {
+      "Date": "2020-12-03T11:00:00",
+      "Player": "_INF_",
+      "Result": "",
+      "AnchorUri": "https://www.mtgo.com/decklist/pioneer-preliminary-2020-12-0312233149#deck__INF_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Arboreal Grazer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bala Ged Recovery"
+        },
+        {
+          "Count": 2,
+          "CardName": "Baral, Chief of Compliance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Blast Zone"
+        },
+        {
+          "Count": 4,
+          "CardName": "Botanical Sanctum"
+        },
+        {
+          "Count": 1,
+          "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dig Through Time"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fae of Wishes"
+        },
+        {
+          "Count": 1,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hidden Strings"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lotus Field"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mastermind's Acquisition"
+        },
+        {
+          "Count": 2,
+          "CardName": "Peer into the Abyss"
+        },
+        {
+          "Count": 4,
+          "CardName": "Pore Over the Pages"
+        },
+        {
+          "Count": 4,
+          "CardName": "Strategic Planning"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sylvan Scrying"
+        },
+        {
+          "Count": 2,
+          "CardName": "Temple of Mystery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thespian's Stage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Vizier of Tumbling Sands"
+        },
+        {
+          "Count": 4,
+          "CardName": "Yavimaya Coast"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Anger of the Gods"
+        },
+        {
+          "Count": 1,
+          "CardName": "Approach of the Second Sun"
+        },
+        {
+          "Count": 1,
+          "CardName": "Into the Roil"
+        },
+        {
+          "Count": 1,
+          "CardName": "Jace, Wielder of Mysteries"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nine Lives"
+        },
+        {
+          "Count": 1,
+          "CardName": "Niv-Mizzet, Parun"
+        },
+        {
+          "Count": 1,
+          "CardName": "Omniscience"
+        },
+        {
+          "Count": 1,
+          "CardName": "Peer into the Abyss"
+        },
+        {
+          "Count": 1,
+          "CardName": "Supreme Verdict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thought Distortion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ugin, the Spirit Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Void Snare"
+        },
+        {
+          "Count": 1,
+          "CardName": "Wilt"
         }
       ]
     }
@@ -1425,6 +2787,86 @@
       "OMWP": 0.4667,
       "GWP": 0.5385,
       "OGWP": 0.495
+    },
+    {
+      "Rank": 12,
+      "Player": "L3D91",
+      "Points": 6,
+      "OMWP": 0.6667,
+      "GWP": 0.4615,
+      "OGWP": 0.6094
+    },
+    {
+      "Rank": 13,
+      "Player": "JV_7777",
+      "Points": 6,
+      "OMWP": 0.5867,
+      "GWP": 0.3846,
+      "OGWP": 0.5681
+    },
+    {
+      "Rank": 14,
+      "Player": "trukanshii",
+      "Points": 6,
+      "OMWP": 0.5467,
+      "GWP": 0.4667,
+      "OGWP": 0.4892
+    },
+    {
+      "Rank": 15,
+      "Player": "ElfKid",
+      "Points": 6,
+      "OMWP": 0.4667,
+      "GWP": 0.4615,
+      "OGWP": 0.457
+    },
+    {
+      "Rank": 16,
+      "Player": "Pintogeddon2",
+      "Points": 6,
+      "OMWP": 0.4667,
+      "GWP": 0.4286,
+      "OGWP": 0.4823
+    },
+    {
+      "Rank": 17,
+      "Player": "alemilan19",
+      "Points": 3,
+      "OMWP": 0.5333,
+      "GWP": 0.4,
+      "OGWP": 0.4982
+    },
+    {
+      "Rank": 18,
+      "Player": "MissTrigger",
+      "Points": 3,
+      "OMWP": 0.5,
+      "GWP": 0.3636,
+      "OGWP": 0.5
+    },
+    {
+      "Rank": 19,
+      "Player": "IntegralHDK",
+      "Points": 3,
+      "OMWP": 0.4667,
+      "GWP": 0.3333,
+      "OGWP": 0.4912
+    },
+    {
+      "Rank": 20,
+      "Player": "ZYURYO",
+      "Points": 0,
+      "OMWP": 0.6,
+      "GWP": 0.0,
+      "OGWP": 0.5917
+    },
+    {
+      "Rank": 21,
+      "Player": "otakkun",
+      "Points": 0,
+      "OMWP": 0.5667,
+      "GWP": 0.2,
+      "OGWP": 0.5
     }
   ]
 }

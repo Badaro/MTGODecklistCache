@@ -2,26 +2,30 @@
   "Tournament": {
     "Date": "2022-07-23T00:00:00Z",
     "Name": "Standard Challenge",
-    "Uri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443"
+    "Uri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443"
   },
   "Decks": [
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "medvedev",
       "Result": "1st Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_medvedev",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_medvedev",
       "Mainboard": [
         {
+          "Count": 1,
+          "CardName": "Blade Historian"
+        },
+        {
           "Count": 4,
-          "CardName": "Reckless Stormseeker"
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
         },
         {
           "Count": 2,
           "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hopeful Initiate"
         },
         {
           "Count": 1,
@@ -29,47 +33,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Sunrise Cavalier"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sundown Pass"
-        },
-        {
-          "Count": 1,
-          "CardName": "Blade Historian"
+          "CardName": "Hopeful Initiate"
         },
         {
           "Count": 4,
-          "CardName": "Play with Fire"
+          "CardName": "Kumano Faces Kakkazan"
         },
         {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
         },
         {
           "Count": 6,
           "CardName": "Mountain"
         },
         {
-          "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
-        },
-        {
           "Count": 4,
           "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodthirsty Adversary"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thundering Raiju"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
         },
         {
           "Count": 6,
@@ -77,11 +57,31 @@
         },
         {
           "Count": 4,
-          "CardName": "Roil Eruption"
+          "CardName": "Play with Fire"
         },
         {
           "Count": 4,
-          "CardName": "Luminarch Aspirant"
+          "CardName": "Reckless Stormseeker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sunrise Cavalier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thundering Raiju"
         }
       ],
       "Sideboard": [
@@ -90,36 +90,32 @@
           "CardName": "Angelfire Ignition"
         },
         {
-          "Count": 1,
-          "CardName": "Thalia, Guardian of Thraben"
-        },
-        {
-          "Count": 2,
-          "CardName": "Valorous Stance"
+          "Count": 4,
+          "CardName": "Elite Spellbinder"
         },
         {
           "Count": 4,
           "CardName": "Strangle"
         },
         {
-          "Count": 4,
-          "CardName": "Elite Spellbinder"
+          "Count": 1,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 2,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "naka_mura",
       "Result": "2nd Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_naka_mura",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_naka_mura",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Werewolf Pack Leader"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sculptor of Winter"
+          "CardName": "Ascendant Packleader"
         },
         {
           "Count": 4,
@@ -130,16 +126,16 @@
           "CardName": "Boseiju, Who Endures"
         },
         {
+          "Count": 4,
+          "CardName": "Esika's Chariot"
+        },
+        {
+          "Count": 3,
+          "CardName": "Invoke the Ancients"
+        },
+        {
           "Count": 2,
           "CardName": "Jewel Thief"
-        },
-        {
-          "Count": 21,
-          "CardName": "Snow-Covered Forest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ulvenwald Oddity"
         },
         {
           "Count": 2,
@@ -150,42 +146,46 @@
           "CardName": "Old-Growth Troll"
         },
         {
-          "Count": 3,
-          "CardName": "Snakeskin Veil"
-        },
-        {
-          "Count": 3,
-          "CardName": "Invoke the Ancients"
-        },
-        {
           "Count": 2,
           "CardName": "Ranger Class"
         },
         {
           "Count": 4,
-          "CardName": "Ascendant Packleader"
+          "CardName": "Sculptor of Winter"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snakeskin Veil"
+        },
+        {
+          "Count": 21,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ulvenwald Oddity"
         },
         {
           "Count": 4,
-          "CardName": "Esika's Chariot"
+          "CardName": "Werewolf Pack Leader"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 1,
-          "CardName": "Ranger Class"
-        },
         {
           "Count": 2,
           "CardName": "Inscription of Abundance"
         },
         {
-          "Count": 1,
-          "CardName": "Snakeskin Veil"
-        },
-        {
           "Count": 2,
           "CardName": "Master's Rebuke"
+        },
+        {
+          "Count": 3,
+          "CardName": "Outland Liberator"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ranger Class"
         },
         {
           "Count": 2,
@@ -193,67 +193,47 @@
         },
         {
           "Count": 1,
-          "CardName": "Toski, Bearer of Secrets"
+          "CardName": "Snakeskin Veil"
         },
         {
           "Count": 3,
           "CardName": "Tangletrap"
         },
         {
-          "Count": 3,
-          "CardName": "Outland Liberator"
+          "Count": 1,
+          "CardName": "Toski, Bearer of Secrets"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "smile_papa4",
       "Result": "3rd Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_smile_papa4",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_smile_papa4",
       "Mainboard": [
-        {
-          "Count": 2,
-          "CardName": "Shatterskull Smashing"
-        },
         {
           "Count": 4,
           "CardName": "Blightstep Pathway"
         },
         {
-          "Count": 3,
-          "CardName": "Immersturm Predator"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tenacious Underdog"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 1,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 3,
-          "CardName": "Reckless Stormseeker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Takenuma, Abandoned Mire"
-        },
-        {
-          "Count": 6,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Soul Shatter"
-        },
-        {
           "Count": 4,
           "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Florian, Voldaren Scion"
+        },
+        {
+          "Count": 1,
+          "CardName": "Goldspan Dragon"
         },
         {
           "Count": 4,
@@ -261,19 +241,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
+          "CardName": "Haunted Ridge"
         },
         {
           "Count": 2,
-          "CardName": "Play with Fire"
+          "CardName": "Hive of the Eye Tyrant"
         },
         {
-          "Count": 2,
-          "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Goldspan Dragon"
+          "Count": 3,
+          "CardName": "Immersturm Predator"
         },
         {
           "Count": 3,
@@ -281,11 +257,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Haunted Ridge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
+          "CardName": "Kumano Faces Kakkazan"
         },
         {
           "Count": 3,
@@ -293,11 +265,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Hive of the Eye Tyrant"
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Reckless Stormseeker"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shatterskull Smashing"
         },
         {
           "Count": 1,
-          "CardName": "Florian, Voldaren Scion"
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul Shatter"
+        },
+        {
+          "Count": 6,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tenacious Underdog"
+        },
+        {
+          "Count": 1,
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
@@ -315,28 +315,24 @@
         },
         {
           "Count": 3,
+          "CardName": "Nighthawk Scavenger"
+        },
+        {
+          "Count": 3,
           "CardName": "Ray of Enfeeblement"
         },
         {
           "Count": 2,
           "CardName": "Soul Shatter"
-        },
-        {
-          "Count": 3,
-          "CardName": "Nighthawk Scavenger"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "shir kahn",
       "Result": "4th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_shir kahn",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_shir kahn",
       "Mainboard": [
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
         {
           "Count": 2,
           "CardName": "Deserted Beach"
@@ -344,50 +340,6 @@
         {
           "Count": 2,
           "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 2,
-          "CardName": "Make Disappear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
-        },
-        {
-          "Count": 1,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Magma Opus"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
         },
         {
           "Count": 4,
@@ -398,50 +350,86 @@
           "CardName": "Fable of the Mirror-Breaker"
         },
         {
-          "Count": 3,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sundown Pass"
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
         },
         {
           "Count": 1,
           "CardName": "Hall of Storm Giants"
         },
         {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
+          "Count": 3,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
         },
         {
           "Count": 3,
           "CardName": "Needleverge Pathway"
         },
         {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
           "Count": 4,
-          "CardName": "Goldspan Dragon"
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
         },
         {
           "Count": 2,
           "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Valorous Stance"
-        },
-        {
           "Count": 2,
           "CardName": "Disdainful Stroke"
-        },
-        {
-          "Count": 2,
-          "CardName": "Test of Talents"
-        },
-        {
-          "Count": 1,
-          "CardName": "Reckoner Bankbuster"
         },
         {
           "Count": 2,
@@ -454,18 +442,38 @@
         {
           "Count": 1,
           "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "SKK",
       "Result": "5th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_SKK",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_SKK",
       "Mainboard": [
         {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
+          "Count": 2,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
         },
         {
           "Count": 4,
@@ -473,63 +481,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Expressive Iteration"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stormcarved Coast"
+          "CardName": "Goldspan Dragon"
         },
         {
           "Count": 1,
           "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Deserted Beach"
-        },
-        {
-          "Count": 4,
-          "CardName": "Magma Opus"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
-        },
-        {
-          "Count": 1,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sundown Pass"
         },
         {
           "Count": 3,
@@ -537,65 +493,145 @@
         },
         {
           "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "CardName": "Hinata, Dawn-Crowned"
         },
         {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
+          "Count": 4,
+          "CardName": "Jwari Disruption"
         },
         {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
+          "Count": 4,
+          "CardName": "Magma Opus"
         },
         {
           "Count": 2,
           "CardName": "Make Disappear"
         },
         {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        }
-      ],
-      "Sideboard": [
-        {
           "Count": 3,
-          "CardName": "Valorous Stance"
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
         },
         {
           "Count": 2,
           "CardName": "Reckoner Bankbuster"
         },
         {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
           "Count": 3,
-          "CardName": "Flame-Blessed Bolt"
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
         },
         {
           "Count": 2,
           "CardName": "Dragon's Fire"
         },
         {
-          "Count": 2,
-          "CardName": "Test of Talents"
-        },
-        {
-          "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
         },
         {
           "Count": 1,
           "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 3,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "SilvergillLord",
       "Result": "6th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_SilvergillLord",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_SilvergillLord",
       "Mainboard": [
         {
           "Count": 3,
-          "CardName": "Sundown Pass"
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
         },
         {
           "Count": 2,
@@ -606,8 +642,8 @@
           "CardName": "Mountain"
         },
         {
-          "Count": 2,
-          "CardName": "Hengegate Pathway"
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
         },
         {
           "Count": 2,
@@ -615,75 +651,39 @@
         },
         {
           "Count": 1,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 1,
           "CardName": "Otawara, Soaring City"
         },
         {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        },
-        {
           "Count": 1,
-          "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 4,
-          "CardName": "Expressive Iteration"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stormcarved Coast"
+          "CardName": "Prismari Command"
         },
         {
           "Count": 2,
           "CardName": "Reckoner Bankbuster"
         },
         {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
           "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deserted Beach"
+          "CardName": "Riverglide Pathway"
         },
         {
           "Count": 1,
           "CardName": "Spell Pierce"
         },
         {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
           "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
         },
         {
           "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Magma Opus"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
@@ -692,20 +692,16 @@
           "CardName": "Disdainful Stroke"
         },
         {
-          "Count": 1,
-          "CardName": "Memory Deluge"
+          "Count": 2,
+          "CardName": "Dragon's Fire"
         },
         {
           "Count": 3,
           "CardName": "Flame-Blessed Bolt"
         },
         {
-          "Count": 4,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Test of Talents"
+          "Count": 1,
+          "CardName": "Memory Deluge"
         },
         {
           "Count": 1,
@@ -713,51 +709,43 @@
         },
         {
           "Count": 2,
-          "CardName": "Dragon's Fire"
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Sapoa",
       "Result": "7th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Sapoa",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Sapoa",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "The Wandering Emperor"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lolth, Spider Queen"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eiganjo, Seat of the Empire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dread Fugue"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hagra Mauling"
-        },
-        {
-          "Count": 3,
-          "CardName": "Hive of the Eye Tyrant"
+          "Count": 4,
+          "CardName": "Acquisitions Expert"
         },
         {
           "Count": 4,
           "CardName": "Brightclimb Pathway"
         },
         {
-          "Count": 4,
-          "CardName": "Extraction Specialist"
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dread Fugue"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
         },
         {
           "Count": 2,
@@ -765,35 +753,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Shattered Sanctum"
+          "CardName": "Extraction Specialist"
         },
         {
-          "Count": 4,
-          "CardName": "Wedding Announcement"
+          "Count": 2,
+          "CardName": "Hagra Mauling"
         },
         {
-          "Count": 4,
-          "CardName": "Plains"
+          "Count": 3,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hive of the Eye Tyrant"
         },
         {
           "Count": 2,
           "CardName": "Infernal Grasp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Acquisitions Expert"
-        },
-        {
-          "Count": 1,
-          "CardName": "Takenuma, Abandoned Mire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pelakka Predation"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vanishing Verse"
         },
         {
           "Count": 1,
@@ -801,7 +777,7 @@
         },
         {
           "Count": 2,
-          "CardName": "The Meathook Massacre"
+          "CardName": "Lolth, Spider Queen"
         },
         {
           "Count": 4,
@@ -809,22 +785,42 @@
         },
         {
           "Count": 2,
-          "CardName": "Deadly Dispute"
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shattered Sanctum"
         },
         {
           "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
         },
         {
           "Count": 3,
-          "CardName": "Henrika Domnathi"
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 1,
-          "CardName": "Soul Shatter"
-        },
         {
           "Count": 2,
           "CardName": "Duress"
@@ -832,6 +828,10 @@
         {
           "Count": 2,
           "CardName": "Go Blank"
+        },
+        {
+          "Count": 2,
+          "CardName": "Graveyard Trespasser"
         },
         {
           "Count": 1,
@@ -843,27 +843,47 @@
         },
         {
           "Count": 2,
-          "CardName": "Graveyard Trespasser"
+          "CardName": "Path of Peril"
         },
         {
           "Count": 2,
           "CardName": "Ray of Enfeeblement"
         },
         {
-          "Count": 2,
-          "CardName": "Path of Peril"
+          "Count": 1,
+          "CardName": "Soul Shatter"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "TheMilkman11",
       "Result": "8th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_TheMilkman11",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_TheMilkman11",
       "Mainboard": [
         {
           "Count": 1,
-          "CardName": "Island"
+          "CardName": "Abrade"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blightstep Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 4,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Corpse Appraiser"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
         },
         {
           "Count": 1,
@@ -871,67 +891,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Infernal Grasp"
+          "CardName": "Evelyn, the Covetous"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
         },
         {
           "Count": 4,
           "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Xander's Lounge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Abrade"
-        },
-        {
-          "Count": 2,
-          "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Clearwater Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Meathook Massacre"
-        },
-        {
-          "Count": 2,
-          "CardName": "Make Disappear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blightstep Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shipwreck Marsh"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodtithe Harvester"
         },
         {
           "Count": 1,
@@ -942,42 +910,70 @@
           "CardName": "Hive of the Eye Tyrant"
         },
         {
-          "Count": 4,
-          "CardName": "Expressive Iteration"
+          "Count": 2,
+          "CardName": "Infernal Grasp"
         },
         {
-          "Count": 4,
-          "CardName": "Corpse Appraiser"
+          "Count": 1,
+          "CardName": "Island"
         },
         {
           "Count": 2,
-          "CardName": "Evelyn, the Covetous"
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 2,
           "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 4,
+          "CardName": "Voltage Surge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Xander's Lounge"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "The Meathook Massacre"
+          "Count": 1,
+          "CardName": "Abrade"
         },
         {
           "Count": 1,
           "CardName": "Annul"
         },
         {
-          "Count": 1,
-          "CardName": "Reckoner Bankbuster"
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
         },
         {
-          "Count": 3,
-          "CardName": "Ray of Enfeeblement"
-        },
-        {
-          "Count": 1,
-          "CardName": "Unlicensed Hearse"
+          "Count": 2,
+          "CardName": "Duress"
         },
         {
           "Count": 1,
@@ -988,84 +984,36 @@
           "CardName": "Power Word Kill"
         },
         {
-          "Count": 2,
-          "CardName": "Duress"
-        },
-        {
-          "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
         },
         {
           "Count": 1,
-          "CardName": "Abrade"
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Unlicensed Hearse"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Venom1",
       "Result": "9th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Venom1",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Venom1",
       "Mainboard": [
         {
           "Count": 3,
           "CardName": "Deserted Beach"
         },
         {
-          "Count": 1,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
-        },
-        {
           "Count": 2,
-          "CardName": "Make Disappear"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sundown Pass"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Magma Opus"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Voltage Surge"
+          "CardName": "Dragon's Fire"
         },
         {
           "Count": 4,
@@ -1073,23 +1021,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Jwari Disruption"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
+          "CardName": "Fable of the Mirror-Breaker"
         },
         {
           "Count": 4,
@@ -1097,25 +1029,85 @@
         },
         {
           "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
           "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Test of Talents"
-        },
-        {
-          "Count": 4,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
           "CardName": "Disdainful Stroke"
         },
         {
-          "Count": 1,
-          "CardName": "Reckoner Bankbuster"
+          "Count": 2,
+          "CardName": "Dragon's Fire"
         },
         {
           "Count": 3,
@@ -1126,68 +1118,32 @@
           "CardName": "Memory Deluge"
         },
         {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
           "Count": 2,
-          "CardName": "Dragon's Fire"
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Hamuda",
       "Result": "10th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Hamuda",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Hamuda",
       "Mainboard": [
-        {
-          "Count": 2,
-          "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 3,
-          "CardName": "Tenacious Underdog"
-        },
-        {
-          "Count": 4,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 3,
-          "CardName": "Roil Eruption"
-        },
-        {
-          "Count": 4,
-          "CardName": "Falkenrath Pit Fighter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodthirsty Adversary"
-        },
         {
           "Count": 4,
           "CardName": "Blightstep Pathway"
         },
         {
-          "Count": 2,
-          "CardName": "Infernal Grasp"
-        },
-        {
-          "Count": 3,
-          "CardName": "Florian, Voldaren Scion"
-        },
-        {
           "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
-        },
-        {
-          "Count": 4,
-          "CardName": "Play with Fire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ob Nixilis, the Adversary"
+          "CardName": "Bloodthirsty Adversary"
         },
         {
           "Count": 4,
@@ -1195,11 +1151,27 @@
         },
         {
           "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 2,
           "CardName": "Dread Fugue"
         },
         {
-          "Count": 6,
-          "CardName": "Mountain"
+          "Count": 3,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Falkenrath Pit Fighter"
+        },
+        {
+          "Count": 3,
+          "CardName": "Florian, Voldaren Scion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Haunted Ridge"
         },
         {
           "Count": 2,
@@ -1207,7 +1179,35 @@
         },
         {
           "Count": 2,
-          "CardName": "Haunted Ridge"
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ob Nixilis, the Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swamp"
         },
         {
           "Count": 1,
@@ -1215,57 +1215,125 @@
         },
         {
           "Count": 3,
-          "CardName": "Fable of the Mirror-Breaker"
+          "CardName": "Tenacious Underdog"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Soul Shatter"
-        },
-        {
-          "Count": 1,
-          "CardName": "Infernal Grasp"
+          "CardName": "Biting-Palm Ninja"
         },
         {
           "Count": 2,
           "CardName": "Go Blank"
         },
         {
-          "Count": 2,
-          "CardName": "Biting-Palm Ninja"
+          "Count": 1,
+          "CardName": "Infernal Grasp"
         },
         {
-          "Count": 1,
-          "CardName": "The Meathook Massacre"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sorin the Mirthless"
+          "Count": 3,
+          "CardName": "Kami's Flare"
         },
         {
           "Count": 3,
           "CardName": "Ray of Enfeeblement"
         },
         {
-          "Count": 3,
-          "CardName": "Kami's Flare"
+          "Count": 1,
+          "CardName": "Sorin the Mirthless"
+        },
+        {
+          "Count": 2,
+          "CardName": "Soul Shatter"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Meathook Massacre"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "BERNASTORRES",
       "Result": "11th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_BERNASTORRES",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_BERNASTORRES",
       "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
         {
           "Count": 4,
           "CardName": "Jwari Disruption"
         },
         {
           "Count": 4,
-          "CardName": "Expressive Iteration"
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
         },
         {
           "Count": 2,
@@ -1276,80 +1344,12 @@
           "CardName": "Stormcarved Coast"
         },
         {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
-        },
-        {
-          "Count": 1,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
           "Count": 3,
           "CardName": "Sundown Pass"
         },
         {
-          "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 4,
-          "CardName": "Magma Opus"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deserted Beach"
-        },
-        {
           "Count": 2,
-          "CardName": "Make Disappear"
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
@@ -1358,20 +1358,12 @@
           "CardName": "Disdainful Stroke"
         },
         {
-          "Count": 4,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 3,
-          "CardName": "Flame-Blessed Bolt"
-        },
-        {
           "Count": 2,
           "CardName": "Dragon's Fire"
         },
         {
-          "Count": 2,
-          "CardName": "Test of Talents"
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
         },
         {
           "Count": 1,
@@ -1380,34 +1372,26 @@
         {
           "Count": 1,
           "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "GYBA",
       "Result": "12th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_GYBA",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_GYBA",
       "Mainboard": [
-        {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
         {
           "Count": 3,
           "CardName": "Bloodthirsty Adversary"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hopeful Initiate"
-        },
-        {
-          "Count": 6,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sunrise Cavalier"
         },
         {
           "Count": 3,
@@ -1415,31 +1399,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Sundown Pass"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reckless Stormseeker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Luminarch Aspirant"
-        },
-        {
-          "Count": 2,
           "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thundering Raiju"
         },
         {
           "Count": 1,
@@ -1447,7 +1407,27 @@
         },
         {
           "Count": 4,
+          "CardName": "Hopeful Initiate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
           "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
         },
         {
           "Count": 4,
@@ -1455,21 +1435,41 @@
         },
         {
           "Count": 4,
+          "CardName": "Reckless Stormseeker"
+        },
+        {
+          "Count": 4,
           "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sunrise Cavalier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thundering Raiju"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thalia, Guardian of Thraben"
+          "CardName": "Angelfire Ignition"
         },
         {
           "Count": 1,
           "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 3,
+          "CardName": "Elite Spellbinder"
         },
         {
           "Count": 2,
@@ -1481,31 +1481,51 @@
         },
         {
           "Count": 2,
-          "CardName": "Angelfire Ignition"
+          "CardName": "Thalia, Guardian of Thraben"
         },
         {
-          "Count": 3,
-          "CardName": "Elite Spellbinder"
+          "Count": 2,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Thempto",
       "Result": "13th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Thempto",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Thempto",
       "Mainboard": [
         {
           "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
+          "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 3,
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
         },
         {
           "Count": 4,
           "CardName": "Hopeful Initiate"
         },
         {
-          "Count": 1,
-          "CardName": "Valorous Stance"
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
         },
         {
           "Count": 4,
@@ -1520,40 +1540,24 @@
           "CardName": "Needleverge Pathway"
         },
         {
-          "Count": 4,
-          "CardName": "Brutal Cathar"
-        },
-        {
-          "Count": 4,
-          "CardName": "Roil Eruption"
-        },
-        {
           "Count": 6,
           "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Angelfire Ignition"
         },
         {
           "Count": 4,
           "CardName": "Play with Fire"
         },
         {
-          "Count": 1,
-          "CardName": "Eiganjo, Seat of the Empire"
+          "Count": 4,
+          "CardName": "Reckless Stormseeker"
         },
         {
           "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
         },
         {
           "Count": 3,
@@ -1564,58 +1568,106 @@
           "CardName": "Thundering Raiju"
         },
         {
-          "Count": 4,
-          "CardName": "Reckless Stormseeker"
-        },
-        {
-          "Count": 3,
-          "CardName": "Bloodthirsty Adversary"
+          "Count": 1,
+          "CardName": "Valorous Stance"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 4,
-          "CardName": "Elite Spellbinder"
-        },
-        {
-          "Count": 1,
-          "CardName": "Valorous Stance"
-        },
         {
           "Count": 1,
           "CardName": "Angelfire Ignition"
         },
         {
-          "Count": 3,
-          "CardName": "Thalia, Guardian of Thraben"
+          "Count": 4,
+          "CardName": "Elite Spellbinder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kami's Flare"
         },
         {
           "Count": 2,
           "CardName": "Showdown of the Skalds"
         },
         {
-          "Count": 4,
-          "CardName": "Kami's Flare"
+          "Count": 3,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "FerMTG",
       "Result": "14th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_FerMTG",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_FerMTG",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Swamp"
+          "Count": 4,
+          "CardName": "Acquisitions Expert"
         },
         {
-          "Count": 2,
-          "CardName": "The Meathook Massacre"
+          "Count": 4,
+          "CardName": "Brightclimb Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dread Fugue"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
         },
         {
           "Count": 2,
           "CardName": "Emeria's Call"
+        },
+        {
+          "Count": 4,
+          "CardName": "Extraction Specialist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 2,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
         },
         {
           "Count": 2,
@@ -1626,94 +1678,42 @@
           "CardName": "Shattered Sanctum"
         },
         {
-          "Count": 2,
-          "CardName": "Henrika Domnathi"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brightclimb Pathway"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hagra Mauling"
-        },
-        {
-          "Count": 4,
-          "CardName": "Luminarch Aspirant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Extraction Specialist"
-        },
-        {
           "Count": 3,
-          "CardName": "Vanishing Verse"
-        },
-        {
-          "Count": 3,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eiganjo, Seat of the Empire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Legion Angel"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pelakka Predation"
-        },
-        {
-          "Count": 2,
-          "CardName": "Infernal Grasp"
+          "CardName": "Swamp"
         },
         {
           "Count": 1,
           "CardName": "Takenuma, Abandoned Mire"
         },
         {
-          "Count": 4,
-          "CardName": "Acquisitions Expert"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wedding Announcement"
-        },
-        {
           "Count": 2,
-          "CardName": "Lolth, Spider Queen"
-        },
-        {
-          "Count": 3,
-          "CardName": "Dread Fugue"
+          "CardName": "The Meathook Massacre"
         },
         {
           "Count": 2,
           "CardName": "The Wandering Emperor"
         },
         {
-          "Count": 2,
-          "CardName": "Hive of the Eye Tyrant"
+          "Count": 3,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
         }
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Graveyard Trespasser"
+          "Count": 2,
+          "CardName": "Duress"
         },
         {
           "Count": 2,
           "CardName": "Go Blank"
         },
         {
-          "Count": 1,
-          "CardName": "Soul Shatter"
+          "Count": 4,
+          "CardName": "Graveyard Trespasser"
         },
         {
           "Count": 3,
@@ -1724,20 +1724,48 @@
           "CardName": "Ray of Enfeeblement"
         },
         {
-          "Count": 2,
-          "CardName": "Duress"
+          "Count": 1,
+          "CardName": "Soul Shatter"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "LucasG1ggs",
       "Result": "15th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_LucasG1ggs",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_LucasG1ggs",
       "Mainboard": [
         {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
           "Count": 1,
-          "CardName": "Prismari Command"
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
         },
         {
           "Count": 4,
@@ -1746,100 +1774,64 @@
         {
           "Count": 4,
           "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
         },
         {
           "Count": 1,
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
         },
         {
           "Count": 4,
           "CardName": "Stormcarved Coast"
         },
         {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deserted Beach"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 4,
-          "CardName": "Expressive Iteration"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 2,
-          "CardName": "Make Disappear"
-        },
-        {
           "Count": 3,
           "CardName": "Sundown Pass"
         },
         {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
           "Count": 2,
-          "CardName": "Dragon's Fire"
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
         {
-          "Count": 4,
-          "CardName": "Valorous Stance"
-        },
-        {
           "Count": 2,
-          "CardName": "Test of Talents"
-        },
-        {
-          "Count": 1,
-          "CardName": "Reckoner Bankbuster"
+          "CardName": "Disdainful Stroke"
         },
         {
           "Count": 2,
@@ -1854,28 +1846,56 @@
           "CardName": "Memory Deluge"
         },
         {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
           "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "bcs8995",
       "Result": "16th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_bcs8995",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_bcs8995",
       "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
         {
           "Count": 2,
           "CardName": "Hengegate Pathway"
         },
         {
           "Count": 4,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
+          "CardName": "Hinata, Dawn-Crowned"
         },
         {
           "Count": 4,
@@ -1887,19 +1907,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
+          "CardName": "Make Disappear"
         },
         {
           "Count": 1,
@@ -1907,55 +1915,47 @@
         },
         {
           "Count": 3,
-          "CardName": "Sundown Pass"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deserted Beach"
-        },
-        {
-          "Count": 3,
           "CardName": "Needleverge Pathway"
         },
         {
-          "Count": 4,
-          "CardName": "Expressive Iteration"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 1,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 1,
           "CardName": "Otawara, Soaring City"
         },
         {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
+          "Count": 1,
+          "CardName": "Prismari Command"
         },
         {
           "Count": 2,
-          "CardName": "Make Disappear"
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
@@ -1964,8 +1964,16 @@
           "CardName": "Disdainful Stroke"
         },
         {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
+        },
+        {
           "Count": 3,
           "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreaker Horror"
         },
         {
           "Count": 1,
@@ -1976,36 +1984,56 @@
           "CardName": "Reckoner Bankbuster"
         },
         {
-          "Count": 3,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hullbreaker Horror"
-        },
-        {
           "Count": 2,
           "CardName": "Test of Talents"
         },
         {
-          "Count": 1,
-          "CardName": "Dragon's Fire"
+          "Count": 3,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Demian77",
       "Result": "17th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Demian77",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Demian77",
       "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
         {
           "Count": 4,
           "CardName": "Goldspan Dragon"
         },
         {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
           "Count": 2,
-          "CardName": "Make Disappear"
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
         },
         {
           "Count": 4,
@@ -2013,23 +2041,23 @@
         },
         {
           "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
+          "CardName": "Make Disappear"
         },
         {
           "Count": 3,
-          "CardName": "Deserted Beach"
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
         },
         {
           "Count": 1,
@@ -2040,78 +2068,46 @@
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
           "Count": 2,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Expressive Iteration"
-        },
-        {
-          "Count": 3,
-          "CardName": "Sundown Pass"
+          "CardName": "Spikefield Hazard"
         },
         {
           "Count": 4,
           "CardName": "Stormcarved Coast"
         },
         {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
+          "Count": 3,
+          "CardName": "Sundown Pass"
         },
         {
           "Count": 2,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 1,
           "CardName": "Valorous Stance"
         },
         {
-          "Count": 1,
-          "CardName": "Dragon's Fire"
-        },
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 1,
           "CardName": "Abrade"
         },
         {
           "Count": 2,
-          "CardName": "Test of Talents"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
           "CardName": "Burn Down the House"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
         },
         {
           "Count": 1,
@@ -2119,47 +2115,55 @@
         },
         {
           "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "CardName": "Negate"
         },
         {
-          "Count": 3,
-          "CardName": "Flame-Blessed Bolt"
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Gul_Dukat",
       "Result": "18th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Gul_Dukat",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Gul_Dukat",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Stormcarved Coast"
+          "Count": 4,
+          "CardName": "Blightstep Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Bloodthirsty Adversary"
         },
         {
           "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 3,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Corpse Appraiser"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
         },
         {
           "Count": 1,
           "CardName": "Duress"
         },
         {
-          "Count": 1,
-          "CardName": "Soul Transfer"
-        },
-        {
-          "Count": 3,
-          "CardName": "Kaito Shizuki"
-        },
-        {
-          "Count": 4,
-          "CardName": "Blightstep Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shipwreck Marsh"
+          "Count": 2,
+          "CardName": "Evelyn, the Covetous"
         },
         {
           "Count": 4,
@@ -2167,7 +2171,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "CardName": "Haunted Ridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Kaito Shizuki"
         },
         {
           "Count": 1,
@@ -2175,7 +2191,39 @@
         },
         {
           "Count": 1,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorin the Mirthless"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul Transfer"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 1,
           "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
         },
         {
           "Count": 2,
@@ -2183,59 +2231,11 @@
         },
         {
           "Count": 4,
-          "CardName": "Xander's Lounge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Haunted Ridge"
-        },
-        {
-          "Count": 4,
           "CardName": "Voltage Surge"
         },
         {
           "Count": 4,
-          "CardName": "Corpse Appraiser"
-        },
-        {
-          "Count": 3,
-          "CardName": "Clearwater Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ray of Enfeeblement"
-        },
-        {
-          "Count": 2,
-          "CardName": "Bloodthirsty Adversary"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sorin the Mirthless"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hive of the Eye Tyrant"
-        },
-        {
-          "Count": 1,
-          "CardName": "Takenuma, Abandoned Mire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spell Pierce"
-        },
-        {
-          "Count": 2,
-          "CardName": "Evelyn, the Covetous"
-        },
-        {
-          "Count": 2,
-          "CardName": "Infernal Grasp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Bloodtithe Harvester"
+          "CardName": "Xander's Lounge"
         }
       ],
       "Sideboard": [
@@ -2248,8 +2248,20 @@
           "CardName": "Annul"
         },
         {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
           "Count": 1,
           "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Evelyn, the Covetous"
+        },
+        {
+          "Count": 1,
+          "CardName": "Go Blank"
         },
         {
           "Count": 1,
@@ -2257,7 +2269,7 @@
         },
         {
           "Count": 1,
-          "CardName": "Soul Shatter"
+          "CardName": "Negate"
         },
         {
           "Count": 3,
@@ -2265,55 +2277,67 @@
         },
         {
           "Count": 1,
-          "CardName": "Go Blank"
-        },
-        {
-          "Count": 2,
-          "CardName": "Disdainful Stroke"
-        },
-        {
-          "Count": 1,
-          "CardName": "Negate"
+          "CardName": "Soul Shatter"
         },
         {
           "Count": 1,
           "CardName": "Soul Transfer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Evelyn, the Covetous"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Coly2",
       "Result": "19th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Coly2",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Coly2",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Snakeskin Veil"
+          "Count": 4,
+          "CardName": "Ascendant Packleader"
         },
         {
           "Count": 4,
           "CardName": "Blizzard Brawl"
         },
         {
+          "Count": 1,
+          "CardName": "Boseiju, Who Endures"
+        },
+        {
           "Count": 4,
           "CardName": "Esika's Chariot"
+        },
+        {
+          "Count": 3,
+          "CardName": "Invoke the Ancients"
         },
         {
           "Count": 2,
           "CardName": "Jewel Thief"
         },
         {
-          "Count": 20,
-          "CardName": "Snow-Covered Forest"
+          "Count": 3,
+          "CardName": "Lair of the Hydra"
+        },
+        {
+          "Count": 4,
+          "CardName": "Old-Growth Troll"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ranger Class"
         },
         {
           "Count": 4,
           "CardName": "Sculptor of Winter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snakeskin Veil"
+        },
+        {
+          "Count": 20,
+          "CardName": "Snow-Covered Forest"
         },
         {
           "Count": 2,
@@ -2322,48 +2346,12 @@
         {
           "Count": 4,
           "CardName": "Werewolf Pack Leader"
-        },
-        {
-          "Count": 4,
-          "CardName": "Old-Growth Troll"
-        },
-        {
-          "Count": 1,
-          "CardName": "Boseiju, Who Endures"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lair of the Hydra"
-        },
-        {
-          "Count": 3,
-          "CardName": "Ranger Class"
-        },
-        {
-          "Count": 4,
-          "CardName": "Ascendant Packleader"
-        },
-        {
-          "Count": 3,
-          "CardName": "Invoke the Ancients"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 1,
-          "CardName": "Toski, Bearer of Secrets"
-        },
-        {
-          "Count": 2,
           "CardName": "Inscription of Abundance"
-        },
-        {
-          "Count": 3,
-          "CardName": "Outland Liberator"
         },
         {
           "Count": 2,
@@ -2371,95 +2359,35 @@
         },
         {
           "Count": 3,
-          "CardName": "Tangletrap"
+          "CardName": "Outland Liberator"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
         },
         {
           "Count": 2,
           "CardName": "Snakeskin Veil"
+        },
+        {
+          "Count": 3,
+          "CardName": "Tangletrap"
+        },
+        {
+          "Count": 1,
+          "CardName": "Toski, Bearer of Secrets"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "ruin000",
       "Result": "20th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_ruin000",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_ruin000",
       "Mainboard": [
-        {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fading Hope"
-        },
-        {
-          "Count": 3,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 3,
-          "CardName": "Voltage Surge"
-        },
         {
           "Count": 4,
           "CardName": "Barkchannel Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 3,
-          "CardName": "Make Disappear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Titan of Industry"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 1,
-          "CardName": "Memory Deluge"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Celestus"
-        },
-        {
-          "Count": 1,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Rockfall Vale"
-        },
-        {
-          "Count": 4,
-          "CardName": "Expressive Iteration"
         },
         {
           "Count": 4,
@@ -2467,81 +2395,15 @@
         },
         {
           "Count": 2,
-          "CardName": "Prismari Command"
+          "CardName": "Dragon's Fire"
         },
         {
           "Count": 2,
           "CardName": "Dreamroot Cascade"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 3,
-          "CardName": "Koma, Cosmos Serpent"
         },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Battle of Frost and Fire"
-        },
-        {
-          "Count": 3,
-          "CardName": "Torch Breath"
-        },
-        {
-          "Count": 3,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 1,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Memory Deluge"
-        }
-      ]
-    },
-    {
-      "Date": "2022-07-23T00:00:00Z",
-      "Player": "Lennny",
-      "Result": "21th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Lennny",
-      "Mainboard": [
         {
           "Count": 4,
           "CardName": "Expressive Iteration"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Prismari Command"
-        },
-        {
-          "Count": 3,
-          "CardName": "Deserted Beach"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
-        },
-        {
-          "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 3,
-          "CardName": "Magma Opus"
         },
         {
           "Count": 4,
@@ -2549,65 +2411,27 @@
         },
         {
           "Count": 3,
-          "CardName": "Sundown Pass"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
-        },
-        {
-          "Count": 4,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
+          "CardName": "Fading Hope"
         },
         {
           "Count": 4,
           "CardName": "Goldspan Dragon"
         },
         {
-          "Count": 2,
-          "CardName": "Make Disappear"
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
         },
         {
           "Count": 3,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 2,
-          "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Flame-Blessed Bolt"
+          "CardName": "Make Disappear"
         },
         {
           "Count": 1,
@@ -2615,7 +2439,175 @@
         },
         {
           "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 2,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rockfall Vale"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Celestus"
+        },
+        {
+          "Count": 4,
+          "CardName": "Titan of Industry"
+        },
+        {
+          "Count": 3,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Battle of Frost and Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Koma, Cosmos Serpent"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 3,
+          "CardName": "Torch Breath"
+        },
+        {
+          "Count": 1,
+          "CardName": "Voltage Surge"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Lennny",
+      "Result": "21th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Lennny",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 3,
           "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 2,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
         },
         {
           "Count": 2,
@@ -2623,19 +2615,27 @@
         },
         {
           "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "CardName": "Flame-Blessed Bolt"
         },
         {
           "Count": 2,
           "CardName": "Hullbreaker Horror"
         },
         {
-          "Count": 2,
-          "CardName": "Test of Talents"
+          "Count": 1,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
         },
         {
           "Count": 1,
           "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
         },
         {
           "Count": 2,
@@ -2644,14 +2644,26 @@
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "MSlap_LaBiscia",
       "Result": "22th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_MSlap_LaBiscia",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_MSlap_LaBiscia",
       "Mainboard": [
         {
+          "Count": 1,
+          "CardName": "Blade Historian"
+        },
+        {
           "Count": 4,
-          "CardName": "Luminarch Aspirant"
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
         },
         {
           "Count": 1,
@@ -2659,15 +2671,23 @@
         },
         {
           "Count": 4,
-          "CardName": "Bloodthirsty Adversary"
+          "CardName": "Hopeful Initiate"
         },
         {
           "Count": 4,
-          "CardName": "Reckless Stormseeker"
+          "CardName": "Kumano Faces Kakkazan"
         },
         {
-          "Count": 2,
-          "CardName": "Sundown Pass"
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Needleverge Pathway"
         },
         {
           "Count": 6,
@@ -2678,12 +2698,8 @@
           "CardName": "Play with Fire"
         },
         {
-          "Count": 6,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
+          "Count": 4,
+          "CardName": "Reckless Stormseeker"
         },
         {
           "Count": 4,
@@ -2694,50 +2710,34 @@
           "CardName": "Sokenzan, Crucible of Defiance"
         },
         {
+          "Count": 2,
+          "CardName": "Sundown Pass"
+        },
+        {
           "Count": 4,
           "CardName": "Sunrise Cavalier"
         },
         {
           "Count": 4,
           "CardName": "Thundering Raiju"
-        },
-        {
-          "Count": 2,
-          "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Needleverge Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hopeful Initiate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Blade Historian"
         }
       ],
       "Sideboard": [
         {
           "Count": 4,
-          "CardName": "Strangle"
+          "CardName": "Angelfire Ignition"
         },
         {
           "Count": 2,
           "CardName": "Elite Spellbinder"
         },
         {
-          "Count": 2,
-          "CardName": "Thalia, Guardian of Thraben"
+          "Count": 4,
+          "CardName": "Strangle"
         },
         {
-          "Count": 4,
-          "CardName": "Angelfire Ignition"
+          "Count": 2,
+          "CardName": "Thalia, Guardian of Thraben"
         },
         {
           "Count": 3,
@@ -2746,34 +2746,46 @@
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Jaberwocki",
       "Result": "23th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Jaberwocki",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Jaberwocki",
       "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Voltage Surge"
+          "CardName": "Deserted Beach"
         },
         {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "Count": 2,
+          "CardName": "Dragon's Fire"
         },
         {
           "Count": 4,
           "CardName": "Expressive Iteration"
         },
         {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
           "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
         },
         {
           "Count": 4,
@@ -2788,16 +2800,8 @@
           "CardName": "Needleverge Pathway"
         },
         {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Spell Pierce"
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 1,
@@ -2808,24 +2812,20 @@
           "CardName": "Prismari Command"
         },
         {
-          "Count": 3,
-          "CardName": "Sundown Pass"
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
         },
         {
           "Count": 4,
-          "CardName": "Stormcarved Coast"
+          "CardName": "Riverglide Pathway"
         },
         {
-          "Count": 2,
-          "CardName": "Deserted Beach"
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
         },
         {
-          "Count": 3,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
+          "Count": 1,
+          "CardName": "Spell Pierce"
         },
         {
           "Count": 2,
@@ -2833,33 +2833,37 @@
         },
         {
           "Count": 4,
-          "CardName": "Hinata, Dawn-Crowned"
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
         },
         {
           "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
+          "CardName": "Voltage Surge"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
         {
           "Count": 3,
           "CardName": "Flame-Blessed Bolt"
         },
         {
           "Count": 1,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 1,
           "CardName": "Memory Deluge"
         },
         {
-          "Count": 2,
-          "CardName": "Disdainful Stroke"
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
         },
         {
           "Count": 2,
@@ -2868,86 +2872,26 @@
         {
           "Count": 4,
           "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "indianpancake",
       "Result": "24th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_indianpancake",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_indianpancake",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Infernal Grasp"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Wandering Emperor"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Meathook Massacre"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vanishing Verse"
-        },
-        {
-          "Count": 2,
-          "CardName": "Henrika Domnathi"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lolth, Spider Queen"
-        },
-        {
-          "Count": 1,
-          "CardName": "Legion Angel"
+          "Count": 4,
+          "CardName": "Acquisitions Expert"
         },
         {
           "Count": 4,
           "CardName": "Brightclimb Pathway"
         },
         {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pelakka Predation"
-        },
-        {
-          "Count": 4,
-          "CardName": "Acquisitions Expert"
-        },
-        {
           "Count": 1,
-          "CardName": "Tenacious Underdog"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eiganjo, Seat of the Empire"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hagra Mauling"
-        },
-        {
-          "Count": 3,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 4,
-          "CardName": "Luminarch Aspirant"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hive of the Eye Tyrant"
+          "CardName": "Cave of the Frost Dragon"
         },
         {
           "Count": 3,
@@ -2955,38 +2899,90 @@
         },
         {
           "Count": 1,
-          "CardName": "Takenuma, Abandoned Mire"
-        },
-        {
-          "Count": 4,
-          "CardName": "Extraction Specialist"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wedding Announcement"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shattered Sanctum"
+          "CardName": "Eiganjo, Seat of the Empire"
         },
         {
           "Count": 2,
           "CardName": "Emeria's Call"
         },
         {
+          "Count": 4,
+          "CardName": "Extraction Specialist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 2,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
           "Count": 1,
           "CardName": "Reckoner Bankbuster"
         },
         {
+          "Count": 4,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tenacious Underdog"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Go Blank"
-        },
         {
           "Count": 2,
           "CardName": "Archon of Emeria"
@@ -2996,8 +2992,16 @@
           "CardName": "Duress"
         },
         {
-          "Count": 1,
-          "CardName": "Reckoner Bankbuster"
+          "Count": 2,
+          "CardName": "Go Blank"
+        },
+        {
+          "Count": 2,
+          "CardName": "Graveyard Trespasser"
+        },
+        {
+          "Count": 2,
+          "CardName": "Legion Angel"
         },
         {
           "Count": 3,
@@ -3005,35 +3009,23 @@
         },
         {
           "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 1,
           "CardName": "Soul Shatter"
-        },
-        {
-          "Count": 2,
-          "CardName": "Legion Angel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Graveyard Trespasser"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "coffeannan",
       "Result": "25th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_coffeannan",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_coffeannan",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Invoke the Ancients"
-        },
-        {
           "Count": 4,
-          "CardName": "Esika's Chariot"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sculptor of Winter"
+          "CardName": "Ascendant Packleader"
         },
         {
           "Count": 4,
@@ -3041,23 +3033,31 @@
         },
         {
           "Count": 2,
-          "CardName": "Inscription of Abundance"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tamiyo's Safekeeping"
+          "CardName": "Boseiju, Who Endures"
         },
         {
           "Count": 4,
-          "CardName": "Ascendant Packleader"
+          "CardName": "Esika's Chariot"
+        },
+        {
+          "Count": 2,
+          "CardName": "Inscription of Abundance"
+        },
+        {
+          "Count": 3,
+          "CardName": "Invoke the Ancients"
+        },
+        {
+          "Count": 1,
+          "CardName": "Kazandu Mammoth"
         },
         {
           "Count": 3,
           "CardName": "Lair of the Hydra"
         },
         {
-          "Count": 2,
-          "CardName": "Boseiju, Who Endures"
+          "Count": 4,
+          "CardName": "Old-Growth Troll"
         },
         {
           "Count": 3,
@@ -3065,11 +3065,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Werewolf Pack Leader"
-        },
-        {
-          "Count": 2,
-          "CardName": "Ulvenwald Oddity"
+          "CardName": "Sculptor of Winter"
         },
         {
           "Count": 19,
@@ -3077,41 +3073,21 @@
         },
         {
           "Count": 1,
-          "CardName": "Kazandu Mammoth"
+          "CardName": "Tamiyo's Safekeeping"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ulvenwald Oddity"
         },
         {
           "Count": 4,
-          "CardName": "Old-Growth Troll"
+          "CardName": "Werewolf Pack Leader"
         }
       ],
       "Sideboard": [
         {
-          "Count": 3,
-          "CardName": "Snakeskin Veil"
-        },
-        {
-          "Count": 1,
-          "CardName": "Master's Rebuke"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
           "Count": 1,
           "CardName": "Devouring Tendrils"
-        },
-        {
-          "Count": 3,
-          "CardName": "Outland Liberator"
-        },
-        {
-          "Count": 1,
-          "CardName": "Workshop Warchief"
-        },
-        {
-          "Count": 2,
-          "CardName": "Tajuru Blightblade"
         },
         {
           "Count": 1,
@@ -3120,30 +3096,50 @@
         {
           "Count": 1,
           "CardName": "Masked Vandal"
+        },
+        {
+          "Count": 1,
+          "CardName": "Master's Rebuke"
+        },
+        {
+          "Count": 3,
+          "CardName": "Outland Liberator"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 3,
+          "CardName": "Snakeskin Veil"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tajuru Blightblade"
+        },
+        {
+          "Count": 1,
+          "CardName": "Workshop Warchief"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "unagieel",
       "Result": "26th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_unagieel",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_unagieel",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
+          "Count": 2,
+          "CardName": "Deserted Beach"
         },
         {
           "Count": 2,
           "CardName": "Dragon's Fire"
         },
         {
-          "Count": 2,
-          "CardName": "Negate"
+          "Count": 4,
+          "CardName": "Expressive Iteration"
         },
         {
           "Count": 4,
@@ -3151,11 +3147,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
         },
         {
           "Count": 4,
-          "CardName": "Magma Opus"
+          "CardName": "Hengegate Pathway"
         },
         {
           "Count": 4,
@@ -3163,31 +3163,43 @@
         },
         {
           "Count": 4,
-          "CardName": "Sundown Pass"
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
         },
         {
           "Count": 2,
           "CardName": "Make Disappear"
         },
         {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Needleverge Pathway"
+        },
+        {
           "Count": 2,
-          "CardName": "Deserted Beach"
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
         },
         {
           "Count": 2,
           "CardName": "Reckoner Bankbuster"
         },
         {
-          "Count": 2,
-          "CardName": "Valorous Stance"
-        },
-        {
           "Count": 4,
-          "CardName": "Expressive Iteration"
+          "CardName": "Riverglide Pathway"
         },
         {
           "Count": 1,
-          "CardName": "Mountain"
+          "CardName": "Sokenzan, Crucible of Defiance"
         },
         {
           "Count": 2,
@@ -3195,27 +3207,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Needleverge Pathway"
+          "CardName": "Sundown Pass"
         },
         {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Jwari Disruption"
+          "Count": 2,
+          "CardName": "Valorous Stance"
         },
         {
           "Count": 2,
           "CardName": "Voltage Surge"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 1,
-          "CardName": "Otawara, Soaring City"
         }
       ],
       "Sideboard": [
@@ -3225,6 +3225,22 @@
         },
         {
           "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 2,
           "CardName": "Reckoner Bankbuster"
         },
         {
@@ -3233,87 +3249,19 @@
         },
         {
           "Count": 2,
-          "CardName": "Disdainful Stroke"
-        },
-        {
-          "Count": 4,
-          "CardName": "Flame-Blessed Bolt"
-        },
-        {
-          "Count": 2,
           "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dragon's Fire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Memory Deluge"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Mogged",
       "Result": "27th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Mogged",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Mogged",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Raffine's Tower"
-        },
-        {
-          "Count": 1,
-          "CardName": "Infernal Grasp"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Meathook Massacre"
-        },
-        {
-          "Count": 3,
-          "CardName": "Obscura Interceptor"
-        },
-        {
-          "Count": 2,
-          "CardName": "Vanishing Verse"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tenacious Underdog"
-        },
-        {
-          "Count": 2,
-          "CardName": "Deserted Beach"
-        },
-        {
-          "Count": 4,
-          "CardName": "Wedding Announcement"
-        },
-        {
-          "Count": 4,
-          "CardName": "Luminarch Aspirant"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hengegate Pathway"
-        },
-        {
-          "Count": 1,
-          "CardName": "Emeria's Call"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shipwreck Marsh"
-        },
-        {
-          "Count": 2,
-          "CardName": "Kaito Shizuki"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shattered Sanctum"
+          "CardName": "Brightclimb Pathway"
         },
         {
           "Count": 4,
@@ -3321,31 +3269,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Make Disappear"
-        },
-        {
-          "Count": 3,
-          "CardName": "The Wandering Emperor"
-        },
-        {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Raffine, Scheming Seer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Legion Angel"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hive of the Eye Tyrant"
-        },
-        {
-          "Count": 1,
-          "CardName": "Plains"
+          "CardName": "Deserted Beach"
         },
         {
           "Count": 1,
@@ -3356,27 +3280,87 @@
           "CardName": "Eiganjo, Seat of the Empire"
         },
         {
+          "Count": 1,
+          "CardName": "Emeria's Call"
+        },
+        {
           "Count": 4,
-          "CardName": "Brightclimb Pathway"
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 1,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kaito Shizuki"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Interceptor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine, Scheming Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine's Tower"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tenacious Underdog"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 3,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Portable Hole"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shadows' Verdict"
-        },
-        {
-          "Count": 1,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Vanishing Verse"
-        },
         {
           "Count": 1,
           "CardName": "Disdainful Stroke"
@@ -3386,60 +3370,44 @@
           "CardName": "Duress"
         },
         {
-          "Count": 1,
-          "CardName": "The Meathook Massacre"
-        },
-        {
           "Count": 3,
           "CardName": "Legion Angel"
         },
         {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Portable Hole"
+        },
+        {
           "Count": 3,
           "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadows' Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vanishing Verse"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Morenothings",
       "Result": "28th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Morenothings",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Morenothings",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Rockfall Vale"
-        },
-        {
-          "Count": 4,
-          "CardName": "Prosperous Innkeeper"
-        },
-        {
-          "Count": 4,
-          "CardName": "Den of the Bugbear"
-        },
-        {
-          "Count": 4,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 3,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Halana and Alena, Partners"
-        },
-        {
-          "Count": 4,
-          "CardName": "Reckless Stormseeker"
-        },
-        {
-          "Count": 1,
-          "CardName": "Lair of the Hydra"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brushfire Elemental"
+          "CardName": "Black Market Tycoon"
         },
         {
           "Count": 2,
@@ -3447,15 +3415,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Kumano Faces Kakkazan"
+          "CardName": "Brushfire Elemental"
         },
         {
           "Count": 4,
-          "CardName": "Kazandu Mammoth"
+          "CardName": "Cragcrown Pathway"
         },
         {
-          "Count": 2,
-          "CardName": "Goldspan Dragon"
+          "Count": 4,
+          "CardName": "Den of the Bugbear"
         },
         {
           "Count": 4,
@@ -3463,11 +3431,43 @@
         },
         {
           "Count": 4,
-          "CardName": "Black Market Tycoon"
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Goldspan Dragon"
         },
         {
           "Count": 4,
-          "CardName": "Cragcrown Pathway"
+          "CardName": "Halana and Alena, Partners"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kazandu Mammoth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lair of the Hydra"
+        },
+        {
+          "Count": 3,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Prosperous Innkeeper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Stormseeker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rockfall Vale"
         },
         {
           "Count": 4,
@@ -3477,55 +3477,47 @@
       "Sideboard": [
         {
           "Count": 2,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 2,
           "CardName": "Hunter's Mark"
-        },
-        {
-          "Count": 2,
-          "CardName": "Workshop Warchief"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thundering Rebuke"
-        },
-        {
-          "Count": 4,
-          "CardName": "Snakeskin Veil"
         },
         {
           "Count": 3,
           "CardName": "Relic Robber"
         },
         {
+          "Count": 4,
+          "CardName": "Snakeskin Veil"
+        },
+        {
           "Count": 2,
-          "CardName": "Flame-Blessed Bolt"
+          "CardName": "Thundering Rebuke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Workshop Warchief"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "Oscar_Franco",
       "Result": "29th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Oscar_Franco",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Oscar_Franco",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 3,
-          "CardName": "Plains"
+          "Count": 4,
+          "CardName": "Acquisitions Expert"
         },
         {
           "Count": 4,
-          "CardName": "Wedding Announcement"
+          "CardName": "Brightclimb Pathway"
         },
         {
-          "Count": 4,
-          "CardName": "Luminarch Aspirant"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Meathook Massacre"
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
         },
         {
           "Count": 3,
@@ -3533,15 +3525,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
-        },
-        {
-          "Count": 1,
           "CardName": "Eiganjo, Seat of the Empire"
         },
         {
-          "Count": 3,
-          "CardName": "Swamp"
+          "Count": 2,
+          "CardName": "Emeria's Call"
         },
         {
           "Count": 4,
@@ -3549,97 +3537,39 @@
         },
         {
           "Count": 2,
-          "CardName": "Emeria's Call"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Wandering Emperor"
-        },
-        {
-          "Count": 4,
-          "CardName": "Acquisitions Expert"
-        },
-        {
-          "Count": 2,
-          "CardName": "Lolth, Spider Queen"
-        },
-        {
-          "Count": 2,
-          "CardName": "Infernal Grasp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Brightclimb Pathway"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shattered Sanctum"
-        },
-        {
-          "Count": 1,
-          "CardName": "Legion Angel"
-        },
-        {
-          "Count": 2,
           "CardName": "Hagra Mauling"
         },
         {
-          "Count": 3,
-          "CardName": "Vanishing Verse"
+          "Count": 2,
+          "CardName": "Henrika Domnathi"
         },
         {
           "Count": 2,
           "CardName": "Hive of the Eye Tyrant"
         },
         {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
           "Count": 1,
-          "CardName": "Takenuma, Abandoned Mire"
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
         },
         {
           "Count": 2,
           "CardName": "Pelakka Predation"
         },
         {
-          "Count": 2,
-          "CardName": "Henrika Domnathi"
-        }
-      ],
-      "Sideboard": [
-        {
           "Count": 3,
-          "CardName": "Ray of Enfeeblement"
-        },
-        {
-          "Count": 4,
-          "CardName": "Graveyard Trespasser"
-        },
-        {
-          "Count": 2,
-          "CardName": "Go Blank"
-        },
-        {
-          "Count": 1,
-          "CardName": "Soul Shatter"
-        },
-        {
-          "Count": 3,
-          "CardName": "Legion Angel"
-        },
-        {
-          "Count": 2,
-          "CardName": "Duress"
-        }
-      ]
-    },
-    {
-      "Date": "2022-07-23T00:00:00Z",
-      "Player": "Folero",
-      "Result": "30th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_Folero",
-      "Mainboard": [
-        {
-          "Count": 2,
-          "CardName": "Make Disappear"
+          "CardName": "Plains"
         },
         {
           "Count": 2,
@@ -3647,39 +3577,85 @@
         },
         {
           "Count": 4,
-          "CardName": "Stormcarved Coast"
-        },
-        {
-          "Count": 1,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hengegate Pathway"
+          "CardName": "Shattered Sanctum"
         },
         {
           "Count": 3,
-          "CardName": "Needleverge Pathway"
+          "CardName": "Swamp"
         },
         {
           "Count": 1,
-          "CardName": "Otawara, Soaring City"
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vanishing Verse"
         },
         {
           "Count": 4,
-          "CardName": "Jwari Disruption"
+          "CardName": "Wedding Announcement"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Go Blank"
         },
         {
           "Count": 4,
-          "CardName": "Fable of the Mirror-Breaker"
+          "CardName": "Graveyard Trespasser"
+        },
+        {
+          "Count": 3,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul Shatter"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Folero",
+      "Result": "30th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Folero",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
         },
         {
           "Count": 4,
           "CardName": "Expressive Iteration"
         },
         {
-          "Count": 3,
-          "CardName": "Sundown Pass"
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
         },
         {
           "Count": 1,
@@ -3687,27 +3663,71 @@
         },
         {
           "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
           "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
         },
         {
           "Count": 4,
           "CardName": "Magma Opus"
         },
         {
-          "Count": 4,
-          "CardName": "Goldspan Dragon"
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
         },
         {
           "Count": 3,
-          "CardName": "Deserted Beach"
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
         },
         {
           "Count": 1,
           "CardName": "Spell Pierce"
         },
         {
-          "Count": 1,
-          "CardName": "Mountain"
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
         },
         {
           "Count": 1,
@@ -3716,40 +3736,32 @@
         {
           "Count": 2,
           "CardName": "Voltage Surge"
-        },
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 1,
           "CardName": "Disdainful Stroke"
         },
         {
-          "Count": 1,
-          "CardName": "Hall of Storm Giants"
+          "Count": 2,
+          "CardName": "Dragon's Fire"
         },
         {
-          "Count": 4,
-          "CardName": "Riverglide Pathway"
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
         },
         {
           "Count": 2,
-          "CardName": "Spikefield Hazard"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dragon's Fire"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Dragon's Fire"
+          "CardName": "Knockout Blow"
         },
         {
           "Count": 1,
           "CardName": "Negate"
         },
         {
-          "Count": 1,
-          "CardName": "Disdainful Stroke"
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
         },
         {
           "Count": 1,
@@ -3757,71 +3769,31 @@
         },
         {
           "Count": 3,
-          "CardName": "Flame-Blessed Bolt"
-        },
-        {
-          "Count": 3,
           "CardName": "Valorous Stance"
-        },
-        {
-          "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 2,
-          "CardName": "Knockout Blow"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "pokerswizard",
       "Result": "31th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_pokerswizard",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_pokerswizard",
       "Mainboard": [
         {
-          "Count": 2,
-          "CardName": "Sundown Pass"
-        },
-        {
-          "Count": 2,
-          "CardName": "Den of the Bugbear"
-        },
-        {
           "Count": 4,
-          "CardName": "Play with Fire"
+          "CardName": "Bloodthirsty Adversary"
         },
         {
           "Count": 2,
           "CardName": "Brutal Cathar"
         },
         {
-          "Count": 4,
-          "CardName": "Bloodthirsty Adversary"
-        },
-        {
-          "Count": 1,
-          "CardName": "Rem Karolus, Stalwart Slayer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sokenzan, Crucible of Defiance"
-        },
-        {
-          "Count": 4,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 7,
-          "CardName": "Mountain"
+          "Count": 2,
+          "CardName": "Cave of the Frost Dragon"
         },
         {
           "Count": 2,
-          "CardName": "Paladin Class"
-        },
-        {
-          "Count": 4,
-          "CardName": "Roil Eruption"
+          "CardName": "Den of the Bugbear"
         },
         {
           "Count": 1,
@@ -3829,7 +3801,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Thundering Raiju"
+          "CardName": "Hopeful Initiate"
         },
         {
           "Count": 4,
@@ -3840,34 +3812,62 @@
           "CardName": "Luminarch Aspirant"
         },
         {
-          "Count": 4,
-          "CardName": "Hopeful Initiate"
+          "Count": 7,
+          "CardName": "Mountain"
         },
         {
           "Count": 4,
           "CardName": "Needleverge Pathway"
         },
         {
+          "Count": 2,
+          "CardName": "Paladin Class"
+        },
+        {
+          "Count": 4,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Rem Karolus, Stalwart Slayer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sundown Pass"
+        },
+        {
           "Count": 4,
           "CardName": "Sunrise Cavalier"
         },
         {
-          "Count": 2,
-          "CardName": "Cave of the Frost Dragon"
+          "Count": 4,
+          "CardName": "Thundering Raiju"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Thalia, Guardian of Thraben"
-        },
-        {
-          "Count": 3,
-          "CardName": "Valorous Stance"
-        },
-        {
           "Count": 3,
           "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 1,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 3,
+          "CardName": "Elite Spellbinder"
         },
         {
           "Count": 2,
@@ -3878,56 +3878,100 @@
           "CardName": "Showdown of the Skalds"
         },
         {
-          "Count": 1,
-          "CardName": "Brutal Cathar"
+          "Count": 2,
+          "CardName": "Thalia, Guardian of Thraben"
         },
         {
           "Count": 3,
-          "CardName": "Elite Spellbinder"
+          "CardName": "Valorous Stance"
         }
       ]
     },
     {
-      "Date": "2022-07-23T00:00:00Z",
+      "Date": "2022-07-23T13:00:00",
       "Player": "GLAM_",
       "Result": "32th Place",
-      "AnchorUri": "https://www.mtgo.com/en/mtgo/decklist/standard-challenge-2022-07-2312446443#deck_GLAM_",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_GLAM_",
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Extraction Specialist"
+          "CardName": "Acquisitions Expert"
         },
         {
           "Count": 4,
           "CardName": "Brightclimb Pathway"
         },
         {
-          "Count": 2,
-          "CardName": "Lolth, Spider Queen"
-        },
-        {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Luminarch Aspirant"
-        },
-        {
-          "Count": 3,
-          "CardName": "Vanishing Verse"
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
         },
         {
           "Count": 3,
           "CardName": "Dread Fugue"
         },
         {
-          "Count": 2,
-          "CardName": "Infernal Grasp"
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
         },
         {
           "Count": 2,
           "CardName": "Emeria's Call"
+        },
+        {
+          "Count": 4,
+          "CardName": "Extraction Specialist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 2,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
         },
         {
           "Count": 2,
@@ -3935,65 +3979,21 @@
         },
         {
           "Count": 2,
-          "CardName": "Reckoner Bankbuster"
-        },
-        {
-          "Count": 2,
           "CardName": "The Wandering Emperor"
         },
         {
-          "Count": 2,
-          "CardName": "Hive of the Eye Tyrant"
-        },
-        {
           "Count": 3,
-          "CardName": "Plains"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eiganjo, Seat of the Empire"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cave of the Frost Dragon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Pelakka Predation"
-        },
-        {
-          "Count": 2,
-          "CardName": "Henrika Domnathi"
-        },
-        {
-          "Count": 1,
-          "CardName": "Legion Angel"
-        },
-        {
-          "Count": 1,
-          "CardName": "Takenuma, Abandoned Mire"
+          "CardName": "Vanishing Verse"
         },
         {
           "Count": 4,
           "CardName": "Wedding Announcement"
-        },
-        {
-          "Count": 4,
-          "CardName": "Acquisitions Expert"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hagra Mauling"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shattered Sanctum"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Path of Peril"
+          "CardName": "Archon of Emeria"
         },
         {
           "Count": 2,
@@ -4001,15 +4001,999 @@
         },
         {
           "Count": 3,
-          "CardName": "Ray of Enfeeblement"
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Path of Peril"
         },
         {
           "Count": 1,
           "CardName": "Power Word Kill"
         },
         {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
           "Count": 2,
+          "CardName": "Soul Shatter"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Talisker",
+      "Result": "33th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Talisker",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Blightstep Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 3,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Graveyard Trespasser"
+        },
+        {
+          "Count": 4,
+          "CardName": "Haunted Ridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 4,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ob Nixilis, the Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Okiba Reckoner Raid"
+        },
+        {
+          "Count": 3,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Rabbit Battery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Skyclave Shade"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 4,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tenacious Underdog"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Atsushi, the Blazing Sky"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Go Blank"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorin the Mirthless"
+        },
+        {
+          "Count": 2,
+          "CardName": "Strangle"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "KingHairy",
+      "Result": "34th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_KingHairy",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Barkchannel Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Cragcrown Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dreamroot Cascade"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fading Hope"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 3,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 3,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Rockfall Vale"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Titan of Industry"
+        },
+        {
+          "Count": 3,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Abrade"
+        },
+        {
+          "Count": 3,
+          "CardName": "Battle of Frost and Fire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 3,
+          "CardName": "Koma, Cosmos Serpent"
+        },
+        {
+          "Count": 3,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 3,
+          "CardName": "Torch Breath"
+        },
+        {
+          "Count": 1,
+          "CardName": "Voltage Surge"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "guinthos201111",
+      "Result": "35th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_guinthos201111",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreaker Horror"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 3,
+          "CardName": "Valorous Stance"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Frogmanfue",
+      "Result": "36th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Frogmanfue",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Blightstep Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 4,
+          "CardName": "Deadly Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dread Fugue"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 4,
+          "CardName": "Haunted Ridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 4,
+          "CardName": "Invoke Despair"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shambling Ghast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sorin the Mirthless"
+        },
+        {
+          "Count": 2,
+          "CardName": "Soul Shatter"
+        },
+        {
+          "Count": 9,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Dread Fugue"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Go Blank"
+        },
+        {
+          "Count": 4,
+          "CardName": "Graveyard Trespasser"
+        },
+        {
+          "Count": 2,
+          "CardName": "Parasitic Grasp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 2,
+          "CardName": "Soul Shatter"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "musasabi",
+      "Result": "37th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_musasabi",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Brightclimb Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Emeria's Call"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 1,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Kaito Shizuki"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Interceptor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine, Scheming Seer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine's Tower"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tenacious Underdog"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 3,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 2,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 3,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Portable Hole"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadows' Verdict"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vanishing Verse"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "panza_quiroga",
+      "Result": "38th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_panza_quiroga",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Ascendant Packleader"
+        },
+        {
+          "Count": 4,
+          "CardName": "Blizzard Brawl"
+        },
+        {
+          "Count": 1,
+          "CardName": "Boseiju, Who Endures"
+        },
+        {
+          "Count": 4,
+          "CardName": "Esika's Chariot"
+        },
+        {
+          "Count": 3,
+          "CardName": "Invoke the Ancients"
+        },
+        {
+          "Count": 2,
+          "CardName": "Jewel Thief"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lair of the Hydra"
+        },
+        {
+          "Count": 4,
+          "CardName": "Old-Growth Troll"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ranger Class"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sculptor of Winter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snakeskin Veil"
+        },
+        {
+          "Count": 21,
+          "CardName": "Snow-Covered Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ulvenwald Oddity"
+        },
+        {
+          "Count": 4,
+          "CardName": "Werewolf Pack Leader"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Inscription of Abundance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Master's Rebuke"
+        },
+        {
+          "Count": 3,
+          "CardName": "Outland Liberator"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Snakeskin Veil"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tangletrap"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "liyilin",
+      "Result": "39th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_liyilin",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 1,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Burn Down the House"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 2,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreaker Horror"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 3,
+          "CardName": "Valorous Stance"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Shadowz2005",
+      "Result": "40th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Shadowz2005",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Acquisitions Expert"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brightclimb Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dread Fugue"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 2,
+          "CardName": "Emeria's Call"
+        },
+        {
+          "Count": 4,
+          "CardName": "Extraction Specialist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 2,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 3,
           "CardName": "Archon of Emeria"
+        },
+        {
+          "Count": 2,
+          "CardName": "Go Blank"
         },
         {
           "Count": 3,
@@ -4017,7 +5001,1393 @@
         },
         {
           "Count": 2,
+          "CardName": "Path of Peril"
+        },
+        {
+          "Count": 1,
+          "CardName": "Power Word Kill"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
           "CardName": "Soul Shatter"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Cabezadebolo",
+      "Result": "41th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Cabezadebolo",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Bloodchief's Thirst"
+        },
+        {
+          "Count": 4,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Consider"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreaker Horror"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lier, Disciple of the Drowned"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "March of Wretched Sorrow"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 2,
+          "CardName": "Siphon Insight"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorin the Mirthless"
+        },
+        {
+          "Count": 2,
+          "CardName": "Soul Shatter"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Tainted Indulgence"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "Waterfront District"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Check for Traps"
+        },
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 1,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Parasitic Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Siphon Insight"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorin the Mirthless"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul Shatter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Unlicensed Hearse"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Albimtg",
+      "Result": "42th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Albimtg",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 3,
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hopeful Initiate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 5,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckless Stormseeker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thundering Raiju"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 4,
+          "CardName": "Elite Spellbinder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kami's Flare"
+        },
+        {
+          "Count": 2,
+          "CardName": "Showdown of the Skalds"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "bless_von",
+      "Result": "43th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_bless_von",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Acquisitions Expert"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brightclimb Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dread Fugue"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 2,
+          "CardName": "Emeria's Call"
+        },
+        {
+          "Count": 4,
+          "CardName": "Extraction Specialist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hagra Mauling"
+        },
+        {
+          "Count": 2,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lolth, Spider Queen"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 3,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 3,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 4,
+          "CardName": "Wedding Announcement"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Archon of Emeria"
+        },
+        {
+          "Count": 2,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 2,
+          "CardName": "Go Blank"
+        },
+        {
+          "Count": 2,
+          "CardName": "Graveyard Trespasser"
+        },
+        {
+          "Count": 3,
+          "CardName": "Legion Angel"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Soul Shatter"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "pat0presidente",
+      "Result": "44th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_pat0presidente",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Blightstep Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Blood Fountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 4,
+          "CardName": "Experimental Synthesizer"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Haunted Ridge"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 3,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Ob Nixilis, the Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Oni-Cult Anvil"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sokenzan Smelter"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 5,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Takenuma, Abandoned Mire"
+        },
+        {
+          "Count": 3,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 4,
+          "CardName": "Voldaren Epicure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 4,
+          "CardName": "Abrade"
+        },
+        {
+          "Count": 4,
+          "CardName": "Duress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Parasitic Grasp"
+        },
+        {
+          "Count": 3,
+          "CardName": "Reckoner Bankbuster"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "Ekkoftime",
+      "Result": "45th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_Ekkoftime",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Brightclimb Pathway"
+        },
+        {
+          "Count": 3,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 1,
+          "CardName": "Emeria's Call"
+        },
+        {
+          "Count": 2,
+          "CardName": "Fading Hope"
+        },
+        {
+          "Count": 2,
+          "CardName": "Farewell"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreaker Horror"
+        },
+        {
+          "Count": 2,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Interceptor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pelakka Predation"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine's Tower"
+        },
+        {
+          "Count": 4,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shadows' Verdict"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 4,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vanishing Verse"
+        },
+        {
+          "Count": 3,
+          "CardName": "Void Rend"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Lier, Disciple of the Drowned"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Parasitic Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 3,
+          "CardName": "Siphon Insight"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "_Shatun_",
+      "Result": "46th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck__Shatun_",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hopeful Initiate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 6,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 3,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sunrise Cavalier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thundering Raiju"
+        },
+        {
+          "Count": 2,
+          "CardName": "Valorous Stance"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 4,
+          "CardName": "Elite Spellbinder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kami's Flare"
+        },
+        {
+          "Count": 2,
+          "CardName": "Showdown of the Skalds"
+        },
+        {
+          "Count": 3,
+          "CardName": "Thalia, Guardian of Thraben"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "billsive",
+      "Result": "47th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_billsive",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 1,
+          "CardName": "Valorous Stance"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hullbreaker Horror"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 3,
+          "CardName": "Valorous Stance"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "GabingGoblin",
+      "Result": "48th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_GabingGoblin",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Blightstep Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodtithe Harvester"
+        },
+        {
+          "Count": 3,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Corpse Appraiser"
+        },
+        {
+          "Count": 1,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Evelyn, the Covetous"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 3,
+          "CardName": "Haunted Ridge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hive of the Eye Tyrant"
+        },
+        {
+          "Count": 3,
+          "CardName": "Infernal Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 3,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shipwreck Marsh"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 3,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Meathook Massacre"
+        },
+        {
+          "Count": 4,
+          "CardName": "Voltage Surge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Xander's Lounge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 1,
+          "CardName": "Henrika Domnathi"
+        },
+        {
+          "Count": 2,
+          "CardName": "Invoke Despair"
+        },
+        {
+          "Count": 1,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Power Word Kill"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 3,
+          "CardName": "Ray of Enfeeblement"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Meathook Massacre"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "AlpInco",
+      "Result": "49th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_AlpInco",
+      "Mainboard": [
+        {
+          "Count": 3,
+          "CardName": "Adeline, Resplendent Cathar"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brightclimb Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 1,
+          "CardName": "Cave of the Frost Dragon"
+        },
+        {
+          "Count": 4,
+          "CardName": "Clearwater Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Elite Spellbinder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hopeful Initiate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Loyal Warhound"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 3,
+          "CardName": "Obscura Interceptor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Raffine, Scheming Seer"
+        },
+        {
+          "Count": 2,
+          "CardName": "Raffine's Tower"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shattered Sanctum"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Usher of the Fallen"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 3,
+          "CardName": "Extraction Specialist"
+        },
+        {
+          "Count": 2,
+          "CardName": "Skyclave Apparition"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Wandering Emperor"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "hermanomlg",
+      "Result": "50th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck_hermanomlg",
+      "Mainboard": [
+        {
+          "Count": 2,
+          "CardName": "Deserted Beach"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Expressive Iteration"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fable of the Mirror-Breaker"
+        },
+        {
+          "Count": 4,
+          "CardName": "Goldspan Dragon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hall of Storm Giants"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hengegate Pathway"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hinata, Dawn-Crowned"
+        },
+        {
+          "Count": 4,
+          "CardName": "Jwari Disruption"
+        },
+        {
+          "Count": 4,
+          "CardName": "Magma Opus"
+        },
+        {
+          "Count": 2,
+          "CardName": "Make Disappear"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Otawara, Soaring City"
+        },
+        {
+          "Count": 1,
+          "CardName": "Prismari Command"
+        },
+        {
+          "Count": 2,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riverglide Pathway"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 1,
+          "CardName": "Spell Pierce"
+        },
+        {
+          "Count": 2,
+          "CardName": "Spikefield Hazard"
+        },
+        {
+          "Count": 4,
+          "CardName": "Stormcarved Coast"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 2,
+          "CardName": "Voltage Surge"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Disdainful Stroke"
+        },
+        {
+          "Count": 2,
+          "CardName": "Dragon's Fire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Flame-Blessed Bolt"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Deluge"
+        },
+        {
+          "Count": 1,
+          "CardName": "Reckoner Bankbuster"
+        },
+        {
+          "Count": 2,
+          "CardName": "Test of Talents"
+        },
+        {
+          "Count": 4,
+          "CardName": "Valorous Stance"
+        }
+      ]
+    },
+    {
+      "Date": "2022-07-23T13:00:00",
+      "Player": "_dr4gun0v_",
+      "Result": "51th Place",
+      "AnchorUri": "https://www.mtgo.com/decklist/standard-challenge-2022-07-2312446443#deck__dr4gun0v_",
+      "Mainboard": [
+        {
+          "Count": 1,
+          "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 4,
+          "CardName": "Bloodthirsty Adversary"
+        },
+        {
+          "Count": 4,
+          "CardName": "Brutal Cathar"
+        },
+        {
+          "Count": 2,
+          "CardName": "Den of the Bugbear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Eiganjo, Seat of the Empire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hopeful Initiate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kumano Faces Kakkazan"
+        },
+        {
+          "Count": 4,
+          "CardName": "Luminarch Aspirant"
+        },
+        {
+          "Count": 7,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 3,
+          "CardName": "Needleverge Pathway"
+        },
+        {
+          "Count": 6,
+          "CardName": "Plains"
+        },
+        {
+          "Count": 4,
+          "CardName": "Play with Fire"
+        },
+        {
+          "Count": 4,
+          "CardName": "Roil Eruption"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sokenzan, Crucible of Defiance"
+        },
+        {
+          "Count": 3,
+          "CardName": "Sundown Pass"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sunrise Cavalier"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thundering Raiju"
+        }
+      ],
+      "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Angelfire Ignition"
+        },
+        {
+          "Count": 3,
+          "CardName": "Burning Hands"
+        },
+        {
+          "Count": 4,
+          "CardName": "Elite Spellbinder"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thalia, Guardian of Thraben"
+        },
+        {
+          "Count": 3,
+          "CardName": "Valorous Stance"
         }
       ]
     }
@@ -4027,24 +6397,24 @@
       "RoundName": "Quarterfinals",
       "Matches": [
         {
+          "Player1": "shir kahn",
+          "Player2": "SKK",
+          "Result": "2-1-0"
+        },
+        {
           "Player1": "medvedev",
           "Player2": "Sapoa",
+          "Result": "2-0-0"
+        },
+        {
+          "Player1": "naka_mura",
+          "Player2": "TheMilkman11",
           "Result": "2-0-0"
         },
         {
           "Player1": "smile_papa4",
           "Player2": "SilvergillLord",
           "Result": "2-1-0"
-        },
-        {
-          "Player1": "shir kahn",
-          "Player2": "SKK",
-          "Result": "2-1-0"
-        },
-        {
-          "Player1": "naka_mura",
-          "Player2": "TheMilkman11",
-          "Result": "2-0-0"
         }
       ]
     },
@@ -4052,14 +6422,14 @@
       "RoundName": "Semifinals",
       "Matches": [
         {
-          "Player1": "medvedev",
-          "Player2": "shir kahn",
-          "Result": "2-1-0"
-        },
-        {
           "Player1": "naka_mura",
           "Player2": "smile_papa4",
           "Result": "2-0-0"
+        },
+        {
+          "Player1": "medvedev",
+          "Player2": "shir kahn",
+          "Result": "2-1-0"
         }
       ]
     },
@@ -4330,6 +6700,134 @@
       "OMWP": 0.3889,
       "GWP": 0.4667,
       "OGWP": 0.4111
+    },
+    {
+      "Rank": 33,
+      "Player": "Talisker",
+      "Points": 6,
+      "OMWP": 0.6111,
+      "GWP": 0.375,
+      "OGWP": 0.5706
+    },
+    {
+      "Rank": 34,
+      "Player": "KingHairy",
+      "Points": 6,
+      "OMWP": 0.5667,
+      "GWP": 0.5,
+      "OGWP": 0.5051
+    },
+    {
+      "Rank": 35,
+      "Player": "guinthos201111",
+      "Points": 6,
+      "OMWP": 0.5556,
+      "GWP": 0.4444,
+      "OGWP": 0.513
+    },
+    {
+      "Rank": 36,
+      "Player": "Frogmanfue",
+      "Points": 6,
+      "OMWP": 0.5,
+      "GWP": 0.3333,
+      "OGWP": 0.4994
+    },
+    {
+      "Rank": 37,
+      "Player": "musasabi",
+      "Points": 6,
+      "OMWP": 0.4722,
+      "GWP": 0.4286,
+      "OGWP": 0.4578
+    },
+    {
+      "Rank": 38,
+      "Player": "panza_quiroga",
+      "Points": 6,
+      "OMWP": 0.4556,
+      "GWP": 0.4667,
+      "OGWP": 0.4612
+    },
+    {
+      "Rank": 39,
+      "Player": "liyilin",
+      "Points": 6,
+      "OMWP": 0.4167,
+      "GWP": 0.4,
+      "OGWP": 0.4286
+    },
+    {
+      "Rank": 40,
+      "Player": "Shadowz2005",
+      "Points": 3,
+      "OMWP": 0.6,
+      "GWP": 0.25,
+      "OGWP": 0.5696
+    },
+    {
+      "Rank": 41,
+      "Player": "Cabezadebolo",
+      "Points": 3,
+      "OMWP": 0.5278,
+      "GWP": 0.3125,
+      "OGWP": 0.4869
+    },
+    {
+      "Rank": 42,
+      "Player": "Albimtg",
+      "Points": 3,
+      "OMWP": 0.5,
+      "GWP": 0.3077,
+      "OGWP": 0.5115
+    },
+    {
+      "Rank": 43,
+      "Player": "bless_von",
+      "Points": 3,
+      "OMWP": 0.4583,
+      "GWP": 0.3333,
+      "OGWP": 0.4757
+    },
+    {
+      "Rank": 44,
+      "Player": "pat0presidente",
+      "Points": 3,
+      "OMWP": 0.3722,
+      "GWP": 0.1667,
+      "OGWP": 0.45
+    },
+    {
+      "Rank": 45,
+      "Player": "Ekkoftime",
+      "Points": 0,
+      "OMWP": 0.5556,
+      "GWP": 0.1429,
+      "OGWP": 0.5463
+    },
+    {
+      "Rank": 46,
+      "Player": "_Shatun_",
+      "Points": 0,
+      "OMWP": 0.5,
+      "GWP": 0.1111,
+      "OGWP": 0.4977
+    },
+    {
+      "Rank": 47,
+      "Player": "billsive",
+      "Points": 0,
+      "OMWP": 0.5,
+      "GWP": 0.0,
+      "OGWP": 0.4974
+    },
+    {
+      "Rank": 48,
+      "Player": "GabingGoblin",
+      "Points": 0,
+      "OMWP": 0.4583,
+      "GWP": 0.1111,
+      "OGWP": 0.4679
     }
   ]
 }
