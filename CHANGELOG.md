@@ -42,3 +42,6 @@
 
 2023-05-21
 * mtgmelee.com has changed their domain to melee.gg, folder and data was updated to reflect this
+
+2023-12-16
+* mtgo.com recently updated their site with a lot more data than before, old data was moved to archives and new data has been re-scraped
