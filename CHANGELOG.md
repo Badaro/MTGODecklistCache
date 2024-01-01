@@ -45,3 +45,7 @@
 
 2023-12-16
 * mtgo.com recently updated their site with a lot more data than before, old data was moved to archives and new data has been re-scraped
+
+2024-01-01
+* Tournaments starting from this date will include Wins/Losses/Draws in the Standings
+* Older tournaments will be gradually updated to include this information as well
