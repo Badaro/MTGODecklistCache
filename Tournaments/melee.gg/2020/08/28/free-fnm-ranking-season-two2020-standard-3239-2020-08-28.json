@@ -98,6 +98,10 @@
           "CardName": "Dire Tactics"
         },
         {
+          "Count": 1,
+          "CardName": "Eliminate"
+        },
+        {
           "Count": 4,
           "CardName": "Fervent Champion"
         },
@@ -152,10 +156,6 @@
         {
           "Count": 4,
           "CardName": "Worthy Knight"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eliminate"
         }
       ],
       "Sideboard": [
@@ -166,6 +166,10 @@
         {
           "Count": 3,
           "CardName": "Dead Weight"
+        },
+        {
+          "Count": 2,
+          "CardName": "Despark"
         },
         {
           "Count": 2,
@@ -182,10 +186,6 @@
         {
           "Count": 2,
           "CardName": "Soul-Guide Lantern"
-        },
-        {
-          "Count": 2,
-          "CardName": "Despark"
         }
       ]
     },
@@ -196,40 +196,12 @@
       "AnchorUri": "https://melee.gg/Decklist/View/49028",
       "Mainboard": [
         {
-          "Count": 8,
-          "CardName": "Island"
-        },
-        {
-          "Count": 8,
-          "CardName": "Forest"
-        },
-        {
           "Count": 4,
-          "CardName": "Temple of Mystery"
+          "CardName": "Beanstalk Giant"
         },
         {
-          "Count": 4,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Radiant Fountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 4,
-          "CardName": "Edgewall Innkeeper"
-        },
-        {
-          "Count": 4,
-          "CardName": "Merfolk Secretkeeper"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fae of Wishes"
+          "Count": 1,
+          "CardName": "Boon of the Wish-Giver"
         },
         {
           "Count": 4,
@@ -237,73 +209,57 @@
         },
         {
           "Count": 4,
-          "CardName": "Lovestruck Beast"
+          "CardName": "Edgewall Innkeeper"
         },
         {
           "Count": 4,
-          "CardName": "Beanstalk Giant"
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fae of Wishes"
+        },
+        {
+          "Count": 8,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 8,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lovestruck Beast"
         },
         {
           "Count": 4,
           "CardName": "Lucky Clover"
         },
         {
+          "Count": 4,
+          "CardName": "Merfolk Secretkeeper"
+        },
+        {
+          "Count": 2,
+          "CardName": "Radiant Fountain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple of Mystery"
+        },
+        {
           "Count": 1,
           "CardName": "The Great Henge"
         },
         {
-          "Count": 1,
-          "CardName": "Boon of the Wish-Giver"
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Tormod's Crypt"
-        },
-        {
-          "Count": 1,
-          "CardName": "Grafdigger's Cage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Teferi's Tutelage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Primal Might"
-        },
-        {
-          "Count": 1,
-          "CardName": "Shadowspear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ugin, the Spirit Dragon"
-        },
-        {
-          "Count": 1,
           "CardName": "Clear the Mind"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Pulse of Murasa"
-        },
-        {
-          "Count": 1,
-          "CardName": "Mystic Repeal"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sorcerous Spyglass"
-        },
-        {
-          "Count": 1,
-          "CardName": "Once and Future"
         },
         {
           "Count": 1,
@@ -311,7 +267,51 @@
         },
         {
           "Count": 1,
+          "CardName": "Grafdigger's Cage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Mystic Repeal"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Once and Future"
+        },
+        {
+          "Count": 1,
+          "CardName": "Primal Might"
+        },
+        {
+          "Count": 1,
+          "CardName": "Pulse of Murasa"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadowspear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorcerous Spyglass"
+        },
+        {
+          "Count": 1,
+          "CardName": "Teferi's Tutelage"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tormod's Crypt"
+        },
+        {
+          "Count": 1,
           "CardName": "Ugin, the Ineffable"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ugin, the Spirit Dragon"
         }
       ]
     },
@@ -326,72 +326,36 @@
           "CardName": "Aether Gust"
         },
         {
-          "Count": 2,
-          "CardName": "Forest"
-        },
-        {
           "Count": 3,
           "CardName": "Brazen Borrower"
-        },
-        {
-          "Count": 1,
-          "CardName": "Teferi, Master of Time"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shark Typhoon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Eliminate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Erasure"
-        },
-        {
-          "Count": 2,
-          "CardName": "Drown in the Loch"
-        },
-        {
-          "Count": 1,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple of Malady"
         },
         {
           "Count": 4,
           "CardName": "Breeding Pool"
         },
         {
+          "Count": 2,
+          "CardName": "Drown in the Loch"
+        },
+        {
+          "Count": 2,
+          "CardName": "Eliminate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Forest"
+        },
+        {
           "Count": 1,
-          "CardName": "Tamiyo, Collector of Tales"
+          "CardName": "Hydroid Krasis"
         },
         {
           "Count": 4,
           "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nightpack Ambusher"
-        },
-        {
-          "Count": 2,
-          "CardName": "Nissa, Who Shakes the World"
         },
         {
           "Count": 2,
@@ -403,33 +367,69 @@
         },
         {
           "Count": 2,
-          "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hydroid Krasis"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Fabled Passage"
+          "CardName": "Nightpack Ambusher"
         },
         {
           "Count": 2,
-          "CardName": "Forest"
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 1,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tamiyo, Collector of Tales"
+        },
+        {
+          "Count": 1,
+          "CardName": "Teferi, Master of Time"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple of Malady"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Erasure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 4,
+          "CardName": "Watery Grave"
+        },
+        {
+          "Count": 2,
+          "CardName": "Zagoth Triome"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Extinction Event"
+          "CardName": "Agonizing Remorse"
+        },
+        {
+          "Count": 2,
+          "CardName": "Eliminate"
         },
         {
           "Count": 3,
           "CardName": "Enter the God-Eternals"
+        },
+        {
+          "Count": 2,
+          "CardName": "Extinction Event"
         },
         {
           "Count": 3,
@@ -438,14 +438,6 @@
         {
           "Count": 3,
           "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 2,
-          "CardName": "Eliminate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Agonizing Remorse"
         }
       ]
     },
@@ -456,32 +448,36 @@
       "AnchorUri": "https://melee.gg/Decklist/View/49029",
       "Mainboard": [
         {
-          "Count": 19,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scorch Spitter"
-        },
-        {
           "Count": 4,
           "CardName": "Anax, Hardened in the Forge"
         },
         {
           "Count": 4,
-          "CardName": "Runaway Steam-Kin"
+          "CardName": "Bonecrusher Giant"
+        },
+        {
+          "Count": 2,
+          "CardName": "Castle Embereth"
+        },
+        {
+          "Count": 4,
+          "CardName": "Embercleave"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fervent Champion"
         },
         {
           "Count": 3,
           "CardName": "Light Up the Stage"
         },
         {
-          "Count": 3,
-          "CardName": "Torbran, Thane of Red Fell"
+          "Count": 19,
+          "CardName": "Mountain"
         },
         {
-          "Count": 4,
-          "CardName": "Fervent Champion"
+          "Count": 2,
+          "CardName": "Rimrock Knight"
         },
         {
           "Count": 4,
@@ -489,29 +485,25 @@
         },
         {
           "Count": 4,
-          "CardName": "Bonecrusher Giant"
+          "CardName": "Runaway Steam-Kin"
         },
         {
           "Count": 4,
-          "CardName": "Embercleave"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rimrock Knight"
-        },
-        {
-          "Count": 2,
-          "CardName": "Castle Embereth"
+          "CardName": "Scorch Spitter"
         },
         {
           "Count": 3,
           "CardName": "Tin Street Dodger"
+        },
+        {
+          "Count": 3,
+          "CardName": "Torbran, Thane of Red Fell"
         }
       ],
       "Sideboard": [
         {
           "Count": 3,
-          "CardName": "Soul Sear"
+          "CardName": "Embereth Shieldbreaker"
         },
         {
           "Count": 3,
@@ -519,15 +511,15 @@
         },
         {
           "Count": 3,
-          "CardName": "Embereth Shieldbreaker"
+          "CardName": "Scorching Dragonfire"
+        },
+        {
+          "Count": 3,
+          "CardName": "Soul Sear"
         },
         {
           "Count": 3,
           "CardName": "Tibalt, Rakish Instigator"
-        },
-        {
-          "Count": 3,
-          "CardName": "Scorching Dragonfire"
         }
       ]
     },
@@ -538,40 +530,24 @@
       "AnchorUri": "https://melee.gg/Decklist/View/49021",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "Forest"
-        },
-        {
           "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 3,
-          "CardName": "Nissa, Who Shakes the World"
-        },
-        {
-          "Count": 2,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 3,
-          "CardName": "Hydroid Krasis"
-        },
-        {
-          "Count": 4,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 3,
-          "CardName": "Watery Grave"
+          "CardName": "Aether Gust"
         },
         {
           "Count": 4,
           "CardName": "Breeding Pool"
+        },
+        {
+          "Count": 2,
+          "CardName": "Casualties of War"
+        },
+        {
+          "Count": 3,
+          "CardName": "Eliminate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Extinction Event"
         },
         {
           "Count": 4,
@@ -579,73 +555,89 @@
         },
         {
           "Count": 3,
-          "CardName": "Eliminate"
+          "CardName": "Forest"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hydroid Krasis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
         },
         {
           "Count": 1,
-          "CardName": "Temple of Malady"
+          "CardName": "Liliana, Dreadhorde General"
         },
         {
           "Count": 3,
           "CardName": "Narset, Parter of Veils"
         },
         {
-          "Count": 2,
-          "CardName": "Aether Gust"
+          "Count": 3,
+          "CardName": "Nissa, Who Shakes the World"
         },
         {
           "Count": 4,
-          "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Erasure"
-        },
-        {
-          "Count": 2,
-          "CardName": "Extinction Event"
-        },
-        {
-          "Count": 2,
-          "CardName": "Casualties of War"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple of Mystery"
-        },
-        {
-          "Count": 1,
-          "CardName": "Vraska, Golgari Queen"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tamiyo, Collector of Tales"
+          "CardName": "Overgrown Tomb"
         },
         {
           "Count": 3,
           "CardName": "Shark Typhoon"
         },
         {
+          "Count": 2,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 1,
-          "CardName": "Liliana, Dreadhorde General"
+          "CardName": "Tamiyo, Collector of Tales"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple of Malady"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple of Mystery"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Erasure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 1,
+          "CardName": "Vraska, Golgari Queen"
+        },
+        {
+          "Count": 3,
+          "CardName": "Watery Grave"
+        },
+        {
+          "Count": 4,
+          "CardName": "Zagoth Triome"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 1,
+          "CardName": "Casualties of War"
+        },
         {
           "Count": 2,
           "CardName": "Enter the God-Eternals"
         },
         {
+          "Count": 1,
+          "CardName": "Extinction Event"
+        },
+        {
           "Count": 3,
           "CardName": "Heartless Act"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ritual of Soot"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thought Distortion"
         },
         {
           "Count": 2,
@@ -653,19 +645,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Extinction Event"
-        },
-        {
-          "Count": 2,
-          "CardName": "Wilt"
+          "CardName": "Ritual of Soot"
         },
         {
           "Count": 1,
           "CardName": "Shark Typhoon"
         },
         {
-          "Count": 1,
-          "CardName": "Casualties of War"
+          "Count": 2,
+          "CardName": "Thought Distortion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Wilt"
         }
       ]
     },
@@ -676,92 +668,8 @@
       "AnchorUri": "https://melee.gg/Decklist/View/49013",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Temple of Deceit"
-        },
-        {
-          "Count": 3,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Island"
-        },
-        {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 3,
-          "CardName": "Brazen Borrower"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lochmere Serpent"
-        },
-        {
-          "Count": 2,
-          "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Castle Vantress"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Locthwain"
-        },
-        {
-          "Count": 3,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shark Typhoon"
-        },
-        {
-          "Count": 2,
-          "CardName": "Heartless Act"
-        },
-        {
-          "Count": 2,
-          "CardName": "Extinction Event"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thought Erasure"
-        },
-        {
-          "Count": 1,
-          "CardName": "Erebos's Intervention"
-        },
-        {
-          "Count": 2,
-          "CardName": "Sublime Epiphany"
-        },
-        {
-          "Count": 3,
-          "CardName": "Eliminate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Neutralize"
-        },
-        {
           "Count": 2,
           "CardName": "Agonizing Remorse"
-        },
-        {
-          "Count": 2,
-          "CardName": "Murderous Rider"
-        },
-        {
-          "Count": 2,
-          "CardName": "Field of Ruin"
         },
         {
           "Count": 1,
@@ -772,22 +680,98 @@
           "CardName": "Blast Zone"
         },
         {
+          "Count": 3,
+          "CardName": "Brazen Borrower"
+        },
+        {
+          "Count": 1,
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Castle Vantress"
+        },
+        {
+          "Count": 3,
+          "CardName": "Eliminate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Erebos's Intervention"
+        },
+        {
+          "Count": 2,
+          "CardName": "Extinction Event"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 2,
+          "CardName": "Field of Ruin"
+        },
+        {
+          "Count": 2,
+          "CardName": "Heartless Act"
+        },
+        {
+          "Count": 4,
+          "CardName": "Island"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lochmere Serpent"
+        },
+        {
+          "Count": 2,
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 3,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 2,
+          "CardName": "Neutralize"
+        },
+        {
           "Count": 4,
           "CardName": "Opt"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sublime Epiphany"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple of Deceit"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thought Erasure"
+        },
+        {
+          "Count": 3,
+          "CardName": "Watery Grave"
+        },
+        {
+          "Count": 2,
+          "CardName": "Zagoth Triome"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Voracious Greatshark"
-        },
-        {
-          "Count": 1,
           "CardName": "Extinction Event"
-        },
-        {
-          "Count": 2,
-          "CardName": "Necromentia"
         },
         {
           "Count": 1,
@@ -799,7 +783,7 @@
         },
         {
           "Count": 2,
-          "CardName": "Rotting Regisaur"
+          "CardName": "Necromentia"
         },
         {
           "Count": 2,
@@ -808,6 +792,14 @@
         {
           "Count": 3,
           "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rotting Regisaur"
+        },
+        {
+          "Count": 1,
+          "CardName": "Voracious Greatshark"
         }
       ]
     },
@@ -819,71 +811,15 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 3,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Nissa, Who Shakes the World"
-        },
-        {
-          "Count": 3,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Hydroid Krasis"
-        },
-        {
-          "Count": 4,
           "CardName": "Aether Gust"
-        },
-        {
-          "Count": 4,
-          "CardName": "Thought Erasure"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 4,
-          "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 4,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 3,
-          "CardName": "Watery Grave"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mystical Dispute"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shark Typhoon"
         },
         {
           "Count": 3,
           "CardName": "Brazen Borrower"
+        },
+        {
+          "Count": 4,
+          "CardName": "Breeding Pool"
         },
         {
           "Count": 1,
@@ -892,16 +828,76 @@
         {
           "Count": 2,
           "CardName": "Eat to Extinction"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 4,
+          "CardName": "Hydroid Krasis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 4,
+          "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 3,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 4,
+          "CardName": "Thought Erasure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
+        },
+        {
+          "Count": 3,
+          "CardName": "Watery Grave"
+        },
+        {
+          "Count": 4,
+          "CardName": "Zagoth Triome"
         }
       ],
       "Sideboard": [
         {
           "Count": 2,
-          "CardName": "Eliminate"
+          "CardName": "Elder Gargaroth"
         },
         {
           "Count": 2,
-          "CardName": "Heartless Act"
+          "CardName": "Eliminate"
+        },
+        {
+          "Count": 3,
+          "CardName": "Enter the God-Eternals"
         },
         {
           "Count": 4,
@@ -909,15 +905,11 @@
         },
         {
           "Count": 2,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 3,
-          "CardName": "Enter the God-Eternals"
+          "CardName": "Heartless Act"
         },
         {
           "Count": 2,
-          "CardName": "Elder Gargaroth"
+          "CardName": "Narset, Parter of Veils"
         }
       ]
     },
@@ -928,44 +920,40 @@
       "AnchorUri": "https://melee.gg/Decklist/View/49027",
       "Mainboard": [
         {
-          "Count": 3,
-          "CardName": "The Birth of Meletis"
-        },
-        {
-          "Count": 13,
-          "CardName": "Island"
+          "Count": 1,
+          "CardName": "Archon of Sun's Grace"
         },
         {
           "Count": 1,
-          "CardName": "Teferi, Master of Time"
-        },
-        {
-          "Count": 11,
-          "CardName": "Plains"
+          "CardName": "Baneslayer Angel"
         },
         {
           "Count": 2,
-          "CardName": "Glass Casket"
-        },
-        {
-          "Count": 1,
-          "CardName": "Castle Vantress"
+          "CardName": "Banishing Light"
         },
         {
           "Count": 2,
           "CardName": "Brazen Borrower"
         },
         {
-          "Count": 4,
-          "CardName": "Narset, Parter of Veils"
+          "Count": 3,
+          "CardName": "Brineborn Cutthroat"
         },
         {
           "Count": 1,
-          "CardName": "Shark Typhoon"
+          "CardName": "Castle Vantress"
         },
         {
           "Count": 1,
-          "CardName": "Hallowed Fountain"
+          "CardName": "Charming Prince"
+        },
+        {
+          "Count": 1,
+          "CardName": "Conclave Tribunal"
+        },
+        {
+          "Count": 1,
+          "CardName": "Deputy of Detention"
         },
         {
           "Count": 3,
@@ -973,15 +961,55 @@
         },
         {
           "Count": 1,
-          "CardName": "Deputy of Detention"
+          "CardName": "Dream Trawler"
+        },
+        {
+          "Count": 1,
+          "CardName": "Dungeon Geists"
         },
         {
           "Count": 2,
           "CardName": "Elite Guardmage"
         },
         {
+          "Count": 2,
+          "CardName": "Elspeth Conquers Death"
+        },
+        {
+          "Count": 2,
+          "CardName": "Frogify"
+        },
+        {
+          "Count": 2,
+          "CardName": "Glass Casket"
+        },
+        {
           "Count": 1,
-          "CardName": "Dream Trawler"
+          "CardName": "God-Eternal Kefnet"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hallowed Fountain"
+        },
+        {
+          "Count": 1,
+          "CardName": "Hushbringer"
+        },
+        {
+          "Count": 13,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 4,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 4,
@@ -993,63 +1021,23 @@
         },
         {
           "Count": 2,
-          "CardName": "Spectral Sailor"
-        },
-        {
-          "Count": 3,
-          "CardName": "Brineborn Cutthroat"
-        },
-        {
-          "Count": 1,
-          "CardName": "God-Eternal Kefnet"
-        },
-        {
-          "Count": 1,
-          "CardName": "Thassa, Deep-Dwelling"
-        },
-        {
-          "Count": 1,
-          "CardName": "Hushbringer"
-        },
-        {
-          "Count": 1,
-          "CardName": "Charming Prince"
-        },
-        {
-          "Count": 2,
           "CardName": "Pacifism"
         },
         {
-          "Count": 1,
-          "CardName": "Archon of Sun's Grace"
+          "Count": 11,
+          "CardName": "Plains"
         },
         {
           "Count": 1,
-          "CardName": "Conclave Tribunal"
+          "CardName": "Shark Typhoon"
         },
         {
           "Count": 1,
-          "CardName": "Baneslayer Angel"
+          "CardName": "Shatter the Sky"
         },
         {
           "Count": 2,
-          "CardName": "Mystical Dispute"
-        },
-        {
-          "Count": 2,
-          "CardName": "Banishing Light"
-        },
-        {
-          "Count": 2,
-          "CardName": "Frogify"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 1,
-          "CardName": "Dungeon Geists"
+          "CardName": "Spectral Sailor"
         },
         {
           "Count": 1,
@@ -1057,25 +1045,37 @@
         },
         {
           "Count": 1,
-          "CardName": "Time Wipe"
-        },
-        {
-          "Count": 2,
-          "CardName": "Elspeth Conquers Death"
+          "CardName": "Teferi, Master of Time"
         },
         {
           "Count": 1,
-          "CardName": "Shatter the Sky"
+          "CardName": "Thassa, Deep-Dwelling"
+        },
+        {
+          "Count": 3,
+          "CardName": "The Birth of Meletis"
+        },
+        {
+          "Count": 1,
+          "CardName": "Time Wipe"
         }
       ],
       "Sideboard": [
+        {
+          "Count": 2,
+          "CardName": "Arcanist's Owl"
+        },
         {
           "Count": 1,
           "CardName": "Banishing Light"
         },
         {
+          "Count": 2,
+          "CardName": "Depose // Deploy"
+        },
+        {
           "Count": 1,
-          "CardName": "The Circle of Loyalty"
+          "CardName": "Dungeon Geists"
         },
         {
           "Count": 1,
@@ -1086,28 +1086,20 @@
           "CardName": "Quench"
         },
         {
-          "Count": 1,
-          "CardName": "Dungeon Geists"
-        },
-        {
-          "Count": 1,
-          "CardName": "Stormwing Entity"
-        },
-        {
-          "Count": 2,
-          "CardName": "Depose // Deploy"
-        },
-        {
-          "Count": 2,
-          "CardName": "Arcanist's Owl"
-        },
-        {
           "Count": 2,
           "CardName": "Senate Griffin"
         },
         {
           "Count": 1,
           "CardName": "Staggering Insight"
+        },
+        {
+          "Count": 1,
+          "CardName": "Stormwing Entity"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Circle of Loyalty"
         },
         {
           "Count": 1,
@@ -1134,28 +1126,20 @@
           "CardName": "Agonizing Remorse"
         },
         {
+          "Count": 4,
+          "CardName": "Breeding Pool"
+        },
+        {
           "Count": 2,
-          "CardName": "Eliminate"
-        },
-        {
-          "Count": 3,
-          "CardName": "Heartless Act"
-        },
-        {
-          "Count": 3,
-          "CardName": "Thought Erasure"
+          "CardName": "Casualties of War"
         },
         {
           "Count": 1,
           "CardName": "Cultivate"
         },
         {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
           "Count": 2,
-          "CardName": "Teferi, Master of Time"
+          "CardName": "Eliminate"
         },
         {
           "Count": 3,
@@ -1163,11 +1147,15 @@
         },
         {
           "Count": 4,
-          "CardName": "Nissa, Who Shakes the World"
+          "CardName": "Fabled Passage"
         },
         {
-          "Count": 2,
-          "CardName": "Casualties of War"
+          "Count": 3,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 3,
+          "CardName": "Heartless Act"
         },
         {
           "Count": 4,
@@ -1178,12 +1166,32 @@
           "CardName": "Island"
         },
         {
+          "Count": 4,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 4,
+          "CardName": "Overgrown Tomb"
+        },
+        {
           "Count": 2,
           "CardName": "Swamp"
         },
         {
+          "Count": 2,
+          "CardName": "Teferi, Master of Time"
+        },
+        {
+          "Count": 1,
+          "CardName": "Temple of Mystery"
+        },
+        {
           "Count": 3,
-          "CardName": "Forest"
+          "CardName": "Thought Erasure"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
         },
         {
           "Count": 4,
@@ -1191,23 +1199,7 @@
         },
         {
           "Count": 4,
-          "CardName": "Overgrown Tomb"
-        },
-        {
-          "Count": 4,
-          "CardName": "Breeding Pool"
-        },
-        {
-          "Count": 1,
-          "CardName": "Temple of Mystery"
-        },
-        {
-          "Count": 4,
           "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fabled Passage"
         }
       ],
       "Sideboard": [
@@ -1216,16 +1208,28 @@
           "CardName": "Aether Gust"
         },
         {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
           "Count": 1,
           "CardName": "Agonizing Remorse"
         },
         {
+          "Count": 2,
+          "CardName": "Casualties of War"
+        },
+        {
           "Count": 1,
           "CardName": "Eliminate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Enter the God-Eternals"
+        },
+        {
+          "Count": 2,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
         },
         {
           "Count": 2,
@@ -1234,18 +1238,6 @@
         {
           "Count": 2,
           "CardName": "Wilt"
-        },
-        {
-          "Count": 2,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 2,
-          "CardName": "Enter the God-Eternals"
-        },
-        {
-          "Count": 2,
-          "CardName": "Casualties of War"
         }
       ]
     },
@@ -1257,34 +1249,6 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Fervent Champion"
-        },
-        {
-          "Count": 18,
-          "CardName": "Mountain"
-        },
-        {
-          "Count": 2,
-          "CardName": "Shock"
-        },
-        {
-          "Count": 4,
-          "CardName": "Scorch Spitter"
-        },
-        {
-          "Count": 2,
-          "CardName": "Rimrock Knight"
-        },
-        {
-          "Count": 4,
-          "CardName": "Runaway Steam-Kin"
-        },
-        {
-          "Count": 4,
-          "CardName": "Robber of the Rich"
-        },
-        {
-          "Count": 4,
           "CardName": "Anax, Hardened in the Forge"
         },
         {
@@ -1292,8 +1256,8 @@
           "CardName": "Bonecrusher Giant"
         },
         {
-          "Count": 2,
-          "CardName": "Torbran, Thane of Red Fell"
+          "Count": 4,
+          "CardName": "Castle Embereth"
         },
         {
           "Count": 4,
@@ -1301,49 +1265,77 @@
         },
         {
           "Count": 4,
-          "CardName": "Castle Embereth"
+          "CardName": "Fervent Champion"
         },
         {
           "Count": 2,
           "CardName": "Light Up the Stage"
         },
         {
+          "Count": 18,
+          "CardName": "Mountain"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rimrock Knight"
+        },
+        {
+          "Count": 4,
+          "CardName": "Robber of the Rich"
+        },
+        {
+          "Count": 4,
+          "CardName": "Runaway Steam-Kin"
+        },
+        {
+          "Count": 4,
+          "CardName": "Scorch Spitter"
+        },
+        {
+          "Count": 2,
+          "CardName": "Shock"
+        },
+        {
           "Count": 2,
           "CardName": "Tin Street Dodger"
+        },
+        {
+          "Count": 2,
+          "CardName": "Torbran, Thane of Red Fell"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Lava Coil"
-        },
-        {
           "Count": 1,
           "CardName": "Blazing Volley"
-        },
-        {
-          "Count": 3,
-          "CardName": "Redcap Melee"
-        },
-        {
-          "Count": 2,
-          "CardName": "Claim the Firstborn"
         },
         {
           "Count": 2,
           "CardName": "Chandra, Acolyte of Flame"
         },
         {
-          "Count": 1,
-          "CardName": "Tibalt, Rakish Instigator"
+          "Count": 2,
+          "CardName": "Claim the Firstborn"
         },
         {
           "Count": 3,
           "CardName": "Embereth Shieldbreaker"
         },
         {
+          "Count": 2,
+          "CardName": "Lava Coil"
+        },
+        {
           "Count": 1,
           "CardName": "Legion Warboss"
+        },
+        {
+          "Count": 3,
+          "CardName": "Redcap Melee"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tibalt, Rakish Instigator"
         }
       ]
     },
@@ -1354,12 +1346,16 @@
       "AnchorUri": "https://melee.gg/Decklist/View/49033",
       "Mainboard": [
         {
+          "Count": 3,
+          "CardName": "Aether Gust"
+        },
+        {
           "Count": 2,
           "CardName": "Agonizing Remorse"
         },
         {
-          "Count": 3,
-          "CardName": "Aether Gust"
+          "Count": 1,
+          "CardName": "Brazen Borrower"
         },
         {
           "Count": 4,
@@ -1375,10 +1371,6 @@
         },
         {
           "Count": 3,
-          "CardName": "Shark Typhoon"
-        },
-        {
-          "Count": 3,
           "CardName": "Eliminate"
         },
         {
@@ -1392,6 +1384,10 @@
         {
           "Count": 2,
           "CardName": "Forest"
+        },
+        {
+          "Count": 3,
+          "CardName": "Hydroid Krasis"
         },
         {
           "Count": 3,
@@ -1411,15 +1407,11 @@
         },
         {
           "Count": 3,
-          "CardName": "Hydroid Krasis"
+          "CardName": "Shark Typhoon"
         },
         {
           "Count": 2,
           "CardName": "Swamp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Brazen Borrower"
         },
         {
           "Count": 4,
@@ -1440,24 +1432,28 @@
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Elder Gargaroth"
+          "Count": 1,
+          "CardName": "Aether Gust"
         },
         {
           "Count": 2,
           "CardName": "Cry of the Carnarium"
         },
         {
+          "Count": 2,
+          "CardName": "Elder Gargaroth"
+        },
+        {
           "Count": 1,
           "CardName": "Essence Scatter"
         },
         {
-          "Count": 2,
-          "CardName": "Heartless Act"
+          "Count": 1,
+          "CardName": "Extinction Event"
         },
         {
-          "Count": 1,
-          "CardName": "Aether Gust"
+          "Count": 2,
+          "CardName": "Heartless Act"
         },
         {
           "Count": 3,
@@ -1466,10 +1462,6 @@
         {
           "Count": 3,
           "CardName": "Noxious Grasp"
-        },
-        {
-          "Count": 1,
-          "CardName": "Extinction Event"
         }
       ]
     },
@@ -1480,56 +1472,24 @@
       "AnchorUri": "https://melee.gg/Decklist/View/48992",
       "Mainboard": [
         {
-          "Count": 4,
-          "CardName": "Opt"
-        },
-        {
-          "Count": 3,
-          "CardName": "Unsummon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Shock"
-        },
-        {
-          "Count": 2,
-          "CardName": "Samut's Sprint"
-        },
-        {
-          "Count": 4,
-          "CardName": "Crash Through"
-        },
-        {
-          "Count": 4,
-          "CardName": "Sprite Dragon"
-        },
-        {
-          "Count": 4,
-          "CardName": "Riddleform"
-        },
-        {
-          "Count": 3,
-          "CardName": "Dreadhorde Arcanist"
-        },
-        {
           "Count": 3,
           "CardName": "Aether Gust"
-        },
-        {
-          "Count": 2,
-          "CardName": "Brazen Borrower"
         },
         {
           "Count": 2,
           "CardName": "Bonecrusher Giant"
         },
         {
-          "Count": 1,
-          "CardName": "The Royal Scions"
+          "Count": 2,
+          "CardName": "Brazen Borrower"
         },
         {
           "Count": 4,
-          "CardName": "Stormwing Entity"
+          "CardName": "Crash Through"
+        },
+        {
+          "Count": 3,
+          "CardName": "Dreadhorde Arcanist"
         },
         {
           "Count": 6,
@@ -1541,37 +1501,69 @@
         },
         {
           "Count": 4,
+          "CardName": "Opt"
+        },
+        {
+          "Count": 4,
+          "CardName": "Riddleform"
+        },
+        {
+          "Count": 2,
+          "CardName": "Samut's Sprint"
+        },
+        {
+          "Count": 4,
+          "CardName": "Shock"
+        },
+        {
+          "Count": 4,
+          "CardName": "Sprite Dragon"
+        },
+        {
+          "Count": 4,
           "CardName": "Steam Vents"
         },
         {
           "Count": 4,
-          "CardName": "Temple of Epiphany"
-        }
-      ],
-      "Sideboard": [
-        {
-          "Count": 2,
-          "CardName": "Miscast"
+          "CardName": "Stormwing Entity"
         },
         {
-          "Count": 2,
-          "CardName": "Redcap Melee"
+          "Count": 4,
+          "CardName": "Temple of Epiphany"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Royal Scions"
         },
         {
           "Count": 3,
-          "CardName": "Negate"
-        },
+          "CardName": "Unsummon"
+        }
+      ],
+      "Sideboard": [
         {
           "Count": 1,
           "CardName": "Brazen Borrower"
         },
         {
           "Count": 2,
-          "CardName": "Narset, Parter of Veils"
+          "CardName": "Lava Coil"
         },
         {
           "Count": 2,
-          "CardName": "Lava Coil"
+          "CardName": "Miscast"
+        },
+        {
+          "Count": 2,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 3,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 2,
+          "CardName": "Redcap Melee"
         },
         {
           "Count": 3,
@@ -1587,71 +1579,7 @@
       "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Sanctum of Calm Waters"
-        },
-        {
-          "Count": 2,
-          "CardName": "Light of Promise"
-        },
-        {
-          "Count": 3,
-          "CardName": "Lucky Clover"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 1,
-          "CardName": "Nine Lives"
-        },
-        {
-          "Count": 3,
-          "CardName": "Glass Casket"
-        },
-        {
-          "Count": 3,
-          "CardName": "Fae of Wishes"
-        },
-        {
-          "Count": 2,
           "CardName": "Anticipate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Teferi, Master of Time"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mythos of Illuna"
-        },
-        {
-          "Count": 2,
-          "CardName": "Castle Ardenvale"
-        },
-        {
-          "Count": 4,
-          "CardName": "Speaker of the Heavens"
-        },
-        {
-          "Count": 4,
-          "CardName": "Light of Hope"
-        },
-        {
-          "Count": 3,
-          "CardName": "Giant Killer"
-        },
-        {
-          "Count": 2,
-          "CardName": "The Birth of Meletis"
-        },
-        {
-          "Count": 3,
-          "CardName": "Heliod, Sun-Crowned"
-        },
-        {
-          "Count": 2,
-          "CardName": "Linden, the Steadfast Queen"
         },
         {
           "Count": 3,
@@ -1659,37 +1587,109 @@
         },
         {
           "Count": 2,
+          "CardName": "Castle Ardenvale"
+        },
+        {
+          "Count": 2,
           "CardName": "Dream Trawler"
         },
         {
           "Count": 2,
-          "CardName": "Kenrith, the Returned King"
-        },
-        {
-          "Count": 2,
-          "CardName": "Staggering Insight"
-        },
-        {
-          "Count": 4,
-          "CardName": "Tranquil Cove"
+          "CardName": "Elspeth Conquers Death"
         },
         {
           "Count": 2,
           "CardName": "Essence Scatter"
         },
         {
+          "Count": 3,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 3,
+          "CardName": "Fae of Wishes"
+        },
+        {
+          "Count": 3,
+          "CardName": "Giant Killer"
+        },
+        {
+          "Count": 3,
+          "CardName": "Glass Casket"
+        },
+        {
+          "Count": 3,
+          "CardName": "Heliod, Sun-Crowned"
+        },
+        {
           "Count": 2,
-          "CardName": "Elspeth Conquers Death"
+          "CardName": "Kenrith, the Returned King"
+        },
+        {
+          "Count": 4,
+          "CardName": "Light of Hope"
+        },
+        {
+          "Count": 2,
+          "CardName": "Light of Promise"
+        },
+        {
+          "Count": 2,
+          "CardName": "Linden, the Steadfast Queen"
+        },
+        {
+          "Count": 3,
+          "CardName": "Lucky Clover"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mythos of Illuna"
+        },
+        {
+          "Count": 1,
+          "CardName": "Nine Lives"
+        },
+        {
+          "Count": 2,
+          "CardName": "Sanctum of Calm Waters"
+        },
+        {
+          "Count": 4,
+          "CardName": "Speaker of the Heavens"
+        },
+        {
+          "Count": 2,
+          "CardName": "Staggering Insight"
+        },
+        {
+          "Count": 2,
+          "CardName": "Teferi, Master of Time"
+        },
+        {
+          "Count": 2,
+          "CardName": "The Birth of Meletis"
+        },
+        {
+          "Count": 4,
+          "CardName": "Tranquil Cove"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Teferi's Tutelage"
+          "CardName": "Cancel"
+        },
+        {
+          "Count": 1,
+          "CardName": "Charmed Sleep"
+        },
+        {
+          "Count": 1,
+          "CardName": "Memory Drain"
         },
         {
           "Count": 2,
-          "CardName": "Unsummon"
+          "CardName": "Midnight Clock"
         },
         {
           "Count": 1,
@@ -1697,27 +1697,19 @@
         },
         {
           "Count": 1,
-          "CardName": "Charmed Sleep"
+          "CardName": "Sublime Epiphany"
+        },
+        {
+          "Count": 1,
+          "CardName": "Teferi's Tutelage"
         },
         {
           "Count": 3,
           "CardName": "Ugin, the Spirit Dragon"
         },
         {
-          "Count": 1,
-          "CardName": "Memory Drain"
-        },
-        {
-          "Count": 1,
-          "CardName": "Cancel"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sublime Epiphany"
-        },
-        {
           "Count": 2,
-          "CardName": "Midnight Clock"
+          "CardName": "Unsummon"
         }
       ]
     },
@@ -1729,11 +1721,39 @@
       "Mainboard": [
         {
           "Count": 2,
-          "CardName": "Murderous Rider"
+          "CardName": "Blacklance Paragon"
         },
         {
           "Count": 3,
-          "CardName": "Tymaret, Chosen from Death"
+          "CardName": "Castle Locthwain"
+        },
+        {
+          "Count": 4,
+          "CardName": "Demonic Embrace"
+        },
+        {
+          "Count": 1,
+          "CardName": "Extinction Event"
+        },
+        {
+          "Count": 3,
+          "CardName": "Gutterbones"
+        },
+        {
+          "Count": 4,
+          "CardName": "Heartless Act"
+        },
+        {
+          "Count": 4,
+          "CardName": "Kitesail Freebooter"
+        },
+        {
+          "Count": 4,
+          "CardName": "Knight of the Ebon Legion"
+        },
+        {
+          "Count": 2,
+          "CardName": "Murderous Rider"
         },
         {
           "Count": 2,
@@ -1748,40 +1768,12 @@
           "CardName": "Spawn of Mayhem"
         },
         {
-          "Count": 4,
-          "CardName": "Knight of the Ebon Legion"
-        },
-        {
-          "Count": 3,
-          "CardName": "Gutterbones"
-        },
-        {
-          "Count": 4,
-          "CardName": "Kitesail Freebooter"
-        },
-        {
-          "Count": 4,
-          "CardName": "Heartless Act"
-        },
-        {
-          "Count": 4,
-          "CardName": "Demonic Embrace"
-        },
-        {
-          "Count": 3,
-          "CardName": "Castle Locthwain"
-        },
-        {
           "Count": 20,
           "CardName": "Swamp"
         },
         {
-          "Count": 2,
-          "CardName": "Blacklance Paragon"
-        },
-        {
-          "Count": 1,
-          "CardName": "Extinction Event"
+          "Count": 3,
+          "CardName": "Tymaret, Chosen from Death"
         },
         {
           "Count": 1,
@@ -1790,28 +1782,28 @@
       ],
       "Sideboard": [
         {
-          "Count": 1,
-          "CardName": "Murderous Rider"
-        },
-        {
-          "Count": 1,
-          "CardName": "Eliminate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Disfigure"
+          "Count": 4,
+          "CardName": "Agonizing Remorse"
         },
         {
           "Count": 2,
           "CardName": "Cry of the Carnarium"
         },
         {
-          "Count": 3,
-          "CardName": "Noxious Grasp"
+          "Count": 2,
+          "CardName": "Disfigure"
         },
         {
-          "Count": 4,
-          "CardName": "Agonizing Remorse"
+          "Count": 1,
+          "CardName": "Eliminate"
+        },
+        {
+          "Count": 1,
+          "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 3,
+          "CardName": "Noxious Grasp"
         }
       ]
     },
@@ -1823,23 +1815,7 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Nissa, Who Shakes the World"
-        },
-        {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 3,
-          "CardName": "Shark Typhoon"
-        },
-        {
-          "Count": 4,
           "CardName": "Aether Gust"
-        },
-        {
-          "Count": 4,
-          "CardName": "Eliminate"
         },
         {
           "Count": 4,
@@ -1847,11 +1823,63 @@
         },
         {
           "Count": 4,
+          "CardName": "Eliminate"
+        },
+        {
+          "Count": 4,
           "CardName": "Fabled Passage"
         },
         {
           "Count": 4,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 2,
+          "CardName": "Hydroid Krasis"
+        },
+        {
+          "Count": 2,
+          "CardName": "Island"
+        },
+        {
+          "Count": 2,
+          "CardName": "Mystical Dispute"
+        },
+        {
+          "Count": 3,
+          "CardName": "Narset, Parter of Veils"
+        },
+        {
+          "Count": 2,
+          "CardName": "Negate"
+        },
+        {
+          "Count": 4,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 4,
+          "CardName": "Opt"
+        },
+        {
+          "Count": 4,
           "CardName": "Overgrown Tomb"
+        },
+        {
+          "Count": 3,
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 1,
+          "CardName": "Swamp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Tamiyo, Collector of Tales"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
         },
         {
           "Count": 4,
@@ -1860,56 +1888,12 @@
         {
           "Count": 4,
           "CardName": "Zagoth Triome"
-        },
-        {
-          "Count": 4,
-          "CardName": "Opt"
-        },
-        {
-          "Count": 3,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 2,
-          "CardName": "Hydroid Krasis"
-        },
-        {
-          "Count": 2,
-          "CardName": "Negate"
-        },
-        {
-          "Count": 2,
-          "CardName": "Mystical Dispute"
-        },
-        {
-          "Count": 1,
-          "CardName": "Tamiyo, Collector of Tales"
-        },
-        {
-          "Count": 2,
-          "CardName": "Island"
-        },
-        {
-          "Count": 1,
-          "CardName": "Swamp"
-        },
-        {
-          "Count": 4,
-          "CardName": "Forest"
         }
       ],
       "Sideboard": [
         {
-          "Count": 2,
-          "CardName": "Ritual of Soot"
-        },
-        {
-          "Count": 2,
-          "CardName": "Thought Distortion"
-        },
-        {
-          "Count": 4,
-          "CardName": "Heartless Act"
+          "Count": 1,
+          "CardName": "Commence the Endgame"
         },
         {
           "Count": 2,
@@ -1920,16 +1904,24 @@
           "CardName": "Extinction Event"
         },
         {
-          "Count": 1,
-          "CardName": "Shark Typhoon"
+          "Count": 4,
+          "CardName": "Heartless Act"
         },
         {
           "Count": 1,
           "CardName": "Mystical Dispute"
         },
         {
+          "Count": 2,
+          "CardName": "Ritual of Soot"
+        },
+        {
           "Count": 1,
-          "CardName": "Commence the Endgame"
+          "CardName": "Shark Typhoon"
+        },
+        {
+          "Count": 2,
+          "CardName": "Thought Distortion"
         }
       ]
     },
@@ -1944,12 +1936,12 @@
           "CardName": "Castle Locthwain"
         },
         {
-          "Count": 20,
-          "CardName": "Swamp"
+          "Count": 3,
+          "CardName": "Demonic Embrace"
         },
         {
           "Count": 4,
-          "CardName": "Knight of the Ebon Legion"
+          "CardName": "Duress"
         },
         {
           "Count": 2,
@@ -1960,10 +1952,6 @@
           "CardName": "Gutterbones"
         },
         {
-          "Count": 4,
-          "CardName": "Duress"
-        },
-        {
           "Count": 2,
           "CardName": "Heartless Act"
         },
@@ -1972,16 +1960,16 @@
           "CardName": "Kitesail Freebooter"
         },
         {
-          "Count": 2,
-          "CardName": "Tymaret, Chosen from Death"
-        },
-        {
-          "Count": 3,
-          "CardName": "Demonic Embrace"
+          "Count": 4,
+          "CardName": "Knight of the Ebon Legion"
         },
         {
           "Count": 3,
           "CardName": "Murderous Rider"
+        },
+        {
+          "Count": 2,
+          "CardName": "Rankle, Master of Pranks"
         },
         {
           "Count": 4,
@@ -1992,23 +1980,15 @@
           "CardName": "Spawn of Mayhem"
         },
         {
+          "Count": 20,
+          "CardName": "Swamp"
+        },
+        {
           "Count": 2,
-          "CardName": "Rankle, Master of Pranks"
+          "CardName": "Tymaret, Chosen from Death"
         }
       ],
       "Sideboard": [
-        {
-          "Count": 1,
-          "CardName": "Shadowspear"
-        },
-        {
-          "Count": 2,
-          "CardName": "Necromentia"
-        },
-        {
-          "Count": 4,
-          "CardName": "Noxious Grasp"
-        },
         {
           "Count": 4,
           "CardName": "Agonizing Remorse"
@@ -2020,6 +2000,18 @@
         {
           "Count": 2,
           "CardName": "Extinction Event"
+        },
+        {
+          "Count": 2,
+          "CardName": "Necromentia"
+        },
+        {
+          "Count": 4,
+          "CardName": "Noxious Grasp"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadowspear"
         }
       ]
     },
@@ -2031,55 +2023,11 @@
       "Mainboard": [
         {
           "Count": 4,
-          "CardName": "Merfolk Secretkeeper"
-        },
-        {
-          "Count": 7,
-          "CardName": "Forest"
-        },
-        {
-          "Count": 4,
-          "CardName": "Edgewall Innkeeper"
-        },
-        {
-          "Count": 7,
-          "CardName": "Island"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lucky Clover"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fae of Wishes"
-        },
-        {
-          "Count": 4,
-          "CardName": "Uro, Titan of Nature's Wrath"
-        },
-        {
-          "Count": 4,
-          "CardName": "Lovestruck Beast"
+          "CardName": "Beanstalk Giant"
         },
         {
           "Count": 4,
           "CardName": "Brazen Borrower"
-        },
-        {
-          "Count": 4,
-          "CardName": "Beanstalk Giant"
-        },
-        {
-          "Count": 1,
-          "CardName": "The Great Henge"
-        },
-        {
-          "Count": 4,
-          "CardName": "Fabled Passage"
-        },
-        {
-          "Count": 4,
-          "CardName": "Temple of Mystery"
         },
         {
           "Count": 4,
@@ -2088,20 +2036,56 @@
         {
           "Count": 1,
           "CardName": "Castle Vantress"
+        },
+        {
+          "Count": 4,
+          "CardName": "Edgewall Innkeeper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fabled Passage"
+        },
+        {
+          "Count": 4,
+          "CardName": "Fae of Wishes"
+        },
+        {
+          "Count": 7,
+          "CardName": "Forest"
+        },
+        {
+          "Count": 7,
+          "CardName": "Island"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lovestruck Beast"
+        },
+        {
+          "Count": 4,
+          "CardName": "Lucky Clover"
+        },
+        {
+          "Count": 4,
+          "CardName": "Merfolk Secretkeeper"
+        },
+        {
+          "Count": 4,
+          "CardName": "Temple of Mystery"
+        },
+        {
+          "Count": 1,
+          "CardName": "The Great Henge"
+        },
+        {
+          "Count": 4,
+          "CardName": "Uro, Titan of Nature's Wrath"
         }
       ],
       "Sideboard": [
         {
           "Count": 1,
-          "CardName": "Primal Might"
-        },
-        {
-          "Count": 1,
-          "CardName": "Narset, Parter of Veils"
-        },
-        {
-          "Count": 1,
-          "CardName": "Ram Through"
+          "CardName": "Mass Manipulation"
         },
         {
           "Count": 1,
@@ -2109,23 +2093,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Unsummon"
-        },
-        {
-          "Count": 1,
           "CardName": "Mystic Repeal"
         },
         {
           "Count": 1,
-          "CardName": "Shadowspear"
-        },
-        {
-          "Count": 1,
-          "CardName": "Return to Nature"
-        },
-        {
-          "Count": 1,
-          "CardName": "Sorcerous Spyglass"
+          "CardName": "Narset, Parter of Veils"
         },
         {
           "Count": 1,
@@ -2133,11 +2105,31 @@
         },
         {
           "Count": 1,
+          "CardName": "Nissa, Who Shakes the World"
+        },
+        {
+          "Count": 1,
           "CardName": "Once and Future"
         },
         {
           "Count": 1,
-          "CardName": "Ugin, the Spirit Dragon"
+          "CardName": "Primal Might"
+        },
+        {
+          "Count": 1,
+          "CardName": "Ram Through"
+        },
+        {
+          "Count": 1,
+          "CardName": "Return to Nature"
+        },
+        {
+          "Count": 1,
+          "CardName": "Shadowspear"
+        },
+        {
+          "Count": 1,
+          "CardName": "Sorcerous Spyglass"
         },
         {
           "Count": 1,
@@ -2145,11 +2137,11 @@
         },
         {
           "Count": 1,
-          "CardName": "Nissa, Who Shakes the World"
+          "CardName": "Ugin, the Spirit Dragon"
         },
         {
           "Count": 1,
-          "CardName": "Mass Manipulation"
+          "CardName": "Unsummon"
         }
       ]
     }
@@ -2381,6 +2373,9 @@
       "Rank": 1,
       "Player": "Allan Araujo Gontijo",
       "Points": 12,
+      "Wins": 4,
+      "Losses": 1,
+      "Draws": 0,
       "OMWP": 0.68,
       "GWP": 0.6153846154,
       "OGWP": 0.6378787879
@@ -2389,6 +2384,9 @@
       "Rank": 2,
       "Player": "Humberto Casagrande",
       "Points": 12,
+      "Wins": 4,
+      "Losses": 1,
+      "Draws": 0,
       "OMWP": 0.6266666667,
       "GWP": 0.75,
       "OGWP": 0.5715617716
@@ -2397,6 +2395,9 @@
       "Rank": 3,
       "Player": "Thiago Almeida",
       "Points": 12,
+      "Wins": 4,
+      "Losses": 1,
+      "Draws": 0,
       "OMWP": 0.5466666667,
       "GWP": 0.8181818182,
       "OGWP": 0.53
@@ -2405,6 +2406,9 @@
       "Rank": 4,
       "Player": "Guilherme Diniz",
       "Points": 12,
+      "Wins": 4,
+      "Losses": 1,
+      "Draws": 0,
       "OMWP": 0.5066666667,
       "GWP": 0.7272727273,
       "OGWP": 0.5121678322
@@ -2413,6 +2417,9 @@
       "Rank": 5,
       "Player": "Paulo César Palhares Lima",
       "Points": 9,
+      "Wins": 3,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.5866666667,
       "GWP": 0.5833333333,
       "OGWP": 0.5567987568
@@ -2421,6 +2428,9 @@
       "Rank": 6,
       "Player": "Mahers",
       "Points": 9,
+      "Wins": 3,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.5866666667,
       "GWP": 0.5454545455,
       "OGWP": 0.5732323232
@@ -2429,6 +2439,9 @@
       "Rank": 7,
       "Player": "Heliel Freitas",
       "Points": 9,
+      "Wins": 3,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.5333333333,
       "GWP": 0.5833333333,
       "OGWP": 0.5123543123
@@ -2437,6 +2450,9 @@
       "Rank": 8,
       "Player": "MURILO MARQUEZ DE OLIVEIRA FILHO",
       "Points": 9,
+      "Wins": 3,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.5333333333,
       "GWP": 0.5454545455,
       "OGWP": 0.5397435897
@@ -2445,6 +2461,9 @@
       "Rank": 9,
       "Player": "Joao Victor Pontes",
       "Points": 9,
+      "Wins": 3,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.4533333333,
       "GWP": 0.5555555556,
       "OGWP": 0.4390909091
@@ -2453,6 +2472,9 @@
       "Rank": 10,
       "Player": "Traherts",
       "Points": 6,
+      "Wins": 2,
+      "Losses": 3,
+      "Draws": 0,
       "OMWP": 0.5866666667,
       "GWP": 0.4,
       "OGWP": 0.5791763792
@@ -2461,6 +2483,9 @@
       "Rank": 11,
       "Player": "Ricardo Mueller",
       "Points": 6,
+      "Wins": 2,
+      "Losses": 3,
+      "Draws": 0,
       "OMWP": 0.5466666667,
       "GWP": 0.5,
       "OGWP": 0.5226107226
@@ -2469,6 +2494,9 @@
       "Rank": 12,
       "Player": "Alexandre Spinola",
       "Points": 6,
+      "Wins": 2,
+      "Losses": 3,
+      "Draws": 0,
       "OMWP": 0.4666666667,
       "GWP": 0.4615384615,
       "OGWP": 0.48
@@ -2477,6 +2505,9 @@
       "Rank": 13,
       "Player": "Italo Rizzon",
       "Points": 3,
+      "Wins": 1,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.5777777778,
       "GWP": 0.5,
       "OGWP": 0.5353535354
@@ -2485,6 +2516,9 @@
       "Rank": 14,
       "Player": "5926dd03-1bf9-4197-9243-cd21fd9b1f2b",
       "Points": 3,
+      "Wins": 1,
+      "Losses": 4,
+      "Draws": 0,
       "OMWP": 0.55,
       "GWP": 0.3333333333,
       "OGWP": 0.5210858586
@@ -2493,6 +2527,9 @@
       "Rank": 15,
       "Player": "Alexander Jackson",
       "Points": 0,
+      "Wins": 0,
+      "Losses": 1,
+      "Draws": 0,
       "OMWP": 0.8,
       "GWP": 0.3333333333,
       "OGWP": 0.8181818182
@@ -2501,6 +2538,9 @@
       "Rank": 16,
       "Player": "Sergio Pinazo",
       "Points": 0,
+      "Wins": 0,
+      "Losses": 1,
+      "Draws": 0,
       "OMWP": 0.6,
       "GWP": 0.3333333333,
       "OGWP": 0.5454545455
@@ -2509,6 +2549,9 @@
       "Rank": 17,
       "Player": "Vilmar Silva",
       "Points": 0,
+      "Wins": 0,
+      "Losses": 2,
+      "Draws": 0,
       "OMWP": 0.5666666667,
       "GWP": 0.3333333333,
       "OGWP": 0.625
@@ -2517,6 +2560,9 @@
       "Rank": 18,
       "Player": "Henrique Domingues",
       "Points": 0,
+      "Wins": 0,
+      "Losses": 5,
+      "Draws": 0,
       "OMWP": 0.52,
       "GWP": 0.3333333333,
       "OGWP": 0.5367521367
