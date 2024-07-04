@@ -1,5 +1,5 @@
 # MTGODecklistCache
-This repository contains a cache in JSON format of tournaments posted on [MTGO](https://www.mtgo.com/decklists), [Manatraders](https://www.manatraders.com/tournaments/2) and [Melee](https://melee.gg/Decklists) Websites
+This repository contains a cache in JSON format of tournaments posted on [MTGO](https://www.mtgo.com/decklists), [Manatraders](https://www.manatraders.com/tournaments/2), [Melee](https://melee.gg/Decklists) and [Topdeck](https://topdeck.gg) Websites
 
 * Tournaments -> Tournament repository, organized by website and date
 * Tournaments-Archive -> Tournament repository archive (for sources no longer being updated or maintained), organized by website and date
