@@ -1,3 +1,6 @@
+> [!NOTE]
+> This project is no longer being actively maintained. The scraper will continue running until changes to the source websites break it, but it's recommended that you look for alternative data sources if you're working with MTG data.
+
 # MTGODecklistCache
 This repository contains a cache in JSON format of tournaments posted on [MTGO](https://www.mtgo.com/decklists), [Manatraders](https://www.manatraders.com/tournaments/2), [Melee](https://melee.gg/Decklists) and [Topdeck](https://topdeck.gg) Websites
 
