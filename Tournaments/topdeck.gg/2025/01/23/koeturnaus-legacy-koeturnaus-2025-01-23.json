@@ -1,0 +1,81 @@
+{
+  "Tournament": {
+    "Date": "2025-01-23T21:00:00Z",
+    "Name": "Koeturnaus",
+    "Uri": "https://topdeck.gg/event/koeturnaus"
+  },
+  "Decks": [
+    {
+      "Date": "2025-01-23T21:00:00Z",
+      "Player": "Jaakko Vuorinen",
+      "Result": "1st Place",
+      "AnchorUri": "https://www.moxfield.com/decks/ArhGY81H8kSpB0bCA0n_ig",
+      "Mainboard": [
+        {
+          "Count": 4,
+          "CardName": "Psychic Frog"
+        }
+      ],
+      "Sideboard": []
+    },
+    {
+      "Date": "2025-01-23T21:00:00Z",
+      "Player": "Erkka Jouste",
+      "Result": "2nd Place",
+      "AnchorUri": "https://www.moxfield.com/decks/iTRnS9BAPEe0LxUtiIDdiw",
+      "Mainboard": [
+        {
+          "Count": 60,
+          "CardName": "Plains"
+        }
+      ],
+      "Sideboard": []
+    }
+  ],
+  "Rounds": [
+    {
+      "RoundName": "Top Random",
+      "Matches": [
+        {
+          "Player1": "Jaakko Vuorinen",
+          "Player2": "Erkka Jouste",
+          "Result": "0-0-1"
+        }
+      ]
+    },
+    {
+      "RoundName": "2",
+      "Matches": [
+        {
+          "Player1": "Jaakko Vuorinen",
+          "Player2": "Erkka Jouste",
+          "Result": "1-0-0"
+        }
+      ]
+    }
+  ],
+  "Standings": [
+    {
+      "Rank": 1,
+      "Player": "Jaakko Vuorinen",
+      "Points": 0,
+      "Wins": 1,
+      "Losses": 0,
+      "Draws": 1,
+      "OMWP": 0.33,
+      "GWP": 0.6,
+      "OGWP": 0.4
+    },
+    {
+      "Rank": 2,
+      "Player": "Erkka Jouste",
+      "Points": 0,
+      "Wins": 0,
+      "Losses": 1,
+      "Draws": 1,
+      "OMWP": 0.6666666666666666,
+      "GWP": 0.4,
+      "OGWP": 0.6
+    }
+  ]
+}
