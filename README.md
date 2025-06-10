@@ -7,6 +7,9 @@
 > [!NOTE]
 > 2025-03-20 update: manatraders.com scraper disabled since they're no longer running tournaments.
 
+> [!NOTE]
+> 2025-06-10 update: mtgo.com scraper is no longer working, so this project will be officially shut down. 
+
 # MTGODecklistCache
 This repository contains a cache in JSON format of tournaments posted on [MTGO](https://www.mtgo.com/decklists), [Manatraders](https://www.manatraders.com/tournaments/2), [Melee](https://melee.gg/Decklists) and [Topdeck](https://topdeck.gg) Websites
 
